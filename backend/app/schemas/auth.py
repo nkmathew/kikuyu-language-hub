@@ -1,4 +1,5 @@
 from pydantic import BaseModel, EmailStr
+from typing import Optional, Dict, Any
 
 
 class LoginRequest(BaseModel):
@@ -14,3 +15,4 @@ class SignupRequest(BaseModel):
 class Token(BaseModel):
     access_token: str
     token_type: str = "bearer"
+    user: Optional[Dict[str, Any]] = None

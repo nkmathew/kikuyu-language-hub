@@ -24,6 +24,12 @@ def signup(user_data: SignupRequest, db: Session = Depends(get_db)):
     return user
 
 
+@router.post("/register", response_model=UserResponse)
+def register(user_data: SignupRequest, db: Session = Depends(get_db)):
+    # Alias for signup - same functionality
+    return signup(user_data, db)
+
+
 @router.post("/login", response_model=Token)
 def login(user_data: LoginRequest, db: Session = Depends(get_db)):
     user = AuthService.authenticate_user(db, user_data.email, user_data.password)
@@ -35,7 +41,16 @@ def login(user_data: LoginRequest, db: Session = Depends(get_db)):
         )
     
     access_token = AuthService.create_access_token(data={"sub": user.email})
-    return {"access_token": access_token, "token_type": "bearer"}
+    # Include user info in response for frontend
+    return {
+        "access_token": access_token, 
+        "token_type": "bearer",
+        "user": {
+            "id": user.id,
+            "email": user.email,
+            "role": user.role.value if hasattr(user.role, 'value') else str(user.role)
+        }
+    }
 
 
 @router.get("/me", response_model=UserResponse)

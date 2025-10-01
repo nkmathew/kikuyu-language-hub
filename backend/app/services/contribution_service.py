@@ -12,6 +12,7 @@ class ContributionService:
             source_text=contribution_data.source_text,
             target_text=contribution_data.target_text,
             language=contribution_data.language,
+            context=contribution_data.context,
             created_by_id=user.id
         )
         db.add(db_contribution)
@@ -53,3 +54,34 @@ class ContributionService:
             db.commit()
             db.refresh(contribution)
         return contribution
+    
+    @staticmethod
+    def update_contribution(
+        db: Session, 
+        contribution_id: int, 
+        update_data: ContributionUpdate
+    ) -> Optional[Contribution]:
+        contribution = db.query(Contribution).filter(Contribution.id == contribution_id).first()
+        if contribution:
+            # Update only provided fields
+            if update_data.source_text is not None:
+                contribution.source_text = update_data.source_text
+            if update_data.target_text is not None:
+                contribution.target_text = update_data.target_text
+            if update_data.language is not None:
+                contribution.language = update_data.language
+            if update_data.context is not None:
+                contribution.context = update_data.context
+            
+            db.commit()
+            db.refresh(contribution)
+        return contribution
+    
+    @staticmethod
+    def delete_contribution(db: Session, contribution_id: int) -> bool:
+        contribution = db.query(Contribution).filter(Contribution.id == contribution_id).first()
+        if contribution:
+            db.delete(contribution)
+            db.commit()
+            return True
+        return False
