@@ -16,6 +16,9 @@ dependencies = [
   "pydantic[email]==2.9.2",
   "python-jose==3.3.0",
   "passlib[bcrypt]==1.7.4",
+  "python-slugify==8.0.1",
+  "google-auth==2.29.0",
+  "google-auth-oauthlib==1.2.0",
 ]
 
 [project.optional-dependencies]

@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .core.config import settings
 from .api.routes import auth_router, contributions_router, export_router
+from .api.routes.categories import router as categories_router
+from .api.routes.sub_translations import router as sub_translations_router
 
 
 def create_app() -> FastAPI:
@@ -24,6 +26,8 @@ def create_app() -> FastAPI:
     # Include API routes
     app.include_router(auth_router, prefix=settings.api_v1_prefix)
     app.include_router(contributions_router, prefix=settings.api_v1_prefix)
+    app.include_router(categories_router, prefix=settings.api_v1_prefix)
+    app.include_router(sub_translations_router, prefix=settings.api_v1_prefix)
     app.include_router(export_router, prefix=settings.api_v1_prefix)
 
     @app.get(f"{settings.api_v1_prefix}/health")
