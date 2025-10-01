@@ -12,6 +12,7 @@ def create_app() -> FastAPI:
         allow_origins=[
             settings.frontend_origin,
             "http://localhost:3000",
+            "http://localhost:3001",
             "http://localhost:10001",
         ],
         allow_credentials=True,

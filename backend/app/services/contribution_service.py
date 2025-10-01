@@ -12,7 +12,6 @@ class ContributionService:
             source_text=contribution_data.source_text,
             target_text=contribution_data.target_text,
             language=contribution_data.language,
-            context=contribution_data.context,
             created_by_id=user.id
         )
         db.add(db_contribution)
@@ -70,8 +69,6 @@ class ContributionService:
                 contribution.target_text = update_data.target_text
             if update_data.language is not None:
                 contribution.language = update_data.language
-            if update_data.context is not None:
-                contribution.context = update_data.context
             
             db.commit()
             db.refresh(contribution)
