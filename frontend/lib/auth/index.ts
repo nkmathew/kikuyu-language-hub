@@ -1,16 +1,68 @@
+import { apiPost, apiGet, getToken, setToken, removeToken } from '../api/client';
+import { LoginRequest, SignupRequest, Token, User } from '../types';
+
+// Legacy token functions (keeping for compatibility)
 export function getAccessToken(): string | null {
-  if (typeof window === 'undefined') return null;
-  return localStorage.getItem('access_token');
+  return getToken();
 }
 
 export function setAccessToken(token: string) {
-  if (typeof window === 'undefined') return;
-  localStorage.setItem('access_token', token);
+  setToken(token);
 }
 
 export function clearAccessToken() {
-  if (typeof window === 'undefined') return;
-  localStorage.removeItem('access_token');
+  removeToken();
+}
+
+// Auth API functions
+export async function login(credentials: LoginRequest): Promise<Token> {
+  const token = await apiPost<Token>('/auth/login', credentials);
+  setToken(token.access_token);
+  return token;
+}
+
+export async function signup(userData: SignupRequest): Promise<User> {
+  return apiPost<User>('/auth/signup', userData);
+}
+
+export async function logout(): Promise<void> {
+  removeToken();
+  if (typeof window !== 'undefined') {
+    window.location.href = '/login';
+  }
+}
+
+export async function getCurrentUser(): Promise<User | null> {
+  const token = getToken();
+  if (!token) return null;
+  
+  try {
+    return await apiGet<User>('/auth/me');
+  } catch (error) {
+    removeToken();
+    return null;
+  }
+}
+
+export function isAuthenticated(): boolean {
+  return getToken() !== null;
+}
+
+export function hasRole(user: User | null, roles: string[]): boolean {
+  if (!user) return false;
+  return roles.includes(user.role);
+}
+
+export function isAdmin(user: User | null): boolean {
+  return hasRole(user, ['admin']);
+}
+
+export function isModerator(user: User | null): boolean {
+  return hasRole(user, ['admin', 'moderator']);
+}
+
+export function isContributor(user: User | null): boolean {
+  return hasRole(user, ['admin', 'moderator', 'contributor']);
 }
 
 
