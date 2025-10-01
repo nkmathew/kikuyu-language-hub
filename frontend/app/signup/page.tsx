@@ -44,54 +44,44 @@ export default function SignupPage() {
 
   if (success) {
     return (
-      <div style={{ 
+      <div className="container" style={{ 
         minHeight: '100vh', 
         display: 'flex', 
         alignItems: 'center', 
-        justifyContent: 'center',
-        padding: '1rem',
-        fontFamily: 'system-ui, sans-serif'
+        justifyContent: 'center'
       }}>
-        <div style={{
+        <div className="card" style={{
           width: '100%',
           maxWidth: '400px',
-          padding: '2rem',
-          border: '1px solid #10b981',
-          borderRadius: '8px',
-          backgroundColor: '#ecfdf5',
+          backgroundColor: 'var(--muted)',
+          border: '1px solid var(--primary)',
           textAlign: 'center'
         }}>
-          <h1 style={{ color: '#059669', marginBottom: '1rem' }}>Success!</h1>
-          <p>Your account has been created. Redirecting to login...</p>
+          <h1 style={{ color: 'var(--primary)', marginBottom: '1rem' }}>Success!</h1>
+          <p style={{ color: 'var(--foreground)' }}>Your account has been created. Redirecting to login...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div style={{ 
+    <div className="container" style={{ 
       minHeight: '100vh', 
       display: 'flex', 
       alignItems: 'center', 
-      justifyContent: 'center',
-      padding: '1rem',
-      fontFamily: 'system-ui, sans-serif'
+      justifyContent: 'center'
     }}>
-      <div style={{
+      <div className="card" style={{
         width: '100%',
-        maxWidth: '400px',
-        padding: '2rem',
-        border: '1px solid #e5e5e5',
-        borderRadius: '8px',
-        backgroundColor: 'white'
+        maxWidth: '400px'
       }}>
-        <h1 style={{ textAlign: 'center', marginBottom: '2rem' }}>
+        <h1 style={{ textAlign: 'center', marginBottom: '2rem', color: 'var(--primary)' }}>
           Sign up for Kikuyu Language Hub
         </h1>
 
         <form onSubmit={handleSubmit}>
-          <div style={{ marginBottom: '1rem' }}>
-            <label htmlFor="email" style={{ display: 'block', marginBottom: '0.5rem' }}>
+          <div className="form-group">
+            <label htmlFor="email" className="form-label">
               Email
             </label>
             <input
@@ -100,18 +90,12 @@ export default function SignupPage() {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
-              style={{
-                width: '100%',
-                padding: '0.75rem',
-                border: '1px solid #d1d5db',
-                borderRadius: '4px',
-                fontSize: '1rem'
-              }}
+              className="form-input"
             />
           </div>
 
-          <div style={{ marginBottom: '1rem' }}>
-            <label htmlFor="password" style={{ display: 'block', marginBottom: '0.5rem' }}>
+          <div className="form-group">
+            <label htmlFor="password" className="form-label">
               Password
             </label>
             <input
@@ -121,18 +105,12 @@ export default function SignupPage() {
               onChange={(e) => setPassword(e.target.value)}
               required
               minLength={6}
-              style={{
-                width: '100%',
-                padding: '0.75rem',
-                border: '1px solid #d1d5db',
-                borderRadius: '4px',
-                fontSize: '1rem'
-              }}
+              className="form-input"
             />
           </div>
 
-          <div style={{ marginBottom: '1.5rem' }}>
-            <label htmlFor="confirmPassword" style={{ display: 'block', marginBottom: '0.5rem' }}>
+          <div className="form-group">
+            <label htmlFor="confirmPassword" className="form-label">
               Confirm Password
             </label>
             <input
@@ -141,25 +119,12 @@ export default function SignupPage() {
               value={confirmPassword}
               onChange={(e) => setConfirmPassword(e.target.value)}
               required
-              style={{
-                width: '100%',
-                padding: '0.75rem',
-                border: '1px solid #d1d5db',
-                borderRadius: '4px',
-                fontSize: '1rem'
-              }}
+              className="form-input"
             />
           </div>
 
           {error && (
-            <div style={{
-              padding: '0.75rem',
-              marginBottom: '1rem',
-              backgroundColor: '#fee2e2',
-              border: '1px solid #fecaca',
-              borderRadius: '4px',
-              color: '#dc2626'
-            }}>
+            <div className="alert alert-error">
               {error}
             </div>
           )}
@@ -167,25 +132,19 @@ export default function SignupPage() {
           <button
             type="submit"
             disabled={loading}
+            className="btn btn-primary"
             style={{
-              width: '100%',
-              padding: '0.75rem',
-              backgroundColor: loading ? '#9ca3af' : '#10b981',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              fontSize: '1rem',
-              cursor: loading ? 'not-allowed' : 'pointer'
+              width: '100%'
             }}
           >
             {loading ? 'Creating account...' : 'Sign up'}
           </button>
         </form>
 
-        <div style={{ textAlign: 'center', marginTop: '1.5rem' }}>
+        <div style={{ textAlign: 'center', marginTop: '1.5rem', color: 'var(--muted-foreground)' }}>
           <p>
             Already have an account?{' '}
-            <a href="/login" style={{ color: '#3b82f6', textDecoration: 'none' }}>
+            <a href="/login" style={{ color: 'var(--primary)', textDecoration: 'none' }}>
               Login
             </a>
           </p>

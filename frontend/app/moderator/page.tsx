@@ -16,8 +16,8 @@ export default function ModeratorPage() {
 
   if (authLoading) {
     return (
-      <div style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
-        <p>Loading...</p>
+      <div className="container" style={{ padding: '2rem' }}>
+        <p style={{ color: 'var(--foreground)' }}>Loading...</p>
       </div>
     );
   }
@@ -29,14 +29,13 @@ export default function ModeratorPage() {
 
   if (!isModerator(user)) {
     return (
-      <div style={{ 
+      <div className="container" style={{ 
         padding: '2rem', 
-        fontFamily: 'system-ui, sans-serif',
         textAlign: 'center'
       }}>
-        <h1>Access Denied</h1>
-        <p>You don't have permission to access this page.</p>
-        <a href="/dashboard" style={{ color: '#3b82f6' }}>← Back to Dashboard</a>
+        <h1 style={{ color: 'var(--destructive)' }}>Access Denied</h1>
+        <p style={{ color: 'var(--muted-foreground)' }}>You don't have permission to access this page.</p>
+        <a href="/dashboard" style={{ color: 'var(--primary)', textDecoration: 'none' }}>← Back to Dashboard</a>
       </div>
     );
   }
@@ -74,52 +73,41 @@ export default function ModeratorPage() {
   };
 
   return (
-    <div style={{ 
+    <div className="container" style={{ 
       padding: '2rem', 
-      fontFamily: 'system-ui, sans-serif',
       maxWidth: '1200px',
       margin: '0 auto'
     }}>
-      <header style={{ 
+      <header className="nav" style={{ 
         marginBottom: '2rem',
-        paddingBottom: '1rem',
-        borderBottom: '1px solid #e5e5e5'
+        paddingBottom: '1rem'
       }}>
         <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>⚖️ Moderation Queue</h1>
-        <p style={{ color: '#6b7280' }}>
+        <p style={{ color: 'var(--muted-foreground)' }}>
           Review and approve pending translation submissions
         </p>
       </header>
 
       {loading && (
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
+        <div style={{ textAlign: 'center', padding: '2rem', color: 'var(--foreground)' }}>
           <p>Loading pending contributions...</p>
         </div>
       )}
 
       {error && (
-        <div style={{
-          padding: '1rem',
-          backgroundColor: '#fee2e2',
-          border: '1px solid #fecaca',
-          borderRadius: '4px',
-          color: '#dc2626',
-          marginBottom: '2rem'
-        }}>
+        <div className="alert alert-error" style={{ marginBottom: '2rem' }}>
           Error: {error}
         </div>
       )}
 
       {!loading && !error && contributions.length === 0 && (
-        <div style={{
+        <div className="card" style={{
           textAlign: 'center',
           padding: '3rem',
-          backgroundColor: '#f9fafb',
-          borderRadius: '8px',
-          border: '1px solid #e5e5e5'
+          backgroundColor: 'var(--muted)'
         }}>
-          <h3 style={{ marginBottom: '1rem' }}>🎉 All caught up!</h3>
-          <p style={{ color: '#6b7280' }}>
+          <h3 style={{ marginBottom: '1rem', color: 'var(--foreground)' }}>🎉 All caught up!</h3>
+          <p style={{ color: 'var(--muted-foreground)' }}>
             No pending contributions to review at the moment.
           </p>
         </div>
@@ -127,32 +115,19 @@ export default function ModeratorPage() {
 
       {!loading && !error && contributions.length > 0 && (
         <div>
-          <div style={{ 
-            marginBottom: '1.5rem',
-            padding: '1rem',
-            backgroundColor: '#f0f9ff',
-            border: '1px solid #e0f2fe',
-            borderRadius: '4px'
+          <div className="alert alert-info" style={{ 
+            marginBottom: '1.5rem'
           }}>
-            <p style={{ margin: 0, color: '#0369a1' }}>
+            <p style={{ margin: 0, color: 'var(--foreground)' }}>
               📋 <strong>{contributions.length}</strong> contribution{contributions.length !== 1 ? 's' : ''} pending review
             </p>
           </div>
 
-          <div style={{
-            display: 'grid',
-            gap: '1.5rem'
-          }}>
+          <div className="grid grid-cols-1" style={{ gap: '1.5rem' }}>
             {contributions.map((contribution) => (
               <div
                 key={contribution.id}
-                style={{
-                  padding: '1.5rem',
-                  backgroundColor: 'white',
-                  border: '1px solid #e5e5e5',
-                  borderRadius: '8px',
-                  boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
-                }}
+                className="card"
               >
                 <div style={{ 
                   display: 'flex', 
@@ -164,38 +139,26 @@ export default function ModeratorPage() {
                     <h3 style={{ 
                       fontSize: '1.1rem', 
                       marginBottom: '0.5rem',
-                      color: '#111827'
+                      color: 'var(--foreground)'
                     }}>
                       Translation #{contribution.id}
                     </h3>
-                    <div style={{ fontSize: '0.9rem', color: '#6b7280' }}>
+                    <div style={{ fontSize: '0.9rem', color: 'var(--muted-foreground)' }}>
                       Submitted: {new Date(contribution.created_at).toLocaleDateString()}
                       <br />
                       By: {contribution.created_by?.email || 'Unknown user'}
                     </div>
                   </div>
-                  <span style={{
-                    padding: '0.25rem 0.75rem',
-                    backgroundColor: '#fef3c7',
-                    color: '#f59e0b',
-                    borderRadius: '1rem',
-                    fontSize: '0.8rem',
-                    fontWeight: '500'
-                  }}>
+                  <span className="badge badge-pending">
                     ⏳ PENDING
                   </span>
                 </div>
 
-                <div style={{
-                  display: 'grid',
-                  gridTemplateColumns: '1fr 1fr',
-                  gap: '1rem',
-                  marginBottom: '1.5rem'
-                }}>
+                <div className="grid grid-cols-2" style={{ marginBottom: '1.5rem' }}>
                   <div>
                     <div style={{ 
                       fontSize: '0.8rem', 
-                      color: '#6b7280', 
+                      color: 'var(--muted-foreground)', 
                       marginBottom: '0.5rem',
                       textTransform: 'uppercase',
                       fontWeight: '500'
@@ -204,9 +167,9 @@ export default function ModeratorPage() {
                     </div>
                     <div style={{
                       padding: '1rem',
-                      backgroundColor: '#f9fafb',
-                      borderRadius: '4px',
-                      border: '1px solid #e5e5e5',
+                      backgroundColor: 'var(--muted)',
+                      borderRadius: 'var(--radius)',
+                      border: '1px solid var(--border)',
                       minHeight: '80px'
                     }}>
                       {contribution.source_text}
@@ -215,7 +178,7 @@ export default function ModeratorPage() {
                   <div>
                     <div style={{ 
                       fontSize: '0.8rem', 
-                      color: '#6b7280', 
+                      color: 'var(--muted-foreground)', 
                       marginBottom: '0.5rem',
                       textTransform: 'uppercase',
                       fontWeight: '500'
@@ -224,9 +187,9 @@ export default function ModeratorPage() {
                     </div>
                     <div style={{
                       padding: '1rem',
-                      backgroundColor: '#f9fafb',
-                      borderRadius: '4px',
-                      border: '1px solid #e5e5e5',
+                      backgroundColor: 'var(--muted)',
+                      borderRadius: 'var(--radius)',
+                      border: '1px solid var(--border)',
                       minHeight: '80px'
                     }}>
                       {contribution.target_text}
@@ -242,30 +205,14 @@ export default function ModeratorPage() {
                   <button
                     onClick={() => openRejectModal(contribution.id)}
                     disabled={actionLoading === contribution.id}
-                    style={{
-                      padding: '0.75rem 1.5rem',
-                      backgroundColor: actionLoading === contribution.id ? '#fca5a5' : '#dc2626',
-                      color: 'white',
-                      border: 'none',
-                      borderRadius: '4px',
-                      fontSize: '1rem',
-                      cursor: actionLoading === contribution.id ? 'not-allowed' : 'pointer'
-                    }}
+                    className="btn btn-destructive"
                   >
                     {actionLoading === contribution.id ? 'Processing...' : '❌ Reject'}
                   </button>
                   <button
                     onClick={() => handleApprove(contribution.id)}
                     disabled={actionLoading === contribution.id}
-                    style={{
-                      padding: '0.75rem 1.5rem',
-                      backgroundColor: actionLoading === contribution.id ? '#a7f3d0' : '#10b981',
-                      color: 'white',
-                      border: 'none',
-                      borderRadius: '4px',
-                      fontSize: '1rem',
-                      cursor: actionLoading === contribution.id ? 'not-allowed' : 'pointer'
-                    }}
+                    className="btn btn-primary"
                   >
                     {actionLoading === contribution.id ? 'Processing...' : '✅ Approve'}
                   </button>
@@ -284,49 +231,38 @@ export default function ModeratorPage() {
           left: 0,
           right: 0,
           bottom: 0,
-          backgroundColor: 'rgba(0, 0, 0, 0.5)',
+          backgroundColor: 'rgba(0, 0, 0, 0.8)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           zIndex: 1000
         }}>
-          <div style={{
-            backgroundColor: 'white',
-            padding: '2rem',
-            borderRadius: '8px',
+          <div className="card" style={{
             width: '100%',
             maxWidth: '500px',
             margin: '1rem'
           }}>
-            <h3 style={{ marginBottom: '1rem' }}>Reject Translation</h3>
-            <p style={{ marginBottom: '1rem', color: '#6b7280' }}>
+            <h3 style={{ marginBottom: '1rem', color: 'var(--foreground)' }}>Reject Translation</h3>
+            <p style={{ marginBottom: '1rem', color: 'var(--muted-foreground)' }}>
               Please provide a reason for rejecting this translation. This will help the contributor understand what needs to be improved.
             </p>
             <textarea
               value={rejectReason}
               onChange={(e) => setRejectReason(e.target.value)}
               placeholder="Enter rejection reason..."
+              className="form-textarea"
               style={{
-                width: '100%',
-                minHeight: '100px',
-                padding: '0.75rem',
-                border: '1px solid #d1d5db',
-                borderRadius: '4px',
-                fontSize: '1rem',
-                marginBottom: '1rem',
-                resize: 'vertical'
+                marginBottom: '1rem'
               }}
             />
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-end' }}>
               <button
                 onClick={closeRejectModal}
+                className="btn btn-secondary"
                 style={{
-                  padding: '0.75rem 1.5rem',
-                  backgroundColor: '#f3f4f6',
-                  color: '#374151',
-                  border: '1px solid #d1d5db',
-                  borderRadius: '4px',
-                  cursor: 'pointer'
+                  backgroundColor: 'var(--secondary)',
+                  color: 'var(--secondary-foreground)',
+                  borderColor: 'var(--border)'
                 }}
               >
                 Cancel
@@ -334,14 +270,7 @@ export default function ModeratorPage() {
               <button
                 onClick={() => handleReject(showRejectModal)}
                 disabled={actionLoading === showRejectModal}
-                style={{
-                  padding: '0.75rem 1.5rem',
-                  backgroundColor: actionLoading === showRejectModal ? '#fca5a5' : '#dc2626',
-                  color: 'white',
-                  border: 'none',
-                  borderRadius: '4px',
-                  cursor: actionLoading === showRejectModal ? 'not-allowed' : 'pointer'
-                }}
+                className="btn btn-destructive"
               >
                 {actionLoading === showRejectModal ? 'Rejecting...' : 'Confirm Reject'}
               </button>
@@ -354,9 +283,9 @@ export default function ModeratorPage() {
         marginTop: '2rem', 
         textAlign: 'center',
         paddingTop: '2rem',
-        borderTop: '1px solid #e5e5e5'
+        borderTop: '1px solid var(--border)'
       }}>
-        <a href="/dashboard" style={{ color: '#6b7280', textDecoration: 'none' }}>
+        <a href="/dashboard" style={{ color: 'var(--muted-foreground)', textDecoration: 'none' }}>
           ← Back to Dashboard
         </a>
       </div>

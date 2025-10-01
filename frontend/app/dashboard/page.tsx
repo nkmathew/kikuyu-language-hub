@@ -22,8 +22,8 @@ export default function DashboardPage() {
 
   if (loading) {
     return (
-      <div style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
-        <p>Loading...</p>
+      <div className="container" style={{ padding: '2rem' }}>
+        <p style={{ color: 'var(--foreground)' }}>Loading...</p>
       </div>
     );
   }
@@ -33,102 +33,73 @@ export default function DashboardPage() {
   }
 
   return (
-    <div style={{ 
+    <div className="container" style={{ 
       padding: '2rem', 
-      fontFamily: 'system-ui, sans-serif',
       maxWidth: '1200px',
       margin: '0 auto'
     }}>
-      <header style={{ 
-        display: 'flex', 
+      <header className="nav" style={{ 
         justifyContent: 'space-between', 
         alignItems: 'center', 
         marginBottom: '2rem',
-        paddingBottom: '1rem',
-        borderBottom: '1px solid #e5e5e5'
+        paddingBottom: '1rem'
       }}>
         <div>
           <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>Dashboard</h1>
-          <p style={{ color: '#6b7280' }}>Welcome back, {user.email}</p>
+          <p style={{ color: 'var(--muted-foreground)' }}>Welcome back, {user.email}</p>
         </div>
         <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          <span style={{
-            padding: '0.25rem 0.75rem',
-            backgroundColor: user.role === 'admin' ? '#dc2626' : user.role === 'moderator' ? '#f59e0b' : '#10b981',
-            color: 'white',
-            borderRadius: '1rem',
-            fontSize: '0.8rem',
-            textTransform: 'capitalize'
-          }}>
+          <span className={`badge ${
+            user.role === 'admin' ? 'badge-rejected' : 
+            user.role === 'moderator' ? 'badge-pending' : 
+            'badge-approved'
+          }`}>
             {user.role}
           </span>
           <button
             onClick={handleLogout}
-            style={{
-              padding: '0.5rem 1rem',
-              backgroundColor: '#dc2626',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer'
-            }}
+            className="btn btn-destructive"
           >
             Logout
           </button>
         </div>
       </header>
 
-      <div style={{ 
-        display: 'grid', 
-        gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+      <div className="grid grid-auto-fit" style={{ 
         gap: '2rem',
         marginBottom: '3rem'
       }}>
         {/* Contributor Features */}
-        <div style={{
-          padding: '1.5rem',
-          border: '1px solid #e5e5e5',
-          borderRadius: '8px',
-          backgroundColor: 'white'
-        }}>
-          <h3 style={{ marginBottom: '1rem', color: '#10b981' }}>📝 Contribute</h3>
-          <p style={{ marginBottom: '1.5rem', color: '#6b7280' }}>
+        <div className="card">
+          <h3 style={{ marginBottom: '1rem', color: 'var(--primary)' }}>📝 Contribute</h3>
+          <p style={{ marginBottom: '1.5rem', color: 'var(--muted-foreground)' }}>
             Submit new Kikuyu-English translations
           </p>
           <a
             href="/contributions/new"
+            className="btn btn-primary"
             style={{
               display: 'inline-block',
-              padding: '0.75rem 1.5rem',
-              backgroundColor: '#10b981',
-              color: 'white',
-              textDecoration: 'none',
-              borderRadius: '4px'
+              textDecoration: 'none'
             }}
           >
             Submit Translation
           </a>
         </div>
 
-        <div style={{
-          padding: '1.5rem',
-          border: '1px solid #e5e5e5',
-          borderRadius: '8px',
-          backgroundColor: 'white'
-        }}>
-          <h3 style={{ marginBottom: '1rem', color: '#3b82f6' }}>📋 My Contributions</h3>
-          <p style={{ marginBottom: '1.5rem', color: '#6b7280' }}>
+        <div className="card">
+          <h3 style={{ marginBottom: '1rem', color: 'var(--accent-foreground)' }}>📋 My Contributions</h3>
+          <p style={{ marginBottom: '1.5rem', color: 'var(--muted-foreground)' }}>
             View and manage your translation submissions
           </p>
           <a
             href="/contributions"
+            className="btn btn-secondary"
             style={{
               display: 'inline-block',
-              padding: '0.75rem 1.5rem',
-              backgroundColor: '#3b82f6',
-              color: 'white',
               textDecoration: 'none',
-              borderRadius: '4px'
+              backgroundColor: 'var(--accent)',
+              color: 'var(--accent-foreground)'
             }}
           >
             View Contributions
@@ -137,25 +108,22 @@ export default function DashboardPage() {
 
         {/* Moderator Features */}
         {isModerator(user) && (
-          <div style={{
-            padding: '1.5rem',
-            border: '1px solid #f59e0b',
-            borderRadius: '8px',
-            backgroundColor: '#fffbeb'
+          <div className="card" style={{
+            backgroundColor: 'var(--muted)',
+            borderColor: 'var(--accent)'
           }}>
-            <h3 style={{ marginBottom: '1rem', color: '#f59e0b' }}>⚖️ Moderation</h3>
-            <p style={{ marginBottom: '1.5rem', color: '#6b7280' }}>
+            <h3 style={{ marginBottom: '1rem', color: 'var(--accent-foreground)' }}>⚖️ Moderation</h3>
+            <p style={{ marginBottom: '1.5rem', color: 'var(--muted-foreground)' }}>
               Review pending translations
             </p>
             <a
               href="/moderator"
+              className="btn btn-secondary"
               style={{
                 display: 'inline-block',
-                padding: '0.75rem 1.5rem',
-                backgroundColor: '#f59e0b',
-                color: 'white',
                 textDecoration: 'none',
-                borderRadius: '4px'
+                backgroundColor: 'var(--accent)',
+                color: 'var(--accent-foreground)'
               }}
             >
               Review Queue
@@ -165,41 +133,35 @@ export default function DashboardPage() {
 
         {/* Admin Features */}
         {isAdmin(user) && (
-          <div style={{
-            padding: '1.5rem',
-            border: '1px solid #dc2626',
-            borderRadius: '8px',
-            backgroundColor: '#fef2f2'
+          <div className="card" style={{
+            backgroundColor: 'var(--muted)',
+            borderColor: 'var(--destructive)'
           }}>
-            <h3 style={{ marginBottom: '1rem', color: '#dc2626' }}>⚙️ Admin</h3>
-            <p style={{ marginBottom: '1.5rem', color: '#6b7280' }}>
+            <h3 style={{ marginBottom: '1rem', color: 'var(--destructive)' }}>⚙️ Admin</h3>
+            <p style={{ marginBottom: '1.5rem', color: 'var(--muted-foreground)' }}>
               System administration and user management
             </p>
             <div style={{ display: 'flex', gap: '0.5rem' }}>
               <a
                 href="/admin/users"
+                className="btn btn-destructive"
                 style={{
                   display: 'inline-block',
-                  padding: '0.5rem 1rem',
-                  backgroundColor: '#dc2626',
-                  color: 'white',
                   textDecoration: 'none',
-                  borderRadius: '4px',
-                  fontSize: '0.9rem'
+                  fontSize: '0.9rem',
+                  padding: '0.5rem 1rem'
                 }}
               >
                 Users
               </a>
               <a
                 href="/admin/audit"
+                className="btn btn-destructive"
                 style={{
                   display: 'inline-block',
-                  padding: '0.5rem 1rem',
-                  backgroundColor: '#dc2626',
-                  color: 'white',
                   textDecoration: 'none',
-                  borderRadius: '4px',
-                  fontSize: '0.9rem'
+                  fontSize: '0.9rem',
+                  padding: '0.5rem 1rem'
                 }}
               >
                 Audit Log
@@ -210,29 +172,22 @@ export default function DashboardPage() {
       </div>
 
       {/* Quick Stats */}
-      <div style={{
-        padding: '1.5rem',
-        border: '1px solid #e5e5e5',
-        borderRadius: '8px',
-        backgroundColor: '#f9fafb'
+      <div className="card" style={{
+        backgroundColor: 'var(--muted)'
       }}>
         <h3 style={{ marginBottom: '1rem' }}>📊 Platform Statistics</h3>
-        <div style={{ 
-          display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-          gap: '1rem'
-        }}>
+        <div className="grid grid-auto-fit" style={{ gap: '1rem' }}>
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#10b981' }}>-</div>
-            <div style={{ color: '#6b7280' }}>Total Translations</div>
+            <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--primary)' }}>-</div>
+            <div style={{ color: 'var(--muted-foreground)' }}>Total Translations</div>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#3b82f6' }}>-</div>
-            <div style={{ color: '#6b7280' }}>Pending Review</div>
+            <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent-foreground)' }}>-</div>
+            <div style={{ color: 'var(--muted-foreground)' }}>Pending Review</div>
           </div>
           <div style={{ textAlign: 'center' }}>
-            <div style={{ fontSize: '2rem', fontWeight: 'bold', color: '#f59e0b' }}>-</div>
-            <div style={{ color: '#6b7280' }}>Active Contributors</div>
+            <div style={{ fontSize: '2rem', fontWeight: 'bold', color: 'var(--accent)' }}>-</div>
+            <div style={{ color: 'var(--muted-foreground)' }}>Active Contributors</div>
           </div>
         </div>
       </div>
@@ -242,9 +197,9 @@ export default function DashboardPage() {
         marginTop: '2rem', 
         textAlign: 'center',
         paddingTop: '2rem',
-        borderTop: '1px solid #e5e5e5'
+        borderTop: '1px solid var(--border)'
       }}>
-        <a href="/" style={{ color: '#6b7280', textDecoration: 'none' }}>
+        <a href="/" style={{ color: 'var(--muted-foreground)', textDecoration: 'none' }}>
           ← Back to Home
         </a>
       </div>

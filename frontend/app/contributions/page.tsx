@@ -14,8 +14,8 @@ export default function ContributionsPage() {
 
   if (authLoading) {
     return (
-      <div style={{ padding: '2rem', fontFamily: 'system-ui, sans-serif' }}>
-        <p>Loading...</p>
+      <div className="container" style={{ padding: '2rem' }}>
+        <p style={{ color: 'var(--foreground)' }}>Loading...</p>
       </div>
     );
   }
@@ -27,10 +27,10 @@ export default function ContributionsPage() {
 
   const getStatusColor = (status: ContributionStatus) => {
     switch (status) {
-      case 'approved': return '#10b981';
-      case 'rejected': return '#dc2626';
-      case 'pending': return '#f59e0b';
-      default: return '#6b7280';
+      case 'approved': return 'var(--primary)';
+      case 'rejected': return 'var(--destructive)';
+      case 'pending': return 'var(--accent)';
+      default: return 'var(--muted-foreground)';
     }
   };
 
@@ -44,34 +44,27 @@ export default function ContributionsPage() {
   };
 
   return (
-    <div style={{ 
+    <div className="container" style={{ 
       padding: '2rem', 
-      fontFamily: 'system-ui, sans-serif',
       maxWidth: '1200px',
       margin: '0 auto'
     }}>
-      <header style={{ 
-        display: 'flex', 
+      <header className="nav" style={{ 
         justifyContent: 'space-between', 
         alignItems: 'center', 
         marginBottom: '2rem',
-        paddingBottom: '1rem',
-        borderBottom: '1px solid #e5e5e5'
+        paddingBottom: '1rem'
       }}>
         <div>
           <h1 style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>My Contributions</h1>
-          <p style={{ color: '#6b7280' }}>View and manage your translation submissions</p>
+          <p style={{ color: 'var(--muted-foreground)' }}>View and manage your translation submissions</p>
         </div>
         <a
           href="/contributions/new"
+          className="btn btn-primary"
           style={{
             display: 'inline-block',
-            padding: '0.75rem 1.5rem',
-            backgroundColor: '#10b981',
-            color: 'white',
-            textDecoration: 'none',
-            borderRadius: '4px',
-            fontSize: '1rem'
+            textDecoration: 'none'
           }}
         >
           + New Translation
@@ -79,19 +72,18 @@ export default function ContributionsPage() {
       </header>
 
       <div style={{ marginBottom: '2rem' }}>
-        <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
-          <label htmlFor="statusFilter" style={{ fontWeight: '500' }}>
+        <div className="grid grid-cols-1" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+          <label htmlFor="statusFilter" className="form-label" style={{ fontWeight: '500', margin: 0 }}>
             Filter by status:
           </label>
           <select
             id="statusFilter"
             value={statusFilter}
             onChange={(e) => setStatusFilter(e.target.value as ContributionStatus | '')}
+            className="form-input"
             style={{
               padding: '0.5rem',
-              border: '1px solid #d1d5db',
-              borderRadius: '4px',
-              fontSize: '1rem'
+              width: 'auto'
             }}
           >
             <option value="">All</option>
@@ -101,13 +93,10 @@ export default function ContributionsPage() {
           </select>
           <button
             onClick={refetch}
+            className="btn btn-secondary"
             style={{
-              padding: '0.5rem 1rem',
-              backgroundColor: '#3b82f6',
-              color: 'white',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer'
+              backgroundColor: 'var(--accent)',
+              color: 'var(--accent-foreground)'
             }}
           >
             Refresh
@@ -116,34 +105,25 @@ export default function ContributionsPage() {
       </div>
 
       {loading && (
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
+        <div style={{ textAlign: 'center', padding: '2rem', color: 'var(--foreground)' }}>
           <p>Loading contributions...</p>
         </div>
       )}
 
       {error && (
-        <div style={{
-          padding: '1rem',
-          backgroundColor: '#fee2e2',
-          border: '1px solid #fecaca',
-          borderRadius: '4px',
-          color: '#dc2626',
-          marginBottom: '2rem'
-        }}>
+        <div className="alert alert-error" style={{ marginBottom: '2rem' }}>
           Error: {error}
         </div>
       )}
 
       {!loading && !error && contributions.length === 0 && (
-        <div style={{
+        <div className="card" style={{
           textAlign: 'center',
           padding: '3rem',
-          backgroundColor: '#f9fafb',
-          borderRadius: '8px',
-          border: '1px solid #e5e5e5'
+          backgroundColor: 'var(--muted)'
         }}>
-          <h3 style={{ marginBottom: '1rem' }}>No contributions found</h3>
-          <p style={{ color: '#6b7280', marginBottom: '1.5rem' }}>
+          <h3 style={{ marginBottom: '1rem', color: 'var(--foreground)' }}>No contributions found</h3>
+          <p style={{ color: 'var(--muted-foreground)', marginBottom: '1.5rem' }}>
             {statusFilter 
               ? `No contributions with status "${statusFilter}"` 
               : 'You haven\'t submitted any translations yet.'
@@ -151,13 +131,10 @@ export default function ContributionsPage() {
           </p>
           <a
             href="/contributions/new"
+            className="btn btn-primary"
             style={{
               display: 'inline-block',
-              padding: '0.75rem 1.5rem',
-              backgroundColor: '#10b981',
-              color: 'white',
-              textDecoration: 'none',
-              borderRadius: '4px'
+              textDecoration: 'none'
             }}
           >
             Submit Your First Translation
@@ -166,19 +143,11 @@ export default function ContributionsPage() {
       )}
 
       {!loading && !error && contributions.length > 0 && (
-        <div style={{
-          display: 'grid',
-          gap: '1rem'
-        }}>
+        <div className="grid grid-cols-1" style={{ gap: '1rem' }}>
           {contributions.map((contribution) => (
             <div
               key={contribution.id}
-              style={{
-                padding: '1.5rem',
-                backgroundColor: 'white',
-                border: '1px solid #e5e5e5',
-                borderRadius: '8px'
-              }}
+              className="card"
             >
               <div style={{ 
                 display: 'flex', 
@@ -190,11 +159,11 @@ export default function ContributionsPage() {
                   <h3 style={{ 
                     fontSize: '1.1rem', 
                     marginBottom: '0.5rem',
-                    color: '#111827'
+                    color: 'var(--foreground)'
                   }}>
                     Translation #{contribution.id}
                   </h3>
-                  <div style={{ fontSize: '0.9rem', color: '#6b7280' }}>
+                  <div style={{ fontSize: '0.9rem', color: 'var(--muted-foreground)' }}>
                     Submitted: {new Date(contribution.created_at).toLocaleDateString()}
                     {contribution.updated_at !== contribution.created_at && (
                       <span> • Updated: {new Date(contribution.updated_at).toLocaleDateString()}</span>
@@ -216,16 +185,13 @@ export default function ContributionsPage() {
                 </span>
               </div>
 
-              <div style={{
-                display: 'grid',
-                gridTemplateColumns: '1fr 1fr',
-                gap: '1rem',
+              <div className="grid grid-cols-2" style={{
                 marginBottom: '1rem'
               }}>
                 <div>
                   <div style={{ 
                     fontSize: '0.8rem', 
-                    color: '#6b7280', 
+                    color: 'var(--muted-foreground)', 
                     marginBottom: '0.25rem',
                     textTransform: 'uppercase',
                     fontWeight: '500'
@@ -234,9 +200,9 @@ export default function ContributionsPage() {
                   </div>
                   <div style={{
                     padding: '0.75rem',
-                    backgroundColor: '#f9fafb',
-                    borderRadius: '4px',
-                    border: '1px solid #e5e5e5'
+                    backgroundColor: 'var(--muted)',
+                    borderRadius: 'var(--radius)',
+                    border: '1px solid var(--border)'
                   }}>
                     {contribution.source_text}
                   </div>
@@ -244,7 +210,7 @@ export default function ContributionsPage() {
                 <div>
                   <div style={{ 
                     fontSize: '0.8rem', 
-                    color: '#6b7280', 
+                    color: 'var(--muted-foreground)', 
                     marginBottom: '0.25rem',
                     textTransform: 'uppercase',
                     fontWeight: '500'
@@ -253,9 +219,9 @@ export default function ContributionsPage() {
                   </div>
                   <div style={{
                     padding: '0.75rem',
-                    backgroundColor: '#f9fafb',
-                    borderRadius: '4px',
-                    border: '1px solid #e5e5e5'
+                    backgroundColor: 'var(--muted)',
+                    borderRadius: 'var(--radius)',
+                    border: '1px solid var(--border)'
                   }}>
                     {contribution.target_text}
                   </div>
@@ -263,22 +229,15 @@ export default function ContributionsPage() {
               </div>
 
               {contribution.reason && (
-                <div style={{
-                  padding: '0.75rem',
-                  backgroundColor: '#fee2e2',
-                  border: '1px solid #fecaca',
-                  borderRadius: '4px',
-                  marginTop: '1rem'
-                }}>
+                <div className="alert alert-error" style={{ marginTop: '1rem' }}>
                   <div style={{ 
                     fontSize: '0.8rem', 
-                    color: '#dc2626', 
                     marginBottom: '0.25rem',
                     fontWeight: '500'
                   }}>
                     Moderator Note:
                   </div>
-                  <div style={{ color: '#dc2626' }}>
+                  <div>
                     {contribution.reason}
                   </div>
                 </div>
@@ -292,9 +251,9 @@ export default function ContributionsPage() {
         marginTop: '2rem', 
         textAlign: 'center',
         paddingTop: '2rem',
-        borderTop: '1px solid #e5e5e5'
+        borderTop: '1px solid var(--border)'
       }}>
-        <a href="/dashboard" style={{ color: '#6b7280', textDecoration: 'none' }}>
+        <a href="/dashboard" style={{ color: 'var(--muted-foreground)', textDecoration: 'none' }}>
           ← Back to Dashboard
         </a>
       </div>
