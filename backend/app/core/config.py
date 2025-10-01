@@ -13,12 +13,12 @@ class Settings(BaseSettings):
 
     # Database
     database_url: str = Field(
-        "postgresql+psycopg://postgres:postgres@db:5432/kikuyu",
+        "sqlite:///./kikuyu_language_hub.db",
         env="DATABASE_URL",
     )
 
     # CORS
-    frontend_origin: str = Field("http://localhost:3000", env="FRONTEND_ORIGIN")
+    frontend_origin: str = Field("http://localhost:10001", env="FRONTEND_ORIGIN")
 
     class Config:
         env_file = ".env"

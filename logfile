@@ -1,0 +1,2 @@
+2025-10-01 21:13:21.753 EAT [16664] FATAL:  lock file "postmaster.pid" already exists
+2025-10-01 21:13:21.753 EAT [16664] HINT:  Is another postmaster (PID 13716) running in data directory "C:/PostgresData"?

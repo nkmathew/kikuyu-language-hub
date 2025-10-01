@@ -7,7 +7,7 @@ from ..models.user import User, UserRole
 from ..schemas.auth import SignupRequest
 from ..core.config import settings
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
 
 
 class AuthService:

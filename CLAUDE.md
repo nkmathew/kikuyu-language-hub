@@ -326,10 +326,10 @@ const contributions = await apiClient.get('/contributions')
 docker compose -f infra/docker-compose.yml up -d
 
 # Backend development
-cd backend && uvicorn app.main:app --reload
+cd backend && uvicorn app.main:app --reload --host 0.0.0.0 --port 10000
 
 # Frontend development  
-cd frontend && npm run dev
+cd frontend && npm run dev -- --port 10001
 
 # Database reset
 cd backend && alembic downgrade base && alembic upgrade head && python -m app.seed
@@ -347,11 +347,11 @@ cd backend && black . && isort . && flake8 . && mypy .
 - **Database Config**: `backend/app/db/`
 
 ### Important URLs (Development)
-- **Frontend**: http://localhost:3000
-- **Backend API**: http://localhost:8000
-- **API Documentation**: http://localhost:8000/docs
-- **Health Check**: http://localhost:8000/api/v1/health
-- **Export Endpoint**: http://localhost:8000/api/v1/export/translations.json
+- **Frontend**: http://localhost:10001
+- **Backend API**: http://localhost:10000
+- **API Documentation**: http://localhost:10000/docs
+- **Health Check**: http://localhost:10000/api/v1/health
+- **Export Endpoint**: http://localhost:10000/api/v1/export/translations.json
 
 ### Useful Debugging Commands
 ```bash
