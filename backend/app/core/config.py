@@ -1,11 +1,15 @@
-from pydantic import BaseSettings, Field
+from pydantic_settings import BaseSettings
+from pydantic import Field
 
 
 class Settings(BaseSettings):
     app_name: str = "Kikuyu Language Hub API"
     api_v1_prefix: str = "/api/v1"
-    secret_key: str = Field("changeme", env="SECRET_KEY")
-    access_token_expires_minutes: int = 60 * 24
+    
+    # JWT
+    SECRET_KEY: str = Field("changeme", env="SECRET_KEY")
+    ALGORITHM: str = "HS256"
+    ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24
 
     # Database
     database_url: str = Field(
