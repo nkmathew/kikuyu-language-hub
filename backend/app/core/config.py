@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     )
 
     # CORS
-    frontend_origin: str = Field("http://localhost:10001", env="FRONTEND_ORIGIN")
+    frontend_origin: str = Field("http://localhost:3000", env="FRONTEND_ORIGIN")
 
     class Config:
         env_file = ".env"

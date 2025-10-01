@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     capable: true,
     statusBarStyle: "default",
     title: "KikuyuHub",
-    startupImage: "/icon-512x512.png",
+    startupImage: "/icon-512x512.svg",
   },
   formatDetection: {
     telephone: false,
@@ -48,7 +48,7 @@ export default function RootLayout({
     <html lang="en" className={inter.variable}>
       <head>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="apple-touch-icon" href="/icon-192x192.svg" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#10b981" />
       </head>
       <body className={inter.className}>{children}</body>
