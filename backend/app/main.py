@@ -7,6 +7,7 @@ from .api.routes.sub_translations import router as sub_translations_router
 from .api.routes.nlp import router as nlp_router
 from .api.routes.qa import router as qa_router
 from .api.routes.content_rating import router as content_rating_router
+from .api.routes.morphology import router as morphology_router
 
 
 def create_app() -> FastAPI:
@@ -34,6 +35,7 @@ def create_app() -> FastAPI:
     app.include_router(nlp_router, prefix=settings.api_v1_prefix)
     app.include_router(qa_router, prefix=settings.api_v1_prefix)
     app.include_router(content_rating_router, prefix=settings.api_v1_prefix)
+    app.include_router(morphology_router, prefix=settings.api_v1_prefix)
     app.include_router(export_router, prefix=settings.api_v1_prefix)
 
     @app.get(f"{settings.api_v1_prefix}/health")
