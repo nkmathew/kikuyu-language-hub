@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useAuth } from '../../hooks/useAuth';
+import { useAuth } from '../../lib/hooks/useAuth';
 import { useContributions } from '../../hooks/useContributions';
 
 interface NewContributionPageProps {

@@ -1,6 +1,6 @@
 'use client';
 
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../lib/hooks/useAuth';
 import { isAdmin, isModerator } from '../lib/auth';
 
 interface HomePageProps {

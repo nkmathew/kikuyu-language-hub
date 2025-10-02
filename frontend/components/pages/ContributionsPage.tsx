@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { useAuth } from '../../hooks/useAuth';
-import { useContributions } from '../../hooks/useContributions';
+import { useAuth } from '../../lib/hooks/useAuth';
+import { useContributions } from '../../lib/hooks/useContributions';
 import { ContributionStatus } from '../../lib/types';
 
 interface ContributionsPageProps {

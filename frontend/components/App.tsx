@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useAuth } from '../hooks/useAuth';
+import { useAuth } from '../lib/hooks/useAuth';
 import Navigation from '../components/Navigation';
 import HomePage from '../components/pages/HomePage';
 import LoginPage from '../components/pages/LoginPage';
