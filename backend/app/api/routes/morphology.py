@@ -14,23 +14,23 @@ from ...models.morphology import (
     MorphologicalSubmission, MorphologicalPattern, WordClass
 )
 from ...schemas.morphology import (
-    VerbCreate, VerbUpdate, Verb, VerbDetail, VerbListResponse,
-    VerbConjugationCreate, VerbConjugationUpdate, VerbConjugation,
-    VerbExampleCreate, VerbExampleUpdate, VerbExample,
-    MorphologicalSubmissionCreate, MorphologicalSubmissionUpdate, MorphologicalSubmission,
+    VerbCreate, VerbUpdate, Verb as VerbSchema, VerbDetail, VerbListResponse,
+    VerbConjugationCreate, VerbConjugationUpdate, VerbConjugation as VerbConjugationSchema,
+    VerbExampleCreate, VerbExampleUpdate, VerbExample as VerbExampleSchema,
+    MorphologicalSubmissionCreate, MorphologicalSubmissionUpdate, MorphologicalSubmission as MorphologicalSubmissionSchema,
     VerbSearch, ConjugationSearch, MorphologicalSubmissionResponse,
     VerbExport, MorphologyExport
 )
 from ...services.morphology_service import MorphologyService
 from ...services.nlp_service import NLPService
-from ...core.cache import cache_manager
-from ...utils.pagination import PaginationParams, paginate
+from ...core.cache import cache
+from ...utils.pagination import PaginatedResponse
 
 router = APIRouter(prefix="/morphology", tags=["morphology"])
 
 
 # Verb endpoints
-@router.post("/verbs", response_model=Verb, status_code=201)
+@router.post("/verbs", response_model=VerbSchema, status_code=201)
 def create_verb(
     verb_data: VerbCreate,
     current_user: User = Depends(get_current_user),
@@ -54,7 +54,7 @@ def list_verbs(
     """List verbs with optional filtering and pagination"""
     cache_key = f"verbs:list:{search}:{verb_class}:{semantic_field}:{is_transitive}:{has_conjugations}:{limit}:{offset}"
     
-    cached_result = cache_manager.get(cache_key)
+    cached_result = cache.get(cache_key)
     if cached_result:
         return cached_result
     
@@ -87,8 +87,17 @@ def list_verbs(
     total = query.count()
     verbs = query.offset(offset).limit(limit).all()
     
-    result = paginate_response(verbs, total, limit, offset, VerbListResponse)
-    cache_manager.set(cache_key, result, ttl=300)  # 5 minutes
+    page = offset // limit + 1
+    result = VerbListResponse(
+        verbs=verbs,
+        total=total,
+        page=page,
+        limit=limit,
+        total_pages=(total + limit - 1) // limit,
+        has_next=offset + limit < total,
+        has_previous=offset > 0
+    )
+    cache.set(cache_key, result, ttl=300)  # 5 minutes
     
     return result
 
@@ -103,7 +112,7 @@ def get_verb(
     """Get detailed verb information"""
     cache_key = f"verb:detail:{verb_id}:{include_conjugations}:{include_examples}"
     
-    cached_result = cache_manager.get(cache_key)
+    cached_result = cache.get(cache_key)
     if cached_result:
         return cached_result
     
@@ -122,12 +131,12 @@ def get_verb(
         examples = db.query(VerbExample).filter(VerbExample.verb_id == verb_id).all()
         verb_dict["examples"] = [VerbExample.from_orm(e).dict() for e in examples]
     
-    cache_manager.set(cache_key, verb_dict, ttl=600)  # 10 minutes
+    cache.set(cache_key, verb_dict, ttl=600)  # 10 minutes
     
     return verb_dict
 
 
-@router.put("/verbs/{verb_id}", response_model=Verb)
+@router.put("/verbs/{verb_id}", response_model=VerbSchema)
 def update_verb(
     verb_id: int,
     verb_data: VerbUpdate,
@@ -157,12 +166,12 @@ def delete_verb(
     db.commit()
     
     # Clear related cache
-    cache_manager.delete_pattern(f"verb:detail:{verb_id}:*")
-    cache_manager.delete_pattern("verbs:list:*")
+    cache.delete_pattern(f"verb:detail:{verb_id}:*")
+    cache.delete_pattern("verbs:list:*")
 
 
 # Conjugation endpoints
-@router.get("/conjugations", response_model=List[VerbConjugation])
+@router.get("/conjugations", response_model=List[VerbConjugationSchema])
 def list_conjugations(
     verb_id: Optional[int] = Query(None, description="Filter by verb ID"),
     base_form: Optional[str] = Query(None, description="Filter by verb base form"),
@@ -180,7 +189,7 @@ def list_conjugations(
     """List verb conjugations with comprehensive filtering"""
     cache_key = f"conjugations:list:{verb_id}:{base_form}:{tense}:{aspect}:{mood}:{polarity}:{person}:{number}:{is_common}:{limit}:{offset}"
     
-    cached_result = cache_manager.get(cache_key)
+    cached_result = cache.get(cache_key)
     if cached_result:
         return cached_result
     
@@ -217,12 +226,12 @@ def list_conjugations(
     conjugations = query.offset(offset).limit(limit).all()
     
     result = [VerbConjugation.from_orm(c).dict() for c in conjugations]
-    cache_manager.set(cache_key, result, ttl=300)  # 5 minutes
+    cache.set(cache_key, result, ttl=300)  # 5 minutes
     
     return result
 
 
-@router.post("/conjugations", response_model=VerbConjugation, status_code=201)
+@router.post("/conjugations", response_model=VerbConjugationSchema, status_code=201)
 def create_conjugation(
     conjugation_data: VerbConjugationCreate,
     current_user: User = Depends(get_current_user),
@@ -272,7 +281,7 @@ def submit_morphology(
     )
 
 
-@router.get("/submissions", response_model=List[MorphologicalSubmission])
+@router.get("/submissions", response_model=List[MorphologicalSubmissionSchema])
 def list_submissions(
     status: Optional[str] = Query(None, description="Filter by status"),
     submission_type: Optional[str] = Query(None, description="Filter by submission type"),
@@ -357,7 +366,7 @@ def advanced_verb_search(
     """Advanced verb search with multiple criteria"""
     cache_key = f"verbs:advanced:{hash(str(search_params.dict()))}"
     
-    cached_result = cache_manager.get(cache_key)
+    cached_result = cache.get(cache_key)
     if cached_result:
         return cached_result
     
@@ -420,7 +429,7 @@ def advanced_verb_search(
     verbs = query.offset(search_params.offset).limit(search_params.limit).all()
     
     result = paginate_response(verbs, total, search_params.limit, search_params.offset, VerbListResponse)
-    cache_manager.set(cache_key, result, ttl=600)  # 10 minutes
+    cache.set(cache_key, result, ttl=600)  # 10 minutes
     
     return result
 
@@ -436,7 +445,7 @@ def get_conjugation_table(
     """Get conjugations in a structured table format (person/number grid)"""
     cache_key = f"verb:conjugation_table:{verb_id}:{tense}:{aspect}:{polarity}"
     
-    cached_result = cache_manager.get(cache_key)
+    cached_result = cache.get(cache_key)
     if cached_result:
         return cached_result
     
@@ -469,7 +478,7 @@ def get_conjugation_table(
         person_num = f"{conj.person}_{conj.number}"
         table["conjugations"][key][person_num] = VerbConjugation.from_orm(conj).dict()
     
-    cache_manager.set(cache_key, table, ttl=900)  # 15 minutes
+    cache.set(cache_key, table, ttl=900)  # 15 minutes
     
     return table
 
@@ -545,7 +554,7 @@ def get_verb_statistics(
     """Get statistics about the verb database"""
     cache_key = "verbs:statistics"
     
-    cached_result = cache_manager.get(cache_key)
+    cached_result = cache.get(cache_key)
     if cached_result:
         return cached_result
     
@@ -564,6 +573,6 @@ def get_verb_statistics(
         "recent_submissions": db.query(MorphologicalSubmission).filter(MorphologicalSubmission.status == "pending").count()
     }
     
-    cache_manager.set(cache_key, stats, ttl=3600)  # 1 hour
+    cache.set(cache_key, stats, ttl=3600)  # 1 hour
     
     return stats

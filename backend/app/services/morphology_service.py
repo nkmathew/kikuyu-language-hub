@@ -17,7 +17,7 @@ from app.schemas.morphology import (
     MorphologicalSubmissionCreate, VerbValidation
 )
 from app.services.nlp_service import NLPService
-from app.core.cache import cache_manager
+from app.core.cache import cache
 
 logger = logging.getLogger(__name__)
 
@@ -418,8 +418,8 @@ class MorphologyService:
                 db.commit()
                 
                 # Clear cache
-                cache_manager.delete_pattern("verbs:*")
-                cache_manager.delete_pattern("morphology:*")
+                cache.delete_pattern("verbs:*")
+                cache.delete_pattern("morphology:*")
                 
                 logger.info(f"Approved submission for verb '{submission.base_form}' - created verb ID {verb.id}")
                 
@@ -564,6 +564,102 @@ class MorphologyService:
         except Exception as e:
             logger.error(f"Error generating conjugation exercise: {e}")
             return {"error": "Failed to generate exercise"}
+    
+    @staticmethod
+    def get_verbs(
+        db: Session, 
+        skip: int = 0, 
+        limit: int = 50,
+        word_class_id: Optional[int] = None,
+        verb_class: Optional[str] = None,
+        is_transitive: Optional[bool] = None,
+        semantic_field: Optional[str] = None,
+        search: Optional[str] = None
+    ) -> List[Verb]:
+        """Get verbs with optional filtering"""
+        try:
+            query = db.query(Verb)
+            
+            # Apply filters
+            if word_class_id:
+                query = query.filter(Verb.word_class_id == word_class_id)
+            
+            if verb_class:
+                query = query.filter(Verb.verb_class == verb_class)
+            
+            if is_transitive is not None:
+                query = query.filter(Verb.is_transitive == is_transitive)
+            
+            if semantic_field:
+                query = query.filter(Verb.semantic_field == semantic_field)
+            
+            if search:
+                search_pattern = f"%{search}%"
+                query = query.filter(
+                    or_(
+                        Verb.base_form.ilike(search_pattern),
+                        Verb.english_meaning.ilike(search_pattern)
+                    )
+                )
+            
+            # Apply ordering and pagination
+            verbs = query.order_by(Verb.base_form).offset(skip).limit(limit).all()
+            
+            return verbs
+            
+        except Exception as e:
+            logger.error(f"Error getting verbs: {e}")
+            return []
+    
+    @staticmethod
+    def get_verb_count(
+        db: Session,
+        word_class_id: Optional[int] = None,
+        verb_class: Optional[str] = None,
+        is_transitive: Optional[bool] = None,
+        semantic_field: Optional[str] = None,
+        search: Optional[str] = None
+    ) -> int:
+        """Get total count of verbs with optional filtering"""
+        try:
+            query = db.query(func.count(Verb.id))
+            
+            # Apply filters
+            if word_class_id:
+                query = query.filter(Verb.word_class_id == word_class_id)
+            
+            if verb_class:
+                query = query.filter(Verb.verb_class == verb_class)
+            
+            if is_transitive is not None:
+                query = query.filter(Verb.is_transitive == is_transitive)
+            
+            if semantic_field:
+                query = query.filter(Verb.semantic_field == semantic_field)
+            
+            if search:
+                search_pattern = f"%{search}%"
+                query = query.filter(
+                    or_(
+                        Verb.base_form.ilike(search_pattern),
+                        Verb.english_meaning.ilike(search_pattern)
+                    )
+                )
+            
+            return query.scalar()
+            
+        except Exception as e:
+            logger.error(f"Error getting verb count: {e}")
+            return 0
+    
+    @staticmethod
+    def get_verb_by_id(db: Session, verb_id: int) -> Optional[Verb]:
+        """Get a specific verb by ID"""
+        try:
+            return db.query(Verb).filter(Verb.id == verb_id).first()
+        except Exception as e:
+            logger.error(f"Error getting verb by ID {verb_id}: {e}")
+            return None
     
     @staticmethod
     def _get_subject_hint(person: str, number: str) -> str:

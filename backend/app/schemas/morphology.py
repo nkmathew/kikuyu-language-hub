@@ -180,7 +180,7 @@ class VerbUpdate(BaseSchema):
 
 class Verb(VerbBase):
     id: int
-    created_at: datetime
+    created_at: Optional[datetime] = None
     updated_at: Optional[datetime] = None
 
 
