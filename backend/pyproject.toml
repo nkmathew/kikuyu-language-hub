@@ -19,6 +19,9 @@ dependencies = [
   "python-slugify==8.0.1",
   "google-auth==2.29.0",
   "google-auth-oauthlib==1.2.0",
+  "redis==5.0.1",
+  "celery==5.3.4",
+  "structlog==23.2.0",
 ]
 
 [project.optional-dependencies]

@@ -1,10 +1,7 @@
-from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from .connection import engine
 
-from app.core.config import settings
-
-
-engine = create_engine(settings.database_url, pool_pre_ping=True)
+# Use the optimized engine with connection pooling and performance monitoring
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 

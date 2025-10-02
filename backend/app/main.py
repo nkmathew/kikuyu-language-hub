@@ -4,6 +4,9 @@ from .core.config import settings
 from .api.routes import auth_router, contributions_router, export_router
 from .api.routes.categories import router as categories_router
 from .api.routes.sub_translations import router as sub_translations_router
+from .api.routes.nlp import router as nlp_router
+from .api.routes.qa import router as qa_router
+from .api.routes.content_rating import router as content_rating_router
 
 
 def create_app() -> FastAPI:
@@ -28,6 +31,9 @@ def create_app() -> FastAPI:
     app.include_router(contributions_router, prefix=settings.api_v1_prefix)
     app.include_router(categories_router, prefix=settings.api_v1_prefix)
     app.include_router(sub_translations_router, prefix=settings.api_v1_prefix)
+    app.include_router(nlp_router, prefix=settings.api_v1_prefix)
+    app.include_router(qa_router, prefix=settings.api_v1_prefix)
+    app.include_router(content_rating_router, prefix=settings.api_v1_prefix)
     app.include_router(export_router, prefix=settings.api_v1_prefix)
 
     @app.get(f"{settings.api_v1_prefix}/health")

@@ -6,6 +6,9 @@ class Settings(BaseSettings):
     app_name: str = "Kikuyu Language Hub API"
     api_v1_prefix: str = "/api/v1"
     
+    # Environment
+    debug: bool = Field(False, env="DEBUG")
+    
     # JWT
     SECRET_KEY: str = Field("changeme", env="SECRET_KEY")
     ALGORITHM: str = "HS256"
@@ -16,6 +19,9 @@ class Settings(BaseSettings):
         "sqlite:///./kikuyu_language_hub.db",
         env="DATABASE_URL",
     )
+    
+    # Redis
+    redis_url: str = Field("redis://localhost:6379/0", env="REDIS_URL")
 
     # CORS
     frontend_origin: str = Field("http://localhost:3000", env="FRONTEND_ORIGIN")

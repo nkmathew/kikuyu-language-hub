@@ -35,6 +35,7 @@ class User(Base):
     contributions = relationship("Contribution", back_populates="created_by")
     audit_logs = relationship("AuditLog", back_populates="moderator")
     analytics = relationship("UserAnalytics", back_populates="user", uselist=False)
+    content_filter = relationship("ContentFilter", back_populates="user", uselist=False)
     
     def __repr__(self):
         return f"<User(id={self.id}, email='{self.email}', role={self.role})>"

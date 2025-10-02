@@ -4,11 +4,13 @@ from sqlalchemy import func
 from ..models.category import Category
 from ..models.contribution import Contribution, contribution_categories
 from ..schemas.category import CategoryCreate, CategoryUpdate, CategoryHierarchy, CategoryStats
+from ..core.cache import cache, cached, CacheConfig, invalidate_cache_on_change, cache_manager
 from slugify import slugify
 
 
 class CategoryService:
     @staticmethod
+    @invalidate_cache_on_change(["categories:*", "category_hierarchy:*"])
     def create_category(db: Session, category_data: CategoryCreate) -> Category:
         # Auto-generate slug if not provided
         if not category_data.slug:
@@ -35,6 +37,7 @@ class CategoryService:
         return db_category
     
     @staticmethod
+    @cached(ttl=CacheConfig.CATEGORY_HIERARCHY_TTL, key_prefix="categories")
     def get_categories(
         db: Session,
         include_inactive: bool = False,
@@ -56,6 +59,7 @@ class CategoryService:
         return query.order_by(Category.sort_order, Category.name).offset(skip).limit(limit).all()
     
     @staticmethod
+    @cached(ttl=CacheConfig.CATEGORY_HIERARCHY_TTL, key_prefix="category_hierarchy")
     def get_category_hierarchy(db: Session, include_inactive: bool = False) -> List[CategoryHierarchy]:
         """Get flattened category hierarchy with contribution counts"""
         categories = CategoryService.get_categories(db, include_inactive=include_inactive, limit=1000)
@@ -92,6 +96,7 @@ class CategoryService:
         return hierarchy
     
     @staticmethod
+    @cached(ttl=CacheConfig.CATEGORY_HIERARCHY_TTL, key_prefix="category")
     def get_category_by_id(db: Session, category_id: int) -> Optional[Category]:
         return db.query(Category).options(
             joinedload(Category.parent),
@@ -99,10 +104,12 @@ class CategoryService:
         ).filter(Category.id == category_id).first()
     
     @staticmethod
+    @cached(ttl=CacheConfig.CATEGORY_HIERARCHY_TTL, key_prefix="category_slug")
     def get_category_by_slug(db: Session, slug: str) -> Optional[Category]:
         return db.query(Category).filter(Category.slug == slug).first()
     
     @staticmethod
+    @invalidate_cache_on_change(["categories:*", "category_hierarchy:*", "category:*", "category_slug:*"])
     def update_category(
         db: Session,
         category_id: int,
@@ -140,6 +147,7 @@ class CategoryService:
         return category
     
     @staticmethod
+    @invalidate_cache_on_change(["categories:*", "category_hierarchy:*", "category:*", "category_slug:*"])
     def delete_category(db: Session, category_id: int) -> bool:
         """Soft delete by setting is_active=False"""
         category = db.query(Category).filter(Category.id == category_id).first()
@@ -157,6 +165,7 @@ class CategoryService:
         return True
     
     @staticmethod
+    @cached(ttl=CacheConfig.ANALYTICS_TTL, key_prefix="category_stats")
     def get_category_stats(db: Session, category_id: int) -> Optional[CategoryStats]:
         """Get detailed statistics for a category"""
         category = db.query(Category).filter(Category.id == category_id).first()
@@ -212,6 +221,7 @@ class CategoryService:
         ).order_by(Category.name).limit(limit).all()
     
     @staticmethod
+    @invalidate_cache_on_change(["categories:*", "category_hierarchy:*"])
     def reorder_categories(db: Session, category_orders: List[dict]) -> bool:
         """Update sort order for multiple categories"""
         try:

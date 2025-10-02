@@ -3,10 +3,12 @@ from sqlalchemy.orm import Session
 from ..models.contribution import Contribution, ContributionStatus
 from ..models.user import User
 from ..schemas.contribution import ContributionCreate, ContributionUpdate
+from ..core.cache import cache, cached, CacheConfig, invalidate_cache_on_change, cache_manager
 
 
 class ContributionService:
     @staticmethod
+    @invalidate_cache_on_change(["contributions:*", "popular_translations:*", "export_data:*", "category_stats:*"])
     def create_contribution(db: Session, contribution_data: ContributionCreate, user: User) -> Contribution:
         db_contribution = Contribution(
             source_text=contribution_data.source_text,
@@ -20,6 +22,7 @@ class ContributionService:
         return db_contribution
     
     @staticmethod
+    @cached(ttl=CacheConfig.DEFAULT_TTL, key_prefix="contributions")
     def get_contributions(
         db: Session, 
         status: Optional[ContributionStatus] = None,
@@ -38,10 +41,12 @@ class ContributionService:
         return query.offset(skip).limit(limit).all()
     
     @staticmethod
+    @cached(ttl=CacheConfig.DEFAULT_TTL, key_prefix="contribution")
     def get_contribution_by_id(db: Session, contribution_id: int) -> Optional[Contribution]:
         return db.query(Contribution).filter(Contribution.id == contribution_id).first()
     
     @staticmethod
+    @invalidate_cache_on_change(["contributions:*", "contribution:*", "popular_translations:*", "export_data:*", "category_stats:*"])
     def update_contribution_status(
         db: Session, 
         contribution_id: int, 
@@ -55,6 +60,7 @@ class ContributionService:
         return contribution
     
     @staticmethod
+    @invalidate_cache_on_change(["contributions:*", "contribution:*", "popular_translations:*", "export_data:*", "category_stats:*"])
     def update_contribution(
         db: Session, 
         contribution_id: int, 
@@ -75,6 +81,7 @@ class ContributionService:
         return contribution
     
     @staticmethod
+    @invalidate_cache_on_change(["contributions:*", "contribution:*", "popular_translations:*", "export_data:*", "category_stats:*"])
     def delete_contribution(db: Session, contribution_id: int) -> bool:
         contribution = db.query(Contribution).filter(Contribution.id == contribution_id).first()
         if contribution:

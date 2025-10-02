@@ -9,6 +9,7 @@ from ...models.category import Category
 from ...services.contribution_service import ContributionService
 from ...schemas.contribution import ContributionExport
 from ...db.session import get_db
+from ...core.cache import cache, CacheConfig
 
 router = APIRouter(prefix="/export", tags=["export"])
 
@@ -16,6 +17,15 @@ router = APIRouter(prefix="/export", tags=["export"])
 @router.get("/translations.json")
 def export_translations_legacy(db: Session = Depends(get_db)):
     """Legacy export format for backward compatibility"""
+    # Check cache first
+    cache_key = "export_data:translations_legacy"
+    cached_result = cache.get(cache_key)
+    if cached_result:
+        return JSONResponse(content=cached_result, headers={
+            "Cache-Control": "public, max-age=3600",
+            "ETag": f'"{hash(str(sorted(cached_result["translations"].items())))}"'
+        })
+    
     # Get all approved contributions
     approved_contributions = ContributionService.get_contributions(
         db, status=ContributionStatus.APPROVED, limit=10000
@@ -32,6 +42,9 @@ def export_translations_legacy(db: Session = Depends(get_db)):
         "count": len(translations),
         "language": "kikuyu"
     }
+    
+    # Cache the result
+    cache.set(cache_key, response_data, CacheConfig.EXPORT_DATA_TTL)
     
     # Add caching headers
     headers = {
@@ -51,6 +64,12 @@ def export_for_flashcards(
     db: Session = Depends(get_db)
 ):
     """Export translations in flashcard app compatible format"""
+    # Generate cache key based on parameters
+    cache_key = f"export_data:flashcards:{category_id}:{difficulty}:{min_quality_score}:{include_sub_translations}"
+    cached_result = cache.get(cache_key)
+    if cached_result:
+        return cached_result
+    
     query = db.query(Contribution).options(
         joinedload(Contribution.categories),
         joinedload(Contribution.sub_translations)
@@ -114,6 +133,9 @@ def export_for_flashcards(
                 )
                 
                 flashcard_data.append(sub_flashcard)
+    
+    # Cache the result
+    cache.set(cache_key, flashcard_data, CacheConfig.EXPORT_DATA_TTL)
     
     return flashcard_data
 
