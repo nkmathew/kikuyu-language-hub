@@ -1,0 +1,233 @@
+
+	
+show
+You can help expand this article with text translated from the corresponding article in Portuguese. (2025) Click [show] for important translation instructions.
+Kikuyu
+Gĩgĩkũyũ
+Pronunciation	[ɣēkōjó]
+Native to	Kenya
+Region	Central Province
+Ethnicity	Agĩkũyũ
+Native speakers	6.6 million (2009 census)[1]
+Language family	
+Niger–Congo?
+Atlantic–Congo
+Volta–Congo
+Benue–Congo
+Bantoid
+Southern Bantoid
+Bantu
+Northeast Bantu
+Upland Bantu
+Thagiicu
+Kikuyu–Temi
+Kikuyu
+
+Dialects	
+Gichugu
+Mathira
+Ndia
+Northern Gikuyu
+Southern Gikuyu
+
+Writing system	
+Latin script
+Gicandi script
+
+Language codes
+ISO 639-1	ki
+ISO 639-2	kik
+ISO 639-3	kik
+Glottolog	kiku1240
+Guthrie code	E.51[2]
+This article contains IPA phonetic symbols. Without proper rendering support, you may see question marks, boxes, or other symbols instead of Unicode characters. For an introductory guide on IPA symbols, see Help:IPA.
+Person	MũGĩkũyũ
+People	AGĩkũyũ
+Language	GĩGĩkũyũ
+Country	Bũrũrĩ Wa Gĩkũyũ
+
+Kikuyu or Gikuyu (Gikuyu: Gĩkũyũ [ɣēkōjó]) (also known as Gĩgĩkũyũ) is a Bantu language spoken by the Gĩkũyũ (Agĩkũyũ) of Kenya. Kikuyu is mainly spoken in the area between Nyeri, Kiambu, Nairobi and Nakuru. The Kikuyu people usually identify their lands by the surrounding mountain ranges in Central Kenya, including Mount Kenya, which they call Kĩrĩmanyaga.
+
+Phonology[edit]
+
+Symbols shown in angle brackets replace the IPA symbols which are not in the orthography.
+
+Vowels[edit]
+	Front	Central	Back
+High	i		u
+Mid-high	e 〈ĩ〉		o 〈ũ〉
+Mid-low	ɛ 〈e〉		ɔ 〈o〉
+Low		a	
+Consonants[edit]
+	Bilabial	Dental/
+Alveolar	Palatal	Velar	Glottal
+Nasal	m	n	ɲ 〈ny〉	ŋ 〈ng'〉
+Plosive	voiceless		t		k	
+voiced prenasalised	ᵐb 〈mb〉	ⁿd 〈nd〉		ᵑɡ 〈ng〉	
+Affricate			ᶮdʒ 〈nj〉		
+Fricative	voiceless			ʃ 〈c〉		h
+voiced	β 〈b〉	ð 〈th〉		ɣ 〈g〉	
+Liquid		ɾ 〈r〉			
+Approximant			j 〈y〉	w	
+
+The prenasalised consonants are often pronounced without prenasalisation, and thus /ᵐb ⁿd ᶮdʒ ᵑɡ/ are often realised as [b d dʒ ɡ].
+
+Tones[edit]
+
+Kikuyu has two level tones (high and low), a low-high rising tone, and downstep.[3]
+
+Grammar[edit]
+
+Gĩkũyũ has subject–verb–object word order. It uses prepositions rather than postpositions.[4] Nouns are followed by possessive and demonstrative pronouns, which can coexist in that order, and subsequently adjectives, quantifiers, and numerals, which have no order among themselves.[5]
+
+Noun classes[edit]
+
+Gĩkũyũ has 17 noun classes.
+
+Class 1 (prefix mũ-) comprises animate/human nouns and is singular, while class 2 (prefix a-) comprises animate/human nouns but is plural. Kinship terms and some other words belong to these classes but take no prefixes.
+
+Class 3 (prefix mũ-) comprises nature/landscape words and others that are not semantically related, and is singular. Class 4 (prefix mĩ-) comprises the same words, but is plural.
+
+Class 5 (prefix rĩ- if stem is vowel initial, i- if consonant-initial) comprises plant/landscape words and others that do not fit the pattern, and is singular. Class 6 (prefix ma-) comprises the same words, but is plural. Occasionally, class 6 nouns have the prefix marĩ-, perhaps because the class 5 form is reanalyzed as the stem. Nouns of classes 1, 9, 11, 12, 14, and 15 can be pluralised with the class 6 form.
+
+Class 7 (prefix gĩ- if stem is t, k, c, or th initial, kĩ- otherwise) is an augmentative class with some inherent, not especially augmented members. Class 8 (prefix ci- if stem is vowel initial, i- if consonant initial) is the same, but plural. These classes' prefixes can be used to augment nouns of other classes.
+
+Class 9 comprises most animals, most loanwords, a few body parts, and semantically unrelated others. Class 10 is the same, but plural. Because words of these classes begin with nasal or unnasalisable consonants, and lose their nasality when marked with a different class prefix, the proposed prefix is nasalisation. This prefix cannot always be applied to loanwords.
+
+Class 11 (prefix rũ-) comprises long, thin, or string-like nouns, as well as others that do not fit the pattern. Its default plural is class 10, with occasional class 6 forms. It is hypothesized that if the prefix rũ- is added to a stem that already begins with rũ, the prefix is deleted. The class 6/11 plurals vary just as the Class 5/6 plurals do: the Class 6 prefix, ma-, attaches sometimes to the noun stem itself, and sometimes to the class 11 form.
+
+Class 12 (prefix ga- if stem is t, k, c, or th initial, ka- otherwise) is a diminutive class with some inherent, not especially diminutive members. Class 13 (prefix tũ-) is the same, but plural. These classes' prefixes can be used to diminutise nouns of other classes.
+
+Class 14 (null prefix) comprises abstract concepts and semantically unrelated others, and is pluralised by class 6.
+
+Class 15 (prefix gũ- if stem is t, k, c, or th initial, kũ- otherwise) comprises only body parts and verbal infinitives—more semantically and syntactically motivated than other classes. It is pluralised, when possible, by class 6.
+
+Class 16 (prefix ha-) is a definite locative class. Class 17 (prefix kũ-/gũ-) is an indefinite locative class. These classes can be singular or plural based on context.[5]
+
+Adjectives and pronouns[edit]
+
+Adjectives agree with the noun via adjective class prefixes (usually identical to the noun class prefixes). Other modifiers do so via agreement class prefixes, which are often simply the vowel of the noun class prefix.
+
+Personal pronouns may take the place of a noun or a noun phrase. Since person and noun class are marked on verbs, they are usually only used emphatically or in response to questions. Except for those of classes 3 and 14, the pronouns are formed by adding agreement class prefixes to the stem o.
+
+The dependent pronoun - 'and/with X' - is formed by adding comitative preposition to the relevant personal pronouns.
+
+The possessive pronoun is formed by adding the relevant possessive stem to the agreement class prefix of the possessed noun.
+
+Relative pronouns are formed by adding the relevant agreement class prefix to the relative stem.
+
+Demonstrative pronouns come in distal, proximal, and anaphoric forms. Relative pronouns are written identically to distal demonstratives, but are distinguished by vowel length - the first syllable of a relative pronoun is short, while the first syllable of a distal demonstrative is long.
+
+Adjectives are comparatively rare, and do not cover even every colour. Qualities are usually expressed instead as associative constructions, which connect two nouns or noun phrases where the first noun (head) is modified by the second. The associative is formed by prefixing the stem a with the agreement class prefix of the head noun. It can also denote possession, location, and ordinal numerals.[5]
+
+Numbers[edit]
+
+Numerals 11-19 are formed with the construction 'ten and X'. The final numeral, if it inflects, agrees with the noun being counted. However, if the final numeral is 1, it agrees with the singular class of the noun being counted, because 1 is singular, even if the overall number being formed is not.[5]
+
+Verbs[edit]
+
+Verbs can be marked for focus, noun class agreement, negation, reflexivity, reciprocality, causativity, intensive meanings, reversive meanings, applicative (valency increasing) meanings, tense, and aspect.[clarification needed] Tenses include past, present, or future; and remote, near, or current. Aspects include habitual/imperfective, completive, perfect, and progressive, which is unmarked. Sequential, a subtype of progressive, denotes events that occur in a sequence. There is also a marker for persistive events, which occur continuously until the time of speaking. Special subject agreement particles exist for 1st and 2nd person, the discourse participants, but subject agreement is otherwise based on noun class. A verb can exhibit noun class agreement for all arguments, but agrees less commonly with non-human nouns.
+
+In addition to active and passive voices, there is a middle voice with an intermediate connotation.[5]
+
+Alphabet[edit]
+
+Kikuyu is written in a Latin alphabet. It does not use the letters f l p q s v x z, and adds the letters ĩ and ũ. The Kikuyu alphabet is:
+
+a b c d e g h i ĩ j k m n o r t u ũ w y[6]
+Sample phrases[edit]
+English	Gĩkũyũ
+How are you	Ũhoro waku or kũhana atĩa?
+Give me water	He maaĩ
+How are you doing?	Ũrĩ mwega? or Wĩ mwega
+I am hungry	Ndĩ mũhũtu
+Help me	Ndeithia
+I am good	Ndĩ mwega
+Are you a friend?	Wĩ mũrata?
+Bye, be blessed	Tigwo na wega/Tigwo na thaayũ
+I love you	Nĩngwendete.
+Come here	Ũka haha
+I will phone you	Nĩngũkũhũrĩra thimũ
+I give thanks	Nĩndacokia ngatho
+I'm blessed	Ndĩĩ mũrathime
+Give me money	He mbeca / He mbia
+Stop nonsense	Tiga wana / tiga ũrimũ
+Don't laugh	Ndũgatheke
+You are learned	Wĩ mũthomu
+Thank you	Thengiũ / Nĩ wega / Nĩ ngaatho
+Go in peace	Thiĩ na thaayũ
+Day	Mũthenya
+Night	Ũtukũ
+God	Ngai
+Ancestral Spirits	Ngomi
+Country/state/Nation	Bũrũri
+Sample texts[edit]
+English[7]	Kikuyu[7]
+The Gikuyu believe in God
+
+the creator of heaven and earth,
+
+the giver of all things.
+
+	Gĩkũyũ nĩ gĩtĩkĩtie Ngai
+
+mumbi wa Igũrũ na Thĩ na mũheani wa indo ciothe
+
+
+Letter from the Hen to the Eagle[8]	Marũa Ma Ngũkũ Kũrĩ Rwĩgĩ[8]
+Literature[edit]
+
+There is notable literature written in the Kikuyu language. For instance, Ngũgĩ wa Thiong'o's Mũrogi wa Kagogo (Wizard of the Crow) is the longest known book written in Kikuyu. Other authors writing in Kikuyu are Gatua wa Mbũgwa and Waithĩra wa Mbuthia. Mbuthia has published various works in different genres—essays, poetry, children stories and translations—in Kikuyu. The late Wahome Mutahi also sometimes wrote in Kikuyu. Also, Gakaara wa Wanjaũ wrote his popular book, Mau Mau Author in Detention, which won a Noma Award in 1984.[9]
+
+In popular culture[edit]
+
+In the 1983 movie Star Wars Episode VI: Return of the Jedi, the character Nien Nunb speaks in the Kikuyu language.[10]
+
+The 2023 song Mwaki by Brazilian DJ Zerb features a Kenyan artist, Sofiya Nzau, singing in Kikuyu.[11]
+
+References[edit]
+^ Kikuyu at Ethnologue (18th ed., 2015) (subscription required)
+^ Jouni Filip Maho, 2009. New Updated Guthrie List Online
+^ Kevin C. Ford, 1975. "The tones of nouns in Kikuyu," Studies in African Linguistics 6, 49–64; G.N. Clements & Kevin C. Ford, 1979, "Kikuyu Tone Shift and its Synchronic Consequences", Linguistic Inquiry 10.2, 179–210.
+^ Wals.info
+^ 
+Jump up to:
+a b c d e Wa-Ngatho, Wambũi Mũringo; Englebretson, Robert. "A Basic Sketch Grammar of Gĩkũyũ" (PDF). Rice Working Papers in Linguistics. VI (special): 36–70. Retrieved 20 April 2024. This article incorporates text from this source, which is available under the CC BY 3.0 license.
+^ "Langue : kikuyu". 2006. Archived from the original on 9 June 2020. Retrieved 21 March 2009.
+^ 
+Jump up to:
+a b "Kikuyu Language Products". WorldLanguage.com. Retrieved 21 December 2023.
+^ 
+Jump up to:
+a b Rwígí, Kúrí (17 December 2018). "MARŨA MA NGŨKŨ KŨRĨ RWĨGĨ". Kikuyuland.com. Archived from the original on 21 December 2023. Retrieved 25 April 2024.
+^ Ngũgĩ wa Thiongʼo (1986). Decolonising the Mind: The Politics of Language in African Literature. London: J. Currey. p. 24. ISBN 0-435-08016-4. OCLC 13333403.
+^ Feldmann, Linda (28 July 1983). "In Kenya, Audiences Roar at Language in 'Jedi' Film". Christian Science Monitor. ISSN 0882-7729. Retrieved 19 August 2024.
+^ Bain, Katie (29 January 2024). "Zerb & Sofiya Nzau Star in Dazzling 'Mwaki' Video Shot in Kenya's Hells Gate National Park: Watch". Billboard. Retrieved 1 February 2024.
+Bibliography[edit]
+Armstrong, Lilias E. 1967. The Phonetic and Tonal Structure of Kikuyu. London: Published for the International African Institute by Dawsons of Pall Mall.
+Barlow, A. Ruffell and T. G. Benson. 1975. English-Kikuyu Dictionary. Oxford: Clarendon Press.
+Barlow, A. Ruffell. 1951. Studies in Kikuyu Grammar and Idiom. Edinburgh: William Blackwood & Sons,
+Benson, T. G. 1964. Kikuyu–English Dictionary. Oxford: Clarendon Press.
+Gecaga B. M. and Kirkaldy-Willis W.H. 1953. English–Kikuyu, Kikuyu–English Vocabulary. Nairobi: The Eagle Press.
+Kihara, Claudius P. "Middle and Antipassive Voices in Gĩkũyũ (E51)." Arusha Working Papers in African Linguistics, 6(1): 17-39.
+Leakey L. S. B. 1989. First Lessons in Kikuyu. Nairobi: Kenya Literature Bureau.
+Mugane John 1997. A Paradigmatic Grammar of Gikuyu. Stanford, California: CSLI publications.
+External links[edit]
+Kikuyu edition of Wikipedia, the free encyclopedia
+Robert Englebretson (ed.), "A Basic Sketch Grammar of Gĩkũyũ", 2015.
+Gikuyu alphabet and pronunciation at Omniglot
+Muigwithania 2.0 – First Kikuyu Newspaper revived on the Internet
+First Course in Kikuyu (vol. 1; see ref. for v2 & v3)
+My First Gikuyu Dictionary
+show
+vte
+Languages of Kenya
+
+
+show
+vte
+Narrow Bantu languages (Zones E–H) (by Guthrie classification)
+
+
+show
+Authority control databases 

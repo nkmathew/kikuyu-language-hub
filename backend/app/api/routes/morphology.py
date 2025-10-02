@@ -6,13 +6,14 @@ from fastapi import APIRouter, Depends, HTTPException, Query, BackgroundTasks
 from sqlalchemy.orm import Session
 from sqlalchemy import and_, or_, func
 
-from app.api.deps import get_current_user, get_db, require_moderator_or_admin
-from app.models.user import User
-from app.models.morphology import (
+from ...core.security import get_current_user, require_moderator_or_admin
+from ...db.session import get_db
+from ...models.user import User
+from ...models.morphology import (
     Verb, VerbConjugation, NounForm, VerbExample, 
     MorphologicalSubmission, MorphologicalPattern, WordClass
 )
-from app.schemas.morphology import (
+from ...schemas.morphology import (
     VerbCreate, VerbUpdate, Verb, VerbDetail, VerbListResponse,
     VerbConjugationCreate, VerbConjugationUpdate, VerbConjugation,
     VerbExampleCreate, VerbExampleUpdate, VerbExample,
@@ -20,10 +21,10 @@ from app.schemas.morphology import (
     VerbSearch, ConjugationSearch, MorphologicalSubmissionResponse,
     VerbExport, MorphologyExport
 )
-from app.services.morphology_service import MorphologyService
-from app.services.nlp_service import NLPService
-from app.core.cache import cache_manager
-from app.utils.pagination import get_pagination_params, paginate_response
+from ...services.morphology_service import MorphologyService
+from ...services.nlp_service import NLPService
+from ...core.cache import cache_manager
+from ...utils.pagination import PaginationParams, paginate
 
 router = APIRouter(prefix="/morphology", tags=["morphology"])
 

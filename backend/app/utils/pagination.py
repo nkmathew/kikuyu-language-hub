@@ -17,7 +17,7 @@ class PaginationParams(BaseModel):
     page: int = Field(1, ge=1, description="Page number (1-based)")
     limit: int = Field(20, ge=1, le=100, description="Items per page")
     sort_by: Optional[str] = Field(None, description="Field to sort by")
-    sort_order: str = Field("asc", regex="^(asc|desc)$", description="Sort order")
+    sort_order: str = Field("asc", pattern="^(asc|desc)$", description="Sort order")
 
 
 class CursorPaginationParams(BaseModel):
@@ -27,7 +27,7 @@ class CursorPaginationParams(BaseModel):
     cursor: Optional[str] = Field(None, description="Cursor for next page")
     limit: int = Field(20, ge=1, le=100, description="Items per page")
     sort_by: str = Field("id", description="Field to sort by (must be unique)")
-    sort_order: str = Field("asc", regex="^(asc|desc)$", description="Sort order")
+    sort_order: str = Field("asc", pattern="^(asc|desc)$", description="Sort order")
 
 
 class PaginatedResponse(BaseModel, Generic[T]):
