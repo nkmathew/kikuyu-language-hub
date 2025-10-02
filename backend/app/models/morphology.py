@@ -118,11 +118,6 @@ class VerbConjugation(Base):
     person = Column(Enum(PersonType), nullable=False, index=True)
     number = Column(Enum(NumberType), nullable=False, index=True)
     
-    # Object agreement (for transitive verbs)
-    object_person = Column(Enum(PersonType))
-    object_number = Column(Enum(NumberType))
-    has_object = Column(Boolean, default=False)
-    
     # Conjugated form
     conjugated_form = Column(String(500), nullable=False)
     morphological_breakdown = Column(JSON)  # [{"prefix": "", "stem": "", "suffix": "", "meaning": ""}]
