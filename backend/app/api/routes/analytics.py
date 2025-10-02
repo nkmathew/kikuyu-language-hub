@@ -4,10 +4,10 @@ from typing import List, Optional
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.orm import Session
 
-from ..core.security import get_current_user, require_moderator_or_admin
-from ..db.session import get_db
-from ..models.user import User
-from ..schemas.analytics import (
+from ...core.security import get_current_user, require_moderator_or_admin
+from ...db.session import get_db
+from ...models.user import User
+from ...schemas.analytics import (
     AnalyticsEventCreate, AnalyticsEventResponse, UserActivityCreate, 
     UserActivityResponse, SystemMetricCreate, SystemMetricResponse,
     DashboardOverview, RealTimeMetrics, TrendAnalysis, AnalyticsFilter,
@@ -15,8 +15,8 @@ from ..schemas.analytics import (
     QualityAnalytics, LearningAnalytics, DashboardStats, UserDashboardStats,
     PlatformHealth, LeaderboardEntry
 )
-from ..services.analytics_service import AnalyticsService
-from ..core.cache import cache
+from ...services.analytics_service import AnalyticsService
+from ...core.cache import cache
 import logging
 
 router = APIRouter(prefix="/analytics", tags=["analytics"])

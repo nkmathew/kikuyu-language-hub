@@ -1,9 +1,13 @@
 from typing import Dict, Any, List, Optional
 from fastapi import APIRouter, Depends, Query
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, Response
 from sqlalchemy.orm import Session, joinedload
 from sqlalchemy import func
 import json
+import csv
+import io
+import xml.etree.ElementTree as ET
+from xml.dom import minidom
 from ...models.contribution import ContributionStatus, Contribution
 from ...models.category import Category
 from ...services.contribution_service import ContributionService
@@ -261,6 +265,269 @@ def export_statistics(db: Session = Depends(get_db)):
         "export_formats": [
             "translations.json (legacy)",
             "flashcards.json (flashcard app)",
-            "corpus/full.json (complete corpus)"
+            "corpus/full.json (complete corpus)",
+            "translations.csv (CSV format)",
+            "translations.xml (XML format)",
+            "anki.txt (Anki flashcard deck)"
+        ]
+    }
+
+
+@router.get("/translations.csv")
+def export_translations_csv(
+    category_id: Optional[int] = Query(None, description="Filter by category ID"),
+    difficulty: Optional[str] = Query(None, description="Filter by difficulty level"),
+    min_quality_score: Optional[float] = Query(0.0, description="Minimum quality score"),
+    db: Session = Depends(get_db)
+):
+    """Export translations in CSV format"""
+    query = db.query(Contribution).options(
+        joinedload(Contribution.categories)
+    ).filter(
+        Contribution.status == ContributionStatus.APPROVED,
+        Contribution.quality_score >= min_quality_score
+    )
+    
+    # Apply filters
+    if category_id:
+        query = query.join(Contribution.categories).filter(Category.id == category_id)
+    
+    if difficulty:
+        query = query.filter(Contribution.difficulty_level == difficulty)
+    
+    contributions = query.order_by(Contribution.source_text).all()
+    
+    # Create CSV content
+    output = io.StringIO()
+    writer = csv.writer(output)
+    
+    # Write header
+    writer.writerow([
+        'English', 'Kikuyu', 'Categories', 'Difficulty', 'Quality Score',
+        'Context Notes', 'Cultural Notes', 'Pronunciation'
+    ])
+    
+    # Write data
+    for contribution in contributions:
+        categories = ', '.join([cat.name for cat in contribution.categories])
+        writer.writerow([
+            contribution.source_text,
+            contribution.target_text,
+            categories,
+            contribution.difficulty_level.value if contribution.difficulty_level else 'beginner',
+            contribution.quality_score,
+            contribution.context_notes or '',
+            contribution.cultural_notes or '',
+            contribution.pronunciation_guide or ''
+        ])
+    
+    csv_content = output.getvalue()
+    output.close()
+    
+    headers = {
+        "Content-Disposition": "attachment; filename=kikuyu_translations.csv",
+        "Content-Type": "text/csv; charset=utf-8"
+    }
+    
+    return Response(content=csv_content, media_type="text/csv", headers=headers)
+
+
+@router.get("/translations.xml")
+def export_translations_xml(
+    category_id: Optional[int] = Query(None, description="Filter by category ID"),
+    difficulty: Optional[str] = Query(None, description="Filter by difficulty level"),
+    min_quality_score: Optional[float] = Query(0.0, description="Minimum quality score"),
+    db: Session = Depends(get_db)
+):
+    """Export translations in XML format"""
+    query = db.query(Contribution).options(
+        joinedload(Contribution.categories),
+        joinedload(Contribution.sub_translations)
+    ).filter(
+        Contribution.status == ContributionStatus.APPROVED,
+        Contribution.quality_score >= min_quality_score
+    )
+    
+    # Apply filters
+    if category_id:
+        query = query.join(Contribution.categories).filter(Category.id == category_id)
+    
+    if difficulty:
+        query = query.filter(Contribution.difficulty_level == difficulty)
+    
+    contributions = query.order_by(Contribution.source_text).all()
+    
+    # Create XML structure
+    root = ET.Element("kikuyu_translations")
+    root.set("exported_at", func.now().isoformat())
+    root.set("total_count", str(len(contributions)))
+    
+    for contribution in contributions:
+        trans_elem = ET.SubElement(root, "translation")
+        trans_elem.set("id", str(contribution.id))
+        
+        # Basic fields
+        ET.SubElement(trans_elem, "english").text = contribution.source_text
+        ET.SubElement(trans_elem, "kikuyu").text = contribution.target_text
+        ET.SubElement(trans_elem, "difficulty").text = contribution.difficulty_level.value if contribution.difficulty_level else "beginner"
+        ET.SubElement(trans_elem, "quality_score").text = str(contribution.quality_score)
+        
+        # Optional fields
+        if contribution.context_notes:
+            ET.SubElement(trans_elem, "context_notes").text = contribution.context_notes
+        if contribution.cultural_notes:
+            ET.SubElement(trans_elem, "cultural_notes").text = contribution.cultural_notes
+        if contribution.pronunciation_guide:
+            ET.SubElement(trans_elem, "pronunciation").text = contribution.pronunciation_guide
+        
+        # Categories
+        if contribution.categories:
+            categories_elem = ET.SubElement(trans_elem, "categories")
+            for category in contribution.categories:
+                cat_elem = ET.SubElement(categories_elem, "category")
+                cat_elem.set("slug", category.slug)
+                cat_elem.text = category.name
+        
+        # Sub-translations
+        if contribution.sub_translations:
+            sub_trans_elem = ET.SubElement(trans_elem, "sub_translations")
+            for sub_trans in contribution.sub_translations:
+                sub_elem = ET.SubElement(sub_trans_elem, "sub_translation")
+                sub_elem.set("position", str(sub_trans.word_position))
+                ET.SubElement(sub_elem, "english").text = sub_trans.source_word
+                ET.SubElement(sub_elem, "kikuyu").text = sub_trans.target_word
+                if sub_trans.context:
+                    ET.SubElement(sub_elem, "context").text = sub_trans.context
+    
+    # Pretty print XML
+    xml_str = ET.tostring(root, encoding='unicode')
+    dom = minidom.parseString(xml_str)
+    pretty_xml = dom.toprettyxml(indent="  ")
+    
+    headers = {
+        "Content-Disposition": "attachment; filename=kikuyu_translations.xml",
+        "Content-Type": "application/xml; charset=utf-8"
+    }
+    
+    return Response(content=pretty_xml, media_type="application/xml", headers=headers)
+
+
+@router.get("/anki.txt")
+def export_anki_deck(
+    category_id: Optional[int] = Query(None, description="Filter by category ID"),
+    difficulty: Optional[str] = Query(None, description="Filter by difficulty level"),
+    min_quality_score: Optional[float] = Query(0.0, description="Minimum quality score"),
+    include_pronunciation: bool = Query(True, description="Include pronunciation guide"),
+    include_context: bool = Query(True, description="Include context notes"),
+    db: Session = Depends(get_db)
+):
+    """Export translations in Anki flashcard format (tab-separated)"""
+    query = db.query(Contribution).options(
+        joinedload(Contribution.categories)
+    ).filter(
+        Contribution.status == ContributionStatus.APPROVED,
+        Contribution.quality_score >= min_quality_score
+    )
+    
+    # Apply filters
+    if category_id:
+        query = query.join(Contribution.categories).filter(Category.id == category_id)
+    
+    if difficulty:
+        query = query.filter(Contribution.difficulty_level == difficulty)
+    
+    contributions = query.order_by(Contribution.source_text).all()
+    
+    # Create Anki format content (tab-separated)
+    lines = []
+    
+    for contribution in contributions:
+        # Front side (English)
+        front = contribution.source_text
+        
+        # Back side (Kikuyu + optional details)
+        back_parts = [contribution.target_text]
+        
+        if include_pronunciation and contribution.pronunciation_guide:
+            back_parts.append(f"<br><i>Pronunciation: {contribution.pronunciation_guide}</i>")
+        
+        if include_context and contribution.context_notes:
+            back_parts.append(f"<br><small>{contribution.context_notes}</small>")
+        
+        # Add categories as tags
+        categories = [cat.slug for cat in contribution.categories]
+        category_tags = ' '.join(categories) if categories else 'general'
+        
+        back = ''.join(back_parts)
+        
+        # Anki format: Front\tBack\tTags
+        line = f"{front}\t{back}\t{category_tags}"
+        lines.append(line)
+    
+    anki_content = '\n'.join(lines)
+    
+    headers = {
+        "Content-Disposition": "attachment; filename=kikuyu_anki_deck.txt",
+        "Content-Type": "text/plain; charset=utf-8"
+    }
+    
+    return Response(content=anki_content, media_type="text/plain", headers=headers)
+
+
+@router.get("/formats")
+def get_export_formats():
+    """Get list of available export formats with descriptions"""
+    formats = [
+        {
+            "format": "json",
+            "endpoint": "/export/translations.json",
+            "description": "Legacy JSON format for backward compatibility",
+            "mime_type": "application/json",
+            "use_case": "Simple key-value translations for basic apps"
+        },
+        {
+            "format": "flashcards_json",
+            "endpoint": "/export/flashcards.json",
+            "description": "Enhanced JSON format optimized for flashcard applications",
+            "mime_type": "application/json",
+            "use_case": "Flashcard apps, language learning platforms"
+        },
+        {
+            "format": "corpus_json",
+            "endpoint": "/export/corpus/full.json",
+            "description": "Complete corpus with all metadata and sub-translations",
+            "mime_type": "application/json",
+            "use_case": "Academic research, advanced language processing"
+        },
+        {
+            "format": "csv",
+            "endpoint": "/export/translations.csv",
+            "description": "Comma-separated values format for spreadsheets",
+            "mime_type": "text/csv",
+            "use_case": "Excel analysis, data processing, simple imports"
+        },
+        {
+            "format": "xml",
+            "endpoint": "/export/translations.xml",
+            "description": "Structured XML format with hierarchical data",
+            "mime_type": "application/xml",
+            "use_case": "Enterprise systems, XML-based workflows"
+        },
+        {
+            "format": "anki",
+            "endpoint": "/export/anki.txt",
+            "description": "Tab-separated format for Anki flashcard import",
+            "mime_type": "text/plain",
+            "use_case": "Anki spaced repetition system, personal study"
+        }
+    ]
+    
+    return {
+        "formats": formats,
+        "total_formats": len(formats),
+        "common_parameters": [
+            "category_id: Filter by category ID",
+            "difficulty: Filter by difficulty level (beginner/intermediate/advanced)",
+            "min_quality_score: Minimum quality score (0.0-5.0)"
         ]
     }

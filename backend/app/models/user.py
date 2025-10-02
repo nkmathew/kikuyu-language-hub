@@ -39,6 +39,7 @@ class User(Base):
     activities = relationship("UserActivity", back_populates="user")
     engagement_metrics = relationship("UserEngagementMetrics", back_populates="user")
     learning_metrics = relationship("LanguageLearningMetrics", back_populates="user")
+    webhooks = relationship("Webhook", back_populates="created_by")
     
     def __repr__(self):
         return f"<User(id={self.id}, email='{self.email}', role={self.role})>"
