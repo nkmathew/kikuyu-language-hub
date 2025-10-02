@@ -1,7 +1,7 @@
 'use client';
 
-import { useAuth } from '../../hooks/useAuth';
-import { isAdmin, isModerator } from '../lib/auth';
+import { useAuth } from '../../lib/hooks/useAuth';
+import { isAdmin, isModerator } from '../../lib/auth';
 
 interface HomePageProps {
   onNavigate: (path: string) => void;

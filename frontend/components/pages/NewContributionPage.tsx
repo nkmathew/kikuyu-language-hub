@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useAuth } from '../../lib/hooks/useAuth';
-import { useContributions } from '../../hooks/useContributions';
+import { useContributions } from '../../lib/hooks/useContributions';
 
 interface NewContributionPageProps {
   onNavigate: (path: string) => void;
