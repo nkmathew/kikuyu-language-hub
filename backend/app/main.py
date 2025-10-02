@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .core.config import settings
-from .api.routes import auth_router, contributions_router, export_router
+from .api.routes import auth_router, contributions_router, export_router, analytics_router
 from .api.routes.categories import router as categories_router
 from .api.routes.sub_translations import router as sub_translations_router
 from .api.routes.nlp import router as nlp_router
@@ -36,6 +36,7 @@ def create_app() -> FastAPI:
     app.include_router(qa_router, prefix=settings.api_v1_prefix)
     app.include_router(content_rating_router, prefix=settings.api_v1_prefix)
     app.include_router(morphology_router, prefix=settings.api_v1_prefix)
+    app.include_router(analytics_router, prefix=settings.api_v1_prefix)
     app.include_router(export_router, prefix=settings.api_v1_prefix)
 
     @app.get(f"{settings.api_v1_prefix}/health")

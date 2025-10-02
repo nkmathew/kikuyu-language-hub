@@ -56,6 +56,7 @@ class Contribution(Base):
     categories = relationship("Category", secondary=contribution_categories, back_populates="contributions")
     sub_translations = relationship("SubTranslation", back_populates="parent_contribution", cascade="all, delete-orphan")
     rating = relationship("ContributionRating", back_populates="contribution", uselist=False)
+    metrics = relationship("ContributionMetrics", back_populates="contribution", uselist=False)
     
     def __repr__(self):
         return f"<Contribution(id={self.id}, status={self.status}, source='{self.source_text[:50]}...')>"
