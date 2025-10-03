@@ -28,17 +28,25 @@ async def fetch_kikuyu_section(url, client, word):
     soup = BeautifulSoup(r.text, "html.parser")
     console.print(f"[cyan]Parsing HTML for word '{word}'[/cyan]")
     # Find Kikuyu section
-    h2 = soup.find("h2", id="Kikuyu")
+    h2 = None
+    for tag in soup.find_all("h2"):
+        if tag.get_text(strip=True) == "Kikuyu":
+            h2 = tag
+            break
     if not h2:
         console.print(f"[yellow]No Kikuyu section found for {word}[/yellow]")
         return None
+    # Get parent div of h2 (section wrapper)
+    section_div = h2.find_parent("div", class_="mw-heading mw-heading2")
+    if not section_div:
+        console.print(f"[yellow]No section wrapper found for Kikuyu in {word}[/yellow]")
+        return None
     console.print(f"[green]Found Kikuyu section for {word}[/green]")
-    # Collect siblings until next h2 (not Kikuyu)
+    # Collect siblings of section_div until next mw-heading2 div
     content = []
-    for sib in h2.find_next_siblings():
-        if sib.name == "h2":
-            if sib.get("id") != "Kikuyu":
-                break
+    for sib in section_div.find_next_siblings():
+        if sib.name == "div" and "mw-heading2" in sib.get("class", []):
+            break
         content.append(sib.get_text("\n", strip=True))
     merged = "\n".join(content).strip()
     console.print(f"[cyan]Extracted content for {word} (length: {len(merged)})[/cyan]")
@@ -77,9 +85,13 @@ async def scrape():
                 continue
             visited.add(href)
             console.print(f"[blue]Queueing word:[/blue] {word} -> {href}")
-            tasks.append(process_word(href, client, word))
-        console.print(f"[bold cyan]Processing {len(tasks)} words...[/bold cyan]")
-        await asyncio.gather(*tasks)
+            tasks.append((href, word))
+        console.print(f"[bold cyan]Processing up to 1 word sequentially...[/bold cyan]")
+        if tasks:
+            href, word = tasks[0]
+            await process_word(href, client, word)
+        else:
+            console.print("[yellow]No words to process.[/yellow]")
 
 async def process_word(url, client, word):
     pause = 10 + random.random() * 5
