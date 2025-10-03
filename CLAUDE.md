@@ -6,8 +6,9 @@ The Kikuyu Language Hub is a collaborative translation contribution platform for
 
 ### Main Technologies
 - **Backend**: FastAPI 0.112.2 (Python 3.11+)
-- **Frontend**: Next.js 14.2.6 with TypeScript 5.5.4
+- **Frontend**: Next.js 15.5.4 with TypeScript 5.5.4
 - **Database**: PostgreSQL 16+ with SQLAlchemy 2.0.34
+- **Caching**: Redis with connection pooling and TTL management
 - **Authentication**: JWT tokens with role-based access control
 - **Deployment**: Docker Compose with multi-service orchestration
 
@@ -22,8 +23,10 @@ The Kikuyu Language Hub is a collaborative translation contribution platform for
 - **Alembic**: Database migration management
 - **Pydantic**: Data validation and settings management
 - **Next.js**: React framework with App Router
+- **Redis**: Caching layer with fallback mechanisms
 - **JWT**: Authentication tokens
 - **bcrypt**: Password hashing
+- **spaCy**: NLP processing for Kikuyu language analysis
 
 ## 2. Architecture & Structure
 
@@ -32,6 +35,10 @@ The Kikuyu Language Hub is a collaborative translation contribution platform for
 Frontend (Next.js) ←→ Backend API (FastAPI) ←→ Database (PostgreSQL)
         ↓                      ↓                      ↓
     PWA Manifest          JWT Auth + RBAC        Alembic Migrations
+                              ↓
+                      Redis Cache + NLP Pipeline
+                              ↓
+                     Analytics + Webhook System
 ```
 
 ### Directory Structure
@@ -39,30 +46,33 @@ Frontend (Next.js) ←→ Backend API (FastAPI) ←→ Database (PostgreSQL)
 kikuyu-language-hub/
 ├── backend/                    # FastAPI backend
 │   ├── app/
-│   │   ├── api/routes/        # HTTP endpoints (auth, contributions, export)
-│   │   ├── core/              # Configuration and security
+│   │   ├── api/routes/        # HTTP endpoints (auth, contributions, export, analytics, webhooks)
+│   │   ├── core/              # Configuration, security, and caching
 │   │   ├── db/                # Database session and base
-│   │   ├── models/            # SQLAlchemy ORM models
+│   │   ├── models/            # SQLAlchemy ORM models (extended with morphology, webhooks)
 │   │   ├── schemas/           # Pydantic validation schemas
-│   │   ├── services/          # Business logic layer
+│   │   ├── services/          # Business logic layer (analytics, NLP, quality assurance)
 │   │   ├── main.py            # FastAPI app factory
 │   │   └── seed.py            # Database seeding
+│   ├── seed/                  # Comprehensive language material seed scripts
 │   ├── alembic/               # Database migrations
 │   └── pyproject.toml         # Python dependencies
 ├── frontend/                  # Next.js frontend
 │   ├── app/                   # App Router pages
 │   ├── lib/                   # API client and utilities
 │   └── public/                # Static assets + PWA manifest
+├── study-material/            # Authentic Kikuyu language materials
 ├── infra/                     # Docker Compose
 └── docs/                      # Documentation
 ```
 
 ### File Patterns
-- **Models**: `models/{entity}.py` (User, Contribution, AuditLog)
+- **Models**: `models/{entity}.py` (User, Contribution, AuditLog, VerbMorphology, Webhook)
 - **Schemas**: `schemas/{entity}.py` (Pydantic models)
-- **Services**: `services/{entity}_service.py` (business logic)
+- **Services**: `services/{entity}_service.py` (business logic, analytics, NLP)
 - **Routes**: `api/routes/{feature}.py` (API endpoints)
 - **Migrations**: `alembic/versions/{hash}_{description}.py`
+- **Seed Scripts**: `seed/{source}_seed.py` (language material population)
 
 ### Module Organization
 - **Layered architecture**: API → Services → Models → Database
@@ -87,6 +97,11 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 alembic upgrade head                    # Apply migrations
 alembic revision --autogenerate -m ""  # Create migration
 python -m app.seed                     # Seed database
+
+# Comprehensive language data seeding
+python seed/comprehensive_materials_seed.py  # 102 contributions from 8 sources
+python seed/proverbs_collection_seed.py      # 38 traditional proverbs
+python seed/wisdomafrica_translations_seed.py # 56 everyday vocabulary terms
 
 # Code quality
 black .                                 # Format code
@@ -314,9 +329,11 @@ const contributions = await apiClient.get('/contributions')
 - Windows may require binary psycopg installation
 
 ### Performance Considerations
-- Export endpoint loads all approved translations (consider pagination for large datasets)
-- No query optimization implemented yet
-- Database connections use basic pooling
+- Redis caching layer with TTL management reduces database load
+- Database composite indexes for optimized query performance
+- Connection pooling with performance monitoring
+- Pagination utilities for large dataset handling
+- Background task processing for analytics calculations
 
 ## 10. Quick Reference
 
@@ -369,12 +386,40 @@ docker compose -f infra/docker-compose.yml ps
 ```
 
 ### Role-Based API Access
-- **Public**: `/api/v1/export/translations.json`, `/api/v1/auth/*`
-- **Authenticated**: `/api/v1/contributions/` (filtered by role)
-- **Moderator+**: `/api/v1/contributions/{id}/approve|reject`
-- **Admin**: All endpoints
+- **Public**: `/api/v1/export/translations.*`, `/api/v1/auth/*`, `/api/v1/health`
+- **Authenticated**: `/api/v1/contributions/`, `/api/v1/analytics/user/*`, `/api/v1/morphology/*`
+- **Moderator+**: `/api/v1/contributions/{id}/approve|reject`, `/api/v1/analytics/moderation/*`
+- **Admin**: All endpoints including `/api/v1/webhooks/*`, `/api/v1/analytics/admin/*`
+
+### Advanced Features Available
+- **Analytics Dashboard**: 25+ endpoints with real-time metrics and trend analysis
+- **NLP Processing**: Kikuyu-specific tokenization, morphological analysis, spell checking
+- **Quality Assurance**: Automated content analysis with difficulty assessment
+- **Content Rating**: Comprehensive system (General, PG, Teen, Mature, Adult)
+- **Export Formats**: JSON (legacy/flashcards/corpus), CSV, XML, Anki deck
+- **Webhook System**: Event-driven integrations with delivery tracking and HMAC signatures
+- **Translation Memory**: Similarity matching and fuzzy search capabilities
+- **Caching Layer**: Redis-based performance optimization with intelligent invalidation
 
 ### Database Schema Quick Reference
 - **Users**: id, email, password_hash, role, timestamps
-- **Contributions**: id, source_text, target_text, status, language, created_by_id, timestamps
+- **Contributions**: id, source_text, target_text, status, language, difficulty_level, quality_score, content_rating, created_by_id, timestamps
+- **Categories**: id, name, description, slug, sort_order, timestamps
+- **Sub Translations**: id, parent_contribution_id, source_word, target_word, word_position, context
 - **Audit Logs**: id, contribution_id, action, moderator_id, reason, created_at
+- **Verb Morphology**: id, verb_id, tense, aspect, mood, subject_marker, conjugated_form
+- **Word Classes**: id, name, description, prefix_pattern, examples
+- **Morphological Patterns**: id, pattern_type, source_pattern, target_pattern, description
+- **Webhooks**: id, url, events, secret, is_active, delivery_stats, timestamps
+
+### Current Database Content (485+ Contributions)
+- **Traditional Proverbs**: 38 culturally significant sayings from 1000+ collection
+- **Basic Vocabulary**: Essential everyday terms and common expressions
+- **Clothing & Household**: Practical terms for daily life
+- **Educational Terms**: School and learning vocabulary
+- **Transportation**: Vehicle and travel-related terms
+- **Cultural Greetings**: Age-based traditional greeting system
+- **Emergency Phrases**: Critical communication terms
+- **Cooking Methods**: Traditional food preparation vocabulary
+- **Numbers System**: Complete numerical system with linguistic analysis
+- **Morphological Data**: Verb conjugations and noun class patterns
