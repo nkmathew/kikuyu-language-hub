@@ -19,8 +19,6 @@ async def fetch_kikuyu_section(url, client, word):
         r = await client.get(url, timeout=10)
         console.print(f"[magenta]Status code for {url}:[/magenta] {r.status_code}")
         console.print(f"[magenta]Response length for {url}:[/magenta] {len(r.text)}")
-        preview = r.text[:200].replace('\n', ' ')
-        console.print(f"[magenta]Response preview for {url}:[/magenta] {preview}")
         r.raise_for_status()
     except Exception as e:
         console.print(f"[bold red]Failed to fetch {url}: {e}[/bold red]")
@@ -86,32 +84,30 @@ async def scrape():
             visited.add(href)
             console.print(f"[blue]Queueing word:[/blue] {word} -> {href}")
             tasks.append((href, word))
-        console.print(f"[bold cyan]Processing up to 1 word sequentially...[/bold cyan]")
-        if tasks:
-            href, word = tasks[0]
-            await process_word(href, client, word)
-        else:
-            console.print("[yellow]No words to process.[/yellow]")
+        console.print(f"[bold cyan]Processing {len(tasks)} words sequentially...[/bold cyan]")
+        for idx, (href, word) in enumerate(tasks, 1):
+            await process_word(href, client, word, idx, len(tasks))
 
-async def process_word(url, client, word):
+async def process_word(url, client, word, idx=None, total=None):
     pause = 10 + random.random() * 5
-    console.print(f"[yellow]Pausing for {pause:.1f} seconds before processing {word}[/yellow]")
+    progress = f"[{idx}/{total}] " if idx and total else ""
+    console.print(f"[yellow]{progress}Pausing for {pause:.1f} seconds before processing {word}[/yellow]")
     await asyncio.sleep(pause)
-    console.print(f"[bold blue]Processing:[/bold blue] {word} -> {url}")
+    console.print(f"[bold blue]{progress}Processing:[/bold blue] {word} -> {url}")
     text = await fetch_kikuyu_section(url, client, word)
     if text:
         dest_dir = f"raw-data/wiktionary/wiki-{word}"
         os.makedirs(dest_dir, exist_ok=True)
         dest = os.path.join(dest_dir, f"{word}.txt")
-        console.print(f"[cyan]Saving content to:[/cyan] {dest}")
+        console.print(f"[cyan]{progress}Saving content to:[/cyan] {dest}")
         try:
             with open(dest, "w", encoding="utf-8") as f:
                 f.write(text)
-            console.print(f"[green]Saved:[/green] {dest}")
+            console.print(f"[green]{progress}Saved:[/green] {dest}")
         except Exception as e:
-            console.print(f"[bold red]Failed to save {dest}: {e}[/bold red]")
+            console.print(f"[bold red]{progress}Failed to save {dest}: {e}[/bold red]")
     else:
-        console.print(f"[yellow]No content for {word}[/yellow]")
+        console.print(f"[yellow]{progress}No content for {word}[/yellow]")
 
 if __name__ == "__main__":
     console.print("[bold cyan]Script started.[/bold cyan]")
