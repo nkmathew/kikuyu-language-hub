@@ -74,49 +74,49 @@ def create_lughayangu_vocabulary_seed():
         
         db.commit()
         
-        # Vocabulary from lughayangu.com with contextual examples
+        # Vocabulary from lughayangu.com with contextual examples (preserving all accented characters)
         lughayangu_vocabulary = [
             # Directional and spatial terms
-            ("right", "urio", "Directional term - right side", "Directions & Geography", DifficultyLevel.BEGINNER),
+            ("right", "úrío", "Directional term - right side", "Directions & Geography", DifficultyLevel.BEGINNER),
             ("north", "gathigathini", "Cardinal direction - north", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
-            ("south", "guthini", "Cardinal direction - south", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
-            ("inside", "thiinii", "Spatial term - interior location", "Directions & Geography", DifficultyLevel.BEGINNER),
-            ("slope", "muikuruko", "Geographical feature - inclined surface", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
+            ("south", "gúthini", "Cardinal direction - south", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
+            ("inside", "thíinií", "Spatial term - interior location", "Directions & Geography", DifficultyLevel.BEGINNER),
+            ("slope", "múikúrúko", "Geographical feature - inclined surface", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
             ("bend", "kona", "Curved section, especially of road", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
             ("bridge", "ndaraca", "Structure spanning water or gap", "Infrastructure & Buildings", DifficultyLevel.INTERMEDIATE),
             ("road", "barabara", "Paved pathway for vehicles", "Infrastructure & Buildings", DifficultyLevel.BEGINNER),
             ("building", "mwako", "Constructed structure", "Infrastructure & Buildings", DifficultyLevel.INTERMEDIATE),
             
             # Action verbs with practical contexts
-            ("hit", "gutha", "To strike forcefully", "Verbs & Actions", DifficultyLevel.BEGINNER),
+            ("hit", "gútha", "To strike forcefully", "Verbs & Actions", DifficultyLevel.BEGINNER),
             ("please", "kenia", "To satisfy or make happy", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
             ("lay", "rekia", "To place down, especially eggs", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
-            ("model", "umba", "To shape or form", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("model", "úmba", "To shape or form", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
             ("warm", "raria", "To heat gently", "Verbs & Actions", DifficultyLevel.BEGINNER),
             ("dilute", "twekia", "To thin with liquid", "Verbs & Actions", DifficultyLevel.ADVANCED),
             ("march", "thoitha", "To walk in formation", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
-            ("accept", "itikira", "To agree to receive", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
-            ("postpone", "tiria", "To delay or defer", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("accept", "ítíkíra", "To agree to receive", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("postpone", "tíria", "To delay or defer", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
             ("run", "teng'era", "To move quickly on foot", "Verbs & Actions", DifficultyLevel.BEGINNER),
             ("tilt", "inamia", "To lean or angle", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
             ("kiss", "mumunya", "To touch with lips affectionately", "Verbs & Actions", DifficultyLevel.BEGINNER),
-            ("arrest", "guikia ngono", "To take into custody", "Legal & Civic Terms", DifficultyLevel.ADVANCED),
+            ("arrest", "gúikia ngono", "To take into custody", "Legal & Civic Terms", DifficultyLevel.ADVANCED),
             
             # Objects and tools
             ("bulb", "ngirobu", "Electric lighting device", "Practical Objects", DifficultyLevel.INTERMEDIATE),
-            ("noose", "kiana", "Loop for tightening", "Practical Objects", DifficultyLevel.ADVANCED),
+            ("noose", "kíana", "Loop for tightening", "Practical Objects", DifficultyLevel.ADVANCED),
             ("suit", "thuti", "Formal clothing ensemble", "Practical Objects", DifficultyLevel.INTERMEDIATE),
             ("bell", "ngengere", "Sound-making device", "Practical Objects", DifficultyLevel.INTERMEDIATE),
             ("bullet", "rithathi", "Projectile ammunition", "Practical Objects", DifficultyLevel.ADVANCED),
             
             # Body parts and health
             ("molar", "ikamburu", "Back grinding tooth", "Body Parts & Health", DifficultyLevel.INTERMEDIATE),
-            ("smallpox", "mutung'u", "Infectious disease", "Medical & Diseases", DifficultyLevel.ADVANCED),
-            ("mumps", "mungai", "Viral infection affecting glands", "Medical & Diseases", DifficultyLevel.ADVANCED),
-            ("leprosy", "mangu", "Chronic infectious disease", "Medical & Diseases", DifficultyLevel.ADVANCED),
+            ("smallpox", "mútúng'ú", "Infectious disease", "Medical & Diseases", DifficultyLevel.ADVANCED),
+            ("mumps", "múngai", "Viral infection affecting glands", "Medical & Diseases", DifficultyLevel.ADVANCED),
+            ("leprosy", "mangú", "Chronic infectious disease", "Medical & Diseases", DifficultyLevel.ADVANCED),
             
             # Nature and environment
-            ("branch", "ruhonge", "Tree limb", "Nature & Environment", DifficultyLevel.BEGINNER),
+            ("branch", "rúhonge", "Tree limb", "Nature & Environment", DifficultyLevel.BEGINNER),
             
             # Legal and civic terms
             ("case", "ciira", "Legal proceeding", "Legal & Civic Terms", DifficultyLevel.INTERMEDIATE),
@@ -127,36 +127,58 @@ def create_lughayangu_vocabulary_seed():
             
             # Descriptive terms
             ("cheap", "raithi", "Low cost or inexpensive", "Descriptive Terms", DifficultyLevel.BEGINNER),
-            ("tall", "raihu", "Having great height", "Descriptive Terms", DifficultyLevel.BEGINNER),
-            ("round", "thiururi", "Circular in shape", "Descriptive Terms", DifficultyLevel.BEGINNER),
+            ("tall", "-raihu", "Having great height", "Descriptive Terms", DifficultyLevel.BEGINNER),
+            ("round", "-thiúrúrí", "Circular in shape", "Descriptive Terms", DifficultyLevel.BEGINNER),
             ("blemish", "kameni", "Mark or flaw", "Descriptive Terms", DifficultyLevel.INTERMEDIATE),
             ("spot", "kameni", "Small mark or stain", "Descriptive Terms", DifficultyLevel.INTERMEDIATE),
             
             # Time and duration
-            ("forever and ever", "mindi na mindi", "For all eternity", "Descriptive Terms", DifficultyLevel.ADVANCED),
+            ("forever and ever", "míndí na míndi", "For all eternity", "Descriptive Terms", DifficultyLevel.ADVANCED),
         ]
         
-        # Contextual example phrases extracted from the file
+        # Contextual example phrases extracted from the file (preserving all accented characters)
         contextual_phrases = [
             # Direction examples
-            ("lift up your right hand!", "oya guoko gwaku kwa urio na iguru", "Command with directional reference", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
-            ("hit the rock again", "gutha ihiga ringi", "Action command with repetition", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
-            ("everyone wants to please their boss", "mundu wothe endaga gukenia mumwandiki", "Workplace relationship dynamics", "Professional & Work", DifficultyLevel.ADVANCED),
-            ("a hen will lay an egg", "nguku niikurekia itumbi", "Natural animal behavior", "Nature & Environment", DifficultyLevel.INTERMEDIATE),
-            ("model a pot", "umba nyungu", "Craft instruction", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
-            ("warm the baby's drinking water", "raria mai ma kuhe mwana", "Childcare instruction", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
-            ("run to save yourself", "teng'era withare", "Emergency instruction", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("lift up your right hand!", "oya guoko gwaku kwa úrío na igúrú", "Command with directional reference", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("hit the rock again", "gútha ihiga ríngí", "Action command with repetition", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("everyone wants to please their boss", "múndú wothe endaga gúkenia múmwandíki", "Workplace relationship dynamics", "Professional & Work", DifficultyLevel.ADVANCED),
+            ("a hen will lay an egg", "ngúkú nííkúrekia itumbí", "Natural animal behavior", "Nature & Environment", DifficultyLevel.INTERMEDIATE),
+            ("model a pot", "úmba nyúngú", "Craft instruction", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("warm the baby's drinking water", "raria maí ma kúhe mwana", "Childcare instruction", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("dilute the paint before applying it to the wall", "twekia rangi úcio mbere ya úhake rúthingo", "Home improvement instruction", "Verbs & Actions", DifficultyLevel.ADVANCED),
+            ("we watched the police march all day long", "twíroreire bolrithi magíthoitha múthenya wothe", "Past observation", "Verbs & Actions", DifficultyLevel.ADVANCED),
+            ("the bulb gives a lot of light", "útheri wa ngirobu ní múingí", "Technical description", "Practical Objects", DifficultyLevel.INTERMEDIATE),
+            ("this slope is very steep", "múikúrúko úyú ní múinamu múno", "Geographical description", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
+            ("that bend on the road has a signage", "kona íyo ya bara ína kíbaú", "Traffic observation", "Directions & Geography", DifficultyLevel.INTERMEDIATE),
+            ("if you accept to go you will be paid", "wetíkíra gúthi;i níúkúríhwo", "Conditional agreement", "Verbs & Actions", DifficultyLevel.ADVANCED),
+            ("the chief has postponed the meeting", "cibú níatíria múcemanio", "Administrative announcement", "Professional & Work", DifficultyLevel.ADVANCED),
+            ("run to save yourself", "teng'era wíthare", "Emergency instruction", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
+            ("tilt the bottle to pour water", "inamia cuba maí maitíke", "Practical instruction", "Verbs & Actions", DifficultyLevel.INTERMEDIATE),
             ("kiss the cheek", "mumunya ikai", "Affectionate gesture", "Verbs & Actions", DifficultyLevel.BEGINNER),
-            ("the bell has rung", "ngengere niyahurwo", "Past action description", "Practical Objects", DifficultyLevel.INTERMEDIATE),
-            ("there is peace in the north", "kwina thayu gathigathini ka bururi ucio", "Geographic and political statement", "Directions & Geography", DifficultyLevel.ADVANCED),
-            ("second hand clothes are cheap", "nguo cia mutumba cii raithi", "Economic observation", "Descriptive Terms", DifficultyLevel.INTERMEDIATE),
-            ("that young man is tall", "mwanake ucio ni muraihu", "Physical description", "Descriptive Terms", DifficultyLevel.BEGINNER),
-            ("the road is being widened", "barabara ni-iraramio", "Infrastructure development", "Infrastructure & Buildings", DifficultyLevel.ADVANCED),
-            ("let's cross the bridge when we reach it", "reke turige ndaraca twamikinyira", "Idiomatic expression about timing", "Directions & Geography", DifficultyLevel.ADVANCED),
-            ("the house is beautiful on the inside", "nyumba ni thaka thiinii", "Interior description", "Infrastructure & Buildings", DifficultyLevel.INTERMEDIATE),
-            ("mumps is prevalent among children", "mungai ni unyitaga ciana kainga", "Medical epidemiology", "Medical & Diseases", DifficultyLevel.ADVANCED),
-            ("leprosy is contagious", "mangu ni magwatanagio", "Medical knowledge", "Medical & Diseases", DifficultyLevel.ADVANCED),
-            ("vehicle's wheels are round", "maguru ma ngari ni mathiururi", "Technical description", "Practical Objects", DifficultyLevel.INTERMEDIATE),
+            ("police will arrest any lawbreaker", "borithi nímegúikia ngono muni watho o wothe", "Legal warning", "Legal & Civic Terms", DifficultyLevel.ADVANCED),
+            ("the noose is tight on the pole", "kíana kíu níkírúmu gítingíní", "Technical description", "Practical Objects", DifficultyLevel.ADVANCED),
+            ("the politician is in an expensive suit", "muteti ekíríte thuti ya goro", "Social observation", "Professional & Work", DifficultyLevel.INTERMEDIATE),
+            ("his molar has a cavity", "ikamburu ríake níríenjeku", "Medical description", "Body Parts & Health", DifficultyLevel.INTERMEDIATE),
+            ("a fig tree branch has broken", "rúhonge rwa múkúyú ní reaunika", "Natural observation", "Nature & Environment", DifficultyLevel.INTERMEDIATE),
+            ("Christians believe they will be with Jesus forever and ever", "akristú metíkítie gúgatúrania na Jesú tene na tene", "Religious statement", "Descriptive Terms", DifficultyLevel.ADVANCED),
+            ("the driver has been fired for misconduct", "dereba níabutwo wíra níúndú wa mahítia", "Employment situation", "Professional & Work", DifficultyLevel.ADVANCED),
+            ("the government has bought two million bullets", "thirikari níígúríte rithathi mirioni i'girí", "Government procurement", "Legal & Civic Terms", DifficultyLevel.ADVANCED),
+            ("his case will be determined tomorrow", "ciira wake úgatuo rúciú", "Legal proceeding", "Legal & Civic Terms", DifficultyLevel.INTERMEDIATE),
+            ("he has been incarcerated in prison for ten years", "ohwo njera míaka ikúmi", "Legal consequence", "Legal & Civic Terms", DifficultyLevel.ADVANCED),
+            ("she has bought white clothe without blemish", "agúra nguo njerú ítarí kameni", "Shopping description", "Descriptive Terms", DifficultyLevel.INTERMEDIATE),
+            ("the bell has rung", "ngengere níyahúrwo", "Past action description", "Practical Objects", DifficultyLevel.INTERMEDIATE),
+            ("there is peace in the north of that country", "kwína thayú gathigathini ka búrúri úcio", "Geographic and political statement", "Directions & Geography", DifficultyLevel.ADVANCED),
+            ("second hand clothes are cheap", "nguo cia mútumba cií raithi", "Economic observation", "Descriptive Terms", DifficultyLevel.INTERMEDIATE),
+            ("that young man is tall", "mwanake úcio ní múraihu", "Physical description", "Descriptive Terms", DifficultyLevel.BEGINNER),
+            ("that building is costly to put up", "mwako úcio wí goro kúwaka", "Construction cost assessment", "Infrastructure & Buildings", DifficultyLevel.INTERMEDIATE),
+            ("the road is being widened", "barabara ní-íraramio", "Infrastructure development", "Infrastructure & Buildings", DifficultyLevel.ADVANCED),
+            ("let's cross the bridge when we reach it", "reke túringe ndaraca twamíkinyíra", "Idiomatic expression about timing", "Directions & Geography", DifficultyLevel.ADVANCED),
+            ("the wind is blowing from the south", "rúhuho rúrauma gúthini", "Weather description", "Nature & Environment", DifficultyLevel.INTERMEDIATE),
+            ("the house is beautiful on the inside", "nyumba ní thaka thíinií", "Interior description", "Infrastructure & Buildings", DifficultyLevel.INTERMEDIATE),
+            ("smallpox was completely eradicated", "múrimú wa mútúng'ú niwahukire kaimana", "Medical history", "Medical & Diseases", DifficultyLevel.ADVANCED),
+            ("mumps is prevalent among children", "múngai ní únyitaga ciana kaingí", "Medical epidemiology", "Medical & Diseases", DifficultyLevel.ADVANCED),
+            ("leprosy is contagious", "mangú ní magwatanagio", "Medical knowledge", "Medical & Diseases", DifficultyLevel.ADVANCED),
+            ("vehicle's wheels are round", "magúrú ma ngari ní mathíúrúrí", "Technical description", "Practical Objects", DifficultyLevel.INTERMEDIATE),
         ]
         
         contribution_count = 0
@@ -209,34 +231,42 @@ def create_lughayangu_vocabulary_seed():
             
             contribution_count += 1
         
-        # Create sub-translations for complex phrases and compound words
+        # Create sub-translations for complex phrases and compound words (preserving accented characters)
         complex_phrase_patterns = [
             # Compound directional phrase
-            ("lift up your right hand!", "oya guoko gwaku kwa urio na iguru", [
+            ("lift up your right hand!", "oya guoko gwaku kwa úrío na igúrú", [
                 ("oya", "oya", 0, "Imperative verb - lift/raise"),
                 ("guoko", "guoko", 1, "Hand/arm"),
                 ("gwaku", "gwaku", 2, "Your (possessive)"),
-                ("kwa urio", "kwa urio", 3, "To the right"),
-                ("na iguru", "na iguru", 4, "And upward")
+                ("kwa úrío", "kwa úrío", 3, "To the right"),
+                ("na igúrú", "na igúrú", 4, "And upward")
             ]),
             # Medical compound
-            ("mumps is prevalent among children", "mungai ni unyitaga ciana kainga", [
-                ("mungai", "mungai", 0, "Mumps (disease)"),
-                ("ni", "ni", 1, "Is (copula)"),
-                ("unyitaga", "unyitaga", 2, "Affects/catches"),
+            ("mumps is prevalent among children", "múngai ní únyitaga ciana kaingí", [
+                ("múngai", "múngai", 0, "Mumps (disease)"),
+                ("ní", "ní", 1, "Is (copula)"),
+                ("únyitaga", "únyitaga", 2, "Affects/catches"),
                 ("ciana", "ciana", 3, "Children"),
-                ("kainga", "kainga", 4, "Often/frequently")
+                ("kaingí", "kaingí", 4, "Often/frequently")
             ]),
             # Infrastructure phrase
-            ("the road is being widened", "barabara ni-iraramio", [
+            ("the road is being widened", "barabara ní-íraramio", [
                 ("barabara", "barabara", 0, "Road/highway"),
-                ("ni-iraramio", "ni-iraramio", 1, "Is being widened (passive progressive)")
+                ("ní-íraramio", "ní-íraramio", 1, "Is being widened (passive progressive)")
             ]),
             # Idiomatic expression
-            ("forever and ever", "mindi na mindi", [
-                ("mindi", "mindi", 0, "Forever/eternity"),
+            ("forever and ever", "míndí na míndi", [
+                ("míndí", "míndí", 0, "Forever/eternity"),
                 ("na", "na", 1, "And (conjunction)"),
-                ("mindi", "mindi", 2, "Forever/eternity (repeated for emphasis)")
+                ("míndi", "míndi", 2, "Forever/eternity (repeated for emphasis)")
+            ]),
+            # Government/legal phrase
+            ("the government has bought two million bullets", "thirikari níígúríte rithathi mirioni i'girí", [
+                ("thirikari", "thirikari", 0, "Government"),
+                ("níígúríte", "níígúríte", 1, "Has bought (perfect tense)"),
+                ("rithathi", "rithathi", 2, "Bullets"),
+                ("mirioni", "mirioni", 3, "Million"),
+                ("i'girí", "i'girí", 4, "Two")
             ])
         ]
         
