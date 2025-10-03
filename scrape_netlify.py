@@ -69,7 +69,7 @@ async def main():
   try:
     async with httpx.AsyncClient(follow_redirects=True) as client:
       await scrape(start_url, client)
-    dest = 'raw-data/learn-kikuyu.netlify.app.txt'
+    dest = 'raw-data/learn-kikuyu.netlify.app.json'
     dest_dir = os.path.dirname(dest)
     if dest_dir and not os.path.exists(dest_dir):
       os.makedirs(dest_dir, exist_ok=True)
