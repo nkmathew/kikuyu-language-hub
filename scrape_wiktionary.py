@@ -18,7 +18,8 @@ async def fetch_kikuyu_section(url, client, word):
     try:
         r = await client.get(url, timeout=10)
         console.print(f"[magenta]Status code for {url}:[/magenta] {r.status_code}")
-        console.print(f"[magenta]Response length for {url}:[/magenta] {len(r.text)}")
+        kb_len = len(r.text) / 1024
+        console.print(f"[magenta]Response length for {url}:[/magenta] {kb_len:.2f} KB")
         r.raise_for_status()
     except Exception as e:
         console.print(f"[bold red]Failed to fetch {url}: {e}[/bold red]")
@@ -89,7 +90,7 @@ async def scrape():
             await process_word(href, client, word, idx, len(tasks))
 
 async def process_word(url, client, word, idx=None, total=None):
-    pause = 10 + random.random() * 5
+    pause = 1 + random.random() * 4
     progress = f"[{idx}/{total}] " if idx and total else ""
     console.print(f"[yellow]{progress}Pausing for {pause:.1f} seconds before processing {word}[/yellow]")
     await asyncio.sleep(pause)
