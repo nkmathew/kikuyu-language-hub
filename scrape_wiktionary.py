@@ -48,7 +48,7 @@ async def fetch_kikuyu_section(url, client, word):
         if sib.name == "div" and "mw-heading2" in sib.get("class", []):
             break
         content.append(sib.get_text("\n", strip=True))
-    merged = "\n".join(content).strip()
+    merged = "\n\n".join(content).strip()
     console.print(f"[cyan]Extracted content for {word} (length: {len(merged)})[/cyan]")
     return merged
 
