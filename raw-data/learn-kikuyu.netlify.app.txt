@@ -1,0 +1,600 @@
+[
+  {
+    "url": "https://learn-kikuyu.netlify.app/",
+    "image_src": null,
+    "link": "https://learn-kikuyu.netlify.app/kikuyu-vowels/"
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/",
+    "image_src": null,
+    "link": "https://learn-kikuyu.netlify.app/family/"
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/",
+    "image_src": null,
+    "link": "https://learn-kikuyu.netlify.app/wild-animals/"
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/",
+    "image_src": null,
+    "link": "https://learn-kikuyu.netlify.app/domestic-animals/"
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/",
+    "image_src": null,
+    "link": "https://learn-kikuyu.netlify.app/house-items/"
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/",
+    "image_src": null,
+    "link": "https://learn-kikuyu.netlify.app/foods/"
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/",
+    "image_src": null,
+    "link": "https://learn-kikuyu.netlify.app/numbers/"
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": null,
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/father.jpg",
+    "english": "Father",
+    "kikuyu": "Baba",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/father.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/mother.jpg",
+    "english": "Mother",
+    "kikuyu": "Mami / Maitũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/mother.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/son.jpg",
+    "english": "Son",
+    "kikuyu": "Mũriũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/son.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/daughter.jpg",
+    "english": "Daughter",
+    "kikuyu": "Mwarĩ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/daughter.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/sister.jpg",
+    "english": "Sister",
+    "kikuyu": "Mwarĩ wa nyina",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/sister.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/brother.jpg",
+    "english": "Brother",
+    "kikuyu": "Mũrũ wa nyina",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/brother.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/grandfather.jpg",
+    "english": "Grandfather",
+    "kikuyu": "Guka",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/grandfather.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/grandmother.jpg",
+    "english": "Grandmother",
+    "kikuyu": "Cũcũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/grandmother.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/uncle.jpg",
+    "english": "Uncle",
+    "kikuyu": "Mama",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/uncle.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/aunt.jpg",
+    "english": "Aunt",
+    "kikuyu": "Tata",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/aunt.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/cousin(male).jpg",
+    "english": "Cousin(male)",
+    "kikuyu": "Mũrũ wa tata",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/cousin(male).mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/cousin(female).jpg",
+    "english": "Cousin(female)",
+    "kikuyu": "Mwarĩ wa tata",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/cousin(female).mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/nephew.jpg",
+    "english": "Nephew",
+    "kikuyu": "Mũihwa",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/nephew.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/family/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/family/niece.jpg",
+    "english": "Niece",
+    "kikuyu": "Mũihwa",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/family/niece.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/wild-animals/",
+    "image_src": null,
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/wild-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/lion.jpg",
+    "english": "Lion",
+    "kikuyu": "Mũrũthi",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/lion.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/wild-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/hyena.jpg",
+    "english": "Hyena",
+    "kikuyu": "Hiti",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/hyena.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/wild-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/elephant.jpg",
+    "english": "Elephant",
+    "kikuyu": "Njogu",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/elephant.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/wild-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/rhino.jpg",
+    "english": "Rhino",
+    "kikuyu": "Munyi",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/rhino.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/wild-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/hippo.jpg",
+    "english": "Hippo",
+    "kikuyu": "Nguũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/hippo.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/wild-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/giraffe.jpg",
+    "english": "Giraffe",
+    "kikuyu": "Mũitĩrĩro",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/wildAnimals/giraffe.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": null,
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/house.jpg",
+    "english": "House",
+    "kikuyu": "NyŨmba",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/house.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/clock.jpg",
+    "english": "Clock",
+    "kikuyu": "Thaa",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/clock.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/bed.jpg",
+    "english": "Bed",
+    "kikuyu": "Ũrĩrĩ / Gĩtanda",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/bed.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/chair.jpg",
+    "english": "Chair",
+    "kikuyu": "Gĩtĩ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/chair.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/table.jpg",
+    "english": "Table",
+    "kikuyu": "Metha",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/table.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/tank.jpg",
+    "english": "Tank",
+    "kikuyu": "Itangi",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/tank.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/bottle.jpg",
+    "english": "Bottle",
+    "kikuyu": "Cuba",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/bottle.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/plate.jpg",
+    "english": "Plate",
+    "kikuyu": "Thani",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/plate.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/fork.jpg",
+    "english": "Fork",
+    "kikuyu": "HŨma",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/fork.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/glass.jpg",
+    "english": "Glass",
+    "kikuyu": "Girathi",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/glass.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/pestle.jpg",
+    "english": "Pestle",
+    "kikuyu": "MŨindŨri",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/pestle.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/Mortar.jpg",
+    "english": "Mortar",
+    "kikuyu": "Ndĩrĩ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/Mortar.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/house-items/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/houseItems/bowl.jpg",
+    "english": "Bowl",
+    "kikuyu": "MbakŨri",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/houseItems/bowl.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/kikuyu-vowels/",
+    "image_src": null,
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": null,
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/cat.jpg",
+    "english": "Cat",
+    "kikuyu": "Nyau",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/cat.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/dog.jpg",
+    "english": "Dog",
+    "kikuyu": "Ngui",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/dog.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/chicken.jpg",
+    "english": "Chicken",
+    "kikuyu": "Ngũkũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/chicken.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/goat.jpg",
+    "english": "Goat",
+    "kikuyu": "Mbũri",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/goat.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/cow.jpg",
+    "english": "Cow",
+    "kikuyu": "Ng'ombe",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/cow.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/sheep.jpg",
+    "english": "Sheep",
+    "kikuyu": "Ngo'ndu",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/sheep.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/rabbit.jpg",
+    "english": "Rabbit",
+    "kikuyu": "Mbũkũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/rabbit.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/camel.jpg",
+    "english": "Camel",
+    "kikuyu": "Ngamĩra",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/camel.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/dove.jpg",
+    "english": "Dove",
+    "kikuyu": "Ndutura",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/dove.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/domestic-animals/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/duck.jpg",
+    "english": "Duck",
+    "kikuyu": "Bata",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/dAnimals/duck.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": null,
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/zero.jpg",
+    "english": "Zero",
+    "kikuyu": "kĩbũgũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/zero.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/one.jpg",
+    "english": "One",
+    "kikuyu": "ĩmwe",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/one.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/two.jpg",
+    "english": "Two",
+    "kikuyu": "igĩrĩ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/two.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/three.jpg",
+    "english": "Three",
+    "kikuyu": "ithatũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/three.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/four.jpg",
+    "english": "Four",
+    "kikuyu": "inya",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/four.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/five.jpg",
+    "english": "Five",
+    "kikuyu": "ithano",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/five.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/six.jpg",
+    "english": "Six",
+    "kikuyu": "ithathatũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/six.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/seven.jpg",
+    "english": "Seven",
+    "kikuyu": "mũgwanja",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/seven.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/eight.jpg",
+    "english": "Eight",
+    "kikuyu": "inyanya",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/eight.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/nine.jpg",
+    "english": "Nine",
+    "kikuyu": "kenda",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/nine.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/numbers/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/numbers/ten.jpg",
+    "english": "Ten",
+    "kikuyu": "ikũmi",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/numbers/ten.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": null,
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/milk.jpg",
+    "english": "Milk",
+    "kikuyu": "iria",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/milk.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/meat.jpg",
+    "english": "Meat",
+    "kikuyu": "nyama",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/meat.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/beans.jpg",
+    "english": "Beans",
+    "kikuyu": "mboco",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/beans.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/maize.jpg",
+    "english": "Maize",
+    "kikuyu": "mbembe",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/maize.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/greengrams.jpg",
+    "english": "Greengrams",
+    "kikuyu": "ndengũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/greengrams.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/ugali.jpg",
+    "english": "Ugali",
+    "kikuyu": "ngima",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/ugali.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/pineapple.jpg",
+    "english": "Pineapple",
+    "kikuyu": "inanathi",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/pineapple.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/banana.jpg",
+    "english": "Banana",
+    "kikuyu": "irigũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/banana.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/orange.jpg",
+    "english": "Orange",
+    "kikuyu": "icungwa",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/orange.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/mango.jpg",
+    "english": "Mango",
+    "kikuyu": "iembe",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/mango.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/lemon.jpg",
+    "english": "Lemon",
+    "kikuyu": "ndimũ",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/lemon.mp3",
+    "link": null
+  },
+  {
+    "url": "https://learn-kikuyu.netlify.app/foods/",
+    "image_src": "https://learn-kikuyu.netlify.app/assets/food/avocado.jpg",
+    "english": "Avocado",
+    "kikuyu": "ikondo",
+    "audio_src": "https://learn-kikuyu.netlify.app/assets/food/avocado.mp3",
+    "link": null
+  }
+]
