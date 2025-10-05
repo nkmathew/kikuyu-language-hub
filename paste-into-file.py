@@ -123,13 +123,11 @@ button_frame.pack(fill="x", pady=(0, 10))
 choose_btn = ttk.Button(button_frame, text="Choose Folder", command=choose_folder)
 choose_btn.pack(side="left", padx=(0, 10))
 paste_btn = ttk.Button(button_frame, text="Write to File", command=paste_clipboard, width=20)
-paste_btn.pack(side="left")
-
-current_index_label = ttk.Label(main_frame, textvariable=current_index_var, style="TLabel")
-current_index_label.pack(pady=(0, 5))
-
-file_count_label = ttk.Label(main_frame, textvariable=file_count_var, style="TLabel")
-file_count_label.pack(pady=(0, 5))
+paste_btn.pack(side="left", padx=(0, 10))
+current_index_label = ttk.Label(button_frame, textvariable=current_index_var, style="TLabel")
+current_index_label.pack(side="left", padx=(0, 10))
+file_count_label = ttk.Label(button_frame, textvariable=file_count_var, style="TLabel")
+file_count_label.pack(side="left")
 
 preview_frame = ttk.Frame(main_frame, style="TFrame")
 preview_frame.pack(fill="both", expand=True)
