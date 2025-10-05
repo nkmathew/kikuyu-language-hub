@@ -4,6 +4,10 @@ import os
 import json
 from tkinter import messagebox
 import hashlib
+import platform
+
+if platform.system() == "Windows":
+    import winsound
 
 CONFIG_DIR = os.path.join(os.path.expanduser('~'), '.config')
 CONFIG_PATH = os.path.join(CONFIG_DIR, 'paste_config.json')
@@ -108,6 +112,9 @@ def paste_clipboard():
         f.write(trimmed_text)
     hashes.add(h)
     save_hashes(hashes)
+    # Play sound after writing file
+    if platform.system() == "Windows":
+        winsound.MessageBeep(winsound.MB_OK)
     root.clipboard_clear()
     preview_text.config(state="normal")
     preview_text.delete("1.0", tk.END)
