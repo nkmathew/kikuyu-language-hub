@@ -89,6 +89,13 @@ def paste_clipboard():
     update_preview()
 
 
+def on_button_hover(event):
+    event.widget.state(['active'])
+
+def on_button_leave(event):
+    event.widget.state(['!active'])
+
+
 # Center window on start
 def center_window(win, width=600, height=None):
     win.update_idletasks()
@@ -106,6 +113,10 @@ center_window(root)
 style = ttk.Style(root)
 style.theme_use("clam")
 style.configure("TButton", foreground="white", background="#333333")
+style.map("TButton",
+    background=[("active", "#444444"), ("!active", "#333333")],
+    foreground=[("active", "white"), ("!active", "white")]
+)
 style.configure("TLabel", foreground="white", background="#222222")
 style.configure("Preview.TLabel", foreground="white", background="#181818", font=("Segoe UI", 11))
 root.configure(bg="#222222")
@@ -120,10 +131,14 @@ folder_label.pack(fill="x", pady=(0, 5))
 
 button_frame = ttk.Frame(main_frame, style="TFrame")
 button_frame.pack(fill="x", pady=(0, 10))
-choose_btn = ttk.Button(button_frame, text="Choose Folder", command=choose_folder)
+choose_btn = ttk.Button(button_frame, text="Choose Folder", command=choose_folder, style="TButton")
 choose_btn.pack(side="left", padx=(0, 10))
-paste_btn = ttk.Button(button_frame, text="Write to File", command=paste_clipboard, width=20)
+choose_btn.bind("<Enter>", on_button_hover)
+choose_btn.bind("<Leave>", on_button_leave)
+paste_btn = ttk.Button(button_frame, text="Write to File", command=paste_clipboard, width=20, style="TButton")
 paste_btn.pack(side="left", padx=(0, 10))
+paste_btn.bind("<Enter>", on_button_hover)
+paste_btn.bind("<Leave>", on_button_leave)
 current_index_label = ttk.Label(button_frame, textvariable=current_index_var, style="TLabel")
 current_index_label.pack(side="left", padx=(0, 10))
 file_count_label = ttk.Label(button_frame, textvariable=file_count_var, style="TLabel")

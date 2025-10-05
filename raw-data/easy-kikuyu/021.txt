@@ -1,0 +1,13 @@
+```
+Counting in Noun Classes 1, 2, 3 and 4
+
+Noun Class | Object | Numbers
+:---:|:---:|:---:
+| | | 1 Ĩmwe | 2 Ĩgĩrĩ | 3 Ĩthatũ | 4 Ĩnya | 5 Ĩtano | 6 Ĩthatatũ | 7 Mũgwanja | 8 Ĩnyanya | 9 Kenda | 10 Ĩkũmi
+1 | Mũndũ | Ũmwe | Andũ erĩ | Atatũ | Ana | Atano | Atandatũ | Mũgwanja | Anana | kenda | Ĩkũmi
+2 | Mĩtĩ | Ũmwe | Mĩtĩ ĩrĩĩ | Ĩtatũ | Ĩna | Ĩtano | Ĩtandatũ | Mũgwanja | Ĩnana | kenda | Ĩkũmi
+3 | Ngombe | Ĩmwe | Ngombe ĩgĩrĩ | Ĩthatũ | Ĩnya | Ĩtano | Ĩthatatũ | Mũgwanja | Ĩnyanya | Kenda | Ĩkũmi
+4 | Gĩkombe | Kĩmwe | Ĩkombe ĩgĩrĩ | Ĩthatũ | Ĩnya | Ĩtano | Ĩthatatũ | Mũgwanja | Ĩnyanya | Kenda | Ĩkũmi
+
+© Emmanuel Kariuki | Learn Kikuyu – Wĩrute Gĩkũyũ - Jifunze Kikuyu
+```
