@@ -44,6 +44,12 @@ def get_next_filename(directory):
     next_num = max(numbers) + 1 if numbers else 1
     return os.path.join(directory, f"{next_num:03}.txt"), next_num
 
+def get_file_count(directory):
+    if not os.path.exists(directory):
+        return 0
+    return len([f for f in os.listdir(directory) if f.endswith('.txt')])
+
+file_count_var = tk.StringVar(value=f"File count: {get_file_count(save_folder_path)}")
 
 def choose_folder():
     global save_folder_path
@@ -52,6 +58,7 @@ def choose_folder():
         save_folder_path = folder
         save_folder(folder)
         folder_var.set(f"Save folder: {folder}")
+        file_count_var.set(f"File count: {get_file_count(save_folder_path)}")
 
 
 def update_preview():
@@ -78,6 +85,7 @@ def paste_clipboard():
     preview_text.delete("1.0", tk.END)
     preview_text.config(state="disabled")
     current_index_var.set(f"Current index: {idx:03}")
+    file_count_var.set(f"File count: {get_file_count(save_folder_path)}")
     update_preview()
 
 
@@ -108,15 +116,20 @@ main_frame.configure(style="TFrame")
 style.configure("TFrame", background="#222222")
 
 folder_label = ttk.Label(main_frame, textvariable=folder_var, style="TLabel")
-folder_label.pack(pady=(0, 5))
-choose_btn = ttk.Button(main_frame, text="Choose Folder", command=choose_folder)
-choose_btn.pack(pady=(0, 10))
+folder_label.pack(fill="x", pady=(0, 5))
 
-paste_btn = ttk.Button(main_frame, text="Paste", command=paste_clipboard, width=20)
-paste_btn.pack(pady=(0, 10))
+button_frame = ttk.Frame(main_frame, style="TFrame")
+button_frame.pack(fill="x", pady=(0, 10))
+choose_btn = ttk.Button(button_frame, text="Choose Folder", command=choose_folder)
+choose_btn.pack(side="left", padx=(0, 10))
+paste_btn = ttk.Button(button_frame, text="Write to File", command=paste_clipboard, width=20)
+paste_btn.pack(side="left")
 
 current_index_label = ttk.Label(main_frame, textvariable=current_index_var, style="TLabel")
 current_index_label.pack(pady=(0, 5))
+
+file_count_label = ttk.Label(main_frame, textvariable=file_count_var, style="TLabel")
+file_count_label.pack(pady=(0, 5))
 
 preview_frame = ttk.Frame(main_frame, style="TFrame")
 preview_frame.pack(fill="both", expand=True)
