@@ -35,7 +35,7 @@ def get_next_filename(directory):
         except ValueError:
             continue
     next_num = max(numbers) + 1 if numbers else 1
-    return os.path.join(directory, f"{next_num}.txt")
+    return os.path.join(directory, f"{next_num:03}.txt")
 
 
 def choose_folder():
