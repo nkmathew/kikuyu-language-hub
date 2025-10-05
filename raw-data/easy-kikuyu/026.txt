@@ -1,0 +1,11 @@
+```
+Kikuyu Noun Classes 1, 2, 3 and 4
+The first column has the adjectives. The second row has nouns.
+Adjectives | Noun Class 1 | Noun Class 2 | Noun Class 3 | Noun Class 4
+:---:|:---:|:---:|:---:|:---:
+| Mwana | Mũrango | Njamba | Gĩtĩ
+Dead | Mũkũũ | Mũkũũ | ngũũ | Gĩkũũ
+Soft | Mwororo | Mwororo | Njororo | Kĩororo
+Poor | Mũthĩni | Mũthĩni | Thĩni | Gĩthĩni
+rich | Mũtongu | Mũtongu | Ndongu | Gĩtongu
+```

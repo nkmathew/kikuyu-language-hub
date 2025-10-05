@@ -3,9 +3,11 @@ from tkinter import ttk, filedialog
 import os
 import json
 from tkinter import messagebox
+import hashlib
 
 CONFIG_DIR = os.path.join(os.path.expanduser('~'), '.config')
 CONFIG_PATH = os.path.join(CONFIG_DIR, 'paste_config.json')
+HASHES_PATH = os.path.join(CONFIG_DIR, 'paste_hashes.json')
 
 def load_folder():
     if os.path.exists(CONFIG_PATH):
@@ -22,7 +24,26 @@ def save_folder(path):
     with open(CONFIG_PATH, 'w', encoding='utf-8') as f:
         json.dump({'save_folder': path}, f)
 
+def load_hashes():
+    if os.path.exists(HASHES_PATH):
+        try:
+            with open(HASHES_PATH, 'r', encoding='utf-8') as f:
+                return set(json.load(f))
+        except Exception:
+            pass
+    return set()
+
+def save_hashes(hashes):
+    os.makedirs(CONFIG_DIR, exist_ok=True)
+    with open(HASHES_PATH, 'w', encoding='utf-8') as f:
+        json.dump(list(hashes), f)
+
+def hash_text(text):
+    # Trim and encode before hashing
+    return hashlib.sha256(text.strip().encode('utf-8')).hexdigest()
+
 save_folder_path = load_folder()
+hashes = load_hashes()
 
 root = tk.Tk()
 root.title("Paste into File")
@@ -74,12 +95,19 @@ def update_preview():
 
 def paste_clipboard():
     text = root.clipboard_get()
-    if not text.strip():
+    trimmed_text = text.strip()
+    if not trimmed_text:
         messagebox.showwarning("Empty Clipboard", "Clipboard is empty or not text.")
+        return
+    h = hash_text(trimmed_text)
+    if h in hashes:
+        messagebox.showwarning("Duplicate Detected", "This content has already been pasted before.")
         return
     filename, idx = get_next_filename(save_folder_path)
     with open(filename, "w", encoding="utf-8") as f:
-        f.write(text)
+        f.write(trimmed_text)
+    hashes.add(h)
+    save_hashes(hashes)
     root.clipboard_clear()
     preview_text.config(state="normal")
     preview_text.delete("1.0", tk.END)
