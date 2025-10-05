@@ -41,14 +41,16 @@ def paste_clipboard():
 root = tk.Tk()
 root.title("Paste into File")
 
-# Center window
-window_width = 400
-window_height = 200
-screen_width = root.winfo_screenwidth()
-screen_height = root.winfo_screenheight()
-x = (screen_width // 2) - (window_width // 2)
-y = (screen_height // 2) - (window_height // 2)
-root.geometry(f"{window_width}x{window_height}+{x}+{y}")
+# Center window on start
+def center_window(win, width=600, height=400):
+    win.update_idletasks()
+    screen_width = win.winfo_screenwidth()
+    screen_height = win.winfo_screenheight()
+    x = (screen_width // 2) - (width // 2)
+    y = (screen_height // 2) - (height // 2)
+    win.geometry(f"{width}x{height}+{x}+{y}")
+
+center_window(root)
 
 # Dark theme
 style = ttk.Style(root)
@@ -58,14 +60,16 @@ style.configure("TLabel", foreground="white", background="#222222")
 root.configure(bg="#222222")
 
 main_frame = ttk.Frame(root, padding=20)
-main_frame.pack(expand=True)
+main_frame.pack(expand=True, fill="both")
+main_frame.configure(style="TFrame")
+style.configure("TFrame", background="#222222")
 
 paste_btn = ttk.Button(main_frame, text="Paste", command=paste_clipboard, width=20)
 paste_btn.pack(pady=(0, 10))
 
 preview_var = tk.StringVar()
-preview_label = ttk.Label(main_frame, textvariable=preview_var, wraplength=350, anchor="center", justify="center")
-preview_label.pack(fill="x")
+preview_label = ttk.Label(main_frame, textvariable=preview_var, wraplength=350, anchor="center", justify="center", style="TLabel")
+preview_label.pack(fill="both", expand=True)
 
 update_preview()
 root.after(1000, update_preview)  # Update preview every second
