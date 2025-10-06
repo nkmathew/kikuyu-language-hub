@@ -1,0 +1,118 @@
+Based on the uploaded images, here is a comprehensive summary of the Kikuyu lessons covering basic phrases, grammar, vocabulary, and proverbs.
+
+## Kikuyu Language Summary: Lessons from the Uploaded Files
+
+---
+
+## 1. Grammar and Sentence Structure
+
+### A. Personal Pronouns and Greetings
+
+Common greetings and personal identifiers:
+
+| Kikuyu Phrase | English Translation | Notes |
+|:---|:---|:---|
+| **Ko ko ko** | (someone knocking at the door) | |
+| **Nũũ ?** | Who is it? | |
+| **Nĩ nĩĩ** | It is me | |
+| **Nĩ we ũ ?** | Who are you? | |
+| **Wee wĩ mũgeni** | You are a visitor | |
+| **Ĩĩ ndĩ mũgeni** | Yes I am a visitor | |
+| **Thĩĩ na wega** | Go in peace | A common farewell. |
+| **Njitagwo Njeri** | My name is Njeri | |
+| **Njeri wa ũ ?** | Whose Njeri (who is your father)? | A traditional way of asking for lineage. |
+
+### B. Future Tenses (Later Today vs. Tomorrow)
+
+The future tense is marked by two prefixes: **-kũ-** for the **near future** ("later today") and **-ka-** for the **distant future** ("tomorrow" or later).
+
+| Action | Near Future (Later Today) | Distant Future (Tomorrow) |
+|:---|:---|:---|
+| to make a distress sound | Atumia nĩ **mekũ-uga mbu** mona mũici | Atumia nĩ **makã-uga mbu** mona mũici |
+| to whistle | Wee nĩ **ũkũ-huha mĩruri** ũtũkũ | Wee nĩ **ũka-huha mĩruri** ũtũkũ |
+| to make a sound | Ngengere nĩ **ikũ-gamba** | Ngengere nĩ **ika-gamba** |
+| to sing | Tũkũ-ina karwĩmbo kega | Tũka-ina karwĩmbo kega |
+
+### C. Conjunctions
+
+In Kikuyu, complete phrases often act as conjunctions, with single-word exceptions like **na** (and).
+
+| English | Kikuyu Word/Phrase | Example |
+|:---|:---|:---|
+| **And** | **na** | Nĩ marĩaga ngũrũwe **na** makanyua njohi (They eat pork **and** they drink beer). |
+| **But** | **no** | Nĩ mathakaga **no** matinaga (They play **but** they do not dance). |
+| **Or** | **kana** | No woye karamu **kana** ibuku (You can take a pen **or** a book). |
+| **Because** | **tondũ wa...** (niamu...) | |
+| **After** | **thutha wa...** | |
+| **Although** | **ona gũtũĩka...** | |
+
+### D. Noun Class 4 (Kĩ-/Gĩ- in Singular)
+
+Kikuyu Class 4 nouns use the prefixes **Kĩ-** or **Gĩ-** in the singular and **Ci-** or **I-** in the plural. This class includes mostly man-made objects and some animals or "disrespected" humans.
+
+| Singular Noun | Plural Noun | English Meaning |
+|:---|:---|:---|
+| **Gĩkombe** | **Ikombe** | cup |
+| **Gĩtĩ** | **Itĩ** | seat/chair |
+| **Kĩhĩĩ** | **Ĩhĩĩ** (implied) | young boy |
+| **Kĩng'ang'i** | **Ĩng'ang'i** (implied) | Crocodile |
+
+---
+
+## 2. Vocabulary
+
+### A. Consonant Sounds and Examples
+
+| Consonant | Example Sentence | English Translation |
+|:---|:---|:---|
+| **g** | **G**uka **g**ucia **g**uoko **g**akwa | Grandfather, pull my hand. |
+| **h** | **H**u**h**a mwaki wa**h**ota | Blow the fire if you can. |
+| **k** | **K**airĩtu **k**ena **k**aramu | The girl has a pen. |
+| | **Kana** **kona** **kora** **kora** | The child saw a frog and ran away. |
+
+### B. Light and Darkness
+
+| Kikuyu Word | English Translation | Sources of Light |
+|:---|:---|:---|
+| **Ũtheri** | light | **Ũtheri wa rĩũa** (Sun light) |
+| **Nduma** | Darkness | **Ũtheri wa thitima** (Electric light) |
+| | | **Ũtheri wa mũcũmaa** (Light from a candle) |
+
+### C. Traditional Kikuyu Terms
+
+The list of traditional names or terms (**Marigũ ma Mũgĩkũyũ**) includes:
+
+* Gacukari, Gathumo, Gatumia, Kambara, Kĩbuda, Kĩganda
+* Mbiri, Mũraru, Mũtahato, Mũtore
+* Njuru (gacuru, mũcũru), Nyoro, Wanga'e
+
+### D. Jobs and Professions
+
+| Kikuyu Role | English Translation | Work Description |
+|:---|:---|:---|
+| **Mũndĩ** (Nĩĩ Ndĩ mũndĩ) | Handyman (carpenter, plumber etc.) | Ndũtaga wĩra wa mbao (I work with timber) |
+| **Mũrĩmi** (Wee wĩ mũrĩmi) | Farmer | Ũrũtaga wĩra wa mũgũnda (You work in a farm) |
+| **Borithi** (O nĩ borithi) | Police (men/women) | Mũrutaga wĩra wa kũnyita andũ (Their work is to arrest people) |
+| **Mũhũrĩri wa mbica** | Photographer | |
+| **Mũgũĩmi** | Hunter | |
+
+---
+
+## 3. Proverbs and Stories
+
+### A. Proverb on Saving
+
+| Kikuyu Proverb | English Translation | Vocabulary |
+|:---|:---|:---|
+| **Wĩĩgĩire ndahũtaga** | He/she that has saved something does not starve. | **Kũĩga** (to keep, store), **Ng'aragu** (Hunger), **Kũhũta** (to be hungry). |
+| **Lesson** | Make a habit of saving for hard times. | |
+
+### B. Proverb on Intentions
+
+| Kikuyu Proverb | Literal Translation | Underlying Meaning |
+|:---|:---|:---|
+| **Mũthua ngoro ti Mũthua Kũgũrũ** | Person with lame **heart** is not same as person with lame **leg**. | It is not easy to know one with **ill mind**. |
+
+### C. Short Story Excerpt (Wambũĩ Mĩcore na Thigiriri)
+
+The short story (**Karũgano**) of the Zebra and Black Ant begins by establishing their close friendship (**ciarĩ ũrata mũno**). The Zebra (**Wambũĩ**) would travel a long journey (**rũgendo rũraihu**) to visit the Black Ant (**Thigiriri**), but the ant was too small (**nini mũno**) to visit the Zebra often (**kaĩngĩ**).

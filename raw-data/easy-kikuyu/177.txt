@@ -1,0 +1,36 @@
+This is a great exercise! I can certainly help you write those Kikuyu sentences.
+
+You need to write sentences in Kikuyu stating what the people listed in numbers 1 to 6 do, using the specified verbs. The example structure is: **(Pronoun) arutaga wīra wa (verb)**.
+
+Here are the sentences, following the structure and using the correct verb and subject for each number:
+
+1.  **(Nii) Ndī mūhūri wa mbica** (I am a photographer) $\rightarrow$ **Ndīrutaga wīra wa gūhūra mbica** (I work to take photos)
+2.  **(Wee) wī mūgŵīmi** (You are a hunter) $\rightarrow$ **Ūrutaga wīra wa kūgŵīma** (You work to hunt)
+3.  **(We) nī mūriīthia wa mahiū** (He/she is a herder) $\rightarrow$ **Arutaga wīra wa kūrīīthia** (He/she works to herd)
+4.  **(Inyuĩ) mwĩ aturi** (You are iron mongers) $\rightarrow$ **Mūrūtaga wīra wa gūtura** (You work to forge/smelt)
+5.  **(O) nĩ ombi a nyũngũ** (They are potters) $\rightarrow$ **Marutaga wīra wa kūūmba** (They work to mold/make pots)
+6.  **(Ūyū) nī mūgo** (This is a medicine person) $\rightarrow$ **Arutaga wīra wa kūragūra** (He/she works to heal/practice divination)
+
+***
+
+## Breakdown of the Sentences
+
+| Number | Job Description (Kikuyu) | Verb Provided | Action Sentence (Kikuyu) | English Translation |
+| :--- | :--- | :--- | :--- | :--- |
+| **1.** | Nī̄ mūhūri wa mbica | **Gūhūra** (to hit, to take a photo) | **Ndīrutaga wīra wa gūhūra mbica** | I work to take photos. |
+| **2.** | Wī mūgŵīmi | **Kūgŵīma** (to hunt) | **Ūrutaga wīra wa kūgŵīma** | You work to hunt. |
+| **3.** | Nī mūriīthia wa mahiū | **Kūrīīthia** (to herd) | **Arutaga wīra wa kūrīīthia** | He/she works to herd. |
+| **4.** | Mwĩ aturi | **Gūtura** (to forge/smelt metal) | **Mūrūtaga wīra wa gūtura** | You (plural) work to forge. |
+| **5.** | Nĩ ombi a nyũngũ | **Kūūmba** (to mold/shape clay) | **Marutaga wīra wa kūūmba** | They work to mold/make pots. |
+| **6.** | Nī mūgo | **Kūragūra** (to treat/heal/divine) | **Arutaga wīra wa kūragūra** | He/she works to heal/treat. |
+
+***
+
+**Key Grammar Note:**
+
+* The verb structure used is **(Pronoun prefix)-rutaga wīra wa (Infinitive Verb)**, which means "(Pronoun) works to (Verb)".
+    * **Ndīrutaga** (I work) - from **Nii** (I)
+    * **Ūrutaga** (You work) - from **Wee** (You singular)
+    * **Arutaga** (He/She works) - from **We** (He/She) or **Ūyū** (This person)
+    * **Mūrūtaga** (You plural work) - from **Inyuĩ** (You plural)
+    * **Marutaga** (They work) - from **O** (They)

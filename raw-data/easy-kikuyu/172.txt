@@ -1,0 +1,77 @@
+You've provided two images for a Kikuyu language lesson: one on **Parts of the Body** and one on **Kikuyu Noun Classes (Class 4 and Diminutive Class)**.
+
+Here is the information from both images presented clearly in separate tables and sections.
+
+***
+
+## 1. Kikuyu Noun Classes
+
+This lesson covers **Noun Class 4 (Gĩ/Ĩ; Kĩ/Ĩ)** and the **Diminutive Class (Ga/tũ; Ka/tũ)**, which are used to categorize nouns and conjugate adjectives.
+
+### Noun Class 4 (Gĩ/Ĩ; Kĩ/Ĩ)
+
+This class typically includes objects (often man-made) and sometimes nouns for humans or animals that are "disrespected" or viewed as less significant.
+
+| Singular Noun Class (Kĩ-/Gĩ-) | Plural Noun Class (Ĩ-/Ci-) | English Translation |
+|:---|:---|:---|
+| **Gĩkombe gĩkĩ kĩnene** | **Ĩkombe ĩcĩ nene** | These big cups |
+| **Gĩtarũrũ gĩkĩ kĩnene** | **Ĩtarũrũ ĩcĩ nene** | These big woven trays |
+| **Kĩhĩĩ gĩkĩ kĩnene** | **Ĩhĩĩ ĩcĩ nene** | These big young boys |
+| **Kĩgunyũ gĩkĩ kĩnene** | **Ĩgunyũ ĩcĩ nene** | These big worms |
+| **Gĩthaka gĩkĩ kĩnene** | **Ĩthaka ĩcĩ nene** | These big bushy lands |
+
+---
+
+### Diminutive Class (Ga/tũ; Ka/tũ)
+
+This class is used for **diminutive** nouns (making things sound small).
+
+| Singular Noun Class (Ga-/Ka-) | Plural Noun Class (tũ-) | English Translation |
+|:---|:---|:---|
+| **Gakombe gaka kega** | **tũkombe tũtũ twega** | These nice small cups |
+| **Gatarũrũ gaka karĩĩ** | **tũtarũrũ tũtũ twarĩĩ** | These wide small woven trays |
+| **Kahĩĩ gakĩ gaceke** | **tũhĩĩ tũtũ tũceke** | These slim small boys |
+| **Gacangirĩ gaka koru** | **tũcangirĩ tũtũ tũũrũ** | These bad small plates |
+| **Gategwa gaka kairũ** | **tũtegwa tũtũ tĩĩrũ** | These dark small lambs |
+| **Kanyoni gaka gathaka** | **tũnyoni tũtũ tũthaka** | These beautiful small birds |
+
+| Extra Vocabulary Provided | |
+|:---|:---|
+| **Mbarathi** - horse | **Njũrũ** - bad |
+| **Njogu** - Elephant | **Thaka** - beautiful |
+| **Njangirĩ** - Outcast | **gaceke** - slim |
+| **Nyoni** - bird | **Karĩĩ** - wide |
+
+***
+
+## 2. Parts of the Body (Cĩuga cia mwĩrĩ) (Week Four)
+
+This table lists the parts of the body, including the Kikuyu singular and plural forms:
+
+| English | Kikuyu (Singular/Plural) |
+|:----------|:---------------------------|
+| **head** | Mũtwee/ Mîtwe |
+| **hair** | Njũrĩrĩ/ Njũîrĩ |
+| **eyebrow** | Rũbutu/ Mbutu |
+| **eye** | Riitho/ Maitho |
+| **ear** | Gũtũ/ Matũ |
+| **nose** | Inĩũrũ/ Manĩũrũ |
+| **mouth** | Kanua / Tũnua |
+| **teeth** | Igego/Magego |
+| **lips** | Kîromo/ Iromo |
+| **chin** | Kĩreru/ Ireru |
+| **neck** | Ngingo/ Ngingo |
+| **chest** | Gĩthũri/ Îthũri |
+| **shoulder** | Kĩande/ Ciande |
+| **arm** | Guoko/ Moko |
+| **stomach** | Nda/ Nda |
+| **hand** | Rũhĩ/ Hĩ |
+| **waist** | Njohero/ Njohero |
+| **knee** | Îru/ Maru |
+| **fingers** | Kĩara/ Twara |
+| **leg** | Kũgũrũ/ Magũrũ |
+| **foot** | Ikĩnya/ Makĩnya |
+| **toes** | Kĩara/ Twara |
+
+***
+*The vertical text on both images reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.***
