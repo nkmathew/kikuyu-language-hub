@@ -55,6 +55,27 @@ root.title("Paste into File")
 current_index_var = tk.StringVar(value="Current index: ")
 folder_var = tk.StringVar(value=f"Save folder: {save_folder_path}")
 preview_var = tk.StringVar()
+status_var = tk.StringVar(value="")
+
+status_label = ttk.Label(root, textvariable=status_var, anchor="center", font=("Segoe UI", 13), style="TLabel")
+status_label.pack(fill="x", pady=(5, 0))
+
+def flash_status(text, color="#ff2222"):
+    status_label.config(font=("Segoe UI", 16, "bold"))
+    status_label.config(foreground=color)
+    status_var.set(text)
+    status_label.pack(fill="x", pady=(5, 0))
+    def flash(count=0):
+        if count < 6:
+            status_label.config(foreground=color if count % 2 == 0 else "#222222")
+            root.after(200, lambda: flash(count+1))
+        else:
+            status_label.config(foreground=color)
+    flash()
+
+def hide_status():
+    status_var.set("")
+    status_label.pack_forget()
 
 def get_next_filename(directory):
     os.makedirs(directory, exist_ok=True)
@@ -74,7 +95,18 @@ def get_file_count(directory):
         return 0
     return len([f for f in os.listdir(directory) if f.endswith('.txt')])
 
+def get_line_count(directory):
+    count = 0
+    if not os.path.exists(directory):
+        return 0
+    for fname in os.listdir(directory):
+        if fname.endswith('.txt'):
+            with open(os.path.join(directory, fname), encoding='utf-8') as f:
+                count += sum(1 for _ in f)
+    return count
+
 file_count_var = tk.StringVar(value=f"File count: {get_file_count(save_folder_path)}")
+line_count_var = tk.StringVar(value="Line count: 0")
 
 def choose_folder():
     global save_folder_path
@@ -84,6 +116,7 @@ def choose_folder():
         save_folder(folder)
         folder_var.set(f"Save folder: {folder}")
         file_count_var.set(f"File count: {get_file_count(save_folder_path)}")
+        line_count_var.set(f"Line count: {get_line_count(save_folder_path)}")
 
 
 def update_preview():
@@ -93,7 +126,25 @@ def update_preview():
         text = ""
     preview_text.config(state="normal")
     preview_text.delete("1.0", tk.END)
-    preview_text.insert(tk.END, text if text else "(Clipboard empty)", "left")
+    preview_text.tag_delete("strike")
+    preview_text.tag_delete("green")
+    lines = text.strip().splitlines() if text else []
+    line_count_var.set(f"Line count: {len(lines)}")
+    hide_status()
+    if text:
+        trimmed_text = text.strip()
+        h = hash_text(trimmed_text)
+        if trimmed_text and h in hashes:
+            preview_text.insert(tk.END, trimmed_text, ("left", "strike"))
+            preview_text.config(bg="#2a2a2a")
+            preview_text.tag_configure("strike", foreground="#ff2222", font=("Segoe UI", 11, "overstrike", "bold"))
+        else:
+            preview_text.insert(tk.END, text, ("left", "green"))
+            preview_text.config(bg="#181818")
+            preview_text.tag_configure("green", foreground="#44ff44", font=("Segoe UI", 11))
+    else:
+        preview_text.insert(tk.END, "(Clipboard empty)", "left")
+        preview_text.config(bg="#2a2a2a")
     preview_text.config(state="disabled")
 
 
@@ -101,26 +152,37 @@ def paste_clipboard():
     text = root.clipboard_get()
     trimmed_text = text.strip()
     if not trimmed_text:
-        messagebox.showwarning("Empty Clipboard", "Clipboard is empty or not text.")
+        status_label.config(font=("Segoe UI", 13))
+        status_label.config(foreground="#cccccc")
+        status_var.set("Clipboard is empty or not text.")
+        status_label.pack(fill="x", pady=(5, 0))
         return
     h = hash_text(trimmed_text)
     if h in hashes:
-        messagebox.showwarning("Duplicate Detected", "This content has already been pasted before.")
+        flash_status("DUPLICATE!", color="#ff2222")
+        preview_text.config(state="normal")
+        preview_text.delete("1.0", tk.END)
+        preview_text.config(bg="#2a2a2a")
+        preview_text.config(state="disabled")
+        line_count_var.set("Line count: 0")
         return
     filename, idx = get_next_filename(save_folder_path)
     with open(filename, "w", encoding="utf-8") as f:
         f.write(trimmed_text)
     hashes.add(h)
     save_hashes(hashes)
-    # Play sound after writing file
     if platform.system() == "Windows":
         winsound.MessageBeep(winsound.MB_OK)
-    root.clipboard_clear()
     preview_text.config(state="normal")
     preview_text.delete("1.0", tk.END)
     preview_text.config(state="disabled")
     current_index_var.set(f"Current index: {idx:03}")
     file_count_var.set(f"File count: {get_file_count(save_folder_path)}")
+    line_count_var.set("Line count: 0")
+    status_label.config(font=("Segoe UI", 13))
+    status_label.config(foreground="#44ff44")
+    status_var.set("Saved successfully.")
+    status_label.pack(fill="x", pady=(5, 0))
     update_preview()
 
 
@@ -178,6 +240,8 @@ current_index_label = ttk.Label(button_frame, textvariable=current_index_var, st
 current_index_label.pack(side="left", padx=(0, 10))
 file_count_label = ttk.Label(button_frame, textvariable=file_count_var, style="TLabel")
 file_count_label.pack(side="left")
+line_count_label = ttk.Label(button_frame, textvariable=line_count_var, style="TLabel")
+line_count_label.pack(side="left", padx=(10, 0))
 
 preview_frame = ttk.Frame(main_frame, style="TFrame")
 preview_frame.pack(fill="both", expand=True)
@@ -189,6 +253,17 @@ preview_text = tk.Text(preview_frame, wrap="word", font=("Segoe UI", 11), bg="#1
 preview_text.pack(fill="both", expand=True)
 preview_text.tag_configure("left", justify="left")
 preview_scrollbar.config(command=preview_text.yview)
+
+# Move status bar below preview box
+status_var = tk.StringVar(value="")
+status_label = ttk.Label(preview_frame, textvariable=status_var, anchor="center", font=("Segoe UI", 13), style="TLabel")
+status_label.pack(fill="x", pady=(5, 0))
+
+# Add click-to-refresh clipboard preview
+def on_preview_click(event):
+    update_preview()
+
+preview_text.bind("<Button-1>", on_preview_click)
 
 update_preview()
 root.after(1000, update_preview)  # Update preview every second

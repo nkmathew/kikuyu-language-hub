@@ -1,0 +1,89 @@
+```python?code_reference&code_event_index=2
+import pandas as pd
+
+# Data extracted from the image, where the Kikuyu is singular/plural
+data = {
+    "English": [
+        "head", "eyebrow", "ear", "teeth", "chin", "chest", "arm", "hand", "knee", "foot",
+        "hair", "eye", "nose", "lips", "neck", "shoulder", "stomach", "waist", "fingers",
+        "leg", "toes", "mouth"
+    ],
+    "Kikuyu (Singular/Plural)": [
+        "Mũtwee/ Mîtwe", "Rũbutu/ Mbutu", "Gũtũ/ Matũ", "Igego/Magego", "Kîreru/ Ireru",
+        "Gîthũri/ Îthũri", "Guoko/ Moko", "Rũhĩ/ Hĩ", "Îru/ Maru", "Ikĩnya/ Makĩnya",
+        "Njũrĩrĩ/ Njũîrĩ", "Riitho/ Maitho", "Inĩũrũ/ Manĩũrũ", "Kîromo/ Iromo",
+        "Ngingo/ Ngingo", "Kĩande/ Ciande", "Nda/ Nda", "Njohero/ Njohero", "Kĩara/ Twara",
+        "Kũgũrũ/ Magũrũ", "Kĩara/ Twara", "Kanua / Tũnua"
+    ]
+}
+
+df = pd.DataFrame(data)
+
+# Sort the table by the English part of the body for better readability
+df_sorted = df.sort_values(by="English", ignore_index=True)
+
+# Save the DataFrame to a CSV file
+df_sorted.to_csv('kikuyu_body_parts.csv', index=False)
+
+print(df_sorted.to_markdown(index=False))
+
+```
+
+```text?code_stdout&code_event_index=2
+| English   | Kikuyu (Singular/Plural)   |
+|:----------|:---------------------------|
+| arm       | Guoko/ Moko                |
+| chest     | Gîthũri/ Îthũri            |
+| chin      | Kîreru/ Ireru              |
+| ear       | Gũtũ/ Matũ                 |
+| eye       | Riitho/ Maitho             |
+| eyebrow   | Rũbutu/ Mbutu              |
+| fingers   | Kĩara/ Twara               |
+| foot      | Ikĩnya/ Makĩnya            |
+| hair      | Njũrĩrĩ/ Njũîrĩ            |
+| hand      | Rũhĩ/ Hĩ                   |
+| head      | Mũtwee/ Mîtwe              |
+| knee      | Îru/ Maru                  |
+| leg       | Kũgũrũ/ Magũrũ             |
+| lips      | Kîromo/ Iromo              |
+| mouth     | Kanua / Tũnua              |
+| neck      | Ngingo/ Ngingo             |
+| nose      | Inĩũrũ/ Manĩũrũ            |
+| shoulder  | Kĩande/ Ciande             |
+| stomach   | Nda/ Nda                   |
+| teeth     | Igego/Magego               |
+| toes      | Kĩara/ Twara               |
+| waist     | Njohero/ Njohero           |
+
+```
+
+[file-tag: code-generated-file-0-1759738816003310190]
+
+The parts of the body from the image, translated from English to Kikuyu (with singular and plural forms where provided), are presented in the table below. The list is sorted alphabetically by the English term for clarity.
+
+| English | Kikuyu (Singular/Plural) |
+|:----------|:---------------------------|
+| arm | Guoko/ Moko |
+| chest | Gîthũri/ Îthũri |
+| chin | Kîreru/ Ireru |
+| ear | Gũtũ/ Matũ |
+| eye | Riitho/ Maitho |
+| eyebrow | Rũbutu/ Mbutu |
+| fingers | Kĩara/ Twara |
+| foot | Ikĩnya/ Makĩnya |
+| hair | Njũrĩrĩ/ Njũîrĩ |
+| hand | Rũhĩ/ Hĩ |
+| head | Mũtwee/ Mîtwe |
+| knee | Îru/ Maru |
+| leg | Kũgũrũ/ Magũrũ |
+| lips | Kîromo/ Iromo |
+| mouth | Kanua / Tũnua |
+| neck | Ngingo/ Ngingo |
+| nose | Inĩũrũ/ Manĩũrũ |
+| shoulder | Kĩande/ Ciande |
+| stomach | Nda/ Nda |
+| teeth | Igego/Magego |
+| toes | Kĩara/ Twara |
+| waist | Njohero/ Njohero |
+
+A CSV file named `kikuyu_body_parts.csv` is also available with this data.

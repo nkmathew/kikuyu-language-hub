@@ -1,0 +1,42 @@
+The image provides simple conversational phrases in Kikuyu, focusing on greetings, asking about language, and the verbs **Gũthiĩ** (to go) and **Kũragia** (to speak).
+
+## Kikuyu Conversation and Vocabulary
+
+### Conversational Phrases
+
+| Kikuyu Phrase | Translation | Notes |
+| :--- | :--- | :--- |
+| **Mũĩritu ũyũ nũũ?** | **Who is this girl?** | **Mũĩritu** (girl) is a Class 1 noun. **Nũũ** means **who**. |
+| **Etagwo Mũthoni** | **Her name is Mũthoni** | From **Gũtagwo** (to be called). |
+| **Nĩ ũraragia Gĩkũyũ?** | **Do you speak Kikuyu?** | **Gĩkũyũ** is the name of the language. |
+| **Nĩ njaragia Gĩkũyũ hanini** | **I speak a little Kikuyu** | **Hanini** means **a little**. |
+| **Mũthoni nĩ aragia Gĩkũyũ** | **Mũthoni speaks Kikuyu** | **Aragia** is the 3rd person singular conjugation. |
+| **Nĩ twaragia Gĩthweri.** | **We speak Swahili** | **Gĩthweri** is the name of the Swahili language. |
+| **O nĩ maragia Gĩthũngũ** | **They speak English** | **Gĩthũngũ** is the name of the English language. |
+| **Nĩ mwaragia Kĩbaranja?** | **Do you (Plural) speak French?** | **Kĩbaranja** is the name of the French language. |
+| **Aria kahora** | **Speak slowly** | **Kahora** means **slowly**. |
+| **Thĩĩ mũciĩ na ihenya** | **Go home fast (Quickly)** | **Thĩĩ** (go, imperative) + **mũciĩ** (home). **Na ihenya** means **quickly/fast**. |
+
+***
+
+### Conjugation of the Verb **Kũragia** (to speak)
+
+The verb **Kũragia** (or **Gũĩragia**) is used for "to speak." The conjugations for the present tense (*Nĩ...*) are:
+
+| Person | Kikuyu Conjugation | Translation |
+| :--- | :--- | :--- |
+| **1st Sg** (I) | **Njaragia** | I speak |
+| **2nd Sg** (You) | **Waragia** | You speak |
+| **3rd Sg** (He/She) | **Aragia** | He/she speaks |
+| **1st Pl** (We) | **Twaragia** | We speak |
+| **2nd Pl** (You all) | **Mwaragia** | You (plural) speak |
+| **3rd Pl** (They) | **Maragia** | They speak |
+
+***
+
+### Adverbs of Speed
+
+| Animal | Kikuyu Sentence | Translation | Adverb |
+| :--- | :--- | :--- | :--- |
+| Rabbit 🐇 | **Mbũkũ ĩthĩaga na ihenya** | **The rabbit moves fast** | **Na ihenya** (fast/quickly) |
+| Tortoise 🐢 | **Nguru ĩthĩaga kahora** | **The tortoise moves slowly** | **Kahora** (slowly) |

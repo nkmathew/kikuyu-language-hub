@@ -1,0 +1,30 @@
+The image provides sample Kikuyu sentences and phrases focusing on the pronunciation and use of the nasal consonants **m**, **ng**, and **ng'**.
+
+## Simple Sentences: Consonants m, ng, ng'
+
+### 1. **M** (as in **m**aitũ)
+
+| Kikuyu Sentence/Phrase | Translation | Notes on Vocabulary |
+| :--- | :--- | :--- |
+| **Maitũ na mama mathiire mũgũnda** | **Mother and uncle went to the farm** | **Maitũ** (mother) and **mama** (uncle, typically maternal uncle) are Class 1 nouns. |
+| **Mara maya nĩ mahĩu** | **These intestines are hot** | **Mara** (intestines) are a Class 6 (Ma-) plural noun. **Mahĩu** is the plural adjective "hot". |
+| **Moko maya nĩ makwa** | **These are my hands** | **Moko** (hands) are a Class 6 (Ma-) plural noun. **Makwa** means "my" (plural possessive concord). |
+| **Meria mata** | **Swallow saliva** | **Gũmeria** (to swallow) and **mata** (saliva/spit). |
+
+### 2. **Ng** (as in **ng**aari)
+
+| Kikuyu Sentence/Phrase | Translation | Notes on Vocabulary |
+| :--- | :--- | :--- |
+| **Ngaari ĩno nĩ njega** | **This car is good** | **Ngaari** (car/vehicle) is a Class 3 (N-) noun. **Ĩno** (this) and **njega** (good) agree with the noun class. |
+| **Nganga nĩ nyoni** | **A guinea fowl is a bird** | **Nganga** (guinea fowl) and **Nyoni** (bird) are both Class 3 (N-) nouns. |
+| **Ngobia yakwa ĩ ngoroba ya kana** | **My hat is on fourth floor** | **Ngobia** (hat) is Class 3 (N-). **Ngoroba** (floor/storey) is Class 3 (N-). **Ya kana** means "of four" or "fourth". |
+
+### 3. **Ng'** (as in **Ng'ang'a** and **Mũrãng'a**)
+
+The **Ng'** sound is a velar nasal, similar to the 'ng' in the English word *si**ng**er* (never the 'ng' in *fi**ng**er*).
+
+| Kikuyu Sentence/Phrase | Translation | Notes on Vocabulary |
+| :--- | :--- | :--- |
+| **Ng'ang'a nĩ wa Mũrãng'a** | **Ng'ang'a is from Mũrãng'a** | **Mũrãng'a** is a place name (town/county) in Kenya. |
+| **Ng'ang'a ena ng'aragu** | **Ng'ang'a is very hungry** | **Ena** (He/She has) and **ng'aragu** (hunger). |
+| **Ng'ethia hau andũ makĩrũta wĩra** | **Idle there as others are working** | **Ng'ethia** (to be idle/to sit idle) and **makĩrũta wĩra** (as they are doing work). |
