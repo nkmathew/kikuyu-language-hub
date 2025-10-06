@@ -6,6 +6,7 @@ from tkinter import messagebox
 import hashlib
 import platform
 import threading
+import ctypes
 
 if platform.system() == "Windows":
     import winsound
@@ -188,7 +189,8 @@ def paste_clipboard():
     status_var.set("Saved successfully.")
     status_label.pack(fill="x", pady=(5, 0))
     update_preview()
-    root.iconify()  # Minimize window after writing to file
+    # Delay a second before minimizing
+    root.after(1000, root.iconify)
 
 
 def on_button_hover(event):
@@ -285,6 +287,23 @@ update_preview()
 root.after(1000, update_preview)  # Update preview every second
 root.bind('<FocusIn>', lambda e: update_preview())
 
+def bring_window_to_front():
+    root.deiconify()
+    root.lift()
+    root.focus_force()
+    # On Windows, use ctypes to force focus and restore window
+    if platform.system() == "Windows":
+        try:
+            root.update_idletasks()
+            root_id = int(root.winfo_id())
+            # Restore window if minimized
+            SW_RESTORE = 9
+            ctypes.windll.user32.ShowWindow(root_id, SW_RESTORE)
+            ctypes.windll.user32.SetForegroundWindow(root_id)
+            ctypes.windll.user32.BringWindowToTop(root_id)
+        except Exception:
+            pass
+
 def poll_clipboard():
     try:
         text = root.clipboard_get()
@@ -293,7 +312,7 @@ def poll_clipboard():
             h = hash_text(trimmed_text)
             # Only activate if clipboard has non-empty text and is not duplicate
             if trimmed_text and h not in hashes:
-                root.after(0, lambda: (root.deiconify(), root.lift(), root.focus_force()))
+                root.after(0, bring_window_to_front)
     except Exception:
         pass
     root.after(3000, poll_clipboard)

@@ -1,0 +1,24 @@
+This image provides examples of **Future Tenses** in Kikuyu, showing how the verb structure changes depending on the time frame: **"later today"** versus **"tomorrow"** (or a more distant future).
+
+The examples are built around seven different verbs.
+
+---
+
+## Kikuyu Future Tenses
+
+The table below illustrates the verb root, its meaning, and how it is conjugated for the near future (later today) and the more distant future (tomorrow/later).
+
+| # | Root Verb & Meaning | Near Future (Later Today) | Distant Future (Tomorrow/Later) |
+|:---|:---|:---|:---|
+| 1. | **Kuuga mbu** - to make a distress sound | Atumia nĩ **meku-uga mbu** mona mũici | Atumia nĩ **maka-uga mbu** mona mũici |
+| 2. | **Kũhuha mĩruri** - to whistle | Wee nĩ **ũkũ-huha mĩruri** ũtũkũ | Wee nĩ **ũka-huha mĩruri** ũtũkũ |
+| 3. | **Kũgamba** - to make a sound | Ngengere nĩ **ikũ-gamba** | Ngengere nĩ **ika-gamba** |
+| 4. | **Kũnegena** - to make noise | Ciana nĩ **cĩkũ-negena** | Ciana nĩ **cĩka-negena** |
+| 5. | **Kũaria** - to speak | Kamau nĩ **ekũ-aria** | Kamau nĩ **aka-aria** |
+| 6. | **Gũkaya** - to yell (due to pain) | Mwana **ekũ-hũrwo** akaye | Mwana **aka-hũrwo**, akaye |
+| 7. | **Kũina** - to sing | Tũkũ-ina karwĩmbo kega | Tũka-ina karwĩmbo kega |
+
+***
+*The key difference in the future tense prefix is **-kũ-** for the near future ("later today") and **-ka-** for the distant future ("tomorrow").*
+
+*The vertical text on the left reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.***
