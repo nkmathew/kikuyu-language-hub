@@ -1,0 +1,351 @@
+[NO CONTENT FOUND]**Nyamũ ya thĩ** - a
+---
+
+## Kikuyu Language Text Extraction
+
+Here is the text extracted from the images you provided, grouped by topic.
+
+---
+
+### Greetings and Personal Information
+
+**Wĩtagwo atĩa** – **What is your name**
+**Wĩ mwega?** – **How are you**
+**Nđĩ mwega mũno** – **I am very fine**
+**Wĩtagwo atĩa?** – **What is your name?**
+**Njĩtagwo Wacira** – **My name is Wacira**
+**ĩ wee wĩtagwo atĩa?** – **and you what is your name**
+**Njĩtagwo Kamau** – **My name is Kamau**
+**Eha Wanjirũ** – **Where is Wanjirũ**
+**Ũyũ haha** – **here he/she is.**
+**Rĩtwa rĩakwa nĩ Karanja** – **my name is Karanja**
+**Njĩtagwo Kanyi** – **My name is Kanyi (they call me...)**
+
+| Subject | Singular | Plural |
+| :--- | :--- | :--- |
+| My name is... | **Njĩtagwo** | **Twĩtagwo** – We are called... |
+| Your name is... | **Wĩtagwo** | **Mwĩtagwo** – You are called ... |
+| He/she is called... | **Etagwo** – hes/her name is | **metagwo** – they are called... |
+
+**Haha** - **here**
+**haarĩa** - **there (not too far)**
+**Kũũrĩa** - **There (a big distance away)**
+
+---
+
+### Personal Pronouns and Knocking Dialogue
+
+**Personal Pronouns**
+
+**Ko ko ko** – (someone knocking at the door)
+**Nũũ ?** – **who is it ?**
+**Nĩĩ nĩĩ** – **it is me**
+**Nĩĩ we ũ ?** – **who are you**
+**Njĩtagwo Njeri** – **my name is Njeri**
+**Njeri wa ũ ?** – **Whose Njeri (who is your father)**
+**Njeri wa Njoroge** – **Njeri of Njoroge**
+**Wee wĩ mũgeni** – **You are a visitor**
+**Ĩĩ nđĩ mũgeni** – **yes I am a visitor**
+**Ingĩra** – **enter**
+**Nyua cai** – **take tea**
+**Nĩĩ nđainuka** – **I am off home**
+**Thĩĩ na wega** – **go in peace**
+
+---
+
+### Simple Present Tense (Habitual Action)
+
+| 1st person Singular (Nĩĩ - Me) | 1st person Plural (Ithuĩ - We) |
+| :--- | :--- |
+| **Nĩ njũkaga** - I come | **Nĩ tũkaga** - We come |
+| **Nĩ nđĩraga** - I cry | **Nĩ tũrĩraga** - we cry |
+| **Nĩ nđĩaga** - I eat | **Nĩ tũrĩaga** - we eat |
+| **Nĩ njaragia** - I speak | **Nĩ twaragia** - We speak |
+| **Nĩ ngenaga** - I am usually happy | **Nĩ tũkenaga** - we are happy (habitually) |
+| **Nĩ thekaga** - I laugh | **Nĩ tũthekaga** - we laugh |
+| **Nĩ thiaga** - I go | **Nĩ tũthiaga** - we go |
+| **Nĩ thomaga** - I read | **Nĩ tũthomaga** - we read |
+| | **Nĩ tũanđĩkaga** - we write |
+
+---
+
+### Locating (I am here/I was here)
+
+| Kahinda gaka (rĩu) - **now** | ũmũthĩ mahinda mahitũku (**Earlier today**) |
+| :--- | :--- |
+| **Nđĩ gũkũ** - I am here | **Nyuma gũkũ** - I was here |
+| **Twĩ gũkũ** - We are here | **Tuma gũkũ** - We were here |
+| **Wĩ gũkũ** - You are here | **Uma gũkũ** - You were here |
+| **Mwĩ gukũ** - You (pl) are here | **Muma gũkũ** - You (pl) were here |
+| **E gũkũ** - He/She is here | **Oima gũkũ** - He/She was here |
+| **Me gũkũ** - They are here | **Moima gũkũ** - They were here |
+
+**Nđĩ gũkũ, na nđĩrarĩa nyama** - I am here, and I am eating meat
+**Nyuma gũkũ na nđĩire nyama** - I was here and I ate meat
+**Twĩ gũkũ na tũrarĩa nyama** - We are here and we are eating meat
+**Tuma gũkũ na tũrĩire nyama** - We were here and we ate meat
+
+---
+
+### Verbs and Imperatives
+
+| Verb (Infinitive) | Meaning | Imperative (Command) | Meaning |
+| :--- | :--- | :--- | :--- |
+| **Kũgũra** | to buy | **Gũra** | buy |
+| **Kũhinga** | to close | **Hinga** | close |
+| **Kũhingũra** | to open | **Hingũra** | open |
+| **Kũrũgama** | to stand | **Rũgama** | Stand |
+| **Kwaria** | to speak | **Aria** | speak |
+
+**Gũtwara** - to deliver something.
+**Twarĩĩra** - deliver to (for) somebody
+**Twarĩĩra maina irio** - take food to (for) Maina
+**Gũĩkĩra** - to put (put on)
+
+---
+
+### Applied Verbs
+
+**Ĩkĩĩra** - put for someone, pour (eg a drink) for someone
+**Ĩkĩĩra Njeri cai** - pour tea for Njeri
+
+**Gũthoooma** - to read (study): **Thomera** - read to (for) someone
+**Thoomera mwana ibuku** - read a book to (for) the child
+
+---
+
+### Conversation (Speaking)
+
+**Mũirĩtu ũyũ** - **This girl**
+**Aĩrĩtu aya** - **these girls**
+**Ũyũ nũũ?** - **who is this**
+**Aya nĩ a** - **who are these**
+**Etagwo atĩa?** - **What is his/her name?**
+**Nĩ waragia gĩkũyũ?** - **do you speak Kikuyu**
+**Aria na nĩĩ** - **speak to me**
+
+| Singular | Plural |
+| :--- | :--- |
+| **Njaragia** - I speak... | **Twaragia** - We speak... |
+| **Waragia** - You speak | **Mwaragia** - You speak ... |
+| **Aragia** - he/she speaks | **Maragia** - they speak... |
+
+**Mbũkũ** - **Rabbit**
+**Nguru** - **Tortoise**
+
+---
+
+### Verbs (General)
+
+**Some Verbs that you should know**
+
+**Gũcaria** - to search
+**Gũcoka** - to return, to come back (person)
+**Gũcokia** - to return (an object)
+**Gũĩka** - To do
+**Gũikara** - to stay
+**Gũikara thĩ** - to sit down
+**Gũikena** - To be happy
+**Gũkinya** - To arrive, to step on
+**Gũthambia** - to wash
+**Gũthĩĩ rũgendo** - To go on a journey
+**Gũthũkia** - To damage, to spoil
+**Gũtigara** - to remain
+**Gũtinia** - to cut
+**Gweterera** - To wait
+**Gwĩcĩrĩria** - to think, to reason
+**Kũgeria** - to try
+
+---
+
+### Turning Verbs to Nouns
+
+| Verb | Meaning | Noun | Meaning |
+| :--- | :--- | :--- | :--- |
+| **Gũthĩĩ** | to go | **Mũthĩĩ** | traveller |
+| **Kũruga** | to cook | **Mũrugi** | one who cooks |
+| **Gũciara** | to give birth | **Mũciari** | Parent |
+| **Kũrigita** | to nurse | **Mũrigiti (Mũrigitani)** | nurse |
+| **Kũragura** | To treat using traditional psychology | | |
+| **Kũrĩma** | to farm | **mũrĩmi** | farmer |
+| **Kũũmba** | to mold (with clay) | **Mũmbi** | potter |
+| **Kwenda** | to want, to love | **Mwendwa** | lover |
+| **Kũrwara** | to be sick | **Mũrwaru** | sick person |
+| **Kũiya** | to steal | **Mũici** | thief |
+
+**Note, prefixing Verbs ROOTS with Mũ turns them to nouns, mostly ending with 'i'**.
+**There will always be exceptions.**
+
+---
+
+### Family
+
+**Nuclear family**
+**Baba** - father
+**Maitũ**- Mother
+**Mũrũ wa maitũ** - Brother
+**Mwarĩ wa maitũ** - Sister
+**Mũrũ wa baba** - Half Brother
+**Mwarĩ wa baba** - Half Sister
+
+**Extended family**
+**Guka** - Grandfather (Muranga/Kiambu Kikuyu)
+**Wagui** - Grandfather (Nyeri Kikuyu)
+**Cũcũ** - Grandmother
+**Tata** - Aunt
+**Mama** - Uncle (Mother's side)
+**Baba mũnini** - Uncle (Father's younger brother)
+**Baba mũkũrũ** - Uncle (Father's older brother)
+**Mũrũ wa tata** - Cousin
+**Mũrũ wa mama** - Cousin
+
+**NOTE**: All your Father's brothers' wives are adressed as "**mother**"
+
+**Thooma na ũnyite mũgambo** - read and record
+
+---
+
+### Kikuyu Creation Story
+
+**Gĩkũyũ na Mũũmbi**
+
+**Aciari a rũrĩrĩ rwa Gĩkũyũ nĩ a ?**
+Who are the parents of the kikuyu tribe?
+**Aciari a rũrĩrĩ rwa Gĩkũyũ nĩ Gĩkũyũ na Mũũmbi**
+The parents of the Kikuyu are Gĩkũyũ and Mũũmbi
+**Maarĩ na ciana cigana?**
+How many children did they have?
+**Marĩ na ciana kenda**
+They had nine children.
+**Kenda mũiyũrũ** - the full nine (ten)
+**Tũhĩĩ kana tũirĩtu?**
+Girls or boys?
+**Tũirĩtu** - Girls.
+
+**Rũrĩrĩ** - a community speaking one language
+**Nyũmba** - house (traditionally woman's hut)
+**Thingira** - hut (traditionally for men)
+**Ikũmbĩ** - granary
+**Mũgũnda** - garden, farm. **Gĩcagi** - a village
+
+---
+
+### Proverbial Sayings
+
+**Proverb 1**
+**Anđũ marĩ mũoyo matihurũkaga**
+People who are alive do not rest
+**... marĩ mũoyo** - ... who have a soul, spirit (people who are alive)
+**Hurũka** - rest; **Kũhurũka** - to rest
+
+**Proverb 2**
+**Mũingatwo na mũingatani, gũtirĩ ũtahũmaga**
+The one being chased, and the one chasing, both get tired
+**Kũingata** - to chase away
+**Kũhũma** - to be breathless
+
+**Mũingatani** - the chaser
+**Mũingatwo** - the one being chased
+
+**Note the following forms**
+**Mũrutani** - the one teaching
+**Mũrutwo** - The one being taught
+**Mũhurani** - the one beating
+**Mũhurwo** - the one being beaten
+
+---
+
+### Weather and Clothing
+
+**Mĩthenya ya heho - cold days**
+
+1.  **Hĩ! Kaĩ kwĩna heho-ĩ!** – Lo! It is very cold-oh!
+2.  **Kaĩ wĩ mũrũaru?** – are you sick?
+3.  **Wanjũrĩa ũguo nĩkĩ?** – Why do you ask me that?
+4.  **Tonđũ gũtirĩ na heho** – because it is not cold
+5.  **We! Ta ĩkĩra burana** – you! Just put on a cardigan
+6.  **Kwĩna ũrugarĩ** – It is hot (warm)
+7.  **Urenda kũrũarara?** – do you want to fall sick?
+8.  **Ngwĩhũmba burana na kabuti** – I will wear a cardigan and an overcoat.
+9.  **Mweri wa mũgwanja ũkoragwo na heho mũno** – the seventh month (July) is usually very cold
+
+**Vocabulariy**
+**Kaĩ** - this is a prefix that turns a statement into a question.
+Adding a syllable '**ĩ**' at the end of the sentence cancels out the question back to an emphatic statement.
+**Kwĩna heho** - it is cold, **Kaĩ kwĩna heho**? - is it cold?
+**Kaĩ kwĩna heho - ĩ**? It is really cold
+**Heho** - cold; **ũrugarĩ** - heat, warmth; **Mwaki** - fire;
+**Gĩchĩnga** - a stick that is smoldering with fire.
+**Burana** - cardigan, sweater; **ĩgooti** - coat; **Kabuti** - over coat;
+**mũrĩngĩti** - blanket; **Ĩkĩra** - put (in this case 'put on - wear');
+**Kwĩhũmba** - to wear; **Mweri** - month (moon);
+**Mũno** - very much
+
+---
+
+### Animals and Parts of a Bird
+
+**Nyaga** – **Ostrich**
+**Huria** – **Rhinocerous**
+**Mũrũthi** – **lion**
+
+**Ĩno nĩ Nyaga** - this is an ostrich
+**Nĩ ũrĩ wona Nyaga ?** - have you ever seen an ostrich?
+**Ĩno nĩ Huria** - this is a rhioncerous.
+**Nĩ marĩ mona huria?** - Have they ever seen a rhino?
+**Ũyũ nĩ mũrũthi** - this is a lion.
+**Nĩ mũrĩ mwona mũrũthi.** - have you (plural) ever seen a lion?
+
+**Thooma wanĩĩrire** - **read aloud.**
+
+---
+
+**Mbata** - **Duck**
+**Ngũkũ ya mwera** - **Hen**
+**Gacui** - **chick**
+**Ngũkũ ya njamba** - **Cock**
+
+---
+
+**Nyamũ ya thĩ** - a polite way of refering to a **snake** (to avoid attracting it to your house).
+
+---
+
+**Cĩĩga cia nyoni - Parts of a bird**
+
+* **eye** - **Ritho / Maitho**
+* **head** - **Mũtwe / Mĩtwe**
+* **beak** - **Mũkangi / Mĩkangi**
+* **neck** - **Ngingo**
+* **wings** - **ĩthagu / Mathagu**
+* **feather** - **Ruoya / Njoya**
+* **body** - **Mwĩrĩ / Mĩrĩ**
+* **tail feathers** - **Njoya cia Kĩngũĩ**
+* **leg** - **Kũgũrũ / Magũrũ**
+
+---
+
+### Jobs
+
+**Jobs**
+
+**(Nĩĩ) Nđĩ bundi** - I am a handyman (carpenter, plumber etc.)
+**Nđutaga wĩra wa mbaũ** - I work with timber
+**. (Wee) wĩ mũrĩmi** - You are a farmer
+**Ũrutaga wĩra wa mũgũnda** - You work in a farm
+**. (We) nĩ nđereba** - he/she is a driver
+**. (Inyuĩ) mwĩ atongoria** - You (plural) are leaders
+**Mũrutaga wĩra wa gũtongoria anđũ** - your job is to lead people
+**. (O) nĩ borithi** - they are police (men/women)
+**Marutaga wĩra wa kũũnĩtĩa anđũ** - their work is to arrest people
+**. Ũyũ nĩ mũũbĩa** - this is a priest (catholic)
+**Arutaga wĩra wa gũtongoria magongona ma kanitha** - His work is to lead church services
+
+1.  **(Nĩĩ) Nđĩ mũhũrĩri wa mbica** - I am a photographer
+2.  **(Wee) wĩ mũgwĩmi** - You are a hunter
+3.  **(We) nĩ mũrĩithia wa mahiũ** - he/she is a herder (of domestic animals)
+4.  **(Inyũĩ) mwĩ aturi** - You are iron mongers
+5.  **(O) nĩ ombi a nyũngũ** - they are potters (lit. molders of pots)
+6.  **Ũyũ nĩ mũgo** - This is a medicine (person)
+
+**Write sentences in Kikuyu to say what Numbes 1. to 6. do. Use the fol-lowing verbs - 1. Kũhũra mbica, 2. kũgwĩma, 3. Kũrĩithia, 4. gũtura, 5. kũũmba, 6. kũragũra (Example: arutaga wĩra wa kũragũra)**

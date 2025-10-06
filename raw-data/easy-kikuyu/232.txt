@@ -1,0 +1,26 @@
+This image provides examples of **Negative sentences** in the Kĩkũyũ language, demonstrating negation in simple statements and commands, primarily using the **Future/Conditional Tense** negation markers (like *ndi-* for "I will not").
+
+## Kĩkũyũ Negative Sentences and Phrases
+
+| Kĩkũyũ Phrase | English Translation | Grammar Note |
+| :--- | :--- | :--- |
+| **Njĩĩra ũrĩa wĩtagwo** | Tell me your name | Positive imperative (Command) |
+| **Ndigũkwĩra ũrĩa njĩtagwo** | I will not tell you my name | 1st Person Singular Future Negative (*Ndi-gũ...*) |
+| **Nĩ waragia Gĩkũyũ?** | Do you speak Kĩkũyũ? | Question (Present Tense) |
+| **Ndiaragia Gĩkũyũ o na hanini** | I don't speak Kĩkũyũ (even a little) | 1st Person Singular Present Negative (*Ndi-a...*) |
+| **Mũgai nĩ aragia Gĩkũyũ?** | Does Mũgai speak...? | Question (Present Tense) |
+| **Mũgai ndaragia Gĩkũyũ** | Mũgai does not speak Kĩkũyũ | 3rd Person Singular Present Negative (*Nda-ra...*) |
+| **O na Gĩthweri tũtĩaragia** | Even Swahili we do not speak (We also don't speak Swahili) | 1st Person Plural Present Negative (*Tũ-tĩ-a...*) |
+| **Aria kahora** | Speak slowly | Positive imperative (Command) |
+| **Ndĩkwaria kahora** | I will not speak slowly | 1st Person Singular Future Negative (*Ndi-kũ...*) |
+| **Tũtĩkwaria Kahora** | We will not speak slowly | 1st Person Plural Future Negative (*Tũ-tĩ-kũ...*) |
+| **Atĩ mũtĩkwaria kahora?** | So you will not ......? (So you all will not speak slowly?) | 2nd Person Plural Future Negative Question (*Mũ-tĩ-kũ...*) |
+| **Moiga matĩkwaria kahora** | They have said they will not speak slowly | 3rd Person Plural Future Negative (*Ma-tĩ-kũ...*) |
+| **O na wee ndũkwaria kahora?** | Even you, you will not speak slowly? | 2nd Person Singular Future Negative Question (*Ndũ-kũ...*) |
+| **Thĩĩ mũciĩ na ihenya** | Go home fast (Quickly) | Positive imperative (Command) |
+| **Ndigũthĩĩ** | I will not go. | 1st Person Singular Future Negative (*Ndi-gũ...*) |
+
+***
+**Learn Kĩkũyũ - Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**
+
+© Emmanuel Kariuki

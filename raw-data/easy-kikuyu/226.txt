@@ -1,0 +1,70 @@
+This image is a vocabulary list of **Kĩkũyũ opposites** (**Ciugo îkararanĩtie**), followed by an exercise to compose sentences using them in the **Future Tense (early today)**, which uses the same conjugation pattern as the 3rd person singular and plural forms shown in the previous image.
+
+## Kĩkũyũ Opposites (Ciugo Îkararanĩtie)
+
+| Word 1 (Gĩkũyũ) | Word 2 (Gĩkũyũ) | Word 1 (English) | Word 2 (English) |
+| :--- | :--- | :--- | :--- |
+| **Gũcambia** | **gũkũmitia, kũgooca** | To criticize/fault | To praise, to compliment/flatter |
+| **Gũtaara** | **kũhĩtithia** | To guide/advise | To mislead/cause to err |
+| **Gũtherema** | **gũkũndera** | To accept/receive | To reject/refuse |
+| **Gũthĩnia** | **gũteithia** | To bother/trouble | To help/assist |
+| **Gũtonga** | **gũthĩna** | To be rich/wealthy | To be poor/to suffer |
+| **Gwaka** | **gũtharia** | To build | To demolish/destroy |
+| **Kĩgũthũko** | **mĩhehũ** | Strong smell | Fragrance/sweet scent |
+| **Kĩrumi** | **kĩrathimo** | A curse | A blessing |
+| **Kũgetha** | **kũhanda** | To harvest/reap | To plant/sow |
+| **Kũhũnyũka** | **kũrura** | To be fast/quick | To be slow/sluggish |
+| **Kũhũrithania** | **Gũteithũra** | To make someone happy | To disappoint/make someone unhappy |
+| **Kũhũta** | **kũhũna** | To be hungry | To be full (satiated) |
+| **Kũmbũka** | **kũmba** | To melt/dissolve | To freeze/harden |
+| **Kũngania** | **kũhurunja** | To gather/collect | To scatter/disperse |
+| **Kũnyarara** | **gũtĩĩa** | To despise/look down on | To respect/honor |
+| **Kũrĩra** | **gũtheka** | To cry | To laugh |
+| **Kwĩhĩka** | **kwĩgũucia** | To feel shy/embarrassed | To be proud/self-assured |
+| **Mũnyuko** | **noru** | Thin/skinny | Fat/plump |
+| **Mũtĩino** | **mũnyaka** | Bad luck/misfortune | Good luck/fortune |
+| **Mũtitũ** | **werũ** | Forest/bush | Open grassland/field |
+| **Mwendwo-nĩ-irĩ** | **Mũtiga-irĩ** | Beloved/favorite | The one who is left/forgotten |
+| **Ndũma** | **ũtheri** | Darkness | Light/brightness |
+| **Ngũĩ** | **ndũhĩo** | Anger/rage | Excitement/enthusiasm |
+| **Njamba** | **Kĩguoya** | Hero/brave person | Coward/fearful person |
+| **Njĩthĩ** | **hũu** | Raw/uncooked | Dry/cooked |
+| **Njong'i** | **Nyarari** | Wealth/riches | Poverty/need |
+| **Rũteere** | **gatagatĩ** | Side/edge | Middle/center |
+| **Thayũ** | **mbaara/ũgwati** | Peace/quiet | War/danger |
+| **ũgũũta** | **kĩo** | Slowness/slow pace | Speed/fast pace |
+| **Ũkarĩ** | **ũtana** | Sourness/bitterness | Sweetness/tenderness |
+
+---
+
+## Exercise: Compose Sentences (3rd Person Future Tense - 'Early Today')
+
+The exercise asks you to pick any 10 words and their opposites (5 singular pairs and 5 plural pairs) and compose sentences using the 3rd Person Future Tense (singular and plural), which utilizes the **Nĩ e-** (singular) and **Nĩ me-** (plural) prefixes for the 'later today' future tense.
+
+**Example Conjugations:**
+* He/She **will help** (later today): Nĩ **egũteithia** (from *gũteithia* - to help)
+* They **will help** (later today): Nĩ **megũteithia**
+* He/She **will plant** (later today): Nĩ **ekũhanda** (from *kũhanda* - to plant)
+* They **will plant** (later today): Nĩ **mekũhanda**
+
+**Example (3rd P Plural) from the image:** **Mahurunjei mbembe, ndamera monganie ciothe** (This sentence structure is not a correct example for the future tense of the word list provided, as it uses the *Subjunctive* mood, not the *Future Tense* as requested by the exercise instructions.)
+
+### **1. Singular Pairs (5 sentences)**
+
+| Verb Pair | Singular Future Sentence | English Translation |
+| :--- | :--- | :--- |
+| **Gũgetha** / **Kũhanda** | Nĩ **ekũgetha** mahũa ciana ciatananĩrĩra. | He/She **will harvest** the flowers before the children arrive. |
+| **Kũrĩra** / **Gũtheka** | Nĩ **egũtheka** nĩ ũndũ wa wĩra wake mũga. | He/She **will laugh** because of his/her good work. |
+| **Gũtonga** / **Gũthĩna** | Mũthuri ũcio nĩ **egũthĩna** tondũ ndarutaga wĩra. | That man **will be poor** because he doesn't work. |
+| **Gũthĩnia** / **Gũteithia** | Nĩ **egũteithia** mami wĩra-inĩ wa mũgũnda. | He/She **will help** mum with the farm work. |
+| **Gũtaara** / **Kũhĩtithia** | Nĩ **ekũhĩtithia** mũrata wake arĩ njĩra. | He/She **will mislead** his/her friend on the way. |
+
+### **2. Plural Pairs (5 sentences)**
+
+| Verb Pair | Plural Future Sentence | English Translation |
+| :--- | :--- | :--- |
+| **Gũgetha** / **Kũhanda** | Nĩ **mekũhanda** mbeũ kĩrĩma-inĩ. | They **will plant** seeds on the hill. |
+| **Kũrĩra** / **Gũtheka** | Ciana nĩ **megũtheka** mũno rĩrĩa mathomithia. | The children **will laugh** a lot during their lesson. |
+| **Gũtonga** / **Gũthĩna** | Andũ acio nĩ **megũtonga** mũno nĩ ũndũ wa biacara. | Those people **will be rich** because of business. |
+| **Kũhũta** / **Kũhũna** | Nĩ **mekũhũna** mathira kũrĩa irio. | They **will be full** after eating the food. |
+| **Gũcambia** / **Gũkũmitia** | Nĩ **mekũgooca** mũciĩ ũcio werũ ũkĩrĩa. | They **will compliment** that new house soon. |

@@ -1,0 +1,21 @@
+Thibitarĩ - **Hospital**
+
+Mũrwaru - **Patient**
+
+Ndagĩtarĩ - **Doctore**
+Mũrigitani - **Nurse**
+Dagĩtarĩ wa magego - **Dentist**
+Mĩthaiga Nđawa - **Medicine**
+
+---
+
+**Thibitarĩ - Hospital**
+
+**Ĩno nĩ thibitarĩ** - this is a hospital
+**Thibitarĩ nĩ nyũmba nene** - A hospital is a big building
+**Ũyũ nĩ mũrwaru** - This is a patient
+**Ũyũ nĩ nđagĩtarĩ** - This is a doctore
+**Ũyũ nĩ mũrigitani** - This is a nurse
+**Ũyũ nake nĩ nđagĩtarĩ wa magego** - and this one is a dentist
+**Ici nĩ nđawa** - These are medicine
+**Nđawa ya mbũrũgũtũ** - tablet
