@@ -1,0 +1,31 @@
+The image presents a language exercise in Kikuyu: **"Andĩka ciugo irĩkĩtie na ‘go’ mũgogo – a log"** which translates to **"Write words ending in ‘go’ (mũgogo – a log)."**
+
+The image provides a list of Kikuyu words that end in **-go** and their English translations.
+
+Here is the breakdown of the list:
+
+| Kikuyu Word | English Translation |
+| :--- | :--- |
+| **Gĩcĩgo** | area |
+| **Igego** | tooth |
+| **Iyego** | a village in Murang'a |
+| **Kĩugo** | word |
+| **Mbogo** | buffalo |
+| **Mũgogo** | log |
+| **Mũndũ mũgo** | diviner / traditional healer |
+| **Mũrĩgo** | luggage |
+| **Mũtego** | trap |
+| **Mũtũgo** | habit |
+| **Ndoogo** | smoke |
+
+### Additional Words/Names (Unformatted List on the Right)
+
+The right side of the image appears to be a list of user submissions or additional words, but some are incomplete or repeated:
+
+* **Mugo** (Diviner) - Likely a repetition of *Mũndũ mũgo*
+* **Kĩugo** (Word) - Repetition
+* **Kĩogo** (Head) - (Note: The common word for head is *kĩongo* or *mutwe*)
+* **Ĩgego** (Tooth) - Repetition
+* **Magego** (Teeth) - Plural of *Igego*
+* **Mbogo** (Buffalo) - Repetition
+* **Mitugo** (Behavior) - Plural of *Mũtũgo* (Habits)

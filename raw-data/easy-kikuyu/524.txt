@@ -1,0 +1,36 @@
+The image provides examples of **Kikuyu verbs** in their **simple imperative** (commands) and **negative imperative** (prohibitions) forms, corresponding to the **2nd person singular** ("you").
+
+The pattern shown is:
+* **Simple Command:** Verb stem (or full verb form)
+* **Prohibition (Don't...):** $\text{Nduka} + \text{verb stem}$ (or $\text{Nduge}$ for vowel-starting stems)
+
+---
+
+## Kikuyu Imperatives (Commands and Prohibitions)
+
+| Kikuyu Command (Simple Imperative) | Kikuyu Prohibition (Negative Imperative) | English Translation |
+| :--- | :--- | :--- |
+| **Carĩa** | **Ndũkagacarĩe** | Search for / Don't search for... |
+| **Eterera** | **Ndũkĩgeterere** | Wait / Don't wait |
+| **Gerĩa** | **Ndũkagerĩe** | Try / Don't try |
+| **Hingũra** | **Ndũkahingũre** | Open / Don't open |
+| **Hũũra** | **Ndũkahũũre** | Beat / Don't beat |
+| **Ĩka naihenya** | **Ndũgeke naihenya** | Do fast / Don't do fast... |
+| **Kinya** | **Ndũkagĩkinye** | Step on / Don't step on |
+| **Nyita** | **Ndũkanyite** | Hold / Don't hold |
+| **Rũgama** | **Ndũkarũgame** | Stop (stand) / Don't stop (stand) |
+| **Rũmĩrĩra** | **Ndũkarũmĩrĩre** | Follow / Don't follow... |
+| **Tinia** | **Ndũgatinie** | Cut / Don't cut |
+
+---
+
+## Sentence Examples
+
+| Kikuyu Phrase | English Translation | Form |
+| :--- | :--- | :--- |
+| **Gũra nyama** | buy meat | Simple Command |
+| **Ndũkagũre nyama** | Don't buy meat | Prohibition |
+| **Hingũrĩra mũcuba wa njohi** | Open for me a beer bottle | Simple Command |
+| **Ndũkahingũrĩre mũcuba wa Njohi** | Do not open for me a beer bottle | Prohibition |
+| **Thoma ngathĩtĩ ĩno** | Read this newspaper | Simple Command |
+| **Ndũgathome ngathĩtĩ** | Do not read ...... | Prohibition |
