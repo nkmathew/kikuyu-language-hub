@@ -103,6 +103,11 @@ python seed/comprehensive_materials_seed.py  # 102 contributions from 8 sources
 python seed/proverbs_collection_seed.py      # 38 traditional proverbs
 python seed/wisdomafrica_translations_seed.py # 56 everyday vocabulary terms
 
+# Wiktionary literal extractions (hardcoded seed scripts)
+python seed/wiktionary_verbs_literal_seed.py      # 76 verbs/infinitives with IPA
+python seed/wiktionary_proverbs_literal_seed.py   # 52 traditional proverbs 
+python seed/wiktionary_derivatives_literal_seed.py # 42 derived terms/examples
+
 # Code quality
 black .                                 # Format code
 isort .                                 # Sort imports  
@@ -243,7 +248,49 @@ NEXT_PUBLIC_APP_NAME="Kikuyu Language Hub"
 - **Moderator**: moderator@kikuyu.hub / mod123
 - **Contributor**: contributor@kikuyu.hub / contrib123
 
-## 7. Common Tasks & Patterns
+## 7. Wiktionary Literal Seed Scripts
+
+### Overview
+The project includes specialized seed scripts that contain hardcoded literal extractions from Wiktionary data. These scripts provide high-quality, linguistically accurate content with academic precision.
+
+### Available Literal Seed Scripts
+1. **wiktionary_verbs_literal_seed.py**: 76 essential Kikuyu verbs with IPA pronunciations
+2. **wiktionary_proverbs_literal_seed.py**: 52 traditional proverbs with cultural context
+3. **wiktionary_derivatives_literal_seed.py**: 42 morphologically derived terms with examples
+
+### Features of Literal Seeds
+- **IPA Pronunciations**: Phonetic transcriptions for accurate pronunciation
+- **Morphological Analysis**: Detailed breakdown of complex words into components
+- **Cultural Notes**: Context about traditional usage and cultural significance
+- **Quality Scores**: High ratings (4.5-4.9) reflecting academic source quality
+- **Sub-translations**: Morphological analysis for educational purposes
+- **Difficulty Levels**: Appropriate categorization for learners
+
+### Running Literal Seeds
+```bash
+cd backend
+
+# Run individual literal seed scripts
+python seed/wiktionary_verbs_literal_seed.py
+python seed/wiktionary_proverbs_literal_seed.py  
+python seed/wiktionary_derivatives_literal_seed.py
+
+# Or run all at once
+python seed/wiktionary_verbs_literal_seed.py && \
+python seed/wiktionary_proverbs_literal_seed.py && \
+python seed/wiktionary_derivatives_literal_seed.py
+```
+
+### Data Categories Created
+- **Wiktionary Verbs**: Comprehensive verb collection with linguistic precision
+- **Verb Infinitives**: Infinitive forms showing morphological structure
+- **Wiktionary Proverbs**: Traditional cultural wisdom and moral teachings
+- **Cultural Wisdom**: Traditional Kikuyu values and social observations
+- **Wiktionary Derived Terms**: Morphologically derived vocabulary
+- **Morphological Derivatives**: Words showing productive word formation
+- **Wiktionary Examples**: Practical usage examples with natural patterns
+
+## 8. Common Tasks & Patterns
 
 ### Adding a New API Endpoint
 1. Define Pydantic schema in `schemas/`
@@ -400,6 +447,9 @@ docker compose -f infra/docker-compose.yml ps
 - **Webhook System**: Event-driven integrations with delivery tracking and HMAC signatures
 - **Translation Memory**: Similarity matching and fuzzy search capabilities
 - **Caching Layer**: Redis-based performance optimization with intelligent invalidation
+- **Literal Data Extraction**: Hardcoded seed scripts from Wiktionary sources with linguistic precision
+- **Morphological Analysis**: Sub-translation breakdowns for complex words and phrases
+- **Cultural Context**: Traditional proverbs and sayings with cultural significance notes
 
 ### Database Schema Quick Reference
 - **Users**: id, email, password_hash, role, timestamps
@@ -412,8 +462,10 @@ docker compose -f infra/docker-compose.yml ps
 - **Morphological Patterns**: id, pattern_type, source_pattern, target_pattern, description
 - **Webhooks**: id, url, events, secret, is_active, delivery_stats, timestamps
 
-### Current Database Content (485+ Contributions)
-- **Traditional Proverbs**: 38 culturally significant sayings from 1000+ collection
+### Current Database Content (650+ Contributions)
+- **Traditional Proverbs**: 90+ culturally significant sayings including Wiktionary extractions
+- **Wiktionary Verbs**: 76 essential verbs with IPA pronunciations and infinitive forms
+- **Morphological Derivatives**: 42 derived terms showing word formation patterns
 - **Basic Vocabulary**: Essential everyday terms and common expressions
 - **Clothing & Household**: Practical terms for daily life
 - **Educational Terms**: School and learning vocabulary
@@ -422,4 +474,5 @@ docker compose -f infra/docker-compose.yml ps
 - **Emergency Phrases**: Critical communication terms
 - **Cooking Methods**: Traditional food preparation vocabulary
 - **Numbers System**: Complete numerical system with linguistic analysis
-- **Morphological Data**: Verb conjugations and noun class patterns
+- **Sub-translations**: Morphological analysis for complex words and phrases
+- **Usage Examples**: Practical sentences demonstrating natural language patterns
