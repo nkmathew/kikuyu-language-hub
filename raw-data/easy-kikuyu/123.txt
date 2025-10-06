@@ -1,0 +1,90 @@
+You've uploaded several images containing Kikuyu language lessons, covering vocabulary, grammar, and sentence structure. Here is a compilation and synthesis of the information presented in those images.
+
+***
+
+## 1. Grammar: Future Tenses (Second Person Singular)
+
+The images illustrate the **Second Person Singular** (you) future tense, which has different prefixes depending on the time frame.
+
+### ⏳ A Few Moments Later or Anytime Today
+The prefixes used for actions happening soon are **Ûgû-, Ûgwî-, Ûkwî-,** and **Ûkû-**.
+
+| Example | Translation | Prefix |
+| :--- | :--- | :--- |
+| **Ûgûkîra** dagîka ikûmi ciathira. | You will wake up after ten minutes. | Ûgû- |
+| **Ûgwîthamba** na maî mahoro. | You will take a bath with cold water. | Ûgwî- |
+| **Ûkwîhumba** nguo naihenya. | You will put on your clothes quickly. | Ûkwî- |
+
+### 🗓️ Anytime Tomorrow and Into the Future
+The prefixes used for actions happening tomorrow or beyond are **Ûgo-, Ûge-, Ûke-,** and **Ûga-**.
+
+| Example | Translation | Prefix |
+| :--- | :--- | :--- |
+| **Ûgokîra** dagîka ikûmi ciathira. | You will wake up ten after ten minutes. | Ûgo- |
+| **Ûgethamba** na maî mahoro. | You will take a bath with cold water. | Ûge- |
+| **Ûkehumba** nguo naihenya. | You will put on your clothes quickly. | Ûke- |
+| **Ûkaruga** caî. | You will make tea. | Ûka- |
+
+***
+
+## 2. Vocabulary: Types of Houses (*Mîthemba ya Nyûmba*)
+
+The lessons cover three main types of traditional and modern houses, focusing on construction materials.
+
+| Type of House | Kikuyu Term | Construction Material | Roofing Material | Other Feature |
+| :--- | :--- | :--- | :--- | :--- |
+| **Stone House** | **Nyûmba ya Mahiga** | **Mahiga** (stones) | **Mabati** (iron sheets) | **Rûthingo rwa mahiga** (stone wall) |
+| **Timber House** | **Nyûmba ya mbaû** | **Mbaû** (timber/wood) | **Maturubarĩ** (tiles) | **Rûthingo rwa mbaû** (wooden wall) |
+| **Mud Hut** | **Nyûmba ya ndooro** | **Ndooro** (mud) | **Nyeki** (grass) or **ithanjĩ** (reeds) | **Rûthingo rwa ndooro** (mud wall) |
+
+***
+
+## 3. Vocabulary: Fauna and Weather
+
+### 🐾 Insects (*Tûnyamû tûnyinyi*)
+| Kikuyu | English | Notes |
+| :--- | :--- | :--- |
+| **Mûthûa** | Termite | |
+| **Thûraku** | Soldier ant | Moves in a line. |
+| **Thigiriri** | Black ant | Small black ants. |
+| **Mûgagaca** | Fire ant | Very tiny brown ants that move in large groups. |
+
+### 🐦 Birds (*Nyoni*)
+| Kikuyu | Scientific Name | English Name |
+| :--- | :--- | :--- |
+| **Kanyua njui** | *Cinnyris mediocris* | Sunbird |
+| **Gĩchorogothu** | *Pycnonotus barbatus* | Common bulbul |
+| **Ngũgũ** | *Tauraco hartlaubi* | Hartlaub's Turaco |
+
+### ⛈️ Weather and Seasons (*Hîndî ya Mbura na ya riua*)
+| Kikuyu | English | Notes |
+| :--- | :--- | :--- |
+| **Rûheni** | Lightening | Comes before **marurumĩ** (thunder). |
+| **Mbura nî ya ringa** | The rain has started | Literally: 'the rain has beaten'. |
+| **Nî kûrathuthua** | It is drizzling | |
+| **Ime** | Dew | |
+| **Matu ma mbura** | Rain clouds | The grey ones. |
+| **Rûkûngû** | Dust | |
+| **Kigûû** | Flash flood | This word means *water* in Kikamba. |
+| **Thano** | Very dry season | |
+| **Mûkûnga mbura** | Rainbow | |
+| **Kwîna kibii** | There is fog | |
+
+***
+
+## 4. Grammar: Kikuyu Pronoun Table
+
+The image provides an overview of various pronouns and their variations due to noun class.
+
+| Category | Singular | Plural |
+| :--- | :--- | :--- |
+| **I, me, myself** | **Nîî** | **(We, ourself) ithuî** |
+| **You** | **Wëë** | **Inyuî** |
+| **He, she** | **Wë** | **(Them) O** |
+| **mine** | Wakwa, Gĩakwa, gakwa, yakwa, rĩakwa | Ciakwa, Akwa, Makwa, twakwa |
+| **yours** | Gĩaku, gaku, yaku, waku, rĩaku | Ciaku, Twaku, ma-ku, aku |
+| **His/hers** | Gĩake, gake, yake, wake, rĩake | Ciake, Twake, make, ake |
+| **Theirs'** | Kĩao, kao, yao, rĩao, wao | Cĩao, Twao, mao, ao |
+| **it** | Kĩo, ko, yo, guo, rĩo | Cĩo, yo, mo, o |
+| **Who?** | **Ûû?** | **A?** |
+| **Anybody** | **Mûndû o wothe** | **Andû o othe** |
