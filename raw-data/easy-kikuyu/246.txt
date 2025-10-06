@@ -1,0 +1,129 @@
+Here is the text from all the uploaded images, grouped by topic for clarity, with no commentary.
+
+***
+
+## Kĩkũyũ Grammar & Conjugations
+
+### Future Tense — Later Today (2nd and 3rd Person)
+| Kĩkũyũ (Singular) | English Translation | Kĩkũyũ (Plural) | English Translation |
+| :--- | :--- | :--- | :--- |
+| **2nd Person Singular (wẽẽ - you)** | | **2nd Person Plural (Inyuĩ - you)** | |
+| Nĩ **ũgũ-ũka** | you will come | Nĩ **Mũgũ-ũka** | We will come |
+| Nĩ **ũkũ-rĩra** | you will cry | Nĩ **Mũkũ-rĩra** | We I will cry |
+| Nĩ **ũkũ-rĩa** | you will eat | Nĩ **Mũkũ-rĩa** | We will eat |
+| Nĩ **ũkũ-aria** | you will speak | Nĩ **Mũkũ-aria** | We will speak |
+| Nĩ **ũgũ-kena** | you will be happy | Nĩ **Mũgũ-kena** | We will be happy |
+| Nĩ **ũgũ-theka** | you will laugh | Nĩ **Mũgũ-theka** | We will laugh |
+| Nĩ **ũgũ-thĩĩ** | you will go | Nĩ **Mũgũ-thĩĩ** | We will go |
+| Nĩ **ũgũ-thooma** | you will read | Nĩ **Mũgũ-thooma** | We will read |
+| Nĩ **ũkũ-andĩka** | you will write | Nĩ **Mũkũ-andĩka** | We will write |
+| **3rd Person Singular (We - him/her)** | | **3rd Person Plural (O - them)** | |
+| Nĩ **egũka** | he/she will come | Nĩ **megũka** | They will come |
+| Nĩ **ekũrĩra** | he/she will cry | Nĩ \_\_\_\_\_\_\_\_\_ | They will cry |
+| Nĩ \_\_\_\_\_\_\_\_\_ | he/she will eat | Nĩ **mekũrĩa** | They will eat |
+| Nĩ \_\_\_\_\_\_\_\_\_ | he/she will speak | Nĩ **mekũaria** | They will speak |
+| Nĩ **egũkena** | he/she will be happy | Nĩ \_\_\_\_\_\_\_\_\_ | They will be happy |
+| Nĩ \_\_\_\_\_\_\_\_\_ | he/she will laugh | Nĩ \_\_\_\_\_\_\_\_\_ | They will laugh |
+| Nĩ \_\_\_\_\_\_\_\_\_ | he/she will go | Nĩ \_\_\_\_\_\_\_\_\_ | They will go |
+| Nĩ **agũthooma** | he/she will read | Nĩ \_\_\_\_\_\_\_\_\_ | They will read |
+| Nĩ \_\_\_\_\_\_\_\_\_ | he/she will write | Nĩ **mekũandĩka** | They will write |
+
+***
+
+### Past Tenses (Moments Ago and Early Today)
+| Tense | Person | Kĩkũyũ Example | English Translation (Pattern) |
+| :--- | :--- | :--- | :--- |
+| **Moments ago** | 1st Sg/Pl | **Ndokĩra** dagĩka ikũmi ciathira / **Twokĩra** dagĩka ikũmi ciathira | (Do/Two)kĩra - I/We started ten minutes ago. |
+| | 2nd Sg/Pl | **Wokĩra** dagĩka ikũmi ciathira / **Mwokĩra** dagĩka ikũmi ciathira | (Wo/Mwo)kĩra - You/You all started ten minutes ago. |
+| | 3rd Sg/Pl | **Okĩra** dagĩka ikũmi ciathira / **Mokĩra** dagĩka ikũmi ciathira | (O/Mo)kĩra - He/She/They started ten minutes ago. |
+| **Early today** | 1st Sg/Pl | **Ndĩthambire** na maĩ mahoro / **Twĩthambire** na maĩ mahoro | (Ndĩ/Twĩ)thambire - I/We washed with warm water. |
+| | 2nd Sg/Pl | **Wĩthambire** na maĩ mahoro / **Mwĩthambire** na maĩ mahoro | (Wĩ/Mwĩ)thambire - You/You all washed with warm water. |
+| | 3rd Sg/Pl | **Ethambire** na maĩ mahoro / **Methambire** na maĩ mahoro | (E/Me)thambire - He/She/They washed with warm water. |
+
+***
+
+## Kĩkũyũ Vocabulary & Phrases
+
+### Sounds and Feelings (Ũraigua atĩa? Ndĩraigua...)
+| Kĩkũyũ Word | English Translation | Kĩkũyũ Context Phrase | English Translation |
+| :--- | :--- | :--- | :--- |
+| **Guoya** | SCARED | **Kũringa kanua** - Warakara, waringa kanua | To be angry, making sounds with the mouth. |
+| **Gĩkeno** | HAPPY | **Kũbogotha** - mũrwaru nĩ araria? Aca no nĩ arabogotha | Is the sick person talking? Look, he is also mumbling. |
+| **Kĩeha** | SAD | **Gũthĩoma** - Arathioma akĩaria Gĩkũyũ | He is speaking Gĩkũyũ with an accent. |
+| **Marakara** | ANGRY | **Kũhaya** - Ndiratwara mwana thibitarĩ tondũ nĩ arahaya | I am taking the child to the hospital because he is groaning. |
+| **Ndũhĩo** | EXCITED | **Gũkorora** - Kaĩ ũrakorora? Tua gĩkorora | Why are you snorting? Blow your nose. |
+| **Kĩmako** | WORRIED | **Gũathĩmũra** - Nyita kanua ũgĩathĩmũra | Cover your mouth when sneezing. |
+| **Kũhahũka** | SURPRISED | **Gũkomba** | to make bad gestures at someone who is facing away; To borrow money |
+| **Ũrĩmũ** | SILLY | **Kũigua Kĩnyĩria** | to be disgusted |
+| **Kwaga kũiganĩra** | FRUSTRATED | **Kũnyĩra** | to express disgust for something (e.g. a kind of food) |
+| | | **Kũnunũha** | fast sounds made by someone crying |
+| | | **Kũnunũha** | to nose bleed |
+| | | **Gwĩthĩkĩra** | to have a sad posture, e.g. when mourning |
+
+***
+
+### Opposites (Ciugo îkararanĩtie)
+| Word 1 (Kĩkũyũ) | Word 2 (Kĩkũyũ) | Word 1 (English) | Word 2 (English) |
+| :--- | :--- | :--- | :--- |
+| **Gũcambia** | **gũkũmitia, kũgooca** | To criticize/fault | To praise, to compliment/flatter |
+| **Gũtaara** | **kũhĩtithia** | To guide/advise | To mislead/cause to err |
+| **Gũtherema** | **gũkũndera** | To accept/receive | To reject/refuse |
+| **Gũthĩnia** | **gũteithia** | To bother/trouble | To help/assist |
+| **Gũtonga** | **gũthĩna** | To be rich/wealthy | To be poor/to suffer |
+| **Gwaka** | **gũtharia** | To build | To demolish/destroy |
+| **Kĩgũthũko** | **mĩhehũ** | Strong smell | Fragrance/sweet scent |
+| **Kĩrumi** | **kĩrathimo** | A curse | A blessing |
+| **Kũgetha** | **kũhanda** | To harvest/reap | To plant/sow |
+| **Kũhũnyũka** | **kũrura** | To be fast/quick | To be slow/sluggish |
+| **Kũhũrithania** | **Gũteithũra** | To make someone happy | To disappoint/make someone unhappy |
+| **Kũhũta** | **kũhũna** | To be hungry | To be full (satiated) |
+| **Kũmbũka** | **kũmba** | To melt/dissolve | To freeze/harden |
+| **Kũngania** | **kũhurunja** | To gather/collect | To scatter/disperse |
+| **Kũnyarara** | **gũtĩĩa** | To despise/look down on | To respect/honor |
+| **Kũrĩra** | **gũtheka** | To cry | To laugh |
+| **Kwĩhĩka** | **kwĩgũucia** | To feel shy/embarrassed | To be proud/self-assured |
+| **Mũnyuko** | **noru** | Thin/skinny | Fat/plump |
+| **Mũtĩino** | **mũnyaka** | Bad luck/misfortune | Good luck/fortune |
+| **Mũtitũ** | **werũ** | Forest/bush | Open grassland/field |
+| **Mwendwo-nĩ-irĩ** | **Mũtiga-irĩ** | Beloved/favorite | The one who is left/forgotten |
+| **Ndũma** | **ũtheri** | Darkness | Light/brightness |
+| **Ngũĩ** | **ndũhĩo** | Anger/rage | Excitement/enthusiasm |
+| **Njamba** | **Kĩguoya** | Hero/brave person | Coward/fearful person |
+| **Njĩthĩ** | **hũu** | Raw/uncooked | Dry/cooked |
+| **Njong'i** | **Nyarari** | Wealth/riches | Poverty/need |
+| **Rũteere** | **gatagatĩ** | Side/edge | Middle/center |
+| **Thayũ** | **mbaara/ũgwati** | Peace/quiet | War/danger |
+| **ũgũũta** | **kĩo** | Slowness/slow pace | Speed/fast pace |
+| **Ũkarĩ** | **ũtana** | Sourness/bitterness | Sweetness/tenderness |
+
+*Instructions: Pick any 10 words and their opposites (5 singular pairs and 5 plural), and compose sentences in 3rd person singular (5) plural (5), in tense of "early today."*
+*Eg. (3rd P Plural) **Mahurunjei mbembe, ndamera monganie ciothe**.*
+
+***
+
+### Do this before you do that (Conditional/Imperative)
+| Kĩkũyũ Phrase (Singular) | English Translation | Kĩkũyũ Phrase (Plural) | English Translation |
+| :--- | :--- | :--- | :--- |
+| **Nyua maĩ ũtanarĩa irio** | drink water before you eat food | **Nyuai maĩ mûtanarĩa irio** | plural (told to several persons) |
+| **Wĩthambe ũtanauma nja** | shower before you go out | **Mwĩthambei mûtanuma nja** | Plural (nja - out) |
+| **Hũra thimũ ũtaneka ũndũ ũngĩ** | make a call before you do something else; | **Hũrai thimũ mûtaneka ũndũ ũngĩ** | plural |
+| **Thikĩrĩrĩa ũtanaria** | listen before you speak | **Thikĩrĩrĩai mûtanaria** | Plural |
+| **Gũra ranji ũtanathĩĩ** | buy lunch before you go | **Gũrai ranji mûtanathĩĩ** | Plural |
+| **Thomithia mwana atananeheha** | teach the child before he/grows (up) | **Thomithiai ciana citananeheha** | plural |
+| **Mũtware thibitarĩ atanarwara makĩria** | take him/her to hospital before he/she gets worse (gets sicker) | | |
+| **Before - \_\_\_\_ tana\_\_\_\_** | | | |
+| *Use these words below to form your own senctences* | **kuuma; kũhũra thimũ; gũthikĩrĩrĩa; gũthomithia;** | | |
+
+***
+
+### Simple Sentences 4 (Foundation Week 4)
+* **Mwarimũ waku etagwo atĩa?** - What is the name of your teacher?
+* **Nĩ wendete gũthooma?** - Do you like reading?
+* **Njĩĩra rĩtwa rĩa ibuku rĩmwe** - Tell me the name of one book
+* **Nĩ ũthakaga mĩthako?** - Do you play games?
+* **Wendete mĩthako ũrĩkũ?** - Which game do you like?
+* **Mũrũ wa Nyũkwa etagwo atĩa** - What is your brother's name?
+* **Mwarĩ wa nyũkwa etagwo atĩa** - What is your sister's name?
+* **Mwarimũ** (Teacher)
+* **Ibuku** (Book)
+* **Mũthako wa mũbira** (Playing with a ball)

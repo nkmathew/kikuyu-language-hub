@@ -1,0 +1,64 @@
+The image lists Kĩkũyũ phrases related to **Sounds and feelings** and instructs the user to change these phrases into the **Past Tense (yesterday)** and **Future Tense (tomorrow)**.
+
+The provided phrases and their translations are below, followed by the requested verb conjugations.
+
+## Kĩkũyũ Phrases: Sounds and Feelings
+
+| Kĩkũyũ Phrase | English Translation |
+| :--- | :--- |
+| **Kũringa kanua** - Warakara, waringa kanua | To be angry, making sounds with the mouth. |
+| **Kũbogotha** - Mũrwaru nĩ araria? Aca no nĩ arabogotha | To mumble/babble. Is the sick person talking? Look, he is also mumbling. |
+| **Gũthĩoma** - Arathioma akĩaria Gĩkũyũ | To speak with an accent. He is speaking Gĩkũyũ with an accent. |
+| **Kũhaya** - Ndiratwara mwana thibitarĩ tondũ nĩ arahaya | To groan/moan. I am taking the child to the hospital because he is groaning. |
+| **Gũkorora** - twakorora tũtuaga gĩkorora | To snort/clear the nose. We snorted, let's blow our nose. |
+| **Gũathĩmũra** - Nyita kanua ũgĩathĩmũra | To sneeze. Cover your mouth when sneezing. |
+| **Gũkomba** - ũrakomba mũndũ nĩkĩ? | To make bad gestures/to borrow. Why are you making a bad gesture at a person? |
+| **Kũigua Kĩnyiria** - Araigua kĩnyĩria ona ndinĩhoho | To be disgusted/nauseated. He/She feels disgusted even though he/she is not drunk. |
+| **Kũnyĩra** - Maranyĩra irio cia mũcaina | To express disgust for food. They are expressing disgust for the Chinese food. |
+| **Kũnunũha** - Ndanunũha, ndakoma na ngara | To nose bleed. He has a nosebleed, he is sleeping on a sheet/mat. |
+| **Gũĩthĩkĩra** - Aigua mũndũ akua, ethĩkĩra | To have a sad posture/to mourn. He/She hears a person has died, he/she sits sadly. |
+| **Gwĩthĩkĩra nĩũndũ wa kĩeha kĩingĩ** | To have a sad posture due to much sorrow. |
+
+---
+
+## Verb Conjugation Exercise
+
+To fulfill the instruction, we will conjugate the verb stems into the **Past Tense (Yesterday)** and the **Future Tense (Tomorrow)**. The following uses the 3rd person singular pronoun **A** (he/she) for consistency.
+
+### 1. Past Tense (Yesterday) - **Yesteryear Past**
+
+This tense uses the prefix **-irire** or **-ire** (depending on vowel harmony) added to the root, preceded by the appropriate subject prefix **A-** (for *he/she*).
+
+| Verb Stem | Kĩkũyũ (Yesterday Past) | English Translation |
+| :--- | :--- | :--- |
+| **-ringa** (kanua) | **Arĩngire** kanua | He/She **made a noise** (with the mouth). |
+| **-bogotha** | **Abogothire** | He/She **mumbled**. |
+| **-thĩoma** | **Athĩomire** | He/She **spoke with an accent**. |
+| **-haya** | **Ahayire** | He/She **groaned/moaned**. |
+| **-korora** | **Akororire** | He/She **snorted**. |
+| **-athĩmũra** | **Aathĩmũrire** | He/She **sneezed**. |
+| **-komba** | **Akommire** | He/She **made a gesture** / **borrowed**. |
+| **-igua** (kĩnyĩria) | **Aiguire** kĩnyĩria | He/She **was disgusted**. |
+| **-nyĩra** | **Anyĩrire** | He/She **expressed disgust**. |
+| **-nunũha** | **Anunũhire** | He/She **had a nosebleed**. |
+| **-ĩthĩkĩra** | **Ethĩkĩrire** | He/She **sat sadly/mourned**. |
+
+---
+
+### 2. Future Tense (Tomorrow) - **Remote Future**
+
+This tense uses the marker **-ka-** inserted before the root, preceded by the subject prefix **A-** (for *he/she*). This implies the action will take place in the remote future (e.g., tomorrow or beyond).
+
+| Verb Stem | Kĩkũyũ (Remote Future) | English Translation |
+| :--- | :--- | :--- |
+| **-ringa** (kanua) | **Akarĩnga** kanua | He/She **will make a noise** (with the mouth). |
+| **-bogotha** | **Akabogotha** | He/She **will mumble**. |
+| **-thĩoma** | **Akathĩoma** | He/She **will speak with an accent**. |
+| **-haya** | **Akahaya** | He/She **will groan/moan**. |
+| **-korora** | **Akorora** | He/She **will snort**. |
+| **-athĩmũra** | **Akaathĩmũra** | He/She **will sneeze**. |
+| **-komba** | **Akakomba** | He/She **will make a gesture** / **borrow**. |
+| **-igua** (kĩnyĩria) | **Akaigua** kĩnyĩria | He/She **will be disgusted**. |
+| **-nyĩra** | **Akanyĩra** | He/She **will express disgust**. |
+| **-nunũha** | **Akanunũha** | He/She **will have a nosebleed**. |
+| **-ĩthĩkĩra** | **Akethĩkĩra** | He/She **will sit sadly/mourn**. |

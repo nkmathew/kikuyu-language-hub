@@ -1,0 +1,28 @@
+This image demonstrates the conjugation of several Gĩkũyũ (Kikuyu) verbs in the **present progressive tense** for the **third person** (he/she/it and they).
+
+Here is the extracted list showing the singular and plural forms:
+
+---
+
+## 3rd Person Verb Conjugation (Present Progressive)
+
+| Verb Stem | 3rd Person Singular (He/She) | 3rd Person Plural (They) | English Meaning |
+| :--- | :--- | :--- | :--- |
+| **-roka** | **Nĩ aroka** | **Nĩ maroka** | is/are coming |
+| **-rarĩra** | **Nĩ ararĩra** | **Nĩ mararĩra** | is/are crying |
+| **-rarĩa** | **Nĩ ararĩa** | **Nĩ mararĩa** | is/are eating |
+| **-raria** | **Nĩ araria** | **Nĩ mararia** | is/are speaking |
+| **-rakena** | **Nĩ arakena** | **Nĩ marakena** | is/are happy |
+| **-ratheka** | **Nĩ aratheka** | **Nĩ maratheka** | is/are laughing |
+| **-rathĩĩ** | **Nĩ arathĩĩ** | **Nĩ marathĩĩ** | is/are going |
+| **-rathoomɑ** | **Nĩ arathoomɑ** | **Nĩ marathoomɑ** | is/are reading |
+| **-randĩka** | **Nĩ arandĩka** | **Nĩ marandĩka** | is/are writing |
+
+***
+
+### Key Takeaways
+1.  **Singular Prefix:** The 3rd person singular subject prefix is **a-** (from the pronoun *We*).
+2.  **Plural Prefix:** The 3rd person plural subject prefix is **ma-** (from the pronoun *O*).
+3.  **Progressive Marker:** The progressive marker is **-ra-** which is inserted before the verb stem to denote an ongoing action ("is...ing").
+    * Example: **A-ra-roka** (He/She is coming) and **Ma-ra-roka** (They are coming).
+4.  **Tone/Vowel Length:** The image notes that the pronouns *We* and *O* have a **short vowel** in this context.

@@ -1,0 +1,41 @@
+This image provides a useful Gĩkũyũ (Kikuyu) dialogue for finding and paying for transport, likely on a public service vehicle like a Matatu.
+
+Here is the extracted dialogue and vocabulary:
+
+---
+
+# Week 4-2 Dialogue
+**A passenger is looking for transport to Kariobangi – Pronounced *Karĩobang'i* in Kikuyu.**
+
+| # | Gĩkũyũ Phrase | English Translation |
+| :---: | :--- | :--- |
+| **1.** | **Wathĩĩ kũ mũthĩĩ?** | Where are you going? |
+| **2.** | **Ndathĩĩ Karĩũbang'i.** | I am going to Kariobangi. |
+| **3.** | **Haica ngarĩ ĩrĩa. Ĩno nĩ ya mathare.** | Take that vehicle. This one goes to Mathare. |
+| **4.** | **Nĩ ngatho.** | Thanks. |
+| **5.** | **Ĩno nĩ ya Karĩũbang'i?** | Is this one to Kariobangi? |
+| **6.** | **Ĩĩ nĩ yo ingĩra naihenya, mĩtũkĩ mĩtũkĩ maitũ.** | Yes it is, get in quickly Mother. |
+| **7.** | **Nyita guoko ndikagwe.** | Hold my hand so I don't fall. |
+| **8.** | **Ĩkarĩra gĩtĩ gĩkĩ na ũrehe mbeca.** | Sit on this seat and bring the money. |
+| **9.** | **Nĩ cigana?** | How much? |
+| **10.** | **Ciringi mĩrongo ĩtano.** | Fifty shillings. |
+| **11.** | **Hĩ! Karĩ goro atĩa?** | My! How expensive? |
+| **12.** | **Tĩ goro maitũ nĩguo tũrĩhagia.** | It is not expensive mum, that is what we charge. |
+| **13.** | **Ke igana rĩmwe ũnjokerie mĩrongo ĩtano.** | Take this one-hundred shillings and give back fifty shillings. |
+
+---
+
+## Vocabularly
+
+| Gĩkũyũ Word | English Translation |
+| :--- | :--- |
+| **Mũthĩĩ** | traveller |
+| **Haica** | climb, uma – get out |
+| **Ngatho** | gratitude |
+| **Nyita** | hold |
+| **Mĩtũkĩ, naihenya** | quickly, with speed |
+| **Mbeca, mbia** | money |
+| **Ĩkarĩra** | sit on |
+| **Goro** | expensive |
+| **ũnjokerie** | return to me |
+| **Tũrĩhagia** | we charge |

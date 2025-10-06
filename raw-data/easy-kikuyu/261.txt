@@ -1,0 +1,52 @@
+This image provides the **First and Second Person** conjugation of several Gĩkũyũ (Kikuyu) verbs in the **present progressive tense** (indicating an ongoing action).
+
+Here is the extracted list showing the singular and plural forms for all four persons:
+
+---
+
+## Gĩkũyũ Verb Conjugation: 1st & 2nd Person (Present Progressive)
+
+### 1st Person (I / We)
+
+| Gĩkũyũ Singular (Nĩĩ - Me) | English Translation | Gĩkũyũ Plural (Ĩthũĩ - We) | English Translation |
+| :--- | :--- | :--- | :--- |
+| **Nĩĩ ndĩroka** | I am coming | **Nĩĩ tũroka** | We are coming |
+| **Nĩĩ ndĩrarĩra** | I am crying | **Nĩĩ tũrarĩra** | We are crying |
+| **Nĩĩ ndĩrarĩa** | I am eating | **Nĩĩ tũrarĩa** | We are eating |
+| **Nĩĩ ndĩraria** | I am speaking | **Nĩĩ tũraria** | We are speaking |
+| **Nĩĩ ndĩrakena** | I am happy | **Nĩĩ tũrakena** | We are happy |
+| **Nĩĩ ndĩratheka** | I am laughing | **Nĩĩ tũratheka** | We are laughing |
+| **Nĩĩ ndĩrathĩĩ** | I am going | **Nĩĩ tũrathĩĩ** | We are going |
+| **Nĩĩ ndĩrathooma** | I am reading | **Nĩĩ tũrathooma** | We are reading |
+| **Nĩĩ ndĩrandĩka** | I am writing | **Nĩĩ tũrandĩka** | We are writing |
+
+***
+
+### 2nd Person (You - Singular / You - Plural)
+
+| Gĩkũyũ Singular (Wee - you) | English Translation | Gĩkũyũ Plural (Ĩnyuĩ - you) | English Translation |
+| :--- | :--- | :--- | :--- |
+| **Nĩĩ ũroka** | You are coming | **Nĩĩ mũroka** | You are coming |
+| **Nĩĩ ũrarĩra** | You are crying | **Nĩĩ mũrarĩra** | You are crying |
+| **Nĩĩ ũrarĩa** | You are eating | **Nĩĩ mũrarĩa** | You are eating |
+| **Nĩĩ ũraria** | You are speaking | **Nĩĩ mũraria** | You are speaking |
+| **Nĩĩ ũrakena** | You are happy | **Nĩĩ mũrakena** | You are happy |
+| **Nĩĩ ũratheka** | You are laughing | **Nĩĩ mũratheka** | You are laughing |
+| **Nĩĩ ũrathĩĩ** | You are going | **Nĩĩ mũrathĩĩ** | You are going |
+| **Nĩĩ ũrathooma** | You are reading | **Nĩĩ mũrathooma** | You are reading |
+| **Nĩĩ ũrandĩka** | You are writing | **Nĩĩ mũrandĩka** | You are writing |
+
+***
+
+### Conjugation Rules Overview
+
+The pattern for the present progressive tense is:
+
+| Person | Subject Prefix | Example (to come) |
+| :--- | :--- | :--- |
+| **1st Singular (I)** | **ndĩ-** | **ndĩroka** |
+| **2nd Singular (You)** | **ũ-** | **ũroka** |
+| **1st Plural (We)** | **tũ-** | **tũroka** |
+| **2nd Plural (You pl.)** | **mũ-** | **mũroka** |
+
+*Note: The **-ra-** progressive marker seen in the previous image is simplified here to **-r-** or omitted, which is common in the rapid speech and progressive forms of some Gĩkũyũ verbs. The verbs here use the stem **-roka** instead of **-raroka**.*
