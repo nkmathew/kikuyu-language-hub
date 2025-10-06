@@ -145,6 +145,9 @@ def update_preview():
     else:
         preview_text.insert(tk.END, "(Clipboard empty)", "left")
         preview_text.config(bg="#2a2a2a")
+    # Dynamically set height to fit text (max 20 lines)
+    num_lines = max(1, min(20, len(lines) if lines else 1))
+    preview_text.config(height=num_lines)
     preview_text.config(state="disabled")
 
 
@@ -198,10 +201,10 @@ def center_window(win, width=600, height=None):
     win.update_idletasks()
     screen_width = win.winfo_screenwidth()
     screen_height = win.winfo_screenheight()
-    if height is None:
-        height = int(screen_height * 0.8)
+    # Use 90% of screen height, top at y=0
+    height = int(screen_height * 0.9)
     x = (screen_width // 2) - (width // 2)
-    y = (screen_height // 2) - (height // 2)
+    y = 0
     win.geometry(f"{width}x{height}+{x}+{y}")
 
 center_window(root)
@@ -218,13 +221,13 @@ style.configure("TLabel", foreground="white", background="#222222")
 style.configure("Preview.TLabel", foreground="white", background="#181818", font=("Segoe UI", 11))
 root.configure(bg="#222222")
 
-main_frame = ttk.Frame(root, padding=20)
+main_frame = ttk.Frame(root, padding=(20, 0, 20, 20))  # Remove top padding
 main_frame.pack(expand=True, fill="both")
 main_frame.configure(style="TFrame")
 style.configure("TFrame", background="#222222")
 
 folder_label = ttk.Label(main_frame, textvariable=folder_var, style="TLabel")
-folder_label.pack(fill="x", pady=(0, 5))
+folder_label.pack(fill="x", pady=(0, 5))  # No top margin
 
 button_frame = ttk.Frame(main_frame, style="TFrame")
 button_frame.pack(fill="x", pady=(0, 10))
@@ -246,13 +249,24 @@ line_count_label.pack(side="left", padx=(10, 0))
 preview_frame = ttk.Frame(main_frame, style="TFrame")
 preview_frame.pack(fill="both", expand=True)
 
-preview_scrollbar = tk.Scrollbar(preview_frame)
-preview_scrollbar.pack(side="right", fill="y")
+# Remove scrollbar if not needed
+# preview_scrollbar = tk.Scrollbar(preview_frame)
+# preview_scrollbar.pack(side="right", fill="y")
 
-preview_text = tk.Text(preview_frame, wrap="word", font=("Segoe UI", 11), bg="#181818", fg="white", borderwidth=2, relief="groove", yscrollcommand=preview_scrollbar.set, padx=10, pady=10)
-preview_text.pack(fill="both", expand=True)
+preview_text = tk.Text(
+    preview_frame,
+    wrap="word",
+    font=("Segoe UI", 11),
+    bg="#181818",
+    fg="white",
+    borderwidth=4,  # Thicker border for raised effect
+    relief="raised",  # Raised effect
+    padx=10,
+    pady=10,
+    height=1
+)
+preview_text.pack(fill="x", expand=False)
 preview_text.tag_configure("left", justify="left")
-preview_scrollbar.config(command=preview_text.yview)
 
 # Move status bar below preview box
 status_var = tk.StringVar(value="")
