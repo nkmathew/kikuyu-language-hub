@@ -5,6 +5,7 @@ import json
 from tkinter import messagebox
 import hashlib
 import platform
+import threading
 
 if platform.system() == "Windows":
     import winsound
@@ -282,5 +283,20 @@ preview_text.bind("<Button-1>", on_preview_click)
 update_preview()
 root.after(1000, update_preview)  # Update preview every second
 root.bind('<FocusIn>', lambda e: update_preview())
+
+def poll_clipboard():
+    try:
+        text = root.clipboard_get()
+        if isinstance(text, str):
+            trimmed_text = text.strip()
+            h = hash_text(trimmed_text)
+            # Only activate if clipboard has non-empty text and is not duplicate
+            if trimmed_text and h not in hashes:
+                root.after(0, lambda: (root.deiconify(), root.lift(), root.focus_force()))
+    except Exception:
+        pass
+    root.after(3000, poll_clipboard)
+
+poll_clipboard()  # Start polling clipboard
 
 root.mainloop()

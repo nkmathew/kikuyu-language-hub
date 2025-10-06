@@ -1,0 +1,30 @@
+This image provides vocabulary related to **light** and **darkness** in Kikuyu, along with different sources of light.
+
+## Kikuyu Vocabulary for Light and Darkness
+
+| Kikuyu Word | English Translation |
+|:---|:---|
+| **Ũtheri** | light |
+| **Nduma** | Darkness |
+
+---
+
+## Sources of Light (Ũtheri)
+
+| Kikuyu Phrase | English Translation | Image Depiction |
+|:---|:---|:---|
+| **Ũtheri wa rĩũa** | Sun light | Bright sun in a blue sky. |
+| **Ũtheri wa mweri na njata** | Light from moon and stars | Dark night sky with a crescent moon and stars. |
+| **Ũtheri wa thitima** | Electric light | Hanging incandescent light bulbs. |
+| **Ũtheri wa mũcũmaa** | Light from a candle | A single burning candle. |
+| **Ũtheri wa toci** | Light from a torch | A red flashlight (torch). |
+| **Ũtheri wa mwaki wa ngũ** | Light from a firewood fire | A small outdoor bonfire. |
+
+---
+
+## Exercise
+
+The image includes a final instruction in Kikuyu:
+
+**Tunga mĩhari ĩtandatũ na ciugo ici cia ũtheri**
+*(English Translation: Form six sentences using these words about light.)*
