@@ -1,0 +1,35 @@
+Here is the transcription of the Kikuyu verbs and the grammatical rule from the image:
+
+---
+
+## Verbs of Motion and Other Verbs
+
+### Column 1 (Verbs)
+
+* **Gũthii** - to go
+* **Gũkinya** - arrive
+* **Gũikũrũka** - to go down (eg. Staircase)
+* **Gũtuĩka** - to become
+* **Kũingĩra** - to enter
+* **Kũhaica** - to climb
+* **Gũkua** - to die
+* **Kũroka** - to go (or arrive) first thing in the morning
+
+### Column 2 (Verbs)
+
+* **Gũciarwo** - to be born
+* **Gũciara** - to bear (child)
+* **Kuuma** - to come out
+* **Kũhĩtũka** - to become
+* **Gũcooka** - to come back
+* **Kũingĩra** - Kuĩngira (This appears to be a duplicate or typo for the previous list)
+* **Gũĩkara** - to stay
+* **Kũrara** - to stay overnight
+
+### Grammar Rule
+
+**Remove "GŨ" or "KŨ" and the words become orders** (Imperative/Command form)
+
+*(For example: **Gũthii** (to go) becomes **Thii** (Go! - singular command))*
+*(For example: **Kũhaica** (to climb) becomes **Haica** (Climb! - singular command))*
+*(For example: **Gũcooka** (to come back) becomes **Cooka** (Come back! - singular command))*

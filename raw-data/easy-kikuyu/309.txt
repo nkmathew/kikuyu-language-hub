@@ -1,0 +1,39 @@
+Here is the transcription of the text in the image, which presents a list of Kikuyu words and a task for the user:
+
+**Andĩka ciugo irĩkĩtie na ‘ma’**
+**(Task: Write words ending with 'ma')**
+
+**Jeremy Ng'ang'a** A list of words ending with **'ma'**:
+
+| Column 1 (User Input/Challenge) | Column 2 (List of 'ma' words - Left) | Column 3 (List of 'ma' words - Right) |
+|---|---|---|
+| **John Gathatwa ũma** | **cũma** - Iron, | **gatema** - cholera |
+| **Uma** | **Cĩũma** - beads, | **gĩcanjama** - drama |
+| **Ngiuma** | **cama** - taste, | **gĩthima** - well |
+| **Kĩrĩĩma** | **cema** - sneak, | **hama** - tent |
+| **Nĩma** | **terema** - ???? (ũthonii ndũteremagwo), | **homa** - flu/fever |
+| **Karĩma** | **Kĩrema** - a scar, | **hũũma** (1) - folk |
+| **Karima** | **tema** - cut, | **hũũma** (2) - pant |
+| **Irĩma** | **kũrema** - be impossible | **kama** - milk |
+| **Irĩma** | | **koma** - sleep |
+| **Mama** | | **mũtĩrĩma** - walking stick |
+| **Ngĩma** | | **ndarama** - drum |
+| **Ngĩma** | | **ng'ĩma** - whole |
+| **Ndũma** | | **ngĩma** - colobus monkey |
+| **Kũrĩĩma** | | **ngũũkũma** - tick |
+| **Kũrũũma** | | **njũgũma** - club |
+| | | **Njuma** - Saturday |
+| | | **nyama** - meat |
+| | | **rũgama** - stand |
+| | | **thama** - exodus/move out |
+| | | **thĩma** - measure |
+| | | **thitima** - electricity |
+| | | **thoma** - read |
+| | | **thuguma** - urinate |
+| | | **tũma** - send |
+| | | **tuma** - sew |
+
+---
+
+The text on the left and right borders says:
+**Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu**
