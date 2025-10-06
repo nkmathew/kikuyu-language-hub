@@ -108,6 +108,12 @@ python seed/wiktionary_verbs_literal_seed.py      # 76 verbs/infinitives with IP
 python seed/wiktionary_proverbs_literal_seed.py   # 52 traditional proverbs 
 python seed/wiktionary_derivatives_literal_seed.py # 42 derived terms/examples
 
+# Easy Kikuyu lessons (native speaker content from 538 files)
+python seed/easy_kikuyu_vocabulary_seed.py        # 477 vocabulary items
+python seed/easy_kikuyu_proverbs_seed.py          # 119 traditional proverbs
+python seed/easy_kikuyu_conjugations_seed.py      # 49 verb conjugations
+python seed/easy_kikuyu_comprehensive_seed.py     # 4 grammar/advanced items
+
 # Code quality
 black .                                 # Format code
 isort .                                 # Sort imports  
