@@ -1,0 +1,30 @@
+This image is an excellent guide for learning some key aspects of Kikuyu pronunciation.
+
+## Kikuyu Pronunciation Guide
+
+The word at the top, **Nĩtwĩrĩririkanie**, means **"Let us remember"** (literally: "remind ourselves").
+
+The guide then provides phonetic examples for the key vowels and a couple of consonants:
+
+### Vowels
+
+Kikuyu has seven cardinal vowels, some of which are marked with a tilde (~), a diaeresis (¨), or an acute accent (´) in other texts to show the two different degrees of openness for the same sound. This guide uses the tilde to distinguish them.
+
+| Kikuyu Vowel | English Example | Notes on Sound |
+| :--- | :--- | :--- |
+| **a** | as in **A**frica | Pronounced like the 'a' in f**a**ther. |
+| **e** | as in **E**stuary | Pronounced like the 'e' in b**e**d or p**e**t. |
+| **i** | as in **I**ndia | Pronounced like the 'i' in m**ee**t or b**i**t. |
+| **o** | as in **o**ffice | Pronounced like the 'o' in l**o**t or sh**o**rt. |
+| **u** | as in **oo**ze | Pronounced like the 'u' in r**u**le or b**oo**t. |
+| **ĩ** | as in **Ate** | Pronounced like the 'a' in G**a**te, or 'ai' in p**ai**nt (a more closed 'e' sound). |
+| **ũ** | as in **Owner** | Pronounced like the 'o' in **o**ver or g**o** (a more closed 'o' sound). |
+
+### Consonants
+
+| Kikuyu Consonant | English Example | Notes on Sound |
+| :--- | :--- | :--- |
+| **B** | as in maha**B**harat | This is a **bilabial fricative**. It's not the hard English 'B'. Instead, it's a soft sound made by bringing both lips close together and forcing the air through, often sounding like a **soft 'V'** or sometimes like 'W'. |
+| **C** | as in **sh**illing | Pronounced as the **'ch'** in **ch**air or the **'sh'** in **sh**oe, but often somewhere in between. It is usually represented as **/ʃ/** or **/tʃ/**. |
+
+*Note: The English example for **B** (**mahaBharat**) is pointing out the softer, aspirated /bh/ sound found in some Indic languages, which is closer to the softer Kikuyu sound than the hard English 'B'.*

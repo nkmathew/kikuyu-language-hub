@@ -1,0 +1,26 @@
+The image provides examples of how to use the Kikuyu auxiliary verb **-na** (to have) with different subject prefixes.
+
+### Breakdown of the Auxiliary Verb "Have" (Na)
+
+The full verb form is a combination of the subject prefix (which includes the *nĩ* marker for present/affirmative) and the particle **na**.
+
+| Person | Subject Prefix | Full Verb | Translation | Example Word |
+| :--- | :--- | :--- | :--- | :--- |
+| **1st Sg** (I) | **Ndĩ** (Nĩ + Ndĩ) | **Ndĩ na...** | I have... | karamũ (pen) |
+| **2nd Sg** (You) | **Wĩ** (Nĩ + Wĩ) | **Wĩ na...** | You have... | tũramũ (pens) |
+| **3rd Sg** (He/She) | **E** (Nĩ + E) | **E na...** | He/She has... | ngĩrathĩ (glass) |
+| **3rd Pl** (They) | **Me** (Nĩ + Me) | **Me na...** | They have... | ngĩrathĩ (glasses) |
+| **1st Pl** (We) | **Twĩ** (Nĩ + Twĩ) | **Twĩ na...** | We have... | mwarimũ (teacher) |
+
+### Translation of the Example Sentences
+
+Here are the translations for the examples provided in the image:
+
+| Kikuyu Sentence | Breakdown | Translation |
+| :--- | :--- | :--- |
+| **Ndĩ na karamũ** | **Ndĩ na** (I have) **karamũ** (pen - singular) | **I have a pen** |
+| **Wĩ na tũramũ** | **Wĩ na** (You have) **tũramũ** (pens - plural) | **You have pens** |
+| **Mwĩ na thĩna** | **Mwĩ na** (You all have) **thĩna** (problem/trouble - used as a plural concept here) | **You (all) have problems** |
+| **E na ngĩrathĩ yakwa** | **E na** (He/She has) **ngĩrathĩ** (glass) **yakwa** (my) | **He/she has my glass** |
+| **Me na ngĩrathĩ ciakwa** | **Me na** (They have) **ngĩrathĩ** (glasses) **ciakwa** (my - plural) | **They have my glasses** |
+| **Twĩ na mwarimũ ũngĩ** | **Twĩ na** (We have) **mwarimũ** (teacher) **ũngĩ** (another/other) | **We have another teacher** |

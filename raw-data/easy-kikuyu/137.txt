@@ -1,0 +1,29 @@
+This image illustrates how to ask and answer the question "Who/What is with X?" and "I have X/I am with X" in Kikuyu, based on the noun classes.
+
+The structure is:
+
+1.  **Question:** *[Noun] [Subject Prefix] na ũ?* (Where **[Subject Prefix]** changes based on the noun class)
+    * **Literally:** "Is [Noun] with who/what?" or "Is [Noun] available?"
+2.  **Answer:** *Ndĩ na [Object Concords]*
+    * **Literally:** "I am with him/her/it/them." or "I have him/her/it/them."
+
+### Breakdown by Noun Class
+
+The table below shows the noun, the subject prefix (in brackets), and the corresponding object concords used in the answer.
+
+| Noun Class | Noun (Singular) | Question (Subject Prefix) | Answer (Object Concord) | Translation (Answer) |
+| :---: | :--- | :--- | :--- | :--- |
+| **1** (Mũ-/A-) | Mũĩrĩtu (Girl) | **e** (arĩ) na ũ? | Ndĩ **nake** | I have her/I am with her. |
+| **1** (Mũ-/A-) | Airĩtu (Girls) | **me** (marĩ) na ũ? | Ndĩ **nao** | I have them/I am with them. |
+| **2** (Mũ-/Mĩ-) | Mũtĩ (Tree) | **wĩ** (ũrĩ) na ũ? | Ndĩ **naguo** | I have it/I am with it. |
+| **2** (Mũ-/Mĩ-) | Mĩtĩ (Trees) | **ĩrĩ** (ĩrĩ) na ũ? | Ndĩ **nayo** | I have them/I am with them. |
+| **3** (N-/N-) | Njamba (Male/Warrior) | **ĩrĩ** (ĩrĩ) na ũ? | Ndĩ **nayo** | I have him/I am with him. |
+| **3** (N-/N-) | Njamba (Males/Warriors) | **ciĩ** (cirĩ) na ũ? | Ndĩ **nacio** | I have them/I am with them. |
+| **4** (Gĩ-/I-) | Gĩkombe (Cup) | **kĩ** (kĩrĩ) na ũ? | Ndĩ **nakĩo** | I have it/I am with it. |
+| **4** (Gĩ-/I-) | Ikombe (Cups) | **ciĩ** (cirĩ) na ũ? | Ndĩ **nacio** | I have them/I am with them. |
+| **5** (I-/Ma-) | Ihiga (Stone) | **rĩ** (rĩrĩ) na ũ? | Ndĩ **narĩo** | I have it/I am with it. |
+| **5** (I-/Ma-) | Mahiga (Stones) | **me** (marĩ) na ũ? | Ndĩ **namo** | I have them/I am with them. |
+| **6** (Rũ-/N-) | Rũhĩũ (Knife) | **rwĩ** (rũrĩ) na ũ? | Ndĩ **naruo** | I have it/I am with it. |
+| **6** (Rũ-/N-) | Hĩũ (Knives) | **ciĩ** (cirĩ) na ũ? | Ndĩ **nacio** | I have them/I am with them. |
+
+**Key Takeaway:** The word for "him/her/it/them" after **Ndĩ na** (I have/I am with) changes to match the prefix of the noun class of the object being discussed.
