@@ -188,6 +188,7 @@ def paste_clipboard():
     status_var.set("Saved successfully.")
     status_label.pack(fill="x", pady=(5, 0))
     update_preview()
+    root.iconify()  # Minimize window after writing to file
 
 
 def on_button_hover(event):

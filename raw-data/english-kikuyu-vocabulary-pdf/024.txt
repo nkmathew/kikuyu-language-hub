@@ -1,0 +1,22 @@
+That's a great way to learn how verb modification changes the meaning and intensity in Kikuyu! The examples show the root verb (like **Thiĩ**), the diminutive/slight modification (**Thiathia**), and the frequentative/intensive modification (**Thiathianga**).
+
+Here is the transformation for the verbs you provided:
+
+---
+
+## Kikuyu Verb Transformations
+
+| Root Verb (Basic Action) | Diminutive (Slight/Little Action) | Frequentative/Intensive (More/Hurry/Repeated Action) |
+|:---|:---|:---|
+| **Rĩa** - eat | **Rĩarĩa** - nibble/eat slowly | **Rĩarĩanga** - eat continuously/eat greedily |
+| **Ruga** - cook | **Rũgarũga** - boil lightly/cook little | **Rũgarũganga** - cook constantly/be busy cooking |
+| **Thooma** - read | **Thoomathooma** - read a little/glance through | **Thoomathoomanga** - read often/study continuously |
+| **Ĩna** - sing/dance | **Ĩnaina** - sing softly/dance gently | **Ĩnainanga** - sing often/be busy singing and dancing |
+| **Hũra** - beat | **Hũrahũra** - tap/beat lightly | **Hũrahũranga** - beat repeatedly/hit with intensity |
+| **Rĩma** - dig | **Rĩmarĩma** - dig a little/scratch the ground | **Rĩmarĩmanga** - dig repeatedly/be busy digging |
+| **Cama** - taste | **Camacama** - taste lightly/sample | **Camacamanga** - taste repeatedly/keep testing the flavor |
+
+***
+This pattern, where you double the root and add the suffix **-nga** for the intensive form, is a common feature in Bantu languages like Kikuyu to express repetitive or intensified action.
+
+Do you have any other Kikuyu verbs you'd like to try and transform?
