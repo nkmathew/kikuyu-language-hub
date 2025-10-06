@@ -1,0 +1,21 @@
+Here is the raw text from the image, presented in a code box:
+
+```
+Mîthemba ya Nyûmba - Types of Houses
+1. Îno nî nyûmba ya mbaû
+This house is constructed with timber
+2. Igîtîtwo na maturubarî
+It is roofed with tiles
+3. Î na rûthingo rwa mbaû
+It has a wooden wall
+4. Yakîtwo na mbaû,
+îkagitwo na Maturubarî
+It has been built with
+timber and roofed with
+tiles
+5. Nî ûrî waingîra nyûmba ya mbaû?
+Have you ever entered a house constructed with timber
+6. Nî ûrî wakoma nyûmba îgîtîtwo na maturubarî?
+Have you ever slept in a house with a tiled roof
+Learn Kîkûyû - Wîrute Gîkûyû - Jîfunze Kîkuyu
+```
