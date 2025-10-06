@@ -1,0 +1,46 @@
+The two images provide vocabulary lessons on **reptiles/amphibians** and **parts of the body** in Kikuyu.
+
+---
+
+## Nouns: Reptiles and Amphibians
+
+This vocabulary is taken from the image featuring the animals:
+
+| English Name | Kikuyu Name |
+|:---|:---|
+| Chameleon | **Kĩmbu** |
+| Skink/Lizard | **Njagathi** |
+| Snake (Cobra shown) | **Nyoka** |
+| Crocodile | **Kĩng'ang'i** |
+| Frog | **Kĩũra** |
+
+***
+
+## Nouns: Parts of the Body (Cĩuga cia mwĩrĩ)
+
+This vocabulary is taken from the image featuring the human body diagram, including singular and plural forms where applicable:
+
+| English | Kikuyu (Singular/Plural) |
+|:----------|:---------------------------|
+| head | Mũtwee/ Mîtwe |
+| hair | Njũrĩrĩ/ Njũîrĩ |
+| eyebrow | Rũbutu/ Mbutu |
+| eye | Riitho/ Maitho |
+| ear | Gũtũ/ Matũ |
+| nose | Inĩũrũ/ Manĩũrũ |
+| teeth | Igego/Magego |
+| lips | Kîromo/ Iromo |
+| chin | Kĩreru/ Ireru |
+| neck | Ngingo/ Ngingo |
+| chest | Gîthũri/ Îthũri |
+| shoulder | Kĩande/ Ciande |
+| arm | Guoko/ Moko |
+| stomach | Nda/ Nda |
+| hand | Rũhĩ/ Hĩ |
+| waist | Njohero/ Njohero |
+| knee | Îru/ Maru |
+| fingers | Kĩara/ Twara |
+| leg | Kũgũrũ/ Magũrũ |
+| foot | Ikĩnya/ Makĩnya |
+| toes | Kĩara/ Twara |
+| mouth | Kanua / Tũnua |

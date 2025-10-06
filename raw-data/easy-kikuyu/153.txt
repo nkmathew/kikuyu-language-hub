@@ -1,0 +1,45 @@
+This image presents two Kikuyu proverbs (**Thimo**) and related vocabulary, focusing on the concepts of action, rest, and the roles of people involved in an action.
+
+## Kikuyu Proverbs and Meanings
+
+---
+
+### **Proverb 1**
+
+| Kikuyu Proverb | English Translation |
+|:---|:---|
+| **Andũ marĩ mũoyo matĩhurũkaga** | **People who are alive do not rest** (There is always work to be done in life). |
+
+**Related Vocabulary:**
+
+* **...marĩ mũoyo** - ...who have a soul, spirit (people who are alive)
+* **Hurũka** - rest
+* **Kũhurũka** - to rest
+
+---
+
+### **Proverb 2**
+
+| Kikuyu Proverb | English Translation |
+|:---|:---|
+| **Mũingatwo na mũingatani, gũtirĩ ũtahũmaga** | **The one being chased, and the one chasing, both get tired** (Effort is expended by all parties in a strenuous endeavor). |
+
+**Related Vocabulary:**
+
+* **Kũingata** - to chase away
+* **Kũhũma** - to be breathless
+
+---
+
+## Agent and Patient Noun Forms
+
+The second proverb introduces a common Kikuyu grammatical pattern where nouns are formed to denote the **agent** (the one performing the action) and the **patient** (the one receiving the action).
+
+| Root Verb Action | Agent (The One Doing) | Patient (The One Receiving) |
+|:---|:---|:---|
+| **Kũingata** (to chase) | **Mũingatani** - the chaser | **Mũingatwo** - the one being chased |
+| **Kũruta** (to teach) | **Mũrutani** - the one teaching | **Mũrutwo** - The one being taught |
+| **Kũhũra** (to beat) | **Mũhurani** - the one beating | **Mũhurwo** - The one being beaten |
+
+***
+*The vertical text on the left reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.***
