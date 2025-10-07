@@ -60,19 +60,24 @@ class DataLoader {
       vocabulary: [
         'vocabulary/easy_kikuyu_household_items.json',
         'vocabulary/easy_kikuyu_animals.json',
-        'vocabulary/easy_kikuyu_batch_001_vocab.json'
+        'vocabulary/easy_kikuyu_batch_001_vocab.json',
+        'vocabulary/easy_kikuyu_batch_002_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
-        'conjugations/easy_kikuyu_batch_001_conjugations.json'
+        'conjugations/easy_kikuyu_batch_001_conjugations.json',
+        'conjugations/easy_kikuyu_batch_002_conjugations.json'
       ],
       proverbs: [
         'proverbs/easy_kikuyu_wisdom.json',
         'proverbs/easy_kikuyu_batch_001_proverbs.json'
       ],
-      grammar: [],
+      grammar: ['grammar/easy_kikuyu_batch_002_grammar.json'],
       general: ['cultural/easy_kikuyu_batch_001_cultural.json'],
-      phrases: ['phrases/common_greetings.json']
+      phrases: [
+        'phrases/common_greetings.json',
+        'phrases/easy_kikuyu_batch_002_phrases.json'
+      ]
     };
     
     const filePaths = curatedFiles[category];
