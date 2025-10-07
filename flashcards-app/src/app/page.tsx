@@ -18,7 +18,8 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
     proverbs: 'Proverbs & Wisdom',
     conjugations: 'Verb Conjugations',
     grammar: 'Grammar Rules',
-    general: 'General Content'
+    general: 'General Content',
+    phrases: 'Common Phrases'
   };
 
   const categoryDescriptions = {
@@ -26,7 +27,8 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
     proverbs: 'Traditional wisdom and cultural sayings',
     conjugations: 'Verb patterns and tenses',
     grammar: 'Language rules and structures',
-    general: 'Mixed content and expressions'
+    general: 'Mixed content and expressions',
+    phrases: 'Everyday expressions and sentences'
   };
 
   const categoryIcons = {
@@ -34,7 +36,8 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
     proverbs: '🏛️',
     conjugations: '🔄',
     grammar: '📖',
-    general: '🌟'
+    general: '🌟',
+    phrases: '💬'
   };
 
   const knownCount = stats.knownCardsCount || 0;
@@ -229,9 +232,12 @@ export default function HomePage() {
       {/* Quick Actions */}
       <div className="card">
         <h2 className="text-xl font-bold mb-4">Quick Actions</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <Link href="/study/vocabulary?difficulty=beginner" className="btn btn-primary text-center">
             🌱 Start with Beginner Vocabulary
+          </Link>
+          <Link href="/study/phrases" className="btn btn-primary text-center">
+            💬 Learn Common Phrases
           </Link>
           <Link href="/study/proverbs" className="btn btn-secondary text-center">
             🏛️ Explore Traditional Wisdom

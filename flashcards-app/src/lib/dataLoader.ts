@@ -71,7 +71,8 @@ class DataLoader {
         'proverbs/easy_kikuyu_batch_001_proverbs.json'
       ],
       grammar: [],
-      general: ['cultural/easy_kikuyu_batch_001_cultural.json']
+      general: ['cultural/easy_kikuyu_batch_001_cultural.json'],
+      phrases: ['phrases/common_greetings.json']
     };
     
     const filePaths = curatedFiles[category];
@@ -114,7 +115,7 @@ class DataLoader {
   }
   
   async loadAllCategories(): Promise<Record<CategoryType, CategoryData>> {
-    const categories: CategoryType[] = ['vocabulary', 'proverbs', 'conjugations', 'grammar', 'general'];
+    const categories: CategoryType[] = ['vocabulary', 'proverbs', 'conjugations', 'grammar', 'general', 'phrases'];
     const results: Record<string, CategoryData> = {};
     
     await Promise.all(
