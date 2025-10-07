@@ -30,7 +30,7 @@ export default function StudyPage() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [knownCards, setKnownCards] = useState<Set<number>>(new Set());
+  const [knownCards, setKnownCards] = useState<Set<string>>(new Set());
   const [sessionStartTime] = useState(new Date());
   const [cardsStudied, setCardsStudied] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
