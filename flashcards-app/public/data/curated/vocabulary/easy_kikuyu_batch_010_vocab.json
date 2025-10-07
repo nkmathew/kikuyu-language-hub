@@ -1,0 +1,96 @@
+{
+  "batch_info": {
+    "batch_number": "010",
+    "total_cards": 6,
+    "category": "vocabulary",
+    "source_files": ["095.txt", "097.txt", "098.txt", "099.txt", "100.txt", "104.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T06:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-010-001",
+      "kikuyu": "Noun Class 7 - Abstract Nouns",
+      "english": "Wendo (love), Ûrûme (bravery), Ûtukû (night), Ûrîmû (foolishness), Watho (law), Ûtihû (face), Ûîru (jealousy), Ûthamaki (kingdom), Ûgeni (visit), Ûgo (magic), Ûrogi (witchcraft)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "notes": "Class 7 nouns represent abstract concepts - emotions, states, supernatural, governance. No prefix, typically start with 'û' or 'w'",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 095",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-010-002",
+      "kikuyu": "Matonyo (Clothing)",
+      "english": "Thuruarĩ nguhĩ (shorts), Thuruarĩ ndaihu (trousers), Mûthurũ (skirt), Caatĩ (shirt), Mburauthĩ (blouse), Nguo ya thĩinĩ (underwear), Gĩtambaya kĩa mûtwe (headscarf), Thogithĩ (socks), Kĩratũ (shoe)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete clothing vocabulary including: Kĩratũ gĩa kobo (gum boots), Kĩratũ gĩa taritarĩ (slippers), Kĩratũ kĩa mûtheece (high heels)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 097",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-010-003",
+      "kikuyu": "Types of Ants",
+      "english": "Mûthûa (termites), Thigiriri (small black ants), Thuraku (soldier ants in line), Mûgagaca (tiny brown ants in groups)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Gîthûa (termite mound). Question: Mûthûa ni mwega? (Are termites good?) - culturally termites are eaten as delicacy",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 098",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-010-004",
+      "kikuyu": "Swahili-Kikuyu Basic Words",
+      "english": "Wee (you), Niĩ (me), Mbere (before/first), Heho (cold), Mwaki (fire), We (he/she), Mũrĩmi (farmer), Ndingĩhota (I cannot)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Translation pairs from Swahili to Kikuyu. Note: 'Wee' has long vowel, 'We' has short vowel",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 099",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-010-005",
+      "kikuyu": "Nyamû cia gîthaka (Wild Animals)",
+      "english": "Ndûiga (giraffe), Njogu (elephant), Wambûi mîcore/Njagî (zebra), Nyaga (ostrich), Huria (rhino), Mûrûthî (lion), Ngatata (wildebeest), Nyûtû (cheetah), Hiti (hyena), Nguuo (hippo), Ngarî (leopard), Thakwe (chimpanzee)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete wild animal vocabulary - 12 major African wildlife species",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 100",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-010-006",
+      "kikuyu": "Swahili-Kikuyu Possessives & Time",
+      "english": "Mūrathimi (the one who blesses), Rīu rī (now - at statement beginning), Wakwa (mine - depending on noun class), Ciakwa (mine - plural)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Shows noun class agreement with possessives: wakwa vs ciakwa. Rīu rī used as discourse marker",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 104",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:30:00Z"
+      }
+    }
+  ]
+}
