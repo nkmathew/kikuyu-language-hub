@@ -9,9 +9,9 @@ const STORAGE_KEYS = {
 
 class LocalStorageManager {
   // Progress tracking
-  getProgress(): Record<number, StudyProgress> {
+  getProgress(): Record<string, StudyProgress> {
     if (typeof window === 'undefined') return {};
-    
+
     try {
       const stored = localStorage.getItem(STORAGE_KEYS.PROGRESS);
       return stored ? JSON.parse(stored) : {};
@@ -20,10 +20,10 @@ class LocalStorageManager {
       return {};
     }
   }
-  
-  saveProgress(cardId: number, progress: StudyProgress): void {
+
+  saveProgress(cardId: string, progress: StudyProgress): void {
     if (typeof window === 'undefined') return;
-    
+
     try {
       const allProgress = this.getProgress();
       allProgress[cardId] = progress;
@@ -99,9 +99,9 @@ class LocalStorageManager {
   }
   
   // Known cards tracking
-  getKnownCards(): Set<number> {
+  getKnownCards(): Set<string> {
     if (typeof window === 'undefined') return new Set();
-    
+
     try {
       const stored = localStorage.getItem(STORAGE_KEYS.KNOWN_CARDS);
       return stored ? new Set(JSON.parse(stored)) : new Set();
@@ -110,10 +110,10 @@ class LocalStorageManager {
       return new Set();
     }
   }
-  
-  markCardAsKnown(cardId: number): void {
+
+  markCardAsKnown(cardId: string): void {
     if (typeof window === 'undefined') return;
-    
+
     try {
       const knownCards = this.getKnownCards();
       knownCards.add(cardId);
@@ -122,10 +122,10 @@ class LocalStorageManager {
       console.error('Error marking card as known:', error);
     }
   }
-  
-  markCardAsUnknown(cardId: number): void {
+
+  markCardAsUnknown(cardId: string): void {
     if (typeof window === 'undefined') return;
-    
+
     try {
       const knownCards = this.getKnownCards();
       knownCards.delete(cardId);
