@@ -69,7 +69,8 @@ class DataLoader {
         'vocabulary/easy_kikuyu_batch_007_vocab.json',
         'vocabulary/easy_kikuyu_batch_008_vocab.json',
         'vocabulary/easy_kikuyu_batch_009_vocab.json',
-        'vocabulary/easy_kikuyu_batch_010_vocab.json'
+        'vocabulary/easy_kikuyu_batch_010_vocab.json',
+        'vocabulary/easy_kikuyu_batch_011_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
@@ -105,7 +106,8 @@ class DataLoader {
         'phrases/easy_kikuyu_batch_006_phrases.json',
         'phrases/easy_kikuyu_batch_008_phrases.json',
         'phrases/easy_kikuyu_batch_009_phrases.json',
-        'phrases/easy_kikuyu_batch_010_phrases.json'
+        'phrases/easy_kikuyu_batch_010_phrases.json',
+        'phrases/easy_kikuyu_batch_011_phrases.json'
       ]
     };
 
