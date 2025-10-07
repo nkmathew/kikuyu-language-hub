@@ -1,0 +1,1419 @@
+{
+  "page": 0,
+  "totalPages": 7,
+  "totalCards": 608,
+  "startIndex": 0,
+  "endIndex": 99,
+  "cards": [
+    {
+      "id": 392,
+      "english": "home affairs must not go into the open",
+      "kikuyu": "cia mucii itiumaga ndira",
+      "difficulty": "advanced",
+      "context": "Private matters should remain private",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 393,
+      "english": "the widow's sons have no tears",
+      "kikuyu": "ciana cia ndigwa itiri maithori",
+      "difficulty": "advanced",
+      "context": "Hardship teaches early resilience",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 394,
+      "english": "bought things do not fill the granary",
+      "kikuyu": "cia thuguri itiyuraga ikumbi",
+      "difficulty": "advanced",
+      "context": "Self-reliance is essential for prosperity",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 395,
+      "english": "a long lawsuit breeds poverty",
+      "kikuyu": "cira munene ni ukia",
+      "difficulty": "advanced",
+      "context": "Prolonged conflicts cause financial ruin",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 396,
+      "english": "every case begins from the stomach",
+      "kikuyu": "cira wothe wambagiririo na nda",
+      "difficulty": "advanced",
+      "context": "Food and sustenance are fundamental to all matters",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "case/matter",
+          "target": "cira",
+          "position": 0,
+          "context": "Legal or social matter requiring resolution"
+        },
+        {
+          "source": "all",
+          "target": "wothe",
+          "position": 1,
+          "context": "Universal quantifier - every single one"
+        },
+        {
+          "source": "begins",
+          "target": "wambagiririo",
+          "position": 2,
+          "context": "Passive verb - is started/initiated"
+        },
+        {
+          "source": "from stomach",
+          "target": "na nda",
+          "position": 3,
+          "context": "Source/origin - from the belly/hunger"
+        }
+      ]
+    },
+    {
+      "id": 397,
+      "english": "travelling is learning",
+      "kikuyu": "guceera ni kuhiga",
+      "difficulty": "intermediate",
+      "context": "Experience through travel brings knowledge",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 398,
+      "english": "to get the warmth of fire one must stir the embers",
+      "kikuyu": "guota mwaki ni gucera",
+      "difficulty": "advanced",
+      "context": "Effort is required to gain benefits",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "to get warmth",
+          "target": "guota",
+          "position": 0,
+          "context": "Infinitive - to warm oneself"
+        },
+        {
+          "source": "fire",
+          "target": "mwaki",
+          "position": 1,
+          "context": "Source of heat and light"
+        },
+        {
+          "source": "it is",
+          "target": "ni",
+          "position": 2,
+          "context": "Copula - linking verb"
+        },
+        {
+          "source": "to stir",
+          "target": "gucera",
+          "position": 3,
+          "context": "Infinitive - to stir up/activate"
+        }
+      ]
+    },
+    {
+      "id": 399,
+      "english": "if you help yourself you will be helped",
+      "kikuyu": "guteithagio witeithitie",
+      "difficulty": "intermediate",
+      "context": "Self-reliance attracts assistance",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 400,
+      "english": "riches are found in cultivating together",
+      "kikuyu": "indo ni kurimithanio",
+      "difficulty": "advanced",
+      "context": "Cooperation leads to prosperity",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 401,
+      "english": "many people together lift up the ndiri",
+      "kikuyu": "kamuingi koyaga ndiri",
+      "difficulty": "advanced",
+      "context": "Unity accomplishes great tasks",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 402,
+      "english": "virtue is better than riches",
+      "kikuyu": "guthinga kurugite gutonga",
+      "difficulty": "advanced",
+      "context": "Moral character surpasses material wealth",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "virtue/goodness",
+          "target": "guthinga",
+          "position": 0,
+          "context": "Moral character and righteousness"
+        },
+        {
+          "source": "surpasses",
+          "target": "kurugite",
+          "position": 1,
+          "context": "Comparative verb - is better than"
+        },
+        {
+          "source": "wealth",
+          "target": "gutonga",
+          "position": 2,
+          "context": "Material riches and prosperity"
+        }
+      ]
+    },
+    {
+      "id": 403,
+      "english": "virtue is power",
+      "kikuyu": "guthinga kikuo kihoto",
+      "difficulty": "advanced",
+      "context": "Good character is true strength",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 404,
+      "english": "to keep one's tongue is worthy of praise",
+      "kikuyu": "gukira kuri ngatho",
+      "difficulty": "advanced",
+      "context": "Discretion in speech is valuable",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 405,
+      "english": "not to talk is to hate",
+      "kikuyu": "gukira ni guthurana",
+      "difficulty": "intermediate",
+      "context": "Silence can indicate dislike",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 406,
+      "english": "cutting by the tongue is different from cutting by the knife",
+      "kikuyu": "gutema na kanua ti gutema na rihiu",
+      "difficulty": "advanced",
+      "context": "Words wound differently than actions",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 407,
+      "english": "like father like son",
+      "kikuyu": "kaana ka ngari gakunyaga ta nyina",
+      "difficulty": "intermediate",
+      "context": "Children resemble their parents",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 408,
+      "english": "one finger does not kill a louse",
+      "kikuyu": "kaara kamwe gatingiyuragira ndaa",
+      "difficulty": "intermediate",
+      "context": "Cooperation is necessary for success",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 409,
+      "english": "nobody is born wise",
+      "kikuyu": "gutiri uciaragwo ari mugi",
+      "difficulty": "intermediate",
+      "context": "Wisdom is acquired through experience",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 410,
+      "english": "there is no man that cannot become an orphan",
+      "kikuyu": "gutiri mundu utangutuika wa ndigwa",
+      "difficulty": "advanced",
+      "context": "Everyone faces loss and hardship",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 411,
+      "english": "nobody can see his own goodness",
+      "kikuyu": "gutiri mundu wonaga wega wake, no kuonwo wonagwo",
+      "difficulty": "advanced",
+      "context": "Self-awareness has limitations",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 412,
+      "english": "no day dawns like another",
+      "kikuyu": "gutiri muthenya ukiaga ta ungi",
+      "difficulty": "intermediate",
+      "context": "Each day brings new opportunities",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 413,
+      "english": "one ages every night one lives",
+      "kikuyu": "gutiri gukura na kurara keri",
+      "difficulty": "advanced",
+      "context": "Time passes continuously",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 414,
+      "english": "there is no thing which does not cause another to exist",
+      "kikuyu": "gutiri gitatuirie kingi",
+      "difficulty": "advanced",
+      "context": "Everything is interconnected",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 415,
+      "english": "there is nothing without a cause",
+      "kikuyu": "gutiri undu utari kihumo",
+      "difficulty": "intermediate",
+      "context": "Everything has a reason or origin",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 416,
+      "english": "no evil, but only the good will last",
+      "kikuyu": "gutiri uru utuuraga, no wega utuuraga",
+      "difficulty": "advanced",
+      "context": "Good endures while evil passes",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 417,
+      "english": "the hyena does not eat its baby",
+      "kikuyu": "hiti ndiriaga mwana, na mui uria iri ngoroku",
+      "difficulty": "advanced",
+      "context": "Even the most savage protect their young",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 418,
+      "english": "when hyenas go away jackals rejoice",
+      "kikuyu": "hiti ciathii mbwe ciegangara",
+      "difficulty": "advanced",
+      "context": "Opportunity comes when obstacles are removed",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 419,
+      "english": "the pot calling the kettle black",
+      "kikuyu": "hiti itaga iria ingi ya mutiri",
+      "difficulty": "advanced",
+      "context": "Criticizing others for faults you share",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 420,
+      "english": "vultures arrive at the place where the goat is slaughtered",
+      "kikuyu": "hungu ireraga haria mburi irathinjirwo",
+      "difficulty": "advanced",
+      "context": "Opportunists gather where there is gain",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 421,
+      "english": "there is no bow without its meat",
+      "kikuyu": "gutiri uta utari nyama",
+      "difficulty": "intermediate",
+      "context": "Preparation and effort bring results",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 422,
+      "english": "good ware makes a quick market",
+      "kikuyu": "ikururio ti noru",
+      "difficulty": "intermediate",
+      "context": "Quality sells itself",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 423,
+      "english": "where there is a will there is a way",
+      "kikuyu": "ireragira ruku-ini na ikaya kuigana",
+      "difficulty": "advanced",
+      "context": "Determination overcomes obstacles",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 424,
+      "english": "a drowning man will catch at a straw",
+      "kikuyu": "iri kuhuma ndiri muti itangigwatirira",
+      "difficulty": "advanced",
+      "context": "Desperation accepts any help",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 425,
+      "english": "misfortunes come by forties",
+      "kikuyu": "iri kuruga ni iguita, iguitirira ni nguu",
+      "difficulty": "advanced",
+      "context": "Problems often come in multiples",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 426,
+      "english": "circumcision is a hard appointment",
+      "kikuyu": "giathi kiumu no kia murokero",
+      "difficulty": "advanced",
+      "context": "Important rituals require courage",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 427,
+      "english": "to wait is not to tremble",
+      "kikuyu": "gieterero ti kiinaino",
+      "difficulty": "advanced",
+      "context": "Patience differs from fear",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 428,
+      "english": "a piece of land is not a little thing",
+      "kikuyu": "gicigo kia mugunda gitinyihaga",
+      "difficulty": "advanced",
+      "context": "Land ownership has great value",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 429,
+      "english": "you cannot make an appointment with death",
+      "kikuyu": "gikuu gitiraragirio",
+      "difficulty": "advanced",
+      "context": "Death comes unexpectedly",
+      "cultural_notes": "Traditional Kikuyu proverb from the comprehensive African Manners collection of 1000+ proverbs. These represent centuries of accumulated wisdom and cultural values.",
+      "quality_score": 4.9,
+      "categories": [
+        "Proverbs",
+        "Traditional Wisdom"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1728,
+      "english": "proverb containing aga",
+      "kikuyu": "ithĩnjĩro rĩtiagaga thakame",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1729,
+      "english": "proverb containing aga",
+      "kikuyu": "ng'enda thĩ ndĩagaga mũtegi",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1730,
+      "english": "proverb containing aga",
+      "kikuyu": "nyũngũ ya mũingĩ ndĩagaga mũteng'ũri",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1731,
+      "english": "proverb containing aga",
+      "kikuyu": "riko na nda itiagaga",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1732,
+      "english": "proverb containing aga",
+      "kikuyu": "thũ ndĩagaga mwenji",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1733,
+      "english": "proverb containing aga",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1734,
+      "english": "proverb containing aga",
+      "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1735,
+      "english": "proverb containing aga",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1736,
+      "english": "proverb containing aga",
+      "kikuyu": "Muiru, David N. (2007).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1737,
+      "english": "proverb containing aga",
+      "kikuyu": "Wĩrute Gĩgĩkũyũ: Marĩtwa ma Gĩgĩkũyũ Mataũrĩtwo Na Gĩthũngũ",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aga'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1738,
+      "english": "proverb containing aka",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1739,
+      "english": "proverb containing aka",
+      "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1740,
+      "english": "proverb containing aka",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'aka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1741,
+      "english": "proverb containing atũra",
+      "kikuyu": "mũtwe na ndaikagia ndahi ndua",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'atũra'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1742,
+      "english": "proverb containing ciara",
+      "kikuyu": "yaciara mathathatũ yongithagio nĩ mwene",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1743,
+      "english": "proverb containing ciara",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1744,
+      "english": "proverb containing ciara",
+      "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1745,
+      "english": "proverb containing ciara",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1746,
+      "english": "proverb containing ciara",
+      "kikuyu": "Barlow, A. Ruffell (1960).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1747,
+      "english": "proverb containing ciara",
+      "kikuyu": "Studies in Kikuyu Grammar and Idiom",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1748,
+      "english": "proverb containing ciara",
+      "kikuyu": "“ciara” in Benson, T.G. (1964).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1749,
+      "english": "proverb containing ciara",
+      "kikuyu": ". Oxford: Clarendon Press.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'ciara'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1750,
+      "english": "proverb containing coka",
+      "kikuyu": "gũthiĩ gũtigiragia mũndũ acoke",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1751,
+      "english": "proverb containing coka",
+      "kikuyu": "Hinde, Hildegarde (1904).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1752,
+      "english": "proverb containing coka",
+      "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1753,
+      "english": "proverb containing coka",
+      "kikuyu": ", pp. 50–51. Cambridge: Cambridge University Press.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1754,
+      "english": "proverb containing coka",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1755,
+      "english": "proverb containing coka",
+      "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1756,
+      "english": "proverb containing coka",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1757,
+      "english": "proverb containing coka",
+      "kikuyu": "“coka” in Benson, T.G. (1964).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1758,
+      "english": "proverb containing coka",
+      "kikuyu": ". Oxford: Clarendon Press.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'coka'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1759,
+      "english": "proverb containing enda",
+      "kikuyu": "mũndũ ũtarĩ mbũri ndendaga nyama",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1760,
+      "english": "proverb containing enda",
+      "kikuyu": "ngoro ĩrĩĩaga kĩrĩa yenda",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1761,
+      "english": "proverb containing enda",
+      "kikuyu": "Hinde, Hildegarde (1904).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1762,
+      "english": "proverb containing enda",
+      "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1763,
+      "english": "proverb containing enda",
+      "kikuyu": ", pp. 36–37, 64–65. Cambridge: Cambridge University Press.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1764,
+      "english": "proverb containing enda",
+      "kikuyu": "Kĩnyua, Johnson Kĩriakũ",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1765,
+      "english": "proverb containing enda",
+      "kikuyu": "The Agĩkũyũ, the bible and colonial constructs: towards an ordinary African readers' hermeneutics",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1766,
+      "english": "proverb containing enda",
+      "kikuyu": ", pp. 148–149. Ph.D. thesis, University of Birmingham.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1767,
+      "english": "proverb containing enda",
+      "kikuyu": "Barlow, A. Ruffell (1960).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1768,
+      "english": "proverb containing enda",
+      "kikuyu": "Studies in Kikuyu Grammar and Idiom",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1769,
+      "english": "proverb containing enda",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1770,
+      "english": "proverb containing enda",
+      "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1771,
+      "english": "proverb containing enda",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enda'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1772,
+      "english": "proverb containing enja",
+      "kikuyu": "kĩongo kĩenjagwo mwene oiga",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'enja'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1773,
+      "english": "proverb containing haica",
+      "kikuyu": "tiga kuonia ngarĩ kũhaica mũtĩ",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'haica'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1774,
+      "english": "proverb containing haica",
+      "kikuyu": "Wanjohi, G. J. (2001).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'haica'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1775,
+      "english": "proverb containing haica",
+      "kikuyu": "Under One Roof: Gĩkũyũ Proverbs Consolidated",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'haica'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1776,
+      "english": "proverb containing haica",
+      "kikuyu": ". Paulines Publications Africa.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'haica'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1777,
+      "english": "proverb containing haica",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'haica'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1778,
+      "english": "proverb containing haica",
+      "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'haica'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1779,
+      "english": "proverb containing haica",
+      "kikuyu": ", p. 361. Rep. 1967. (Also in",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'haica'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1780,
+      "english": "proverb containing handa",
+      "kikuyu": "kanua karĩa karĩire mbeũ noko koragia 'ngahanda kĩ?'",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1781,
+      "english": "proverb containing handa",
+      "kikuyu": "Hinde, Hildegarde (1904).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1782,
+      "english": "proverb containing handa",
+      "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1783,
+      "english": "proverb containing handa",
+      "kikuyu": ", pp. 46–7. Cambridge: Cambridge University Press.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1784,
+      "english": "proverb containing handa",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1785,
+      "english": "proverb containing handa",
+      "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1786,
+      "english": "proverb containing handa",
+      "kikuyu": ", p. 361. Rep. 1967. (Also in",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1787,
+      "english": "proverb containing handa",
+      "kikuyu": "“handa” in Benson, T.G. (1964).",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1788,
+      "english": "proverb containing handa",
+      "kikuyu": ". Oxford: Clarendon Press.",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'handa'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1789,
+      "english": "proverb containing hoya",
+      "kikuyu": "ngi ndĩhoyagwo thakame",
+      "difficulty": "advanced",
+      "context": "Traditional proverb featuring the verb 'hoya'",
+      "cultural_notes": "Traditional Kikuyu proverb from Wiktionary preserving cultural wisdom and linguistic heritage.",
+      "quality_score": 4.9,
+      "categories": [
+        "Traditional Proverbs & Sayings"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

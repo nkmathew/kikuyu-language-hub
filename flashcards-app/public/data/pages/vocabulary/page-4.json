@@ -1,0 +1,1487 @@
+{
+  "page": 4,
+  "totalPages": 18,
+  "totalCards": 1747,
+  "startIndex": 400,
+  "endIndex": 499,
+  "cards": [
+    {
+      "id": 248,
+      "english": "what?",
+      "kikuyu": "atĩa?",
+      "difficulty": "beginner",
+      "context": "Basic question word",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 249,
+      "english": "like this/who?",
+      "kikuyu": "ũũ",
+      "difficulty": "intermediate",
+      "context": "Context-dependent: 'like this' or 'who?' (tone-dependent)",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 251,
+      "english": "how is it?",
+      "kikuyu": "nĩ atĩa",
+      "difficulty": "intermediate",
+      "context": "Greeting form with response 'ni kwega'",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 258,
+      "english": "it is good",
+      "kikuyu": "ni kwega",
+      "difficulty": "beginner",
+      "context": "Standard response to 'nĩ atĩa' greeting",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 430,
+      "english": "how are you (singular)",
+      "kikuyu": "wũ mwega",
+      "difficulty": "beginner",
+      "context": "Standard greeting to one person",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 431,
+      "english": "how are you (plural)",
+      "kikuyu": "mũrũega",
+      "difficulty": "beginner",
+      "context": "Standard greeting to multiple people",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 432,
+      "english": "I am fine",
+      "kikuyu": "ndũmwega",
+      "difficulty": "beginner",
+      "context": "Response to 'how are you' - singular",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 433,
+      "english": "we are fine",
+      "kikuyu": "tũrũega",
+      "difficulty": "beginner",
+      "context": "Response to 'how are you' - plural",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 434,
+      "english": "what is your name?",
+      "kikuyu": "wũtagwo atĩa?",
+      "difficulty": "beginner",
+      "context": "Question asking for someone's name",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 435,
+      "english": "my name is...",
+      "kikuyu": "njĩtagwo...",
+      "difficulty": "beginner",
+      "context": "Response giving one's name",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 436,
+      "english": "how much?",
+      "kikuyu": "nĩ cĩgana?",
+      "difficulty": "beginner",
+      "context": "Question asking about price or quantity",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 437,
+      "english": "why?",
+      "kikuyu": "nĩkũ?",
+      "difficulty": "beginner",
+      "context": "Question word asking for reason",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 438,
+      "english": "something",
+      "kikuyu": "kĩndũ",
+      "difficulty": "beginner",
+      "context": "General term for an object or thing",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 439,
+      "english": "there is",
+      "kikuyu": "nĩ kũrĩ",
+      "difficulty": "intermediate",
+      "context": "Existential expression - something exists",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 440,
+      "english": "there isn't",
+      "kikuyu": "gũtirĩ",
+      "difficulty": "intermediate",
+      "context": "Negative existential - something doesn't exist",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 441,
+      "english": "clothes",
+      "kikuyu": "nguo",
+      "difficulty": "beginner",
+      "context": "General term for garments",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 442,
+      "english": "shirt",
+      "kikuyu": "shati",
+      "difficulty": "beginner",
+      "context": "Upper body garment",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 443,
+      "english": "shorts/pants",
+      "kikuyu": "thuruarĩ",
+      "difficulty": "beginner",
+      "context": "Lower body garments",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 444,
+      "english": "trousers",
+      "kikuyu": "mũbuto",
+      "difficulty": "beginner",
+      "context": "Long pants",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 445,
+      "english": "socks",
+      "kikuyu": "thogithi",
+      "difficulty": "beginner",
+      "context": "Foot coverings",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 446,
+      "english": "hat/cap",
+      "kikuyu": "ngobia",
+      "difficulty": "beginner",
+      "context": "Head covering",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 447,
+      "english": "shoe",
+      "kikuyu": "kĩratu",
+      "difficulty": "beginner",
+      "context": "Footwear - singular",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kĩ-",
+          "target": "kĩ-",
+          "position": 0,
+          "context": "Class 7 singular prefix (diminutive)"
+        },
+        {
+          "source": "ratu",
+          "target": "ratu",
+          "position": 1,
+          "context": "Noun stem - footwear"
+        }
+      ]
+    },
+    {
+      "id": 448,
+      "english": "shoes",
+      "kikuyu": "iratu",
+      "difficulty": "beginner",
+      "context": "Footwear - plural",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "i-",
+          "target": "i-",
+          "position": 0,
+          "context": "Class 8 plural prefix"
+        },
+        {
+          "source": "ratu",
+          "target": "ratu",
+          "position": 1,
+          "context": "Noun stem - footwear"
+        }
+      ]
+    },
+    {
+      "id": 449,
+      "english": "cloth",
+      "kikuyu": "gũtabaya",
+      "difficulty": "beginner",
+      "context": "Fabric material",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 450,
+      "english": "sweater",
+      "kikuyu": "burana",
+      "difficulty": "beginner",
+      "context": "Warm upper garment",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Clothing"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 451,
+      "english": "walking stick",
+      "kikuyu": "mũkwanjũ",
+      "difficulty": "intermediate",
+      "context": "Support stick for walking",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Accessories"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 452,
+      "english": "ring",
+      "kikuyu": "mbete",
+      "difficulty": "beginner",
+      "context": "Finger jewelry",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Accessories"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 453,
+      "english": "necklace",
+      "kikuyu": "mũgathĩ",
+      "difficulty": "intermediate",
+      "context": "Neck jewelry",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Accessories"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 454,
+      "english": "lion",
+      "kikuyu": "mũrũthĩ",
+      "difficulty": "beginner",
+      "context": "Large wild cat",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 455,
+      "english": "brave warrior",
+      "kikuyu": "njamba",
+      "difficulty": "advanced",
+      "context": "Courageous fighter",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 456,
+      "english": "teacher",
+      "kikuyu": "mũarimũ",
+      "difficulty": "beginner",
+      "context": "Educator",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Education"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 457,
+      "english": "student",
+      "kikuyu": "mũrutwo",
+      "difficulty": "beginner",
+      "context": "Learner",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Education"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 458,
+      "english": "school",
+      "kikuyu": "thukuru",
+      "difficulty": "beginner",
+      "context": "Educational institution",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Education"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 459,
+      "english": "book",
+      "kikuyu": "ĩbuku",
+      "difficulty": "beginner",
+      "context": "Reading material",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Education"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 460,
+      "english": "pen",
+      "kikuyu": "karamu",
+      "difficulty": "beginner",
+      "context": "Writing instrument",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Education"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 461,
+      "english": "home",
+      "kikuyu": "mũciĩ",
+      "difficulty": "beginner",
+      "context": "One's residence place",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 462,
+      "english": "house",
+      "kikuyu": "nyũmba",
+      "difficulty": "beginner",
+      "context": "Building structure for living",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 463,
+      "english": "plate",
+      "kikuyu": "thani",
+      "difficulty": "beginner",
+      "context": "Eating dish",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 464,
+      "english": "cup",
+      "kikuyu": "gĩkombe",
+      "difficulty": "beginner",
+      "context": "Drinking vessel - singular",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "gĩ-",
+          "target": "gĩ-",
+          "position": 0,
+          "context": "Class 7 singular prefix"
+        },
+        {
+          "source": "kombe",
+          "target": "kombe",
+          "position": 1,
+          "context": "Noun stem - drinking vessel"
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "english": "cups",
+      "kikuyu": "ikombe",
+      "difficulty": "beginner",
+      "context": "Drinking vessels - plural",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "i-",
+          "target": "i-",
+          "position": 0,
+          "context": "Class 8 plural prefix"
+        },
+        {
+          "source": "kombe",
+          "target": "kombe",
+          "position": 1,
+          "context": "Noun stem - drinking vessel"
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "english": "chair",
+      "kikuyu": "gĩtũ",
+      "difficulty": "beginner",
+      "context": "Seating furniture - singular",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "gĩ-",
+          "target": "gĩ-",
+          "position": 0,
+          "context": "Class 7 singular prefix"
+        },
+        {
+          "source": "tũ",
+          "target": "tũ",
+          "position": 1,
+          "context": "Noun stem - seating"
+        }
+      ]
+    },
+    {
+      "id": 467,
+      "english": "chairs",
+      "kikuyu": "itũ",
+      "difficulty": "beginner",
+      "context": "Seating furniture - plural",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "i-",
+          "target": "i-",
+          "position": 0,
+          "context": "Class 8 plural prefix"
+        },
+        {
+          "source": "tũ",
+          "target": "tũ",
+          "position": 1,
+          "context": "Noun stem - seating"
+        }
+      ]
+    },
+    {
+      "id": 468,
+      "english": "car",
+      "kikuyu": "ngari",
+      "difficulty": "beginner",
+      "context": "Motor vehicle",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Transportation"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 469,
+      "english": "bus",
+      "kikuyu": "bathi",
+      "difficulty": "beginner",
+      "context": "Public transport vehicle",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Transportation"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 470,
+      "english": "town",
+      "kikuyu": "taũni",
+      "difficulty": "beginner",
+      "context": "Urban settlement",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 471,
+      "english": "ball",
+      "kikuyu": "mũbira",
+      "difficulty": "beginner",
+      "context": "Spherical sports equipment",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 472,
+      "english": "tree",
+      "kikuyu": "mũtĩ",
+      "difficulty": "beginner",
+      "context": "Woody plant",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "mũ-",
+          "target": "mũ-",
+          "position": 0,
+          "context": "Class II singular prefix"
+        },
+        {
+          "source": "tĩ",
+          "target": "tĩ",
+          "position": 1,
+          "context": "Root: tree/wood"
+        }
+      ]
+    },
+    {
+      "id": 473,
+      "english": "food",
+      "kikuyu": "irio",
+      "difficulty": "beginner",
+      "context": "Nourishment",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 474,
+      "english": "money",
+      "kikuyu": "mbeca",
+      "difficulty": "beginner",
+      "context": "Currency",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 475,
+      "english": "work",
+      "kikuyu": "wĩra",
+      "difficulty": "beginner",
+      "context": "Labor or employment",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 476,
+      "english": "child",
+      "kikuyu": "mwana",
+      "difficulty": "beginner",
+      "context": "Young person",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 477,
+      "english": "woman",
+      "kikuyu": "mũtumia",
+      "difficulty": "beginner",
+      "context": "Adult female",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 478,
+      "english": "man",
+      "kikuyu": "mũthuri",
+      "difficulty": "beginner",
+      "context": "Adult male",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 479,
+      "english": "day",
+      "kikuyu": "mũthenya",
+      "difficulty": "beginner",
+      "context": "24-hour period",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 480,
+      "english": "year",
+      "kikuyu": "mwaka",
+      "difficulty": "beginner",
+      "context": "Annual period",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 481,
+      "english": "month",
+      "kikuyu": "mweri",
+      "difficulty": "beginner",
+      "context": "Monthly period",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 482,
+      "english": "week",
+      "kikuyu": "wiki",
+      "difficulty": "beginner",
+      "context": "Seven-day period",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 483,
+      "english": "today",
+      "kikuyu": "ũmũthĩ",
+      "difficulty": "beginner",
+      "context": "This day",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 484,
+      "english": "tomorrow",
+      "kikuyu": "rũciũ",
+      "difficulty": "beginner",
+      "context": "Next day",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 485,
+      "english": "yesterday",
+      "kikuyu": "ira",
+      "difficulty": "beginner",
+      "context": "Previous day",
+      "cultural_notes": "Everyday vocabulary from WisdomAfrica.com Top 100 Kikuyu translations - practical terms for daily communication",
+      "quality_score": 4.6,
+      "categories": [
+        "Basic Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 726,
+      "english": "son",
+      "kikuyu": "mũriũ",
+      "difficulty": "beginner",
+      "context": "Male offspring",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 727,
+      "english": "daughter",
+      "kikuyu": "mwarĩ",
+      "difficulty": "beginner",
+      "context": "Female offspring",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 728,
+      "english": "sister",
+      "kikuyu": "mwarĩ wa nyina",
+      "difficulty": "intermediate",
+      "context": "Female sibling (literally: daughter of mother)",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "mwarĩ",
+          "target": "mwarĩ",
+          "position": 0,
+          "context": "Daughter/female offspring"
+        },
+        {
+          "source": "wa",
+          "target": "wa",
+          "position": 1,
+          "context": "Of/belonging to (possessive)"
+        },
+        {
+          "source": "nyina",
+          "target": "nyina",
+          "position": 2,
+          "context": "Mother (same mother)"
+        }
+      ]
+    },
+    {
+      "id": 729,
+      "english": "brother",
+      "kikuyu": "mũrũ wa nyina",
+      "difficulty": "intermediate",
+      "context": "Male sibling (literally: son of mother)",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "mũrũ",
+          "target": "mũrũ",
+          "position": 0,
+          "context": "Son/male offspring"
+        },
+        {
+          "source": "wa",
+          "target": "wa",
+          "position": 1,
+          "context": "Of/belonging to (possessive)"
+        },
+        {
+          "source": "nyina",
+          "target": "nyina",
+          "position": 2,
+          "context": "Mother (same mother)"
+        }
+      ]
+    },
+    {
+      "id": 730,
+      "english": "grandfather",
+      "kikuyu": "guka",
+      "difficulty": "beginner",
+      "context": "Male grandparent",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 731,
+      "english": "grandmother",
+      "kikuyu": "cũcũ",
+      "difficulty": "beginner",
+      "context": "Female grandparent",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 732,
+      "english": "uncle",
+      "kikuyu": "mama",
+      "difficulty": "beginner",
+      "context": "Father's brother",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 733,
+      "english": "aunt",
+      "kikuyu": "tata",
+      "difficulty": "beginner",
+      "context": "Father's sister",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 734,
+      "english": "cousin (male)",
+      "kikuyu": "mũrũ wa tata",
+      "difficulty": "intermediate",
+      "context": "Male cousin (literally: son of aunt)",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "mũrũ",
+          "target": "mũrũ",
+          "position": 0,
+          "context": "Son/male offspring"
+        },
+        {
+          "source": "wa",
+          "target": "wa",
+          "position": 1,
+          "context": "Of/belonging to (possessive)"
+        },
+        {
+          "source": "tata",
+          "target": "tata",
+          "position": 2,
+          "context": "Aunt (father's sister)"
+        }
+      ]
+    },
+    {
+      "id": 735,
+      "english": "cousin (female)",
+      "kikuyu": "mwarĩ wa tata",
+      "difficulty": "intermediate",
+      "context": "Female cousin (literally: daughter of aunt)",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "mwarĩ",
+          "target": "mwarĩ",
+          "position": 0,
+          "context": "Daughter/female offspring"
+        },
+        {
+          "source": "wa",
+          "target": "wa",
+          "position": 1,
+          "context": "Of/belonging to (possessive)"
+        },
+        {
+          "source": "tata",
+          "target": "tata",
+          "position": 2,
+          "context": "Aunt (father's sister)"
+        }
+      ]
+    },
+    {
+      "id": 736,
+      "english": "nephew",
+      "kikuyu": "mũihwa",
+      "difficulty": "intermediate",
+      "context": "Brother's or sister's son",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 737,
+      "english": "niece",
+      "kikuyu": "mũihwa",
+      "difficulty": "intermediate",
+      "context": "Brother's or sister's daughter",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Family Members"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 738,
+      "english": "hyena",
+      "kikuyu": "hiti",
+      "difficulty": "intermediate",
+      "context": "Scavenging carnivore",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Wild Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 739,
+      "english": "elephant",
+      "kikuyu": "njogu",
+      "difficulty": "beginner",
+      "context": "Large pachyderm",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Wild Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 740,
+      "english": "rhino",
+      "kikuyu": "munyi",
+      "difficulty": "intermediate",
+      "context": "Horned mammal",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Wild Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 741,
+      "english": "hippo",
+      "kikuyu": "nguũ",
+      "difficulty": "intermediate",
+      "context": "Large aquatic mammal",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Wild Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 742,
+      "english": "giraffe",
+      "kikuyu": "mũitĩrĩro",
+      "difficulty": "intermediate",
+      "context": "Tall-necked mammal",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Wild Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 743,
+      "english": "cat",
+      "kikuyu": "nyau",
+      "difficulty": "beginner",
+      "context": "Domestic feline",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 744,
+      "english": "dog",
+      "kikuyu": "ngui",
+      "difficulty": "beginner",
+      "context": "Domestic canine",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 745,
+      "english": "chicken",
+      "kikuyu": "ngũkũ",
+      "difficulty": "beginner",
+      "context": "Domestic fowl",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 746,
+      "english": "goat",
+      "kikuyu": "mbũri",
+      "difficulty": "beginner",
+      "context": "Small ruminant",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 747,
+      "english": "cow",
+      "kikuyu": "ng'ombe",
+      "difficulty": "beginner",
+      "context": "Large domestic bovine",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 748,
+      "english": "sheep",
+      "kikuyu": "ngo'ndu",
+      "difficulty": "beginner",
+      "context": "Woolly ruminant",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 749,
+      "english": "rabbit",
+      "kikuyu": "mbũkũ",
+      "difficulty": "beginner",
+      "context": "Small mammal",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 750,
+      "english": "camel",
+      "kikuyu": "ngamĩra",
+      "difficulty": "intermediate",
+      "context": "Desert transport animal",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 751,
+      "english": "dove",
+      "kikuyu": "ndutura",
+      "difficulty": "intermediate",
+      "context": "Small peaceful bird",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 752,
+      "english": "duck",
+      "kikuyu": "bata",
+      "difficulty": "beginner",
+      "context": "Aquatic bird",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Domestic Animals"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 753,
+      "english": "clock",
+      "kikuyu": "thaa",
+      "difficulty": "beginner",
+      "context": "Timekeeping device",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 754,
+      "english": "bed",
+      "kikuyu": "ũrĩrĩ",
+      "difficulty": "beginner",
+      "context": "Sleeping furniture",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 755,
+      "english": "bed",
+      "kikuyu": "gĩtanda",
+      "difficulty": "beginner",
+      "context": "Sleeping furniture - alternative",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 756,
+      "english": "chair",
+      "kikuyu": "gĩtĩ",
+      "difficulty": "beginner",
+      "context": "Seating furniture",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 757,
+      "english": "table",
+      "kikuyu": "metha",
+      "difficulty": "beginner",
+      "context": "Flat-surfaced furniture",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 758,
+      "english": "tank",
+      "kikuyu": "itangi",
+      "difficulty": "intermediate",
+      "context": "Water storage container",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 759,
+      "english": "bottle",
+      "kikuyu": "cuba",
+      "difficulty": "beginner",
+      "context": "Liquid container",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 760,
+      "english": "glass",
+      "kikuyu": "girathi",
+      "difficulty": "beginner",
+      "context": "Drinking vessel",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Household Items"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 761,
+      "english": "fork",
+      "kikuyu": "hũma",
+      "difficulty": "beginner",
+      "context": "Eating utensil with prongs",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Kitchen Utensils"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 762,
+      "english": "pestle",
+      "kikuyu": "mũindũri",
+      "difficulty": "intermediate",
+      "context": "Grinding tool",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Kitchen Utensils"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 763,
+      "english": "mortar",
+      "kikuyu": "ndĩrĩ",
+      "difficulty": "intermediate",
+      "context": "Grinding bowl",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Kitchen Utensils"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 764,
+      "english": "bowl",
+      "kikuyu": "mbakũri",
+      "difficulty": "beginner",
+      "context": "Round container",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Kitchen Utensils"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 765,
+      "english": "milk",
+      "kikuyu": "iria",
+      "difficulty": "beginner",
+      "context": "Dairy product",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

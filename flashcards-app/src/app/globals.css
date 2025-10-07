@@ -54,7 +54,7 @@
   }
   
   .flashcard-inner {
-    @apply relative w-full h-full transition-transform duration-600 transform-style-preserve-3d;
+    @apply relative w-full h-full transition-transform duration-700 transform-style-preserve-3d;
   }
   
   .flashcard.flipped .flashcard-inner {

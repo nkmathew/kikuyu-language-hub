@@ -1,0 +1,62 @@
+{
+  "category": "conjugations",
+  "total_count": 692,
+  "difficulty_counts": {
+    "beginner": 0,
+    "intermediate": 0,
+    "advanced": 0
+  },
+  "page_size": 100,
+  "total_pages": 7,
+  "pages": [
+    {
+      "page": 0,
+      "file": "page-0.json",
+      "start": 0,
+      "end": 99,
+      "count": 100
+    },
+    {
+      "page": 1,
+      "file": "page-1.json",
+      "start": 100,
+      "end": 199,
+      "count": 100
+    },
+    {
+      "page": 2,
+      "file": "page-2.json",
+      "start": 200,
+      "end": 299,
+      "count": 100
+    },
+    {
+      "page": 3,
+      "file": "page-3.json",
+      "start": 300,
+      "end": 399,
+      "count": 100
+    },
+    {
+      "page": 4,
+      "file": "page-4.json",
+      "start": 400,
+      "end": 499,
+      "count": 100
+    },
+    {
+      "page": 5,
+      "file": "page-5.json",
+      "start": 500,
+      "end": 599,
+      "count": 100
+    },
+    {
+      "page": 6,
+      "file": "page-6.json",
+      "start": 600,
+      "end": 691,
+      "count": 92
+    }
+  ]
+}

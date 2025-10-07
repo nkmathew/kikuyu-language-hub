@@ -1,0 +1,47 @@
+{
+  "vocabulary": {
+    "total_count": 1747,
+    "difficulty_counts": {
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0
+    },
+    "has_pages": true
+  },
+  "proverbs": {
+    "total_count": 608,
+    "difficulty_counts": {
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0
+    },
+    "has_pages": true
+  },
+  "conjugations": {
+    "total_count": 692,
+    "difficulty_counts": {
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0
+    },
+    "has_pages": true
+  },
+  "grammar": {
+    "total_count": 51,
+    "difficulty_counts": {
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0
+    },
+    "has_pages": false
+  },
+  "general": {
+    "total_count": 295,
+    "difficulty_counts": {
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 0
+    },
+    "has_pages": false
+  }
+}

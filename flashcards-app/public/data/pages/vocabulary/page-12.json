@@ -1,0 +1,1509 @@
+{
+  "page": 12,
+  "totalPages": 18,
+  "totalCards": 1747,
+  "startIndex": 1200,
+  "endIndex": 1299,
+  "cards": [
+    {
+      "id": 2679,
+      "english": "to sleep",
+      "kikuyu": "Gũkoma",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2680,
+      "english": "Gũkoma na nda",
+      "kikuyu": "The general verb for sleeping.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2681,
+      "english": "Nda* means 'stomach' or 'abdomen'.",
+      "kikuyu": "to sleep on the stomach (face down)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2682,
+      "english": "to sleep on your back",
+      "kikuyu": "Gũkoma na ngara (... na mũgongo)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2683,
+      "english": "Gũkoma na mwena",
+      "kikuyu": "Mũgongo* means 'back'.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2684,
+      "english": "Mwena* means 'side'.",
+      "kikuyu": "to sleep on one side",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2685,
+      "english": "to spend the night",
+      "kikuyu": "Kũrara",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2686,
+      "english": "Hinga maitho ũkome",
+      "kikuyu": "The verb for staying overnight or sleeping over.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2687,
+      "english": "A common command or instruction.",
+      "kikuyu": "Shut your eyes and sleep",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2688,
+      "english": "do you sleep with eyes open?",
+      "kikuyu": "Kaĩ ũkomaga ũhingũrĩte maitho?",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2689,
+      "english": "Rara nĩ gwatuka",
+      "kikuyu": "A question using the verb **Gũhingũra** (to open).",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2690,
+      "english": "Gwatuka* means 'it has become dark' or 'night has fallen'.",
+      "kikuyu": "sleep-over, darkness has fallen",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2691,
+      "english": "sleep over and go tomorrow",
+      "kikuyu": "Rara ũgathie rũciũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2692,
+      "english": "Koma ũkĩre thaa igĩrĩ cia rũci-inĩ",
+      "kikuyu": "Used when someone is staying the night and leaving the next day.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2693,
+      "english": "A full sentence combining **Gũkoma** (sleep) and **Gũkĩra** (wake up). *Thaa igĩrĩ* (two hours) refers to 8 o'clock (2 hours after 6 a.m.).",
+      "kikuyu": "sleep and wake up at 8 in the morning",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2694,
+      "english": "Sleep well",
+      "kikuyu": "Koma na wega (thayũ)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2695,
+      "english": "Gĩa na ũtuko mwega",
+      "kikuyu": "A common parting phrase. *Thayũ* means 'peace' or 'tranquility'.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2696,
+      "english": "A polite greeting/farewell.",
+      "kikuyu": "have a good night",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2697,
+      "english": "have a good night",
+      "kikuyu": "Korwo na ũtuko mwega",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 146",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2698,
+      "english": "English Name",
+      "kikuyu": "This image provides a vocabulary lesson on **Nyamũ cĩa gĩthaka** (wild animals) in Kikuyu. Here is a list of the animals shown with their Kikuyu names: *** ## Nyamũ cĩa Gĩthaka (Wild Animals)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2699,
+      "english": ":---",
+      "kikuyu": "Kikuyu Name(s)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2700,
+      "english": "Giraffe",
+      "kikuyu": ":---",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2701,
+      "english": "Elephant",
+      "kikuyu": "Ndũiga",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2702,
+      "english": "Zebra",
+      "kikuyu": "Njogu",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2703,
+      "english": "Ostrich",
+      "kikuyu": "Wambũĩ mĩcore / njagĩ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2704,
+      "english": "Rhinoceros",
+      "kikuyu": "Nyaga",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2705,
+      "english": "Lion",
+      "kikuyu": "Huria",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2706,
+      "english": "Wildebeest",
+      "kikuyu": "Mũrũthĩ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2707,
+      "english": "Cheetah",
+      "kikuyu": "Ngatata",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2708,
+      "english": "Hyena",
+      "kikuyu": "Nyũtũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2709,
+      "english": "Hippo",
+      "kikuyu": "Hiti",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2710,
+      "english": "Leopard",
+      "kikuyu": "Nguuo",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2711,
+      "english": "Chimpanzee",
+      "kikuyu": "Ngarĩ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2712,
+      "english": "*The vertical text on the left reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.",
+      "kikuyu": "Thakwe",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 160",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2721,
+      "english": "Meaning",
+      "kikuyu": "Verb (Infinitive)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2722,
+      "english": "Meaning",
+      "kikuyu": "Imperative (Command)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2723,
+      "english": "to buy",
+      "kikuyu": "Kũgũra",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2724,
+      "english": "buy",
+      "kikuyu": "Gũra",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2725,
+      "english": "to close",
+      "kikuyu": "Kũhinga",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2726,
+      "english": "close",
+      "kikuyu": "Hinga",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2727,
+      "english": "to open",
+      "kikuyu": "Kũhingũra",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2728,
+      "english": "open",
+      "kikuyu": "Hingũra",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2729,
+      "english": "to stand",
+      "kikuyu": "Kũrũgama",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2730,
+      "english": "Stand",
+      "kikuyu": "Rũgama",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2731,
+      "english": "to speak",
+      "kikuyu": "Kwaria",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2732,
+      "english": "speak",
+      "kikuyu": "Aria",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 190",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2733,
+      "english": "Kahinda gaka (rĩu) - now",
+      "kikuyu": "Nđĩ gũkũ - I am here",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2734,
+      "english": ":---",
+      "kikuyu": "ũmũthĩ mahinda mahitũku (Earlier today)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2735,
+      "english": "Nđĩ gũkũ",
+      "kikuyu": ":---",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2736,
+      "english": "Twĩ gũkũ",
+      "kikuyu": "Nyuma gũkũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2737,
+      "english": "Wĩ gũkũ",
+      "kikuyu": "Tuma gũkũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2738,
+      "english": "Mwĩ gukũ",
+      "kikuyu": "Uma gũkũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2739,
+      "english": "E gũkũ",
+      "kikuyu": "Muma gũkũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2740,
+      "english": "Me gũkũ",
+      "kikuyu": "Oima gũkũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2741,
+      "english": "Nđĩ gũkũ, na nđĩrarĩa nyama** **Nyuma gũkũ na nđĩire nyama** **Twĩ gũkũ na tũrarĩa nyama** **Tuma gũkũ na tũrĩire nyama",
+      "kikuyu": "Moima gũkũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 192",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2742,
+      "english": "Step",
+      "kikuyu": "Wash your hands Wĩthambe moko",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 208",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2743,
+      "english": "Instruction (Kikuyu)",
+      "kikuyu": "Instruction (English)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 208",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2744,
+      "english": "Wĩtĩrĩrie mai",
+      "kikuyu": "WET YOUR HANDS",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 208",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2745,
+      "english": "Wĩthambe moko thekondi mirongo îrî",
+      "kikuyu": "WASH YOUR HANDS FOR 20 SECONDS",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 208",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2746,
+      "english": "Wĩhuure na ngacibũ ya karatathi",
+      "kikuyu": "DRY WITH A CLEAN TOWEL",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 208",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2748,
+      "english": "English Word",
+      "kikuyu": "## Sounds and Feelings in Gĩkũyũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2749,
+      "english": "Meaning/Example",
+      "kikuyu": "Gĩkũyũ Phrase",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2750,
+      "english": "Scared",
+      "kikuyu": ":---",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2751,
+      "english": "Ũraigua atĩa?* - What are you feeling?",
+      "kikuyu": "Guoya",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2752,
+      "english": "Gikeno",
+      "kikuyu": "Happy",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2753,
+      "english": "Sad",
+      "kikuyu": "Ndiraguĩra...* - I am feeling...",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2754,
+      "english": "Angry",
+      "kikuyu": "Kĩeha",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2755,
+      "english": "Excited",
+      "kikuyu": "Marakara",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2756,
+      "english": "Worried",
+      "kikuyu": "Ndũhĩo",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2757,
+      "english": "Surprised",
+      "kikuyu": "Kĩmako",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2758,
+      "english": "Silly",
+      "kikuyu": "Kũhahũka",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2759,
+      "english": "Frustrated",
+      "kikuyu": "Ũrĩmũ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2760,
+      "english": "Kũringa kanua",
+      "kikuyu": "Kwaga kũiganĩra",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2761,
+      "english": "Kũbogotha",
+      "kikuyu": "Warakara, waringa kanua - to be angry, making sounds with the mouth.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2762,
+      "english": "Gũthĩoma",
+      "kikuyu": "Mũrwaru nĩ arararia. Aca no nĩ arabogotha - The sick person is talking. Look, he is also mumbling.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2763,
+      "english": "Kũhaya",
+      "kikuyu": "Arathioma akĩaria Gĩkũyũ - He is speaking Gĩkũyũ with an accent.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2764,
+      "english": "Gũkorora",
+      "kikuyu": "Ndiratwara mwana thibitarĩ tondũ nĩ arahaya - I am taking the child to the hospital because he is groaning.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2765,
+      "english": "Gũathĩmũra",
+      "kikuyu": "Kaĩ ũrakorora? Tua gĩkorora - Why are you snorting? Blow your nose.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2766,
+      "english": "Gũkomba",
+      "kikuyu": "Nyita kanua ũgĩathĩmũra - Cover your mouth when sneezing.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2767,
+      "english": "Kũigua Kĩnyiria",
+      "kikuyu": "To make bad gestures at someone who is facing away; To borrow money.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2768,
+      "english": "Kũnyĩra",
+      "kikuyu": "To be disgusted.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2769,
+      "english": "Kũnũhanũha",
+      "kikuyu": "To express disgust for something (e.g. a kind of food).",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2770,
+      "english": "Kũnunũha",
+      "kikuyu": "Fast sounds made by someone crying.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2771,
+      "english": "Gũĩthĩkĩra",
+      "kikuyu": "To nose bleed.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2772,
+      "english": "**Learn Kĩkũyũ - Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ",
+      "kikuyu": "To have a sad posture, e.g. when mourning.",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 223",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2773,
+      "english": "Kĩkũyũ Phrase",
+      "kikuyu": "This image provides examples of **simple sentences** in Kĩkũyũ, specifically demonstrating the sounds of the consonants **G, H, and K**. ## Kĩkũyũ Simple Sentences: Consonants G, H, and K ### G (g)",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2774,
+      "english": "Vocabulary Notes",
+      "kikuyu": "English Translation",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2775,
+      "english": "Gũka gũcia guoko gwaakwa",
+      "kikuyu": ":---",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2776,
+      "english": "guoko** - hand",
+      "kikuyu": "Grandfather, pull my hand",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2777,
+      "english": "Come for this cup",
+      "kikuyu": "Gĩra gĩkombe gĩkĩ",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2778,
+      "english": "--- ### H (h)",
+      "kikuyu": "Gĩkombe** - cup",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2779,
+      "english": "English Translation",
+      "kikuyu": "Kĩkũyũ Phrase",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2780,
+      "english": ":---",
+      "kikuyu": "Vocabulary Notes",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2781,
+      "english": "This place is cold",
+      "kikuyu": "Haha hena heho",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2782,
+      "english": "Hũha mwaki wahota",
+      "kikuyu": "Haha** - here",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2783,
+      "english": "Hũha** - blow; **mwaki** - fire",
+      "kikuyu": "Blow the fire if you can",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2784,
+      "english": "the capsicum has shriveled",
+      "kikuyu": "Hoho nĩ ya hoha",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2785,
+      "english": "--- ### K (k)",
+      "kikuyu": "Hoho** - capsicum/pepper",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2786,
+      "english": "the girl has a pen",
+      "kikuyu": "Kaĩrĩtu kena karamu",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2787,
+      "english": "Kahĩĩ nĩ karatha kanyoni",
+      "kikuyu": "Karamu** - pen/pencil",
+      "difficulty": "beginner",
+      "context": "Vocabulary from structured lesson - File 237",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker vocabulary from Easy Kikuyu lessons",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

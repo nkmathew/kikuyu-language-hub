@@ -1,0 +1,1393 @@
+{
+  "page": 3,
+  "totalPages": 7,
+  "totalCards": 692,
+  "startIndex": 300,
+  "endIndex": 399,
+  "cards": [
+    {
+      "id": 3258,
+      "english": "I drive a lorry from **Nairobi to Mombasa** * **",
+      "kikuyu": "Ndwairithagia rorĩ kuma Nairobi kinya Mombasa**",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 492",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3259,
+      "english": "Wĩrute Gĩkũyũ\")**",
+      "kikuyu": "Ndingĩendana na mũKenya** - **I cannot fall in love wit a Kenyan** * **Matĩũĩ kwendana** - **They do not know how to love** * **Mendana hanini** - **they have loved (each other) a little** **(A faded watermark diagonally across the top reads: \"Learn Kikuyu",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 509",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3260,
+      "english": "I have not opened Nīngūhingūrīte kabere -I opened earlier Nī wethamba?- Have you taken bath? Ndinethamba-I have not taken a bath Nīngwīthambīte kabere-I took a bath earlier. Nīūrugire cai? -Have you made tea? Ndinaruga cai.-I have not made tea. Nīndugire cai hau kabere-I made tea earlier .  -----------",
+      "kikuyu": "Ndinahingūra",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 142",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "first person subject marker",
+          "target": "Nd-",
+          "position": 0,
+          "context": "Subject prefix - morphological analysis"
+        },
+        {
+          "source": "verb root and extensions",
+          "target": "inahingūra",
+          "position": 1,
+          "context": "Root + Extensions - morphological analysis"
+        }
+      ]
+    },
+    {
+      "id": 621,
+      "english": "hit",
+      "kikuyu": "gutha",
+      "difficulty": "beginner",
+      "context": "To strike forcefully",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 622,
+      "english": "please",
+      "kikuyu": "kenia",
+      "difficulty": "intermediate",
+      "context": "To satisfy or make happy",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 623,
+      "english": "lay",
+      "kikuyu": "rekia",
+      "difficulty": "intermediate",
+      "context": "To place down, especially eggs",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 624,
+      "english": "model",
+      "kikuyu": "umba",
+      "difficulty": "intermediate",
+      "context": "To shape or form",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 625,
+      "english": "warm",
+      "kikuyu": "raria",
+      "difficulty": "beginner",
+      "context": "To heat gently",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 626,
+      "english": "dilute",
+      "kikuyu": "twekia",
+      "difficulty": "advanced",
+      "context": "To thin with liquid",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 627,
+      "english": "march",
+      "kikuyu": "thoitha",
+      "difficulty": "intermediate",
+      "context": "To walk in formation",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 628,
+      "english": "accept",
+      "kikuyu": "itikira",
+      "difficulty": "intermediate",
+      "context": "To agree to receive",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 629,
+      "english": "postpone",
+      "kikuyu": "tiria",
+      "difficulty": "intermediate",
+      "context": "To delay or defer",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 630,
+      "english": "run",
+      "kikuyu": "teng'era",
+      "difficulty": "beginner",
+      "context": "To move quickly on foot",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 631,
+      "english": "tilt",
+      "kikuyu": "inamia",
+      "difficulty": "intermediate",
+      "context": "To lean or angle",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 632,
+      "english": "kiss",
+      "kikuyu": "mumunya",
+      "difficulty": "beginner",
+      "context": "To touch with lips affectionately",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 652,
+      "english": "lift up your right hand!",
+      "kikuyu": "oya guoko gwaku kwa urio na iguru",
+      "difficulty": "intermediate",
+      "context": "Command with directional reference",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "oya",
+          "target": "oya",
+          "position": 0,
+          "context": "Imperative verb - lift/raise"
+        },
+        {
+          "source": "guoko",
+          "target": "guoko",
+          "position": 1,
+          "context": "Hand/arm"
+        },
+        {
+          "source": "gwaku",
+          "target": "gwaku",
+          "position": 2,
+          "context": "Your (possessive)"
+        },
+        {
+          "source": "kwa urio",
+          "target": "kwa urio",
+          "position": 3,
+          "context": "To the right"
+        },
+        {
+          "source": "na iguru",
+          "target": "na iguru",
+          "position": 4,
+          "context": "And upward"
+        }
+      ]
+    },
+    {
+      "id": 653,
+      "english": "hit the rock again",
+      "kikuyu": "gutha ihiga ringi",
+      "difficulty": "intermediate",
+      "context": "Action command with repetition",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 656,
+      "english": "model a pot",
+      "kikuyu": "umba nyungu",
+      "difficulty": "intermediate",
+      "context": "Craft instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 657,
+      "english": "warm the baby's drinking water",
+      "kikuyu": "raria mai ma kuhe mwana",
+      "difficulty": "intermediate",
+      "context": "Childcare instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 658,
+      "english": "run to save yourself",
+      "kikuyu": "teng'era withare",
+      "difficulty": "intermediate",
+      "context": "Emergency instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 659,
+      "english": "kiss the cheek",
+      "kikuyu": "mumunya ikai",
+      "difficulty": "beginner",
+      "context": "Affectionate gesture",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 674,
+      "english": "hit",
+      "kikuyu": "gútha",
+      "difficulty": "beginner",
+      "context": "To strike forcefully",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 675,
+      "english": "model",
+      "kikuyu": "úmba",
+      "difficulty": "intermediate",
+      "context": "To shape or form",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 676,
+      "english": "accept",
+      "kikuyu": "ítíkíra",
+      "difficulty": "intermediate",
+      "context": "To agree to receive",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 677,
+      "english": "postpone",
+      "kikuyu": "tíria",
+      "difficulty": "intermediate",
+      "context": "To delay or defer",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 687,
+      "english": "lift up your right hand!",
+      "kikuyu": "oya guoko gwaku kwa úrío na igúrú",
+      "difficulty": "intermediate",
+      "context": "Command with directional reference",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "oya",
+          "target": "oya",
+          "position": 0,
+          "context": "Imperative verb - lift/raise"
+        },
+        {
+          "source": "guoko",
+          "target": "guoko",
+          "position": 1,
+          "context": "Hand/arm"
+        },
+        {
+          "source": "gwaku",
+          "target": "gwaku",
+          "position": 2,
+          "context": "Your (possessive)"
+        },
+        {
+          "source": "kwa úrío",
+          "target": "kwa úrío",
+          "position": 3,
+          "context": "To the right"
+        },
+        {
+          "source": "na igúrú",
+          "target": "na igúrú",
+          "position": 4,
+          "context": "And upward"
+        }
+      ]
+    },
+    {
+      "id": 688,
+      "english": "hit the rock again",
+      "kikuyu": "gútha ihiga ríngí",
+      "difficulty": "intermediate",
+      "context": "Action command with repetition",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 691,
+      "english": "model a pot",
+      "kikuyu": "úmba nyúngú",
+      "difficulty": "intermediate",
+      "context": "Craft instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 692,
+      "english": "warm the baby's drinking water",
+      "kikuyu": "raria maí ma kúhe mwana",
+      "difficulty": "intermediate",
+      "context": "Childcare instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 693,
+      "english": "dilute the paint before applying it to the wall",
+      "kikuyu": "twekia rangi úcio mbere ya úhake rúthingo",
+      "difficulty": "advanced",
+      "context": "Home improvement instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 694,
+      "english": "we watched the police march all day long",
+      "kikuyu": "twíroreire bolrithi magíthoitha múthenya wothe",
+      "difficulty": "advanced",
+      "context": "Past observation",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 698,
+      "english": "if you accept to go you will be paid",
+      "kikuyu": "wetíkíra gúthi;i níúkúríhwo",
+      "difficulty": "advanced",
+      "context": "Conditional agreement",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 700,
+      "english": "run to save yourself",
+      "kikuyu": "teng'era wíthare",
+      "difficulty": "intermediate",
+      "context": "Emergency instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 701,
+      "english": "tilt the bottle to pour water",
+      "kikuyu": "inamia cuba maí maitíke",
+      "difficulty": "intermediate",
+      "context": "Practical instruction",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Verbs & Actions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2079,
+      "english": "example with aga",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'aga'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2080,
+      "english": "example with aga",
+      "kikuyu": "Muiru, David N. (2007)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'aga'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2081,
+      "english": "example with aka",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'aka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2082,
+      "english": "example with akia",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'akia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2083,
+      "english": "example with amba",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'amba'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2084,
+      "english": "example with amba",
+      "kikuyu": "“amba” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'amba'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2085,
+      "english": "example with amba",
+      "kikuyu": ", p. 7. Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'amba'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2086,
+      "english": "example with ambata",
+      "kikuyu": "“ambata” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ambata'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2087,
+      "english": "example with ambata",
+      "kikuyu": ", p. 7. Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ambata'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2088,
+      "english": "example with ambata",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ambata'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2089,
+      "english": "example with ambĩrĩria",
+      "kikuyu": "“ambĩrĩria” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ambĩrĩria'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2090,
+      "english": "example with ambĩrĩria",
+      "kikuyu": ", p. 7. Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ambĩrĩria'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2091,
+      "english": "example with ambĩrĩria",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ambĩrĩria'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2092,
+      "english": "example with andĩka",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'andĩka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2093,
+      "english": "example with aria",
+      "kikuyu": "in “Jogowini dialect” of Kikuyu",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'aria'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2094,
+      "english": "example with aria",
+      "kikuyu": ", pp. 50–51, 54–55. Cambridge: Cambridge University Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'aria'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2095,
+      "english": "example with aria",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'aria'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2096,
+      "english": "example with atha",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'atha'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2097,
+      "english": "example with atha",
+      "kikuyu": "“atha” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'atha'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2099,
+      "english": "example with atũka",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'atũka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2100,
+      "english": "example with atũka",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'atũka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2101,
+      "english": "example with atũra",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'atũra'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2102,
+      "english": "example with atũra",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'atũra'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2103,
+      "english": "example with baara",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'baara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2104,
+      "english": "example with baara",
+      "kikuyu": "“baara” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'baara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2105,
+      "english": "example with baara",
+      "kikuyu": ", p. 21. Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'baara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2106,
+      "english": "example with butha",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'butha'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2107,
+      "english": "example with butha",
+      "kikuyu": "“butha” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'butha'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2109,
+      "english": "example with cemania",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cemania'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2110,
+      "english": "example with cemania",
+      "kikuyu": "“cemania” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cemania'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2112,
+      "english": "example with ciara",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ciara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2113,
+      "english": "example with ciara",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ciara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2114,
+      "english": "example with ciara",
+      "kikuyu": "“ciara” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ciara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2116,
+      "english": "example with cimba",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cimba'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2117,
+      "english": "example with cimba",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cimba'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2118,
+      "english": "example with cimba",
+      "kikuyu": "pp. 79, 227, 246",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cimba'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2119,
+      "english": "example with cina",
+      "kikuyu": "“cina” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cina'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2121,
+      "english": "example with coka",
+      "kikuyu": ", pp. 50–51. Cambridge: Cambridge University Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'coka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2122,
+      "english": "example with coka",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'coka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2123,
+      "english": "example with coka",
+      "kikuyu": "“coka” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'coka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2125,
+      "english": "example with cokia",
+      "kikuyu": ", pp. 50–51. Cambridge: Cambridge University Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cokia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2126,
+      "english": "example with cokia",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cokia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2127,
+      "english": "example with conoka",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'conoka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2128,
+      "english": "example with conoka",
+      "kikuyu": "Barlow, A. Ruffell (",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'conoka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2129,
+      "english": "example with cuuka",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cuuka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2130,
+      "english": "example with cũna",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cũna'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2131,
+      "english": "example with enda",
+      "kikuyu": "etc. as their equivalents",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enda'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2132,
+      "english": "example with enda",
+      "kikuyu": ", pp. 36–37, 64–65. Cambridge: Cambridge University Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enda'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2133,
+      "english": "example with enda",
+      "kikuyu": ", pp. 148–149. Ph.D. thesis, University of Birmingham",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enda'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2134,
+      "english": "example with enda",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enda'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2135,
+      "english": "example with enda",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enda'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2136,
+      "english": "example with endia",
+      "kikuyu": "in “Jogowini dialect” of Kikuyu",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'endia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2137,
+      "english": "example with endia",
+      "kikuyu": ", pp. 52–53. Cambridge: Cambridge University Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'endia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2138,
+      "english": "example with endia",
+      "kikuyu": ", p. 360. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'endia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2139,
+      "english": "example with enja",
+      "kikuyu": ", pp. 18–19. Cambridge: Cambridge University Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enja'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2140,
+      "english": "example with enja",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enja'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2141,
+      "english": "example with enja",
+      "kikuyu": ", pp. 52–53. Cambridge: Cambridge University Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enja'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2142,
+      "english": "example with enja",
+      "kikuyu": ", pp. 360–361. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'enja'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2143,
+      "english": "example with gaya",
+      "kikuyu": ", p. 361. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'gaya'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2144,
+      "english": "example with gayania",
+      "kikuyu": ", p. 361. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'gayania'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2145,
+      "english": "example with geithia",
+      "kikuyu": ", p. 361. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'geithia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2146,
+      "english": "example with geithia",
+      "kikuyu": "Barlow, A. Ruffell (1960)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'geithia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2147,
+      "english": "example with gera",
+      "kikuyu": "“gera” in Benson, T.G. (1964)",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'gera'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2148,
+      "english": "example with gera",
+      "kikuyu": ", p. 108. Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'gera'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2149,
+      "english": "example with gera",
+      "kikuyu": "Nyeri, Kenya: Akikuyu in the Mission Printing School",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'gera'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2150,
+      "english": "example with gera",
+      "kikuyu": ", pp. 302–303. Rep. 1967. (Also in",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'gera'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

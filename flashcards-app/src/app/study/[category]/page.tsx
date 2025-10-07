@@ -12,6 +12,13 @@ interface StudyFlashcard extends Flashcard {
   _studied?: boolean;
 }
 
+export async function generateStaticParams() {
+  const categories = ['vocabulary', 'proverbs', 'conjugations', 'grammar', 'general'];
+  return categories.map((category) => ({
+    category,
+  }));
+}
+
 export default function StudyPage() {
   const params = useParams();
   const searchParams = useSearchParams();
@@ -92,7 +99,7 @@ export default function StudyPage() {
     const currentCard = cards[currentIndex];
     if (currentCard) {
       localStorageManager.markCardAsKnown(currentCard.id);
-      setKnownCards(prev => new Set([...prev, currentCard.id]));
+      setKnownCards(prev => new Set(Array.from(prev).concat(currentCard.id)));
       setCorrectAnswers(prev => prev + 1);
       
       // Auto-advance to next card
@@ -122,7 +129,8 @@ export default function StudyPage() {
       if (cardsStudied > 0) {
         localStorageManager.saveSession({
           category,
-          difficulty: difficultyFilter || 'all',
+          difficulty: difficultyFilter ? [difficultyFilter] : ['all'],
+          mode: 'flashcards' as const,
           cardsStudied,
           correctAnswers,
           startTime: sessionStartTime.toISOString(),

@@ -1,0 +1,1483 @@
+{
+  "page": 3,
+  "totalPages": 18,
+  "totalCards": 1747,
+  "startIndex": 300,
+  "endIndex": 399,
+  "cards": [
+    {
+      "id": 289,
+      "english": "hot",
+      "kikuyu": "ya ũrugarĩ",
+      "difficulty": "beginner",
+      "context": "Temperature of cooked food",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2616,
+      "english": "METHODS OF COOKING Gũtherũkia – boiling Gũkaranga – frying Kũhĩhia/Gũcina – roasting",
+      "kikuyu": "MĨRUGĨRE",
+      "difficulty": "beginner",
+      "context": "Theme: Cooking - Thematic vocabulary: cooking methods - File 02",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker cooking methods vocabulary from Easy Kikuyu lessons Essential cooking and food preparation terminology.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2617,
+      "english": "forgive me learners Nĩ ndĩrathiĩte karũtha kanini – I had gone for a short leave (rũtha – permission, also means leave). ‘ka’ before a word diminishes it to small so “karutha” is a small leave. Now that I am forgiven let’s proceed with today’s lesson. IRIO CIA MŨGIKŨYŨ – FOOD OF THE KIKUYU Note that this is just a lesson. Kikuyus today eat everything like everybody else. IRIO CIA RŨCIĨNĨ – FOOD OF THE MORNING (BREAKFAST) Cai kana ũcũrũ – tea or porridge Mũgate kana ngwacĩ – bread or sweet potato Ndũma kana mĩanga – Arrow root or cassava mũthigwiti - buiscuit; keki - cake IRIO CIA MŨTHENYA – FOOD FOR DAYTIME (LUNCH) Gĩtheri kana mũkimo – maize and beans (githeri) or mashed food (mukimo - usually bananas and any cereal with some greens). IRIO CIA HWAIĨNĨ – FOOD FOR THE EVENING Ngima kana mũcere – ugali (posho) or rice Cabaci kana ndũma na gĩtoero – chapatti or arrow root and stew (gitoero – any stew) Iria imata kana nyama na ngima – fermented milk or milk and ugali Kũmata – to ferment (also ‘to be foolish’) Kũgagata – to ferment, to be acidic (also to be sarcastic) Irio ciĩna cama – the food is tasty Irio ciĩna mūrīo – the food is sweet Irio ciĩna cumbī mũingi – the food has too much salt (cumbī mũingi) Cai nĩ mũcamũ cukari – the tea has enough sugar Gũcama – to taste, to have enough of whatever additive. MĪRUGĨRE – METHODS OF COOKING Gũtherũkia – to boil Gũkaranga – to fry Kũhĩhia – to roast IRIO INGĨ - OTHER FOODS Marigũ methĩ – raw bananas Marigũ meru – ripe bananas Gĩkwa - yam Mbembe - maize mboco - beans minji - peas https://www.facebook.com/photo/?fbid=1301340073247047&set=pb.100063609806723.-2207520000 -----------",
+      "kikuyu": "Njoherai arutwo",
+      "difficulty": "beginner",
+      "context": "Theme: Cooking - Thematic vocabulary: cooking methods - File 332",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker cooking methods vocabulary from Easy Kikuyu lessons Essential cooking and food preparation terminology.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3265,
+      "english": "Table",
+      "kikuyu": "Metha",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3266,
+      "english": "Picture/Photo",
+      "kikuyu": "Mbica",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3267,
+      "english": "Pot (cooking)",
+      "kikuyu": "Nyũngũ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Cooking vessel from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3268,
+      "english": "Glass",
+      "kikuyu": "Ngĩrathi",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3269,
+      "english": "Plate",
+      "kikuyu": "Thaani",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3270,
+      "english": "Iron (for clothes)",
+      "kikuyu": "Baathi",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3271,
+      "english": "Television",
+      "kikuyu": "Terebiceni",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Modern household item",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3272,
+      "english": "Pot (saucepan)",
+      "kikuyu": "Thaburia",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Cooking vessel from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3273,
+      "english": "Kettle",
+      "kikuyu": "Mbirika",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3274,
+      "english": "Padlock",
+      "kikuyu": "Kuburi",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3275,
+      "english": "Cow",
+      "kikuyu": "Ng'ombe",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Domestic animal from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3276,
+      "english": "He-goat",
+      "kikuyu": "Thenge",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Domestic animal from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3277,
+      "english": "Chicken/Hen",
+      "kikuyu": "Ngũkũ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Domestic animal from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3278,
+      "english": "Duck",
+      "kikuyu": "Mbata",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Domestic animal from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3279,
+      "english": "Keys",
+      "kikuyu": "Cabi",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Household item from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3280,
+      "english": "Grasshopper",
+      "kikuyu": "Ngigĩ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Insect from structured lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3281,
+      "english": "giraffe",
+      "kikuyu": "Ndûiga",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3282,
+      "english": "Elephant",
+      "kikuyu": "Njogu",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3283,
+      "english": "zebra",
+      "kikuyu": "Wambûi mîcore",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3284,
+      "english": "zebra (alternative)",
+      "kikuyu": "njagî",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3285,
+      "english": "Ostrich",
+      "kikuyu": "Nyaga",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3286,
+      "english": "Rhinocerous",
+      "kikuyu": "Huria",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3287,
+      "english": "lion",
+      "kikuyu": "Mûrûthî",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3288,
+      "english": "Wildebeest",
+      "kikuyu": "Ngatata",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3289,
+      "english": "Cheatah",
+      "kikuyu": "Nyûtû",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3290,
+      "english": "Hyena",
+      "kikuyu": "Hiti",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3291,
+      "english": "Hippo",
+      "kikuyu": "Nguuo",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3292,
+      "english": "Leopard",
+      "kikuyu": "Ngarî",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3293,
+      "english": "Chimpanzee",
+      "kikuyu": "Thakwe",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Wild animal vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3294,
+      "english": "Upper side (North)",
+      "kikuyu": "Rũgongo",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Directional term from geography lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3295,
+      "english": "East",
+      "kikuyu": "Irathĩro",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Directional term from geography lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3296,
+      "english": "Lower side (South)",
+      "kikuyu": "Mũhuro",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Directional term from geography lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3297,
+      "english": "West",
+      "kikuyu": "Ithũĩro",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Directional term from geography lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3298,
+      "english": "Up river",
+      "kikuyu": "Rũgũrũ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Directional term from geography lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3299,
+      "english": "boiling",
+      "kikuyu": "Gũtherũkia",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Cooking method from culinary lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3300,
+      "english": "frying",
+      "kikuyu": "Gũkaranga",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Cooking method from culinary lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3301,
+      "english": "roasting",
+      "kikuyu": "Kũhĩhia",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Cooking method from culinary lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3302,
+      "english": "roasting (alternative)",
+      "kikuyu": "Gũcina",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Cooking method from culinary lesson",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3303,
+      "english": "tick",
+      "kikuyu": "Ngũha",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Insect/parasite vocabulary",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3304,
+      "english": "need",
+      "kikuyu": "Bata",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Abstract concept",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3305,
+      "english": "to need",
+      "kikuyu": "Kũbatara",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Verb form",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3306,
+      "english": "to be ashamed",
+      "kikuyu": "Gũconoka",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Emotional state verb",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3307,
+      "english": "to shame (someone)",
+      "kikuyu": "Gũconora",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Causative verb",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3308,
+      "english": "get ashamed",
+      "kikuyu": "Ta conoka",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Imperative form",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3309,
+      "english": "this one table",
+      "kikuyu": "Metha ĩno ĩmwe",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Demonstrative with noun (Class III)",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3310,
+      "english": "These two tables",
+      "kikuyu": "Metha ici igĩrĩ",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Demonstrative plural with number",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3311,
+      "english": "cold water",
+      "kikuyu": "maĩ mahoro",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Descriptive phrase",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3312,
+      "english": "ten minutes",
+      "kikuyu": "dagĩka ikũmi",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Time expression",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3313,
+      "english": "sorghum flour",
+      "kikuyu": "mũtũ wa mũhĩa",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Traditional food ingredient",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3314,
+      "english": "porridge",
+      "kikuyu": "ũcũrũ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Traditional food",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3315,
+      "english": "tea",
+      "kikuyu": "cai",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Beverage",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3316,
+      "english": "quickly",
+      "kikuyu": "naihenya",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Adverb of manner",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3317,
+      "english": "Lord",
+      "kikuyu": "mwathani",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Religious/spiritual term",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3318,
+      "english": "world",
+      "kikuyu": "thĩ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Geographic/spiritual concept",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3319,
+      "english": "all",
+      "kikuyu": "ciothe",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Quantifier",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3320,
+      "english": "merciful",
+      "kikuyu": "mũtana",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Character trait",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3321,
+      "english": "mercy",
+      "kikuyu": "tha",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Abstract concept",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3322,
+      "english": "many",
+      "kikuyu": "nyingĩ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Quantifier",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3323,
+      "english": "judgment",
+      "kikuyu": "gũtua ciira",
+      "difficulty": "advanced",
+      "context": "Native speaker vocabulary - Legal/spiritual concept",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3324,
+      "english": "worship",
+      "kikuyu": "hoyaga",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Religious action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3325,
+      "english": "help",
+      "kikuyu": "teithia",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Social action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3326,
+      "english": "guide",
+      "kikuyu": "tũtongorie",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Leadership action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3327,
+      "english": "path",
+      "kikuyu": "njĩra",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Physical/metaphorical route",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3328,
+      "english": "straight",
+      "kikuyu": "nyoroku",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Directional descriptor",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3329,
+      "english": "blessed",
+      "kikuyu": "ũrathimĩte",
+      "difficulty": "advanced",
+      "context": "Native speaker vocabulary - Spiritual state",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3330,
+      "english": "anger",
+      "kikuyu": "arakarĩtie",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Emotional state",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3331,
+      "english": "astray",
+      "kikuyu": "morĩte",
+      "difficulty": "advanced",
+      "context": "Native speaker vocabulary - Spiritual/directional state",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3332,
+      "english": "name",
+      "kikuyu": "rĩĩtwa",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Personal identifier",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3333,
+      "english": "school",
+      "kikuyu": "shule",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Educational institution",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3334,
+      "english": "mountain",
+      "kikuyu": "kĩrĩma",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Geographic feature",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3335,
+      "english": "children",
+      "kikuyu": "ciana",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Plural of child",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3336,
+      "english": "mother",
+      "kikuyu": "nyina",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Family relation",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3337,
+      "english": "farmer",
+      "kikuyu": "mũrimi",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Profession/role",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3338,
+      "english": "field",
+      "kikuyu": "mũgũnda",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Agricultural area",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3339,
+      "english": "morning",
+      "kikuyu": "rũcinĩ",
+      "difficulty": "beginner",
+      "context": "Native speaker vocabulary - Time of day",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3340,
+      "english": "ago",
+      "kikuyu": "athira",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Temporal reference",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3341,
+      "english": "then",
+      "kikuyu": "acoka",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Temporal connector",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3342,
+      "english": "when",
+      "kikuyu": "rĩ",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Temporal question word",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3343,
+      "english": "brought",
+      "kikuyu": "ehĩre",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Past action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3344,
+      "english": "woke up",
+      "kikuyu": "okĩra",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Past action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3345,
+      "english": "took a bath",
+      "kikuyu": "ethamba",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Past action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3346,
+      "english": "put on",
+      "kikuyu": "ehumba",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Past action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3347,
+      "english": "made",
+      "kikuyu": "aruga",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Past action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3348,
+      "english": "shut",
+      "kikuyu": "ahĩnga",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Past action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3349,
+      "english": "left",
+      "kikuyu": "oima",
+      "difficulty": "intermediate",
+      "context": "Native speaker vocabulary - Past action",
+      "cultural_notes": "Authentic vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki, a native Kikuyu speaker. This represents everyday language usage in natural Kikuyu conversation and cultural context.",
+      "quality_score": 4.7,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 226,
+      "english": "thief",
+      "kikuyu": "mũici",
+      "difficulty": "beginner",
+      "context": "Person who steals",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Crime & Security"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 227,
+      "english": "thieves",
+      "kikuyu": "aici",
+      "difficulty": "beginner",
+      "context": "Plural form of thief",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Crime & Security"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 228,
+      "english": "to steal",
+      "kikuyu": "kũiya",
+      "difficulty": "beginner",
+      "context": "Verb meaning to take unlawfully",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Crime & Security"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 232,
+      "english": "poisoner/evil person",
+      "kikuyu": "mũrogi",
+      "difficulty": "advanced",
+      "context": "Traditional term for someone who uses harmful magic",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Cultural Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 233,
+      "english": "traditional doctor",
+      "kikuyu": "mũgo",
+      "difficulty": "intermediate",
+      "context": "Respected traditional healer (contrast to mũrogi)",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Cultural Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 235,
+      "english": "to change residence",
+      "kikuyu": "gũthama",
+      "difficulty": "intermediate",
+      "context": "Verb - to move house/relocate",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Daily Activities"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 239,
+      "english": "here (large area)",
+      "kikuyu": "gũkũ",
+      "difficulty": "beginner",
+      "context": "Spatial term for big geographical area (town, country)",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Locations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 240,
+      "english": "where?",
+      "kikuyu": "kũ?",
+      "difficulty": "beginner",
+      "context": "Question word for place/location",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 241,
+      "english": "there",
+      "kikuyu": "kũũrĩa",
+      "difficulty": "beginner",
+      "context": "Spatial term - over there (distant)",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Locations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 242,
+      "english": "here (small area)",
+      "kikuyu": "haha",
+      "difficulty": "beginner",
+      "context": "Spatial term for small area (where I'm standing)",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Locations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 243,
+      "english": "over there",
+      "kikuyu": "harĩa",
+      "difficulty": "beginner",
+      "context": "Spatial term - over there (visible)",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Locations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 244,
+      "english": "where? (specific)",
+      "kikuyu": "ha?",
+      "difficulty": "beginner",
+      "context": "Question word for specific location",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

@@ -1,0 +1,1309 @@
+{
+  "page": 5,
+  "totalPages": 18,
+  "totalCards": 1747,
+  "startIndex": 500,
+  "endIndex": 599,
+  "cards": [
+    {
+      "id": 766,
+      "english": "meat",
+      "kikuyu": "nyama",
+      "difficulty": "beginner",
+      "context": "Animal protein",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 767,
+      "english": "beans",
+      "kikuyu": "mboco",
+      "difficulty": "beginner",
+      "context": "Legume food",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 768,
+      "english": "maize",
+      "kikuyu": "mbembe",
+      "difficulty": "beginner",
+      "context": "Corn grain",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 769,
+      "english": "greengrams",
+      "kikuyu": "ndengũ",
+      "difficulty": "intermediate",
+      "context": "Small green legumes",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 770,
+      "english": "ugali",
+      "kikuyu": "ngima",
+      "difficulty": "beginner",
+      "context": "Maize flour staple",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 771,
+      "english": "pineapple",
+      "kikuyu": "inanathi",
+      "difficulty": "intermediate",
+      "context": "Tropical fruit",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 772,
+      "english": "banana",
+      "kikuyu": "irigũ",
+      "difficulty": "beginner",
+      "context": "Yellow curved fruit",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 773,
+      "english": "orange",
+      "kikuyu": "icungwa",
+      "difficulty": "beginner",
+      "context": "Citrus fruit",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 774,
+      "english": "mango",
+      "kikuyu": "iembe",
+      "difficulty": "beginner",
+      "context": "Sweet tropical fruit",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 775,
+      "english": "lemon",
+      "kikuyu": "ndimũ",
+      "difficulty": "beginner",
+      "context": "Sour citrus fruit",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 776,
+      "english": "avocado",
+      "kikuyu": "ikondo",
+      "difficulty": "intermediate",
+      "context": "Green fatty fruit",
+      "cultural_notes": "Interactive learning vocabulary from learn-kikuyu.netlify.app with audio support. Organized by thematic categories for systematic language acquisition with visual and auditory learning aids.",
+      "quality_score": 4.6,
+      "categories": [
+        "Foods & Fruits"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 929,
+      "english": "derived from aga",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'aga'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 930,
+      "english": "derived from aga",
+      "kikuyu": "mwagi",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'aga'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 931,
+      "english": "derived from aka",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'aka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 932,
+      "english": "derived from aka",
+      "kikuyu": "mwaki",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'aka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 933,
+      "english": "derived from amba",
+      "kikuyu": "kwambata",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 934,
+      "english": "derived from amba",
+      "kikuyu": "mwambato",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 935,
+      "english": "derived from amba",
+      "kikuyu": "kwambĩrĩria",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 936,
+      "english": "derived from amba",
+      "kikuyu": "kĩambĩrĩria",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 937,
+      "english": "derived from amba",
+      "kikuyu": "mwambĩrĩrio",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 938,
+      "english": "derived from amba",
+      "kikuyu": "rwambo",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 940,
+      "english": "derived from amba",
+      "kikuyu": "References",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 941,
+      "english": "derived from amba",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 944,
+      "english": "derived from amba",
+      "kikuyu": "2018",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 945,
+      "english": "derived from amba",
+      "kikuyu": "by Routledge).",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 947,
+      "english": "derived from amba",
+      "kikuyu": "Kikuyu-English dictionary",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'amba'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 949,
+      "english": "derived from ambata",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 950,
+      "english": "derived from ambata",
+      "kikuyu": "mwambato",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 951,
+      "english": "derived from ambata",
+      "kikuyu": "See also",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 952,
+      "english": "derived from ambata",
+      "kikuyu": "kũhaica",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 953,
+      "english": "derived from ambata",
+      "kikuyu": "References",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 955,
+      "english": "derived from ambata",
+      "kikuyu": "Kikuyu-English dictionary",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 957,
+      "english": "derived from ambata",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 960,
+      "english": "derived from ambata",
+      "kikuyu": "2018",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 961,
+      "english": "derived from ambata",
+      "kikuyu": "by Routledge).",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambata'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 962,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 963,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "kĩambĩrĩria",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 964,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "mwambĩrĩrio",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 965,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "References",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 967,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "Kikuyu-English dictionary",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 969,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 972,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "2018",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 973,
+      "english": "derived from ambĩrĩria",
+      "kikuyu": "by Routledge).",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ambĩrĩria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 974,
+      "english": "derived from andĩka",
+      "kikuyu": "Verbs",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'andĩka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 975,
+      "english": "derived from andĩka",
+      "kikuyu": "kwandĩkĩra",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'andĩka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 976,
+      "english": "derived from andĩka",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'andĩka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 977,
+      "english": "derived from andĩka",
+      "kikuyu": "mwandĩki",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'andĩka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 978,
+      "english": "derived from aria",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'aria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 979,
+      "english": "derived from aria",
+      "kikuyu": "mwario",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'aria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 980,
+      "english": "derived from aria",
+      "kikuyu": "rwario",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'aria'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 981,
+      "english": "derived from atũka",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'atũka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 982,
+      "english": "derived from atũka",
+      "kikuyu": "mwatũka",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'atũka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 983,
+      "english": "derived from atũka",
+      "kikuyu": "Verbs",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'atũka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 984,
+      "english": "derived from atũka",
+      "kikuyu": "gwatũkana",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'atũka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 985,
+      "english": "derived from butha",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'butha'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 986,
+      "english": "derived from butha",
+      "kikuyu": "ũbuthu",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'butha'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 987,
+      "english": "derived from butha",
+      "kikuyu": "References",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'butha'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 988,
+      "english": "derived from butha",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'butha'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 991,
+      "english": "derived from butha",
+      "kikuyu": "2018",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'butha'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 992,
+      "english": "derived from butha",
+      "kikuyu": "by Routledge).",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'butha'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 994,
+      "english": "derived from butha",
+      "kikuyu": "Kikuyu-English dictionary",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'butha'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 996,
+      "english": "derived from cemania",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 997,
+      "english": "derived from cemania",
+      "kikuyu": "macemanio",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 998,
+      "english": "derived from cemania",
+      "kikuyu": "macemanĩrio",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 999,
+      "english": "derived from cemania",
+      "kikuyu": "mũcemanio",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1000,
+      "english": "derived from cemania",
+      "kikuyu": "See also",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1001,
+      "english": "derived from cemania",
+      "kikuyu": "kũgoma",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1002,
+      "english": "derived from cemania",
+      "kikuyu": "kuonana",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1003,
+      "english": "derived from cemania",
+      "kikuyu": "References",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1004,
+      "english": "derived from cemania",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1007,
+      "english": "derived from cemania",
+      "kikuyu": "2018",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1008,
+      "english": "derived from cemania",
+      "kikuyu": "by Routledge).",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1010,
+      "english": "derived from cemania",
+      "kikuyu": "Kikuyu-English dictionary",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cemania'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1012,
+      "english": "derived from ciara",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1013,
+      "english": "derived from ciara",
+      "kikuyu": "maciara",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1014,
+      "english": "derived from ciara",
+      "kikuyu": "mũciari",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1015,
+      "english": "derived from ciara",
+      "kikuyu": "ũciari",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1016,
+      "english": "derived from ciara",
+      "kikuyu": "mũciarithia",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1017,
+      "english": "derived from ciara",
+      "kikuyu": "njiari",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1018,
+      "english": "derived from ciara",
+      "kikuyu": "9/10",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1019,
+      "english": "derived from ciara",
+      "kikuyu": "Verbs",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1020,
+      "english": "derived from ciara",
+      "kikuyu": "gũciarithia",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'ciara'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1021,
+      "english": "derived from coka",
+      "kikuyu": "Verbs",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'coka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1022,
+      "english": "derived from coka",
+      "kikuyu": "gũcokia",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'coka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1023,
+      "english": "derived from coka",
+      "kikuyu": "Names",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'coka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1024,
+      "english": "derived from coka",
+      "kikuyu": "Njoki",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'coka'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1025,
+      "english": "derived from cokia",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cokia'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1026,
+      "english": "derived from cokia",
+      "kikuyu": "macokio",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cokia'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1027,
+      "english": "derived from cokia",
+      "kikuyu": "References",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cokia'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1028,
+      "english": "derived from cokia",
+      "kikuyu": "Hinde, Hildegarde (1904).",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cokia'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1031,
+      "english": "derived from cokia",
+      "kikuyu": "Armstrong, Lilias E.",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cokia'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1034,
+      "english": "derived from cokia",
+      "kikuyu": "2018",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cokia'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1035,
+      "english": "derived from cokia",
+      "kikuyu": "by Routledge).",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'cokia'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1036,
+      "english": "derived from enda",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'enda'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1037,
+      "english": "derived from enda",
+      "kikuyu": "wendo",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'enda'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1038,
+      "english": "derived from enda",
+      "kikuyu": "mwendwa",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'enda'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1039,
+      "english": "derived from enda",
+      "kikuyu": "mwendwo",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'enda'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1040,
+      "english": "derived from enja",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'enja'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1041,
+      "english": "derived from enja",
+      "kikuyu": "mwenji",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'enja'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 1042,
+      "english": "derived from gaya",
+      "kikuyu": "Nouns",
+      "difficulty": "advanced",
+      "context": "Morphologically derived from 'gaya'",
+      "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+      "quality_score": 4.6,
+      "categories": [
+        "Derived Terms"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

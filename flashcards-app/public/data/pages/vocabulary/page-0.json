@@ -1,0 +1,1497 @@
+{
+  "page": 0,
+  "totalPages": 18,
+  "totalCards": 1747,
+  "startIndex": 0,
+  "endIndex": 99,
+  "cards": [
+    {
+      "id": 6,
+      "english": "How are you?",
+      "kikuyu": "Ũhoro waku",
+      "difficulty": "beginner",
+      "context": "Standard greeting asking about wellbeing",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 10,
+      "english": "I am good",
+      "kikuyu": "Ndĩ mwega",
+      "difficulty": "beginner",
+      "context": "Standard positive response",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 12,
+      "english": "Thank you",
+      "kikuyu": "Thengiũ",
+      "difficulty": "beginner",
+      "context": "Basic thank you expression",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 13,
+      "english": "Thank you (formal)",
+      "kikuyu": "Nĩ wega",
+      "difficulty": "intermediate",
+      "context": "Formal gratitude expression",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 14,
+      "english": "Thank you (traditional)",
+      "kikuyu": "Nĩ ngaatho",
+      "difficulty": "intermediate",
+      "context": "Traditional gratitude",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 15,
+      "english": "I give thanks",
+      "kikuyu": "Nĩndacokia ngatho",
+      "difficulty": "advanced",
+      "context": "Extended gratitude expression",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 16,
+      "english": "I'm blessed",
+      "kikuyu": "Ndĩĩ mũrathime",
+      "difficulty": "intermediate",
+      "context": "Expression of being blessed",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 17,
+      "english": "Bye, be blessed",
+      "kikuyu": "Tigwo na wega",
+      "difficulty": "intermediate",
+      "context": "Farewell blessing",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 19,
+      "english": "Go in peace",
+      "kikuyu": "Thiĩ na thaayũ",
+      "difficulty": "intermediate",
+      "context": "Peaceful farewell",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 20,
+      "english": "Give me water",
+      "kikuyu": "He maaĩ",
+      "difficulty": "beginner",
+      "context": "Basic request for water",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 21,
+      "english": "I am hungry",
+      "kikuyu": "Ndĩ mũhũtu",
+      "difficulty": "beginner",
+      "context": "Expression of hunger",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 22,
+      "english": "Help me",
+      "kikuyu": "Ndeithia",
+      "difficulty": "beginner",
+      "context": "Request for assistance",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 23,
+      "english": "Give me money",
+      "kikuyu": "He mbeca",
+      "difficulty": "beginner",
+      "context": "Request for money",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 25,
+      "english": "Come here",
+      "kikuyu": "Ũka haha",
+      "difficulty": "beginner",
+      "context": "Command to come",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 27,
+      "english": "Stop nonsense",
+      "kikuyu": "Tiga wana",
+      "difficulty": "intermediate",
+      "context": "Command to stop silly behavior",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 28,
+      "english": "Stop nonsense (alternative)",
+      "kikuyu": "tiga ũrimũ",
+      "difficulty": "intermediate",
+      "context": "Alternative form",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 29,
+      "english": "Don't laugh",
+      "kikuyu": "Ndũgatheke",
+      "difficulty": "intermediate",
+      "context": "Negative command",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 30,
+      "english": "You are learned",
+      "kikuyu": "Wĩ mũthomu",
+      "difficulty": "advanced",
+      "context": "Compliment on education",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 31,
+      "english": "I love you",
+      "kikuyu": "Nĩngwendete",
+      "difficulty": "intermediate",
+      "context": "Expression of love",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 32,
+      "english": "Day",
+      "kikuyu": "Mũthenya",
+      "difficulty": "beginner",
+      "context": "Daytime period",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Time & Nature"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 33,
+      "english": "Night",
+      "kikuyu": "Ũtukũ",
+      "difficulty": "beginner",
+      "context": "Nighttime period",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Time & Nature"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 34,
+      "english": "God",
+      "kikuyu": "Ngai",
+      "difficulty": "beginner",
+      "context": "Supreme deity in Kikuyu tradition",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Spiritual & Cultural"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 35,
+      "english": "Ancestral Spirits",
+      "kikuyu": "Ngomi",
+      "difficulty": "advanced",
+      "context": "Spirits of ancestors",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Spiritual & Cultural"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 36,
+      "english": "Country/State/Nation",
+      "kikuyu": "Bũrũri",
+      "difficulty": "intermediate",
+      "context": "Political/geographical entity",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Spiritual & Cultural"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 37,
+      "english": "A Kikuyu person",
+      "kikuyu": "MũGĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Class 1 noun (mũ- prefix, singular human)",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 38,
+      "english": "Kikuyu people",
+      "kikuyu": "AGĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Class 2 noun (a- prefix, plural human)",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 39,
+      "english": "Kikuyu language",
+      "kikuyu": "GĩGĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Language name",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 40,
+      "english": "Land of Kikuyu",
+      "kikuyu": "Bũrũrĩ Wa Gĩkũyũ",
+      "difficulty": "advanced",
+      "context": "Traditional homeland",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 41,
+      "english": "Mount Kenya",
+      "kikuyu": "Kĩrĩmanyaga",
+      "difficulty": "advanced",
+      "context": "Sacred mountain in Kikuyu culture",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Cultural Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 44,
+      "english": "How are you?",
+      "kikuyu": "Ũhoro waku",
+      "difficulty": "beginner",
+      "context": "Standard greeting asking about wellbeing",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 48,
+      "english": "I am good",
+      "kikuyu": "Ndĩ mwega",
+      "difficulty": "beginner",
+      "context": "Standard positive response",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 50,
+      "english": "Thank you",
+      "kikuyu": "Thengiũ",
+      "difficulty": "beginner",
+      "context": "Basic thank you expression",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 51,
+      "english": "Thank you (formal)",
+      "kikuyu": "Nĩ wega",
+      "difficulty": "intermediate",
+      "context": "Formal gratitude expression",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 52,
+      "english": "Thank you (traditional)",
+      "kikuyu": "Nĩ ngaatho",
+      "difficulty": "intermediate",
+      "context": "Traditional gratitude",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 53,
+      "english": "I give thanks",
+      "kikuyu": "Nĩndacokia ngatho",
+      "difficulty": "advanced",
+      "context": "Extended gratitude expression",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 54,
+      "english": "I'm blessed",
+      "kikuyu": "Ndĩĩ mũrathime",
+      "difficulty": "intermediate",
+      "context": "Expression of being blessed",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 55,
+      "english": "Bye, be blessed",
+      "kikuyu": "Tigwo na wega",
+      "difficulty": "intermediate",
+      "context": "Farewell blessing",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 57,
+      "english": "Go in peace",
+      "kikuyu": "Thiĩ na thaayũ",
+      "difficulty": "intermediate",
+      "context": "Peaceful farewell",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 58,
+      "english": "Give me water",
+      "kikuyu": "He maaĩ",
+      "difficulty": "beginner",
+      "context": "Basic request for water",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 59,
+      "english": "I am hungry",
+      "kikuyu": "Ndĩ mũhũtu",
+      "difficulty": "beginner",
+      "context": "Expression of hunger",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 60,
+      "english": "Help me",
+      "kikuyu": "Ndeithia",
+      "difficulty": "beginner",
+      "context": "Request for assistance",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 61,
+      "english": "Give me money",
+      "kikuyu": "He mbeca",
+      "difficulty": "beginner",
+      "context": "Request for money",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 63,
+      "english": "Come here",
+      "kikuyu": "Ũka haha",
+      "difficulty": "beginner",
+      "context": "Command to come",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 65,
+      "english": "Stop nonsense",
+      "kikuyu": "Tiga wana",
+      "difficulty": "intermediate",
+      "context": "Command to stop silly behavior",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 66,
+      "english": "Stop nonsense (alternative)",
+      "kikuyu": "tiga ũrimũ",
+      "difficulty": "intermediate",
+      "context": "Alternative form",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 67,
+      "english": "Don't laugh",
+      "kikuyu": "Ndũgatheke",
+      "difficulty": "intermediate",
+      "context": "Negative command",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 68,
+      "english": "You are learned",
+      "kikuyu": "Wĩ mũthomu",
+      "difficulty": "advanced",
+      "context": "Compliment on education",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 69,
+      "english": "I love you",
+      "kikuyu": "Nĩngwendete",
+      "difficulty": "intermediate",
+      "context": "Expression of love",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Responses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 70,
+      "english": "Day",
+      "kikuyu": "Mũthenya",
+      "difficulty": "beginner",
+      "context": "Daytime period",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Time & Nature"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 71,
+      "english": "Night",
+      "kikuyu": "Ũtukũ",
+      "difficulty": "beginner",
+      "context": "Nighttime period",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Time & Nature"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 72,
+      "english": "God",
+      "kikuyu": "Ngai",
+      "difficulty": "beginner",
+      "context": "Supreme deity in Kikuyu tradition",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Spiritual & Cultural"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 73,
+      "english": "Ancestral Spirits",
+      "kikuyu": "Ngomi",
+      "difficulty": "advanced",
+      "context": "Spirits of ancestors",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Spiritual & Cultural"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 74,
+      "english": "Country/State/Nation",
+      "kikuyu": "Bũrũri",
+      "difficulty": "intermediate",
+      "context": "Political/geographical entity",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Spiritual & Cultural"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 75,
+      "english": "A Kikuyu person",
+      "kikuyu": "MũGĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Class 1 noun (mũ- prefix, singular human)",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 76,
+      "english": "Kikuyu people",
+      "kikuyu": "AGĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Class 2 noun (a- prefix, plural human)",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 77,
+      "english": "Kikuyu language",
+      "kikuyu": "GĩGĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Language name",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 78,
+      "english": "Land of Kikuyu",
+      "kikuyu": "Bũrũrĩ Wa Gĩkũyũ",
+      "difficulty": "advanced",
+      "context": "Traditional homeland",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Noun Classes"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 79,
+      "english": "Mount Kenya",
+      "kikuyu": "Kĩrĩmanyaga",
+      "difficulty": "advanced",
+      "context": "Sacred mountain in Kikuyu culture",
+      "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+      "quality_score": 5,
+      "categories": [
+        "Cultural Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 212,
+      "english": "to begin/to start",
+      "kikuyu": "kwambĩrĩria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form - transitive verb meaning to begin or start something",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "infinitive prefix",
+          "target": "kw-",
+          "position": 0,
+          "context": "Infinitive marker (kũ- → kw- before vowels)"
+        },
+        {
+          "source": "verb stem",
+          "target": "ambĩrĩria",
+          "position": 1,
+          "context": "Root meaning 'to begin/start'"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "english": "begin/start (verb stem)",
+      "kikuyu": "ambĩrĩria",
+      "difficulty": "advanced",
+      "context": "Verb stem without infinitive prefix",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 215,
+      "english": "pronunciation",
+      "kikuyu": "/aᵐbeɾeɾia/",
+      "difficulty": "advanced",
+      "context": "IPA phonetic transcription of verb stem",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Pronunciation Guide"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 216,
+      "english": "beginning (class 7)",
+      "kikuyu": "kĩambĩrĩria",
+      "difficulty": "intermediate",
+      "context": "Noun derived from verb - class 7 (kĩ- prefix)",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Derived Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "class 7 prefix",
+          "target": "kĩ-",
+          "position": 0,
+          "context": "Noun class 7 prefix (diminutive/tool)"
+        },
+        {
+          "source": "verb stem",
+          "target": "ambĩrĩria",
+          "position": 1,
+          "context": "Derived from verb 'to begin'"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "english": "beginning (class 3)",
+      "kikuyu": "mwambĩrĩrio",
+      "difficulty": "intermediate",
+      "context": "Noun derived from verb - class 3 (mũ- prefix)",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Derived Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "class 3 prefix",
+          "target": "mw-",
+          "position": 0,
+          "context": "Noun class 3 prefix (mũ- → mw- before vowels)"
+        },
+        {
+          "source": "verb stem",
+          "target": "ambĩrĩri-",
+          "position": 1,
+          "context": "Modified verb stem"
+        },
+        {
+          "source": "nominalizer",
+          "target": "-o",
+          "position": 2,
+          "context": "Suffix creating abstract noun"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "english": "first",
+      "kikuyu": "wa mbere",
+      "difficulty": "beginner",
+      "context": "Ordinal number - first position",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 219,
+      "english": "beginning",
+      "kikuyu": "kĩambĩrĩria",
+      "difficulty": "intermediate",
+      "context": "The start or commencement of something",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Derived Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 220,
+      "english": "starter/initiator",
+      "kikuyu": "mwambĩrĩria",
+      "difficulty": "advanced",
+      "context": "Person who begins something (class 1)",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Derived Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 221,
+      "english": "I will begin",
+      "kikuyu": "nĩngwambĩrĩria",
+      "difficulty": "intermediate",
+      "context": "Future tense conjugation of 'to begin'",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "focus marker",
+          "target": "nĩ",
+          "position": 0,
+          "context": "Focus/emphasis particle"
+        },
+        {
+          "source": "I will",
+          "target": "ngw-",
+          "position": 1,
+          "context": "1st person future + infinitive prefix"
+        },
+        {
+          "source": "begin",
+          "target": "ambĩrĩria",
+          "position": 2,
+          "context": "Verb stem"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "english": "we are beginning",
+      "kikuyu": "nĩ twambĩrĩria",
+      "difficulty": "intermediate",
+      "context": "Present progressive of 'to begin'",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 223,
+      "english": "he/she began",
+      "kikuyu": "ambĩrĩririe",
+      "difficulty": "intermediate",
+      "context": "Past tense 3rd person singular",
+      "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+      "quality_score": 5,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 115,
+      "english": "one",
+      "kikuyu": "ĩmwe",
+      "difficulty": "beginner",
+      "context": "Cardinal number 1",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 116,
+      "english": "two",
+      "kikuyu": "ĩgiri",
+      "difficulty": "beginner",
+      "context": "Cardinal number 2",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 117,
+      "english": "three",
+      "kikuyu": "ĩthatu",
+      "difficulty": "beginner",
+      "context": "Cardinal number 3",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 118,
+      "english": "four",
+      "kikuyu": "ĩnya",
+      "difficulty": "beginner",
+      "context": "Cardinal number 4",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 119,
+      "english": "five",
+      "kikuyu": "ĩthano",
+      "difficulty": "beginner",
+      "context": "Cardinal number 5",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 120,
+      "english": "six",
+      "kikuyu": "ĩthathatũ",
+      "difficulty": "beginner",
+      "context": "Cardinal number 6",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 121,
+      "english": "seven",
+      "kikuyu": "mũgwanja",
+      "difficulty": "beginner",
+      "context": "Cardinal number 7",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 122,
+      "english": "eight",
+      "kikuyu": "inyanya",
+      "difficulty": "beginner",
+      "context": "Cardinal number 8",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 123,
+      "english": "nine",
+      "kikuyu": "kenda",
+      "difficulty": "beginner",
+      "context": "Cardinal number 9",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 124,
+      "english": "ten",
+      "kikuyu": "ikũmi",
+      "difficulty": "beginner",
+      "context": "Cardinal number 10",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 125,
+      "english": "eleven",
+      "kikuyu": "ikũmi na ĩmwe",
+      "difficulty": "intermediate",
+      "context": "10 + 1: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "ten",
+          "target": "ikũmi",
+          "position": 0,
+          "context": "Base number 10"
+        },
+        {
+          "source": "and",
+          "target": "na",
+          "position": 1,
+          "context": "Conjunction connecting numbers"
+        },
+        {
+          "source": "one",
+          "target": "ĩmwe",
+          "position": 2,
+          "context": "Additional unit"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "english": "twelve",
+      "kikuyu": "ikũmi na ĩgiri",
+      "difficulty": "intermediate",
+      "context": "10 + 2: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "ten",
+          "target": "ikũmi",
+          "position": 0,
+          "context": "Base number 10"
+        },
+        {
+          "source": "and",
+          "target": "na",
+          "position": 1,
+          "context": "Conjunction connecting numbers"
+        },
+        {
+          "source": "two",
+          "target": "ĩgiri",
+          "position": 2,
+          "context": "Additional units"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "english": "thirteen",
+      "kikuyu": "ikũmi na ĩthatu",
+      "difficulty": "intermediate",
+      "context": "10 + 3: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 128,
+      "english": "fourteen",
+      "kikuyu": "ikũmi na ĩnya",
+      "difficulty": "intermediate",
+      "context": "10 + 4: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 129,
+      "english": "fifteen",
+      "kikuyu": "ikũmi na ĩthano",
+      "difficulty": "intermediate",
+      "context": "10 + 5: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "ten",
+          "target": "ikũmi",
+          "position": 0,
+          "context": "Base number 10"
+        },
+        {
+          "source": "and",
+          "target": "na",
+          "position": 1,
+          "context": "Conjunction connecting numbers"
+        },
+        {
+          "source": "five",
+          "target": "ĩthano",
+          "position": 2,
+          "context": "Additional units"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "english": "sixteen",
+      "kikuyu": "ikũmi na ĩthathatũ",
+      "difficulty": "intermediate",
+      "context": "10 + 6: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 131,
+      "english": "seventeen",
+      "kikuyu": "ikũmi na mũgwanja",
+      "difficulty": "intermediate",
+      "context": "10 + 7: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 132,
+      "english": "eighteen",
+      "kikuyu": "ikũmi na inyanya",
+      "difficulty": "intermediate",
+      "context": "10 + 8: Compound number construction",
+      "cultural_notes": "Extracted from masteranylanguage.com Kikuyu numbers resource",
+      "quality_score": 4.9,
+      "categories": [
+        "Numbers"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "ten",
+          "target": "ikũmi",
+          "position": 0,
+          "context": "Base number 10"
+        },
+        {
+          "source": "and",
+          "target": "na",
+          "position": 1,
+          "context": "Conjunction connecting numbers"
+        },
+        {
+          "source": "eight",
+          "target": "inyanya",
+          "position": 2,
+          "context": "Additional units"
+        }
+      ]
+    },
+    {
+      "id": 518,
+      "english": "I",
+      "kikuyu": "nii",
+      "difficulty": "beginner",
+      "context": "First person singular pronoun",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 519,
+      "english": "I",
+      "kikuyu": "niu",
+      "difficulty": "beginner",
+      "context": "First person singular pronoun - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 520,
+      "english": "you (singular)",
+      "kikuyu": "wee",
+      "difficulty": "beginner",
+      "context": "Second person singular pronoun",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 521,
+      "english": "you (singular)",
+      "kikuyu": "weu",
+      "difficulty": "beginner",
+      "context": "Second person singular pronoun - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 522,
+      "english": "he/she",
+      "kikuyu": "we",
+      "difficulty": "beginner",
+      "context": "Third person singular pronoun (NC1)",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 523,
+      "english": "we",
+      "kikuyu": "ithui",
+      "difficulty": "beginner",
+      "context": "First person plural pronoun",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "i-",
+          "target": "i-",
+          "position": 0,
+          "context": "Plural person prefix"
+        },
+        {
+          "source": "thu",
+          "target": "thu",
+          "position": 1,
+          "context": "First person root"
+        },
+        {
+          "source": "-i",
+          "target": "-i",
+          "position": 2,
+          "context": "Pronoun suffix"
+        }
+      ]
+    },
+    {
+      "id": 524,
+      "english": "you (plural)",
+      "kikuyu": "inyui",
+      "difficulty": "beginner",
+      "context": "Second person plural pronoun",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "i-",
+          "target": "i-",
+          "position": 0,
+          "context": "Plural person prefix"
+        },
+        {
+          "source": "nyu",
+          "target": "nyu",
+          "position": 1,
+          "context": "Second person root"
+        },
+        {
+          "source": "-i",
+          "target": "-i",
+          "position": 2,
+          "context": "Pronoun suffix"
+        }
+      ]
+    },
+    {
+      "id": 525,
+      "english": "you (plural)",
+      "kikuyu": "inyuu",
+      "difficulty": "beginner",
+      "context": "Second person plural pronoun - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 526,
+      "english": "they",
+      "kikuyu": "o",
+      "difficulty": "beginner",
+      "context": "Third person plural pronoun (NC2)",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 527,
+      "english": "they",
+      "kikuyu": "mo",
+      "difficulty": "beginner",
+      "context": "Third person plural pronoun (NC2) - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 528,
+      "english": "it (Class 3)",
+      "kikuyu": "guo",
+      "difficulty": "advanced",
+      "context": "Noun class 3 pronoun",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 529,
+      "english": "it (Class 4)",
+      "kikuyu": "yo",
+      "difficulty": "advanced",
+      "context": "Noun class 4 pronoun",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 530,
+      "english": "it (Class 5)",
+      "kikuyu": "rio",
+      "difficulty": "advanced",
+      "context": "Noun class 5 pronoun",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Pronouns & Concords"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

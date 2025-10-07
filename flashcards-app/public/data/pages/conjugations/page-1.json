@@ -1,0 +1,1483 @@
+{
+  "page": 1,
+  "totalPages": 7,
+  "totalCards": 692,
+  "startIndex": 100,
+  "endIndex": 199,
+  "cards": [
+    {
+      "id": 2467,
+      "english": "put",
+      "kikuyu": "iga",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩga | IPA: /iɣa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2468,
+      "english": "hear",
+      "kikuyu": "igua",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩgua | IPA: /iɣua/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2469,
+      "english": "feel",
+      "kikuyu": "igua",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩgua | IPA: /iɣua/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2470,
+      "english": "make",
+      "kikuyu": "ĩka",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩka | IPA: /eka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2471,
+      "english": "do",
+      "kikuyu": "ĩka",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩka | IPA: /eka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2472,
+      "english": "sit",
+      "kikuyu": "ikara",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩkara | IPA: /ikara/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2473,
+      "english": "stay",
+      "kikuyu": "ikara",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩkara | IPA: /ikara/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2474,
+      "english": "live",
+      "kikuyu": "ikara",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩkara | IPA: /ikara/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2475,
+      "english": "dance",
+      "kikuyu": "ina",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩna | IPA: /ina/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2476,
+      "english": "come",
+      "kikuyu": "ũka",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũũka | IPA: /uːka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2477,
+      "english": "call",
+      "kikuyu": "ĩta",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩta | IPA: /eta/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2478,
+      "english": "name",
+      "kikuyu": "ĩta",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩta | IPA: /eta/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2479,
+      "english": "steal",
+      "kikuyu": "iya",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwĩya | IPA: /ija/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2480,
+      "english": "be happy",
+      "kikuyu": "kena",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũkena | IPA: /kɛna/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2481,
+      "english": "laugh",
+      "kikuyu": "kena",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũkena | IPA: /kɛna/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2482,
+      "english": "pass",
+      "kikuyu": "kira",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũkira | IPA: /kira/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2483,
+      "english": "bite",
+      "kikuyu": "koma",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũkoma | IPA: /kɔma/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2484,
+      "english": "grow",
+      "kikuyu": "kũra",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũkũra | IPA: /kuɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2485,
+      "english": "hurt",
+      "kikuyu": "kumia",
+      "difficulty": "intermediate",
+      "context": "Infinitive: gũkumia | IPA: /kumia/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2486,
+      "english": "know",
+      "kikuyu": "menya",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũmenya | IPA: /mɛnja/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2487,
+      "english": "take",
+      "kikuyu": "oya",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũoya | IPA: /ɔja/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2488,
+      "english": "get",
+      "kikuyu": "oya",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũoya | IPA: /ɔja/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2489,
+      "english": "lie down",
+      "kikuyu": "rara",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũrara | IPA: /ɾaɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2490,
+      "english": "sleep",
+      "kikuyu": "rara",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũrara | IPA: /ɾaɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2491,
+      "english": "refuse",
+      "kikuyu": "rega",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũrega | IPA: /ɾɛɣa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2492,
+      "english": "deny",
+      "kikuyu": "rega",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũrega | IPA: /ɾɛɣa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2493,
+      "english": "hurt",
+      "kikuyu": "rĩa",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũrĩa | IPA: /ɾea/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2494,
+      "english": "harm",
+      "kikuyu": "rĩa",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũrĩa | IPA: /ɾea/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2495,
+      "english": "damage",
+      "kikuyu": "rĩa",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũrĩa | IPA: /ɾea/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2496,
+      "english": "look",
+      "kikuyu": "rora",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũrora | IPA: /ɾɔɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2497,
+      "english": "look at",
+      "kikuyu": "rora",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũrora | IPA: /ɾɔɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2498,
+      "english": "stand",
+      "kikuyu": "rũgama",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũrũgama | IPA: /ɾuɣama/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2499,
+      "english": "go",
+      "kikuyu": "thiĩ",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũthiĩ | IPA: /ðiɲ/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2500,
+      "english": "begin",
+      "kikuyu": "thoma",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũthoma | IPA: /ðɔma/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2501,
+      "english": "start",
+      "kikuyu": "thoma",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũthoma | IPA: /ðɔma/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2502,
+      "english": "read",
+      "kikuyu": "thoma",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũthoma | IPA: /ðɔma/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2503,
+      "english": "leave",
+      "kikuyu": "tiga",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũtiga | IPA: /tiɣa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2504,
+      "english": "send",
+      "kikuyu": "tũma",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũtũma | IPA: /tuma/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2505,
+      "english": "carry",
+      "kikuyu": "twara",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũtwara | IPA: /tʷaɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2506,
+      "english": "come from",
+      "kikuyu": "ũka",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũũka | IPA: /uːka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2507,
+      "english": "know",
+      "kikuyu": "ũĩ",
+      "difficulty": "beginner",
+      "context": "Infinitive: gũũĩ | IPA: /uː e/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 137,
+      "english": "to take something somewhere",
+      "kikuyu": "gũtwara",
+      "difficulty": "intermediate",
+      "context": "Verb for transporting/carrying",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 163,
+      "english": "to answer a question",
+      "kikuyu": "gũcokia kĩũria",
+      "difficulty": "advanced",
+      "context": "Communication verb phrase",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "to return/reply",
+          "target": "gũcokia",
+          "position": 0,
+          "context": "Infinitive 'to return/answer'"
+        },
+        {
+          "source": "question",
+          "target": "kĩũria",
+          "position": 1,
+          "context": "Noun for question"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "english": "I am going",
+      "kikuyu": "ni ndirathii",
+      "difficulty": "intermediate",
+      "context": "Present progressive 1st person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 167,
+      "english": "you are going",
+      "kikuyu": "ni urathii",
+      "difficulty": "intermediate",
+      "context": "Present progressive 2nd person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 168,
+      "english": "s/he is going",
+      "kikuyu": "ni arathii",
+      "difficulty": "intermediate",
+      "context": "Present progressive 3rd person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 169,
+      "english": "we are going",
+      "kikuyu": "ni turathii",
+      "difficulty": "intermediate",
+      "context": "Present progressive 1st person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 170,
+      "english": "you (pl) are going",
+      "kikuyu": "ni murathii",
+      "difficulty": "intermediate",
+      "context": "Present progressive 2nd person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 171,
+      "english": "they are going",
+      "kikuyu": "ni marathii",
+      "difficulty": "intermediate",
+      "context": "Present progressive 3rd person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 172,
+      "english": "I went",
+      "kikuyu": "ni ndirathiire",
+      "difficulty": "intermediate",
+      "context": "Past tense 1st person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 173,
+      "english": "you went",
+      "kikuyu": "ni urathiire",
+      "difficulty": "intermediate",
+      "context": "Past tense 2nd person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 174,
+      "english": "s/he went",
+      "kikuyu": "ni arathiire",
+      "difficulty": "intermediate",
+      "context": "Past tense 3rd person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 175,
+      "english": "we went",
+      "kikuyu": "ni turathiire",
+      "difficulty": "intermediate",
+      "context": "Past tense 1st person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 176,
+      "english": "you (pl) went",
+      "kikuyu": "ni murathiire",
+      "difficulty": "intermediate",
+      "context": "Past tense 2nd person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 177,
+      "english": "they went",
+      "kikuyu": "ni marathiire",
+      "difficulty": "intermediate",
+      "context": "Past tense 3rd person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 178,
+      "english": "I will go",
+      "kikuyu": "ni ngathii",
+      "difficulty": "intermediate",
+      "context": "Future tense 1st person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "focus marker",
+          "target": "ni",
+          "position": 0,
+          "context": "Focus/emphasis particle"
+        },
+        {
+          "source": "I will",
+          "target": "nga-",
+          "position": 1,
+          "context": "1st person future tense"
+        },
+        {
+          "source": "go",
+          "target": "-thii",
+          "position": 2,
+          "context": "Verb stem 'go'"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "english": "you will go",
+      "kikuyu": "ni ugathii",
+      "difficulty": "intermediate",
+      "context": "Future tense 2nd person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 180,
+      "english": "s/he will go",
+      "kikuyu": "ni agathii",
+      "difficulty": "intermediate",
+      "context": "Future tense 3rd person singular",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 181,
+      "english": "we will go",
+      "kikuyu": "ni tugathii",
+      "difficulty": "intermediate",
+      "context": "Future tense 1st person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 182,
+      "english": "you (pl) will go",
+      "kikuyu": "ni mugathii",
+      "difficulty": "intermediate",
+      "context": "Future tense 2nd person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 183,
+      "english": "they will go",
+      "kikuyu": "ni magathii",
+      "difficulty": "intermediate",
+      "context": "Future tense 3rd person plural",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 849,
+      "english": "infinitive of aga",
+      "kikuyu": "kwaga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'aga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 850,
+      "english": "infinitive of amba",
+      "kikuyu": "kwamba",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'amba'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 851,
+      "english": "infinitive of ambata",
+      "kikuyu": "kwambata",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ambata'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kw-",
+          "target": "kw-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "ambata",
+          "target": "ambata",
+          "position": 1,
+          "context": "Verb stem from root 'ambata'"
+        }
+      ]
+    },
+    {
+      "id": 852,
+      "english": "infinitive of ambĩrĩria",
+      "kikuyu": "kwambĩrĩria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ambĩrĩria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kw-",
+          "target": "kw-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "ambĩrĩria",
+          "target": "ambĩrĩria",
+          "position": 1,
+          "context": "Verb stem from root 'ambĩrĩria'"
+        }
+      ]
+    },
+    {
+      "id": 853,
+      "english": "infinitive of andĩka",
+      "kikuyu": "kwandĩka",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'andĩka'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kw-",
+          "target": "kw-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "andĩka",
+          "target": "andĩka",
+          "position": 1,
+          "context": "Verb stem from root 'andĩka'"
+        }
+      ]
+    },
+    {
+      "id": 854,
+      "english": "infinitive of aria",
+      "kikuyu": "kwaria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'aria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 855,
+      "english": "infinitive of baara",
+      "kikuyu": "kũbaara",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'baara'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kũ-",
+          "target": "kũ-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "baara",
+          "target": "baara",
+          "position": 1,
+          "context": "Verb stem from root 'baara'"
+        }
+      ]
+    },
+    {
+      "id": 856,
+      "english": "infinitive of butha",
+      "kikuyu": "kũbutha",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'butha'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kũ-",
+          "target": "kũ-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "butha",
+          "target": "butha",
+          "position": 1,
+          "context": "Verb stem from root 'butha'"
+        }
+      ]
+    },
+    {
+      "id": 857,
+      "english": "infinitive of enda",
+      "kikuyu": "kũenda",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'enda'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 858,
+      "english": "infinitive of endia",
+      "kikuyu": "kũendia",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'endia'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kũ-",
+          "target": "kũ-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "endia",
+          "target": "endia",
+          "position": 1,
+          "context": "Verb stem from root 'endia'"
+        }
+      ]
+    },
+    {
+      "id": 859,
+      "english": "infinitive of enja",
+      "kikuyu": "kwenja",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'enja'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 860,
+      "english": "infinitive of gaya",
+      "kikuyu": "kũgaya",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'gaya'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 861,
+      "english": "infinitive of gayania",
+      "kikuyu": "kũgayania",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'gayania'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kũ-",
+          "target": "kũ-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "gayania",
+          "target": "gayania",
+          "position": 1,
+          "context": "Verb stem from root 'gayania'"
+        }
+      ]
+    },
+    {
+      "id": 862,
+      "english": "infinitive of geithia",
+      "kikuyu": "kũgeithia",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'geithia'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kũ-",
+          "target": "kũ-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "geithia",
+          "target": "geithia",
+          "position": 1,
+          "context": "Verb stem from root 'geithia'"
+        }
+      ]
+    },
+    {
+      "id": 863,
+      "english": "infinitive of gera",
+      "kikuyu": "kũgera",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'gera'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 864,
+      "english": "infinitive of geria",
+      "kikuyu": "kũgeria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'geria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kũ-",
+          "target": "kũ-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "geria",
+          "target": "geria",
+          "position": 1,
+          "context": "Verb stem from root 'geria'"
+        }
+      ]
+    },
+    {
+      "id": 865,
+      "english": "infinitive of giria",
+      "kikuyu": "kũgiria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'giria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "kũ-",
+          "target": "kũ-",
+          "position": 0,
+          "context": "Infinitive prefix"
+        },
+        {
+          "source": "giria",
+          "target": "giria",
+          "position": 1,
+          "context": "Verb stem from root 'giria'"
+        }
+      ]
+    },
+    {
+      "id": 866,
+      "english": "infinitive of gwata",
+      "kikuyu": "kũgwata",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'gwata'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 867,
+      "english": "infinitive of gũra",
+      "kikuyu": "kũgũra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'gũra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 868,
+      "english": "infinitive of haica",
+      "kikuyu": "kũhaica",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'haica'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 869,
+      "english": "infinitive of haka",
+      "kikuyu": "kũhaka",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'haka'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 870,
+      "english": "infinitive of handa",
+      "kikuyu": "kũhanda",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'handa'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 871,
+      "english": "infinitive of hanyũka",
+      "kikuyu": "kũhanyũka",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'hanyũka'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 872,
+      "english": "infinitive of he",
+      "kikuyu": "kũhe",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'he'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 873,
+      "english": "infinitive of hitha",
+      "kikuyu": "kũhitha",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'hitha'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 874,
+      "english": "infinitive of hota",
+      "kikuyu": "kũhota",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'hota'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 875,
+      "english": "infinitive of hoya",
+      "kikuyu": "kũhoya",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'hoya'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 876,
+      "english": "infinitive of huria",
+      "kikuyu": "kũhuria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'huria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 877,
+      "english": "infinitive of hĩtũka",
+      "kikuyu": "kũhĩtũka",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'hĩtũka'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 878,
+      "english": "infinitive of hĩtũkĩra",
+      "kikuyu": "kũhĩtũkĩra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'hĩtũkĩra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 879,
+      "english": "infinitive of hũra",
+      "kikuyu": "kũhũra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'hũra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 880,
+      "english": "infinitive of iga",
+      "kikuyu": "kũiga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'iga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 881,
+      "english": "infinitive of igana",
+      "kikuyu": "kũigana",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'igana'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 882,
+      "english": "infinitive of igua",
+      "kikuyu": "kũigua",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'igua'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 883,
+      "english": "infinitive of iguana",
+      "kikuyu": "kũiguana",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'iguana'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 884,
+      "english": "infinitive of ina",
+      "kikuyu": "kũina",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ina'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 885,
+      "english": "infinitive of inia",
+      "kikuyu": "kũinia",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'inia'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 886,
+      "english": "infinitive of inũka",
+      "kikuyu": "kũinũka",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'inũka'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 887,
+      "english": "infinitive of ira",
+      "kikuyu": "kũira",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ira'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

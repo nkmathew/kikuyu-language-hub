@@ -1,0 +1,1429 @@
+{
+  "page": 16,
+  "totalPages": 18,
+  "totalCards": 1747,
+  "startIndex": 1600,
+  "endIndex": 1699,
+  "cards": [
+    {
+      "id": 673,
+      "english": "slope",
+      "kikuyu": "múikúrúko",
+      "difficulty": "intermediate",
+      "context": "Geographical feature - inclined surface",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Directions & Geography"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 678,
+      "english": "arrest",
+      "kikuyu": "gúikia ngono",
+      "difficulty": "advanced",
+      "context": "To take into custody",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Legal & Civic Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 679,
+      "english": "noose",
+      "kikuyu": "kíana",
+      "difficulty": "advanced",
+      "context": "Loop for tightening",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Practical Objects"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 680,
+      "english": "smallpox",
+      "kikuyu": "mútúng'ú",
+      "difficulty": "advanced",
+      "context": "Infectious disease",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Medical & Diseases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 681,
+      "english": "mumps",
+      "kikuyu": "múngai",
+      "difficulty": "advanced",
+      "context": "Viral infection affecting glands",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Medical & Diseases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 682,
+      "english": "leprosy",
+      "kikuyu": "mangú",
+      "difficulty": "advanced",
+      "context": "Chronic infectious disease",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Medical & Diseases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 683,
+      "english": "branch",
+      "kikuyu": "rúhonge",
+      "difficulty": "beginner",
+      "context": "Tree limb",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Nature & Environment"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 684,
+      "english": "tall",
+      "kikuyu": "-raihu",
+      "difficulty": "beginner",
+      "context": "Having great height",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Descriptive Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 685,
+      "english": "round",
+      "kikuyu": "-thiúrúrí",
+      "difficulty": "beginner",
+      "context": "Circular in shape",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Descriptive Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 686,
+      "english": "forever and ever",
+      "kikuyu": "míndí na míndi",
+      "difficulty": "advanced",
+      "context": "For all eternity",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Descriptive Terms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "míndí",
+          "target": "míndí",
+          "position": 0,
+          "context": "Forever/eternity"
+        },
+        {
+          "source": "na",
+          "target": "na",
+          "position": 1,
+          "context": "And (conjunction)"
+        },
+        {
+          "source": "míndi",
+          "target": "míndi",
+          "position": 2,
+          "context": "Forever/eternity (repeated for emphasis)"
+        }
+      ]
+    },
+    {
+      "id": 724,
+      "english": "leprosy is contagious",
+      "kikuyu": "mangú ní magwatanagio",
+      "difficulty": "advanced",
+      "context": "Medical knowledge",
+      "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Medical & Diseases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2098,
+      "english": "example with atha",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'atha'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2108,
+      "english": "example with butha",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'butha'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2111,
+      "english": "example with cemania",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cemania'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2115,
+      "english": "example with ciara",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ciara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2120,
+      "english": "example with cina",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'cina'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2124,
+      "english": "example with coka",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'coka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2156,
+      "english": "example with gwata",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'gwata'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2162,
+      "english": "example with haica",
+      "kikuyu": "Paulines Publications Africa",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'haica'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2171,
+      "english": "example with handa",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'handa'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2211,
+      "english": "example with igua",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'igua'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2233,
+      "english": "example with ina",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ina'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2235,
+      "english": "example with inia",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'inia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2239,
+      "english": "example with ira",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ira'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2252,
+      "english": "example with kena",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'kena'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2257,
+      "english": "example with koma",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'koma'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2260,
+      "english": "example with kua",
+      "kikuyu": "Hinde (1904) records",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'kua'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2266,
+      "english": "example with kundĩka",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'kundĩka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2278,
+      "english": "example with meria",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'meria'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2282,
+      "english": "example with nyua",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'nyua'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2313,
+      "english": "example with ratha",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ratha'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2319,
+      "english": "example with remwo",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'remwo'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2336,
+      "english": "example with ruta",
+      "kikuyu": "Paulines Publications Africa",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ruta'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2343,
+      "english": "example with rĩa",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'rĩa'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2346,
+      "english": "example with rĩithia",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'rĩithia'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2363,
+      "english": "example with rũũga",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'rũũga'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2366,
+      "english": "example with taara",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'taara'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2370,
+      "english": "example with tahĩka",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'tahĩka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2385,
+      "english": "example with thamaka",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'thamaka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2400,
+      "english": "example with thondeka",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'thondeka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2421,
+      "english": "example with tũnga",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'tũnga'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2424,
+      "english": "example with tũũra",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'tũũra'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2432,
+      "english": "example with ĩka",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ĩka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2440,
+      "english": "example with a",
+      "kikuyu": "Don't be afraid",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'a'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2448,
+      "english": "example with ũkĩra",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ũkĩra'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2451,
+      "english": "example with ũmba",
+      "kikuyu": "Oxford: Clarendon Press",
+      "difficulty": "intermediate",
+      "context": "Usage example featuring the verb 'ũmba'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns.",
+      "quality_score": 4.5,
+      "categories": [
+        "Example Sentences"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2595,
+      "english": "Write your name",
+      "kikuyu": "Andĩka rĩĩtwa rĩaku",
+      "difficulty": "beginner",
+      "context": "Practical instruction using 'andĩka'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: andĩka",
+      "quality_score": 4.5,
+      "categories": [
+        "Wiktionary Examples"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2599,
+      "english": "Let's eat together",
+      "kikuyu": "Reke tũrĩe hamwe",
+      "difficulty": "intermediate",
+      "context": "Invitation to share food using 'rĩa'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: rĩa",
+      "quality_score": 4.5,
+      "categories": [
+        "Wiktionary Examples"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2607,
+      "english": "I feel cold",
+      "kikuyu": "Nĩnjiguaga heho",
+      "difficulty": "intermediate",
+      "context": "Physical sensation using 'igua'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: igua",
+      "quality_score": 4.5,
+      "categories": [
+        "Wiktionary Examples"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2608,
+      "english": "I don't know",
+      "kikuyu": "Ndimenyaga",
+      "difficulty": "beginner",
+      "context": "Expression of ignorance using 'menya'",
+      "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: menya",
+      "quality_score": 4.5,
+      "categories": [
+        "Wiktionary Examples"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2619,
+      "english": "the capsicum has shriveled k",
+      "kikuyu": "Hoho no ya hoha",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 007",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2620,
+      "english": "small frog",
+      "kikuyu": "Kora",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 007",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2621,
+      "english": "roasting",
+      "kikuyu": "Gũcina",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 02",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2624,
+      "english": "ants",
+      "kikuyu": "Thigiriri",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 098",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2625,
+      "english": "sasa",
+      "kikuyu": "Rīu rī",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 104",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2626,
+      "english": "My name is Kanyi",
+      "kikuyu": "Kanyi",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 107",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2627,
+      "english": "to give away something or things",
+      "kikuyu": "Kũheane",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 109",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2628,
+      "english": "maize pollen, saw dust from wood filings",
+      "kikuyu": "Muura",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 109",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2629,
+      "english": "bow legs",
+      "kikuyu": "Mbaco",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 109",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2630,
+      "english": "cold",
+      "kikuyu": "Heho",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 110",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2631,
+      "english": "extremely cold weather, usually accompanied by fog",
+      "kikuyu": "Mbaa",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 110",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2632,
+      "english": "arguments",
+      "kikuyu": "Ngarari",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 111",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2633,
+      "english": "Athigari",
+      "kikuyu": "Mũthigari",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 118",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2713,
+      "english": "cold sores",
+      "kikuyu": "Kīhuti",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 167",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2714,
+      "english": "the seventh month",
+      "kikuyu": "Mweri wa mũgwanja ũkoragwo na heho mũno",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 180",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2715,
+      "english": "month",
+      "kikuyu": "Mweri",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 180",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2716,
+      "english": "very much",
+      "kikuyu": "Mũno",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 180",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2717,
+      "english": "Cock",
+      "kikuyu": "Ngũkũ ya njamba",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 183",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2718,
+      "english": "to return, to come back",
+      "kikuyu": "Gũcoka",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 186",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2719,
+      "english": "to return",
+      "kikuyu": "Gũcokia",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 186",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2720,
+      "english": "to try",
+      "kikuyu": "Kũgeria",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 186",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2747,
+      "english": "find",
+      "kikuyu": "Kora",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 214",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2821,
+      "english": "pimple",
+      "kikuyu": "Thundo",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 251",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2849,
+      "english": "a new seventh month",
+      "kikuyu": "Mweri mwerũ wa mũgwanja",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 273",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2850,
+      "english": "a word, a statement",
+      "kikuyu": "Kiugo",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 280",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2851,
+      "english": "to arrive",
+      "kikuyu": "Gũkinya",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 280",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2852,
+      "english": "He would cough, and they would shake",
+      "kikuyu": "Ahayaga makahahũka",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 281",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2853,
+      "english": "keep a distance",
+      "kikuyu": "Ikara haraihu",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 290",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2854,
+      "english": "bury",
+      "kikuyu": "Thika",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 292",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2855,
+      "english": "rule",
+      "kikuyu": "Thamaka",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 292",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2856,
+      "english": "to hung",
+      "kikuyu": "Gũcuuria",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 304",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2857,
+      "english": "hung",
+      "kikuyu": "Cuuriai",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 304",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2858,
+      "english": "ugali",
+      "kikuyu": "Ngima kana mũcere",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 332",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2859,
+      "english": "to ferment",
+      "kikuyu": "Kũmata",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 332",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2860,
+      "english": "to ferment, to be acidic",
+      "kikuyu": "Kũgagata",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 332",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2861,
+      "english": "switch off the light",
+      "kikuyu": "Horia thitima",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 336",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2862,
+      "english": "light",
+      "kikuyu": "Akia",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 336",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2863,
+      "english": "switch on the light",
+      "kikuyu": "Akia thitima",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 336",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2864,
+      "english": "light the lamp",
+      "kikuyu": "Akia tawa",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 336",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2865,
+      "english": "light the lamps",
+      "kikuyu": "Akia matawa",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 336",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2866,
+      "english": "do not put off",
+      "kikuyu": "Mũtikahorie",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 336",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2935,
+      "english": "To escort/ see off",
+      "kikuyu": "Kumagaria",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 391",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2946,
+      "english": "Laugh",
+      "kikuyu": "Thekai",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 407",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2947,
+      "english": "To laugh",
+      "kikuyu": "Gũthekio ti kwendwo",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 408",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2948,
+      "english": "to be given",
+      "kikuyu": "Kũheo",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 410",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2949,
+      "english": "pull",
+      "kikuyu": "Guciai",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 414",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2950,
+      "english": "Pull a cigarette",
+      "kikuyu": "Gucia thigara",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 414",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2951,
+      "english": "push and pull",
+      "kikuyu": "Ngucanio",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 414",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2952,
+      "english": "Throw",
+      "kikuyu": "Ikiai",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 427",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2953,
+      "english": "to remove",
+      "kikuyu": "Kũruta",
+      "difficulty": "beginner",
+      "context": "Direct translation vocabulary - File 430",
+      "cultural_notes": "Native speaker vocabulary from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker translation from Easy Kikuyu lessons",
+      "quality_score": 4.5,
+      "categories": [
+        "Easy Kikuyu Vocabulary",
+        "Native Speaker Content",
+        "Beginner Vocabulary"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

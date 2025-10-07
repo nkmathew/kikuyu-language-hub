@@ -117,7 +117,7 @@ class LocalStorageManager {
     try {
       const knownCards = this.getKnownCards();
       knownCards.add(cardId);
-      localStorage.setItem(STORAGE_KEYS.KNOWN_CARDS, JSON.stringify([...knownCards]));
+      localStorage.setItem(STORAGE_KEYS.KNOWN_CARDS, JSON.stringify(Array.from(knownCards)));
     } catch (error) {
       console.error('Error marking card as known:', error);
     }
@@ -129,7 +129,7 @@ class LocalStorageManager {
     try {
       const knownCards = this.getKnownCards();
       knownCards.delete(cardId);
-      localStorage.setItem(STORAGE_KEYS.KNOWN_CARDS, JSON.stringify([...knownCards]));
+      localStorage.setItem(STORAGE_KEYS.KNOWN_CARDS, JSON.stringify(Array.from(knownCards)));
     } catch (error) {
       console.error('Error marking card as unknown:', error);
     }
