@@ -31,30 +31,27 @@ class DataLoader {
       return this.cache.get(category)!;
     }
     
-    // Try to load curated content first
+    // Load curated content only
     try {
       const curatedData = await this.loadCuratedCategory(category);
       if (curatedData) {
         this.cache.set(category, curatedData);
         return curatedData;
       }
-    } catch (error) {
-      console.log(`No curated content for ${category}, falling back to original data`);
-    }
-    
-    // Fall back to original paginated format
-    try {
-      const response = await fetch(`/data/${category}.json`);
-      if (!response.ok) {
-        throw new Error(`Failed to load ${category} data`);
-      }
       
-      const data: CategoryData = await response.json();
-      this.cache.set(category, data);
-      return data;
+      // No curated content available for this category
+      console.log(`No curated content available for ${category}`);
+      const emptyData: CategoryData = {
+        category,
+        total_count: 0,
+        difficulty_counts: { beginner: 0, intermediate: 0, advanced: 0 },
+        items: { beginner: [], intermediate: [], advanced: [], all: [] }
+      };
+      this.cache.set(category, emptyData);
+      return emptyData;
     } catch (error) {
-      console.error(`Error loading ${category} data:`, error);
-      throw error;
+      console.error(`Error loading curated content for ${category}:`, error);
+      throw new Error(`Failed to load ${category} data`);
     }
   }
   
