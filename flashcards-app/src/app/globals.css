@@ -8,37 +8,46 @@
   }
   
   body {
+    @apply bg-gray-900 text-gray-100 dark:bg-gray-900 dark:text-gray-100;
+  }
+  
+  /* Light theme overrides */
+  .light body {
     @apply bg-gray-50 text-gray-900;
   }
 }
 
 @layer components {
   .card {
-    @apply bg-white rounded-xl shadow-lg border border-gray-200 p-6 transition-all duration-300;
+    @apply bg-gray-800 rounded-xl shadow-lg border border-gray-700 p-6;
   }
   
-  .card:hover {
-    @apply shadow-xl transform -translate-y-1;
+  .light .card {
+    @apply bg-white border-gray-200;
   }
   
   .btn {
-    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+    @apply px-4 py-2 rounded-lg font-medium focus:outline-none focus:ring-2 focus:ring-offset-2;
   }
   
   .btn-primary {
-    @apply bg-kikuyu-600 text-white hover:bg-kikuyu-700 focus:ring-kikuyu-500;
+    @apply bg-kikuyu-600 text-white focus:ring-kikuyu-500;
   }
   
   .btn-secondary {
-    @apply bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-500;
+    @apply bg-gray-700 text-gray-200 focus:ring-gray-500;
+  }
+  
+  .light .btn-secondary {
+    @apply bg-gray-200 text-gray-800;
   }
   
   .btn-success {
-    @apply bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+    @apply bg-green-600 text-white focus:ring-green-500;
   }
   
   .btn-warning {
-    @apply bg-yellow-600 text-white hover:bg-yellow-700 focus:ring-yellow-500;
+    @apply bg-yellow-600 text-white focus:ring-yellow-500;
   }
   
   .btn-sm {
@@ -54,7 +63,7 @@
   }
   
   .flashcard-inner {
-    @apply relative w-full h-full transition-transform duration-700 transform-style-preserve-3d;
+    @apply relative w-full h-full transform-style-preserve-3d;
   }
   
   .flashcard.flipped .flashcard-inner {
@@ -63,15 +72,23 @@
   
   .flashcard-front,
   .flashcard-back {
-    @apply absolute inset-0 w-full h-full backface-hidden rounded-xl shadow-lg border border-gray-200 flex items-center justify-center p-6 text-center;
+    @apply absolute inset-0 w-full h-full backface-hidden rounded-xl shadow-lg border flex items-center justify-center p-6 text-center;
   }
   
   .flashcard-front {
-    @apply bg-white;
+    @apply bg-gray-800 border-gray-700;
+  }
+  
+  .light .flashcard-front {
+    @apply bg-white border-gray-200;
   }
   
   .flashcard-back {
-    @apply bg-kikuyu-50 rotate-y-180;
+    @apply bg-gray-800 border-gray-700 rotate-y-180;
+  }
+  
+  .light .flashcard-back {
+    @apply bg-kikuyu-50 border-gray-200;
   }
 }
 

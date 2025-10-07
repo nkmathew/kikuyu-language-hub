@@ -6,6 +6,7 @@ import Link from 'next/link';
 import FlashCard from '@/components/FlashCard';
 import StudyCard from '@/components/StudyCard';
 import ModeToggle from '@/components/ModeToggle';
+import ThemeToggle from '@/components/ThemeToggle';
 import { dataLoader } from '@/lib/dataLoader';
 import { localStorageManager } from '@/lib/localStorage';
 import { Flashcard, CategoryType, DifficultyLevel } from '@/types/flashcard';
@@ -210,12 +211,13 @@ export default function StudyPage() {
         </div>
         
         <div className="flex items-center gap-4">
+          <ThemeToggle />
           <ModeToggle mode={mode} onModeChange={setMode} />
           <div className="text-right">
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-gray-500 dark:text-gray-400">
               {mode === 'flashcard' ? `Card ${currentIndex + 1} of ${cards.length}` : `${cards.length} cards`}
             </div>
-            <div className="text-xs text-gray-400">
+            <div className="text-xs text-gray-400 dark:text-gray-500">
               {cardsStudied} studied • {correctAnswers} known
             </div>
           </div>
@@ -225,13 +227,13 @@ export default function StudyPage() {
       {/* Progress Bar (Flashcard Mode Only) */}
       {mode === 'flashcard' && (
         <div className="mb-6">
-          <div className="flex justify-between text-sm text-gray-500 mb-1">
+          <div className="flex justify-between text-sm text-gray-500 dark:text-gray-400 mb-1">
             <span>Progress</span>
             <span>{Math.round(progress)}%</span>
           </div>
-          <div className="w-full bg-gray-200 rounded-full h-2">
+          <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
             <div 
-              className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-2 rounded-full transition-all duration-300"
+              className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-2 rounded-full"
               style={{ width: `${progress}%` }}
             ></div>
           </div>

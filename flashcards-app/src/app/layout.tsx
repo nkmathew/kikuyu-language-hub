@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
+import { ThemeProvider } from '@/contexts/ThemeContext'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -29,11 +30,13 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-title" content="Kikuyu Flashcards" />
       </head>
       <body className={inter.className}>
-        <div className="min-h-screen bg-gradient-to-br from-kikuyu-50 to-blue-50">
-          <main className="container mx-auto px-4 py-6">
-            {children}
-          </main>
-        </div>
+        <ThemeProvider>
+          <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 light:from-kikuyu-50 light:to-blue-50">
+            <main className="container mx-auto px-4 py-6">
+              {children}
+            </main>
+          </div>
+        </ThemeProvider>
       </body>
     </html>
   )
