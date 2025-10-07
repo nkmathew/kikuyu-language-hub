@@ -8,23 +8,23 @@ interface ModeToggleProps {
 
 export default function ModeToggle({ mode, onModeChange, className = '' }: ModeToggleProps) {
   return (
-    <div className={`inline-flex bg-gray-100 rounded-lg p-1 ${className}`}>
+    <div className={`inline-flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1 ${className}`}>
       <button
         onClick={() => onModeChange('study')}
-        className={`px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 ${
+        className={`px-4 py-2 text-sm font-medium rounded-md ${
           mode === 'study'
-            ? 'bg-white text-blue-600 shadow-sm'
-            : 'text-gray-600 hover:text-blue-600'
+            ? 'bg-white dark:bg-gray-600 text-blue-600 dark:text-blue-400 shadow-sm'
+            : 'text-gray-600 dark:text-gray-300'
         }`}
       >
         📚 Study Mode
       </button>
       <button
         onClick={() => onModeChange('flashcard')}
-        className={`px-4 py-2 text-sm font-medium rounded-md transition-all duration-200 ${
+        className={`px-4 py-2 text-sm font-medium rounded-md ${
           mode === 'flashcard'
-            ? 'bg-white text-blue-600 shadow-sm'
-            : 'text-gray-600 hover:text-blue-600'
+            ? 'bg-white dark:bg-gray-600 text-blue-600 dark:text-blue-400 shadow-sm'
+            : 'text-gray-600 dark:text-gray-300'
         }`}
       >
         ⚡ Flashcard Mode

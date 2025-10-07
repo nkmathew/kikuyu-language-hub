@@ -126,7 +126,7 @@ export default function ProgressPage() {
       <div className="flex items-center justify-center min-h-[60vh]">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-kikuyu-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading progress data...</p>
+          <p className="text-gray-600 dark:text-gray-400">Loading progress data...</p>
         </div>
       </div>
     );
@@ -137,8 +137,8 @@ export default function ProgressPage() {
       {/* Header */}
       <div className="flex items-center justify-between mb-8">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900 mb-2">Your Progress</h1>
-          <p className="text-gray-600">Track your Kikuyu language learning journey</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100 mb-2">Your Progress</h1>
+          <p className="text-gray-600 dark:text-gray-400">Track your Kikuyu language learning journey</p>
         </div>
         <Link href="/" className="btn btn-secondary">
           ← Back to Home
@@ -149,23 +149,23 @@ export default function ProgressPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
         <div className="card text-center">
           <div className="text-3xl font-bold text-kikuyu-600 mb-2">{stats.totalSessions || 0}</div>
-          <div className="text-gray-600">Study Sessions</div>
+          <div className="text-gray-600 dark:text-gray-400">Study Sessions</div>
         </div>
         <div className="card text-center">
           <div className="text-3xl font-bold text-green-600 mb-2">{stats.knownCardsCount || 0}</div>
-          <div className="text-gray-600">Cards Learned</div>
+          <div className="text-gray-600 dark:text-gray-400">Cards Learned</div>
         </div>
         <div className="card text-center">
           <div className="text-3xl font-bold text-blue-600 mb-2">
             {Math.round(stats.averageAccuracy || 0)}%
           </div>
-          <div className="text-gray-600">Average Accuracy</div>
+          <div className="text-gray-600 dark:text-gray-400">Average Accuracy</div>
         </div>
         <div className="card text-center">
           <div className="text-3xl font-bold text-purple-600 mb-2">
             {formatDuration(stats.totalStudyTime || 0)}
           </div>
-          <div className="text-gray-600">Study Time</div>
+          <div className="text-gray-600 dark:text-gray-400">Study Time</div>
         </div>
       </div>
 
@@ -179,16 +179,16 @@ export default function ProgressPage() {
                 <h3 className="text-lg font-semibold">{categoryNames[progress.category]}</h3>
                 <div className="text-right">
                   <span className="text-lg font-bold text-kikuyu-600">{progress.percentage}%</span>
-                  <div className="text-sm text-gray-500">
+                  <div className="text-sm text-gray-500 dark:text-gray-400">
                     {progress.knownCards}/{progress.totalCards} cards
                   </div>
                 </div>
               </div>
               
               {/* Progress Bar */}
-              <div className="w-full bg-gray-200 rounded-full h-3 mb-4">
+              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-3 mb-4">
                 <div 
-                  className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-3 rounded-full transition-all duration-300"
+                  className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-3 rounded-full"
                   style={{ width: `${progress.percentage}%` }}
                 ></div>
               </div>
@@ -235,15 +235,15 @@ export default function ProgressPage() {
           <h2 className="text-xl font-bold mb-6">Recent Study Sessions</h2>
           <div className="space-y-3">
             {sessions.map((session, index) => (
-              <div key={index} className="flex items-center justify-between p-4 bg-gray-50 rounded-lg">
+              <div key={index} className="flex items-center justify-between p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
                 <div>
                   <div className="font-medium capitalize">
                     {categoryNames[session.category as CategoryType] || session.category}
                     {session.difficulty !== 'all' && (
-                      <span className="ml-2 text-sm text-gray-500">({session.difficulty})</span>
+                      <span className="ml-2 text-sm text-gray-500 dark:text-gray-400">({session.difficulty})</span>
                     )}
                   </div>
-                  <div className="text-sm text-gray-500">
+                  <div className="text-sm text-gray-500 dark:text-gray-400">
                     {formatDate(session.startTime)}
                   </div>
                 </div>
@@ -251,7 +251,7 @@ export default function ProgressPage() {
                   <div className="text-sm font-medium">
                     {session.correctAnswers}/{session.cardsStudied} correct
                   </div>
-                  <div className="text-xs text-gray-500">
+                  <div className="text-xs text-gray-500 dark:text-gray-400">
                     {session.cardsStudied > 0 
                       ? Math.round((session.correctAnswers / session.cardsStudied) * 100)
                       : 0}% accuracy
@@ -267,7 +267,7 @@ export default function ProgressPage() {
       <div className="card">
         <h2 className="text-xl font-bold mb-4">Manage Progress</h2>
         <div className="space-y-4">
-          <p className="text-gray-600">
+          <p className="text-gray-600 dark:text-gray-400">
             Your progress is saved locally in your browser. This data includes which cards you've marked as known 
             and your study session history.
           </p>

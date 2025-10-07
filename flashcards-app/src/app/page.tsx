@@ -42,14 +42,14 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
 
   return (
     <Link href={`/study/${category}`} className="block">
-      <div className="card hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300 h-full">
+      <div className="card h-full">
         <div className="flex flex-col h-full">
           {/* Icon and Title */}
           <div className="flex items-center mb-4">
             <span className="text-4xl mr-3">{categoryIcons[category]}</span>
             <div>
-              <h3 className="text-xl font-bold text-gray-900">{categoryNames[category]}</h3>
-              <p className="text-sm text-gray-600">{categoryDescriptions[category]}</p>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-gray-100">{categoryNames[category]}</h3>
+              <p className="text-sm text-gray-600 dark:text-gray-400">{categoryDescriptions[category]}</p>
             </div>
           </div>
 
@@ -58,23 +58,23 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
             <div className="grid grid-cols-2 gap-4 mb-4">
               <div className="text-center">
                 <div className="text-2xl font-bold text-kikuyu-600">{data.total_count}</div>
-                <div className="text-xs text-gray-500">Total Cards</div>
+                <div className="text-xs text-gray-500 dark:text-gray-400">Total Cards</div>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-green-600">{knownCount}</div>
-                <div className="text-xs text-gray-500">Known</div>
+                <div className="text-xs text-gray-500 dark:text-gray-400">Known</div>
               </div>
             </div>
 
             {/* Progress Bar */}
             <div className="mb-4">
-              <div className="flex justify-between text-xs text-gray-500 mb-1">
+              <div className="flex justify-between text-xs text-gray-500 dark:text-gray-400 mb-1">
                 <span>Progress</span>
                 <span>{progressPercentage}%</span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-2">
+              <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-2">
                 <div 
-                  className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-2 rounded-full transition-all duration-300"
+                  className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-2 rounded-full"
                   style={{ width: `${progressPercentage}%` }}
                 ></div>
               </div>
@@ -135,7 +135,7 @@ export default function HomePage() {
       <div className="flex items-center justify-center min-h-[400px]">
         <div className="text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-kikuyu-600 mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading flashcard data...</p>
+          <p className="text-gray-600 dark:text-gray-400">Loading flashcard data...</p>
         </div>
       </div>
     );
@@ -161,13 +161,13 @@ export default function HomePage() {
     <div className="max-w-6xl mx-auto">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-gray-100 mb-4">
           🇰🇪 Kikuyu Flashcards
         </h1>
-        <p className="text-xl text-gray-600 mb-6">
+        <p className="text-xl text-gray-600 dark:text-gray-400 mb-6">
           Learn Kikuyu language with interactive flashcards
         </p>
-        <p className="text-lg text-gray-500 max-w-3xl mx-auto">
+        <p className="text-lg text-gray-500 dark:text-gray-400 max-w-3xl mx-auto">
           Study vocabulary, traditional proverbs, and verb conjugations from authentic native speaker content. 
           Over 3,000+ flashcards to help you master the Kikuyu language.
         </p>
@@ -180,21 +180,21 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
             <div>
               <div className="text-2xl font-bold text-kikuyu-600">{stats.totalSessions}</div>
-              <div className="text-sm text-gray-500">Study Sessions</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Study Sessions</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-green-600">{stats.knownCardsCount}</div>
-              <div className="text-sm text-gray-500">Cards Learned</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Cards Learned</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-blue-600">{Math.round(stats.averageAccuracy)}%</div>
-              <div className="text-sm text-gray-500">Accuracy</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Accuracy</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-purple-600">
                 {Math.round(stats.totalStudyTime / (1000 * 60))}m
               </div>
-              <div className="text-sm text-gray-500">Study Time</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Study Time</div>
             </div>
           </div>
         </div>
@@ -229,7 +229,7 @@ export default function HomePage() {
       </div>
 
       {/* Footer */}
-      <div className="text-center mt-12 text-gray-500">
+      <div className="text-center mt-12 text-gray-500 dark:text-gray-400">
         <p>Content sourced from native Kikuyu speakers</p>
         <p className="text-sm mt-2">
           Built with ❤️ for the Kikuyu language learning community

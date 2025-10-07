@@ -85,11 +85,11 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
   if (submitted) {
     return (
       <div className={`fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 ${className}`}>
-        <div className="bg-white rounded-lg p-6 max-w-md mx-4">
+        <div className="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-md mx-4">
           <div className="text-center">
             <div className="text-green-600 text-4xl mb-4">✓</div>
-            <h3 className="text-lg font-semibold text-gray-900 mb-2">Report Submitted!</h3>
-            <p className="text-gray-600">Thank you for helping improve the Kikuyu learning experience.</p>
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Report Submitted!</h3>
+            <p className="text-gray-600 dark:text-gray-400">Thank you for helping improve the Kikuyu learning experience.</p>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
       {/* Report Button */}
       <button
         onClick={() => setIsOpen(true)}
-        className="text-xs text-gray-500 hover:text-red-600 transition-colors"
+        className="text-xs text-gray-500 dark:text-gray-400"
         title="Report an issue with this card"
       >
         🚩 Report Issue
@@ -110,13 +110,13 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
       {/* Report Modal */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
-          <div className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
+          <div className="bg-white dark:bg-gray-800 rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto">
             <div className="p-6">
               {/* Header */}
               <div className="flex justify-between items-start mb-6">
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2">Report Card Issue</h3>
-                  <div className="text-sm text-gray-600">
+                  <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-2">Report Card Issue</h3>
+                  <div className="text-sm text-gray-600 dark:text-gray-400">
                     <p><strong>English:</strong> {card.english}</p>
                     <p><strong>Kikuyu:</strong> {card.kikuyu}</p>
                     <p><strong>Card ID:</strong> {typeof card.id === 'string' ? card.id : `#${card.id}`}</p>
@@ -124,7 +124,7 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
                 </div>
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="text-gray-400 hover:text-gray-600"
+                  className="text-gray-400 dark:text-gray-500"
                 >
                   ✕
                 </button>
@@ -134,7 +134,7 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
               <form onSubmit={handleSubmit} className="space-y-4">
                 {/* Issue Type */}
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                  <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
                     What's the issue?
                   </label>
                   <div className="space-y-2">
@@ -149,8 +149,8 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
                           className="mt-1"
                         />
                         <div>
-                          <div className="font-medium text-gray-900">{type.label}</div>
-                          <div className="text-sm text-gray-600">{type.description}</div>
+                          <div className="font-medium text-gray-900 dark:text-gray-100">{type.label}</div>
+                          <div className="text-sm text-gray-600 dark:text-gray-400">{type.description}</div>
                         </div>
                       </label>
                     ))}
@@ -159,7 +159,7 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
 
                 {/* Description */}
                 <div>
-                  <label htmlFor="description" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="description" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Describe the issue *
                   </label>
                   <textarea
@@ -175,7 +175,7 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
 
                 {/* Suggested Fix */}
                 <div>
-                  <label htmlFor="suggestedFix" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="suggestedFix" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Suggested correction (optional)
                   </label>
                   <input
@@ -190,7 +190,7 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
 
                 {/* Email */}
                 <div>
-                  <label htmlFor="reporterEmail" className="block text-sm font-medium text-gray-700 mb-1">
+                  <label htmlFor="reporterEmail" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
                     Email (optional)
                   </label>
                   <input
@@ -224,8 +224,8 @@ export default function ReportCard({ card, onSubmit, className = '' }: ReportCar
               </form>
 
               {/* Info */}
-              <div className="mt-6 p-4 bg-blue-50 rounded-md">
-                <p className="text-sm text-blue-700">
+              <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-900 dark:bg-opacity-20 rounded-md">
+                <p className="text-sm text-blue-700 dark:text-blue-300">
                   <strong>Privacy:</strong> Reports are stored locally and help improve content quality. 
                   We appreciate community contributions to make Kikuyu learning materials better for everyone.
                 </p>

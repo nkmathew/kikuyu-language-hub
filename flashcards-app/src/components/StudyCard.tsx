@@ -99,8 +99,8 @@ export default function StudyCard({
                   {card.difficulty}
                 </span>
               </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="text-lg md:text-xl font-bold text-gray-900 leading-relaxed">
+              <div className="p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                <h3 className="text-lg md:text-xl font-bold text-gray-900 dark:text-gray-100 leading-relaxed">
                   {card.english}
                 </h3>
               </div>
@@ -161,11 +161,11 @@ export default function StudyCard({
           {/* Examples */}
           {card.examples && card.examples.length > 0 && (
             <div>
-              <h4 className="text-md font-semibold mb-3 text-gray-900">Examples</h4>
+              <h4 className="text-md font-semibold mb-3 text-gray-900 dark:text-gray-100">Examples</h4>
               <div className="space-y-3">
                 {card.examples.slice(0, 2).map((example, index) => (
-                  <div key={index} className="p-3 bg-gray-50 rounded-lg">
-                    <p className="font-medium text-gray-900 mb-1 text-sm">{example.english}</p>
+                  <div key={index} className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <p className="font-medium text-gray-900 dark:text-gray-100 mb-1 text-sm">{example.english}</p>
                     <p className="text-kikuyu-700 font-medium mb-1 text-sm">{example.kikuyu}</p>
                     {example.context && (
                       <p className="text-xs text-gray-600 italic">{example.context}</p>
@@ -179,18 +179,18 @@ export default function StudyCard({
           {/* Grammar */}
           {card.grammatical_info && (
             <div>
-              <h4 className="text-md font-semibold mb-3 text-gray-900">Grammar</h4>
+              <h4 className="text-md font-semibold mb-3 text-gray-900 dark:text-gray-100">Grammar</h4>
               <div className="space-y-2 text-sm">
                 {card.grammatical_info.part_of_speech && (
                   <div className="flex justify-between">
                     <span className="font-medium text-gray-600">Part of Speech:</span>
-                    <span className="text-gray-900">{card.grammatical_info.part_of_speech}</span>
+                    <span className="text-gray-900 dark:text-gray-100">{card.grammatical_info.part_of_speech}</span>
                   </div>
                 )}
                 {card.grammatical_info.noun_class && (
                   <div className="flex justify-between">
                     <span className="font-medium text-gray-600">Noun Class:</span>
-                    <span className="text-gray-900">{card.grammatical_info.noun_class}</span>
+                    <span className="text-gray-900 dark:text-gray-100">{card.grammatical_info.noun_class}</span>
                   </div>
                 )}
                 {card.grammatical_info.infinitive && (
@@ -202,7 +202,7 @@ export default function StudyCard({
                 {card.grammatical_info.verb_class && (
                   <div className="flex justify-between">
                     <span className="font-medium text-gray-600">Verb Class:</span>
-                    <span className="text-gray-900">{card.grammatical_info.verb_class}</span>
+                    <span className="text-gray-900 dark:text-gray-100">{card.grammatical_info.verb_class}</span>
                   </div>
                 )}
               </div>

@@ -198,12 +198,12 @@ export default function FlashCard({
                   </div>
                   
                   <div className="flex-1 flex items-center justify-center">
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center leading-relaxed">
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 dark:text-gray-100 text-center leading-relaxed">
                       {card.english}
                     </h2>
                   </div>
                   
-                  <div className="text-center text-gray-500 text-sm">
+                  <div className="text-center text-gray-500 dark:text-gray-400 text-sm">
                     Tap to reveal Kikuyu
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export default function FlashCard({
                     <span className="px-3 py-1 bg-kikuyu-100 text-kikuyu-800 text-sm rounded-full font-medium">
                       Kikuyu
                     </span>
-                    <span className="px-3 py-1 bg-gray-100 text-gray-800 text-sm rounded-full font-medium">
+                    <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-sm rounded-full font-medium">
                       Score: {(card.quality_score || card.quality?.confidence_score || 0).toFixed(1)}
                     </span>
                   </div>
@@ -231,12 +231,12 @@ export default function FlashCard({
                   {card.pronunciation && (
                     <div className="text-center mb-3">
                       {card.pronunciation.ipa && (
-                        <p className="text-sm text-gray-600 font-mono">
+                        <p className="text-sm text-gray-600 dark:text-gray-400 font-mono">
                           IPA: /{card.pronunciation.ipa}/
                         </p>
                       )}
                       {card.pronunciation.simplified && (
-                        <p className="text-sm text-gray-600">
+                        <p className="text-sm text-gray-600 dark:text-gray-400">
                           {card.pronunciation.simplified}
                         </p>
                       )}
@@ -247,12 +247,12 @@ export default function FlashCard({
                   {(card.context || (showCulturalNotes && card.cultural_notes)) && (
                     <div className="border-t border-kikuyu-200 pt-4 space-y-2">
                       {card.context && (
-                        <p className="text-sm text-gray-700">
+                        <p className="text-sm text-gray-700 dark:text-gray-300">
                           <span className="font-medium">Context:</span> {card.context}
                         </p>
                       )}
                       {showCulturalNotes && card.cultural_notes && (
-                        <p className="text-xs text-gray-600">
+                        <p className="text-xs text-gray-600 dark:text-gray-400">
                           <span className="font-medium">Cultural Note:</span> {card.cultural_notes}
                         </p>
                       )}
@@ -269,14 +269,14 @@ export default function FlashCard({
           {/* Examples Section */}
           {isFlipped && card.examples && card.examples.length > 0 && (
             <div className="card mb-6">
-              <h3 className="text-lg font-semibold mb-3 text-gray-900">Usage Examples</h3>
+              <h3 className="text-lg font-semibold mb-3 text-gray-900 dark:text-gray-100">Usage Examples</h3>
               <div className="space-y-3">
                 {card.examples.slice(0, 2).map((example, index) => (
-                  <div key={index} className="p-3 bg-gray-50 rounded-lg">
-                    <p className="font-medium text-gray-900 mb-1">{example.english}</p>
+                  <div key={index} className="p-3 bg-gray-50 dark:bg-gray-700 rounded-lg">
+                    <p className="font-medium text-gray-900 dark:text-gray-100 mb-1">{example.english}</p>
                     <p className="text-kikuyu-700 font-medium mb-1">{example.kikuyu}</p>
                     {example.context && (
-                      <p className="text-xs text-gray-600 italic">{example.context}</p>
+                      <p className="text-xs text-gray-600 dark:text-gray-400 italic">{example.context}</p>
                     )}
                   </div>
                 ))}
@@ -287,30 +287,30 @@ export default function FlashCard({
           {/* Grammatical Information */}
           {isFlipped && card.grammatical_info && (
             <div className="card mb-6">
-              <h3 className="text-lg font-semibold mb-3 text-gray-900">Grammar</h3>
+              <h3 className="text-lg font-semibold mb-3 text-gray-900 dark:text-gray-100">Grammar</h3>
               <div className="grid grid-cols-2 gap-4 text-sm">
                 {card.grammatical_info.part_of_speech && (
                   <div>
-                    <span className="font-medium text-gray-600">Part of Speech:</span>
-                    <span className="ml-2 text-gray-900">{card.grammatical_info.part_of_speech}</span>
+                    <span className="font-medium text-gray-600 dark:text-gray-400">Part of Speech:</span>
+                    <span className="ml-2 text-gray-900 dark:text-gray-100">{card.grammatical_info.part_of_speech}</span>
                   </div>
                 )}
                 {card.grammatical_info.noun_class && (
                   <div>
-                    <span className="font-medium text-gray-600">Noun Class:</span>
-                    <span className="ml-2 text-gray-900">{card.grammatical_info.noun_class}</span>
+                    <span className="font-medium text-gray-600 dark:text-gray-400">Noun Class:</span>
+                    <span className="ml-2 text-gray-900 dark:text-gray-100">{card.grammatical_info.noun_class}</span>
                   </div>
                 )}
                 {card.grammatical_info.infinitive && (
                   <div>
-                    <span className="font-medium text-gray-600">Infinitive:</span>
+                    <span className="font-medium text-gray-600 dark:text-gray-400">Infinitive:</span>
                     <span className="ml-2 text-kikuyu-700 font-mono">{card.grammatical_info.infinitive}</span>
                   </div>
                 )}
                 {card.grammatical_info.verb_class && (
                   <div>
-                    <span className="font-medium text-gray-600">Verb Class:</span>
-                    <span className="ml-2 text-gray-900">{card.grammatical_info.verb_class}</span>
+                    <span className="font-medium text-gray-600 dark:text-gray-400">Verb Class:</span>
+                    <span className="ml-2 text-gray-900 dark:text-gray-100">{card.grammatical_info.verb_class}</span>
                   </div>
                 )}
               </div>
@@ -320,16 +320,16 @@ export default function FlashCard({
           {/* Sub-translations (Morphological Analysis) */}
           {isFlipped && card.has_sub_translations && card.sub_translations && (
             <div className="card mb-6">
-              <h3 className="text-lg font-semibold mb-3 text-gray-900">Word Breakdown</h3>
+              <h3 className="text-lg font-semibold mb-3 text-gray-900 dark:text-gray-100">Word Breakdown</h3>
               <div className="space-y-2">
                 {card.sub_translations.map((sub, index) => (
                   <div key={index} className="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
                     <div className="flex-1">
                       <span className="font-mono text-kikuyu-700 font-medium">{sub.target}</span>
                       <span className="mx-2 text-gray-400">→</span>
-                      <span className="text-gray-700">{sub.source}</span>
+                      <span className="text-gray-700 dark:text-gray-300">{sub.source}</span>
                     </div>
-                    <span className="text-xs text-gray-500 ml-4">{sub.context}</span>
+                    <span className="text-xs text-gray-500 dark:text-gray-400 ml-4">{sub.context}</span>
                   </div>
                 ))}
               </div>
@@ -406,13 +406,13 @@ export default function FlashCard({
                 {card.categories && card.categories.slice(0, 2).map((category, index) => (
                   <span
                     key={index}
-                    className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full"
+                    className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs rounded-full"
                   >
                     {category}
                   </span>
                 ))}
                 {card.categories && card.categories.length > 2 && (
-                  <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full">
+                  <span className="px-2 py-1 bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs rounded-full">
                     +{card.categories.length - 2} more
                   </span>
                 )}
@@ -442,7 +442,7 @@ export default function FlashCard({
       </div>
 
       {/* Keyboard Shortcuts Help */}
-      <div className="mt-8 text-center text-xs text-gray-500">
+      <div className="mt-8 text-center text-xs text-gray-500 dark:text-gray-400">
         <p>Keyboard shortcuts: Space/Enter (flip) • ← → (navigate) • K (mark known) • C (copy)</p>
         <p>Touch: Tap (flip) • Swipe left/right (navigate)</p>
       </div>
