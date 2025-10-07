@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: system-ui, sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-white rounded-xl shadow-lg border border-gray-200 p-6 transition-all duration-300;
+  }
+  
+  .card:hover {
+    @apply shadow-xl transform -translate-y-1;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-kikuyu-600 text-white hover:bg-kikuyu-700 focus:ring-kikuyu-500;
+  }
+  
+  .btn-secondary {
+    @apply bg-gray-200 text-gray-800 hover:bg-gray-300 focus:ring-gray-500;
+  }
+  
+  .btn-success {
+    @apply bg-green-600 text-white hover:bg-green-700 focus:ring-green-500;
+  }
+  
+  .btn-warning {
+    @apply bg-yellow-600 text-white hover:bg-yellow-700 focus:ring-yellow-500;
+  }
+  
+  .btn-sm {
+    @apply px-3 py-1 text-sm;
+  }
+  
+  .btn:disabled {
+    @apply opacity-50 cursor-not-allowed;
+  }
+  
+  .flashcard {
+    @apply relative w-full h-80 md:h-96 cursor-pointer perspective-1000;
+  }
+  
+  .flashcard-inner {
+    @apply relative w-full h-full transition-transform duration-600 transform-style-preserve-3d;
+  }
+  
+  .flashcard.flipped .flashcard-inner {
+    @apply rotate-y-180;
+  }
+  
+  .flashcard-front,
+  .flashcard-back {
+    @apply absolute inset-0 w-full h-full backface-hidden rounded-xl shadow-lg border border-gray-200 flex items-center justify-center p-6 text-center;
+  }
+  
+  .flashcard-front {
+    @apply bg-white;
+  }
+  
+  .flashcard-back {
+    @apply bg-kikuyu-50 rotate-y-180;
+  }
+}
+
+@layer utilities {
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .transform-style-preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
