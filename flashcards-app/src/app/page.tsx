@@ -161,7 +161,9 @@ export default function HomePage() {
   }
 
   const totalCards = categories
-    ? Object.values(categories).reduce((sum, cat) => sum + cat.total_count, 0)
+    ? Object.entries(categories)
+        .filter(([key]) => key !== 'general') // Exclude 'general' to avoid double-counting
+        .reduce((sum, [_, cat]) => sum + cat.total_count, 0)
     : 0;
 
   return (
