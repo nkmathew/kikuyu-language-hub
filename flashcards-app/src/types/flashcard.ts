@@ -5,17 +5,75 @@ export interface SubTranslation {
   context: string;
 }
 
-export interface Flashcard {
-  id: number;
+export interface ExampleSentence {
   english: string;
   kikuyu: string;
+  context?: string;
+}
+
+export interface PronunciationInfo {
+  ipa?: string;
+  simplified?: string;
+  audio_file?: string;
+}
+
+export interface GrammaticalInfo {
+  part_of_speech?: string;
+  verb_class?: string;
+  noun_class?: string;
+  infinitive?: string;
+}
+
+export interface QualityInfo {
+  verified: boolean;
+  confidence_score: number;
+  source_quality: 'native_speaker' | 'academic' | 'dictionary' | 'community' | 'automated';
+  reviewer?: string;
+  review_date?: string;
+}
+
+export interface SourceInfo {
+  origin: string;
+  attribution?: string;
+  license?: string;
+  url?: string;
+}
+
+export interface Flashcard {
+  id: string;
+  english: string;
+  kikuyu: string;
+  category: 'vocabulary' | 'proverbs' | 'grammar' | 'conjugations' | 'cultural' | 'numbers' | 'phrases';
+  subcategory?: string;
   difficulty: 'beginner' | 'intermediate' | 'advanced';
   context: string;
   cultural_notes: string;
-  quality_score: number;
-  categories: string[];
-  has_sub_translations: boolean;
+  pronunciation?: PronunciationInfo;
+  examples?: ExampleSentence[];
+  grammatical_info?: GrammaticalInfo;
+  tags?: string[];
+  quality: QualityInfo;
+  source: SourceInfo;
+  // Legacy fields for backward compatibility
+  quality_score?: number;
+  categories?: string[];
+  has_sub_translations?: boolean;
   sub_translations?: SubTranslation[];
+}
+
+export interface CuratedContentMetadata {
+  schema_version: string;
+  created_date: string;
+  last_updated?: string;
+  curator: string;
+  source_files: string[];
+  total_entries: number;
+  description?: string;
+}
+
+export interface CuratedContent {
+  metadata: CuratedContentMetadata;
+  entries: Flashcard[];
 }
 
 export interface CategoryData {

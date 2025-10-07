@@ -160,7 +160,7 @@ export default function FlashCard({
                   Kikuyu
                 </span>
                 <span className="px-3 py-1 bg-gray-100 text-gray-800 text-sm rounded-full font-medium">
-                  Score: {card.quality_score.toFixed(1)}
+                  Score: {(card.quality_score || card.quality?.confidence_score || 0).toFixed(1)}
                 </span>
               </div>
               
@@ -170,6 +170,22 @@ export default function FlashCard({
                 </h2>
               </div>
               
+              {/* Pronunciation (if available) */}
+              {card.pronunciation && (
+                <div className="text-center mb-3">
+                  {card.pronunciation.ipa && (
+                    <p className="text-sm text-gray-600 font-mono">
+                      IPA: /{card.pronunciation.ipa}/
+                    </p>
+                  )}
+                  {card.pronunciation.simplified && (
+                    <p className="text-sm text-gray-600">
+                      {card.pronunciation.simplified}
+                    </p>
+                  )}
+                </div>
+              )}
+
               {/* Context and Cultural Notes */}
               {(card.context || (showCulturalNotes && card.cultural_notes)) && (
                 <div className="border-t border-kikuyu-200 pt-4 space-y-2">
@@ -189,6 +205,57 @@ export default function FlashCard({
           </div>
         </div>
       </div>
+
+      {/* Examples Section */}
+      {isFlipped && card.examples && card.examples.length > 0 && (
+        <div className="card mb-6">
+          <h3 className="text-lg font-semibold mb-3 text-gray-900">Usage Examples</h3>
+          <div className="space-y-3">
+            {card.examples.slice(0, 2).map((example, index) => (
+              <div key={index} className="p-3 bg-gray-50 rounded-lg">
+                <p className="font-medium text-gray-900 mb-1">{example.english}</p>
+                <p className="text-kikuyu-700 font-medium mb-1">{example.kikuyu}</p>
+                {example.context && (
+                  <p className="text-xs text-gray-600 italic">{example.context}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Grammatical Information */}
+      {isFlipped && card.grammatical_info && (
+        <div className="card mb-6">
+          <h3 className="text-lg font-semibold mb-3 text-gray-900">Grammar</h3>
+          <div className="grid grid-cols-2 gap-4 text-sm">
+            {card.grammatical_info.part_of_speech && (
+              <div>
+                <span className="font-medium text-gray-600">Part of Speech:</span>
+                <span className="ml-2 text-gray-900">{card.grammatical_info.part_of_speech}</span>
+              </div>
+            )}
+            {card.grammatical_info.noun_class && (
+              <div>
+                <span className="font-medium text-gray-600">Noun Class:</span>
+                <span className="ml-2 text-gray-900">{card.grammatical_info.noun_class}</span>
+              </div>
+            )}
+            {card.grammatical_info.infinitive && (
+              <div>
+                <span className="font-medium text-gray-600">Infinitive:</span>
+                <span className="ml-2 text-kikuyu-700 font-mono">{card.grammatical_info.infinitive}</span>
+              </div>
+            )}
+            {card.grammatical_info.verb_class && (
+              <div>
+                <span className="font-medium text-gray-600">Verb Class:</span>
+                <span className="ml-2 text-gray-900">{card.grammatical_info.verb_class}</span>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Sub-translations (Morphological Analysis) */}
       {isFlipped && card.has_sub_translations && card.sub_translations && (
@@ -248,21 +315,48 @@ export default function FlashCard({
         </div>
       </div>
 
-      {/* Categories */}
-      {card.categories.length > 0 && (
-        <div className="mt-6 flex flex-wrap gap-2 justify-center">
-          {card.categories.slice(0, 3).map((category, index) => (
-            <span
-              key={index}
-              className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full"
-            >
-              {category}
-            </span>
-          ))}
-          {card.categories.length > 3 && (
-            <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full">
-              +{card.categories.length - 3} more
-            </span>
+      {/* Categories and Tags */}
+      {((card.categories && card.categories.length > 0) || (card.tags && card.tags.length > 0) || card.subcategory) && (
+        <div className="mt-6 space-y-2">
+          {/* Legacy categories or new subcategory */}
+          <div className="flex flex-wrap gap-2 justify-center">
+            {card.subcategory && (
+              <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full font-medium">
+                {card.subcategory.replace(/_/g, ' ')}
+              </span>
+            )}
+            {card.categories && card.categories.slice(0, 2).map((category, index) => (
+              <span
+                key={index}
+                className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full"
+              >
+                {category}
+              </span>
+            ))}
+            {card.categories && card.categories.length > 2 && (
+              <span className="px-2 py-1 bg-gray-100 text-gray-600 text-xs rounded-full">
+                +{card.categories.length - 2} more
+              </span>
+            )}
+          </div>
+          
+          {/* Tags from curated content */}
+          {card.tags && card.tags.length > 0 && (
+            <div className="flex flex-wrap gap-1 justify-center">
+              {card.tags.slice(0, 4).map((tag, index) => (
+                <span
+                  key={index}
+                  className="px-2 py-1 bg-kikuyu-100 text-kikuyu-800 text-xs rounded-full"
+                >
+                  #{tag}
+                </span>
+              ))}
+              {card.tags.length > 4 && (
+                <span className="px-2 py-1 bg-kikuyu-100 text-kikuyu-800 text-xs rounded-full">
+                  +{card.tags.length - 4}
+                </span>
+              )}
+            </div>
           )}
         </div>
       )}
