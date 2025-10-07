@@ -113,12 +113,13 @@ export default function ProgressPage() {
     });
   };
 
-  const categoryNames = {
+  const categoryNames: Record<CategoryType, string> = {
     vocabulary: 'Vocabulary',
     proverbs: 'Proverbs & Wisdom',
     conjugations: 'Verb Conjugations',
     grammar: 'Grammar Rules',
-    general: 'General Content'
+    phrases: 'Common Phrases',
+    general: 'All Content'
   };
 
   if (loading) {
