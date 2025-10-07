@@ -28,11 +28,58 @@ export default function FlashCard({
 }: FlashCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [touchStart, setTouchStart] = useState<{ x: number; y: number } | null>(null);
+  const [copyFeedback, setCopyFeedback] = useState<string | null>(null);
   const cardRef = useRef<HTMLDivElement>(null);
 
   const handleFlip = () => {
     setIsFlipped(!isFlipped);
     onFlip?.();
+  };
+
+  const handleCopyCard = async () => {
+    try {
+      let copyText = `${card.english} → ${card.kikuyu}`;
+      
+      // Add card ID for reference (prioritize string ID from curated content)
+      const cardId = typeof card.id === 'string' ? card.id : `#${card.id}`;
+      copyText += `\n[ID: ${cardId}]`;
+      
+      // Add pronunciation if available
+      if (card.pronunciation?.ipa) {
+        copyText += `\nPronunciation: /${card.pronunciation.ipa}/`;
+      } else if (card.pronunciation?.simplified) {
+        copyText += `\nPronunciation: ${card.pronunciation.simplified}`;
+      }
+      
+      // Add context if available
+      if (card.context) {
+        copyText += `\nContext: ${card.context}`;
+      }
+      
+      // Add cultural notes if available and shown
+      if (showCulturalNotes && card.cultural_notes) {
+        copyText += `\nCultural Note: ${card.cultural_notes}`;
+      }
+      
+      // Add example if available
+      if (card.examples && card.examples.length > 0) {
+        const firstExample = card.examples[0];
+        copyText += `\nExample: ${firstExample.english} → ${firstExample.kikuyu}`;
+      }
+      
+      // Add source info for curated content
+      if (card.source?.origin) {
+        copyText += `\nSource: ${card.source.origin}`;
+      }
+      
+      await navigator.clipboard.writeText(copyText);
+      setCopyFeedback('Copied!');
+      setTimeout(() => setCopyFeedback(null), 2000);
+    } catch (error) {
+      console.error('Failed to copy:', error);
+      setCopyFeedback('Copy failed');
+      setTimeout(() => setCopyFeedback(null), 2000);
+    }
   };
 
   const handleTouchStart = (e: React.TouchEvent) => {
@@ -94,12 +141,17 @@ export default function FlashCard({
             onMarkKnown?.();
           }
           break;
+        case 'c':
+        case 'C':
+          e.preventDefault();
+          handleCopyCard();
+          break;
       }
     };
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [isFlipped, isKnown, onFlip, onNext, onPrevious, onMarkKnown, onMarkUnknown]);
+  }, [isFlipped, isKnown, onFlip, onNext, onPrevious, onMarkKnown, onMarkUnknown, handleCopyCard]);
 
   return (
     <div className={`w-full max-w-2xl mx-auto ${className}`}>
@@ -305,12 +357,25 @@ export default function FlashCard({
         </div>
 
         {/* Knowledge Actions */}
-        <div className="flex justify-center space-x-4">
+        <div className="flex flex-wrap justify-center gap-4">
           <button
             onClick={isKnown ? onMarkUnknown : onMarkKnown}
             className={`btn ${isKnown ? 'btn-warning' : 'btn-success'} flex items-center`}
           >
             {isKnown ? '❌ Mark as Unknown' : '✅ Mark as Known'}
+          </button>
+          
+          <button
+            onClick={handleCopyCard}
+            className="btn btn-secondary flex items-center relative"
+            title="Copy translation with context"
+          >
+            📋 Copy Translation
+            {copyFeedback && (
+              <span className="absolute -top-8 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-black text-white text-xs rounded whitespace-nowrap">
+                {copyFeedback}
+              </span>
+            )}
           </button>
         </div>
       </div>
@@ -363,7 +428,7 @@ export default function FlashCard({
 
       {/* Keyboard Shortcuts Help */}
       <div className="mt-8 text-center text-xs text-gray-500">
-        <p>Keyboard shortcuts: Space/Enter (flip) • ← → (navigate) • K (mark known)</p>
+        <p>Keyboard shortcuts: Space/Enter (flip) • ← → (navigate) • K (mark known) • C (copy)</p>
         <p>Touch: Tap (flip) • Swipe left/right (navigate)</p>
       </div>
     </div>
