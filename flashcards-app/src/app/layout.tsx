@@ -21,15 +21,25 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/kikuyu-flash-cards.ico" />
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Kikuyu Flashcards" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                const theme = localStorage.getItem('theme') || 'dark';
+                document.documentElement.className = theme;
+              })();
+            `,
+          }}
+        />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider>
           <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 light:from-kikuyu-50 light:to-blue-50">
             <main className="container mx-auto px-4 py-6">

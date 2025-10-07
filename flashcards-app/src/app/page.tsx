@@ -18,7 +18,7 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
     proverbs: 'Proverbs & Wisdom',
     conjugations: 'Verb Conjugations',
     grammar: 'Grammar Rules',
-    general: 'General Content',
+    general: 'All Content',
     phrases: 'Common Phrases'
   };
 
@@ -27,7 +27,7 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
     proverbs: 'Traditional wisdom and cultural sayings',
     conjugations: 'Verb patterns and tenses',
     grammar: 'Language rules and structures',
-    general: 'Mixed content and expressions',
+    general: 'All categories combined in one place',
     phrases: 'Everyday expressions and sentences'
   };
 

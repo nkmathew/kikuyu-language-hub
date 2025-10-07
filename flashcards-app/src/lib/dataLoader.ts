@@ -83,7 +83,7 @@ class DataLoader {
         'grammar/easy_kikuyu_batch_004_grammar.json',
         'grammar/easy_kikuyu_batch_005_grammar.json'
       ],
-      general: ['cultural/easy_kikuyu_batch_001_cultural.json'],
+      general: [], // Will be populated with all categories combined
       phrases: [
         'phrases/common_greetings.json',
         'phrases/easy_kikuyu_batch_002_phrases.json',
@@ -92,7 +92,56 @@ class DataLoader {
         'phrases/easy_kikuyu_batch_005_phrases.json'
       ]
     };
-    
+
+    // Special handling for 'general' - combine all categories
+    if (category === 'general') {
+      const allFiles: string[] = [
+        ...curatedFiles.vocabulary,
+        ...curatedFiles.conjugations,
+        ...curatedFiles.proverbs,
+        ...curatedFiles.grammar,
+        ...curatedFiles.phrases
+      ];
+      const filePaths = allFiles;
+
+      if (filePaths.length === 0) {
+        return null;
+      }
+
+      try {
+        const allCards: Flashcard[] = [];
+
+        for (const filePath of filePaths) {
+          const curatedContent = await this.loadCuratedContent(filePath);
+          allCards.push(...curatedContent.entries);
+        }
+
+        // Convert curated content to CategoryData format
+        const beginnerCards = allCards.filter(card => card.difficulty === 'beginner');
+        const intermediateCards = allCards.filter(card => card.difficulty === 'intermediate');
+        const advancedCards = allCards.filter(card => card.difficulty === 'advanced');
+
+        return {
+          category: 'general',
+          total_count: allCards.length,
+          difficulty_counts: {
+            beginner: beginnerCards.length,
+            intermediate: intermediateCards.length,
+            advanced: advancedCards.length
+          },
+          items: {
+            beginner: beginnerCards,
+            intermediate: intermediateCards,
+            advanced: advancedCards,
+            all: allCards
+          }
+        };
+      } catch (error) {
+        console.error(`Error loading general content:`, error);
+        return null;
+      }
+    }
+
     const filePaths = curatedFiles[category];
     if (!filePaths || filePaths.length === 0) {
       return null;
