@@ -1,0 +1,62 @@
+{
+  "source_text": "different shapes",
+  "target_text": "Ũmbo wa Indo mwanya mwanya",
+  "context": "Vocabulary for describing various geometric shapes",
+  "cultural_notes": "Native speaker vocabulary for teaching shapes, using natural comparisons like honeycomb (magua ma njũkĩ) for hexagon",
+  "difficulty": "beginner",
+  "categories": ["vocabulary", "geometry", "educational"],
+  "tags": ["shapes", "geometry", "basic vocabulary", "descriptive"],
+  "quality_score": 4.6,
+  "metadata": {
+    "source": "Easy Kikuyu - Emmanuel Kariuki",
+    "lesson_number": "006",
+    "content_type": "vocabulary_list"
+  },
+  "sub_translations": [
+    {
+      "source_word": "Ũmbo wa mĩena ĩna mĩĩgananu",
+      "target_word": "shape with four equal sides",
+      "context": "Square"
+    },
+    {
+      "source_word": "Ũmbo wa mĩena ĩna itaĩganaine",
+      "target_word": "shape with four unequal sides",
+      "context": "Rectangle"
+    },
+    {
+      "source_word": "Ũmbo wa mĩthece ĩtatũ",
+      "target_word": "shape with three corners",
+      "context": "Triangle"
+    },
+    {
+      "source_word": "Ũmbo wa mĩena ĩtandatũ ta magua ma njũkĩ",
+      "target_word": "shape with six sides like honeycomb",
+      "context": "Hexagon"
+    },
+    {
+      "source_word": "Ũmbo wa kabirũ",
+      "target_word": "circle shape",
+      "context": "Circle"
+    },
+    {
+      "source_word": "Mweri wa mĩthece ĩrĩĩ",
+      "target_word": "moon with two corners",
+      "context": "Crescent"
+    },
+    {
+      "source_word": "Kĩhembe",
+      "target_word": "horn shape",
+      "context": "Cone"
+    },
+    {
+      "source_word": "Mũhari mũogomu",
+      "target_word": "straight arrow",
+      "context": "Straight line"
+    },
+    {
+      "source_word": "Mũhari mũrũngarũ",
+      "target_word": "curved arrow",
+      "context": "Curved line"
+    }
+  ]
+}

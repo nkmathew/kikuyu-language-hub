@@ -82,17 +82,17 @@ function CategoryCard({ category, data, stats }: CategoryCardProps) {
 
             {/* Difficulty Breakdown */}
             <div className="grid grid-cols-3 gap-2 text-xs">
-              <div className="text-center p-2 bg-green-50 rounded">
-                <div className="font-semibold text-green-600">{data.difficulty_counts.beginner}</div>
-                <div className="text-green-500">Beginner</div>
+              <div className="text-center p-2 bg-green-50 dark:bg-green-900 dark:bg-opacity-20 rounded">
+                <div className="font-semibold text-green-600 dark:text-green-400">{data.difficulty_counts.beginner}</div>
+                <div className="text-green-500 dark:text-green-500">Beginner</div>
               </div>
-              <div className="text-center p-2 bg-yellow-50 rounded">
-                <div className="font-semibold text-yellow-600">{data.difficulty_counts.intermediate}</div>
-                <div className="text-yellow-500">Intermediate</div>
+              <div className="text-center p-2 bg-yellow-50 dark:bg-yellow-900 dark:bg-opacity-20 rounded">
+                <div className="font-semibold text-yellow-600 dark:text-yellow-400">{data.difficulty_counts.intermediate}</div>
+                <div className="text-yellow-500 dark:text-yellow-500">Intermediate</div>
               </div>
-              <div className="text-center p-2 bg-red-50 rounded">
-                <div className="font-semibold text-red-600">{data.difficulty_counts.advanced}</div>
-                <div className="text-red-500">Advanced</div>
+              <div className="text-center p-2 bg-red-50 dark:bg-red-900 dark:bg-opacity-20 rounded">
+                <div className="font-semibold text-red-600 dark:text-red-400">{data.difficulty_counts.advanced}</div>
+                <div className="text-red-500 dark:text-red-500">Advanced</div>
               </div>
             </div>
           </div>
