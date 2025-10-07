@@ -4,6 +4,7 @@ const nextConfig = {
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
   // distDir: 'out', // Use default .next for development
+  outputFileTracingRoot: require('path').join(__dirname),
   images: {
     unoptimized: true
   }
