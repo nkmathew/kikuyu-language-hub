@@ -63,6 +63,16 @@ export interface Flashcard {
   sub_translations?: SubTranslation[];
 }
 
+export interface BatchInfo {
+  batch_number: string;
+  total_cards: number;
+  category: string;
+  source_files: string[];
+  created_date: string;
+  last_updated?: string;
+  description?: string;
+}
+
 export interface CuratedContentMetadata {
   schema_version: string;
   created_date: string;
@@ -74,8 +84,10 @@ export interface CuratedContentMetadata {
 }
 
 export interface CuratedContent {
-  metadata: CuratedContentMetadata;
-  entries: Flashcard[];
+  batch_info?: BatchInfo;
+  metadata?: CuratedContentMetadata;
+  flashcards?: Flashcard[];
+  entries?: Flashcard[];
 }
 
 export interface CategoryData {

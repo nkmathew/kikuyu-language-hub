@@ -118,7 +118,9 @@ class DataLoader {
 
         for (const filePath of filePaths) {
           const curatedContent = await this.loadCuratedContent(filePath);
-          allCards.push(...curatedContent.entries);
+          // Handle both formats: batch_info/flashcards or metadata/entries
+          const cards = curatedContent.flashcards || curatedContent.entries || [];
+          allCards.push(...cards);
         }
 
         // Convert curated content to CategoryData format
@@ -157,7 +159,9 @@ class DataLoader {
       
       for (const filePath of filePaths) {
         const curatedContent = await this.loadCuratedContent(filePath);
-        allCards.push(...curatedContent.entries);
+        // Handle both formats: batch_info/flashcards or metadata/entries
+        const cards = curatedContent.flashcards || curatedContent.entries || [];
+        allCards.push(...cards);
       }
       
       // Convert curated content to CategoryData format
