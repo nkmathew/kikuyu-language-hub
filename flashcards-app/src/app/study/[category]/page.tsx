@@ -35,31 +35,32 @@ export default function StudyPage() {
   const [cardsStudied, setCardsStudied] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const [mode, setMode] = useState<'study' | 'flashcard'>('study');
+  const [sortBy, setSortBy] = useState<'recent' | 'alphabetical' | 'random'>('recent');
 
   // Load cards and user progress
   useEffect(() => {
     loadCards();
     loadUserProgress();
-  }, [category, difficultyFilter]);
+  }, [category, difficultyFilter, sortBy]);
 
   const loadCards = async () => {
     try {
       setLoading(true);
       const categoryData = await dataLoader.loadCategoryWithValidation(category, false);
-      
+
       let cardList: StudyFlashcard[] = [];
-      
+
       if (difficultyFilter) {
         cardList = categoryData.items[difficultyFilter] || [];
       } else {
         cardList = categoryData.items.all || [];
       }
-      
-      // Shuffle cards for better learning experience
-      const shuffledCards = [...cardList].sort(() => Math.random() - 0.5);
-      setCards(shuffledCards);
-      
-      if (shuffledCards.length === 0) {
+
+      // Apply sorting
+      const sortedCards = sortCards([...cardList], sortBy);
+      setCards(sortedCards);
+
+      if (sortedCards.length === 0) {
         setError('No flashcards found for this category and difficulty level.');
       }
     } catch (err) {
@@ -67,6 +68,23 @@ export default function StudyPage() {
       console.error('Error loading cards:', err);
     } finally {
       setLoading(false);
+    }
+  };
+
+  const sortCards = (cardList: StudyFlashcard[], sortType: 'recent' | 'alphabetical' | 'random'): StudyFlashcard[] => {
+    switch (sortType) {
+      case 'recent':
+        return cardList.sort((a, b) => {
+          const dateA = a.source?.last_updated || a.source?.created_date || '';
+          const dateB = b.source?.last_updated || b.source?.created_date || '';
+          return dateB.localeCompare(dateA); // Most recent first
+        });
+      case 'alphabetical':
+        return cardList.sort((a, b) => a.english.localeCompare(b.english));
+      case 'random':
+        return cardList.sort(() => Math.random() - 0.5);
+      default:
+        return cardList;
     }
   };
 
@@ -205,11 +223,11 @@ export default function StudyPage() {
           <Link href="/" className="btn btn-secondary">
             ← Back
           </Link>
-          <h1 className="text-2xl font-bold text-gray-900 capitalize">
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100 capitalize">
             {category} {difficultyFilter && `- ${difficultyFilter}`}
           </h1>
         </div>
-        
+
         <div className="flex items-center gap-4">
           <ThemeToggle />
           <ModeToggle mode={mode} onModeChange={setMode} />
@@ -219,6 +237,67 @@ export default function StudyPage() {
             </div>
             <div className="text-xs text-gray-400 dark:text-gray-500">
               {cardsStudied} studied • {correctAnswers} known
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Study Options - Moved to Top */}
+      <div className="mb-6 card p-4">
+        <div className="grid md:grid-cols-2 gap-4">
+          {/* Difficulty Filter */}
+          <div>
+            <h3 className="text-sm font-semibold mb-2 text-gray-700 dark:text-gray-300">Difficulty Level</h3>
+            <div className="flex flex-wrap gap-2">
+              <Link
+                href={`/study/${category}`}
+                className={`btn ${!difficultyFilter ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+              >
+                All Levels
+              </Link>
+              <Link
+                href={`/study/${category}?difficulty=beginner`}
+                className={`btn ${difficultyFilter === 'beginner' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+              >
+                Beginner
+              </Link>
+              <Link
+                href={`/study/${category}?difficulty=intermediate`}
+                className={`btn ${difficultyFilter === 'intermediate' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+              >
+                Intermediate
+              </Link>
+              <Link
+                href={`/study/${category}?difficulty=advanced`}
+                className={`btn ${difficultyFilter === 'advanced' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+              >
+                Advanced
+              </Link>
+            </div>
+          </div>
+
+          {/* Sort Options */}
+          <div>
+            <h3 className="text-sm font-semibold mb-2 text-gray-700 dark:text-gray-300">Sort By</h3>
+            <div className="flex flex-wrap gap-2">
+              <button
+                onClick={() => setSortBy('recent')}
+                className={`btn ${sortBy === 'recent' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+              >
+                📅 Recently Updated
+              </button>
+              <button
+                onClick={() => setSortBy('alphabetical')}
+                className={`btn ${sortBy === 'alphabetical' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+              >
+                🔤 A-Z
+              </button>
+              <button
+                onClick={() => setSortBy('random')}
+                className={`btn ${sortBy === 'random' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
+              >
+                🔀 Random
+              </button>
             </div>
           </div>
         </div>
@@ -289,32 +368,33 @@ export default function StudyPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <div>
               <div className="text-2xl font-bold text-kikuyu-600">{cards.length}</div>
-              <div className="text-sm text-gray-500">Total Cards</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Total Cards</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-green-600">{cardsStudied}</div>
-              <div className="text-sm text-gray-500">Studied</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Studied</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-blue-600">{correctAnswers}</div>
-              <div className="text-sm text-gray-500">Known</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Known</div>
             </div>
             <div>
               <div className="text-2xl font-bold text-purple-600">
                 {cardsStudied > 0 ? Math.round((correctAnswers / cardsStudied) * 100) : 0}%
               </div>
-              <div className="text-sm text-gray-500">Accuracy</div>
+              <div className="text-sm text-gray-500 dark:text-gray-400">Accuracy</div>
             </div>
           </div>
-          
+
           <div className="space-x-4">
-            <button 
+            <button
               onClick={() => {
                 setCurrentIndex(0);
                 setCardsStudied(0);
                 setCorrectAnswers(0);
-                // Re-shuffle cards
-                setCards([...cards].sort(() => Math.random() - 0.5));
+                // Re-sort cards based on current sort setting
+                const resortedCards = sortCards([...cards], sortBy);
+                setCards(resortedCards);
               }}
               className="btn btn-primary"
             >
@@ -326,37 +406,6 @@ export default function StudyPage() {
           </div>
         </div>
       )}
-
-      {/* Filter Options */}
-      <div className="mt-8">
-        <h3 className="text-lg font-semibold mb-3">Study Options</h3>
-        <div className="flex flex-wrap gap-2">
-          <Link 
-            href={`/study/${category}`}
-            className={`btn ${!difficultyFilter ? 'btn-primary' : 'btn-secondary'} btn-sm`}
-          >
-            All Levels
-          </Link>
-          <Link 
-            href={`/study/${category}?difficulty=beginner`}
-            className={`btn ${difficultyFilter === 'beginner' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
-          >
-            Beginner
-          </Link>
-          <Link 
-            href={`/study/${category}?difficulty=intermediate`}
-            className={`btn ${difficultyFilter === 'intermediate' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
-          >
-            Intermediate
-          </Link>
-          <Link 
-            href={`/study/${category}?difficulty=advanced`}
-            className={`btn ${difficultyFilter === 'advanced' ? 'btn-primary' : 'btn-secondary'} btn-sm`}
-          >
-            Advanced
-          </Link>
-        </div>
-      </div>
     </div>
   );
 }
