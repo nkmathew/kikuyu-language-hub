@@ -109,14 +109,14 @@ export class DataValidator {
             ...card,
             _validationIssues: validation.issues,
             _validationSeverity: validation.severity
-          });
+          } as any);
         } else {
           // Include with warnings
           validCards.push({
             ...card,
             _validationIssues: validation.issues,
             _validationSeverity: validation.severity
-          });
+          } as any);
         }
       }
     });
