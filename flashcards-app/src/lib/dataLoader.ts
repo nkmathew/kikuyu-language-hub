@@ -67,7 +67,8 @@ class DataLoader {
         'vocabulary/easy_kikuyu_batch_005_vocab.json',
         'vocabulary/easy_kikuyu_batch_006_vocab.json',
         'vocabulary/easy_kikuyu_batch_007_vocab.json',
-        'vocabulary/easy_kikuyu_batch_008_vocab.json'
+        'vocabulary/easy_kikuyu_batch_008_vocab.json',
+        'vocabulary/easy_kikuyu_batch_009_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
@@ -75,11 +76,13 @@ class DataLoader {
         'conjugations/easy_kikuyu_batch_002_conjugations.json',
         'conjugations/easy_kikuyu_batch_004_conjugations.json',
         'conjugations/easy_kikuyu_batch_005_conjugations.json',
-        'conjugations/easy_kikuyu_batch_007_conjugations.json'
+        'conjugations/easy_kikuyu_batch_007_conjugations.json',
+        'conjugations/easy_kikuyu_batch_009_conjugations.json'
       ],
       proverbs: [
         'proverbs/easy_kikuyu_wisdom.json',
-        'proverbs/easy_kikuyu_batch_001_proverbs.json'
+        'proverbs/easy_kikuyu_batch_001_proverbs.json',
+        'proverbs/easy_kikuyu_batch_009_proverbs.json'
       ],
       grammar: [
         'grammar/easy_kikuyu_batch_002_grammar.json',
@@ -87,7 +90,8 @@ class DataLoader {
         'grammar/easy_kikuyu_batch_004_grammar.json',
         'grammar/easy_kikuyu_batch_005_grammar.json',
         'grammar/easy_kikuyu_batch_007_grammar.json',
-        'grammar/easy_kikuyu_batch_008_grammar.json'
+        'grammar/easy_kikuyu_batch_008_grammar.json',
+        'grammar/easy_kikuyu_batch_009_grammar.json'
       ],
       general: [], // Will be populated with all categories combined
       phrases: [
@@ -97,7 +101,8 @@ class DataLoader {
         'phrases/easy_kikuyu_batch_004_phrases.json',
         'phrases/easy_kikuyu_batch_005_phrases.json',
         'phrases/easy_kikuyu_batch_006_phrases.json',
-        'phrases/easy_kikuyu_batch_008_phrases.json'
+        'phrases/easy_kikuyu_batch_008_phrases.json',
+        'phrases/easy_kikuyu_batch_009_phrases.json'
       ]
     };
 
