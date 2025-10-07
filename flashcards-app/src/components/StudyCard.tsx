@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Flashcard } from '@/types/flashcard';
 import ReportCard from './ReportCard';
+import { getRelativeTime, getFullDateTime } from '@/lib/dateUtils';
 
 interface StudyCardProps {
   card: Flashcard;
@@ -108,13 +109,23 @@ export default function StudyCard({
 
             {/* Kikuyu */}
             <div className="space-y-2">
-              <div className="flex items-center justify-between">
+              <div className="flex items-center justify-between gap-2">
                 <span className="px-3 py-1 bg-kikuyu-500 light:bg-kikuyu-100 text-white light:text-kikuyu-800 text-sm rounded-full font-medium">
                   Kikuyu
                 </span>
-                <span className="px-2 py-1 bg-gray-600 light:bg-gray-100 text-white light:text-gray-800 text-xs rounded-full font-medium">
-                  Score: {(card.quality_score || card.quality?.confidence_score || 0).toFixed(1)}
-                </span>
+                <div className="flex items-center gap-2">
+                  <span className="px-2 py-1 bg-gray-600 light:bg-gray-100 text-white light:text-gray-800 text-xs rounded-full font-medium">
+                    Score: {(card.quality_score || card.quality?.confidence_score || 0).toFixed(1)}
+                  </span>
+                  {card.source?.last_updated && (
+                    <span
+                      className="px-2 py-1 bg-gray-600 light:bg-gray-100 text-white light:text-gray-800 text-xs rounded-full font-medium cursor-help"
+                      title={getFullDateTime(card.source.last_updated)}
+                    >
+                      🕐 {getRelativeTime(card.source.last_updated)}
+                    </span>
+                  )}
+                </div>
               </div>
               <div className="p-4 bg-gray-700 light:bg-gray-50 rounded-lg">
                 <h3 className="text-lg md:text-xl font-bold text-white light:text-gray-900 leading-relaxed">

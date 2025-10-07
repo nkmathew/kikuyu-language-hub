@@ -37,6 +37,8 @@ export interface SourceInfo {
   attribution?: string;
   license?: string;
   url?: string;
+  created_date?: string;
+  last_updated?: string;
 }
 
 export interface Flashcard {
