@@ -62,12 +62,14 @@ class DataLoader {
         'vocabulary/easy_kikuyu_animals.json',
         'vocabulary/easy_kikuyu_batch_001_vocab.json',
         'vocabulary/easy_kikuyu_batch_002_vocab.json',
-        'vocabulary/easy_kikuyu_batch_003_vocab.json'
+        'vocabulary/easy_kikuyu_batch_003_vocab.json',
+        'vocabulary/easy_kikuyu_batch_004_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
         'conjugations/easy_kikuyu_batch_001_conjugations.json',
-        'conjugations/easy_kikuyu_batch_002_conjugations.json'
+        'conjugations/easy_kikuyu_batch_002_conjugations.json',
+        'conjugations/easy_kikuyu_batch_004_conjugations.json'
       ],
       proverbs: [
         'proverbs/easy_kikuyu_wisdom.json',
@@ -75,13 +77,15 @@ class DataLoader {
       ],
       grammar: [
         'grammar/easy_kikuyu_batch_002_grammar.json',
-        'grammar/easy_kikuyu_batch_003_grammar.json'
+        'grammar/easy_kikuyu_batch_003_grammar.json',
+        'grammar/easy_kikuyu_batch_004_grammar.json'
       ],
       general: ['cultural/easy_kikuyu_batch_001_cultural.json'],
       phrases: [
         'phrases/common_greetings.json',
         'phrases/easy_kikuyu_batch_002_phrases.json',
-        'phrases/easy_kikuyu_batch_003_phrases.json'
+        'phrases/easy_kikuyu_batch_003_phrases.json',
+        'phrases/easy_kikuyu_batch_004_phrases.json'
       ]
     };
     
