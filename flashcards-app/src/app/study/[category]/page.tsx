@@ -4,6 +4,8 @@ import { useState, useEffect, useCallback } from 'react';
 import { useParams, useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import FlashCard from '@/components/FlashCard';
+import StudyCard from '@/components/StudyCard';
+import ModeToggle from '@/components/ModeToggle';
 import { dataLoader } from '@/lib/dataLoader';
 import { localStorageManager } from '@/lib/localStorage';
 import { Flashcard, CategoryType, DifficultyLevel } from '@/types/flashcard';
@@ -31,6 +33,7 @@ export default function StudyPage() {
   const [sessionStartTime] = useState(new Date());
   const [cardsStudied, setCardsStudied] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
+  const [mode, setMode] = useState<'study' | 'flashcard'>('study');
 
   // Load cards and user progress
   useEffect(() => {
@@ -194,7 +197,7 @@ export default function StudyPage() {
   const progress = ((currentIndex + 1) / cards.length) * 100;
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className={`mx-auto ${mode === 'study' ? 'max-w-7xl' : 'max-w-4xl'}`}>
       {/* Header */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center space-x-4">
@@ -206,44 +209,79 @@ export default function StudyPage() {
           </h1>
         </div>
         
-        <div className="text-right">
-          <div className="text-sm text-gray-500">
-            Card {currentIndex + 1} of {cards.length}
-          </div>
-          <div className="text-xs text-gray-400">
-            {cardsStudied} studied • {correctAnswers} known
+        <div className="flex items-center gap-4">
+          <ModeToggle mode={mode} onModeChange={setMode} />
+          <div className="text-right">
+            <div className="text-sm text-gray-500">
+              {mode === 'flashcard' ? `Card ${currentIndex + 1} of ${cards.length}` : `${cards.length} cards`}
+            </div>
+            <div className="text-xs text-gray-400">
+              {cardsStudied} studied • {correctAnswers} known
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Progress Bar */}
-      <div className="mb-6">
-        <div className="flex justify-between text-sm text-gray-500 mb-1">
-          <span>Progress</span>
-          <span>{Math.round(progress)}%</span>
+      {/* Progress Bar (Flashcard Mode Only) */}
+      {mode === 'flashcard' && (
+        <div className="mb-6">
+          <div className="flex justify-between text-sm text-gray-500 mb-1">
+            <span>Progress</span>
+            <span>{Math.round(progress)}%</span>
+          </div>
+          <div className="w-full bg-gray-200 rounded-full h-2">
+            <div 
+              className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-2 rounded-full transition-all duration-300"
+              style={{ width: `${progress}%` }}
+            ></div>
+          </div>
         </div>
-        <div className="w-full bg-gray-200 rounded-full h-2">
-          <div 
-            className="bg-gradient-to-r from-kikuyu-500 to-green-500 h-2 rounded-full transition-all duration-300"
-            style={{ width: `${progress}%` }}
-          ></div>
+      )}
+
+      {/* Study/Flashcard Content */}
+      {mode === 'study' ? (
+        <div className="space-y-6 mb-6">
+          {cards.map((card, index) => (
+            <StudyCard
+              key={card.id}
+              card={card}
+              onMarkKnown={() => {
+                localStorageManager.markCardAsKnown(card.id);
+                setKnownCards(prev => new Set(Array.from(prev).concat(card.id)));
+                setCorrectAnswers(prev => prev + 1);
+                if (!card._studied) {
+                  card._studied = true;
+                  setCardsStudied(prev => prev + 1);
+                }
+              }}
+              onMarkUnknown={() => {
+                localStorageManager.markCardAsUnknown(card.id);
+                setKnownCards(prev => {
+                  const newSet = new Set(prev);
+                  newSet.delete(card.id);
+                  return newSet;
+                });
+              }}
+              isKnown={knownCards.has(card.id)}
+              className="mb-6"
+            />
+          ))}
         </div>
-      </div>
+      ) : (
+        <FlashCard
+          card={currentCard}
+          onFlip={handleFlip}
+          onNext={currentIndex < cards.length - 1 ? handleNext : undefined}
+          onPrevious={currentIndex > 0 ? handlePrevious : undefined}
+          onMarkKnown={handleMarkKnown}
+          onMarkUnknown={handleMarkUnknown}
+          isKnown={isCardKnown}
+          className="mb-6"
+        />
+      )}
 
-      {/* Flashcard */}
-      <FlashCard
-        card={currentCard}
-        onFlip={handleFlip}
-        onNext={currentIndex < cards.length - 1 ? handleNext : undefined}
-        onPrevious={currentIndex > 0 ? handlePrevious : undefined}
-        onMarkKnown={handleMarkKnown}
-        onMarkUnknown={handleMarkUnknown}
-        isKnown={isCardKnown}
-        className="mb-6"
-      />
-
-      {/* Session Complete */}
-      {currentIndex === cards.length - 1 && (
+      {/* Session Complete (Flashcard Mode Only) */}
+      {mode === 'flashcard' && currentIndex === cards.length - 1 && (
         <div className="card text-center">
           <h2 className="text-xl font-bold mb-4">🎉 Session Complete!</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
