@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: 'export', // Temporarily disabled for development
+  // output: 'export', // Will be enabled for production build
   trailingSlash: true,
   skipTrailingSlashRedirect: true,
-  distDir: 'out',
+  // distDir: 'out', // Use default .next for development
   images: {
     unoptimized: true
   }
