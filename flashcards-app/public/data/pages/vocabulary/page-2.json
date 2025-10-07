@@ -1,0 +1,1391 @@
+{
+  "page": 2,
+  "totalPages": 18,
+  "totalCards": 1747,
+  "startIndex": 200,
+  "endIndex": 299,
+  "cards": [
+    {
+      "id": 305,
+      "english": "good evening",
+      "kikuyu": "úhoro wa húainí",
+      "difficulty": "beginner",
+      "context": "Evening greeting - literally 'how is your evening'",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 306,
+      "english": "good morning",
+      "kikuyu": "úhoro wa rúciní",
+      "difficulty": "beginner",
+      "context": "Morning greeting - literally 'how is your morning'",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 307,
+      "english": "good afternoon",
+      "kikuyu": "úhoro wa míaraho",
+      "difficulty": "beginner",
+      "context": "Afternoon greeting",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 308,
+      "english": "how are you?",
+      "kikuyu": "úhana atía",
+      "difficulty": "beginner",
+      "context": "Standard 'how are you' question",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 309,
+      "english": "I am fine",
+      "kikuyu": "ndí mwega",
+      "difficulty": "beginner",
+      "context": "Standard response to 'how are you'",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 310,
+      "english": "hello",
+      "kikuyu": "wĩmwega",
+      "difficulty": "beginner",
+      "context": "General greeting",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 312,
+      "english": "see you soon",
+      "kikuyu": "tuonane ica ikuhí",
+      "difficulty": "intermediate",
+      "context": "Short-term parting phrase",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 313,
+      "english": "see you later",
+      "kikuyu": "tuonane mahinda mangí",
+      "difficulty": "intermediate",
+      "context": "General parting phrase",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 314,
+      "english": "good night",
+      "kikuyu": "koma wega",
+      "difficulty": "beginner",
+      "context": "Bedtime farewell",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Evening Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 315,
+      "english": "goodbye",
+      "kikuyu": "tigoi na wega",
+      "difficulty": "beginner",
+      "context": "General farewell",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Formal Greetings"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 316,
+      "english": "I love you",
+      "kikuyu": "níngwendete",
+      "difficulty": "beginner",
+      "context": "Declaration of love",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Love Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 317,
+      "english": "I miss you",
+      "kikuyu": "ndíriríirie gúkuona",
+      "difficulty": "intermediate",
+      "context": "Expression of missing someone",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Love Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 320,
+      "english": "you are beautiful",
+      "kikuyu": "wí múthaka",
+      "difficulty": "beginner",
+      "context": "Compliment on beauty",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Love Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 321,
+      "english": "my love",
+      "kikuyu": "mwendwa wakwa",
+      "difficulty": "beginner",
+      "context": "Term of endearment",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Love Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 322,
+      "english": "you look beautiful",
+      "kikuyu": "úthakaríte",
+      "difficulty": "intermediate",
+      "context": "Compliment on appearance",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Love Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 324,
+      "english": "you are mine",
+      "kikuyu": "wí wakwa",
+      "difficulty": "intermediate",
+      "context": "Possessive love expression",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Love Expressions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 325,
+      "english": "where are you?",
+      "kikuyu": "wí kú?",
+      "difficulty": "beginner",
+      "context": "Location question",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Directional Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 329,
+      "english": "where were you?",
+      "kikuyu": "warí kú?",
+      "difficulty": "intermediate",
+      "context": "Past location question",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Directional Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 330,
+      "english": "how much?",
+      "kikuyu": "úigana atía?",
+      "difficulty": "beginner",
+      "context": "Price/quantity question",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Common Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 336,
+      "english": "what is wrong?",
+      "kikuyu": "níkí kíúru?",
+      "difficulty": "intermediate",
+      "context": "Problem inquiry",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Common Questions"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 338,
+      "english": "thank you",
+      "kikuyu": "ní wega",
+      "difficulty": "beginner",
+      "context": "Expression of gratitude",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 339,
+      "english": "I am sorry",
+      "kikuyu": "níndahera",
+      "difficulty": "beginner",
+      "context": "Apology expression",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 340,
+      "english": "you are welcome",
+      "kikuyu": "wí múnyite úgeni",
+      "difficulty": "intermediate",
+      "context": "Response to thanks",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 341,
+      "english": "please help me",
+      "kikuyu": "ndagúthaitha ndeithia",
+      "difficulty": "intermediate",
+      "context": "Request for assistance",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 342,
+      "english": "I don't know",
+      "kikuyu": "ndiúí",
+      "difficulty": "beginner",
+      "context": "Expression of ignorance",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 343,
+      "english": "I don't understand",
+      "kikuyu": "ndiranyita",
+      "difficulty": "beginner",
+      "context": "Comprehension difficulty",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 344,
+      "english": "excuse me",
+      "kikuyu": "tebu",
+      "difficulty": "beginner",
+      "context": "Polite interruption",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 345,
+      "english": "it is okay",
+      "kikuyu": "nowega",
+      "difficulty": "beginner",
+      "context": "Acceptance/approval",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 346,
+      "english": "I don't want",
+      "kikuyu": "ndirenda",
+      "difficulty": "beginner",
+      "context": "Refusal expression",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 347,
+      "english": "welcome home",
+      "kikuyu": "karibu múcií",
+      "difficulty": "intermediate",
+      "context": "Homecoming greeting",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 348,
+      "english": "god is good",
+      "kikuyu": "ngai ní mwega",
+      "difficulty": "beginner",
+      "context": "Religious expression",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 349,
+      "english": "no problem",
+      "kikuyu": "hatírí na thína",
+      "difficulty": "intermediate",
+      "context": "Reassurance expression",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Daily Conversations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 350,
+      "english": "help!",
+      "kikuyu": "teithia!",
+      "difficulty": "beginner",
+      "context": "Emergency call for help",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Emergency Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 351,
+      "english": "fire!",
+      "kikuyu": "mwaki!",
+      "difficulty": "beginner",
+      "context": "Fire emergency alert",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Emergency Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 352,
+      "english": "stop!",
+      "kikuyu": "tiga!",
+      "difficulty": "beginner",
+      "context": "Command to halt",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Emergency Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 353,
+      "english": "call the police!",
+      "kikuyu": "ĩta borithi!",
+      "difficulty": "intermediate",
+      "context": "Emergency police request",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Emergency Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 354,
+      "english": "go away!",
+      "kikuyu": "thiĩ!",
+      "difficulty": "beginner",
+      "context": "Command to leave",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Emergency Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 355,
+      "english": "leave me alone!",
+      "kikuyu": "tigana na niĩ!",
+      "difficulty": "intermediate",
+      "context": "Request to be left alone",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Emergency Phrases"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 356,
+      "english": "zero",
+      "kikuyu": "kĩbũgũ",
+      "difficulty": "beginner",
+      "context": "Number 0",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 357,
+      "english": "two",
+      "kikuyu": "igĩrĩ",
+      "difficulty": "beginner",
+      "context": "Number 2",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 358,
+      "english": "three",
+      "kikuyu": "ithatũ",
+      "difficulty": "beginner",
+      "context": "Number 3",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 359,
+      "english": "four",
+      "kikuyu": "inya",
+      "difficulty": "beginner",
+      "context": "Number 4",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 360,
+      "english": "five",
+      "kikuyu": "ithano",
+      "difficulty": "beginner",
+      "context": "Number 5",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 361,
+      "english": "six",
+      "kikuyu": "ithathatũ",
+      "difficulty": "beginner",
+      "context": "Number 6",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "i-",
+          "target": "i-",
+          "position": 0,
+          "context": "Number class prefix"
+        },
+        {
+          "source": "thatha",
+          "target": "thatha",
+          "position": 1,
+          "context": "Double of three"
+        },
+        {
+          "source": "-tũ",
+          "target": "-tũ",
+          "position": 2,
+          "context": "Number suffix"
+        }
+      ]
+    },
+    {
+      "id": 362,
+      "english": "twenty",
+      "kikuyu": "mĩrongo ĩrĩ",
+      "difficulty": "intermediate",
+      "context": "Number 20 - literally 'two tens'",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "tens",
+          "target": "mĩrongo",
+          "position": 0,
+          "context": "Plural of ten"
+        },
+        {
+          "source": "two",
+          "target": "ĩrĩ",
+          "position": 1,
+          "context": "Number modifier"
+        }
+      ]
+    },
+    {
+      "id": 363,
+      "english": "thirty",
+      "kikuyu": "mĩrongo ithatũ",
+      "difficulty": "intermediate",
+      "context": "Number 30 - literally 'three tens'",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 364,
+      "english": "one hundred",
+      "kikuyu": "igana rĩmwe",
+      "difficulty": "intermediate",
+      "context": "Number 100",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 365,
+      "english": "one thousand",
+      "kikuyu": "ngiri ĩmwe",
+      "difficulty": "intermediate",
+      "context": "Number 1000",
+      "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+      "quality_score": 4.8,
+      "categories": [
+        "Numbers System"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 133,
+      "english": "to go",
+      "kikuyu": "gũthii",
+      "difficulty": "beginner",
+      "context": "Basic movement verb - infinitive form",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 134,
+      "english": "to do",
+      "kikuyu": "gũĩka",
+      "difficulty": "beginner",
+      "context": "General action verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 135,
+      "english": "to stay waiting",
+      "kikuyu": "gũtinda",
+      "difficulty": "intermediate",
+      "context": "Verb expressing waiting/delaying",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 136,
+      "english": "to cut",
+      "kikuyu": "gũtinia",
+      "difficulty": "beginner",
+      "context": "Action verb for cutting",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 138,
+      "english": "to love/to like",
+      "kikuyu": "kũenda",
+      "difficulty": "beginner",
+      "context": "Emotional verb - love/like",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 139,
+      "english": "to buy",
+      "kikuyu": "kũgũra",
+      "difficulty": "beginner",
+      "context": "Commercial transaction verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 140,
+      "english": "to be alike",
+      "kikuyu": "kũhaana",
+      "difficulty": "intermediate",
+      "context": "Comparative verb - resemblance",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 141,
+      "english": "to climb",
+      "kikuyu": "kũhaica",
+      "difficulty": "beginner",
+      "context": "Movement verb - upward motion",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 142,
+      "english": "to brush",
+      "kikuyu": "kũhara",
+      "difficulty": "beginner",
+      "context": "Action verb - cleaning/brushing",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 143,
+      "english": "to be married",
+      "kikuyu": "kũhika",
+      "difficulty": "intermediate",
+      "context": "State verb - marital status",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 144,
+      "english": "to be able",
+      "kikuyu": "kũhota",
+      "difficulty": "intermediate",
+      "context": "Modal verb - ability/capability",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 145,
+      "english": "to dress",
+      "kikuyu": "kũhumba",
+      "difficulty": "beginner",
+      "context": "Action verb - clothing",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 146,
+      "english": "to drink",
+      "kikuyu": "kũnywa",
+      "difficulty": "beginner",
+      "context": "Basic consumption verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 147,
+      "english": "to finish/to decide",
+      "kikuyu": "kũrĩkia",
+      "difficulty": "intermediate",
+      "context": "Completion/decision verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 148,
+      "english": "to work",
+      "kikuyu": "kũruta wĩra",
+      "difficulty": "beginner",
+      "context": "Activity verb - labor/work",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "to do/perform",
+          "target": "kũruta",
+          "position": 0,
+          "context": "Infinitive 'to do'"
+        },
+        {
+          "source": "work/job",
+          "target": "wĩra",
+          "position": 1,
+          "context": "Noun for work/labor"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "english": "to arrive/to reach",
+      "kikuyu": "gũkinya",
+      "difficulty": "beginner",
+      "context": "Movement verb - arrival",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 150,
+      "english": "to lead",
+      "kikuyu": "gũtongoria",
+      "difficulty": "advanced",
+      "context": "Action verb - leadership",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 151,
+      "english": "to come",
+      "kikuyu": "gũũka",
+      "difficulty": "beginner",
+      "context": "Basic movement verb - approach",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 152,
+      "english": "to greet",
+      "kikuyu": "kũgeithia",
+      "difficulty": "beginner",
+      "context": "Social interaction verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 153,
+      "english": "to hide",
+      "kikuyu": "kũhitha",
+      "difficulty": "intermediate",
+      "context": "Action verb - concealment",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 154,
+      "english": "to explain",
+      "kikuyu": "gũtarĩria",
+      "difficulty": "advanced",
+      "context": "Communication verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 155,
+      "english": "to die",
+      "kikuyu": "gũkua",
+      "difficulty": "intermediate",
+      "context": "State change verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 156,
+      "english": "to read/to study",
+      "kikuyu": "gũthoma",
+      "difficulty": "beginner",
+      "context": "Learning activity verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 157,
+      "english": "to carry",
+      "kikuyu": "gũkuua",
+      "difficulty": "beginner",
+      "context": "Physical action verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 158,
+      "english": "to finish",
+      "kikuyu": "kũnina",
+      "difficulty": "intermediate",
+      "context": "Completion verb (alternative)",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 159,
+      "english": "to eat",
+      "kikuyu": "kũrĩa",
+      "difficulty": "beginner",
+      "context": "Basic consumption verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 160,
+      "english": "to laugh",
+      "kikuyu": "gũtheka",
+      "difficulty": "beginner",
+      "context": "Emotional expression verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 161,
+      "english": "to cook",
+      "kikuyu": "kũruga",
+      "difficulty": "beginner",
+      "context": "Food preparation verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 162,
+      "english": "to educate/to teach",
+      "kikuyu": "kũrutana",
+      "difficulty": "intermediate",
+      "context": "Educational activity verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 164,
+      "english": "to wake up",
+      "kikuyu": "ukira",
+      "difficulty": "beginner",
+      "context": "State change verb",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 165,
+      "english": "to sleep",
+      "kikuyu": "koma",
+      "difficulty": "beginner",
+      "context": "State verb - rest",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 207,
+      "english": "come here",
+      "kikuyu": "Ũka haha",
+      "difficulty": "beginner",
+      "context": "Imperative command - approach",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Commands"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 208,
+      "english": "have a seat",
+      "kikuyu": "Ikara thi",
+      "difficulty": "beginner",
+      "context": "Polite command - sitting",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Commands"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 209,
+      "english": "tell me",
+      "kikuyu": "Ta njira atiriri",
+      "difficulty": "intermediate",
+      "context": "Command requesting information",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Commands"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 210,
+      "english": "show me/direct me",
+      "kikuyu": "Nyonia",
+      "difficulty": "intermediate",
+      "context": "Command for guidance",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Commands"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 211,
+      "english": "help me",
+      "kikuyu": "Ndeithia",
+      "difficulty": "beginner",
+      "context": "Request for assistance",
+      "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+      "quality_score": 4.7,
+      "categories": [
+        "Commands"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 273,
+      "english": "methods of cooking",
+      "kikuyu": "mĩrugĩre",
+      "difficulty": "intermediate",
+      "context": "General term for cooking techniques and methods",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 274,
+      "english": "boiling",
+      "kikuyu": "gũtherũkia",
+      "difficulty": "beginner",
+      "context": "Cooking method using boiling water",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Cooking Methods"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 275,
+      "english": "frying",
+      "kikuyu": "gũkaranga",
+      "difficulty": "beginner",
+      "context": "Cooking method using oil or fat in a pan",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Cooking Methods"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 276,
+      "english": "roasting",
+      "kikuyu": "kũhĩhia",
+      "difficulty": "beginner",
+      "context": "Cooking method using dry heat (primary term)",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Cooking Methods"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 277,
+      "english": "roasting",
+      "kikuyu": "gũcina",
+      "difficulty": "beginner",
+      "context": "Cooking method using dry heat (alternative term)",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Cooking Methods"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 278,
+      "english": "to cook",
+      "kikuyu": "gũruga",
+      "difficulty": "beginner",
+      "context": "General verb for cooking/preparing food",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Kitchen Activities"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 279,
+      "english": "cooking",
+      "kikuyu": "ũrugĩri",
+      "difficulty": "beginner",
+      "context": "The act or process of cooking",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Kitchen Activities"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 280,
+      "english": "food preparation",
+      "kikuyu": "gũthondeka irio",
+      "difficulty": "intermediate",
+      "context": "Preparing food for cooking",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Kitchen Activities"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "to prepare",
+          "target": "gũthondeka",
+          "position": 0,
+          "context": "Verb - to prepare or make ready"
+        },
+        {
+          "source": "food",
+          "target": "irio",
+          "position": 1,
+          "context": "Noun - food or meal"
+        }
+      ]
+    },
+    {
+      "id": 281,
+      "english": "kitchen",
+      "kikuyu": "mucii wa gũrugĩra",
+      "difficulty": "intermediate",
+      "context": "Place where cooking happens",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "house/place",
+          "target": "mucii",
+          "position": 0,
+          "context": "Location - house or designated place"
+        },
+        {
+          "source": "of",
+          "target": "wa",
+          "position": 1,
+          "context": "Possessive marker"
+        },
+        {
+          "source": "cooking",
+          "target": "gũrugĩra",
+          "position": 2,
+          "context": "Gerund - the act of cooking"
+        }
+      ]
+    },
+    {
+      "id": 282,
+      "english": "pot",
+      "kikuyu": "nyũngũ",
+      "difficulty": "beginner",
+      "context": "Cooking vessel for boiling",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 283,
+      "english": "pan",
+      "kikuyu": "karango",
+      "difficulty": "beginner",
+      "context": "Flat cooking vessel for frying",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 284,
+      "english": "fire",
+      "kikuyu": "mwaki",
+      "difficulty": "beginner",
+      "context": "Heat source for cooking",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 285,
+      "english": "water",
+      "kikuyu": "mai",
+      "difficulty": "beginner",
+      "context": "Essential cooking ingredient",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 286,
+      "english": "oil",
+      "kikuyu": "maguta",
+      "difficulty": "beginner",
+      "context": "Fat used for frying",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 287,
+      "english": "cooked",
+      "kikuyu": "rũgĩte",
+      "difficulty": "beginner",
+      "context": "Food that has been prepared",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 288,
+      "english": "raw",
+      "kikuyu": "mbichi",
+      "difficulty": "beginner",
+      "context": "Uncooked food",
+      "cultural_notes": "Traditional Kikuyu cooking methods and culinary terminology",
+      "quality_score": 4.7,
+      "categories": [
+        "Culinary Terms"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Here is the transcription and breakdown of the Kikuyu noun class examples from the image, using **'Ndũ'** as a base meaning 'object' or 'thing':
+
+---
+
+## Kikuyu Noun Classes Using 'Ndũ'
+
+| Formation | Kikuyu Word | English Meaning | Notes |
+| :--- | :--- | :--- | :--- |
+| **Mũ + ndũ** | **Mũndũ** | person (human object) | Mũ- is the singular prefix for human class. |
+| | **Andũ** | people | A- is the plural prefix for human class. |
+| **Kĩ + ndũ** | **Kĩndũ** | something - (non-human object) | Kĩ- is the singular prefix for the non-human object class. |
+| | **Indo** | things | I- is the plural prefix for the non-human object class. |
+| **Ndũ + ũ ?** | **Ndũũ** | What (what thing)? | The base 'Ndũ' combined with the interrogative suffix 'ũ'. |
+| **Mũ + ndũ + ũ = Mũndũũ** | **Mũndũũ** | what kind of person (tribe) | Note: The image specifies a **lower tone** in the last syllable – **'ũ'** |
+| **Tĩ + kĩ + ndũ** | **Tĩkĩndũ** | its nothing (no object) | Tĩ- is a negative marker (it is not). |
+| **To + ndũ** | **Tondũ** | Because (the object is...) | 'Tondũ' is used to introduce a reason or cause. |

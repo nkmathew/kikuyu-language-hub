@@ -1,0 +1,10 @@
+
+Good morning	We mwega rũciinĩ/kĩroko
+Good afternoon	We mwega umũthĩ
+Good evening	We mwega hwaĩinĩ
+OK, alright	nĩwega
+Thank you	Nĩ ngatho
+How are you?	Wĩ mwega?
+No	Aacha
+Father	Baba
+Mother	Maitũ/mami

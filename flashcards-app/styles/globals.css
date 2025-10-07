@@ -1,0 +1,8 @@
+.bg-blue-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1)); /* Tailwind blue-500 */
+}
+.bg-kikuyu-50 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 64 175 / var(--tw-bg-opacity, 1)); /* Custom darker blue */
+}

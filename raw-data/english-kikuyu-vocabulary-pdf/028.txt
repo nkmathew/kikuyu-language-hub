@@ -1,0 +1,29 @@
+This image presents a Kikuyu lesson on conjugating verbs into the **Past Tense** for actions that occurred **"moments ago"** or **"early today"** (the recent past).
+
+The table below lists the infinitive verb, its meaning, and the resulting sentence in the recent past tense.
+
+***
+
+## Kikuyu Recent Past Tense
+
+| # | Root Verb & Meaning | Recent Past Tense Sentence | English Translation (Implied) |
+|:---|:---|:---|:---|
+| 1. | **Kuuga mbu** - to make a distress sound | Atumia **moiga mbu** mona mũici | The women made a distress sound when they saw the thief. |
+| 2. | **Kũhuha mĩruri** - to whistle | Wee **wahuha mĩruri** ũtũkũ | You whistled during the night. |
+| 3. | **Kũgamba** - to make a sound | Nĩ ngengere **yagamba** | The bell/bell tower made a sound. |
+| 4. | **Kũnegena** - to make noise | Ciana nĩ **cianegena** | The children made noise. |
+| 5. | **Kũaria** - to speak | Kamau nĩ **aria** | Kamau spoke. |
+| 6. | **Gũkaya** - to yell (due to pain) | Mwana **ahũrwo**, **akaya** | The child was beaten, and he yelled. |
+| 7. | **Kũina** - to sing | T**waina karwĩmbo kega** | We sang a nice song. |
+
+***
+
+### Key Tense Marker
+
+In the recent past tense, the infinitive prefix **Kũ-** or **Gũ-** is replaced by a tense marker attached directly to the subject prefix:
+
+* For example, in sentence 1, the subject prefix for the plural noun *Atumia* (women) is **Ma-**, which combines with the tense marker to form **Mo-** before the verb root **-iga** (**M-o-iga**).
+* In sentence 7, the subject prefix for *We* (we) is **Tw-**, which is followed directly by the verb root **-ina** (**Twaina**).
+
+***
+*The vertical text on the left reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.***

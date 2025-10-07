@@ -1,0 +1,11 @@
+Cĩĩga cia nyoni - Parts of a bird
+
+* **eye** - Ritho / Maitho
+* **head** - Mũtwe / Mĩtwe
+* **beak** - Mũkangi / Mĩkangi
+* **neck** - Ngingo
+* **wings** - ĩthagu / Mathagu
+* **feather** - Ruoya / Njoya
+* **body** - Mwĩrĩ / Mĩrĩ
+* **tail feathers** - Njoya cia Kĩngũĩ
+* **leg** - Kũgũrũ / Magũrũ

@@ -1,0 +1,7 @@
+backend/kikuyu_language_hub.db
+.next/
+*.db
+*.db-*
+
+build/
+dist/

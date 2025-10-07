@@ -1,0 +1,7 @@
+kikuyu.local {
+    reverse_proxy localhost:10001
+}
+
+api.kikuyu.local {
+    reverse_proxy localhost:10000
+}

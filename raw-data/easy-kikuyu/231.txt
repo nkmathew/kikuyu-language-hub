@@ -1,0 +1,54 @@
+This image provides a lesson on **Ordering Adverbs** (Ordinal Numbers) in Kĩkũyũ, showing how to say "first," "second," "third," etc., both for people and objects.
+
+## Kĩkũyũ Ordinal Numbers (Ordering Adverbs)
+
+The structure used is **[Noun] + wa/ya/rĩa/gĩa + [Number]**. The connective particle (*wa*, *ya*, *rĩa*, *gĩa*) agrees with the noun's class.
+
+### General Ordinals for People (Mũndũ - person)
+
+| Kĩkũyũ | English Translation |
+| :--- | :--- |
+| **Mũndũ wa mbere** | The first person |
+| **Mũndũ wa keerĩ** | The second person |
+| **Mũndũ wa gatatũ** | The third person |
+| **Mũndũ wa kana** | The fourth person |
+| **Mũndũ wa gatano** | The fifth person |
+| **Mũndũ wa gatandatũ** | The sixth person |
+| **Mũndũ wa mũgwanja** | The seventh person |
+| **Mũndũ wa kanana** | The eighth person |
+| **Mũndũ wa Kenda** | The ninth person |
+| **Mũndũ wa Ikũmi** | The tenth person |
+
+***
+
+### Ordinals for Objects (Examples with Noun Class Markers)
+
+The examples demonstrate the agreement of the connective particle (*wa*, *ya*, *rĩa*, *gĩa*, *kĩa*) with the noun:
+
+| Kĩkũyũ Phrase | English Translation | Noun Class Connective |
+| :--- | :--- | :--- |
+| **Mũrango wa mbere** | The first door | **wa** (for Mũ- / Mĩ- class nouns) |
+| **Ndirica ya keerĩ** | The second window | **ya** (for N- class nouns) |
+| **Cabi ya gatatũ** | The third cap | **ya** (for Cĩ- / N- class nouns) |
+| **Metha ya kana** | The fourth table | **ya** (for N- class nouns) |
+| **Nyoni ya gatano** | The fifth bird | **ya** (for N- class nouns) |
+| **thamaki ya gatandatũ** | The sixth fish | **ya** (for N- class nouns) |
+| **Ibuku rĩa mũgwanja** | The seventh book | **rĩa** (for Rĩ- / Ma- class nouns) |
+| **Itimũ rĩa kanana** | The eighth spear | **rĩa** (for Rĩ- / Ma- class nouns) |
+| **Icembe rĩa Kenda** | The ninth hoe | **rĩa** (for Rĩ- / Ma- class nouns) |
+| **Mbaathi ya Ikũmi** | The tenth bus | **ya** (for N- class nouns) |
+| **Gĩkombe kĩa mbere** | The first cup | **kĩa** (for Gĩ- / Cĩ- class nouns) |
+| **Ngirathi ya keerĩ** | The second glass | **ya** (for N- class nouns) |
+| **Gĩciko gĩa gatatũ** | The third spoon | **gĩa** (for Gĩ- / Cĩ- class nouns) |
+| **Mũbira wa kana** | The fourth ball | **wa** (for Mũ- / Mĩ- class nouns) |
+| **Nyũmba ya gatano** | The fifth house | **ya** (for N- class nouns) |
+| **Kĩratũ gĩa gatandatũ** | The sixth shoe | **gĩa** (for Kĩ- / Cĩ- class nouns) |
+| **Karamu ka mũgwanja** | The seventh pen (or *small pen*) | **ka** (for Ka- / Tũ- class nouns) |
+| **Gĩtĩ gĩa kanana** | The eighth chair | **gĩa** (for Gĩ- / Cĩ- class nouns) |
+| **Mũĩrĩtu wa Kenda** | The ninth girl | **wa** (for Mũ- / A- class nouns) |
+| **thaani ya Ikũmi** | The tenth plate | **ya** (for N- class nouns) |
+
+***
+**Learn Kĩkũyũ - Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**
+
+© Emmanuel Kariuki

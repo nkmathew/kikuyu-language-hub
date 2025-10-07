@@ -1,0 +1,77 @@
+This image is a conjugation table for the **Future Tense - Later Today** in the Kĩkũyũ language, covering the 2nd and 3rd persons (singular and plural).
+
+## Kĩkũyũ Future Tense Conjugations (Later Today)
+
+### 2nd Person Singular (wẽẽ - you)
+
+| Verb | Future Tense (Singular) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **ũgũ-ũka** | you will come |
+| **-rĩra** | Nĩ **ũkũ-rĩra** | you will cry |
+| **-rĩa** | Nĩ **ũkũ-rĩa** | you will eat |
+| **-aria** | Nĩ **ũkũ-aria** | you will speak |
+| **-kena** | Nĩ **ũgũ-kena** | you will be happy |
+| **-theka** | Nĩ **ũgũ-theka** | you will laugh |
+| **-thĩĩ** | Nĩ **ũgũ-thĩĩ** | you will go |
+| **-thooma** | Nĩ **ũgũ-thooma** | you will read |
+| **-andĩka** | Nĩ **ũkũ-andĩka** | you will write |
+
+---
+
+### 2nd Person Plural (Inyuĩ - you)
+
+*Note: The English translations in the source image for the 2nd Person Plural incorrectly use "We" instead of "You" (Plural). The Gĩkũyũ forms (starting with **Mũ-**) are correct for "You (Plural)".*
+
+| Verb | Future Tense (Plural) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **Mũgũ-ũka** | You will come |
+| **-rĩra** | Nĩ **Mũkũ-rĩra** | You will cry |
+| **-rĩa** | Nĩ **Mũkũ-rĩa** | You will eat |
+| **-aria** | Nĩ **Mũkũ-aria** | You will speak |
+| **-kena** | Nĩ **Mũgũ-kena** | You will be happy |
+| **-theka** | Nĩ **Mũgũ-theka** | You will laugh |
+| **-thĩĩ** | Nĩ **Mũgũ-thĩĩ** | You will go |
+| **-thooma** | Nĩ **Mũgũ-thooma** | You will read |
+| **-andĩka** | Nĩ **Mũkũ-andĩka** | You will write |
+
+---
+
+### 3rd Person Singular (We (short vowel) - him/her)
+
+*Note: The verb stem is used to complete the blank spaces, following the prefix pattern.*
+
+| Verb | Future Tense (Singular) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **egũka** | he/she will come |
+| **-rĩra** | Nĩ **ekũrĩra** | he/she will cry |
+| **-rĩa** | Nĩ **ekũrĩa** | he/she will eat |
+| **-aria** | Nĩ **ekũaria** | he/she will speak |
+| **-kena** | Nĩ **arakena** | he/she will be happy |
+| **-theka** | Nĩ **aratheka** | he/she will laugh |
+| **-thĩĩ** | Nĩ **arathĩĩ** | he/she will go |
+| **-thooma** | Nĩ **arathooma** | he/she will read |
+| **-andĩka** | Nĩ **ekũandĩka** | he/she will write |
+
+---
+
+### 3rd Person Plural (O (short vowel) - them)
+
+*Note: The verb stem is used to complete the blank spaces, following the prefix pattern.*
+
+| Verb | Future Tense (Plural) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **megũka** | They will come |
+| **-rĩra** | Nĩ **mekũrĩra** | They will cry |
+| **-rĩa** | Nĩ **mekũrĩa** | They will eat |
+| **-aria** | Nĩ **mekũaria** | They will speak |
+| **-kena** | Nĩ **magũkena** | They will be happy |
+| **-theka** | Nĩ **magũtheka** | They will laugh |
+| **-thĩĩ** | Nĩ **magũthĩĩ** | They will go |
+| **-thooma** | Nĩ **magũthooma** | They will read |
+| **-andĩka** | Nĩ **mekũandĩka** | They will write |
+
+***
+**Text below is written in normal orthography**
+**Learn Kĩkũyũ - Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**
+
+© Emmanuel Kariuki

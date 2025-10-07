@@ -1,0 +1,24 @@
+Here is the raw text from the image, presented in a code box:
+
+```
+week 2
+Numbers in Kikuyu
+The simple numbers in Kikuyu are as follows:
+1. Îmwe Mûndû ûmwe One person
+2. Igîrî Andû erî
+3. Ithathû Andû atatû
+4. Inya Andû ana
+5. Ithano Andû atano
+6. Ithathatû Andû atandatû
+7. Mûgwanja Andû mûgwanja
+8. Inyanya Andû anana
+9. Kenda Andû kenda
+10. Ikûmi Andû ikûmi
+After the number ten, the
+next numbers are stated as
+‘ten and one, ten and two’
+and so on.
+11. Ikûmi na îmwe Andû ikûmi na ûmwe
+Learn Kîkûyû - Wîrute Gîkûyû - Jîfunze Kîkuyu
+© Emmanuel Kariuki
+```

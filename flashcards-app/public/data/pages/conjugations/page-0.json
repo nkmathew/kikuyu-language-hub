@@ -1,0 +1,1381 @@
+{
+  "page": 0,
+  "totalPages": 7,
+  "totalCards": 692,
+  "startIndex": 0,
+  "endIndex": 99,
+  "cards": [
+    {
+      "id": 595,
+      "english": "I am",
+      "kikuyu": "ndi",
+      "difficulty": "intermediate",
+      "context": "First person singular present tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 596,
+      "english": "you are",
+      "kikuyu": "uri",
+      "difficulty": "intermediate",
+      "context": "Second person singular present tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 597,
+      "english": "you are",
+      "kikuyu": "wi",
+      "difficulty": "intermediate",
+      "context": "Second person singular present tense copula - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 598,
+      "english": "we are",
+      "kikuyu": "turi",
+      "difficulty": "intermediate",
+      "context": "First person plural present tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 599,
+      "english": "we are",
+      "kikuyu": "tui",
+      "difficulty": "intermediate",
+      "context": "First person plural present tense copula - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 600,
+      "english": "you (pl) are",
+      "kikuyu": "muri",
+      "difficulty": "intermediate",
+      "context": "Second person plural present tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 601,
+      "english": "you (pl) are",
+      "kikuyu": "mui",
+      "difficulty": "intermediate",
+      "context": "Second person plural present tense copula - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 602,
+      "english": "he/she is",
+      "kikuyu": "ari",
+      "difficulty": "intermediate",
+      "context": "Third person singular present tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 603,
+      "english": "he/she is",
+      "kikuyu": "e",
+      "difficulty": "intermediate",
+      "context": "Third person singular present tense copula - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 604,
+      "english": "they are",
+      "kikuyu": "mari",
+      "difficulty": "intermediate",
+      "context": "Third person plural present tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 605,
+      "english": "they are",
+      "kikuyu": "me",
+      "difficulty": "intermediate",
+      "context": "Third person plural present tense copula - variant",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 606,
+      "english": "I was",
+      "kikuyu": "ndari",
+      "difficulty": "intermediate",
+      "context": "First person singular past tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 607,
+      "english": "you were",
+      "kikuyu": "wari",
+      "difficulty": "intermediate",
+      "context": "Second person singular past tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 608,
+      "english": "we were",
+      "kikuyu": "twari",
+      "difficulty": "intermediate",
+      "context": "First person plural past tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 609,
+      "english": "you (pl) were",
+      "kikuyu": "mwari",
+      "difficulty": "intermediate",
+      "context": "Second person plural past tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 610,
+      "english": "he/she was",
+      "kikuyu": "ari",
+      "difficulty": "intermediate",
+      "context": "Third person singular past tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 611,
+      "english": "they were",
+      "kikuyu": "mari",
+      "difficulty": "intermediate",
+      "context": "Third person plural past tense copula",
+      "cultural_notes": "Academic linguistic analysis from 'A Basic Sketch Grammar of Gikuyu' by Englebretson & Wa Ngatho. Comprehensive grammatical structures and morphological patterns for advanced language study.",
+      "quality_score": 4.9,
+      "categories": [
+        "Verb Conjugations"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 777,
+      "english": "stretch and peg a hide",
+      "kikuyu": "amba",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwamba | IPA: /aᵐba/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 778,
+      "english": "do",
+      "kikuyu": "amba",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwamba | IPA: /aᵐba/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 779,
+      "english": "peg (out)",
+      "kikuyu": "ambata",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwambata | IPA: /aᵐbata/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 780,
+      "english": "stretch out",
+      "kikuyu": "ambata",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwambata | IPA: /aᵐbata/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 781,
+      "english": "do first",
+      "kikuyu": "ambĩrĩria",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwambĩrĩria | IPA: /aᵐbeɾeɾia/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 782,
+      "english": "be",
+      "kikuyu": "butha",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũbutha | IPA: /βuða/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 783,
+      "english": "coastal area) of",
+      "kikuyu": "cokia",
+      "difficulty": "intermediate",
+      "context": "IPA: /ɕɔːkia/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 784,
+      "english": "be",
+      "kikuyu": "conoka",
+      "difficulty": "intermediate",
+      "context": "IPA: /ɕɔnɔka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 785,
+      "english": "coastal area) of",
+      "kikuyu": "enda",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũenda | IPA: /ɛⁿda/ | Meaning 1 of 6",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 786,
+      "english": "like",
+      "kikuyu": "enda",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũenda | IPA: /ɛⁿda/ | Meaning 2 of 6",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 787,
+      "english": "want",
+      "kikuyu": "enda",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũenda | IPA: /ɛⁿda/ | Meaning 3 of 6",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 788,
+      "english": "coastal area) of",
+      "kikuyu": "enja",
+      "difficulty": "advanced",
+      "context": "Infinitive: kwenja | IPA: /ɛᶮdʑa/ | Meaning 1 of 4",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 789,
+      "english": "dig",
+      "kikuyu": "enja",
+      "difficulty": "advanced",
+      "context": "Infinitive: kwenja | IPA: /ɛᶮdʑa/ | Meaning 2 of 4",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 790,
+      "english": "shave",
+      "kikuyu": "enja",
+      "difficulty": "advanced",
+      "context": "Infinitive: kwenja | IPA: /ɛᶮdʑa/ | Meaning 4 of 4",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 791,
+      "english": "try",
+      "kikuyu": "geria",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũgeria | IPA: /ɣɛɾia/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 792,
+      "english": "kill",
+      "kikuyu": "geria",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũgeria | IPA: /ɣɛɾia/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 793,
+      "english": "seize",
+      "kikuyu": "gwata",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũgwata | IPA: /ɣwata/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 794,
+      "english": "be",
+      "kikuyu": "hota",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũhota | IPA: /hɔta/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 795,
+      "english": "ask for",
+      "kikuyu": "hoya",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũhoya | IPA: /hɔːja/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 796,
+      "english": "ask",
+      "kikuyu": "hoya",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũhoya | IPA: /hɔːja/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 797,
+      "english": "pass",
+      "kikuyu": "hĩtũkĩra",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũhĩtũkĩra | IPA: /hetokeɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 798,
+      "english": "strike",
+      "kikuyu": "hũra",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũhũra | IPA: /hoːɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 799,
+      "english": "be",
+      "kikuyu": "igana",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũigana | IPA: /iɣana/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 800,
+      "english": "hear",
+      "kikuyu": "iguana",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũiguana | IPA: /iɣuana/ | Meaning 1 of 4",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 801,
+      "english": "be",
+      "kikuyu": "iguana",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũiguana | IPA: /iɣuana/ | Meaning 2 of 4",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 802,
+      "english": "be in",
+      "kikuyu": "iguana",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũiguana | IPA: /iɣuana/ | Meaning 3 of 4",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 803,
+      "english": "dwell",
+      "kikuyu": "ikara",
+      "difficulty": "intermediate",
+      "context": "IPA: /ìkàɾáꜜ/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 804,
+      "english": "coastal area) of",
+      "kikuyu": "ina",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũina | IPA: /ina/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 805,
+      "english": "sing",
+      "kikuyu": "ina",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũina | IPA: /ina/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 806,
+      "english": "dance",
+      "kikuyu": "inia",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũinia | IPA: /inia/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 807,
+      "english": "make",
+      "kikuyu": "inia",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũinia | IPA: /inia/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 808,
+      "english": "be",
+      "kikuyu": "ira",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũira | IPA: /iɾa/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 809,
+      "english": "feel",
+      "kikuyu": "ira",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũira | IPA: /iɾa/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 810,
+      "english": "be",
+      "kikuyu": "iyũra",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũiyũra | IPA: /ijoɾa/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 811,
+      "english": "become full",
+      "kikuyu": "iyũra",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũiyũra | IPA: /ijoɾa/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 812,
+      "english": "be",
+      "kikuyu": "kena",
+      "difficulty": "beginner",
+      "context": "IPA: /kɛna/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 813,
+      "english": "die",
+      "kikuyu": "kua",
+      "difficulty": "intermediate",
+      "context": "IPA: /kua/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 814,
+      "english": "break into pieces",
+      "kikuyu": "kua",
+      "difficulty": "intermediate",
+      "context": "IPA: /kua/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 815,
+      "english": "drink",
+      "kikuyu": "nyua",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũnyua | IPA: /ɲua/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 816,
+      "english": "find",
+      "kikuyu": "ona",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũona | IPA: /ɔna/ | Meaning 1 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 817,
+      "english": "see",
+      "kikuyu": "ona",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũona | IPA: /ɔna/ | Meaning 2 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 818,
+      "english": "see",
+      "kikuyu": "onia",
+      "difficulty": "advanced",
+      "context": "IPA: /ɔnia/ | Meaning 1 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 819,
+      "english": "find",
+      "kikuyu": "onia",
+      "difficulty": "advanced",
+      "context": "IPA: /ɔnia/ | Meaning 2 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 820,
+      "english": "teach",
+      "kikuyu": "onia",
+      "difficulty": "advanced",
+      "context": "IPA: /ɔnia/ | Meaning 3 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 821,
+      "english": "pick",
+      "kikuyu": "oya",
+      "difficulty": "intermediate",
+      "context": "IPA: /ɔja/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 822,
+      "english": "lift",
+      "kikuyu": "oya",
+      "difficulty": "intermediate",
+      "context": "IPA: /ɔja/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 823,
+      "english": "spend the night",
+      "kikuyu": "raaria",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũraaria | IPA: /ɾaːɾia/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 824,
+      "english": "divine",
+      "kikuyu": "a",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũragũrĩra | IPA: /ɾaɣoɾeɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 825,
+      "english": "be",
+      "kikuyu": "rakara",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũrakara | IPA: /ɾaːkaɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 826,
+      "english": "rise",
+      "kikuyu": "ratha",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũratha | IPA: /ɾaða/ | Meaning 1 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 827,
+      "english": "shoot",
+      "kikuyu": "ratha",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũratha | IPA: /ɾaða/ | Meaning 2 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 828,
+      "english": "foresee",
+      "kikuyu": "ratha",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũratha | IPA: /ɾaða/ | Meaning 3 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 829,
+      "english": "disobey",
+      "kikuyu": "remwo",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũremwo | IPA: /ɾɛmoɔ/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 830,
+      "english": "be",
+      "kikuyu": "remwo",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũremwo | IPA: /ɾɛmoɔ/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 831,
+      "english": "remember",
+      "kikuyu": "ririkania",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũririkania | IPA: /ɾiɾikania/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 832,
+      "english": "teach",
+      "kikuyu": "ruta",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũruta | IPA: /ɾuta/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 833,
+      "english": "eat",
+      "kikuyu": "rĩa",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũrĩa | IPA: /ɾea/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 834,
+      "english": "eat",
+      "kikuyu": "rĩithia",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũrĩithia | IPA: /ɾeiðia/ | Meaning 1 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 835,
+      "english": "feed",
+      "kikuyu": "rĩithia",
+      "difficulty": "advanced",
+      "context": "Infinitive: kũrĩithia | IPA: /ɾeiðia/ | Meaning 2 of 3",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 836,
+      "english": "coastal area) of",
+      "kikuyu": "rĩra",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũrĩra | IPA: /ɾeɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 837,
+      "english": "be",
+      "kikuyu": "rũma",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũrũma | IPA: /ɾoma/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 838,
+      "english": "seize",
+      "kikuyu": "taha",
+      "difficulty": "beginner",
+      "context": "IPA: /taha/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 839,
+      "english": "seize",
+      "kikuyu": "tahĩka",
+      "difficulty": "intermediate",
+      "context": "IPA: /taheka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 840,
+      "english": "be",
+      "kikuyu": "thakara",
+      "difficulty": "intermediate",
+      "context": "IPA: /ðakaɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 841,
+      "english": "coastal area) of",
+      "kikuyu": "theka",
+      "difficulty": "intermediate",
+      "context": "IPA: /ðɛka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 842,
+      "english": "quit",
+      "kikuyu": "tiga",
+      "difficulty": "beginner",
+      "context": "IPA: /tiɣa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 843,
+      "english": "look",
+      "kikuyu": "a",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwĩrorera | IPA: /eɾɔɾɛɾa/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 844,
+      "english": "see",
+      "kikuyu": "a",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kwĩrorera | IPA: /eɾɔɾɛɾa/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 845,
+      "english": "stop",
+      "kikuyu": "a",
+      "difficulty": "intermediate",
+      "context": "IPA: /etiɣeɾa/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 846,
+      "english": "be",
+      "kikuyu": "a",
+      "difficulty": "intermediate",
+      "context": "IPA: /etiɣeɾa/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 847,
+      "english": "kill",
+      "kikuyu": "ũraga",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũũraga | IPA: /oɾaɣa/ | Meaning 1 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 848,
+      "english": "break",
+      "kikuyu": "ũraga",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũũraga | IPA: /oɾaɣa/ | Meaning 2 of 2",
+      "cultural_notes": "Comprehensive verb from Wiktionary with detailed linguistic analysis including IPA pronunciation, morphological derivatives, and cultural context through proverbs and examples.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs",
+        "Linguistic Analysis"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2456,
+      "english": "write",
+      "kikuyu": "andĩka",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwandĩka | IPA: /aⁿdeka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2457,
+      "english": "hold",
+      "kikuyu": "cokia",
+      "difficulty": "intermediate",
+      "context": "IPA: /ɕɔːkia/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2458,
+      "english": "go",
+      "kikuyu": "enda",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũenda | IPA: /ɛⁿda/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2459,
+      "english": "buy",
+      "kikuyu": "gũra",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũgũra | IPA: /ɣuɾa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2460,
+      "english": "catch",
+      "kikuyu": "gwata",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũgwata | IPA: /ɣʷata/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2461,
+      "english": "become",
+      "kikuyu": "haka",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũhaka | IPA: /haka/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2462,
+      "english": "think",
+      "kikuyu": "hitha",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũhitha | IPA: /hiða/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2463,
+      "english": "be able",
+      "kikuyu": "hota",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũhota | IPA: /hɔta/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2464,
+      "english": "can",
+      "kikuyu": "hota",
+      "difficulty": "beginner",
+      "context": "Infinitive: kũhota | IPA: /hɔta/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2465,
+      "english": "request",
+      "kikuyu": "hoya",
+      "difficulty": "intermediate",
+      "context": "Infinitive: kũhoya | IPA: /hɔːja/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2466,
+      "english": "learn",
+      "kikuyu": "iga",
+      "difficulty": "beginner",
+      "context": "Infinitive: kwĩga | IPA: /iɣa/",
+      "cultural_notes": "Comprehensive verb from Wiktionary with IPA pronunciation and morphological analysis. Academic dictionary source with linguistic precision.",
+      "quality_score": 4.8,
+      "categories": [
+        "Wiktionary Verbs"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

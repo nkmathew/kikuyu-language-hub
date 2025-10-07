@@ -1,0 +1,190 @@
+Here is the **raw, verbatim text** from the image, formatted as a table:
+
+| PERSON | PRONOUN |
+| :--- | :--- |
+| **1SG** | **nĩĩ** / **nĩũ** |
+| **2SG** | **wee** / **weũ** |
+| **NC1** | **we** |
+| **1PL** | **ithuĩ** |
+| **2PL** | **inyuĩ** / **inyuũ** |
+| **NC2** | **o** / **mo** |
+
+----------------
+
+Here is the raw text from the image, formatted as a table:
+
+| CLASS | PRONOUN |
+| :--- | :--- |
+| **3** | *guo* |
+| **4** | *yo* |
+| **5** | *rĩo* |
+| **6** | *mo* |
+| **7** | *kĩo* |
+| **8** | *cio* |
+| **9** | *yo* |
+| **10** | *cio* |
+| **11** | *ruo* |
+| **12** | *ko* |
+| **13** | *tuo* |
+| **14** | *guo* |
+| **15** | *kuo* |
+| **16** | *ho* |
+| **17** | *kuo* |
+
+-------------
+
+Here is the raw text from the image, formatted as a table:
+
+| CLASS | DEP. PRON. | CLASS | DEP. PRON. |
+| :--- | :--- | :--- | :--- |
+| **1SG** | *nanĩĩ* | **8** | *nacio* |
+| **2SG** | *nawe* | **9** | *nayo* |
+| **1PL** | *naithuĩ* | **10** | *nacio* |
+| **2PL** | *nainyuĩ* | **11** | *naruo* |
+| **1** | *nake* | **12** | *nako* |
+| **2** | *nao* | **13** | *natuo* |
+| **3** | *naguo* | **14** | *naguo* |
+| **4** | *nayo* | **15** | *nakuo* |
+| **5** | *narĩo* | **16** | *naho* |
+| **6** | *namo* | **17** | *nakuo* |
+| **7** | *nakĩo* | | |
+
+--------------
+
+Here is the raw text from the image, formatted as a table:
+
+| CLASS | 1SG | 2SG | NC1 | 1PL | 2PL | NC2 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | *wakwa* | *waku* | *wake* | *witũ* | *wanyũ* | *wao* |
+| **2** | *akwa* | *aku* | *ake* | *aitũ* | *anyũ* | *ao* |
+| **3** | *wakwa* | *waku* | *wake* | *witũ* | *wanyũ* | *wao* |
+| **4** | *yakwa* | *yaku* | *yake* | *iitũ* | *yanyũ* | *yao* |
+| **5** | *rĩakwa* | *rĩaku* | *rĩake* | *rĩitũ* | *rĩanyũ* | *rĩao* |
+| **6** | *makwa* | *maku* | *make* | *maitũ* | *manyũ* | *mao* |
+| **7** | *gĩakwa* | *gĩaku* | *gĩake* | *gĩitũ* | *kĩanyũ* | *kĩao* |
+| **8** | *ciakwa* | *ciaku* | *ciake* | *ciitũ* | *cianyũ* | *ciao* |
+| **9** | *yakwa* | *yaku* | *yake* | *iitũ* | *yanyũ* | *yao* |
+| **10** | *ciakwa* | *ciaku* | *ciake* | *ciitũ* | *cianyũ* | *ciao* |
+| **11** | *rũakwa* | *rũaku* | *rũake* | *ruitũ* | *rũanyũ* | *rũao* |
+| **12** | *gakwa* | *gaku* | *gake* | *gaitũ* | *kanyũ* | *kao* |
+| **13** | *tũakwa* | *tũaku* | *tũake* | *tuitũ* | *tũanyũ* | *tũao* |
+| **14** | *wakwa* | *waku* | *wake* | *witũ* | *wanyũ* | *wao* |
+| **15** | *gũakwa* | *gũaku* | *gũake* | *guitũ* | *kũanyũ* | *kũao* |
+| **16** | *hakwa* | *haku* | *hake* | *haitũ* | *hanyũ* | *hao* |
+| **17** | *gũakwa* | *gũaku* | *gũake* | *guitũ* | *kũanyũ* | *kũao* |
+
+------------
+
+Here is the raw text from the image, formatted as a table:
+
+| DIMENSION | AGE | VALUE | COLOR | HUMAN PROPENSITY |
+| :--- | :--- | :--- | :--- | :--- |
+| *nene* | *kũrũ* | *ega* | *tune* | *rũaru* |
+| 'big' | 'old' | 'good' | 'red' | 'sick' |
+| *nini* | *erũ* | *ũru* | *erũ* | *athiki* |
+| 'small/young' | 'new' | 'bad' | 'white' | 'obedient' |
+| *kuhi* | *kenge* | *thaka* | *irũ* | |
+| 'short' | 'baby' | 'beautiful' | 'black' | |
+| *raihu* | | | | |
+| 'tall' | | | | |
+
+------------
+
+Here is the raw text from the image, formatted as a table:
+
+| NUM. | STEM | NUM. | STEM |
+| :--- | :--- | :--- | :--- |
+| **1** | *mwe* | **9** | *kenda* |
+| **2** | *ĩrĩ* | **10** | *ikũmi* |
+| **3** | *tatũ* | **10s** | *mĩrongo* |
+| **4** | *na* | **100** | *igana* |
+| **5** | *tano* | **100s** | *magana* |
+| **6** | *tandatũ* | **1000** | *ngiri* |
+| **7** | *mũgwanja* | **1000s** | *ngiri* |
+| **8** | *nana* | | |
+
+-----
+
+Here is the raw text from the image, formatted as a table:
+
+Table 19: Person subject concord (SC)
+
+| Gloss | Form |
+| :--- | :--- |
+| 1SG | N- |
+| 1PL | tũ- |
+| 2SG | ũ- |
+| 2PL | mũ- |
+| NC$_{1}$ | a- |
+| NC$_{2}$ | ma- |
+
+------------
+
+Here is the raw text from the image, formatted as a table:
+
+| Tense | Remote past | Near past | Current past | Current Present | Current future | Near future | Remote future |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Prefix** | a- | ra- | kũ- a- Ø | ka- raa- Ø | kũ- | rĩĩ- | kaa- Ø |
+
+-------------
+
+| CLASS  | PRESENT                 | PRED. (PRED, NOM, PRED. ATR.) | BRP     | RECENT PAST   | PAST   |
+| :----- | :---------------------- | :---------------------------- | :------ | :-------------| :------|
+| **1SG** | *ndĩ* (N+rĩ)            | *ndĩ* (N+rĩ)                  | *nyuma* (N+uma)  | *ndĩrarĩ* (N+ra+rĩ)  | *ndarĩ* (N+a+rĩ) |
+| **2SG** | *ũrĩ* / *wĩ* (ĩ+rĩ)     | *ũrĩ* / *wĩ* (ĩ+rĩ)           | *ũma* (ĩ+uma)    | *ũrarĩ* (ĩ+ra+rĩ)    | *warĩ* (ĩ+a+rĩ)  |
+| **1PL** | *tũrĩ* / *tũĩ* (tũ+rĩ)  | *tũrĩ* / *tũĩ* (tũ+rĩ)        | *tũma* (tũ+uma)  | *tũrarĩ* (tũ+ra+rĩ)  | *twarĩ* (tũ+a+rĩ) |
+| **2PL** | *mũrĩ* / *mũĩ* (mũ+rĩ)  | *mũrĩ* / *mũĩ* (mũ+rĩ)        | *mũma* (mũ+uma)  | *mũrarĩ* (mũ+ra+rĩ)  | *mwarĩ* (mũ+a+rĩ) |
+| **NC1** | *arĩ* / *e* (a+rĩ)      | *nĩ* (FOC)                    | *auma* (a+uma)   | *ararĩ* (a+ra+rĩ)    | *arĩ* (a+a+rĩ)   |
+| **NC2** | *marĩ* / *me* (ma+rĩ)   | *nĩ* (FOC)                    | *mauma* (ma+uma) | *mararĩ* (ma+ra+rĩ)  | *marĩ* (ma+a+rĩ) |
+| **NC3** | *ũrĩ* / *wĩ* (ĩ+rĩ)     | *nĩ* (FOC)                    | *ũma* (ĩ+uma)    | *ũrarĩ* (ĩ+ra+rĩ)    | *warĩ* (ĩ+a+rĩ)  |
+| **NC4** | *ĩrĩ* / *ĩ* (ĩ+rĩ)      | *nĩ* (FOC)                    | *yuma* (ĩ+uma)   | *ĩrarĩ* (ĩ+ra+rĩ)    | *yarĩ* (ĩ+a+rĩ)  |
+| **NC5** | *rĩrĩ* / *rĩ* (rĩ+rĩ)   | *nĩ* (FOC)                    | *rĩuma* (rĩ+uma) | *rĩrarĩ* (rĩ+ra+rĩ)  | *rĩarĩ* (rĩ+a+rĩ) |
+| **NC6** | *marĩ* / *me* (ma+rĩ)   | *nĩ* (FOC)                    | *mauma* (ma+uma) | *mararĩ* (ma+ra+rĩ)  | *marĩ* (ma+a+rĩ) |
+| **NC7** | *kĩrĩ* / *gĩ* (kĩ+rĩ)   | *nĩ* (FOC)                    | *kĩuma* (kĩ+uma) | *kĩrarĩ* (kĩ+ra+rĩ)  | *kĩarĩ* (kĩ+a+rĩ) |
+| **NC8** | *ĩrĩ* / *ĩ* (ĩ+rĩ)      | *nĩ* (FOC)                    | *cĩuma* (ĩ+uma)  | *cĩrarĩ* (ĩ+ra+rĩ)   | *cĩarĩ* (ĩ+a+rĩ) |
+| **NC9** | *ĩrĩ* / *ĩ* (ĩ+rĩ)      | *nĩ* (FOC)                    | *yuma* (ĩ+uma)   | *ĩrarĩ* (ĩ+ra+rĩ)    | *yarĩ* (ĩ+a+rĩ)  |
+| **NC10**| *ĩrĩ* / *ĩ* / *cĩrĩ* / *cĩĩ* (ĩ+rĩ) | *nĩ* (FOC)   | *cĩuma* (ĩ+uma)  | *cĩrarĩ* (ĩ/cĩ+ra+rĩ) | *cĩarĩ* (ĩ/cĩ+a+rĩ) |
+| **NC11**| *rũrĩ* / *rũĩ* (rũ+rĩ)  | *nĩ* (FOC)                    | *rũuma* (rũ+uma) | *rũrarĩ* (rũ+ra+rĩ)  | *rũarĩ* (rũ+a+rĩ) |
+| **NC12**| *karĩ* / *ge* (ka+rĩ)   | *nĩ* (FOC)                    | *kauma* (ka+uma) | *kararĩ* (ka+ra+rĩ)  | *karĩ* (ka+a+rĩ) |
+| **NC13**| *tũrĩ* / *tũĩ* (tũ+rĩ)  | *nĩ* (FOC)                    | *tũma* (tũ+uma)  | *tũrarĩ* (tũ+ra+rĩ)  | *tũarĩ* (tũ+a+rĩ) |
+| **NC14**| *ũrĩ* / *wĩ* (ĩ+rĩ)     | *nĩ* (FOC)                    | *ũma* (ĩ+uma)    | *ũrarĩ* (ĩ+ra+rĩ)    | *warĩ* (ĩ+a+rĩ)  |
+| **NC15**| *kũrĩ* / *gũĩ* (kũ+rĩ)  | *nĩ* (FOC)                    | *kũma* (kũ+uma)  | *kũrarĩ* (kũ+ra+rĩ)  | *kũarĩ* (kũ+a+rĩ) |
+| **NC16**| *harĩ* / *he* (ha+rĩ)   | *nĩ* (FOC)                    | *hauma* (ha+uma) | *hararĩ* (ha+ra+rĩ)  | *harĩ* (ha+a+rĩ) |
+| **NC17**| *kũrĩ* (kũ+rĩ)          | *nĩ* (FOC)                    | *kũma* (kũ+uma)  | *kũrarĩ* (kũ+ra+rĩ)  | *kũarĩ* (kũ+a+rĩ) |
+
+---------------
+
+```
+CLASS | INTERROGATIVE QUANTIFIER
+:---:|:---:
+$\text{NC}_2$ | aĩgana
+$\text{NC}_4$ | îĩgana
+$\text{NC}_6$ | maĩgana
+$\text{NC}_8$ | cĩgana
+$\text{NC}_{10}$ | cĩgana
+$\text{NC}_{13}$ | tũĩgana
+$\text{NC}_{16}$ | haĩgana
+$\text{NC}_{17}$ | kũĩgana
+```
+
+-----------
+
+```
+CLASS | SEMANTIC TENDENCIES
+:---:|:---:
+1/2 | Humans
+3/4 | Landscape terms, nature terms, other
+5/6 | Plants, landscape terms, other
+7/8 | Augmentatives, other
+9/10 | Animals, body parts, borrowed words, other
+11 | String- or stick-shaped objects, other
+12/13 | Diminutives, other
+14 | Abstract concepts, other
+15 | Body parts, verbal infinitives
+16 | Location (definite)
+17 | Location (indefinite)
+```
+
+
+--------
+

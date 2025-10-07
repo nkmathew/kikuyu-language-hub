@@ -1,0 +1,38 @@
+This image provides a brief lesson on **Conjunctions** in Kikuyu, noting that complete phrases often serve the function of conjunctions, with a few notable exceptions.
+
+---
+
+## Kikuyu Conjunctions and Connective Phrases
+
+The table below lists the Kikuyu words or phrases used as conjunctions, along with their English equivalents.
+
+| English Conjunction | Kikuyu Word/Phrase | Notes |
+|:---|:---|:---|
+| **after** | **thutha wa...** | |
+| **although** | **ona gũtũĩka...** | |
+| **because** | **tondũ wa...** | (sometimes simply **niamu**) |
+| **till** | **kinya rĩrĩa** | |
+| **And** | **na** | This is one of the few single-word conjunctions. |
+| **Nor** | **na** | Used in a negative construction: *matinyuaga* (**na**) *matinyuaga* |
+| **But** | **no** | |
+| **Or** | **kana** | |
+| **Yet** | **na** | Used to connect contrasting clauses. |
+| **So** | **kwa ũguo** | (can also be **kwoguo**) |
+
+---
+
+## Example Sentences
+
+The text also provides example sentences to illustrate how the main conjunctions are used in context:
+
+| English Sentence | Kikuyu Sentence | Conjunction Used |
+|:---|:---|:---|
+| They eat pork **and** they drink beer. | Nĩ marĩaga ngũrũwe **na** makanyua njohi. | **na** (and) |
+| They neither eat pork **nor** do they drink beer. | Matirĩaga ngũrũwe **na** matinyuaga njohi. | **na** (nor) |
+| They play **but** they do not dance. | Nĩ mathakaga **no** matinaga. | **no** (but) |
+| You can take a pen **or** a book. | No woye karamu **kana** ibuku. | **kana** (or) |
+| He ordered a meal **yet** he had no money. | Aretĩirie irio **na** ndararĩ na mbeca. | **na** (yet) |
+| He was given money, **so** he went to the movies. | Araheirwo mbeca **kwa ũguo (kwoguo)** arathiĩ thenema. | **kwa ũguo** (so) |
+
+***
+*The vertical text on the left reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.***

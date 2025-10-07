@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kikuyu-language-hub-api"
+version = "0.1.0"
+description = "FastAPI backend for translation contribution platform"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi==0.112.2",
+  "uvicorn[standard]==0.30.6",
+  "SQLAlchemy==2.0.34",
+  "pydantic==2.9.2",
+  "pydantic-settings==2.5.2",
+  "pydantic[email]==2.9.2",
+  "python-jose==3.3.0",
+  "passlib[bcrypt]==1.7.4",
+  "python-slugify==8.0.1",
+  "google-auth==2.29.0",
+  "google-auth-oauthlib==1.2.0",
+  "redis==5.0.1",
+  "celery==5.3.4",
+  "structlog==23.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "alembic==1.13.2",
+  "black==24.8.0",
+  "isort==5.13.2",
+  "flake8==7.1.1",
+  "mypy==1.11.2",
+  "pytest==8.3.2",
+  "httpx==0.27.2",
+]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+

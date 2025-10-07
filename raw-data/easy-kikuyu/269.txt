@@ -1,0 +1,49 @@
+This lesson provides an excellent breakdown of a Kikuyu sentence and several key vocabulary and grammar points!
+
+Here is the complete text and a summary of the grammar demonstrated:
+
+***
+
+## Kikuyu Vocabulary and Sentence Breakdown
+
+### Core Sentence and Translation
+
+* **Ndigiri ĩno nĩ ya Wajir**     * **Translation:** This donkey is from Wajir; It is found in Wajir; it belongs to Wajir.
+* **Nĩmũrona ũrĩa ĩmenye-reirwo do you (all) see**
+    * **Translation:** Do you (all) see how it has been taken care of?
+
+---
+
+### Key Vocabulary and Grammar
+
+| Kikuyu Word/Phrase | Literal Meaning/Grammar Note |
+| :--- | :--- |
+| **Ndigiri** | **Donkey** (The authentic Kikuyu word; *Bunda* or *Ng'unda* are also used by some people) |
+| **Ĩno** | **This one** (Demonstrative for noun class N/N $\rightarrow$ **ici** is the plural: **These ones**) |
+| **Nĩ ũrona?** | **Can you see? Do you see?** (Singular) |
+| **Nĩmũrona** | **Do you (all) see** (Plural) |
+| **Ũrĩa** | **How** (In this context only) |
+| **Nĩ ũrona ũrĩa...** | **Do you see how....** |
+| **Kũmenyerera** | **to take care** |
+| **Menyerera** | **take care of** |
+| **Ũrĩa ĩmenyerereirwo** | **how it has been cared for** (Uses the passive voice **-irwo**) |
+| **Wimenyerere** | **take care of yourself** (Uses the reflexive prefix **-i-**) |
+| **Wega** | **well; good** |
+| **Oha** | **tie** |
+| **Mĩohe** | **tie it** (Command) |
+| **Ohetwo** | **he has been tied** (Passive voice) |
+| **Yohetwo** | **it has been tied** (Passive voice, applied to the donkey, which falls under the $\text{I-I}$ class) |
+| **Mũkanda** | **rope** |
+| **Yohetwo na muuto** | **It has been tied with pillows.** |
+
+---
+
+## Grammar Highlights
+
+The example sentence is great for illustrating several key features of Kikuyu (a Bantu language):
+
+1.  **Passive Voice (-wo):** The lesson shows the passive voice ending:
+    * ***Oha*** (Tie) $\rightarrow$ ***Ohetwo*** (He has been tied)
+    * ***Kũmenyerera*** (To take care) $\rightarrow$ ***Ĩmenyerereirwo*** (It has been cared for)
+2.  **Noun Class Agreement:** The word for donkey, **Ndigiri**, uses the demonstrative **ĩno** (this) and the subject prefix **ĩ-** (it), indicating it belongs to the $\text{I-I}$ noun class.
+3.  **Reflexive Verb (-i-):** The phrase **Wimenyerere** ("Take care of yourself") uses the infix **-i-** placed before the verb root to show the action is directed back at the subject ("yourself").

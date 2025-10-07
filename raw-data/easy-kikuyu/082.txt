@@ -1,0 +1,15 @@
+This image contains a list of Kikuyu riddles. Here is the raw text presented in a code box:
+
+```
+Some Kikuyu riddles (Adopted from a std. IV reader by Catholic Mission Press, Nyeri 1935)
+1. Mwanake wakwa arî itimû nda - Njûki
+(my son has his spear in his stomach – a bee)
+2. Mbûrî ciathîî mbere ciatiga gîtune thutha –
+rukungu (the goats have gone ahead leaving redness behind – dust)
+3. Warîmîrwo mûgûnda ûtatûmanîte –
+kigûû ( your farm has been ploughed without your consent - flash flood)
+4. Mwatheîi na mûndû ûtegûkwîra hurûka –
+kîrûru (you have walked with a person who does not ask to rest – shadow)
+Learn Kîkûyû - Wîrute Gîkûyû - Jîfunze Kîkuyu
+© Emmanuel Kariuki
+```

@@ -1,0 +1,39 @@
+Here is the transcription of the text in the image, which details the Kikuyu auxiliary verb for "to have."
+
+## Transcription: Kikuyu Auxiliary Verb "To Have"
+
+---
+
+### Header Information
+
+$$\text{Jumatatũ}$$$$\text{Monday}$$$$\text{Mweri ikũmi na inyanya - 18th}$$
+$$\text{Mweri wa ĩtatũ - Third month (March)}$$
+**(A watermark on the left side reads: "Learn Kikuyu - Wĩrute Gĩkũyũ - Jĩfunze Kikuyu")**
+
+---
+
+### The Auxiliary Verb – have
+
+| Pronoun/Prefix | Meaning | "To Have" (with the preposition *na*) | Full Meaning |
+| :---: | :---: | :---: | :---: |
+| **(Nĩĩ) Ndĩ -** | I | **Ndĩ na...** | I have a... |
+| **(Wee) wĩ -** | You have | **Wĩ na...** | You have a... |
+| **(We) e -** | He/she has | **E na...** | He/She has a... |
+| **(O) me -** | them | **Me na...** | They have a... |
+| **(Ithuĩ) twĩ -** | We | **Twĩ na...** | we have a... |
+
+---
+
+### Rule and Examples
+
+**Rule:**
+Omit the pronoun in brackets and the sentence will still make sense in Kikuyu because the auxiliary verb indicates "I, you, him, etc."
+
+**Examples:**
+
+* **Ndĩ na karamu - I have a pen**
+* **Wĩ na tũramũ - you have pens**
+* **Mwĩ na thĩna - you (all) have problems**
+* **E na ngĩrathĩ yakwa - He/she has my glass**
+* **Me na ngĩrathĩ ciakwa - they have my glasses**
+* **Twĩ na mwarimũ ũngĩ - we have another teacher**

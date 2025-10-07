@@ -1,0 +1,52 @@
+Certainly! The exercise asks you to write Gĩkũyũ sentences describing what various professionals do, using the provided jobs (Numbers 1-6) and the specific Gĩkũyũ verbs.
+
+Here are the Gĩkũyũ sentences for each job, using the appropriate verb.
+
+---
+
+## Gĩkũyũ Sentences for Jobs
+
+### 1. (Nĩĩ) Ndi mũhũri wa mbica - I am a photographer
+* **Verb:** **Kũhũra** (to hit/take/beat)
+* **Sentence:** **Ndutaga wĩra wa kũhũra mbica.**
+    *(I do the work of taking pictures.)*
+
+### 2. (Wee) wĩ mũgĩmwĩ - You are a hunter
+* **Verb:** **Kũgĩmwĩa** (to hunt)
+* **Sentence:** **Ũrutaga wĩra wa kũgĩmwĩa nyama.** (or **wĩra wa kũgĩmwĩa**)
+    *(You work the job of hunting animals/meat.)*
+
+### 3. (We) nĩ mũrĩithia wa mahĩũ - he/she is a herder (of domestic animals)
+* **Verb:** **Kũrĩithia** (to herd/graze)
+* **Sentence:** **Arutaga wĩra wa kũrĩithia mahĩũ.**
+    *(He/She does the work of herding animals.)*
+
+### 4. (Ĩnyuĩ) mwĩ aturĩ - You are iron mongers (Blacksmiths)
+* **Verb:** **Gũtũra** (to forge/hammer metal)
+* **Sentence:** **Mũrutaga wĩra wa gũtũra mbũri.**
+    *(You (plural) work the job of forging iron.)*
+
+### 5. (O) nĩ ombi a nyũngũ - they are potters (lit. molders of pots)
+* **Verb:** **Kũũmba** (to mold/create)
+* **Sentence:** **Marutaga wĩra wa kũũmba nyũngũ.**
+    *(They do the work of molding pots.)*
+
+### 6. Ũyũ nĩ mũgo - This is a medicine (person)
+* **Verb:** **Kũragũra** (to divine/consult/treat)
+* **Sentence:** **Ũyũ mũgo arutaga wĩra wa kũragũra andũ.**
+    *(This medicine person does the work of treating/consulting people.)*
+
+---
+
+## Other Vocabulary from the Text
+
+Here are the other jobs and associated verbs from the upper part of the image for reference:
+
+| Job/Profession | Gĩkũyũ Phrase | English Meaning | Associated Verb / Work |
+| :--- | :--- | :--- | :--- |
+| **Handyman/Carpenter** | (Nĩĩ) Ndi bundi | I am a handyman | Ndutaga wĩra wa **mbao** (timber) |
+| **Farmer** | (Wee) wĩ mũrĩmĩ | You are a farmer | Ũrutaga wĩra wa **mũgũnda** (in a farm) |
+| **Driver** | (We) nĩ ndereba | he/she is a driver | *(Work not provided)* |
+| **Leaders** | (Ĩnyuĩ) mwĩ atongoria | You are leaders | Mũrutaga wĩra wa **gũtongoria andũ** (to lead people) |
+| **Police** | (O) nĩ borithi | they are police | Marutaga wĩra wa **kũnyita andũ** (to arrest people) |
+| **Priest (Catholic)** | Ũyũ nĩ mũbĩa | This is a priest | Arutaga wĩra wa **gũtongoria magongona ma kanitha** (to lead church services) |

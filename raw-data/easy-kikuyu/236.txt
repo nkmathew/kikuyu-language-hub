@@ -1,0 +1,58 @@
+This image presents a conjugation table for the Future Tense - Later Today in Kĩkũyũ for the first person (singular and plural), along with an explanation of Dahl's Law, a key phonological rule in the language.
+
+Kĩkũyũ Future Tense Conjugations (Later Today)
+This tense is used for actions planned to occur later the same day.
+
+1st Person Singular (Nĩĩ - Me)
+Verb	Future Tense (Singular)	English Translation
+-ũka	Nĩ ngũ-ũka	I will come
+-rĩra	Nĩ ngũ-rĩra	I will cry
+-rĩa	Nĩ ngũ-rĩa	I will eat
+-aria	Nĩ ngũ-aria	I will speak
+-kena	Nĩ ngũ-kena	I will be happy
+-theka	Nĩ ngũ-theka	I will laugh
+-thĩĩ	Nĩ ngũ-thĩĩ	I will go
+-thooma	Nĩ ngũ-thooma	I will read
+-andĩka	Nĩ ngũ-andĩka	I will write
+
+Export to Sheets
+1st Person Plural (Ithuĩ - We)
+Verb	Future Tense (Plural)	English Translation
+-ũka	Nĩ tũgũ-ũka	We will come
+-rĩra	Nĩ tũkũ-rĩra	We will cry
+-rĩa	Nĩ tũkũ-rĩa	We will eat
+-aria	Nĩ tũkũ-aria	We will speak
+-kena	Nĩ tũgũ-kena	We will be happy
+-theka	Nĩ tũgũ-theka	We will laugh
+-thĩĩ	Nĩ tũgũ-thĩĩ	We will go
+-thooma	Nĩ tũgũ-thooma	We will read
+-andĩka	Nĩ tũkũ-andĩka	We will write
+
+Export to Sheets
+Dahl's Law Explanation
+Dahl's Law is a historical sound change (a dissimilation rule) that is phonologically active in Kĩkũyũ:
+
+Rule: When the prefix syllable contains the consonant K (e.g., kũ- from the infinitive prefix), and the immediately following syllable of the verb root begins with one of the consonants c, t, ch, or k, the k in the initial prefix changes to g.
+
+Effect: This change prevents two voiceless stops (like k and t) from occurring too close together, resulting in a voiced stop (g).
+
+Note: The vowels that come between the prefix and the root consonants do not stop this rule from applying.
+
+Example in the Table:
+You can see Dahl's Law at work in the 1st Person Plural Future Tense:
+
+For verbs starting with the root consonants r, ũ, a (like -rĩa, -ũka, -aria), the prefix is tũkũ- (or tũgũ- for vowel-initial roots).
+
+For verbs whose roots effectively begin with k or t (such as -kena and -theka), the prefix changes to tũgũ- to avoid the double voiceless stop sound:
+
+tũkũ- + -kena → tũgũ-kena (We will be happy)
+
+tũkũ- + -theka → tũgũ-theka (We will laugh)
+
+Learn Kĩkũyũ - Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ
+
+© Emmanuel Kariuki
+
+https://gemini.google.com/app/10890b824002a36a
+
+-----------

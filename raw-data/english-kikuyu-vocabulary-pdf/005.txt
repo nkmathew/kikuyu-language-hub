@@ -1,0 +1,34 @@
+The image provides a set of simple Kikuyu sentences and vocabulary, focusing on the consonant sound **b** (which is often pronounced as a pre-nasalized sound **mb** in Kikuyu) and introducing words related to the **mbarĩki** (castor oil plant) and common imperatives.
+
+## Simple Kikuyu Sentences and Vocabulary
+
+### Sentences Focusing on **B/Mb**
+
+| Kikuyu Sentence | Translation | Notes on Vocabulary |
+| :--- | :--- | :--- |
+| **Mbarĩki nĩ ndũũ?** | **What is Mbariki?** | **Mbarĩki** is the word for the Castor oil plant or its seeds. |
+| **Mbarĩki nĩ mbegũ** | **Mbariki are seeds (Castor oil)** | **Mbegũ** means **seeds**. |
+| **Mwarĩki nĩ mũtĩ** | **Mwariki is a tree** | **Mwarĩki** is the Castor oil tree. **Mũtĩ** means **tree**. |
+| **Mbarĩki nĩ mbegũ cia mwarĩki** | **...are seeds of ...tree** | (The full sentence is incomplete, but refers to Mbarĩki being the seeds of the Mwarĩki tree). |
+| **Mbaathi nĩ ngaari nene** | **A bus is a big vehicle** | **Mbaathi** (bus) and **ngaari** (vehicle/car) are Class 3 nouns. **Nene** means **big**. |
+| **Mbarathi nĩ ndũũ?** | **What is a horse?** | **Mbarathi** means **horse**. |
+| **Mbarathi nĩ nyamũ** | **A horse is an animal** | **Nyamũ** means **animal**. |
+| **Mbathia nĩ ya wĩra ũrĩkũ?** | **What is a curtain for?** | **Mbathia** means **curtain**. **Wĩra** means **work** or **purpose**. **Ũrĩkũ** means **which/what**. |
+| **Mbathia nĩ ya ndirica** | **Curtains are for windows** | **Ndirica** means **window** (plural form). |
+| **Guka nĩ ũrĩ mwarĩki?** | **Grandfather, do you have a castor oil tree?** | **Guka** means **Grandfather**. **Nĩ ũrĩ** is the question form of "do you have?". |
+| **Cũcũ he mbarĩki** | **Grandmother, give me castor oil seeds.** | **Cũcũ** means **Grandmother**. |
+
+***
+
+### Common Imperative Verbs
+
+The image also lists essential verbs for commands, particularly "take" and "give."
+
+| Kikuyu Word | Translation | Notes |
+| :--- | :--- | :--- |
+| **Ke** | **take (something that I am giving you)** | Used when the item is being handed directly to the person. |
+| **Oya** | **take/pick (from a table or elsewhere)** | Used when the item is stationary or being retrieved from a location. |
+| **He** | **give me** | 1st person singular imperative. |
+| **Tũhe** | **give us** | 1st person plural imperative. |
+| **Mũhe** | **give him/her** | 3rd person singular imperative. |
+| **Mahe** | **give them** | 3rd person plural imperative. |

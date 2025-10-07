@@ -1,0 +1,363 @@
+# Kikuyu Language Seed Data - Extracted from Wikipedia
+# Comprehensive vocabulary, phrases, and linguistic information for language learning platform
+
+# =============================================================================
+# BASIC LANGUAGE INFORMATION
+# =============================================================================
+
+# Language Name: Gĩkũyũ (also known as Kikuyu, Gĩgĩkũyũ)
+# Pronunciation: [ɣēkōjó]
+# Native to: Kenya, Central Province
+# Ethnicity: Agĩkũyũ (Kikuyu people)
+# Native speakers: 6.6 million (2009 census)
+
+# Language Family: Niger-Congo > Atlantic-Congo > Volta-Congo > Benue-Congo > 
+#                  Bantoid > Southern Bantoid > Bantu > Northeast Bantu > 
+#                  Upland Bantu > Thagiicu > Kikuyu-Temi > Kikuyu
+
+# ISO Codes: ISO 639-1: ki, ISO 639-2: kik, ISO 639-3: kik
+# Glottolog: kiku1240, Guthrie Code: E.51
+
+# =============================================================================
+# DIALECTS
+# =============================================================================
+
+# Gichugu
+# Mathira  
+# Ndia
+# Northern Gikuyu
+# Southern Gikuyu
+
+# =============================================================================
+# WRITING SYSTEMS
+# =============================================================================
+
+# Latin script (primary)
+# Gicandi script (traditional)
+
+# Latin Alphabet: a b c d e g h i ĩ j k m n o r t u ũ w y
+# Note: Does not use f l p q s v x z; adds ĩ and ũ
+
+# =============================================================================
+# PHONOLOGY - VOWELS
+# =============================================================================
+
+# Vowel Chart:
+# High: i (front), u (back)
+# Mid-high: e ⟨ĩ⟩ (front), o ⟨ũ⟩ (back)  
+# Mid-low: ɛ ⟨e⟩ (front), ɔ ⟨o⟩ (back)
+# Low: a (central)
+
+# =============================================================================
+# PHONOLOGY - CONSONANTS
+# =============================================================================
+
+# Nasals:
+# m (bilabial), n (dental/alveolar), ɲ ⟨ny⟩ (palatal), ŋ ⟨ng'⟩ (velar)
+
+# Plosives:
+# t (voiceless dental/alveolar), k (voiceless velar)
+# ᵐb ⟨mb⟩ (voiced prenasalised bilabial)
+# ⁿd ⟨nd⟩ (voiced prenasalised dental) 
+# ᵑɡ ⟨ng⟩ (voiced prenasalised velar)
+
+# Affricates:
+# ᶮdʒ ⟨nj⟩ (palatal)
+
+# Fricatives:
+# ʃ ⟨c⟩ (voiceless palatal), h (voiceless glottal)
+# β ⟨b⟩ (voiced bilabial), ð ⟨th⟩ (voiced dental), ɣ ⟨g⟩ (voiced velar)
+
+# Liquids:
+# ɾ ⟨r⟩ (dental/alveolar)
+
+# Approximants:
+# j ⟨y⟩ (palatal), w (velar)
+
+# Note: Prenasalised consonants (/ᵐb ⁿd ᶮdʒ ᵑɡ/) are often pronounced as [b d dʒ ɡ]
+
+# =============================================================================
+# TONES
+# =============================================================================
+
+# Two level tones: high and low
+# Low-high rising tone
+# Downstep
+
+# =============================================================================
+# BASIC GRAMMAR
+# =============================================================================
+
+# Word Order: Subject-Verb-Object (SVO)
+# Uses prepositions (not postpositions)
+# Noun phrase order: Noun + Possessive + Demonstrative + Adjectives + Quantifiers + Numerals
+
+# =============================================================================
+# NOUN CLASSES (17 Classes)
+# =============================================================================
+
+# Class 1: mũ- (animate/human, singular)
+# Class 2: a- (animate/human, plural)
+# Class 3: mũ- (nature/landscape, singular)
+# Class 4: mĩ- (nature/landscape, plural)
+# Class 5: rĩ-/i- (plant/landscape, singular)
+# Class 6: ma- (plant/landscape, plural)
+# Class 7: gĩ-/kĩ- (augmentative, singular)
+# Class 8: ci-/i- (augmentative, plural)
+# Class 9: ∅ (animals, loanwords, body parts, singular)
+# Class 10: ∅ (animals, loanwords, body parts, plural)
+# Class 11: rũ- (long, thin, string-like, singular)
+# Class 12: ga-/ka- (diminutive, singular)
+# Class 13: tũ- (diminutive, plural)
+# Class 14: ∅ (abstract concepts)
+# Class 15: gũ-/kũ- (body parts, verbal infinitives)
+# Class 16: ha- (definite locative)
+# Class 17: kũ-/gũ- (indefinite locative)
+
+# =============================================================================
+# PERSONAL IDENTIFIERS
+# =============================================================================
+
+# Person (singular): MũGĩkũyũ (a Kikuyu person)
+# People (plural): AGĩkũyũ (Kikuyu people)
+# Language: GĩGĩkũyũ (Kikuyu language)
+# Country/Land: Bũrũrĩ Wa Gĩkũyũ (Land of Kikuyu)
+
+# =============================================================================
+# GEOGRAPHICAL TERMS
+# =============================================================================
+
+# Mount Kenya: Kĩrĩmanyaga
+# Central Province: (main region)
+# Surrounding areas: Nyeri, Kiambu, Nairobi, Nakuru
+
+# =============================================================================
+# BASIC VOCABULARY - COMMON PHRASES
+# =============================================================================
+
+# Greetings and Social Interactions:
+# How are you? -> Ũhoro waku / kũhana atĩa?
+# How are you doing? -> Ũrĩ mwega? / Wĩ mwega
+# I am good -> Ndĩ mwega
+# Are you a friend? -> Wĩ mũrata?
+# Thank you -> Thengiũ / Nĩ wega / Nĩ ngaatho
+# I give thanks -> Nĩndacokia ngatho
+# I'm blessed -> Ndĩĩ mũrathime
+# Bye, be blessed -> Tigwo na wega / Tigwo na thaayũ
+# Go in peace -> Thiĩ na thaayũ
+
+# Expressions of Need and Emotion:
+# Give me water -> He maaĩ
+# I am hungry -> Ndĩ mũhũtu
+# Help me -> Ndeithia
+# I love you -> Nĩngwendete
+# Give me money -> He mbeca / He mbia
+
+# Commands and Requests:
+# Come here -> Ũka haha
+# Stop nonsense -> Tiga wana / tiga ũrimũ
+# Don't laugh -> Ndũgatheke
+
+# Communication:
+# I will phone you -> Nĩngũkũhũrĩra thimũ
+# You are learned -> Wĩ mũthomu
+
+# =============================================================================
+# TIME AND NATURE VOCABULARY
+# =============================================================================
+
+# Time:
+# Day -> Mũthenya
+# Night -> Ũtukũ
+
+# Spiritual/Religious:
+# God -> Ngai
+# Ancestral Spirits -> Ngomi
+
+# Geographic/Political:
+# Country/State/Nation -> Bũrũri
+
+# =============================================================================
+# NUMBERS AND COUNTING
+# =============================================================================
+
+# Numerals 11-19: formed with construction "ten and X"
+# Final numeral agrees with noun being counted
+# If final numeral is 1: agrees with singular class (even in compound numbers)
+
+# =============================================================================
+# VERB MORPHOLOGY
+# =============================================================================
+
+# Verb markings include:
+# - Focus
+# - Noun class agreement
+# - Negation
+# - Reflexivity
+# - Reciprocality
+# - Causativity
+# - Intensive meanings
+# - Reversive meanings
+# - Applicative (valency increasing) meanings
+
+# Tenses:
+# - Past, Present, Future
+# - Remote, Near, Current
+
+# Aspects:
+# - Habitual/Imperfective
+# - Completive
+# - Perfect
+# - Progressive (unmarked)
+# - Sequential (subtype of progressive)
+# - Persistive (continuous until time of speaking)
+
+# Voices:
+# - Active
+# - Passive
+# - Middle (intermediate connotation)
+
+# Subject Agreement:
+# - Special particles for 1st and 2nd person
+# - Noun class-based agreement for other persons
+# - Can agree with all arguments, but less common with non-human nouns
+
+# =============================================================================
+# SAMPLE TEXTS FOR LEARNING
+# =============================================================================
+
+# Religious Text:
+# English: "The Gikuyu believe in God, the creator of heaven and earth, the giver of all things."
+# Kikuyu: "Gĩkũyũ nĩ gĩtĩkĩtie Ngai mumbi wa Igũrũ na Thĩ na mũheani wa indo ciothe"
+
+# Literary Reference:
+# "Marũa Ma Ngũkũ Kũrĩ Rwĩgĩ" (Letter from the Hen to the Eagle)
+
+# =============================================================================
+# CULTURAL AND LITERARY CONTEXT
+# =============================================================================
+
+# Notable Literature:
+# - "Mũrogi wa Kagogo" (Wizard of the Crow) by Ngũgĩ wa Thiong'o - longest known book in Kikuyu
+# - Authors: Gatua wa Mbũgwa, Waithĩra wa Mbuthia, Wahome Mutahi, Gakaara wa Wanjaũ
+# - "Mau Mau Author in Detention" by Gakaara wa Wanjaũ (Noma Award winner, 1984)
+
+# Popular Culture:
+# - Star Wars Episode VI: Return of the Jedi (1983) - character Nien Nunb speaks Kikuyu
+# - "Mwaki" (2023) by DJ Zerb featuring Sofiya Nzau includes Kikuyu lyrics
+
+# =============================================================================
+# LEARNING RESOURCES
+# =============================================================================
+
+# Academic References:
+# - "A Basic Sketch Grammar of Gĩkũyũ" by Wambũi Mũringo Wa-Ngatho & Robert Englebretson
+# - "Kikuyu–English Dictionary" by T. G. Benson
+# - "English-Kikuyu Dictionary" by A. Ruffell Barlow & T. G. Benson
+# - "First Lessons in Kikuyu" by L. S. B. Leakey
+# - "A Paradigmatic Grammar of Gikuyu" by John Mugane
+
+# Online Resources:
+# - Kikuyu edition of Wikipedia
+# - Gikuyu alphabet and pronunciation at Omniglot
+# - Muigwithania 2.0 – First Kikuyu Newspaper revived online
+
+# =============================================================================
+# LINGUISTIC FEATURES FOR LANGUAGE LEARNERS
+# =============================================================================
+
+# Key Challenge Areas:
+# 1. Tonal system (high, low, rising, downstep)
+# 2. Complex noun class system (17 classes with agreement patterns)
+# 3. Prenasalised consonants often realized as plain stops
+# 4. Extensive verb morphology (tense, aspect, mood, agreement)
+# 5. Vowel distinctions including nasalized vowels (ĩ, ũ)
+
+# Learning Progression:
+# Beginner Level:
+# - Basic greetings and courtesy expressions
+# - Simple noun-verb constructions
+# - Present tense verbs
+# - Basic vocabulary (family, food, time)
+
+# Intermediate Level:
+# - Noun class system introduction
+# - Past and future tenses
+# - Complex sentences with multiple clauses
+# - Cultural expressions and idioms
+
+# Advanced Level:
+# - Complete noun class mastery
+# - Complex verb morphology
+# - Tonal pattern recognition
+# - Literary and formal language
+
+# =============================================================================
+# PRONUNCIATION NOTES FOR AUDIO LEARNING
+# =============================================================================
+
+# Critical Sounds:
+# 1. Prenasalised stops: mb [ᵐb], nd [ⁿd], nj [ᶮdʒ], ng [ᵑɡ]
+# 2. Palatal fricative: c [ʃ]
+# 3. Palatal nasal: ny [ɲ]
+# 4. Velar fricative: g [ɣ]
+# 5. Dental fricative: th [ð]
+# 6. Nasalized vowels: ĩ, ũ
+# 7. Tonal contrasts on minimal pairs
+
+# Priority Vocabulary for Audio Recording:
+# - Ngai (God) - demonstrates velar fricative
+# - MũGĩkũyũ (person) - shows noun class prefix + tones
+# - Gĩkũyũ (language) - basic language name
+# - Thengiũ (thank you) - dental fricative practice
+# - Mũthenya (day) - common time word
+# - All basic greetings for conversational practice
+
+# =============================================================================
+# WORD FORMATION PATTERNS
+# =============================================================================
+
+# Prefix Patterns:
+# mũ-: Class 1 (human/animate) and Class 3 (nature)
+# a-: Class 2 (human/animate plural)
+# gĩ-/kĩ-: Class 7 (augmentative)
+# ka-/ga-: Class 12 (diminutive)
+# rũ-: Class 11 (long/thin objects)
+
+# Augmentative/Diminutive:
+# Can be applied across noun classes for size modification
+# Semantic and phonological conditioning for prefix selection
+
+# =============================================================================
+# DATABASE SEED ORGANIZATION
+# =============================================================================
+
+# Suggested Database Categories:
+# 1. Basic Greetings (10 phrases)
+# 2. Essential Questions (5 phrases)  
+# 3. Common Responses (8 phrases)
+# 4. Time/Nature Terms (5 words)
+# 5. Spiritual/Cultural Terms (3 words)
+# 6. Noun Class Examples (17 examples, one per class)
+# 7. Verb Conjugation Patterns (basic present tense)
+# 8. Pronunciation Challenges (prenasalized consonants)
+# 9. Cultural Expressions (traditional sayings)
+# 10. Modern Usage (contemporary phrases)
+
+# Difficulty Levels:
+# - Beginner: Greetings, basic nouns, simple present tense
+# - Intermediate: Noun classes, past/future tense, cultural terms
+# - Advanced: Complex morphology, literary expressions, tonal patterns
+
+# =============================================================================
+# TOTAL EXTRACTED CONTENT SUMMARY
+# =============================================================================
+
+# Vocabulary Items: ~35 core words/phrases
+# Grammar Points: 17 noun classes + comprehensive verb system
+# Pronunciation Features: 12 consonant types + 5 vowel qualities + tones
+# Cultural Context: Traditional and modern usage examples
+# Learning Progression: Structured beginner to advanced pathway
+
+# End of Wikipedia Kikuyu Language Extraction
+# Suitable for comprehensive language learning platform implementation

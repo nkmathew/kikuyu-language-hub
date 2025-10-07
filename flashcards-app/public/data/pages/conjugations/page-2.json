@@ -1,0 +1,1440 @@
+{
+  "page": 2,
+  "totalPages": 7,
+  "totalCards": 692,
+  "startIndex": 200,
+  "endIndex": 299,
+  "cards": [
+    {
+      "id": 888,
+      "english": "infinitive of iya",
+      "kikuyu": "kũiya",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'iya'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 889,
+      "english": "infinitive of iyũra",
+      "kikuyu": "kũiyũra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'iyũra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 890,
+      "english": "infinitive of maatha",
+      "kikuyu": "kũmaatha",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'maatha'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 891,
+      "english": "infinitive of mena",
+      "kikuyu": "kũmena",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'mena'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 892,
+      "english": "infinitive of menya",
+      "kikuyu": "kũmenya",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'menya'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 893,
+      "english": "infinitive of meria",
+      "kikuyu": "kũmeria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'meria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 894,
+      "english": "infinitive of noora",
+      "kikuyu": "kũnoora",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'noora'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 895,
+      "english": "infinitive of nyua",
+      "kikuyu": "kũnyua",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'nyua'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 896,
+      "english": "infinitive of ona",
+      "kikuyu": "kũona",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ona'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 897,
+      "english": "infinitive of raara",
+      "kikuyu": "kũraara",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'raara'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 898,
+      "english": "infinitive of raaria",
+      "kikuyu": "kũraaria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'raaria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 899,
+      "english": "infinitive of ragũra",
+      "kikuyu": "kũragũra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ragũra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 900,
+      "english": "infinitive of a",
+      "kikuyu": "kũragũrĩra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'a'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 901,
+      "english": "infinitive of rakara",
+      "kikuyu": "kũrakara",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rakara'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 902,
+      "english": "infinitive of ratha",
+      "kikuyu": "kũratha",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ratha'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 903,
+      "english": "infinitive of rega",
+      "kikuyu": "kũrega",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rega'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 904,
+      "english": "infinitive of rema",
+      "kikuyu": "kũrema",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rema'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 905,
+      "english": "infinitive of remwo",
+      "kikuyu": "kũremwo",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'remwo'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 906,
+      "english": "infinitive of ririkana",
+      "kikuyu": "kũririkana",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ririkana'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 907,
+      "english": "infinitive of ririkania",
+      "kikuyu": "kũririkania",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ririkania'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 908,
+      "english": "infinitive of -roga",
+      "kikuyu": "kũroga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb '-roga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 909,
+      "english": "infinitive of rora",
+      "kikuyu": "kũrora",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rora'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 910,
+      "english": "infinitive of rota",
+      "kikuyu": "kũrota",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rota'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 911,
+      "english": "infinitive of ruga",
+      "kikuyu": "kũruga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ruga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 912,
+      "english": "infinitive of ruma",
+      "kikuyu": "kũruma",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ruma'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 913,
+      "english": "infinitive of ruruma",
+      "kikuyu": "kũruruma",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ruruma'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 914,
+      "english": "infinitive of ruta",
+      "kikuyu": "kũruta",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ruta'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 915,
+      "english": "infinitive of rĩa",
+      "kikuyu": "kũrĩa",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rĩa'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 916,
+      "english": "infinitive of rĩha",
+      "kikuyu": "kũrĩha",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rĩha'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 917,
+      "english": "infinitive of rĩithia",
+      "kikuyu": "kũrĩithia",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rĩithia'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 918,
+      "english": "infinitive of rĩma",
+      "kikuyu": "kũrĩma",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rĩma'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 919,
+      "english": "infinitive of rĩra",
+      "kikuyu": "kũrĩra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rĩra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 920,
+      "english": "infinitive of rũgama",
+      "kikuyu": "kũrũgama",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rũgama'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 921,
+      "english": "infinitive of rũma",
+      "kikuyu": "kũrũma",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rũma'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 922,
+      "english": "infinitive of rũmĩrĩra",
+      "kikuyu": "kũrũmĩrĩra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rũmĩrĩra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 923,
+      "english": "infinitive of rũũga",
+      "kikuyu": "kũrũũga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rũũga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 924,
+      "english": "infinitive of ĩra",
+      "kikuyu": "kwĩra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ĩra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 925,
+      "english": "infinitive of a",
+      "kikuyu": "kwĩrorera",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'a'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 926,
+      "english": "infinitive of ũmba",
+      "kikuyu": "kũũmba",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ũmba'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 927,
+      "english": "infinitive of ũraga",
+      "kikuyu": "kũũraga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ũraga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 928,
+      "english": "infinitive of ũria",
+      "kikuyu": "kũũria",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ũria'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Conjugations & Forms"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2508,
+      "english": "infinitive of iga",
+      "kikuyu": "kwĩga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'iga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2509,
+      "english": "infinitive of igua",
+      "kikuyu": "kwĩgua",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'igua'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2510,
+      "english": "infinitive of ĩka",
+      "kikuyu": "kwĩka",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ĩka'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2511,
+      "english": "infinitive of ikara",
+      "kikuyu": "kwĩkara",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ikara'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2512,
+      "english": "infinitive of ina",
+      "kikuyu": "kwĩna",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ina'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2513,
+      "english": "infinitive of ũka",
+      "kikuyu": "kũũka",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ũka'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2514,
+      "english": "infinitive of ĩta",
+      "kikuyu": "kwĩta",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ĩta'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2515,
+      "english": "infinitive of iya",
+      "kikuyu": "kwĩya",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'iya'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2516,
+      "english": "infinitive of kena",
+      "kikuyu": "gũkena",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'kena'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2517,
+      "english": "infinitive of kira",
+      "kikuyu": "gũkira",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'kira'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2518,
+      "english": "infinitive of koma",
+      "kikuyu": "gũkoma",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'koma'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2519,
+      "english": "infinitive of kũra",
+      "kikuyu": "gũkũra",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'kũra'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2520,
+      "english": "infinitive of kua",
+      "kikuyu": "gũkua",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'kua'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2521,
+      "english": "infinitive of kumia",
+      "kikuyu": "gũkumia",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'kumia'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2522,
+      "english": "infinitive of oya",
+      "kikuyu": "kũoya",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'oya'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2523,
+      "english": "infinitive of rara",
+      "kikuyu": "gũrara",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rara'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2524,
+      "english": "infinitive of rũgama",
+      "kikuyu": "gũrũgama",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'rũgama'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2525,
+      "english": "infinitive of teng'era",
+      "kikuyu": "gũteng'era",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'teng'era'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2526,
+      "english": "infinitive of thiĩ",
+      "kikuyu": "gũthiĩ",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'thiĩ'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2527,
+      "english": "infinitive of thoma",
+      "kikuyu": "gũthoma",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'thoma'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2528,
+      "english": "infinitive of tiga",
+      "kikuyu": "gũtiga",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'tiga'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2529,
+      "english": "infinitive of tũma",
+      "kikuyu": "gũtũma",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'tũma'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2530,
+      "english": "infinitive of twara",
+      "kikuyu": "gũtwara",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'twara'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 2531,
+      "english": "infinitive of ũĩ",
+      "kikuyu": "gũũĩ",
+      "difficulty": "intermediate",
+      "context": "Infinitive form of the verb 'ũĩ'",
+      "cultural_notes": "Infinitive verb form from Wiktionary showing morphological structure of Kikuyu verbs.",
+      "quality_score": 4.7,
+      "categories": [
+        "Verb Infinitives"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 230,
+      "english": "to take away by force",
+      "kikuyu": "gũtunya",
+      "difficulty": "intermediate",
+      "context": "Verb - to take by guile, force or from those with less power",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Crime & Security"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 245,
+      "english": "Where was your phone taken from you? (today)",
+      "kikuyu": "Ũtunyĩirwo thimũ kũ?",
+      "difficulty": "intermediate",
+      "context": "Recent past tense question",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Past Tenses"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "you were taken from",
+          "target": "Ũtunyĩirwo",
+          "position": 0,
+          "context": "2nd person passive past tense"
+        },
+        {
+          "source": "phone",
+          "target": "thimũ",
+          "position": 1,
+          "context": "Object - mobile phone"
+        },
+        {
+          "source": "where?",
+          "target": "kũ?",
+          "position": 2,
+          "context": "Location question word"
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "english": "Where was your phone taken from you? (yesterday)",
+      "kikuyu": "Ũratunyĩirwo thimũ kũ?",
+      "difficulty": "intermediate",
+      "context": "Near past tense question",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Past Tenses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 247,
+      "english": "Where was your phone taken from you? (distant past)",
+      "kikuyu": "Watunyĩirwo thimũ kũ?",
+      "difficulty": "advanced",
+      "context": "Remote past tense question",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Past Tenses"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 252,
+      "english": "what were you doing when dispossessed?",
+      "kikuyu": "Ũgwĩkaga atĩa ũgĩtunywo",
+      "difficulty": "advanced",
+      "context": "Complex past continuous question",
+      "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+      "quality_score": 4.6,
+      "categories": [
+        "Past Tenses"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "you were doing",
+          "target": "Ũgwĩkaga",
+          "position": 0,
+          "context": "Past continuous 2nd person"
+        },
+        {
+          "source": "what",
+          "target": "atĩa",
+          "position": 1,
+          "context": "Question word"
+        },
+        {
+          "source": "when you were dispossessed",
+          "target": "ũgĩtunywo",
+          "position": 2,
+          "context": "Temporal clause - when robbed"
+        }
+      ]
+    },
+    {
+      "id": 3212,
+      "english": "I drank tea and ate bread Ndahehe irio metha-inĩ – I brought food to the table",
+      "kikuyu": "Ndanyua cai na ndarĩa mũgate",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 011",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3213,
+      "english": "I woke up ten minutes ago",
+      "kikuyu": "Ndokĩra dagĩka ikũmi ciathira",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 020",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3214,
+      "english": "I took a bath with cold water",
+      "kikuyu": "Ndethamba na maĩ mahoro",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 020",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3215,
+      "english": "I put on my clothes quickly",
+      "kikuyu": "Ndehumba nguo naihenya",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 020",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3216,
+      "english": "I made some porridge with sorghum flour",
+      "kikuyu": "Ndaruga ũcũrũ wa mũtũ wa mũhĩa",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 020",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3217,
+      "english": "Then I shut",
+      "kikuyu": "Ndacoka ndahĩnga mũrango ndoima",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 020",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3218,
+      "english": "I made some porridge with sorghum flour. Note the pattern in verbs starting with vowels Akia - Ndakia | Njakirĩrie Ehera - Ndehera | Njeherĩre Iga - Ndaiga | Njigĩre Ĩka - Ndeka | Njĩkĩre Orota - Ndorota | Njorotire Ona - Ndona | Nyonĩre Uga - Ndoiga | Njugĩre",
+      "kikuyu": "Ndugĩre ũcũrũ wa mũtũ wa mũhĩa",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 020",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3219,
+      "english": "Early Today",
+      "kikuyu": "Ndo- | Two- | **Ndokĩra** dagĩka ikũmi ciathira. (I started ten minutes ago.) | **Do**kĩra | | | | | **Twokĩra** dagĩka ikũmi ciathira. (We started ten minutes ago.) | **Two**kĩra | | **2nd Person** (You Sg./You Pl.) | Wo- | Mwo- | **Wokĩra** dagĩka ikũmi ciathira. (You started ten minutes ago.) | **Wo**kĩra | | | | | **Mwokĩra** dagĩka ikũmi ciathira. (You all started ten minutes ago.) | **Mwo**kĩra | | **3rd Person** (He/She/They) | O- | Mo- | **Okĩra** dagĩka ikũmi ciathira. (He/She started ten minutes ago.) | **O**kĩra | | | | | **Mokĩra** dagĩka ikũmi ciathira. (They started ten minutes ago.) | **Mo**kĩra | --- ### Past Tense",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 227",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3220,
+      "english": "Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**",
+      "kikuyu": "Ndi- | Twi- | **Ndĩthambire** na maĩ mahoro. (I washed/showered with warm water.) | **Ndĩthambire** | | | | | **Twĩthambire** na maĩ mahoro. (We washed/showered with warm water.) | **Twĩthambire** | | **2nd Person** (You Sg./You Pl.) | Wĩ- | Mwĩ- | **Wĩthambire** na maĩ mahoro. (You washed/showered with warm water.) | **Wĩthambire** | | | | | **Mwĩthambire** na maĩ mahoro. (You all washed/showered with warm water.) | **Mwĩthambire** | | **3rd Person** (He/She/They) | E- | Me- | **Ethambire** na maĩ mahoro. (He/She washed/showered with warm water.) | **Ethambire** | | | | | **Methambire** na maĩ mahoro. (They washed/showered with warm water.) | **Methambire** | *** **Learn Kĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 227",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3221,
+      "english": "I/We started ten minutes ago. | | | 2nd Sg/Pl | **Wokĩra** dagĩka ikũmi ciathira / **Mwokĩra** dagĩka ikũmi ciathira |",
+      "kikuyu": "Ndokĩra** dagĩka ikũmi ciathira / **Twokĩra** dagĩka ikũmi ciathira | (Do/Two)kĩra",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 246",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3222,
+      "english": "Kaĩ ũrakorora? Tua gĩkorora | Why are you snorting? Blow your nose. | | **Kĩmako** | WORRIED | **Gũathĩmũra** - Nyita kanua ũgĩathĩmũra | Cover your mouth when sneezing. | | **Kũhahũka** | SURPRISED | **Gũkomba** | to make bad gestures at someone who is facing away; To borrow money | | **Ũrĩmũ** | SILLY | **Kũigua Kĩnyĩria** | to be disgusted | | **Kwaga kũiganĩra** | FRUSTRATED | **Kũnyĩra** | to express disgust for something",
+      "kikuyu": "Ndiratwara mwana thibitarĩ tondũ nĩ arahaya | I am taking the child to the hospital because he is groaning. | | **Ndũhĩo** | EXCITED | **Gũkorora**",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Recent Past - Verb conjugation: recent past tense - File 246",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates recent past conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Tense Examples",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3239,
+      "english": "I borught food to the table",
+      "kikuyu": "Ndehĩre irio metha-inĩ",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 012",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3240,
+      "english": "These good girls are theirs 1. Mwanake 2. Mũbĩra 3. Mũrũthi 4. Ng'ombe",
+      "kikuyu": "Ndongu ndũrũ - a bitter sodom apple. In English we say A good boy In Kikuyu we say Boy good. Mũĩrĩtu Use the list any of the adjective roots and the 4 nouns below to make sentences similar nĩ these ones. Mũĩrĩtu ũyũ mwega nĩ wanyu - this good girl is yours Aĩrĩtu aya ega nĩ a o (...ao)",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 036",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3241,
+      "english": "I am going to work. Ūrutaga wīra ūrīkū? - which work...  -----------",
+      "kikuyu": "Ndathiī wīra",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 103",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3242,
+      "english": "Wĩrute Gĩkũyũ - Jifunze Kikuyu.***",
+      "kikuyu": "Ndirĩ ndamũona **o na rĩ !** | I haven't seen him/her, **ever** | *** *The lesson is part of **Week 3** of the course.* *The vertical text on the left reads: **Learn Kikuyu",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 158",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3243,
+      "english": "Wĩrute Gĩkũyũ - Jifunze Kikuyu.***",
+      "kikuyu": "Nda/ Nda | | **hand** | Rũhĩ/ Hĩ | | **waist** | Njohero/ Njohero | | **knee** | Îru/ Maru | | **fingers** | Kĩara/ Twara | | **leg** | Kũgũrũ/ Magũrũ | | **foot** | Ikĩnya/ Makĩnya | | **toes** | Kĩara/ Twara | *** ## Nuclear Family and Dialogue This vocabulary and dialogue are taken from the image illustrating the family: | Kikuyu Phrase | English Translation | Context/Notes | |:---|:---|:---| | **Ũyũ nĩ baba** | This is father | Father is taking photographs. | | **Ũyũ ũngĩ nĩ maitũ** | This other one is mother | | | **Tũrũgamĩte na mwarĩ wa maitũ** | We are standing with my sister | Literally: \"We are standing with the daughter of my mother.\" | | **Ũcio mũraihu nĩ mama** | The tall one is my uncle (mother's side) | **Mama** refers to the maternal uncle. | | **Baba arahũra mbica** | Father is taking photographs | | | **Mwarimũ:** Maina rũgama | **Teacher:** Maina, stand up | | | **Maina:** Nĩ ndarũgama mwarimũ | **Maina:** I have stood up teacher | | | **Mwarimũ:** Ũyũ nũũ ? | **Teacher:** Who is this | Asking about the father. | | **Maina:** Ũyũ nĩ baba | **Maina:** This is father | | | **Mwarimũ:** Ũyũ ũngĩ nĩ nũũ ? | **Teacher:** Who is this other one? | Asking about the mother. | | **Maina:** Ũyũ ũngĩ nĩ maitũ | **Maina:** This other one is mother | | | **Mwarimũ:** Mũrũgamĩte naũ? | **Teacher:** Who are you standing with? | | | **Maina:** Tũrũgamĩte na Mwarĩ wa maitũ | **Maina:** We are standing with my sister | | | **Mwarimũ:** Ĩkara thĩ | **Teacher:** Sit down | | *** *The vertical text on both images reads: **Learn Kikuyu",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 166",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3244,
+      "english": "Wĩrute Gĩkũyũ - Jifunze Kikuyu.***",
+      "kikuyu": "Nda/ Nda | | **hand** | Rũhĩ/ Hĩ | | **waist** | Njohero/ Njohero | | **knee** | Îru/ Maru | | **fingers** | Kĩara/ Twara | | **leg** | Kũgũrũ/ Magũrũ | | **foot** | Ikĩnya/ Makĩnya | | **toes** | Kĩara/ Twara | *** ## 2. Health and Hospital Phrases This section provides vocabulary and common phrases related to illness and visiting a hospital (**Thibitarĩ**). ### Vocabulary | Kikuyu Term | English Meaning | Image Context | |:---|:---|:---| | **Thibitarĩ** | Hospital | Building exterior | | **Mũrwaru** | Patient / Sick person | Person on a hospital bed | | **Ndagĩtarĩ** | Doctor (male) | Man in a lab coat | | **Mũrigitani** | Doctor (female/general term) | Woman in a lab coat | | **Dagĩtarĩ wa magego** | Dentist | Person sitting in a dental chair | | **Mĩthaiga** | Medicine / Drugs | Pills and bottles | | **Ndawa** | Medicine / Remedy | Pills and bottles | ### Dialogue and Phrases | Kikuyu Phrase | English Translation | |:---|:---| | **Ndĩ mũrwaru** | I am sick | | **Ndiraiguia wega** | I am not feeling well | | **Thĩĩ thibitarĩ** | Go to the hospital | | **Ũraatũũrwo nĩ kũ?** | Where are you hurting (where is your pain)? | | **Ndiraatũũrwo nĩ mũtwee** | I have a headache | | **Nĩ ũraatũũrwo nĩ nda?** | Do you have a stomachache? | | **Aca ndiraatũũrwo nĩ nda** | No I do not have a stomachache | | **Ũraatũũrwo nĩ kũũ ũngĩ?** | Where else are you hurting? | | **O na igego nĩ rĩraatũũra** | I also have a toothache | | **Thĩĩ wone ndagĩtarĩ wa magego** | Go see a dentist | | **Eha mũrigitanĩ** | Where is the nurse? | | **Amba ũthĩmwo ratirĩ** | Get your weight checked first | | **Hĩĩ! Wĩ na ũrugarĩ!** | Wah! Your temperature is high | *** *The vertical text on both images reads: **Learn Kikuyu",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 170",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3245,
+      "english": "Hospital** **Ĩno nĩ thibitarĩ** - this is a hospital **Thibitarĩ nĩ nyũmba nene** - A hospital is a big building **Ũyũ nĩ mũrwaru** - This is a patient **Ũyũ nĩ nđagĩtarĩ** - This is a doctore **Ũyũ nĩ mũrigitani** - This is a nurse **Ũyũ nake nĩ nđagĩtarĩ wa magego** - and this one is a dentist **Ici nĩ nđawa** - These are medicine **Nđawa ya mbũrũgũtũ** - tablet",
+      "kikuyu": "Ndagĩtarĩ - **Doctore** Mũrigitani - **Nurse** Dagĩtarĩ wa magego - **Dentist** Mĩthaiga Nđawa - **Medicine** --- **Thibitarĩ",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 199",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3246,
+      "english": "Doctor * **Mũrigitani** - Nurse * **Nđawa ya mbũrũgũtũ** - tablet #### Hygiene * **Wĩthambe moko** - Wash your hands * **Wĩhake thabuni** - Apply soap * **Wĩhuure na ngacibũ ya karatathi** - Dry with a clean towel",
+      "kikuyu": "Ndagĩtarĩ**",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 221",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": true,
+      "sub_translations": [
+        {
+          "source": "first person subject marker",
+          "target": "Nd-",
+          "position": 0,
+          "context": "Subject prefix - morphological analysis"
+        },
+        {
+          "source": "present/past tense marker",
+          "target": "a",
+          "position": 1,
+          "context": "Tense marker - morphological analysis"
+        },
+        {
+          "source": "verb root and extensions",
+          "target": "gĩtarĩ**",
+          "position": 2,
+          "context": "Root + Extensions - morphological analysis"
+        }
+      ]
+    },
+    {
+      "id": 3247,
+      "english": "Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**",
+      "kikuyu": "Ndirica ya keerĩ** | The second window | **ya** (for N- class nouns) | | **Cabi ya gatatũ** | The third cap | **ya** (for Cĩ- / N- class nouns) | | **Metha ya kana** | The fourth table | **ya** (for N- class nouns) | | **Nyoni ya gatano** | The fifth bird | **ya** (for N- class nouns) | | **thamaki ya gatandatũ** | The sixth fish | **ya** (for N- class nouns) | | **Ibuku rĩa mũgwanja** | The seventh book | **rĩa** (for Rĩ- / Ma- class nouns) | | **Itimũ rĩa kanana** | The eighth spear | **rĩa** (for Rĩ- / Ma- class nouns) | | **Icembe rĩa Kenda** | The ninth hoe | **rĩa** (for Rĩ- / Ma- class nouns) | | **Mbaathi ya Ikũmi** | The tenth bus | **ya** (for N- class nouns) | | **Gĩkombe kĩa mbere** | The first cup | **kĩa** (for Gĩ- / Cĩ- class nouns) | | **Ngirathi ya keerĩ** | The second glass | **ya** (for N- class nouns) | | **Gĩciko gĩa gatatũ** | The third spoon | **gĩa** (for Gĩ- / Cĩ- class nouns) | | **Mũbira wa kana** | The fourth ball | **wa** (for Mũ- / Mĩ- class nouns) | | **Nyũmba ya gatano** | The fifth house | **ya** (for N- class nouns) | | **Kĩratũ gĩa gatandatũ** | The sixth shoe | **gĩa** (for Kĩ- / Cĩ- class nouns) | | **Karamu ka mũgwanja** | The seventh pen (or *small pen*) | **ka** (for Ka- / Tũ- class nouns) | | **Gĩtĩ gĩa kanana** | The eighth chair | **gĩa** (for Gĩ- / Cĩ- class nouns) | | **Mũĩrĩtu wa Kenda** | The ninth girl | **wa** (for Mũ- / A- class nouns) | | **thaani ya Ikũmi** | The tenth plate | **ya** (for N- class nouns) | *** **Learn Kĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 231",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3248,
+      "english": "Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**",
+      "kikuyu": "Ndigũkwĩra ũrĩa njĩtagwo** | I will not tell you my name | 1st Person Singular Future Negative (*Ndi-gũ...*) | | **Nĩ waragia Gĩkũyũ?** | Do you speak Kĩkũyũ? | Question (Present Tense) | | **Ndiaragia Gĩkũyũ o na hanini** | I don't speak Kĩkũyũ (even a little) | 1st Person Singular Present Negative (*Ndi-a...*) | | **Mũgai nĩ aragia Gĩkũyũ?** | Does Mũgai speak...? | Question (Present Tense) | | **Mũgai ndaragia Gĩkũyũ** | Mũgai does not speak Kĩkũyũ | 3rd Person Singular Present Negative (*Nda-ra...*) | | **O na Gĩthweri tũtĩaragia** | Even Swahili we do not speak (We also don't speak Swahili) | 1st Person Plural Present Negative (*Tũ-tĩ-a...*) | | **Aria kahora** | Speak slowly | Positive imperative (Command) | | **Ndĩkwaria kahora** | I will not speak slowly | 1st Person Singular Future Negative (*Ndi-kũ...*) | | **Tũtĩkwaria Kahora** | We will not speak slowly | 1st Person Plural Future Negative (*Tũ-tĩ-kũ...*) | | **Atĩ mũtĩkwaria kahora?** | So you will not ......? (So you all will not speak slowly?) | 2nd Person Plural Future Negative Question (*Mũ-tĩ-kũ...*) | | **Moiga matĩkwaria kahora** | They have said they will not speak slowly | 3rd Person Plural Future Negative (*Ma-tĩ-kũ...*) | | **O na wee ndũkwaria kahora?** | Even you, you will not speak slowly? | 2nd Person Singular Future Negative Question (*Ndũ-kũ...*) | | **Thĩĩ mũciĩ na ihenya** | Go home fast (Quickly) | Positive imperative (Command) | | **Ndigũthĩĩ** | I will not go. | 1st Person Singular Future Negative (*Ndi-gũ...*) | *** **Learn Kĩkũyũ",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 232",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3249,
+      "english": "Nyita kanua ũgĩathĩmũra | To sneeze. Cover your mouth when sneezing. | | **Gũkomba** - ũrakomba mũndũ nĩkĩ? | To make bad gestures/to borrow. Why are you making a bad gesture at a person? | | **Kũigua Kĩnyiria** - Araigua kĩnyĩria ona ndinĩhoho | To be disgusted/nauseated. He/She feels disgusted even though he/she is not drunk. | | **Kũnyĩra** - Maranyĩra irio cia mũcaina | To express disgust for food. They are expressing disgust for the Chinese food. | | **Kũnunũha** - Ndanunũha, ndakoma na ngara | To nose bleed. He has a nosebleed, he is sleeping on a sheet/mat. | | **Gũĩthĩkĩra** - Aigua mũndũ akua, ethĩkĩra | To have a sad posture/to mourn. He/She hears a person has died, he/she sits sadly. | | **Gwĩthĩkĩra nĩũndũ wa kĩeha kĩingĩ** | To have a sad posture due to much sorrow. | --- ## Verb Conjugation Exercise To fulfill the instruction, we will conjugate the verb stems into the **Past Tense",
+      "kikuyu": "Ndiratwara mwana thibitarĩ tondũ nĩ arahaya | To groan/moan. I am taking the child to the hospital because he is groaning. | | **Gũkorora** - twakorora tũtuaga gĩkorora | To snort/clear the nose. We snorted, let's blow our nose. | | **Gũathĩmũra**",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 241",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3250,
+      "english": "Kaĩ ũrakorora? Tua gĩkorora * **Gũathĩmũra** - Nyita kanua ũgĩathĩmũra * **Gũkomba** - to make bad gestures at someone who is facing away; To borrow money * **Kũigua Kĩnyiria** - to be disgusted * **Kũnyĩra** - to express disgust for something",
+      "kikuyu": "Ndiratwara mwana thibitarĩ tondũ nĩ arahaya * **Gũkorora**",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 245",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3251,
+      "english": "I am a photographer * **Verb:** **Kũhũra**",
+      "kikuyu": "Ndi mũhũri wa mbica",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 256",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3252,
+      "english": "You are a hunter * **Verb:** **Kũgĩmwĩa**",
+      "kikuyu": "Ndutaga wĩra wa kũhũra mbica.** *(I do the work of taking pictures.)* ### 2. (Wee) wĩ mũgĩmwĩ",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 256",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3253,
+      "english": "I}$ class) | | **Mũkanda** | **rope** | | **Yohetwo na muuto** | **It has been tied with pillows.** | --- ## Grammar Highlights The example sentence is great for illustrating several key features of Kikuyu",
+      "kikuyu": "Ndigiri ĩno nĩ ya Wajir** * **Translation:** This donkey is from Wajir; It is found in Wajir; it belongs to Wajir. * **Nĩmũrona ũrĩa ĩmenye-reirwo do you (all) see** * **Translation:** Do you (all) see how it has been taken care of? --- ### Key Vocabulary and Grammar | Kikuyu Word/Phrase | Literal Meaning/Grammar Note | | :--- | :--- | | **Ndigiri** | **Donkey** (The authentic Kikuyu word; *Bunda* or *Ng'unda* are also used by some people) | | **Ĩno** | **This one** (Demonstrative for noun class N/N $\\rightarrow$ **ici** is the plural: **These ones**) | | **Nĩ ũrona?** | **Can you see? Do you see?** (Singular) | | **Nĩmũrona** | **Do you (all) see** (Plural) | | **Ũrĩa** | **How** (In this context only) | | **Nĩ ũrona ũrĩa...** | **Do you see how....** | | **Kũmenyerera** | **to take care** | | **Menyerera** | **take care of** | | **Ũrĩa ĩmenyerereirwo** | **how it has been cared for** (Uses the passive voice **-irwo**) | | **Wimenyerere** | **take care of yourself** (Uses the reflexive prefix **-i-**) | | **Wega** | **well; good** | | **Oha** | **tie** | | **Mĩohe** | **tie it** (Command) | | **Ohetwo** | **he has been tied** (Passive voice) | | **Yohetwo** | **it has been tied** (Passive voice, applied to the donkey, which falls under the $\\text{I",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 269",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3254,
+      "english": "I}$ noun class. 3. **Reflexive Verb",
+      "kikuyu": "Ndigiri**, uses the demonstrative **ĩno** (this) and the subject prefix **ĩ-** (it), indicating it belongs to the $\\text{I",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 269",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3255,
+      "english": "Belly button * **Njohero** - Waist * **Kũgũrũ** - leg, **magũrũ** - legs --- The partial text on the right border says: **... Kikuyu - Jifunze Kĩkũ**",
+      "kikuyu": "Nda** - stomach * **Gĩthũri** - chest * **Mũkonyo**",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 311",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3256,
+      "english": "I plead with you not to drink much Kana mũtigane nayo - or stop it",
+      "kikuyu": "Ndamũthaitha mũtikanyue mũno",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 385",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    },
+    {
+      "id": 3257,
+      "english": "I have not been obedient",
+      "kikuyu": "Ndikoretwo ndî mwathîku",
+      "difficulty": "intermediate",
+      "context": "Verb conjugation - Other - Verb conjugation: conjugation example - File 395",
+      "cultural_notes": "Native speaker verb conjugation from Easy Kikuyu lessons by Emmanuel Kariuki. Native speaker verb conjugation examples from Easy Kikuyu lessons This example demonstrates other conjugation patterns in natural Kikuyu speech, showing authentic usage and proper morphological structure.",
+      "quality_score": 4.6,
+      "categories": [
+        "Easy Kikuyu Conjugations",
+        "Verb Patterns",
+        "Native Speaker Grammar"
+      ],
+      "has_sub_translations": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+The image provides an overview of **Kikuyu Noun Class 4**, which uses the prefixes **Kĩ-** or **Gĩ-** in the singular and **Ci-** or **I-** in the plural. This class is diverse, covering inanimate objects, abstract nouns, and sometimes people or animals.
+
+## Kikuyu Noun Class 4 Examples
+
+| English Term | Singular (Kĩ-/Gĩ-) | Plural (Ci-/I-) | Category |
+| :--- | :--- | :--- | :--- |
+| Chair | **Gĩtĩ** | **Itĩ** | Inanimate Object |
+| Cup | **Gĩkombe** | **Ikombe** | Inanimate Object |
+| Mountain | **Kĩrĩma** | **Ciĩma** | Inanimate Object |
+| Sandal/Shoe | **Kĩratũ** | **Cĩratũ** | Inanimate Object |
+| Tycoon/Miser | **Gĩtonga** | **Itonga** | Person |
+| Young Boy/Youth | **Kĩhĩĩ** | **Cĩhĩĩ** | Person |
+| Sharpening Stone | **Kĩnõoro** | **Cĩnõoro** | Inanimate Object |
+| Quiver | **Kĩano** | **Cĩano** | Inanimate Object |
+| Sadness | **Kĩeha** | **-** (Abstract) | Abstract Noun |
+| Happiness | **Gĩkeno** | **-** (Abstract) | Abstract Noun |
+| Crocodile | **Kĩng'angĩ** | **Ciũng'angĩ** | Animal |
+| Worm | **Kĩgunyũ** | **Ciũgunyũ** | Animal |
+
+***
+
+## Grammatical Notes on Class 4
+
+The image highlights the key concords (or modifiers) used with Class 4 nouns:
+
+| Concord Type | Singular (Kĩ-/Gĩ-) | Plural (Ci-/I-) | Example from image | Translation |
+| :--- | :--- | :--- | :--- | :--- |
+| **This/These** (Demonstrative) | **Gĩkĩ** or **Kĩkĩ** | **Ici** or **Cici** | **Gĩtĩ gĩkĩ kimwe** | **This one chair** |
+| **These** (Demonstrative) | | **Itĩ ici igĩrĩ** | **These two chairs** |
+| **These** (Demonstrative, alternative) | **Ici** | | |
+
+As noted in the image:
+* The **Noun form** changes from **Kĩ-/Gĩ-** (singular) to **Ci-/I-** (plural).
+* The demonstrative (**This/These**) and the numbers **-mwe** (one) and **-gĩrĩ** (two) change their prefixes to agree with the noun class (**Gĩkĩ** / **Kĩmwe** in singular and **Ici** / **Igĩrĩ** in plural).
+* Other modifiers like adjectives (e.g., **-thũ** "bad") remain in their noun form and don't change to match the concord (e.g., **kĩrĩma kĩnene** "a big mountain" $\rightarrow$ **ciĩma nene** "big mountains").

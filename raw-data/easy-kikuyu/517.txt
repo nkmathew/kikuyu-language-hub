@@ -1,0 +1,23 @@
+The image provides an explanation and examples of the **conditional tense** in the Kikuyu language, introduced under the heading "**Wa juma - Saturday**." The verb being used for the examples is **Menya**, which means **know, find out, or learn**.
+
+Here is the breakdown of the terms and example phrases:
+
+## Kikuyu Conditional Tense Examples
+
+| Kikuyu Word/Phrase | English Translation | Grammatical Note |
+| :--- | :--- | :--- |
+| **Menya** | know | Verb stem |
+| **Kũmenya** | to know | Infinitive form |
+| **Ũngĩ + menya** | If you know/find out/learn | Second Person Singular (You) |
+| **Ingĩ + menya** | If I know/find out/learn | First Person Singular (I) |
+| **Ingĩmenya ingĩka atĩa?** | If I know/find out/learn, what would I do? | Full conditional sentence (I) |
+| **Ũngĩmenya ũngĩka atĩa?** | If you know/find out/learn, what would you do? | Full conditional sentence (You) |
+| **Angĩmenya angĩka atĩa?** | If he/she knows/finds out/learns, what would he/she do? | Third Person Singular (He/She) |
+| **Mũngĩmenya mũngĩka atĩa?** | If you know/find out/learn, what would you do? | Second Person Plural (You all) |
+| **Mangĩmenya mangĩka atĩa?** | If they know/find out/learn, what would they do? | Third Person Plural (They) |
+| **Tũngĩmenya tũngĩka atĩa?** | If we find out, what would we do? | First Person Plural (We) |
+| **Ingĩmenya kwaria Gĩkũyũ, no njarie Gĩkũyũ.** | If I could speak Kikuyu, I would speak... (Kikuyu). | Example of a full conditional statement (I) |
+| **Ũngĩhota gũtwarithia ndege, ũngĩmĩtwara kũ?** | If you could fly an aircraft, where would you take it? | Example of a full conditional question (You) |
+
+---
+The pattern for forming the conditional tense often involves the prefix **-ngĩ-** inserted before the verb stem, combined with the subject agreement prefix.

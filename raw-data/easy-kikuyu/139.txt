@@ -1,0 +1,27 @@
+The image provides a list of Kikuyu words that are phonetically similar but have different meanings (homophones or minimal pairs), illustrating the importance of correct pronunciation and tones.
+
+The heading **"Thooma ciugo ici—read these words aloud na ũtunge ũhoro—and compose sentences"** encourages practice.
+
+---
+
+### Group 1: Words with Different Tone/Length/Prefix
+
+| Kikuyu Word | Meaning | Example Sentence (from image) | Translation of Sentence |
+| :--- | :--- | :--- | :--- |
+| **Rĩũ** | now | **Rĩũ ngũrĩa kĩĩ?** | **What will I eat now?** |
+| **Mũrĩũ** | a drunk person | **Mũndũ ũyũ nĩ mũrĩũ** | **This person is a drunk person** (or **This person is drunk**) |
+| **Hĩũ** | cooked (ready to eat) | **Irio ici nĩ hĩũ** | **This food is cooked (ready to eat)** |
+| **Kĩũ** | that one (that big one) | (No example sentence provided) | - |
+
+---
+
+### Group 2: Verb Roots
+
+These words are all verb roots and show how slight variations in vowels and tone change the meaning.
+
+| Kikuyu Verb Root | Meaning | Example Sentence (from image) | Translation of Sentence |
+| :--- | :--- | :--- | :--- |
+| **Ĩra** | tell | **Ĩra mwarimũ** | **Tell the teacher** |
+| **Rĩra** | cry | **Rĩra hanini** | **Cry a little** |
+| **Rarĩra** | sleep without supper/eating | **Rarĩra ũkarĩa rũciũ** | **Sleep (without eating) and eat tomorrow** |
+| **Ĩkĩrĩra** | put something in a container for someone | (No example sentence provided) | - |

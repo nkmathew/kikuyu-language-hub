@@ -1,0 +1,132 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-07T00:00:00Z",
+    "last_updated": "2025-10-07T00:00:00Z",
+    "curator": "Claude (Manual Curation)",
+    "source_files": ["056.txt", "057.txt", "059.txt", "060.txt"],
+    "total_entries": 4,
+    "description": "Common phrases from Easy Kikuyu - Batch 006 (housing questions, descriptions, practice prompts)"
+  },
+  "entries": [
+    {
+      "id": "ek_phrase_batch006_001",
+      "english": "have you ever entered a timber house?",
+      "kikuyu": "nî ûrî waingîra nyûmba ya mbaû?",
+      "category": "phrases",
+      "subcategory": "questions_experience",
+      "difficulty": "intermediate",
+      "context": "Question about past experience with specific house type",
+      "cultural_notes": "Pattern for asking about past experiences",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "pattern": "nî ûrî wa- + verb + object",
+        "question_type": "past_experience"
+      },
+      "tags": ["phrases", "questions", "experience", "housing", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 056",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T20:00:00Z",
+        "last_updated": "2025-10-07T20:00:00Z"
+      }
+    },
+    {
+      "id": "ek_phrase_batch006_002",
+      "english": "have you ever slept in a house with a tiled roof?",
+      "kikuyu": "nî ûrî wakoma nyûmba îgîtîtwo na maturubarî?",
+      "category": "phrases",
+      "subcategory": "questions_experience",
+      "difficulty": "intermediate",
+      "context": "Question about sleeping in specific house type",
+      "cultural_notes": "Shows verb 'koma' (to sleep) in past experience context",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "pattern": "nî ûrî wa- + koma + location",
+        "question_type": "past_experience"
+      },
+      "tags": ["phrases", "questions", "experience", "housing", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 056",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T20:00:00Z",
+        "last_updated": "2025-10-07T20:00:00Z"
+      }
+    },
+    {
+      "id": "ek_phrase_batch006_003",
+      "english": "this timber house is raised like a granary",
+      "kikuyu": "nyũmba ĩno ya mbaũ yoetwo igũrũ ta ikũmbĩ",
+      "category": "phrases",
+      "subcategory": "descriptions",
+      "difficulty": "intermediate",
+      "context": "Describing elevated house construction similar to traditional granaries",
+      "cultural_notes": "Compares modern raised houses to traditional grain storage structures",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "noun + description + ta (like) + comparison"
+      },
+      "tags": ["phrases", "descriptions", "housing", "comparisons", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 057",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T20:00:00Z",
+        "last_updated": "2025-10-07T20:00:00Z"
+      }
+    },
+    {
+      "id": "ek_phrase_batch006_004",
+      "english": "have you ever seen a mud hut?",
+      "kikuyu": "nî ûrî wona nyûmba ya ndooro?",
+      "category": "phrases",
+      "subcategory": "questions_experience",
+      "difficulty": "beginner",
+      "context": "Question about experience with traditional housing",
+      "cultural_notes": "References traditional mud houses, important in Kikuyu cultural heritage",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "pattern": "nî ûrî wa- + ona (see) + object",
+        "question_type": "past_experience"
+      },
+      "tags": ["phrases", "questions", "experience", "traditional", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 059",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T20:00:00Z",
+        "last_updated": "2025-10-07T20:00:00Z"
+      }
+    }
+  ]
+}

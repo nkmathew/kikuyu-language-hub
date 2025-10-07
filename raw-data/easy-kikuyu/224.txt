@@ -1,0 +1,72 @@
+This image provides conjugation tables for the **Future Tense - Later Today** in the Kĩkũyũ language.
+
+## Kĩkũyũ Future Tense Conjugations (Later Today)
+
+### 2nd Person Singular (wẽẽ - you)
+
+| Verb | Future Tense (Singular) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **ũgũ-ũka** | you will come |
+| **-rĩra** | Nĩ **ũkũ-rĩra** | you will cry |
+| **-rĩa** | Nĩ **ũkũ-rĩa** | you will eat |
+| **-aria** | Nĩ **ũkũ-aria** | you will speak |
+| **-kena** | Nĩ **ũgũ-kena** | you will be happy |
+| **-theka** | Nĩ **ũgũ-theka** | you will laugh |
+| **-thĩĩ** | Nĩ **ũgũ-thĩĩ** | you will go |
+| **-thooma** | Nĩ **ũgũ-thooma** | you will read |
+| **-andĩka** | Nĩ **ũkũ-andĩka** | you will write |
+
+---
+
+### 2nd Person Plural (Inyuĩ - you)
+
+| Verb | Future Tense (Plural) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **Mũgũ-ũka** | We will come (Error in table, this should be **You will come** plural) |
+| **-rĩra** | Nĩ **Mũkũ-rĩra** | We I will cry (Error in table, this should be **You will cry** plural) |
+| **-rĩa** | Nĩ **Mũkũ-rĩa** | We will eat (Error in table, this should be **You will eat** plural) |
+| **-aria** | Nĩ **Mũkũ-aria** | We will speak (Error in table, this should be **You will speak** plural) |
+| **-kena** | Nĩ **Mũgũ-kena** | We will be happy (Error in table, this should be **You will be happy** plural) |
+| **-theka** | Nĩ **Mũgũ-theka** | We will laugh (Error in table, this should be **You will laugh** plural) |
+| **-thĩĩ** | Nĩ **Mũgũ-thĩĩ** | We will go (Error in table, this should be **You will go** plural) |
+| **-thooma** | Nĩ **Mũgũ-thooma** | We will read (Error in table, this should be **You will read** plural) |
+| **-andĩka** | Nĩ **Mũkũ-andĩka** | We will write (Error in table, this should be **You will write** plural) |
+
+---
+
+### 3rd Person Singular (We (short vowel) - him/her)
+
+| Verb | Future Tense (Singular) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **egũka** / Nĩ e**gũka** | he/she will come |
+| **-rĩra** | Nĩ **ekũrĩra** | he/she will cry |
+| **-rĩa** | Nĩ **ekũrĩa** | he/she will eat |
+| **-aria** | Nĩ **ekũaria** | he/she will speak |
+| **-kena** | Nĩ **egũkena** | he/she will be happy |
+| **-theka** | Nĩ **egũtheka** | he/she will laugh |
+| **-thĩĩ** | Nĩ **egũthĩĩ** | he/she will go |
+| **-thooma** | Nĩ **agũthooma** | he/she will read |
+| **-andĩka** | Nĩ **ekũandĩka** | he/she will write |
+
+---
+
+### 3rd Person Plural (O (short vowel) - them)
+
+| Verb | Future Tense (Plural) | English Translation |
+| :--- | :--- | :--- |
+| **-ũka** | Nĩ **megũka** | They will come |
+| **-rĩra** | Nĩ **mekũrĩra** | They will cry |
+| **-rĩa** | Nĩ **mekũrĩa** | They will eat |
+| **-aria** | Nĩ **mekũaria** | They will speak |
+| **-kena** | Nĩ **megũkena** | They will be happy |
+| **-theka** | Nĩ **megũtheka** | They will laugh |
+| **-thĩĩ** | Nĩ **megũthĩĩ** | They will go |
+| **-thooma** | Nĩ **magũthooma** | They will read |
+| **-andĩka** | Nĩ **mekũandĩka** | They will write |
+
+***
+
+**Text below is written in normal orthography**
+**Learn Kĩkũyũ - Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**
+
+© Emmanuel Kariuki

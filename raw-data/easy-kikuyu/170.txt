@@ -1,0 +1,73 @@
+You've provided two images for a Kikuyu language lesson: one on **Parts of the Body** and one on **Health and Hospital** phrases.
+
+Here is the information from both images presented clearly in separate tables and sections.
+
+***
+
+## 1. Parts of the Body (Cĩuga cia mwĩrĩ) (Week Four)
+
+This table lists the parts of the body, including the Kikuyu singular and plural forms where provided:
+
+| English | Kikuyu (Singular/Plural) |
+|:----------|:---------------------------|
+| **head** | Mũtwee/ Mîtwe |
+| **hair** | Njũrĩrĩ/ Njũîrĩ |
+| **eyebrow** | Rũbutu/ Mbutu |
+| **eye** | Riitho/ Maitho |
+| **ear** | Gũtũ/ Matũ |
+| **nose** | Inĩũrũ/ Manĩũrũ |
+| **mouth** | Kanua / Tũnua |
+| **teeth** | Igego/Magego |
+| **lips** | Kîromo/ Iromo |
+| **chin** | Kĩreru/ Ireru |
+| **neck** | Ngingo/ Ngingo |
+| **chest** | Gĩthũri/ Îthũri |
+| **shoulder** | Kĩande/ Ciande |
+| **arm** | Guoko/ Moko |
+| **stomach** | Nda/ Nda |
+| **hand** | Rũhĩ/ Hĩ |
+| **waist** | Njohero/ Njohero |
+| **knee** | Îru/ Maru |
+| **fingers** | Kĩara/ Twara |
+| **leg** | Kũgũrũ/ Magũrũ |
+| **foot** | Ikĩnya/ Makĩnya |
+| **toes** | Kĩara/ Twara |
+
+***
+
+## 2. Health and Hospital Phrases
+
+This section provides vocabulary and common phrases related to illness and visiting a hospital (**Thibitarĩ**).
+
+### Vocabulary
+
+| Kikuyu Term | English Meaning | Image Context |
+|:---|:---|:---|
+| **Thibitarĩ** | Hospital | Building exterior |
+| **Mũrwaru** | Patient / Sick person | Person on a hospital bed |
+| **Ndagĩtarĩ** | Doctor (male) | Man in a lab coat |
+| **Mũrigitani** | Doctor (female/general term) | Woman in a lab coat |
+| **Dagĩtarĩ wa magego** | Dentist | Person sitting in a dental chair |
+| **Mĩthaiga** | Medicine / Drugs | Pills and bottles |
+| **Ndawa** | Medicine / Remedy | Pills and bottles |
+
+### Dialogue and Phrases
+
+| Kikuyu Phrase | English Translation |
+|:---|:---|
+| **Ndĩ mũrwaru** | I am sick |
+| **Ndiraiguia wega** | I am not feeling well |
+| **Thĩĩ thibitarĩ** | Go to the hospital |
+| **Ũraatũũrwo nĩ kũ?** | Where are you hurting (where is your pain)? |
+| **Ndiraatũũrwo nĩ mũtwee** | I have a headache |
+| **Nĩ ũraatũũrwo nĩ nda?** | Do you have a stomachache? |
+| **Aca ndiraatũũrwo nĩ nda** | No I do not have a stomachache |
+| **Ũraatũũrwo nĩ kũũ ũngĩ?** | Where else are you hurting? |
+| **O na igego nĩ rĩraatũũra** | I also have a toothache |
+| **Thĩĩ wone ndagĩtarĩ wa magego** | Go see a dentist |
+| **Eha mũrigitanĩ** | Where is the nurse? |
+| **Amba ũthĩmwo ratirĩ** | Get your weight checked first |
+| **Hĩĩ! Wĩ na ũrugarĩ!** | Wah! Your temperature is high |
+
+***
+*The vertical text on both images reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.***

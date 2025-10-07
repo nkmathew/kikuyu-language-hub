@@ -1,0 +1,137 @@
+You've provided a great collection of Kikuyu language lessons! I can help you summarize the vocabulary, phrases, grammar rules, and cultural notes from these images.
+
+Here is a structured overview of the content:
+
+### 1. Greetings and Conversation
+
+| Kikuyu Phrase | English Translation |
+| :--- | :--- |
+| **Wĩtagwo atĩa?** | What is your name? |
+| **Njĩtagwo Mwangi** | My name is Mwangi |
+| **Wĩ mwega?** | How are you? |
+| **Nđĩ mwega mũno** | I am very fine |
+| **Kwan yu nĩ kũ?** | Where is your home? |
+| **Gwitũ nĩ Mũrang'a** | Our home is in Mũrang'a |
+| **Nĩ ũthiaga thukuru?** | Do you go to school? |
+| **Ĩĩ nĩ thiaga thukuru** | Yes, I go to school |
+| **Thukuru yanyu ĩtagwo atĩa?** | What is the name of your school? |
+| **Mwarimũ witũ etagwo Kariuki** | Our teacher's name is Kariuki |
+| **Ko ko ko** | (someone knocking at the door) |
+| **Nũũ ?** | who is it ? |
+| **Ĩĩ nđĩ mũgeni** | yes I am a visitor |
+| **Ingĩra** | enter |
+| **Thĩĩ na wega** | go in peace |
+
+### 2. Grammar: Conjugation & Location
+
+#### Simple Present Tense (Habitual - I do habitually)
+
+| Subject | Verb Stem | Meaning (Singular) | Meaning (Plural) |
+| :--- | :--- | :--- | :--- |
+| **Nĩĩ** (Me) | **Nĩ njũkaga** | I come | |
+| **Ithuĩ** (We) | **Nĩ tũkaga** | | We come |
+| **Wee** (You) | **Nĩ ũroka** | You are coming | |
+| **Inyuĩ** (You Pl.) | **Nĩ mũroka** | | You are coming |
+| **We** (He/She) | **Nĩ aroka** | He/she is coming | |
+| **O** (They) | **Nĩ maroka** | | They are coming |
+
+#### Locating (Now and Earlier Today)
+
+| Now (**Kahinda gaka**) | Earlier Today (**ũmũthĩ mahinda mahitũku**) |
+| :--- | :--- |
+| **Nđĩ gũkũ** - I am here | **Nyuma gũkũ** - I was here |
+| **Twĩ gũkũ** - We are here | **Tuma gũkũ** - We were here |
+
+#### Verbs to Nouns (Agent Noun Formation)
+
+Prefixing a verb root with **Mũ-** often forms a noun, usually ending in '-i'.
+* **Gũthĩĩ** (to go) $\rightarrow$ **Mũthĩĩ** (traveller)
+* **Kũruga** (to cook) $\rightarrow$ **Mũrugi** (one who cooks)
+* **Kwenda** (to want, to love) $\rightarrow$ **Mwendwa** (lover)
+
+### 3. Vocabulary: Verbs
+
+| Kikuyu (Infinitive) | English Translation | Imperative (Singular) |
+| :--- | :--- | :--- |
+| **Kũgũra** | to buy | **Gũra** - buy |
+| **Kũhinga** | to close | **Hinga** - close |
+| **Kũhingũra** | to open | **Hingũra** - open |
+| **Kũrũgama** | To stand | **Rũgama** - Stand |
+| **Kwaria** | to speak | **Aria** - speak |
+| **Gũthoooma** | to read (study) | **Thomera** - read to (for) someone |
+| **Gũtwara** | to deliver something | **Twarĩĩra** - deliver to (for) somebody |
+| **Gũikara thĩ** | to sit down | |
+| **Kũmenya** | to know | |
+| **Kwenda** | to want, to love | |
+
+### 4. Vocabulary: Nouns (Objects, Animals, Places)
+
+#### Animals and Birds
+
+| Kikuyu Word | English Translation |
+| :--- | :--- |
+| **Nyaga** | Ostrich |
+| **Huria** | Rhinoceros |
+| **Mũrũthi** | Lion |
+| **Ngũi** | Dog |
+| **Nyau** | Cat |
+| **Mbata** | Duck |
+| **Ngũkũ ya mwera** | Hen |
+| **Gacui** | Chick |
+| **Mbica** | Picture/Photo |
+| **Thaburia** | Pot (saucepan) |
+| **Ng’ombe** | Cow |
+
+#### Parts of a Bird
+
+* **eye** - **Ritho / Maitho**
+* **head** - **Mũtwe / Mĩtwe**
+* **wings** - **ĩthagu / Mathagu**
+* **tail feathers** - **Njoya cia Kĩngũĩ**
+
+#### Place/Location
+
+* **Haha** - here
+
+### 5. Specialized Vocabulary & Phrases
+
+#### Sleep
+
+* **Gũkoma** - to sleep
+* **Gũkoma na nda** - to sleep on the stomach (face down)
+* **Koma na wega (thayũ)** - Sleep well
+* **Gĩa na ũtuko mwega** - have a good night
+
+#### Directions and Geography
+
+* **Haica matatu ya taũnĩ** - Board a Matatu to town
+* **Taũnĩ nĩ nene** - the town is large
+* **Ũmĩra bothita** - disembark at Posta (Post office)
+* **Bũrũri witũ wĩtagwo Kenya** - our country is called Kenya
+
+#### Creation Story
+
+* **Aciari a rũrĩrĩ rwa Gĩkũyũ nĩ Gĩkũyũ na Mũũmbi** - The parents of the Kikuyu are Gĩkũyũ and Mũũmbi
+* **Marĩ na ciana kenda** - They had nine children
+* **Rũrĩrĩ** - a community speaking one language
+* **Ikũmbĩ** - granary
+
+#### Simple Sentences (Consonants)
+
+* **Guka gucia guoko gwakwa** - Grandfather, pull my hand
+* **Haha hena heho** - This place is cold
+* **Kahĩĩ nĩ karatha kanyoni** - The boy has shot the bird
+
+#### Hospital
+
+* **Thibitarĩ** - Hospital
+* **Mũrwaru** - Patient
+* **Ndagĩtarĩ** - Doctor
+* **Mũrigitani** - Nurse
+* **Nđawa ya mbũrũgũtũ** - tablet
+
+#### Hygiene
+
+* **Wĩthambe moko** - Wash your hands
+* **Wĩhake thabuni** - Apply soap
+* **Wĩhuure na ngacibũ ya karatathi** - Dry with a clean towel

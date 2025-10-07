@@ -1,0 +1,20 @@
+Certainly! The task is to form short Gĩkũyũ sentences by combining words from the provided list of vocabulary and verbs.
+
+Here are 10 example sentences:
+
+---
+
+## Short Gĩkũyũ Sentences
+
+| Gĩkũyũ Sentence | English Translation | Breakdown |
+| :--- | :--- | :--- |
+| 1. **Ĩkaara thĩ!** | Sit down! (Imperative) | **Ĩkara thĩ** (sit down) |
+| 2. **Ũka Naĩhenya!** | Come quickly! | **Ũka** (come) + **Naĩhenya** (quickly, from previous lessons' vocab) |
+| 3. **Rĩĩra methaini.** | Eat at the table. | **Rĩĩra** (eat at/for) + **metha** (table) + suffix **-ini** (locative) |
+| 4. **Hinga mũrango.** | Close the door. | **Hinga** (close) + **Mũrango** (door) |
+| 5. **Hingũrĩra Ndĩrica.** | Open the window (for someone). | **Hingũrĩra** (open for) + **Ndĩrica** (window) |
+| 6. **Andĩka ũhoro ũcio.** | Write that news/matter. | **Andĩka** (write) + **ũhoro** (news/matter/thing, from previous lessons' vocab) |
+| 7. **Cookia gĩtĩ kĩu.** | Return that chair (something). | **Cookia** (return something) + **Gĩtĩ** (chair) + **kĩu** (that) |
+| 8. **Thĩĩ kabati.** | Go to the cupboard. | **Thĩĩ** (go) + **Kabati** (cupboard) |
+| 9. **Ruta gĩtĩ kĩu.** | Remove that chair. | **Ruta** (remove) + **Gĩtĩ** (chair) + **kĩu** (that) |
+| 10. **Ngeithi njega!** | Good greetings! / Hello! | **Ngeithi** (greetings) + **Wega** (good) - changed to **Njego/Njeiga** to agree with the noun class. |

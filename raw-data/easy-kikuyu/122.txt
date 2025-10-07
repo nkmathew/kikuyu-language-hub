@@ -1,0 +1,73 @@
+Based on the images you provided, here is a summary of the Kikuyu vocabulary and grammar rules on **Future Tenses, Nouns (including names and noun classes), and Types of Houses**.
+
+***
+
+## Future Tenses
+
+The first image (`image_3d9997.png`) covers the use of the future tense for actions that will happen **tomorrow or anytime in the future**. The tense is formed by combining a pronoun prefix with the verb.
+
+| Pronoun | Kikuyu | Meaning | Example |
+| :---: | :---: | :---: | :---: |
+| **Nîî** | **Ngo-** | I (will) | (Nîî) **Ngokîra** dagîka ikûmi ciathira - *I will wake up ten minutes later* |
+| **Wëë** | **Ûgo-** | You (singular, will) | (Wëë) **Ûgokîra** thutha wa dagîka ikûmi - *You will wake up after ten minutes* |
+| **Wë** | **Age-** | He/She (will) | (Wë) **Agethamba** na maî mahoro - *He/She will bathe with cold water* |
+| **Ithuî** | **Tûka-** | We (shall) | **Tûkarîa** - *We shall eat* |
+| **Inyuî** | **Mûka-** | You (plural, will) | **Mûkarîa** - *You will eat* |
+| **O** | **Maka-** | They (will) | **Makarîa** - *They will eat* |
+
+***
+
+## Names and the Auxiliary Verb "Call"
+
+The second image (`image_48992c.png`) explains the use of **Rîtwa** (name) and the verb **ît a** (to call), which forms **Njitagwo** (I am called).
+
+### Noun Class 5: Rîtwa (Name)
+
+* **Rîtwa** falls into Noun Class 5, where the demonstrative "This" is **rĩrĩ** (singular) and **maya** (plural).
+    * **Rîtwa rĩrĩ** - *This name*
+    * **Marîtwa maya** - *These names*
+* The prefix for **"of"** is **rî** in singular and **ma** in plural:
+    * **Rîtwa rĩakwa** - *My name*
+    * **Marîtwa makwa** - *My names*
+
+### The Verb "To Call"
+
+The expression "I am called" uses the verb stem **-îtagwo** from **ît a** (to call):
+
+| Prefix | Kikuyu | Meaning |
+| :---: | :---: | :---: |
+| **Njî-** | **Njitagwo** | *I am called / My name is...* |
+
+***
+
+## Types of Houses (Mîthemba ya Nyûmba)
+
+You provided images detailing three main types of houses, describing their construction materials and features:
+
+### 1. Stone and Brick Houses (`image_3d9d5b.jpg`)
+
+| Kikuyu Word | Meaning | Description/Feature |
+| :---: | :---: | :---: |
+| **Nyûmba ya Mahiga** | *Stone house* | Constructed with stones. |
+| **Mabati** | *Iron sheets* | Roofing material. |
+| **Rûthingo rwa mahiga** | *Stone wall* | A wall made of stones. |
+| **Matûrubarĩ** | *Bricks* | Used to construct a **rûthingo rwa matûrubarĩ** (brick wall). |
+
+### 2. Wooden/Timber Houses (`image_3da0e3.jpg`)
+
+| Kikuyu Word | Meaning | Description/Feature |
+| :---: | :---: | :---: |
+| **Nyûmba ya mbaû** | *Timber house* | Constructed with timber/wood. |
+| **Matûrubarĩ** | *Tiles* | Roofing material. |
+| **Rûthingo rwa mbaû** | *Wooden wall* | A wall made of wood. |
+
+***
+
+## Insects and Animals
+
+The final image (`image_3d95b9.jpg`) provides vocabulary for various insects:
+
+* **Mûthûa** - **Termite**
+* **Thûraku** - **Soldier ant** (which move in a line)
+* **Thigiriri** - **Black ant** (small black ones)
+* **Mûgagaca** - **Fire ant** (very tiny brown ants that move in large groups)

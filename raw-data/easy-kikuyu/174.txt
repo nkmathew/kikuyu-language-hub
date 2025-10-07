@@ -1,0 +1,117 @@
+I've compiled the information from your uploaded images, which cover a variety of Kikuyu language topics including grammar, vocabulary, proverbs, and short stories.
+
+Here is the summary, organized by lesson topic:
+
+***
+
+## 1. Grammar and Sentence Structure
+
+### A. Personal Pronouns and Dialogue
+
+| Kikuyu Phrase | English Translation | Notes |
+|:---|:---|:---|
+| **Ko ko ko** | (someone knocking at the door) | Onomatopoeia for knocking. |
+| **Nũũ ?** | Who is it? | |
+| **Nĩ nĩĩ** | It is me | |
+| **Nĩ we ũ ?** | Who are you? | |
+| **Njitagwo Njeri** | My name is Njeri | |
+| **Njeri wa ũ ?** | Whose Njeri (who is your father)? | A traditional way of asking for lineage. |
+| **Wee wĩ mũgeni** | You are a visitor | |
+| **Ĩĩ ndĩ mũgeni** | Yes I am a visitor | |
+| **Ingĩra** | Enter | |
+| **Nyua cai** | Take tea | |
+| **Nĩ ndainuka** | I am off home | |
+| **Thĩĩ na wega** | Go in peace | A common farewell. |
+
+### B. Conjugation: 3rd Person to 1st Person (Present/Near Future Tense)
+
+This shows how verbs change from the 3rd person singular and plural (he/she/they) to the 1st person singular and plural (I/we). The example structure uses the **Nĩ a-** (3rd singular) and **Nĩ ma-** (3rd plural) prefixes.
+
+| 3rd Person Singular (He/She) | 1st Person Singular (I) | 3rd Person Plural (They) | 1st Person Plural (We) |
+|:---|:---|:---|:---|
+| **Nĩ aracaria** (is searching) | **Nĩ ndiracaria** (I am searching) | **Nĩ maroka** (are coming) | **Nĩ tũrĩoka** (We are coming) |
+| **Nĩ aracoona** (is coming back) | **Nĩ ndiracooka** (I am coming back) | **Nĩ mararĩra** (are crying) | **Nĩ tũrĩarĩra** (We are crying) |
+| **Nĩ areka** (is doing) | **Nĩ ndireka** (I am doing) | **Nĩ maraña** (are eating) | **Nĩ tũrĩara** (We are eating) |
+| **Nĩ araikara** (is staying) | **Nĩ ndiraikara** (I am staying) | **Nĩ mararia** (are speaking) | **Nĩ tũrĩaria** (We are speaking) |
+| **Nĩ arakinya** (is arriving) | **Nĩ ndirakinya** (I am arriving) | **Nĩ marakena** (are happy) | **Nĩ tũrĩakena** (We are happy) |
+| **Nĩ arethamba** (is bathing) | **Nĩ ndirethamba** (I am bathing) | **Nĩ maratheka** (are laughing) | **Nĩ tũrĩatheka** (We are laughing) |
+| **Nĩ arathũkia** (is going) | **Nĩ ndirathũkia** (I am going) | **Nĩ marathĩĩ** (are going) | **Nĩ tũrĩathĩĩ** (We are going) |
+| **Nĩ aratinia** (is cutting) | **Nĩ ndiratinia** (I am cutting) | **Nĩ marathooma** (are reading) | **Nĩ tũrĩathooma** (We are reading) |
+| **Nĩ areterera** (is waiting) | **Nĩ ndireterera** (I am waiting) | **Nĩ marandĩka** (are writing) | **Nĩ tũrĩandĩka** (We are writing) |
+
+### C. Conjunctions and Connective Phrases
+
+Most Kikuyu conjunctions are complete phrases, with a few single-word exceptions.
+
+| English Conjunction | Kikuyu Word/Phrase | Example Sentences |
+|:---|:---|:---|
+| **and** | **na** | Nĩ marĩaga ngũrũwe **na** makanyua njohi (They eat pork **and** they drink beer). |
+| **nor** | **na** | Matirĩaga ngũrũwe **na** matinyuaga njohi (They neither eat pork **nor** do they drink beer). |
+| **but** | **no** | Nĩ mathakaga **no** matinaga (They play **but** they do not dance). |
+| **or** | **kana** | No woye karamu **kana** ibuku (You can take a pen **or** a book). |
+| **after** | **thutha wa...** | |
+| **although** | **ona gũtũĩka...** | |
+| **because** | **tondũ wa...** (niamu...) | |
+| **till** | **kinya rĩrĩa** | |
+
+***
+
+## 2. Vocabulary
+
+### A. Parts of the Body (Cĩuga cia mwĩrĩ)
+
+| English | Kikuyu (Singular/Plural) | English | Kikuyu (Singular/Plural) |
+|:----------|:---------------------------|:----------|:---------------------------|
+| **head** | Mũtwee/ Mîtwe | **neck** | Ngingo/ Ngingo |
+| **hair** | Njũrĩrĩ/ Njũîrĩ | **chest** | Gĩthũri/ Îthũri |
+| **eyebrow**| Rũbutu/ Mbutu | **stomach**| Nda/ Nda |
+| **eye** | Riitho/ Maitho | **hand** | Rũhĩ/ Hĩ |
+| **ear** | Gũtũ/ Matũ | **leg** | Kũgũrũ/ Magũrũ |
+| **nose** | Inĩũrũ/ Manĩũrũ | **foot** | Ikĩnya/ Makĩnya |
+| **mouth** | Kanua / Tũnua | **arm** | Guoko/ Moko |
+| **teeth** | Igego/Magego | **knee** | Îru/ Maru |
+| **lips** | Kîromo/ Iromo | **fingers/toes** | Kĩara/ Twara |
+
+### B. Light and Darkness
+
+| Kikuyu Word | English Translation | Sources of Light (Ũtheri) |
+|:---|:---|:---|
+| **Ũtheri** | light | **Ũtheri wa rĩũa** (Sun light) |
+| **Nduma** | Darkness | **Ũtheri wa mweri na njata** (Light from moon and stars) |
+| | | **Ũtheri wa thitima** (Electric light) |
+| | | **Ũtheri wa mũcũmaa** (Light from a candle) |
+| | | **Ũtheri wa toci** (Light from a torch) |
+| | | **Ũtheri wa mwaki wa ngũ** (Light from a firewood fire) |
+
+### C. Consonant Sounds and Examples
+
+| Consonant | Kikuyu Phrase | English Translation | Vocabulary |
+|:---|:---|:---|:---|
+| **g (g)** | **G**uka **g**ucia **g**uoko **g**akwa | Grandfather, pull my hand | **Gĩkombe** (cup) |
+| | **Gĩ**ra **gĩ**kombe **gĩ**kĩ | Come for this cup | |
+| **h (h)** | **H**a**h**a **h**ena **h**e**h**o | This place is cold | |
+| | **H**u**h**a mwaki wa**h**ota | Blow the fire if you can | |
+| **k (k)** | **K**airĩtu **k**ena **k**aramu | The girl has a pen | **Karamu** (pen/pencil) |
+| | **K**ana **k**ona **k**ora **k**ora | The child saw a frog and ran away | **Kĩura** (frog), **Kora** (small frog) |
+
+***
+
+## 3. Proverbs and Stories
+
+### A. Proverb on Saving (Wĩĩgĩire ndahũtaga)
+
+| Kikuyu Proverb | English Translation | Lesson |
+|:---|:---|:---|
+| **Wĩĩgĩire ndahũtaga** | He/she that has saved something does not starve | **Make a habit of saving for hard times.** |
+| **Vocabulary** | **Kũĩga** (to keep, store), **Ng'aragu** (Hunger), **Kũhũta** (to be hungry) | |
+
+### B. Short Story Excerpt (Karũgano)
+
+The story **Wambũĩ Mĩcore na Thigiriri (Zebra and Black Ant)** describes the start of their friendship:
+
+| Kikuyu Text | English Translation |
+|:---|:---|
+| **ciarĩ ũrata mũno** | Were great friends (had a **friendship**) |
+| **Wambũĩ nĩ yatumaga rũgendo rũraihu** gũthiĩ **gũcererera Thigiriri** | Zebra would travel on a **long Journey** to **visit** Black Ant |
+| No Thigiriri yarĩ **nini mũno** ya kũhota gũceragĩra Wambũĩ Mĩcore **kaĩngĩ** | But Black Ant was **very small** to be able to visit Zebra **often** |
+| **Rĩrĩa** Thigiriri yaigwire atĩ... | **When** Black Ant heard that... |

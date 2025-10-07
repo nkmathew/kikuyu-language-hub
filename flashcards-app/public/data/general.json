@@ -1,0 +1,4161 @@
+{
+  "category": "general",
+  "total_count": 295,
+  "difficulty_counts": {
+    "beginner": 0,
+    "intermediate": 0,
+    "advanced": 0
+  },
+  "items": {
+    "beginner": [],
+    "intermediate": [],
+    "advanced": [],
+    "all": [
+      {
+        "id": 7,
+        "english": "How are you? (alternative)",
+        "kikuyu": "kũhana atĩa?",
+        "difficulty": "beginner",
+        "context": "Alternative form of greeting",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 8,
+        "english": "How are you doing?",
+        "kikuyu": "Ũrĩ mwega?",
+        "difficulty": "beginner",
+        "context": "Asking about someone's condition",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 9,
+        "english": "How are you doing? (alternative)",
+        "kikuyu": "Wĩ mwega",
+        "difficulty": "beginner",
+        "context": "Alternative form",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 11,
+        "english": "Are you a friend?",
+        "kikuyu": "Wĩ mũrata?",
+        "difficulty": "intermediate",
+        "context": "Asking about friendship",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 18,
+        "english": "Bye, be blessed (alternative)",
+        "kikuyu": "Tigwo na thaayũ",
+        "difficulty": "intermediate",
+        "context": "Alternative farewell",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 24,
+        "english": "Give me money (alternative)",
+        "kikuyu": "He mbia",
+        "difficulty": "beginner",
+        "context": "Alternative form",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 26,
+        "english": "I will phone you",
+        "kikuyu": "Nĩngũkũhũrĩra thimũ",
+        "difficulty": "advanced",
+        "context": "Future communication",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "I will",
+            "target": "Nĩngũ-",
+            "position": 0,
+            "context": "Future tense marker with subject agreement"
+          },
+          {
+            "source": "phone",
+            "target": "-kũhũrĩra",
+            "position": 1,
+            "context": "Verb stem for calling/phoning"
+          },
+          {
+            "source": "you",
+            "target": "thimũ",
+            "position": 2,
+            "context": "Object pronoun 'you'"
+          }
+        ]
+      },
+      {
+        "id": 42,
+        "english": "The Gikuyu believe in God",
+        "kikuyu": "Gĩkũyũ nĩ gĩtĩkĩtie Ngai",
+        "difficulty": "advanced",
+        "context": "Religious belief statement",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Cultural Expressions"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "Gikuyu",
+            "target": "Gĩkũyũ",
+            "position": 0,
+            "context": "The Kikuyu people"
+          },
+          {
+            "source": "believe",
+            "target": "nĩ gĩtĩkĩtie",
+            "position": 1,
+            "context": "Present perfect tense 'have believed'"
+          },
+          {
+            "source": "God",
+            "target": "Ngai",
+            "position": 2,
+            "context": "Supreme deity"
+          }
+        ]
+      },
+      {
+        "id": 43,
+        "english": "creator of heaven and earth",
+        "kikuyu": "mumbi wa Igũrũ na Thĩ na mũheani wa indo ciothe",
+        "difficulty": "advanced",
+        "context": "Description of God's role",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Cultural Expressions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 45,
+        "english": "How are you? (alternative)",
+        "kikuyu": "kũhana atĩa?",
+        "difficulty": "beginner",
+        "context": "Alternative form of greeting",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 46,
+        "english": "How are you doing?",
+        "kikuyu": "Ũrĩ mwega?",
+        "difficulty": "beginner",
+        "context": "Asking about someone's condition",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 47,
+        "english": "How are you doing? (alternative)",
+        "kikuyu": "Wĩ mwega",
+        "difficulty": "beginner",
+        "context": "Alternative form",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 49,
+        "english": "Are you a friend?",
+        "kikuyu": "Wĩ mũrata?",
+        "difficulty": "intermediate",
+        "context": "Asking about friendship",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 56,
+        "english": "Bye, be blessed (alternative)",
+        "kikuyu": "Tigwo na thaayũ",
+        "difficulty": "intermediate",
+        "context": "Alternative farewell",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 62,
+        "english": "Give me money (alternative)",
+        "kikuyu": "He mbia",
+        "difficulty": "beginner",
+        "context": "Alternative form",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 64,
+        "english": "I will phone you",
+        "kikuyu": "Nĩngũkũhũrĩra thimũ",
+        "difficulty": "advanced",
+        "context": "Future communication",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 80,
+        "english": "The Gikuyu believe in God",
+        "kikuyu": "Gĩkũyũ nĩ gĩtĩkĩtie Ngai",
+        "difficulty": "advanced",
+        "context": "Religious belief statement",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Cultural Expressions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 81,
+        "english": "creator of heaven and earth",
+        "kikuyu": "mumbi wa Igũrũ na Thĩ na mũheani wa indo ciothe",
+        "difficulty": "advanced",
+        "context": "Description of God's role",
+        "cultural_notes": "Extracted from Wikipedia Kikuyu language article",
+        "quality_score": 5.0,
+        "categories": [
+          "Cultural Expressions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 214,
+        "english": "etymology: from 'to do first'",
+        "kikuyu": "kwamba 'to do first'",
+        "difficulty": "advanced",
+        "context": "Historical origin - derived from kwamba meaning 'to do first'",
+        "cultural_notes": "Linguistic data with etymology and derived forms from academic sources",
+        "quality_score": 5.0,
+        "categories": [
+          "Etymology"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 88,
+        "english": "How are you doing?",
+        "kikuyu": "Ûrĩ mwega?",
+        "difficulty": "beginner",
+        "context": "Alternative way to ask about wellbeing",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 89,
+        "english": "How are you? (informal)",
+        "kikuyu": "Wĩ mwega?",
+        "difficulty": "beginner",
+        "context": "Informal version of wellbeing inquiry",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 90,
+        "english": "How are you (many people)?",
+        "kikuyu": "muriega?",
+        "difficulty": "intermediate",
+        "context": "Plural form for asking multiple people",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 91,
+        "english": "How are you all?",
+        "kikuyu": "uhoro wanyu?",
+        "difficulty": "intermediate",
+        "context": "Formal plural greeting inquiry",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 93,
+        "english": "I am fine (colloquial)",
+        "kikuyu": "ti kuru",
+        "difficulty": "intermediate",
+        "context": "Colloquial way to say 'it's not bad'",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Responses"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 100,
+        "english": "I will phone you",
+        "kikuyu": "Nĩngũkũhũrĩra thimû",
+        "difficulty": "advanced",
+        "context": "Future communication promise",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Responses"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "I will",
+            "target": "Nĩngũ-",
+            "position": 0,
+            "context": "First person future tense marker"
+          },
+          {
+            "source": "call/phone",
+            "target": "-kũhũrĩra",
+            "position": 1,
+            "context": "Verb stem for calling"
+          },
+          {
+            "source": "you",
+            "target": "thimû",
+            "position": 2,
+            "context": "Second person object pronoun"
+          }
+        ]
+      },
+      {
+        "id": 113,
+        "english": "How much is this (money)?",
+        "kikuyu": "Ni mbeca cigana?",
+        "difficulty": "intermediate",
+        "context": "Price inquiry in monetary terms",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Commerce"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "Is",
+            "target": "Ni",
+            "position": 0,
+            "context": "Copula/linking verb"
+          },
+          {
+            "source": "money",
+            "target": "mbeca",
+            "position": 1,
+            "context": "Noun for money/currency"
+          },
+          {
+            "source": "how much",
+            "target": "cigana",
+            "position": 2,
+            "context": "Question word for quantity/amount"
+          }
+        ]
+      },
+      {
+        "id": 114,
+        "english": "How much is this (quantity)?",
+        "kikuyu": "Cigana atia?",
+        "difficulty": "intermediate",
+        "context": "Quantity inquiry",
+        "cultural_notes": "Extracted from Quizlet Kikuyu greetings flash cards",
+        "quality_score": 4.8,
+        "categories": [
+          "Commerce"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 290,
+        "english": "sleep well it is night time",
+        "kikuyu": "koma na wega nĩ gũtukire",
+        "difficulty": "intermediate",
+        "context": "Bedtime wish with time reference",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Evening Expressions"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "sleep",
+            "target": "koma",
+            "position": 0,
+            "context": "Imperative verb - sleep"
+          },
+          {
+            "source": "well",
+            "target": "na wega",
+            "position": 1,
+            "context": "Adverbial phrase - in good manner"
+          },
+          {
+            "source": "it is",
+            "target": "nĩ",
+            "position": 2,
+            "context": "Copula - it is"
+          },
+          {
+            "source": "night time",
+            "target": "gũtukire",
+            "position": 3,
+            "context": "Perfect aspect - has become night"
+          }
+        ]
+      },
+      {
+        "id": 293,
+        "english": "it has become night",
+        "kikuyu": "nĩ gwatuka",
+        "difficulty": "intermediate",
+        "context": "Present perfect - night has fallen",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Evening Expressions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 303,
+        "english": "son of my mother",
+        "kikuyu": "mūriū",
+        "difficulty": "intermediate",
+        "context": "Traditional address between boys",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Traditional Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 304,
+        "english": "daughter of my mother",
+        "kikuyu": "wamwarī",
+        "difficulty": "intermediate",
+        "context": "Traditional address from boy to girl peer",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Traditional Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 311,
+        "english": "nice to meet you",
+        "kikuyu": "níndakena ní gúkuona",
+        "difficulty": "intermediate",
+        "context": "Pleased to meet you expression",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Formal Greetings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 318,
+        "english": "love you so much",
+        "kikuyu": "ngwendete múno",
+        "difficulty": "intermediate",
+        "context": "Intense love expression",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Love Expressions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 319,
+        "english": "I want to see you",
+        "kikuyu": "níndírenda gúkuona",
+        "difficulty": "intermediate",
+        "context": "Desire to meet expression",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Love Expressions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 323,
+        "english": "I will marry you",
+        "kikuyu": "níngúkúhikia",
+        "difficulty": "advanced",
+        "context": "Marriage proposal",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Love Expressions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 326,
+        "english": "where did you go?",
+        "kikuyu": "úthire kú?",
+        "difficulty": "intermediate",
+        "context": "Past movement question",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Directional Phrases"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 327,
+        "english": "where do you live?",
+        "kikuyu": "úikaraga kú?",
+        "difficulty": "intermediate",
+        "context": "Residence question",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Directional Phrases"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 328,
+        "english": "where are you going?",
+        "kikuyu": "wathií kú?",
+        "difficulty": "beginner",
+        "context": "Direction question",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Directional Phrases"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 331,
+        "english": "how are you feeling?",
+        "kikuyu": "úraigua atía?",
+        "difficulty": "intermediate",
+        "context": "Health/emotion question",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Common Questions"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "you feel",
+            "target": "úraigua",
+            "position": 0,
+            "context": "Second person present feeling verb"
+          },
+          {
+            "source": "how",
+            "target": "atía",
+            "position": 1,
+            "context": "Question word for manner"
+          }
+        ]
+      },
+      {
+        "id": 332,
+        "english": "what is your name?",
+        "kikuyu": "wítagúo atía?",
+        "difficulty": "beginner",
+        "context": "Name inquiry",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Common Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 333,
+        "english": "what are you doing?",
+        "kikuyu": "úreka atía?",
+        "difficulty": "beginner",
+        "context": "Activity question",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Common Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 334,
+        "english": "when are you coming?",
+        "kikuyu": "úroka rí?",
+        "difficulty": "intermediate",
+        "context": "Time of arrival question",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Common Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 335,
+        "english": "how was your day?",
+        "kikuyu": "watinda atía?",
+        "difficulty": "intermediate",
+        "context": "Day recap question",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Common Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 337,
+        "english": "what do you mean?",
+        "kikuyu": "úrenda kuuga atía?",
+        "difficulty": "advanced",
+        "context": "Clarification request",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Common Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 229,
+        "english": "one who takes by force",
+        "kikuyu": "mũtunyani",
+        "difficulty": "intermediate",
+        "context": "Person who takes by guile, force or from those with less power",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Crime & Security"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 231,
+        "english": "a thief takes by force",
+        "kikuyu": "Mũici nĩ mũtunyani",
+        "difficulty": "intermediate",
+        "context": "Explanation of thief's behavior",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Crime & Security"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 234,
+        "english": "he/she makes one move",
+        "kikuyu": "athamagia",
+        "difficulty": "advanced",
+        "context": "3rd person - causes relocation",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Daily Activities"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 236,
+        "english": "one who changes residence",
+        "kikuyu": "mũthami",
+        "difficulty": "intermediate",
+        "context": "Person who relocates",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Daily Activities"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 237,
+        "english": "take from me and see",
+        "kikuyu": "ndunya wone",
+        "difficulty": "advanced",
+        "context": "Warning threat - 'try it and see what happens'",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Cultural Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 238,
+        "english": "do not take from me",
+        "kikuyu": "ndũkandunye",
+        "difficulty": "intermediate",
+        "context": "Negative command - prohibition",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Cultural Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 250,
+        "english": "what did you say?",
+        "kikuyu": "atĩ atĩa",
+        "difficulty": "intermediate",
+        "context": "Expression of wonder or shock",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Questions"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 253,
+        "english": "I was going to work",
+        "kikuyu": "Ngũthiaga wĩra",
+        "difficulty": "intermediate",
+        "context": "Past continuous - going to work",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Daily Activities"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "I was going",
+            "target": "Ngũthiaga",
+            "position": 0,
+            "context": "1st person past continuous"
+          },
+          {
+            "source": "work",
+            "target": "wĩra",
+            "position": 1,
+            "context": "Destination/purpose"
+          }
+        ]
+      },
+      {
+        "id": 254,
+        "english": "you were going home",
+        "kikuyu": "Ũgũthiaga mũciĩ",
+        "difficulty": "intermediate",
+        "context": "Past continuous - going home",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Daily Activities"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 255,
+        "english": "he/she was going to school",
+        "kikuyu": "Egũthiaga thukuru",
+        "difficulty": "intermediate",
+        "context": "Past continuous - going to school",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Daily Activities"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 256,
+        "english": "they were going to church",
+        "kikuyu": "Megũthiaga kanitha",
+        "difficulty": "intermediate",
+        "context": "Past continuous - going to church",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Daily Activities"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 257,
+        "english": "we were going to the mosque",
+        "kikuyu": "Tũgũthiaga mũthigiti",
+        "difficulty": "intermediate",
+        "context": "Past continuous - going to mosque",
+        "cultural_notes": "Extracted from Facebook cultural lesson by Kikuyu language teacher",
+        "quality_score": 4.6,
+        "categories": [
+          "Daily Activities"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 939,
+        "english": "derived from amba",
+        "kikuyu": "rwambo rũmwe rũtiambaga ndarwa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'amba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 942,
+        "english": "derived from amba",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'amba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 943,
+        "english": "derived from amba",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'amba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 946,
+        "english": "derived from amba",
+        "kikuyu": "“amba” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'amba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 948,
+        "english": "derived from amba",
+        "kikuyu": ", p. 7. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'amba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 954,
+        "english": "derived from ambata",
+        "kikuyu": "“ambata” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 956,
+        "english": "derived from ambata",
+        "kikuyu": ", p. 7. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 958,
+        "english": "derived from ambata",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 959,
+        "english": "derived from ambata",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 966,
+        "english": "derived from ambĩrĩria",
+        "kikuyu": "“ambĩrĩria” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambĩrĩria'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 968,
+        "english": "derived from ambĩrĩria",
+        "kikuyu": ", p. 7. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambĩrĩria'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 970,
+        "english": "derived from ambĩrĩria",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambĩrĩria'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 971,
+        "english": "derived from ambĩrĩria",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ambĩrĩria'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 989,
+        "english": "derived from butha",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'butha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 990,
+        "english": "derived from butha",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'butha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 993,
+        "english": "derived from butha",
+        "kikuyu": "“butha” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'butha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 995,
+        "english": "derived from butha",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'butha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1005,
+        "english": "derived from cemania",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cemania'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1006,
+        "english": "derived from cemania",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cemania'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1009,
+        "english": "derived from cemania",
+        "kikuyu": "“cemania” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cemania'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1011,
+        "english": "derived from cemania",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cemania'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1029,
+        "english": "derived from cokia",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cokia'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1030,
+        "english": "derived from cokia",
+        "kikuyu": ", pp. 50–51. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cokia'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1032,
+        "english": "derived from cokia",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cokia'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1033,
+        "english": "derived from cokia",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'cokia'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1050,
+        "english": "derived from gera",
+        "kikuyu": "“gera” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gera'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1052,
+        "english": "derived from gera",
+        "kikuyu": ", p. 108. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gera'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1054,
+        "english": "derived from gera",
+        "kikuyu": "The Akikuyu: Their Customs, Traditions and Folklore",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gera'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1056,
+        "english": "derived from gera",
+        "kikuyu": ". Nyeri, Kenya: Akikuyu in the Mission Printing School.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gera'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1058,
+        "english": "derived from gera",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gera'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1059,
+        "english": "derived from gera",
+        "kikuyu": ", pp. 302–303. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gera'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1070,
+        "english": "derived from gwata",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gwata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1071,
+        "english": "derived from gwata",
+        "kikuyu": ", pp.12 –3. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gwata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1075,
+        "english": "derived from gwata",
+        "kikuyu": "“gwata” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gwata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1077,
+        "english": "derived from gwata",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'gwata'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1086,
+        "english": "derived from hũra",
+        "kikuyu": "andũ matarĩ ndundu mahũragwo na njũgũma ĩmwe",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'hũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1087,
+        "english": "derived from hũra",
+        "kikuyu": "kũhũ(ũ)ra maaĩ na ndĩrĩ",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'hũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1092,
+        "english": "derived from hũra",
+        "kikuyu": "“hũra” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'hũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1094,
+        "english": "derived from hũra",
+        "kikuyu": ", p. 178. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'hũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1096,
+        "english": "derived from hũra",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'hũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1097,
+        "english": "derived from hũra",
+        "kikuyu": ", p. 361. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'hũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1102,
+        "english": "derived from igana",
+        "kikuyu": "“igana” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'igana'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1104,
+        "english": "derived from igana",
+        "kikuyu": ", p. 182. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'igana'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1120,
+        "english": "derived from ikara",
+        "kikuyu": "Clements, George N. and Kevin C. Ford (1979). \"",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1121,
+        "english": "derived from ikara",
+        "kikuyu": "Kikuyu Tone Shift and Its Synchronic Consequences",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1122,
+        "english": "derived from ikara",
+        "kikuyu": "\", p. 187. In",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1124,
+        "english": "derived from ikara",
+        "kikuyu": ", Vol. 10, No. 2, pp. 179–210.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1126,
+        "english": "derived from ikara",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1127,
+        "english": "derived from ikara",
+        "kikuyu": ", pp. 12–13. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1129,
+        "english": "derived from ikara",
+        "kikuyu": "A Tentative Tonal Analysis of Kikuyu Nouns: A Study of Limuru Dialect",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1131,
+        "english": "derived from ikara",
+        "kikuyu": "Journal of Asian and African Studies",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1132,
+        "english": "derived from ikara",
+        "kikuyu": ", No. 22, 75–123.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1137,
+        "english": "derived from ikara",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1138,
+        "english": "derived from ikara",
+        "kikuyu": ", p. 361. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1141,
+        "english": "derived from ikara",
+        "kikuyu": "Barlow, A. Ruffell (1960).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1142,
+        "english": "derived from ikara",
+        "kikuyu": "Studies in Kikuyu Grammar and Idiom",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ikara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1156,
+        "english": "derived from ina",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ina'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1157,
+        "english": "derived from ina",
+        "kikuyu": ", pp. 52–53. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ina'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1159,
+        "english": "derived from ina",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ina'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1160,
+        "english": "derived from ina",
+        "kikuyu": ", p. 361. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ina'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1163,
+        "english": "derived from ina",
+        "kikuyu": "“ina” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ina'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1165,
+        "english": "derived from ina",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ina'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1180,
+        "english": "derived from ita",
+        "kikuyu": ", to pour away",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1189,
+        "english": "derived from ita",
+        "kikuyu": "As for Tonal Class, Benson (1964) classifies this term into Class 2.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1193,
+        "english": "derived from ita",
+        "kikuyu": "As for Tonal Class, Yukawa (1981) classifies this term into a group including",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1210,
+        "english": "derived from ita",
+        "kikuyu": "), and so on.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1226,
+        "english": "derived from ita",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1227,
+        "english": "derived from ita",
+        "kikuyu": ", p. 361. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1233,
+        "english": "derived from ita",
+        "kikuyu": "“ita” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1235,
+        "english": "derived from ita",
+        "kikuyu": ", p. 191. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1237,
+        "english": "derived from ita",
+        "kikuyu": "A Tentative Tonal Analysis of Kikuyu Nouns: A Study of Limuru Dialect",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1239,
+        "english": "derived from ita",
+        "kikuyu": "Journal of Asian and African Studies",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1240,
+        "english": "derived from ita",
+        "kikuyu": ", No. 22, 75–123.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ita'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1246,
+        "english": "derived from iya",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'iya'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1247,
+        "english": "derived from iya",
+        "kikuyu": ", p. 361. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'iya'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1254,
+        "english": "derived from iyũra",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'iyũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1255,
+        "english": "derived from iyũra",
+        "kikuyu": ", p. 361. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'iyũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1260,
+        "english": "derived from iyũra",
+        "kikuyu": "“iyũra” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'iyũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1262,
+        "english": "derived from iyũra",
+        "kikuyu": ", p. 193. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'iyũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1267,
+        "english": "derived from kena",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kena'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1268,
+        "english": "derived from kena",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kena'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1271,
+        "english": "derived from kena",
+        "kikuyu": "“kena” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kena'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1273,
+        "english": "derived from kena",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kena'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1281,
+        "english": "derived from koma",
+        "kikuyu": "ng'aragu ya mũndũ ũngĩ ndĩgiria mũndũ ũngĩ akome",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'koma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1284,
+        "english": "derived from koma",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'koma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1285,
+        "english": "derived from koma",
+        "kikuyu": ", pp. 54–55. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'koma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1287,
+        "english": "derived from koma",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'koma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1288,
+        "english": "derived from koma",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'koma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1291,
+        "english": "derived from koma",
+        "kikuyu": "“koma” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'koma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1293,
+        "english": "derived from koma",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'koma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1299,
+        "english": "derived from korora",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'korora'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1300,
+        "english": "derived from korora",
+        "kikuyu": ", pp. 14–15. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'korora'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1302,
+        "english": "derived from korora",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'korora'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1303,
+        "english": "derived from korora",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'korora'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1313,
+        "english": "derived from kũnja",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kũnja'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1314,
+        "english": "derived from kũnja",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kũnja'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1325,
+        "english": "derived from kũya",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kũya'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1326,
+        "english": "derived from kũya",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'kũya'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1358,
+        "english": "derived from raara",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'raara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1359,
+        "english": "derived from raara",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'raara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1362,
+        "english": "derived from raara",
+        "kikuyu": "Barlow, A. Ruffell (1960).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'raara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1363,
+        "english": "derived from raara",
+        "kikuyu": "Studies in Kikuyu Grammar and Idiom",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'raara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1373,
+        "english": "derived from ragũra",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ragũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1374,
+        "english": "derived from ragũra",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ragũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1377,
+        "english": "derived from ragũra",
+        "kikuyu": "“ragũra” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ragũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1379,
+        "english": "derived from ragũra",
+        "kikuyu": ", p. 366. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ragũra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1397,
+        "english": "derived from ratha",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ratha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1398,
+        "english": "derived from ratha",
+        "kikuyu": ". Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ratha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1403,
+        "english": "derived from ratha",
+        "kikuyu": "“ratha” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ratha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1405,
+        "english": "derived from ratha",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ratha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1412,
+        "english": "derived from ririkana",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ririkana'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1413,
+        "english": "derived from ririkana",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ririkana'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1416,
+        "english": "derived from ririkana",
+        "kikuyu": "“ririkana” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ririkana'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1418,
+        "english": "derived from ririkana",
+        "kikuyu": ", p. 391. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ririkana'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1425,
+        "english": "derived from rota",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rota'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1426,
+        "english": "derived from rota",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rota'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1455,
+        "english": "derived from rĩha",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1456,
+        "english": "derived from rĩha",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩha'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1465,
+        "english": "derived from rĩithia",
+        "kikuyu": "“rĩa” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩithia'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1467,
+        "english": "derived from rĩithia",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩithia'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1478,
+        "english": "derived from rĩra",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1479,
+        "english": "derived from rĩra",
+        "kikuyu": ", pp. 16–7. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1481,
+        "english": "derived from rĩra",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1482,
+        "english": "derived from rĩra",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1491,
+        "english": "derived from rũgama",
+        "kikuyu": "Vocabularies of the Kamba and Kikuyu languages of East Africa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rũgama'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1492,
+        "english": "derived from rũgama",
+        "kikuyu": ", pp. 56–57. Cambridge: Cambridge University Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rũgama'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1493,
+        "english": "derived from rũgama",
+        "kikuyu": "“rũgama” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rũgama'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1495,
+        "english": "derived from rũgama",
+        "kikuyu": ", p. 416. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rũgama'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1497,
+        "english": "derived from rũgama",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rũgama'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1498,
+        "english": "derived from rũgama",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'rũgama'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1507,
+        "english": "derived from taara",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'taara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1508,
+        "english": "derived from taara",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'taara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1511,
+        "english": "derived from taara",
+        "kikuyu": "“taara” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'taara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1513,
+        "english": "derived from taara",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'taara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1528,
+        "english": "derived from tahĩka",
+        "kikuyu": "“taha” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tahĩka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1530,
+        "english": "derived from tahĩka",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tahĩka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1545,
+        "english": "derived from teta",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'teta'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1546,
+        "english": "derived from teta",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'teta'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1553,
+        "english": "derived from thamaka",
+        "kikuyu": "“thamaka” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thamaka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1555,
+        "english": "derived from thamaka",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thamaka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1557,
+        "english": "derived from thamaka",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thamaka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1558,
+        "english": "derived from thamaka",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thamaka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1581,
+        "english": "derived from thoma",
+        "kikuyu": "“thoma” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thoma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1583,
+        "english": "derived from thoma",
+        "kikuyu": ", p. 524. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thoma'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1588,
+        "english": "derived from thondeka",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thondeka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1589,
+        "english": "derived from thondeka",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thondeka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1592,
+        "english": "derived from thondeka",
+        "kikuyu": "“thondeka” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thondeka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1594,
+        "english": "derived from thondeka",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thondeka'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1606,
+        "english": "derived from thĩa",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thĩa'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1607,
+        "english": "derived from thĩa",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'thĩa'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1626,
+        "english": "derived from tura",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tura'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1627,
+        "english": "derived from tura",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tura'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1635,
+        "english": "derived from twara",
+        "kikuyu": "Barlow, A. Ruffell (",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'twara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1637,
+        "english": "derived from twara",
+        "kikuyu": "Studies in Kikuyu Grammar and Idiom",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'twara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1638,
+        "english": "derived from twara",
+        "kikuyu": ", Edinburgh: William Blackwood & Sons, page",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'twara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1646,
+        "english": "derived from tũnga",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tũnga'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1647,
+        "english": "derived from tũnga",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tũnga'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1650,
+        "english": "derived from tũnga",
+        "kikuyu": "“tũnga” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tũnga'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1652,
+        "english": "derived from tũnga",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'tũnga'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1663,
+        "english": "derived from umagara",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'umagara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1664,
+        "english": "derived from umagara",
+        "kikuyu": ", p. 363. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'umagara'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1667,
+        "english": "derived from ĩra",
+        "kikuyu": "njĩrirũo nĩ kanyoni gakwa",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1673,
+        "english": "derived from ĩra",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1674,
+        "english": "derived from ĩra",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1681,
+        "english": "derived from a",
+        "kikuyu": "“ĩrorera” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'a'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1683,
+        "english": "derived from a",
+        "kikuyu": ", p. 405. Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'a'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1690,
+        "english": "derived from ĩta",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩta'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1691,
+        "english": "derived from ĩta",
+        "kikuyu": ", p. 360. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩta'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1694,
+        "english": "derived from ĩta",
+        "kikuyu": "Bennett, Patrick R., Ann Biersteker, Waithira Gikonyo, Susan Hershberg, Joel Kamande, Carolyn Perez and Martha Swearingen (1985).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩta'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1695,
+        "english": "derived from ĩta",
+        "kikuyu": "Gĩkũyũ nĩ Kĩoigire: Aria-i na Aagĩkũyũ",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩta'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1697,
+        "english": "derived from ĩta",
+        "kikuyu": ". African Studies Program, University of Wisconsin-Madison.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ĩta'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1702,
+        "english": "derived from ũkĩra",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũkĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1703,
+        "english": "derived from ũkĩra",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũkĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1706,
+        "english": "derived from ũkĩra",
+        "kikuyu": "“ũkĩra” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũkĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1708,
+        "english": "derived from ũkĩra",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũkĩra'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1713,
+        "english": "derived from ũmba",
+        "kikuyu": "The Phonetic and Tonal Structure of Kikuyu",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũmba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1714,
+        "english": "derived from ũmba",
+        "kikuyu": ", p. 362. Rep. 1967. (Also in",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũmba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1717,
+        "english": "derived from ũmba",
+        "kikuyu": "“ũmba” in Benson, T.G. (1964).",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũmba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 1719,
+        "english": "derived from ũmba",
+        "kikuyu": ". Oxford: Clarendon Press.",
+        "difficulty": "advanced",
+        "context": "Morphologically derived from 'ũmba'",
+        "cultural_notes": "Derived term showing morphological productivity in Kikuyu verb system.",
+        "quality_score": 4.6,
+        "categories": [
+          "Derived Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 260,
+        "english": "in the early morning hours",
+        "kikuyu": "mathaainĩ ma mĩaraho",
+        "difficulty": "advanced",
+        "context": "Temporal expression for early morning period",
+        "cultural_notes": "Additional vocabulary from community contributions and linguistic analysis",
+        "quality_score": 4.5,
+        "categories": [
+          "Time Expressions"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "in the morning",
+            "target": "mathaainĩ",
+            "position": 0,
+            "context": "Time reference - morning period"
+          },
+          {
+            "source": "of",
+            "target": "ma",
+            "position": 1,
+            "context": "Possessive/genitive marker"
+          },
+          {
+            "source": "early hours",
+            "target": "mĩaraho",
+            "position": 2,
+            "context": "Specific early time period"
+          }
+        ]
+      },
+      {
+        "id": 261,
+        "english": "during herding of livestock",
+        "kikuyu": "rũũruinĩ",
+        "difficulty": "intermediate",
+        "context": "Temporal/activity expression - while herding animals",
+        "cultural_notes": "Additional vocabulary from community contributions and linguistic analysis",
+        "quality_score": 4.5,
+        "categories": [
+          "Activities"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 265,
+        "english": "may you have good and holy actions",
+        "kikuyu": "cĩĩkage cĩĩko njagĩrĩru na cia ũthingu",
+        "difficulty": "advanced",
+        "context": "Traditional blessing for righteous and holy conduct",
+        "cultural_notes": "Additional vocabulary from community contributions and linguistic analysis",
+        "quality_score": 4.5,
+        "categories": [
+          "Blessings"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "may you have",
+            "target": "cĩĩkage",
+            "position": 0,
+            "context": "Optative/subjunctive - expressing wish"
+          },
+          {
+            "source": "actions",
+            "target": "cĩĩko",
+            "position": 1,
+            "context": "Deeds or actions"
+          },
+          {
+            "source": "good",
+            "target": "njagĩrĩru",
+            "position": 2,
+            "context": "Positive quality - good/righteous"
+          },
+          {
+            "source": "and",
+            "target": "na",
+            "position": 3,
+            "context": "Conjunction - and/with"
+          },
+          {
+            "source": "of holiness",
+            "target": "cia ũthingu",
+            "position": 4,
+            "context": "Sacred or holy quality"
+          }
+        ]
+      },
+      {
+        "id": 654,
+        "english": "everyone wants to please their boss",
+        "kikuyu": "mundu wothe endaga gukenia mumwandiki",
+        "difficulty": "advanced",
+        "context": "Workplace relationship dynamics",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Professional & Work"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 655,
+        "english": "a hen will lay an egg",
+        "kikuyu": "nguku niikurekia itumbi",
+        "difficulty": "intermediate",
+        "context": "Natural animal behavior",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Nature & Environment"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 660,
+        "english": "the bell has rung",
+        "kikuyu": "ngengere niyahurwo",
+        "difficulty": "intermediate",
+        "context": "Past action description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Practical Objects"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 661,
+        "english": "there is peace in the north",
+        "kikuyu": "kwina thayu gathigathini ka bururi ucio",
+        "difficulty": "advanced",
+        "context": "Geographic and political statement",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Directions & Geography"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 662,
+        "english": "second hand clothes are cheap",
+        "kikuyu": "nguo cia mutumba cii raithi",
+        "difficulty": "intermediate",
+        "context": "Economic observation",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Descriptive Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 663,
+        "english": "that young man is tall",
+        "kikuyu": "mwanake ucio ni muraihu",
+        "difficulty": "beginner",
+        "context": "Physical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Descriptive Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 664,
+        "english": "the road is being widened",
+        "kikuyu": "barabara ni-iraramio",
+        "difficulty": "advanced",
+        "context": "Infrastructure development",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Infrastructure & Buildings"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "barabara",
+            "target": "barabara",
+            "position": 0,
+            "context": "Road/highway"
+          },
+          {
+            "source": "ni-iraramio",
+            "target": "ni-iraramio",
+            "position": 1,
+            "context": "Is being widened (passive progressive)"
+          }
+        ]
+      },
+      {
+        "id": 665,
+        "english": "let's cross the bridge when we reach it",
+        "kikuyu": "reke turige ndaraca twamikinyira",
+        "difficulty": "advanced",
+        "context": "Idiomatic expression about timing",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Directions & Geography"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 666,
+        "english": "the house is beautiful on the inside",
+        "kikuyu": "nyumba ni thaka thiinii",
+        "difficulty": "intermediate",
+        "context": "Interior description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Infrastructure & Buildings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 667,
+        "english": "mumps is prevalent among children",
+        "kikuyu": "mungai ni unyitaga ciana kainga",
+        "difficulty": "advanced",
+        "context": "Medical epidemiology",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Medical & Diseases"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "mungai",
+            "target": "mungai",
+            "position": 0,
+            "context": "Mumps (disease)"
+          },
+          {
+            "source": "ni",
+            "target": "ni",
+            "position": 1,
+            "context": "Is (copula)"
+          },
+          {
+            "source": "unyitaga",
+            "target": "unyitaga",
+            "position": 2,
+            "context": "Affects/catches"
+          },
+          {
+            "source": "ciana",
+            "target": "ciana",
+            "position": 3,
+            "context": "Children"
+          },
+          {
+            "source": "kainga",
+            "target": "kainga",
+            "position": 4,
+            "context": "Often/frequently"
+          }
+        ]
+      },
+      {
+        "id": 669,
+        "english": "vehicle's wheels are round",
+        "kikuyu": "maguru ma ngari ni mathiururi",
+        "difficulty": "intermediate",
+        "context": "Technical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Practical Objects"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 689,
+        "english": "everyone wants to please their boss",
+        "kikuyu": "múndú wothe endaga gúkenia múmwandíki",
+        "difficulty": "advanced",
+        "context": "Workplace relationship dynamics",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Professional & Work"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 690,
+        "english": "a hen will lay an egg",
+        "kikuyu": "ngúkú nííkúrekia itumbí",
+        "difficulty": "intermediate",
+        "context": "Natural animal behavior",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Nature & Environment"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 695,
+        "english": "the bulb gives a lot of light",
+        "kikuyu": "útheri wa ngirobu ní múingí",
+        "difficulty": "intermediate",
+        "context": "Technical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Practical Objects"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 696,
+        "english": "this slope is very steep",
+        "kikuyu": "múikúrúko úyú ní múinamu múno",
+        "difficulty": "intermediate",
+        "context": "Geographical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Directions & Geography"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 697,
+        "english": "that bend on the road has a signage",
+        "kikuyu": "kona íyo ya bara ína kíbaú",
+        "difficulty": "intermediate",
+        "context": "Traffic observation",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Directions & Geography"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 699,
+        "english": "the chief has postponed the meeting",
+        "kikuyu": "cibú níatíria múcemanio",
+        "difficulty": "advanced",
+        "context": "Administrative announcement",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Professional & Work"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 702,
+        "english": "police will arrest any lawbreaker",
+        "kikuyu": "borithi nímegúikia ngono muni watho o wothe",
+        "difficulty": "advanced",
+        "context": "Legal warning",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Legal & Civic Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 703,
+        "english": "the noose is tight on the pole",
+        "kikuyu": "kíana kíu níkírúmu gítingíní",
+        "difficulty": "advanced",
+        "context": "Technical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Practical Objects"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 704,
+        "english": "the politician is in an expensive suit",
+        "kikuyu": "muteti ekíríte thuti ya goro",
+        "difficulty": "intermediate",
+        "context": "Social observation",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Professional & Work"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 705,
+        "english": "his molar has a cavity",
+        "kikuyu": "ikamburu ríake níríenjeku",
+        "difficulty": "intermediate",
+        "context": "Medical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Body Parts & Health"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 706,
+        "english": "a fig tree branch has broken",
+        "kikuyu": "rúhonge rwa múkúyú ní reaunika",
+        "difficulty": "intermediate",
+        "context": "Natural observation",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Nature & Environment"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 707,
+        "english": "Christians believe they will be with Jesus forever and ever",
+        "kikuyu": "akristú metíkítie gúgatúrania na Jesú tene na tene",
+        "difficulty": "advanced",
+        "context": "Religious statement",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Descriptive Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 708,
+        "english": "the driver has been fired for misconduct",
+        "kikuyu": "dereba níabutwo wíra níúndú wa mahítia",
+        "difficulty": "advanced",
+        "context": "Employment situation",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Professional & Work"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 709,
+        "english": "the government has bought two million bullets",
+        "kikuyu": "thirikari níígúríte rithathi mirioni i'girí",
+        "difficulty": "advanced",
+        "context": "Government procurement",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Legal & Civic Terms"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "thirikari",
+            "target": "thirikari",
+            "position": 0,
+            "context": "Government"
+          },
+          {
+            "source": "níígúríte",
+            "target": "níígúríte",
+            "position": 1,
+            "context": "Has bought (perfect tense)"
+          },
+          {
+            "source": "rithathi",
+            "target": "rithathi",
+            "position": 2,
+            "context": "Bullets"
+          },
+          {
+            "source": "mirioni",
+            "target": "mirioni",
+            "position": 3,
+            "context": "Million"
+          },
+          {
+            "source": "i'girí",
+            "target": "i'girí",
+            "position": 4,
+            "context": "Two"
+          }
+        ]
+      },
+      {
+        "id": 710,
+        "english": "his case will be determined tomorrow",
+        "kikuyu": "ciira wake úgatuo rúciú",
+        "difficulty": "intermediate",
+        "context": "Legal proceeding",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Legal & Civic Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 711,
+        "english": "he has been incarcerated in prison for ten years",
+        "kikuyu": "ohwo njera míaka ikúmi",
+        "difficulty": "advanced",
+        "context": "Legal consequence",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Legal & Civic Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 712,
+        "english": "she has bought white clothe without blemish",
+        "kikuyu": "agúra nguo njerú ítarí kameni",
+        "difficulty": "intermediate",
+        "context": "Shopping description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Descriptive Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 713,
+        "english": "the bell has rung",
+        "kikuyu": "ngengere níyahúrwo",
+        "difficulty": "intermediate",
+        "context": "Past action description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Practical Objects"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 714,
+        "english": "there is peace in the north of that country",
+        "kikuyu": "kwína thayú gathigathini ka búrúri úcio",
+        "difficulty": "advanced",
+        "context": "Geographic and political statement",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Directions & Geography"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 715,
+        "english": "second hand clothes are cheap",
+        "kikuyu": "nguo cia mútumba cií raithi",
+        "difficulty": "intermediate",
+        "context": "Economic observation",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Descriptive Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 716,
+        "english": "that young man is tall",
+        "kikuyu": "mwanake úcio ní múraihu",
+        "difficulty": "beginner",
+        "context": "Physical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Descriptive Terms"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 717,
+        "english": "that building is costly to put up",
+        "kikuyu": "mwako úcio wí goro kúwaka",
+        "difficulty": "intermediate",
+        "context": "Construction cost assessment",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Infrastructure & Buildings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 718,
+        "english": "the road is being widened",
+        "kikuyu": "barabara ní-íraramio",
+        "difficulty": "advanced",
+        "context": "Infrastructure development",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Infrastructure & Buildings"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "barabara",
+            "target": "barabara",
+            "position": 0,
+            "context": "Road/highway"
+          },
+          {
+            "source": "ní-íraramio",
+            "target": "ní-íraramio",
+            "position": 1,
+            "context": "Is being widened (passive progressive)"
+          }
+        ]
+      },
+      {
+        "id": 719,
+        "english": "let's cross the bridge when we reach it",
+        "kikuyu": "reke túringe ndaraca twamíkinyíra",
+        "difficulty": "advanced",
+        "context": "Idiomatic expression about timing",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Directions & Geography"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 720,
+        "english": "the wind is blowing from the south",
+        "kikuyu": "rúhuho rúrauma gúthini",
+        "difficulty": "intermediate",
+        "context": "Weather description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Nature & Environment"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 721,
+        "english": "the house is beautiful on the inside",
+        "kikuyu": "nyumba ní thaka thíinií",
+        "difficulty": "intermediate",
+        "context": "Interior description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Infrastructure & Buildings"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 722,
+        "english": "smallpox was completely eradicated",
+        "kikuyu": "múrimú wa mútúng'ú niwahukire kaimana",
+        "difficulty": "advanced",
+        "context": "Medical history",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Medical & Diseases"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 723,
+        "english": "mumps is prevalent among children",
+        "kikuyu": "múngai ní únyitaga ciana kaingí",
+        "difficulty": "advanced",
+        "context": "Medical epidemiology",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Medical & Diseases"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "múngai",
+            "target": "múngai",
+            "position": 0,
+            "context": "Mumps (disease)"
+          },
+          {
+            "source": "ní",
+            "target": "ní",
+            "position": 1,
+            "context": "Is (copula)"
+          },
+          {
+            "source": "únyitaga",
+            "target": "únyitaga",
+            "position": 2,
+            "context": "Affects/catches"
+          },
+          {
+            "source": "ciana",
+            "target": "ciana",
+            "position": 3,
+            "context": "Children"
+          },
+          {
+            "source": "kaingí",
+            "target": "kaingí",
+            "position": 4,
+            "context": "Often/frequently"
+          }
+        ]
+      },
+      {
+        "id": 725,
+        "english": "vehicle's wheels are round",
+        "kikuyu": "magúrú ma ngari ní mathíúrúrí",
+        "difficulty": "intermediate",
+        "context": "Technical description",
+        "cultural_notes": "Practical vocabulary from lughayangu.com with contextual examples demonstrating real-world usage. Includes verbs, nouns, adjectives, and complete phrases showing natural language patterns.",
+        "quality_score": 4.5,
+        "categories": [
+          "Practical Objects"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2596,
+        "english": "I want to go home",
+        "kikuyu": "Ndenda gũthiĩ mũciĩ",
+        "difficulty": "beginner",
+        "context": "Expression of desire using 'enda'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: enda",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2597,
+        "english": "Where do you want to go?",
+        "kikuyu": "Ũkũenda gũthiĩ kũ?",
+        "difficulty": "intermediate",
+        "context": "Question about destination using 'enda'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: enda",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2598,
+        "english": "What are you eating?",
+        "kikuyu": "Ũrarĩa kĩĩ?",
+        "difficulty": "beginner",
+        "context": "Question about food using 'rĩa'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: rĩa",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2600,
+        "english": "I can see the mountain",
+        "kikuyu": "Nĩndĩrona kĩrĩma",
+        "difficulty": "beginner",
+        "context": "Visual observation using 'ona'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: ona",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2601,
+        "english": "Did you see my book?",
+        "kikuyu": "Ũronire ĩbuku yakwa?",
+        "difficulty": "intermediate",
+        "context": "Question about seeing using 'ona'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: ona",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2602,
+        "english": "I am going to school",
+        "kikuyu": "Nĩngũthiĩ shule",
+        "difficulty": "beginner",
+        "context": "Statement of movement using 'thiĩ'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: thiĩ",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2603,
+        "english": "Let's go quickly",
+        "kikuyu": "Reke tũthiĩ na ihenya",
+        "difficulty": "intermediate",
+        "context": "Urgency expression using 'thiĩ'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: thiĩ",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2604,
+        "english": "Come here quickly",
+        "kikuyu": "Ũka haha na ihenya",
+        "difficulty": "beginner",
+        "context": "Command with urgency using 'ũka'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: ũka",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2605,
+        "english": "When will you come?",
+        "kikuyu": "Ũgũũka rĩ?",
+        "difficulty": "intermediate",
+        "context": "Time question using 'ũka'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: ũka",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2606,
+        "english": "Can you hear me?",
+        "kikuyu": "Nĩũranjigua?",
+        "difficulty": "beginner",
+        "context": "Communication check using 'igua'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: igua",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2609,
+        "english": "Do you know his name?",
+        "kikuyu": "Nĩũũĩ rĩĩtwa rĩake?",
+        "difficulty": "intermediate",
+        "context": "Knowledge question using 'menya'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: menya",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2610,
+        "english": "I can do it",
+        "kikuyu": "Nĩndhota kũmĩka",
+        "difficulty": "beginner",
+        "context": "Ability statement using 'hota'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: hota",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2611,
+        "english": "Can you help me?",
+        "kikuyu": "Nĩũndhota kũndeithia?",
+        "difficulty": "intermediate",
+        "context": "Request for assistance using 'hota'",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: hota",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2612,
+        "english": "We are learning Kikuyu",
+        "kikuyu": "Nĩtũrĩga Gĩkũyũ",
+        "difficulty": "intermediate",
+        "context": "Educational activity statement",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: iga",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2613,
+        "english": "The teacher is teaching the children",
+        "kikuyu": "Mũaruthi nĩararutaga ciana",
+        "difficulty": "intermediate",
+        "context": "Classroom scene description",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: ruta",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2614,
+        "english": "The farmer is cultivating the field",
+        "kikuyu": "Mũrimi nĩarĩma mũgũnda",
+        "difficulty": "intermediate",
+        "context": "Agricultural activity description",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: rima",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 2615,
+        "english": "The mother is cooking food",
+        "kikuyu": "Nyina nĩaruga irio",
+        "difficulty": "intermediate",
+        "context": "Domestic activity description",
+        "cultural_notes": "Practical usage example from Wiktionary demonstrating natural language patterns. Features verb: ruga",
+        "quality_score": 4.5,
+        "categories": [
+          "Wiktionary Examples"
+        ],
+        "has_sub_translations": false
+      }
+    ]
+  }
+}

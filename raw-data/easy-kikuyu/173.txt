@@ -1,0 +1,78 @@
+I've analyzed all the uploaded images, which contain a variety of Kikuyu language lessons. Here is a comprehensive summary of the vocabulary, grammar, and phrases covered, organized by topic.
+
+***
+
+## 1. Vocabulary and Nouns
+
+### A. Parts of the Body (Cĩuga cia mwĩrĩ - Week Four)
+
+| English | Kikuyu (Singular/Plural) | English | Kikuyu (Singular/Plural) |
+|:----------|:---------------------------|:----------|:---------------------------|
+| **head** | Mũtwee/ Mîtwe | **neck** | Ngingo/ Ngingo |
+| **hair** | Njũrĩrĩ/ Njũîrĩ | **chest** | Gĩthũri/ Îthũri |
+| **eyebrow**| Rũbutu/ Mbutu | **shoulder**| Kĩande/ Ciande |
+| **eye** | Riitho/ Maitho | **arm** | Guoko/ Moko |
+| **ear** | Gũtũ/ Matũ | **stomach**| Nda/ Nda |
+| **nose** | Inĩũrũ/ Manĩũrũ | **waist** | Njohero/ Njohero |
+| **mouth** | Kanua / Tũnua | **knee** | Îru/ Maru |
+| **teeth** | Igego/Magego | **leg** | Kũgũrũ/ Magũrũ |
+| **lips** | Kîromo/ Iromo | **foot** | Ikĩnya/ Makĩnya |
+| **chin** | Kĩreru/ Ireru | **hand/fingers/toes** | Rũhĩ/ Hĩ (hand), Kĩara/ Twara (fingers/toes) |
+
+### B. Consonant Examples (g, h, k)
+
+| English Word | Kikuyu Word | Context |
+|:---|:---|:---|
+| Cup | **Gĩkombe** | "Gĩra gĩkombe gĩkĩ" (Come for this cup) |
+| Pen/Pencil | **Karamu** | "Kairĩtu kena karamu" (The girl has a pen) |
+| Frog | **Kĩura** | |
+| Small frog | **Kora** | |
+
+***
+
+## 2. Grammar and Phrases
+
+### A. Personal Pronouns & Greetings
+
+| Kikuyu Phrase | English Translation | Grammar Note |
+|:---|:---|:---|
+| **Nũũ ?** | Who is it? | Uses the interrogative pronoun **Nũũ** (who). |
+| **Nĩ nĩĩ** | It is me | Uses the personal pronoun **Nĩĩ** (me/I). |
+| **Nĩ we ũ ?** | Who are you? | Uses the personal pronoun **we** (you). |
+| **Wee wĩ mũgeni** | You are a visitor | Uses the pronoun **Wee** (you). |
+| **Ĩĩ ndĩ mũgeni** | Yes I am a visitor | Uses the pronoun **ndĩ** (I am). |
+| **Njitagwo Njeri** | My name is Njeri | |
+| **Njeri wa ũ ?** | Whose Njeri (who is your father)? | Traditional inquiry into lineage. |
+| **Thĩĩ na wega** | Go in peace | Common farewell. |
+
+### B. Asking and Giving Instructions (Future Tense/Commands)
+
+| Kikuyu Question/Instruction | English Translation |
+|:---|:---|
+| **Nĩ ũkũgũra ngũkũ?** | Will you buy a chicken? |
+| **Gũra ngũkũ tũrĩe** | Buy a chicken (so) we eat |
+| **Gũĩthia iembe rĩmwe** | Drop one mango |
+| **Hinga ndirica ciothe** | Close all the windows |
+| **Iga matumbĩ mau haha** | Put those eggs here |
+| **Nyĩta haha ndĩnie kanyama** | Hold here so I cut (some) meat |
+| **Ringa mũbira na hinya** | Hit the ball hard |
+| **Ruga irio tũrĩe** | Cook food (so) we eat |
+
+***
+
+## 3. Proverbs and Stories
+
+### A. Proverb on Saving
+
+| Kikuyu Proverb | English Translation | Vocabulary |
+|:---|:---|:---|
+| **Wĩĩgĩire ndahũtaga** | **He/she that has saved something does not starve** | **Kũĩga** (to keep, store), **Ng'aragu** (Hunger), **Kũhũta** (to be hungry) |
+| **Lesson** | Make a habit of saving for hard times. | |
+
+### B. Short Story Excerpt (Karũgano)
+
+The excerpt introduces a story titled **Wambũĩ Mĩcore na Thigiriri (Zebra and Black Ant):**
+
+* **ciarĩ ũrata mũno** (Were great friends)
+* **Wambũĩ nĩ yatumaga rũgendo rũraihu gũthiĩ gũcererera Thigiriri** (Zebra would travel on a long journey to visit Black Ant)
+* **No Thigiriri yarĩ nini mũno ya kũhota gũceragĩra Wambũĩ Mĩcore kaĩngĩ** (But Black Ant was very small to be able to visit Zebra often)

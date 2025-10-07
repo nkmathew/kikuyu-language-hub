@@ -1,0 +1,56 @@
+You've provided two images for a Kikuyu language lesson: one on **Numbers** and one on **Parts of the Body**.
+
+Here is the information from both images presented clearly in separate tables.
+
+***
+
+## 1. Numbers in Kikuyu (Week 2)
+
+This table lists the simple Kikuyu numbers (1-10) and shows how they are used with the noun class prefix for **people** (**Andũ** - people).
+
+| # | Kikuyu Number | Example (Andũ) | English |
+|:---|:---|:---|:---|
+| 1 | **Ĩmwe** | Mũndũ **ũmwe** | One person |
+| 2 | **Igĩrĩ** | Andũ **erĩ** | Two people |
+| 3 | **Ĩthatũ** | Andũ **atatũ** | Three people |
+| 4 | **Ĩnya** | Andũ **ana** | Four people |
+| 5 | **Ĩthano** | Andũ **atano** | Five people |
+| 6 | **Ĩthathatũ** | Andũ **atandatũ** | Six people |
+| 7 | **Mũgwanja** | Andũ **mũgwanja** | Seven people |
+| 8 | **Ĩnyanya** | Andũ **anana** | Eight people |
+| 9 | **Kenda** | Andũ **kenda** | Nine people |
+| 10 | **Ikũmi** | Andũ **ikũmi** | Ten people |
+| 11 | **Ikũmi na ĩmwe** | Andũ **ikũmi na ũmwe** | Eleven people |
+
+*Note: After ten, numbers are stated as 'ten and one,' 'ten and two,' and so on.*
+
+***
+
+## 2. Parts of the Body (Cĩuga cia mwĩrĩ) (Week Four)
+
+This table lists the parts of the body, including the Kikuyu singular and plural forms where provided:
+
+| English | Kikuyu (Singular/Plural) |
+|:----------|:---------------------------|
+| **head** | Mũtwee/ Mîtwe |
+| **hair** | Njũrĩrĩ/ Njũîrĩ |
+| **eyebrow** | Rũbutu/ Mbutu |
+| **eye** | Riitho/ Maitho |
+| **ear** | Gũtũ/ Matũ |
+| **nose** | Inĩũrũ/ Manĩũrũ |
+| **mouth** | Kanua / Tũnua |
+| **teeth** | Igego/Magego |
+| **lips** | Kîromo/ Iromo |
+| **chin** | Kĩreru/ Ireru |
+| **neck** | Ngingo/ Ngingo |
+| **chest** | Gĩthũri/ Îthũri |
+| **shoulder** | Kĩande/ Ciande |
+| **arm** | Guoko/ Moko |
+| **stomach** | Nda/ Nda |
+| **hand** | Rũhĩ/ Hĩ |
+| **waist** | Njohero/ Njohero |
+| **knee** | Îru/ Maru |
+| **fingers** | Kĩara/ Twara |
+| **leg** | Kũgũrũ/ Magũrũ |
+| **foot** | Ikĩnya/ Makĩnya |
+| **toes** | Kĩara/ Twara |

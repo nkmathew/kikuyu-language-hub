@@ -1,0 +1,36 @@
+This image provides conjugation tables for two different **Past Tenses** in the Kĩkũyũ language: **Moments ago** and **Early today**.
+
+## Kĩkũyũ Past Tenses Conjugation Table
+
+### Past Tense - Moments Ago (Using the verb **kũra** - *to start/begin*)
+
+This tense is used for actions completed very recently. Note that for this tense, the singular and plural conjugations are the same for the person (e.g., 1st person singular and plural use the same prefix/verb form). The example sentence means "It is ten minutes since I/we/you/they started."
+
+| Person | Singular Prefix | Plural Prefix | Example Sentence | Prefix Pattern |
+| :--- | :--- | :--- | :--- | :--- |
+| **1st Person** (I/We) | Ndo- | Two- | **Ndokĩra** dagĩka ikũmi ciathira. (I started ten minutes ago.) | **Do**kĩra |
+| | | | **Twokĩra** dagĩka ikũmi ciathira. (We started ten minutes ago.) | **Two**kĩra |
+| **2nd Person** (You Sg./You Pl.) | Wo- | Mwo- | **Wokĩra** dagĩka ikũmi ciathira. (You started ten minutes ago.) | **Wo**kĩra |
+| | | | **Mwokĩra** dagĩka ikũmi ciathira. (You all started ten minutes ago.) | **Mwo**kĩra |
+| **3rd Person** (He/She/They) | O- | Mo- | **Okĩra** dagĩka ikũmi ciathira. (He/She started ten minutes ago.) | **O**kĩra |
+| | | | **Mokĩra** dagĩka ikũmi ciathira. (They started ten minutes ago.) | **Mo**kĩra |
+
+---
+
+### Past Tense - Early Today (Using the verb **kwĩthamba** - *to wash oneself/shower*)
+
+This tense is used for actions completed earlier today.
+
+| Person | Singular Prefix | Plural Prefix | Example Sentence | Prefix Pattern |
+| :--- | :--- | :--- | :--- | :--- |
+| **1st Person** (I/We) | Ndi- | Twi- | **Ndĩthambire** na maĩ mahoro. (I washed/showered with warm water.) | **Ndĩthambire** |
+| | | | **Twĩthambire** na maĩ mahoro. (We washed/showered with warm water.) | **Twĩthambire** |
+| **2nd Person** (You Sg./You Pl.) | Wĩ- | Mwĩ- | **Wĩthambire** na maĩ mahoro. (You washed/showered with warm water.) | **Wĩthambire** |
+| | | | **Mwĩthambire** na maĩ mahoro. (You all washed/showered with warm water.) | **Mwĩthambire** |
+| **3rd Person** (He/She/They) | E- | Me- | **Ethambire** na maĩ mahoro. (He/She washed/showered with warm water.) | **Ethambire** |
+| | | | **Methambire** na maĩ mahoro. (They washed/showered with warm water.) | **Methambire** |
+
+***
+**Learn Kĩkũyũ - Wĩrute Gĩkũyũ - Jĩfunze Kĩkũyũ**
+
+© Emmanuel Kariuki

@@ -1,0 +1,783 @@
+{
+  "category": "grammar",
+  "total_count": 51,
+  "difficulty_counts": {
+    "beginner": 0,
+    "intermediate": 0,
+    "advanced": 0
+  },
+  "items": {
+    "beginner": [],
+    "intermediate": [],
+    "advanced": [],
+    "all": [
+      {
+        "id": 366,
+        "english": "teacher",
+        "kikuyu": "mwarimu",
+        "difficulty": "beginner",
+        "context": "Educator - singular form",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 367,
+        "english": "teachers",
+        "kikuyu": "arimu",
+        "difficulty": "beginner",
+        "context": "Educators - plural form",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 368,
+        "english": "student",
+        "kikuyu": "muthomi",
+        "difficulty": "beginner",
+        "context": "Learner - singular form",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 369,
+        "english": "students",
+        "kikuyu": "athomi",
+        "difficulty": "beginner",
+        "context": "Learners - plural form",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 370,
+        "english": "this",
+        "kikuyu": "uyu",
+        "difficulty": "beginner",
+        "context": "Demonstrative pronoun - singular",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 371,
+        "english": "these",
+        "kikuyu": "aya",
+        "difficulty": "beginner",
+        "context": "Demonstrative pronoun - plural",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 372,
+        "english": "that",
+        "kikuyu": "ucio",
+        "difficulty": "beginner",
+        "context": "Demonstrative pronoun - singular distant",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 373,
+        "english": "those",
+        "kikuyu": "acio",
+        "difficulty": "beginner",
+        "context": "Demonstrative pronoun - plural distant",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 374,
+        "english": "sick",
+        "kikuyu": "muruaru",
+        "difficulty": "beginner",
+        "context": "Adjective - ill (singular)",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 375,
+        "english": "good",
+        "kikuyu": "mwega",
+        "difficulty": "beginner",
+        "context": "Adjective - positive quality (singular)",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 376,
+        "english": "angry",
+        "kikuyu": "murakaru",
+        "difficulty": "intermediate",
+        "context": "Adjective - emotional state (singular)",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 377,
+        "english": "foolish",
+        "kikuyu": "muriitu",
+        "difficulty": "intermediate",
+        "context": "Adjective - lack of wisdom (singular)",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 378,
+        "english": "well",
+        "kikuyu": "wega",
+        "difficulty": "beginner",
+        "context": "Adverb - in a good manner",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 379,
+        "english": "badly",
+        "kikuyu": "uru",
+        "difficulty": "beginner",
+        "context": "Adverb - in a poor manner",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 380,
+        "english": "slowly",
+        "kikuyu": "kahora",
+        "difficulty": "beginner",
+        "context": "Adverb - at slow pace",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 381,
+        "english": "fast",
+        "kikuyu": "naihenya",
+        "difficulty": "beginner",
+        "context": "Adverb - at high speed",
+        "cultural_notes": "Comprehensive language materials from multiple authoritative sources including traditional greetings, proverbs, and modern usage",
+        "quality_score": 4.8,
+        "categories": [
+          "Technical Grammar"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 184,
+        "english": "I am a teacher",
+        "kikuyu": "Ndĩrĩ mũrutani",
+        "difficulty": "intermediate",
+        "context": "Copulative present affirmative 1st person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 185,
+        "english": "you are a teacher",
+        "kikuyu": "Ũrĩ mũrutani",
+        "difficulty": "intermediate",
+        "context": "Copulative present affirmative 2nd person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 186,
+        "english": "he is a teacher",
+        "kikuyu": "Nĩ mũrutani",
+        "difficulty": "intermediate",
+        "context": "Copulative present affirmative 3rd person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 187,
+        "english": "we are teachers",
+        "kikuyu": "Tũrĩ arutani",
+        "difficulty": "intermediate",
+        "context": "Copulative present affirmative 1st plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 188,
+        "english": "you are teachers",
+        "kikuyu": "Mũrĩ arutani",
+        "difficulty": "intermediate",
+        "context": "Copulative present affirmative 2nd plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 189,
+        "english": "they are teachers",
+        "kikuyu": "Marĩ arutani",
+        "difficulty": "intermediate",
+        "context": "Copulative present affirmative 3rd plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 190,
+        "english": "I am not a teacher",
+        "kikuyu": "Ndirĩ mũrutani",
+        "difficulty": "advanced",
+        "context": "Copulative present negative 1st person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 191,
+        "english": "you are not a teacher",
+        "kikuyu": "Ndũrĩ mũrutani",
+        "difficulty": "advanced",
+        "context": "Copulative present negative 2nd person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 192,
+        "english": "he is not a teacher",
+        "kikuyu": "Ti mũrutani",
+        "difficulty": "advanced",
+        "context": "Copulative present negative 3rd person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 193,
+        "english": "we are not teachers",
+        "kikuyu": "Tũtirĩ arutani",
+        "difficulty": "advanced",
+        "context": "Copulative present negative 1st plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 194,
+        "english": "you are not teachers",
+        "kikuyu": "Mũtirĩ arutani",
+        "difficulty": "advanced",
+        "context": "Copulative present negative 2nd plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 195,
+        "english": "they are not teachers",
+        "kikuyu": "Matirĩ arutani",
+        "difficulty": "advanced",
+        "context": "Copulative present negative 3rd plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 196,
+        "english": "I have already eaten bananas",
+        "kikuyu": "Ndĩra-korwo nd-aarĩa marigũ",
+        "difficulty": "advanced",
+        "context": "Present perfect 1st person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "I",
+            "target": "Ndĩ-",
+            "position": 0,
+            "context": "1st person subject marker"
+          },
+          {
+            "source": "have (perfect)",
+            "target": "-ra-korwo",
+            "position": 1,
+            "context": "Perfect tense auxiliary"
+          },
+          {
+            "source": "I",
+            "target": "nd-",
+            "position": 2,
+            "context": "1st person subject agreement"
+          },
+          {
+            "source": "ate",
+            "target": "-aarĩa",
+            "position": 3,
+            "context": "Past tense of 'eat'"
+          },
+          {
+            "source": "bananas",
+            "target": "marigũ",
+            "position": 4,
+            "context": "Object noun - bananas"
+          }
+        ]
+      },
+      {
+        "id": 197,
+        "english": "you have already eaten bananas",
+        "kikuyu": "Ũra-korwo w-aarĩa marigũ",
+        "difficulty": "advanced",
+        "context": "Present perfect 2nd person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 198,
+        "english": "he has already eaten bananas",
+        "kikuyu": "Ara-korwo a-arĩa marigũ",
+        "difficulty": "advanced",
+        "context": "Present perfect 3rd person",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 199,
+        "english": "we have already eaten bananas",
+        "kikuyu": "Tũra-korwo tw-aarĩa marĩgũ",
+        "difficulty": "advanced",
+        "context": "Present perfect 1st plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 200,
+        "english": "they have already eaten bananas",
+        "kikuyu": "Mũra-korwo mw-aarĩa marigũ",
+        "difficulty": "advanced",
+        "context": "Present perfect 3rd plural",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 201,
+        "english": "not to read",
+        "kikuyu": "kwaga gũthoma",
+        "difficulty": "advanced",
+        "context": "Negative infinitive - reading",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "failure/lack",
+            "target": "kwaga",
+            "position": 0,
+            "context": "Negative infinitive marker"
+          },
+          {
+            "source": "to read",
+            "target": "gũthoma",
+            "position": 1,
+            "context": "Infinitive verb form"
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "english": "not to do",
+        "kikuyu": "kwaga gwĩka",
+        "difficulty": "advanced",
+        "context": "Negative infinitive - doing",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 203,
+        "english": "not to answer",
+        "kikuyu": "kwaga gũcokia kĩũria",
+        "difficulty": "advanced",
+        "context": "Negative infinitive - answering",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 204,
+        "english": "not to come back",
+        "kikuyu": "kwaga gũcoka",
+        "difficulty": "advanced",
+        "context": "Negative infinitive - returning",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 205,
+        "english": "not to eat",
+        "kikuyu": "kwaga kũrĩa",
+        "difficulty": "advanced",
+        "context": "Negative infinitive - eating",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 206,
+        "english": "not to die",
+        "kikuyu": "kwaga gũkua",
+        "difficulty": "advanced",
+        "context": "Negative infinitive - dying",
+        "cultural_notes": "Extracted from Quizlet Kikuyu verbs flash cards",
+        "quality_score": 4.7,
+        "categories": [
+          "Grammar Patterns"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 509,
+        "english": "this (Class I)",
+        "kikuyu": "ũyũ",
+        "difficulty": "advanced",
+        "context": "Demonstrative pronoun for Class I singular",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 510,
+        "english": "these (Class I)",
+        "kikuyu": "aya",
+        "difficulty": "advanced",
+        "context": "Demonstrative pronoun for Class I plural",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 511,
+        "english": "this (Class II)",
+        "kikuyu": "ũyũ",
+        "difficulty": "advanced",
+        "context": "Demonstrative pronoun for Class II singular",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 512,
+        "english": "these (Class II)",
+        "kikuyu": "ĩno",
+        "difficulty": "advanced",
+        "context": "Demonstrative pronoun for Class II plural",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 513,
+        "english": "this one person",
+        "kikuyu": "mũndũ ũyũ ũmwe",
+        "difficulty": "advanced",
+        "context": "Demonstrative + numeral example",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 514,
+        "english": "these two people",
+        "kikuyu": "andũ aya erĩ",
+        "difficulty": "advanced",
+        "context": "Plural demonstrative + numeral",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "a-",
+            "target": "a-",
+            "position": 0,
+            "context": "Class I plural prefix"
+          },
+          {
+            "source": "ndũ",
+            "target": "ndũ",
+            "position": 1,
+            "context": "Root: person/human being"
+          },
+          {
+            "source": "aya",
+            "target": "aya",
+            "position": 2,
+            "context": "Class I plural demonstrative"
+          },
+          {
+            "source": "erĩ",
+            "target": "erĩ",
+            "position": 3,
+            "context": "Numeral: two"
+          }
+        ]
+      },
+      {
+        "id": 515,
+        "english": "this one tree",
+        "kikuyu": "mũtĩ ũyũ ũmwe",
+        "difficulty": "advanced",
+        "context": "Class II demonstrative example",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 516,
+        "english": "these two trees",
+        "kikuyu": "mĩtĩ ĩno ĩrĩ",
+        "difficulty": "advanced",
+        "context": "Class II plural demonstrative",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": true,
+        "sub_translations": [
+          {
+            "source": "mĩ-",
+            "target": "mĩ-",
+            "position": 0,
+            "context": "Class II plural prefix"
+          },
+          {
+            "source": "tĩ",
+            "target": "tĩ",
+            "position": 1,
+            "context": "Root: tree/wood"
+          },
+          {
+            "source": "ĩno",
+            "target": "ĩno",
+            "position": 2,
+            "context": "Class II plural demonstrative"
+          },
+          {
+            "source": "ĩrĩ",
+            "target": "ĩrĩ",
+            "position": 3,
+            "context": "Numeral: two (Class II agreement)"
+          }
+        ]
+      },
+      {
+        "id": 517,
+        "english": "learn Kikuyu",
+        "kikuyu": "wĩrute gĩkũyũ",
+        "difficulty": "intermediate",
+        "context": "Imperative - learn the language",
+        "cultural_notes": "Educational content from mustgo.com and hubpages.com covering essential greetings, family terms, and Kikuyu noun classification system with grammatical examples.",
+        "quality_score": 4.4,
+        "categories": [
+          "Grammar Examples"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 3261,
+        "english": "this one table Metha ici igîrî - These two tables Learn Kîkûyû - Wîrute Gîkûyû - Jîfunze Kîkuyu",
+        "kikuyu": "Metha îno îmwe",
+        "difficulty": "intermediate",
+        "context": "Grammar rule/example - Grammar example - File 101",
+        "cultural_notes": "Grammatical explanation from Easy Kikuyu lessons by Emmanuel Kariuki. Grammatical example from Easy Kikuyu lessons This demonstrates important structural patterns in Kikuyu grammar and syntax.",
+        "quality_score": 4.3,
+        "categories": [
+          "Easy Kikuyu Grammar",
+          "Kikuyu Language Rules",
+          "Educational Content"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 3262,
+        "english": "this one table Metha ici igĩrĩ - These two tables",
+        "kikuyu": "Metha ĩno ĩmwe",
+        "difficulty": "intermediate",
+        "context": "Grammar rule/example - Grammar example - File 200",
+        "cultural_notes": "Grammatical explanation from Easy Kikuyu lessons by Emmanuel Kariuki. Grammatical example from Easy Kikuyu lessons This demonstrates important structural patterns in Kikuyu grammar and syntax.",
+        "quality_score": 4.3,
+        "categories": [
+          "Easy Kikuyu Grammar",
+          "Kikuyu Language Rules",
+          "Educational Content"
+        ],
+        "has_sub_translations": false
+      },
+      {
+        "id": 3263,
+        "english": "ir/-er). This adds the meaning \"for, on behalf of, or at a place.\" Example: Kũrutĩra Mwangi mbeca → To pay money for Mwangi. Mũrutani",
+        "kikuyu": "Ruta igũtũ → Remove the ear. Example: Ruta wĩra → Do work. Example: Ruta mbeca → Pay money. Kũruta (to remove/to give out/to teach): The infinitive form. Rutĩra (Remove for/Pay for/Do for): The Applicative extension (",
+        "difficulty": "intermediate",
+        "context": "Grammar rule/example - Grammar example - File 268",
+        "cultural_notes": "Grammatical explanation from Easy Kikuyu lessons by Emmanuel Kariuki. Grammatical example from Easy Kikuyu lessons This demonstrates important structural patterns in Kikuyu grammar and syntax.",
+        "quality_score": 4.3,
+        "categories": [
+          "Easy Kikuyu Grammar",
+          "Kikuyu Language Rules",
+          "Educational Content"
+        ],
+        "has_sub_translations": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+Here is the transcription of the text and the grammatical rule from the image:
+
+---
+
+## Kikuyu Grammar and Vocabulary
+
+### Forming Plural Commands
+
+The image explains how to form the plural imperative (telling *more than one person* to do something) in Kikuyu:
+
+**To tell more than one person to do something, simply add letter 'i' to the verb.**
+
+* **Rĩa + i = Rĩai** (Eat! - plural)
+* **Ũka + i = Ũkai** (Come! - plural)
+
+### Example Verbs
+
+The image lists the singular form of several Kikuyu verbs:
+
+* **Rĩa** — eat (Singular command: *Rĩa!*)
+* **Thii** — go (Singular command: *Thii!*)
+* **Koma** — Sleep (Singular command: *Koma!*)
+* **Andĩka** — write (Singular command: *Andĩka!*)
+
+| Singular Command | Plural Command (Adding 'i') | English Meaning |
+| :--- | :--- | :--- |
+| **Rĩa** | **Rĩai** | Eat! (to many) |
+| **Thii** | **Thiii** | Go! (to many) |
+| **Koma** | **Komai** | Sleep! (to many) |
+| **Andĩka** | **Andĩkai** | Write! (to many) |
+
+### Proverb
+
+* **Toro ti gĩkuo** — Sleep is not death.
+    *(This proverb is often used to reassure someone who has been asleep for a long time or to suggest that a temporary rest or setback isn't the end.)*

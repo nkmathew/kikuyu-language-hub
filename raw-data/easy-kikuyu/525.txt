@@ -1,0 +1,35 @@
+The image provides a lesson on **Kikuyu imperatives** for the **2nd person plural** ("you all"). This form is used when giving commands or prohibitions to a group of people.
+
+The pattern for the 2nd Person Plural Imperatives is:
+* **Simple Command:** Verb stem ending in **-ai** or **-ei**.
+* **Prohibition (Don't...):** $\text{Mũtĩga} + \text{verb stem}$ (or $\text{Mũtĩge}$ for vowel-starting stems).
+
+---
+
+## Kikuyu Imperatives (2nd Person Plural)
+
+| Kikuyu Command (Simple Imperative) | Kikuyu Prohibition (Negative Imperative) | English Translation |
+| :--- | :--- | :--- |
+| **Carĩai** | **Mũtĩgacarĩe** | Search for / Don't search for... |
+| **Etererai** | **Mũtĩgetere** | Wait / Don't wait |
+| **Gerĩai** | **Mũtĩgagerĩe** | Try / Don't try |
+| **Hingũrai** | **Mũtĩkahingũre** | Open / Don't open |
+| **Hũrai** | **Mũtĩkahũre** | Beat / Don't beat |
+| **Ĩkai naihenya** | **Mũtĩgeke naihenya** | Do fast / Don't do it fast |
+| **Kinyai kĩracĩ** | **Mũtĩgakinye** | Step on the clutch / Don't step on... |
+| **Nyitai** | **Mũtĩkanyĩte** | Hold / Don't hold |
+| **Rũgamai** | **Mũtĩkarũgame** | Stop (stand) / Don't stop (stand) |
+| **Rũmĩrĩrai** | **Mũtĩkarũmĩrĩre** | Follow / Don't follow... |
+| **Tĩnĩai** | **Mũtĩgatĩnie** | Cut / Don't cut |
+
+---
+
+## Sentence Examples
+
+| Kikuyu Phrase | English Translation | Form |
+| :--- | :--- | :--- |
+| **Gũrai nyama** | Buy meat | Simple Command |
+| **Mũtĩkagũre nyama** | Don't buy meat | Prohibition |
+| **Hingũrĩrai mũcuba wa thota** | Open for me a soda bottle | Simple Command |
+| **Mũtĩkahingũrĩre mũcuba wa thota** | Don't open for me a soda bottle | Prohibition |
+| **Thomai ngathĩtĩ ĩno** | Read this newspaper | Simple Command |

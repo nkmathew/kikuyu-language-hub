@@ -1,0 +1,37 @@
+This image provides a Kikuyu lesson from **Week 3** on **telling time** and related vocabulary.
+
+## Telling Time in Kikuyu
+
+| Kikuyu Phrase | English Translation |
+|:---|:---|
+| **Nĩ thaa cĩgana** | What time is it. |
+| **Nĩ thaa ĩmwe** | It is seven o'clock. |
+| **Nĩ thaa ĩmwe na ndagĩka ĩmwe** | 7:01 (It is seven hours and one minute). |
+| **Nĩ thaa ĩmwe na ndagĩka ikũmi** | 7:10 (It is seven hours and ten minutes). |
+| **Nĩ thaa igĩrĩ na ndagĩka mĩrongo ĩrĩ** | 8:20 (It is eight hours and twenty minutes). |
+| **Nĩ thaa igĩrĩ na nuthu** | 8:30 (It is eight hours and a half). |
+| **Nĩ thaa ĩthatũ itigarĩtie ndagĩka ikũmi na ithano** | 9:45 (It is nine hours remaining with fifteen minutes). |
+| **Nĩ thaa inya irũgamĩte** | It is 10 O'clock Sharp. |
+| **Ĩrorete thaa ĩthano** | It is almost eleven. |
+| **Nĩ thaa thita** | **Midday** (12:00 PM). |
+| **Nĩ thaa mũgwanja cĩa mũthenya** | 1:00 PM (Seven hours of the day). |
+| **Nĩ thaa inyanya cĩa ũtũkũ** | 2:00 AM (Eight hours of the night). |
+| **Nĩ hĩndĩ thaa ikumi cĩa rũgama** | It is exactly .... (10:00 - incomplete sentence in source). |
+| **Nĩ thaa ikũmi na ĩmwe na ndagĩka ĩthatũ** | 5:03 (It is eleven hours and three minutes). |
+| **Nĩ thinacara (thaa ikumi na igĩrĩ)** | It is six O'clock (6:00). |
+
+---
+
+## Time-Related Vocabulary
+
+| Kikuyu Word/Phrase | English Meaning |
+|:---|:---|
+| **Mũthenya** | day |
+| **Rũciĩ-nĩ** | Morning |
+| **Mĩaraho** | around and soon after midday |
+| **Hwaĩ-nĩ** | evening |
+| **Ũtũkũ** | night |
+| **Itigarĩtie** | short of, remaining with |
+
+***
+*The vertical text on the left reads: **Learn Kikuyu - Wĩrute Gĩkũyũ - Jifunze Kikuyu.***
