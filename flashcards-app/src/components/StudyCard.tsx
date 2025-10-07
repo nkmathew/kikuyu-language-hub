@@ -74,7 +74,7 @@ export default function StudyCard({
       {/* Card Status Indicator */}
       {isKnown && (
         <div className="flex justify-end mb-3">
-          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-700 text-white">
+          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-700 light:bg-green-100 text-white light:text-green-800">
             ✓ Known
           </span>
         </div>
@@ -88,13 +88,13 @@ export default function StudyCard({
             {/* English */}
             <div className="space-y-2">
               <div className="flex items-center justify-between">
-                <span className="px-3 py-1 bg-blue-600 text-white text-sm rounded-full font-medium">
+                <span className="px-3 py-1 bg-blue-600 light:bg-blue-100 text-white light:text-blue-800 text-sm rounded-full font-medium">
                   English
                 </span>
                 <span className={`px-2 py-1 text-xs rounded-full font-medium ${
-                  card.difficulty === 'beginner' ? 'bg-green-700 text-white' :
-                  card.difficulty === 'intermediate' ? 'bg-yellow-600 text-white' :
-                  'bg-red-700 text-white'
+                  card.difficulty === 'beginner' ? 'bg-green-700 light:bg-green-100 text-white light:text-green-800' :
+                  card.difficulty === 'intermediate' ? 'bg-yellow-600 light:bg-yellow-100 text-white light:text-yellow-800' :
+                  'bg-red-700 light:bg-red-100 text-white light:text-red-800'
                 }`}>
                   {card.difficulty}
                 </span>
@@ -109,27 +109,27 @@ export default function StudyCard({
             {/* Kikuyu */}
             <div className="space-y-2">
               <div className="flex items-center justify-between">
-                <span className="px-3 py-1 bg-kikuyu-500 text-white text-sm rounded-full font-medium">
+                <span className="px-3 py-1 bg-kikuyu-500 light:bg-kikuyu-100 text-white light:text-kikuyu-800 text-sm rounded-full font-medium">
                   Kikuyu
                 </span>
-                <span className="px-2 py-1 bg-gray-600 text-white text-xs rounded-full font-medium">
+                <span className="px-2 py-1 bg-gray-600 light:bg-gray-100 text-white light:text-gray-800 text-xs rounded-full font-medium">
                   Score: {(card.quality_score || card.quality?.confidence_score || 0).toFixed(1)}
                 </span>
               </div>
-              <div className="p-4 bg-gray-700 rounded-lg">
-                <h3 className="text-lg md:text-xl font-bold text-white leading-relaxed">
+              <div className="p-4 bg-gray-700 light:bg-gray-50 rounded-lg">
+                <h3 className="text-lg md:text-xl font-bold text-white light:text-gray-900 leading-relaxed">
                   {card.kikuyu}
                 </h3>
                 {/* Pronunciation */}
                 {card.pronunciation && (
-                  <div className="mt-2 pt-2 border-t border-gray-600">
+                  <div className="mt-2 pt-2 border-t border-gray-600 light:border-gray-300">
                     {card.pronunciation.ipa && (
-                      <p className="text-sm text-gray-300 font-mono">
+                      <p className="text-sm text-gray-300 light:text-gray-600 font-mono">
                         IPA: /{card.pronunciation.ipa}/
                       </p>
                     )}
                     {card.pronunciation.simplified && (
-                      <p className="text-sm text-gray-300">
+                      <p className="text-sm text-gray-300 light:text-gray-600">
                         {card.pronunciation.simplified}
                       </p>
                     )}
@@ -141,14 +141,14 @@ export default function StudyCard({
 
           {/* Context and Cultural Notes */}
           {(card.context || (showCulturalNotes && card.cultural_notes)) && (
-            <div className="mb-6 p-4 bg-gray-700 rounded-lg space-y-2">
+            <div className="mb-6 p-4 bg-gray-700 light:bg-blue-50 rounded-lg space-y-2">
               {card.context && (
-                <p className="text-sm text-gray-200">
+                <p className="text-sm text-gray-200 light:text-gray-700">
                   <span className="font-medium">Context:</span> {card.context}
                 </p>
               )}
               {showCulturalNotes && card.cultural_notes && (
-                <p className="text-xs text-gray-300">
+                <p className="text-xs text-gray-300 light:text-gray-600">
                   <span className="font-medium">Cultural Note:</span> {card.cultural_notes}
                 </p>
               )}
@@ -164,11 +164,11 @@ export default function StudyCard({
               <h4 className="text-md font-semibold mb-3 text-gray-900 dark:text-gray-100">Examples</h4>
               <div className="space-y-3">
                 {card.examples.slice(0, 2).map((example, index) => (
-                  <div key={index} className="p-3 bg-gray-700 rounded-lg">
-                    <p className="font-medium text-gray-100 mb-1 text-sm">{example.english}</p>
-                    <p className="text-kikuyu-400 font-medium mb-1 text-sm">{example.kikuyu}</p>
+                  <div key={index} className="p-3 bg-gray-700 light:bg-gray-50 rounded-lg">
+                    <p className="font-medium text-gray-100 light:text-gray-900 mb-1 text-sm">{example.english}</p>
+                    <p className="text-kikuyu-400 light:text-kikuyu-700 font-medium mb-1 text-sm">{example.kikuyu}</p>
                     {example.context && (
-                      <p className="text-xs text-gray-400 italic">{example.context}</p>
+                      <p className="text-xs text-gray-400 light:text-gray-600 italic">{example.context}</p>
                     )}
                   </div>
                 ))}
@@ -183,26 +183,26 @@ export default function StudyCard({
               <div className="space-y-2 text-sm">
                 {card.grammatical_info.part_of_speech && (
                   <div className="flex justify-between">
-                    <span className="font-medium text-gray-400">Part of Speech:</span>
-                    <span className="text-gray-100">{card.grammatical_info.part_of_speech}</span>
+                    <span className="font-medium text-gray-400 light:text-gray-600">Part of Speech:</span>
+                    <span className="text-gray-100 light:text-gray-900">{card.grammatical_info.part_of_speech}</span>
                   </div>
                 )}
                 {card.grammatical_info.noun_class && (
                   <div className="flex justify-between">
-                    <span className="font-medium text-gray-400">Noun Class:</span>
-                    <span className="text-gray-100">{card.grammatical_info.noun_class}</span>
+                    <span className="font-medium text-gray-400 light:text-gray-600">Noun Class:</span>
+                    <span className="text-gray-100 light:text-gray-900">{card.grammatical_info.noun_class}</span>
                   </div>
                 )}
                 {card.grammatical_info.infinitive && (
                   <div className="flex justify-between">
-                    <span className="font-medium text-gray-400">Infinitive:</span>
-                    <span className="text-kikuyu-400 font-mono">{card.grammatical_info.infinitive}</span>
+                    <span className="font-medium text-gray-400 light:text-gray-600">Infinitive:</span>
+                    <span className="text-kikuyu-400 light:text-kikuyu-700 font-mono">{card.grammatical_info.infinitive}</span>
                   </div>
                 )}
                 {card.grammatical_info.verb_class && (
                   <div className="flex justify-between">
-                    <span className="font-medium text-gray-400">Verb Class:</span>
-                    <span className="text-gray-100">{card.grammatical_info.verb_class}</span>
+                    <span className="font-medium text-gray-400 light:text-gray-600">Verb Class:</span>
+                    <span className="text-gray-100 light:text-gray-900">{card.grammatical_info.verb_class}</span>
                   </div>
                 )}
               </div>
@@ -240,27 +240,27 @@ export default function StudyCard({
               {/* Subcategory and Categories */}
               <div className="flex flex-wrap gap-1">
                 {card.subcategory && (
-                  <span className="px-2 py-1 bg-blue-600 text-white text-xs rounded-full font-medium">
+                  <span className="px-2 py-1 bg-blue-600 light:bg-blue-100 text-white light:text-blue-800 text-xs rounded-full font-medium">
                     {card.subcategory.replace(/_/g, ' ')}
                   </span>
                 )}
                 {card.categories && card.categories.slice(0, 3).map((category, index) => (
                   <span
                     key={index}
-                    className="px-2 py-1 bg-gray-600 text-white text-xs rounded-full"
+                    className="px-2 py-1 bg-gray-600 light:bg-gray-100 text-white light:text-gray-600 text-xs rounded-full"
                   >
                     {category}
                   </span>
                 ))}
               </div>
-              
+
               {/* Tags */}
               {card.tags && card.tags.length > 0 && (
                 <div className="flex flex-wrap gap-1">
                   {card.tags.slice(0, 5).map((tag, index) => (
                     <span
                       key={index}
-                      className="px-2 py-1 bg-kikuyu-600 text-white text-xs rounded-full"
+                      className="px-2 py-1 bg-kikuyu-600 light:bg-kikuyu-100 text-white light:text-kikuyu-800 text-xs rounded-full"
                     >
                       #{tag}
                     </span>
