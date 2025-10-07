@@ -157,6 +157,10 @@ export default function HomePage() {
     );
   }
 
+  const totalCards = categories
+    ? Object.values(categories).reduce((sum, cat) => sum + cat.total_count, 0)
+    : 0;
+
   return (
     <div className="max-w-6xl mx-auto">
       {/* Header */}
@@ -167,9 +171,19 @@ export default function HomePage() {
         <p className="text-xl text-gray-600 dark:text-gray-400 mb-6">
           Learn Kikuyu language with interactive flashcards
         </p>
+
+        {/* Total Content Count */}
+        <div className="inline-flex items-center gap-3 px-6 py-3 bg-kikuyu-600 light:bg-kikuyu-100 rounded-full mb-6">
+          <span className="text-3xl font-bold text-white light:text-kikuyu-800">
+            {totalCards.toLocaleString()}
+          </span>
+          <span className="text-sm text-white light:text-kikuyu-700 font-medium">
+            Total Flashcards Available
+          </span>
+        </div>
+
         <p className="text-lg text-gray-500 dark:text-gray-400 max-w-3xl mx-auto">
-          Study vocabulary, traditional proverbs, and verb conjugations from authentic native speaker content. 
-          Over 3,000+ flashcards to help you master the Kikuyu language.
+          Study vocabulary, traditional proverbs, and verb conjugations from authentic native speaker content.
         </p>
       </div>
 
