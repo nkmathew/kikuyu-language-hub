@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { Flashcard } from '@/types/flashcard';
+import ReportCard from './ReportCard';
 
 interface StudyCardProps {
   card: Flashcard;
@@ -229,6 +230,8 @@ export default function StudyCard({
                 </span>
               )}
             </button>
+
+            <ReportCard card={card} />
           </div>
 
           {/* Categories and Tags */}

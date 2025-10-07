@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { Flashcard } from '@/types/flashcard';
+import ReportCard from './ReportCard';
 
 interface FlashCardProps {
   card: Flashcard;
@@ -384,6 +385,11 @@ export default function FlashCard({
                   </span>
                 )}
               </button>
+            </div>
+
+            {/* Report Card */}
+            <div className="flex justify-center mt-4">
+              <ReportCard card={card} />
             </div>
           </div>
 

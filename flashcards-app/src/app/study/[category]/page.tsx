@@ -44,7 +44,7 @@ export default function StudyPage() {
   const loadCards = async () => {
     try {
       setLoading(true);
-      const categoryData = await dataLoader.loadCategory(category);
+      const categoryData = await dataLoader.loadCategoryWithValidation(category, false);
       
       let cardList: StudyFlashcard[] = [];
       

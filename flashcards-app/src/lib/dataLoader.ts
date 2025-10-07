@@ -1,8 +1,10 @@
 import { CategoryData, Flashcard, CategoryType, CuratedContent } from '@/types/flashcard';
+import { DataValidator } from './dataValidation';
 
 class DataLoader {
   private cache: Map<string, CategoryData> = new Map();
   private curatedCache: Map<string, CuratedContent> = new Map();
+  private validationEnabled: boolean = true;
   
   async loadCuratedContent(filePath: string): Promise<CuratedContent> {
     if (this.curatedCache.has(filePath)) {
@@ -180,6 +182,86 @@ class DataLoader {
       
       return basicMatch || categoryMatch || tagsMatch || subcategoryMatch || culturalNotesMatch;
     });
+  }
+
+  /**
+   * Apply data validation to filter out problematic cards
+   */
+  validateAndFilterCards(cards: Flashcard[], strictMode: boolean = false): {
+    validCards: Flashcard[];
+    invalidCards: Flashcard[];
+    stats: ReturnType<typeof DataValidator.getQualityStats>;
+  } {
+    if (!this.validationEnabled) {
+      return {
+        validCards: cards,
+        invalidCards: [],
+        stats: DataValidator.getQualityStats(cards)
+      };
+    }
+
+    const result = DataValidator.filterValidCards(cards, strictMode);
+    const stats = DataValidator.getQualityStats(cards);
+
+    console.log(`Data validation: ${result.validCards.length}/${cards.length} cards passed validation`);
+    if (result.invalidCards.length > 0) {
+      console.log(`${result.invalidCards.length} cards filtered out due to quality issues`);
+    }
+
+    return {
+      ...result,
+      stats
+    };
+  }
+
+  /**
+   * Set validation mode
+   */
+  setValidationEnabled(enabled: boolean): void {
+    this.validationEnabled = enabled;
+  }
+
+  /**
+   * Get quality statistics for a category
+   */
+  async getCategoryQualityStats(category: CategoryType): Promise<ReturnType<typeof DataValidator.getQualityStats>> {
+    const categoryData = await this.loadCategory(category);
+    return DataValidator.getQualityStats(categoryData.items.all);
+  }
+
+  /**
+   * Enhanced category loader with validation
+   */
+  async loadCategoryWithValidation(category: CategoryType, strictMode: boolean = false): Promise<CategoryData> {
+    const categoryData = await this.loadCategory(category);
+    
+    if (!this.validationEnabled) {
+      return categoryData;
+    }
+
+    // Apply validation to each difficulty level
+    const validateDifficulty = (cards: Flashcard[]) => {
+      const { validCards } = this.validateAndFilterCards(cards, strictMode);
+      return validCards;
+    };
+
+    const validatedItems = {
+      beginner: validateDifficulty(categoryData.items.beginner),
+      intermediate: validateDifficulty(categoryData.items.intermediate),
+      advanced: validateDifficulty(categoryData.items.advanced),
+      all: validateDifficulty(categoryData.items.all)
+    };
+
+    return {
+      ...categoryData,
+      items: validatedItems,
+      total_count: validatedItems.all.length,
+      difficulty_counts: {
+        beginner: validatedItems.beginner.length,
+        intermediate: validatedItems.intermediate.length,
+        advanced: validatedItems.advanced.length
+      }
+    };
   }
 }
 
