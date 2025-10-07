@@ -116,8 +116,8 @@ export default function StudyCard({
                   Score: {(card.quality_score || card.quality?.confidence_score || 0).toFixed(1)}
                 </span>
               </div>
-              <div className="p-4 bg-kikuyu-50 rounded-lg">
-                <h3 className="text-lg md:text-xl font-bold text-kikuyu-900 leading-relaxed">
+              <div className="p-4 bg-gray-700 rounded-lg">
+                <h3 className="text-lg md:text-xl font-bold text-white leading-relaxed">
                   {card.kikuyu}
                 </h3>
                 {/* Pronunciation */}
@@ -141,14 +141,14 @@ export default function StudyCard({
 
           {/* Context and Cultural Notes */}
           {(card.context || (showCulturalNotes && card.cultural_notes)) && (
-            <div className="mb-6 p-4 bg-blue-50 rounded-lg space-y-2">
+            <div className="mb-6 p-4 bg-gray-700 rounded-lg space-y-2">
               {card.context && (
-                <p className="text-sm text-gray-700">
+                <p className="text-sm text-gray-200">
                   <span className="font-medium">Context:</span> {card.context}
                 </p>
               )}
               {showCulturalNotes && card.cultural_notes && (
-                <p className="text-xs text-gray-600">
+                <p className="text-xs text-gray-300">
                   <span className="font-medium">Cultural Note:</span> {card.cultural_notes}
                 </p>
               )}

@@ -88,7 +88,7 @@
   }
   
   .light .flashcard-back {
-    @apply bg-kikuyu-50 border-gray-200;
+    @apply bg-white border-gray-200;
   }
 }
 
