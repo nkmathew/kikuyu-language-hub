@@ -12,12 +12,8 @@ interface StudyFlashcard extends Flashcard {
   _studied?: boolean;
 }
 
-export async function generateStaticParams() {
-  const categories = ['vocabulary', 'proverbs', 'conjugations', 'grammar', 'general'];
-  return categories.map((category) => ({
-    category,
-  }));
-}
+// generateStaticParams removed - conflicts with "use client"
+// For static export, we'll handle this differently in build process
 
 export default function StudyPage() {
   const params = useParams();
