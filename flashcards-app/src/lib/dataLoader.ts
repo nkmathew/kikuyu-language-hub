@@ -57,11 +57,21 @@ class DataLoader {
   
   private async loadCuratedCategory(category: CategoryType): Promise<CategoryData | null> {
     const curatedFiles: Record<CategoryType, string[]> = {
-      vocabulary: ['vocabulary/easy_kikuyu_household_items.json', 'vocabulary/easy_kikuyu_animals.json'],
-      conjugations: ['conjugations/wiktionary_basic_verbs.json'],
-      proverbs: ['proverbs/easy_kikuyu_wisdom.json'],
+      vocabulary: [
+        'vocabulary/easy_kikuyu_household_items.json',
+        'vocabulary/easy_kikuyu_animals.json',
+        'vocabulary/easy_kikuyu_batch_001_vocab.json'
+      ],
+      conjugations: [
+        'conjugations/wiktionary_basic_verbs.json',
+        'conjugations/easy_kikuyu_batch_001_conjugations.json'
+      ],
+      proverbs: [
+        'proverbs/easy_kikuyu_wisdom.json',
+        'proverbs/easy_kikuyu_batch_001_proverbs.json'
+      ],
       grammar: [],
-      general: []
+      general: ['cultural/easy_kikuyu_batch_001_cultural.json']
     };
     
     const filePaths = curatedFiles[category];

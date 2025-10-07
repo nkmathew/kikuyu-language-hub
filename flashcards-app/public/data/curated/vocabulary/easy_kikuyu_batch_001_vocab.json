@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-07T00:00:00Z",
+    "last_updated": "2025-10-07T00:00:00Z",
+    "curator": "Claude (Manual Curation)",
+    "source_files": ["006.txt", "007.txt", "013.txt"],
+    "total_entries": 3,
+    "description": "Vocabulary from Easy Kikuyu Facebook lessons by Emmanuel Kariuki - Batch 001 (shapes, consonants, cultural)"
+  },
+  "entries": [
+    {
+      "id": "ek_vocab_batch001_001",
+      "english": "different shapes",
+      "kikuyu": "Ũmbo wa Indo mwanya mwanya",
+      "category": "vocabulary",
+      "subcategory": "geometry",
+      "difficulty": "beginner",
+      "context": "Vocabulary for describing various geometric shapes",
+      "cultural_notes": "Native speaker vocabulary for teaching shapes, using natural comparisons like honeycomb (magua ma njũkĩ) for hexagon",
+      "examples": [
+        {
+          "english": "shape with four equal sides (square)",
+          "kikuyu": "Ũmbo wa mĩena ĩna mĩĩgananu",
+          "context": "Square"
+        },
+        {
+          "english": "shape with three corners (triangle)",
+          "kikuyu": "Ũmbo wa mĩthece ĩtatũ",
+          "context": "Triangle"
+        },
+        {
+          "english": "shape with six sides like honeycomb (hexagon)",
+          "kikuyu": "Ũmbo wa mĩena ĩtandatũ ta magua ma njũkĩ",
+          "context": "Hexagon"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun phrase"
+      },
+      "tags": ["shapes", "geometry", "basic vocabulary", "descriptive", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 006",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      }
+    },
+    {
+      "id": "ek_vocab_batch001_002",
+      "english": "Grandfather, pull my hand",
+      "kikuyu": "Guka gucia guoko gwaikwa",
+      "category": "vocabulary",
+      "subcategory": "phonetics_practice",
+      "difficulty": "beginner",
+      "context": "Consonant 'g' practice sentence",
+      "cultural_notes": "Educational material for pronunciation practice with alliterative sentences focusing on consonants g, h, and k",
+      "examples": [
+        {
+          "english": "Come for this cup",
+          "kikuyu": "Gĩra gĩkombe gĩkĩ",
+          "context": "Consonant g practice - gĩkombe (cup)"
+        },
+        {
+          "english": "This place is cold",
+          "kikuyu": "Haha hena heho",
+          "context": "Consonant h practice"
+        },
+        {
+          "english": "The girl has a pen",
+          "kikuyu": "Kaĩrĩtu kena karamu",
+          "context": "Consonant k practice - karamu (pen)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "sentence"
+      },
+      "tags": ["pronunciation", "consonants", "sentences", "learning", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 007",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      }
+    },
+    {
+      "id": "ek_vocab_batch001_003",
+      "english": "weekends are market days",
+      "kikuyu": "Wikendi nĩ mithenya ya ndũnyũ",
+      "category": "vocabulary",
+      "subcategory": "time_expressions",
+      "difficulty": "beginner",
+      "context": "Cultural observation about traditional market days falling on weekends",
+      "cultural_notes": "Traditional Kikuyu markets (ndũnyũ) often occur on weekends, showing the integration of modern week structure with traditional commerce",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "sentence",
+        "notes": "wikendi (borrowed English word), mithenya (days - plural), ndũnyũ (market)"
+      },
+      "tags": ["weekend", "market", "days", "commerce", "culture", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 013",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      }
+    }
+  ]
+}
