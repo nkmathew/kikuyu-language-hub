@@ -17,7 +17,6 @@ interface Props {
 export default function StudyListScreen({ route }: Props) {
   const { category, difficulties } = route.params;
   const [items, setItems] = useState<Flashcard[]>([]);
-  const [flipped, setFlipped] = useState<Record<string, boolean>>({});
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
 
@@ -29,29 +28,22 @@ export default function StudyListScreen({ route }: Props) {
     })();
   }, [category, difficulties]);
 
-  const toggleFlip = (id: string) => {
-    setFlipped(prev => ({ ...prev, [id]: !prev[id] }));
-  };
-
   const renderItem = ({ item }: { item: Flashcard }) => {
-    const isFlipped = flipped[item.id];
     return (
-      <TouchableOpacity onPress={() => toggleFlip(item.id)} activeOpacity={0.8}>
-        <View style={[styles.row, isDark && styles.darkRow]}>
-          <View style={styles.rowHeader}>
-            <Text style={[styles.badge, styles[`badge_${item.difficulty}`]]}>{item.difficulty}</Text>
-            <Text style={[styles.kikuyu, isDark && styles.darkText]}>{item.kikuyu}</Text>
-          </View>
-          <Text style={[styles.english, isDark && styles.darkTextSecondary]}>
-            {isFlipped ? item.english : 'Tap to reveal'}
-          </Text>
-          {item.cultural_notes && (
-            <Text style={[styles.notes, isDark && styles.darkTextSecondary]} numberOfLines={isFlipped ? 4 : 1}>
-              {item.cultural_notes}
-            </Text>
-          )}
+      <View style={[styles.row, isDark && styles.darkRow]}>
+        <View style={styles.rowHeader}>
+          <Text style={[styles.badge, styles[`badge_${item.difficulty}`]]}>{item.difficulty}</Text>
+          <Text style={[styles.kikuyu, isDark && styles.darkText]}>{item.kikuyu}</Text>
         </View>
-      </TouchableOpacity>
+        <Text style={[styles.english, isDark && styles.darkTextSecondary]}>
+          {item.english}
+        </Text>
+        {item.cultural_notes && (
+          <Text style={[styles.notes, isDark && styles.darkTextSecondary]}>
+            {item.cultural_notes}
+          </Text>
+        )}
+      </View>
     );
   };
 
