@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 033
-**Last File Index**: 334
-**Next Batch**: 034 (files 335-344)
+**Last Completed Batch**: 035
+**Last File Index**: 354
+**Next Batch**: 036 (files 355-364)
 **Date Updated**: 2025-10-08
 
 ## Batch History
@@ -43,13 +43,15 @@
 | **031** | **305-314** | **58** | **✅ Complete** | **2025-10-08** | **Verb derivations (pulling, abandoning), story continuation, demonstratives, body parts, conditional tense** |
 | **032** | **315-324** | **71** | **✅ Complete** | **2025-10-08** | **Folktale continuation (Zebra & Ant), time vocabulary, clothing/jewelry, words ending 'ka', verb Kũhũra (multiple meanings), colors** |
 | **033** | **325-334** | **97** | **✅ Complete** | **2025-10-08** | **Proverbs (tree/thief/elephant), wild animals, emotions (laugh/cry/happy/annoyed/love), shame vs shyness, traditional Kikuyu foods** |
-| 034 | 335-344 | - | ⏳ Pending | - | Next batch |
+| **034** | **335-344** | **114** | **✅ Complete** | **2025-10-08** | **Complete body parts vocabulary, fire/light verbs (Akia/Horia), plural commands (+i), greetings system, basic phrases, proverbs (sleep/patience)** |
+| **035** | **345-354** | **82** | **✅ Complete** | **2025-10-08** | **Understanding phrases, proverbs (travel/chase), verbs of motion (15 verbs), imperative rule (remove GŨ/KŨ), noun classes (ndũ derivatives), auxiliary verb 'be', professions** |
+| 036 | 355-364 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 33
-- **Total Files Processed**: 334 / 538 (62.1%)
-- **Remaining Files**: 204
-- **Estimated Remaining Batches**: ~20 batches
+- **Total Batches Completed**: 35
+- **Total Files Processed**: 354 / 538 (65.8%)
+- **Remaining Files**: 184
+- **Estimated Remaining Batches**: ~18 batches
 
 ## Batch 028 Summary
 **Files**: 275-284
