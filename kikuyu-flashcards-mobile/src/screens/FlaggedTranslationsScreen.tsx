@@ -89,14 +89,22 @@ export default function FlaggedTranslationsScreen() {
     );
   };
 
+  const extractBatchNumber = (id: string): string => {
+    // Extract batch number from ID format: ek_b[batch]_[number]
+    const match = id.match(/ek_b(\d+)_/);
+    return match ? match[1] : 'unknown';
+  };
+
   const formatForExport = (items: Flashcard[]) => {
     return items.map(item => ({
+      id: item.id,
+      batch: extractBatchNumber(item.id),
       kikuyu: item.kikuyu,
       english: item.english,
       difficulty: item.difficulty,
       category: item.category,
       cultural_notes: item.cultural_notes || '',
-      source: item.source?.file || '',
+      source: item.source?.origin || '',
     }));
   };
 
@@ -107,10 +115,10 @@ export default function FlaggedTranslationsScreen() {
     }
 
     const exportData = formatForExport(flaggedItems);
-    const text = exportData.map(item => 
-      `${item.kikuyu} - ${item.english} (${item.difficulty})`
-    ).join('\n');
-    
+    const text = exportData.map(item =>
+      `[Batch ${item.batch}] ${item.id}\n${item.kikuyu} - ${item.english}\nDifficulty: ${item.difficulty} | Category: ${item.category}`
+    ).join('\n\n');
+
     Clipboard.setString(text);
     Alert.alert('Copied!', `${flaggedItems.length} flagged translations copied to clipboard`);
   };
@@ -123,8 +131,8 @@ export default function FlaggedTranslationsScreen() {
 
     const exportData = formatForExport(flaggedItems);
     const emailBody = `Flagged Kikuyu Translations (${flaggedItems.length} items):\n\n` +
-      exportData.map(item => 
-        `• ${item.kikuyu} - ${item.english}\n  Difficulty: ${item.difficulty}\n  Category: ${item.category}\n  Notes: ${item.cultural_notes}\n`
+      exportData.map(item =>
+        `• [Batch ${item.batch}] ${item.id}\n  ${item.kikuyu} - ${item.english}\n  Difficulty: ${item.difficulty} | Category: ${item.category}\n  Source: ${item.source}\n  Notes: ${item.cultural_notes}\n`
       ).join('\n');
 
     try {
