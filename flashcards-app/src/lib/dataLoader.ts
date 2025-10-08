@@ -203,7 +203,19 @@ class DataLoader {
           const curatedContent = await this.loadCuratedContent(filePath);
           // Handle both formats: batch_info/flashcards or metadata/entries
           const cards = curatedContent.flashcards || curatedContent.entries || [];
-          allCards.push(...cards);
+
+          // Enrich each card with batch-level source metadata
+          const enrichedCards = cards.map(card => ({
+            ...card,
+            source: {
+              origin: curatedContent.source || card.source?.origin || 'Easy Kikuyu',
+              attribution: curatedContent.author || card.source?.attribution,
+              created_date: curatedContent.created_date || card.source?.created_date,
+              last_updated: curatedContent.last_updated || card.source?.last_updated
+            }
+          }));
+
+          allCards.push(...enrichedCards);
         }
 
         // Convert curated content to CategoryData format
@@ -239,12 +251,24 @@ class DataLoader {
     
     try {
       const allCards: Flashcard[] = [];
-      
+
       for (const filePath of filePaths) {
         const curatedContent = await this.loadCuratedContent(filePath);
         // Handle both formats: batch_info/flashcards or metadata/entries
         const cards = curatedContent.flashcards || curatedContent.entries || [];
-        allCards.push(...cards);
+
+        // Enrich each card with batch-level source metadata
+        const enrichedCards = cards.map(card => ({
+          ...card,
+          source: {
+            origin: curatedContent.source || card.source?.origin || 'Easy Kikuyu',
+            attribution: curatedContent.author || card.source?.attribution,
+            created_date: curatedContent.created_date || card.source?.created_date,
+            last_updated: curatedContent.last_updated || card.source?.last_updated
+          }
+        }));
+
+        allCards.push(...enrichedCards);
       }
       
       // Convert curated content to CategoryData format
