@@ -1,11 +1,11 @@
 {
   "batch_info": {
     "batch_number": "027",
-    "total_cards": 5,
+    "total_cards": 24,
     "category": "vocabulary",
     "source_files": ["266.txt", "267.txt", "270.txt", "271.txt", "274.txt"],
     "created_date": "2025-01-08",
-    "last_updated": "2025-01-08T15:30:00Z"
+    "last_updated": "2025-01-09T12:30:00Z"
   },
   "flashcards": [
     {
@@ -19,7 +19,7 @@
       "source": {
         "origin": "Easy Kikuyu Lesson 266",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:30:00Z"
+        "last_updated": "2025-01-09T12:30:00Z"
       }
     },
     {
@@ -33,25 +33,263 @@
       "source": {
         "origin": "Easy Kikuyu Lesson 267",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:30:00Z"
+        "last_updated": "2025-01-09T12:30:00Z"
       }
     },
     {
       "id": "vocab-027-003",
-      "kikuyu": "Clothing & Accessories - Complete",
-      "english": "Nguo (clothes), Nguo cia mwĩrĩ (clothes for the body), Cati (shirt), Thuruarĩ (shorts/pants), Mũbũto (trousers), Thogithi (socks), Ngobia (hat/cap), Tai (necktie), Mĩwanĩ (spectacles), Kiratũ (shoe - singular), Iratũ (shoes - plural), Taritari (slippers), Nginyĩra (leather sandals), Gĩtabaya/Gĩtambaya (cloth), Gĩtambaya kia mũtwee (head scarf), Mĩndira (ear rings), Bangiri (bangle/s), Mbete (ring), Mũgathĩ (necklace)",
+      "kikuyu": "Nguo",
+      "english": "Clothes",
       "category": "vocabulary",
       "difficulty": "beginner",
-      "notes": "Comprehensive clothing and accessories vocabulary. Shows singular/plural: Kiratũ/Iratũ (shoe/shoes). Note: Mwĩrĩ means body",
-      "quality_score": 4.6,
+      "notes": "General term for clothing",
+      "quality_score": 4.5,
       "source": {
         "origin": "Easy Kikuyu Lesson 270",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:30:00Z"
+        "last_updated": "2025-01-09T12:30:00Z"
       }
     },
     {
       "id": "vocab-027-004",
+      "kikuyu": "Cati",
+      "english": "Shirt",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Clothing item - upper body",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-005",
+      "kikuyu": "Thuruarĩ",
+      "english": "Shorts/Pants",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Clothing item - lower body",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-006",
+      "kikuyu": "Mũbũto",
+      "english": "Trousers",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Clothing item - long pants",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-007",
+      "kikuyu": "Thogithi",
+      "english": "Socks",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Clothing item - footwear accessory",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-008",
+      "kikuyu": "Ngobia",
+      "english": "Hat/Cap",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Clothing item - headwear",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-009",
+      "kikuyu": "Tai",
+      "english": "Necktie",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Clothing accessory - formal wear",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-010",
+      "kikuyu": "Mĩwanĩ",
+      "english": "Spectacles/Glasses",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Accessory - eyewear",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-011",
+      "kikuyu": "Kiratũ",
+      "english": "Shoe (singular)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Footwear - singular form. Plural: Iratũ",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-012",
+      "kikuyu": "Iratũ",
+      "english": "Shoes (plural)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Footwear - plural form. Singular: Kiratũ",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-013",
+      "kikuyu": "Taritari",
+      "english": "Slippers",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Footwear - casual indoor/outdoor",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-014",
+      "kikuyu": "Nginyĩra",
+      "english": "Leather sandals",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Footwear - traditional sandals",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-015",
+      "kikuyu": "Gĩtambaya",
+      "english": "Cloth/Fabric",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "General term for cloth or fabric. Also: Gĩtabaya",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-016",
+      "kikuyu": "Gĩtambaya kia mũtwee",
+      "english": "Head scarf",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Cloth for the head. 'kia mũtwee' means 'of the head'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-017",
+      "kikuyu": "Mĩndira",
+      "english": "Earrings",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Jewelry - ear accessories",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-018",
+      "kikuyu": "Bangiri",
+      "english": "Bangle(s)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Jewelry - wrist accessories",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-019",
+      "kikuyu": "Mbete",
+      "english": "Ring",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Jewelry - finger accessory",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-020",
+      "kikuyu": "Mũgathĩ",
+      "english": "Necklace",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Jewelry - neck accessory",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-021",
       "kikuyu": "Kũhũra - Versatile Verb Meanings",
       "english": "Kũhũra (to beat/wash/make/iron/thrash/play): Kũhũra nguo (to wash clothes), Kũhũra thimũ (to make a call), Kũhũra baathi (to iron clothes), Kũhũra mboco (to thrash dry beans from pods), Kũhũra mbembe (to thrash maize), Kũhũra mũbira (to play football), Kũhũra kanua (to make clicking noise - expressing annoyance). Related: Kũrũa (to fight), Kũrũa mbaara (to fight a war), Kũhũrana (to beat each other), Mbaara (war/fight). Questions: Nũũ wahũra mwana? (who has beaten the child?), Nũũ wakũhũra? (who has beaten you?). Command: Tigai kũrũa (stop fighting)",
       "category": "vocabulary",
@@ -61,21 +299,49 @@
       "source": {
         "origin": "Easy Kikuyu Lesson 271",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:30:00Z"
+        "last_updated": "2025-01-09T12:30:00Z"
       }
     },
     {
-      "id": "vocab-027-005",
-      "kikuyu": "Character Descriptors",
-      "english": "Mũndũ mũgĩ (clever person), Mũndũ mũkĩgu (foolish person), Mũndũ mwara (wise person)",
+      "id": "vocab-027-022",
+      "kikuyu": "Mũndũ mũgĩ",
+      "english": "Clever person",
       "category": "vocabulary",
       "difficulty": "beginner",
-      "notes": "Character and intelligence descriptors showing noun class agreement. Pattern: Mũndũ (person) + adjective with mũ- prefix agreement",
-      "quality_score": 4.3,
+      "notes": "Character descriptor. Shows noun class agreement with mũ- prefix",
+      "quality_score": 4.5,
       "source": {
         "origin": "Easy Kikuyu Lesson 274",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:30:00Z"
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-023",
+      "kikuyu": "Mũndũ mũkĩgu",
+      "english": "Foolish person",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Character descriptor. Shows noun class agreement with mũ- prefix",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 274",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-027-024",
+      "kikuyu": "Mũndũ mwara",
+      "english": "Wise person",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Character descriptor. Shows noun class agreement with mũ- prefix",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 274",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
       }
     }
   ]

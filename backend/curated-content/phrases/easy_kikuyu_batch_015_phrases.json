@@ -1,65 +1,165 @@
 {
   "batch_info": {
     "batch_number": "015",
-    "total_cards": 3,
+    "total_cards": 11,
     "category": "phrases",
     "source_files": ["145.txt", "147.txt", "152.txt"],
     "created_date": "2025-01-08",
-    "last_updated": "2025-01-08T09:30:00Z"
+    "last_updated": "2025-01-09T12:00:00Z"
   },
   "flashcards": [
     {
       "id": "phrase-015-001",
-      "kikuyu": "Location & Place Phrases",
-      "english": "ũyũ nĩ mũciĩ mũnene wa Nairobi (this is the city of Nairobi), Taũni nene ya Nairobi (the big town of Nairobi), Gaũdencia e ol-jororok (Gaudencia is in Ol-jororok), We wĩkũ? (Where are you?)",
+      "kikuyu": "Ũyũ nĩ mũciĩ mũnene wa Nairobi",
+      "english": "This is the city of Nairobi",
       "category": "phrases",
       "difficulty": "beginner",
-      "notes": "Common location expressions. Shows use of 'mũciĩ mũnene' (big city/town), 'e' (is in/at), 'wĩkũ' (where)",
-      "quality_score": 4.4,
+      "notes": "Location expression. 'mũciĩ mũnene' means big city/town",
+      "quality_score": 4.5,
       "source": {
         "origin": "Easy Kikuyu Lesson 145",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:30:00Z"
+        "last_updated": "2025-01-09T12:00:00Z"
       }
     },
     {
       "id": "phrase-015-002",
-      "kikuyu": "Weather Inquiry Conversation",
-      "english": "Kwanyu kũhana atĩa? (How is your place?), Kwĩna heho kana mbura? (Is it cold or rainy?), Kana kwĩna riũwa? (Or is it sunny?), Gwitũ kũrĩ na rũhuho (Our place is windy)",
+      "kikuyu": "Taũni nene ya Nairobi",
+      "english": "The big town of Nairobi",
       "category": "phrases",
       "difficulty": "beginner",
-      "notes": "Weather conversation pattern. Two ways to say 'there is': Kwĩna or Kũrĩ na. Heho (cold), mbura (rain), riũwa (sun), rũhuho (wind)",
+      "notes": "Alternative way to say city using 'taũni nene' (big town)",
       "quality_score": 4.5,
       "source": {
-        "origin": "Easy Kikuyu Lesson 147",
+        "origin": "Easy Kikuyu Lesson 145",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:30:00Z"
+        "last_updated": "2025-01-09T12:00:00Z"
       }
     },
     {
       "id": "phrase-015-003",
-      "kikuyu": "Telling Time - Complete System",
-      "english": "Nĩ thaa cĩgana (What time is it?), Nĩ thaa ĩmwe (7 o'clock), Nĩ thaa ĩmwe na ndagĩka ĩmwe (7:01), Nĩ thaa igĩrĩ na nuthu (8:30), Nĩ thaa ĩthatũ itigarĩtie ndagĩka ikũmi na ithano (9:45 - remaining 15 min), Nĩ thaa thita (midday), Nĩ thinacara (6pm)",
+      "kikuyu": "Gaũdencia e Ol-jororok",
+      "english": "Gaudencia is in Ol-jororok",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "'e' means 'is in/at' when talking about location",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-004",
+      "kikuyu": "We wĩkũ?",
+      "english": "Where are you?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "'wĩkũ' means 'where' when asking about location",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-005",
+      "kikuyu": "Kwanyu kũhana atĩa?",
+      "english": "How is your place?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Common weather/location inquiry. Literally 'Your place is like what?'",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-006",
+      "kikuyu": "Kwĩna heho kana mbura?",
+      "english": "Is it cold or rainy?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Weather question. 'Kwĩna' means 'there is'. Heho (cold), mbura (rain)",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-007",
+      "kikuyu": "Kana kwĩna riũwa?",
+      "english": "Or is it sunny?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "'riũwa' means sun/sunny weather",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-008",
+      "kikuyu": "Gwitũ kũrĩ na rũhuho",
+      "english": "Our place is windy",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Alternative 'there is' construction: 'kũrĩ na'. Rũhuho (wind)",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-009",
+      "kikuyu": "Nĩ thaa cĩgana?",
+      "english": "What time is it?",
       "category": "phrases",
       "difficulty": "intermediate",
-      "notes": "Complete time-telling system. Time periods: Rũciĩ-nĩ (morning), Mĩaraho (around midday), Hwaĩ-nĩ (evening), Ũtũkũ (night). Itigarĩtie (remaining with/short of). Irũgamĩte (sharp/exactly)",
+      "notes": "Time inquiry. Literal 'It is hour how many?'",
       "quality_score": 4.7,
-      "examples": [
-        {
-          "kikuyu": "Nĩ thaa inya irũgamĩte",
-          "english": "It is 10 o'clock sharp",
-          "notes": "Irũgamĩte = exactly/sharp"
-        },
-        {
-          "kikuyu": "Ĩrorete thaa ĩthano",
-          "english": "It is almost eleven",
-          "notes": "Ĩrorete = almost/approaching"
-        }
-      ],
       "source": {
         "origin": "Easy Kikuyu Lesson 152",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:30:00Z"
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-010",
+      "kikuyu": "Nĩ thaa igĩrĩ na nuthu",
+      "english": "It is 8:30 (half past eight)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Time expression. 'na nuthu' means 'and half'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-015-011",
+      "kikuyu": "Nĩ thaa ĩthatũ itigarĩtie ndagĩka ikũmi na ithano",
+      "english": "It is 9:45 (quarter to 10)",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "'itigarĩtie' means 'remaining with/short of'. Literally 'hour three remaining minutes fifteen'",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
       }
     }
   ]

@@ -1,14 +1,14 @@
 {
   "batch": 50,
   "source_files": "495-504",
-  "total_flashcards": 60,
+  "total_flashcards": 59,
   "created_date": "2025-01-27",
   "last_updated": "2025-01-27T20:00:00Z",
   "author": "Emmanuel Kariuki",
   "source": "Easy Kikuyu",
   "categories": ["Vocabulary"],
   "difficulty_distribution": {
-    "beginner": 35,
+    "beginner": 34,
     "intermediate": 20,
     "advanced": 5
   },
@@ -101,16 +101,6 @@
       "category": "Vocabulary",
       "context": "Verb - past tense",
       "quality": 4.6,
-      "source": "Easy Kikuyu #495"
-    },
-    {
-      "id": "ek_b50_vocab_010",
-      "kikuyu": "o",
-      "english": "they/those ones",
-      "difficulty": "beginner",
-      "category": "Vocabulary",
-      "context": "Demonstrative pronoun",
-      "quality": 4.5,
       "source": "Easy Kikuyu #495"
     },
     {
