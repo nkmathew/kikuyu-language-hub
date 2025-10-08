@@ -11,6 +11,7 @@ import CategoryScreen from '../screens/CategoryScreen';
 import FlashcardScreen from '../screens/FlashcardScreen';
 import ProgressScreen from '../screens/ProgressScreen';
 import StudyListScreen from '../screens/StudyListScreen';
+import SettingsScreen from '../screens/SettingsScreen';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -22,6 +23,7 @@ export type RootStackParamList = {
 export type BottomTabParamList = {
   HomeTab: undefined;
   Progress: undefined;
+  Settings: undefined;
 };
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
@@ -98,6 +100,17 @@ export default function AppNavigator() {
             headerShown: true,
             tabBarIcon: ({ color, size }) => (
               <Text style={{ fontSize: size, color }}>📊</Text>
+            )
+          }}
+        />
+        <Tab.Screen
+          name="Settings"
+          component={SettingsScreen}
+          options={{ 
+            title: 'Settings', 
+            headerShown: true,
+            tabBarIcon: ({ color, size }) => (
+              <Text style={{ fontSize: size, color }}>⚙️</Text>
             )
           }}
         />

@@ -5,6 +5,7 @@ import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigation/AppNavigator';
 import { Flashcard } from '../types/flashcard';
 import { dataLoader } from '../lib/dataLoader';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 type StudyListNavigationProp = NativeStackNavigationProp<RootStackParamList, 'StudyList'>;
 type StudyListRouteProp = RouteProp<RootStackParamList, 'StudyList'>;
@@ -19,7 +20,7 @@ type SortOption = 'difficulty' | 'recent' | 'alphabetical';
 export default function StudyListScreen({ route }: Props) {
   const { category, difficulties } = route.params;
   const [items, setItems] = useState<Flashcard[]>([]);
-  const [sortBy, setSortBy] = useState<SortOption>('difficulty');
+  const [sortBy, setSortBy] = useState<SortOption>('recent');
   const [flaggedItems, setFlaggedItems] = useState<Set<string>>(new Set());
   const [currentPosition, setCurrentPosition] = useState({ visibleStart: 0, visibleEnd: 0, total: 0 });
   const colorScheme = useColorScheme();
@@ -30,6 +31,16 @@ export default function StudyListScreen({ route }: Props) {
       const categoryData = await dataLoader.loadCategory(category);
       const selected = dataLoader.getCardsByDifficulty(categoryData, difficulties);
       setItems(selected);
+      
+      // Load flagged items from storage
+      try {
+        const storedFlagged = await AsyncStorage.getItem('flaggedItems');
+        if (storedFlagged) {
+          setFlaggedItems(new Set(JSON.parse(storedFlagged)));
+        }
+      } catch (error) {
+        console.error('Error loading flagged items:', error);
+      }
     })();
   }, [category, difficulties]);
 
@@ -54,7 +65,7 @@ export default function StudyListScreen({ route }: Props) {
     }
   };
 
-  const toggleFlag = (id: string) => {
+  const toggleFlag = async (id: string) => {
     setFlaggedItems(prev => {
       const newSet = new Set(prev);
       if (newSet.has(id)) {
@@ -62,6 +73,10 @@ export default function StudyListScreen({ route }: Props) {
       } else {
         newSet.add(id);
       }
+      
+      // Persist to storage
+      AsyncStorage.setItem('flaggedItems', JSON.stringify([...newSet]));
+      
       return newSet;
     });
   };
@@ -97,43 +112,53 @@ export default function StudyListScreen({ route }: Props) {
     
     return (
       <View style={[styles.row, isDark && styles.darkRow, isFlagged && styles.flaggedRow]}>
-        <View style={styles.rowHeader}>
-          <Text style={[styles.badge, styles[`badge_${item.difficulty}`]]}>{item.difficulty}</Text>
-          <Text style={[styles.kikuyu, isDark && styles.darkText]}>{item.kikuyu}</Text>
-          <View style={styles.actionButtons}>
-            <TouchableOpacity 
-              style={styles.iconButton} 
-              onPress={() => toggleFlag(item.id)}
-            >
-              <Text style={styles.iconText}>{isFlagged ? '🚩' : '🏳️'}</Text>
-            </TouchableOpacity>
-            <TouchableOpacity 
-              style={styles.iconButton} 
-              onPress={() => copyToClipboard(item.kikuyu)}
-            >
-              <Text style={styles.iconText}>📋</Text>
-            </TouchableOpacity>
-            <TouchableOpacity 
-              style={styles.iconButton} 
-              onPress={() => copyToClipboard(item.english)}
-            >
-              <Text style={styles.iconText}>📄</Text>
-            </TouchableOpacity>
+        <View style={styles.cardContainer}>
+          {/* Kikuyu Card */}
+          <View style={[styles.miniCard, styles.kikuyuCard, isDark && styles.darkMiniCard]}>
+            <View style={styles.miniCardHeader}>
+              <Text style={[styles.miniCardLabel, isDark && styles.darkTextSecondary]}>Kikuyu</Text>
+              <View style={styles.actionButtons}>
+                <TouchableOpacity 
+                  style={[styles.iconButton, isDark && styles.darkIconButton]} 
+                  onPress={() => toggleFlag(item.id)}
+                >
+                  <Text style={styles.iconText}>{isFlagged ? '🚩' : '🏳️'}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity 
+                  style={[styles.iconButton, isDark && styles.darkIconButton]} 
+                  onPress={() => copyToClipboard(`${item.kikuyu} - ${item.english}`)}
+                >
+                  <Text style={styles.iconText}>📋</Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+            <Text style={[styles.miniCardText, isDark && styles.darkText]}>{item.kikuyu}</Text>
+          </View>
+
+          {/* English Card */}
+          <View style={[styles.miniCard, styles.englishCard, isDark && styles.darkMiniCard]}>
+            <Text style={[styles.miniCardLabel, isDark && styles.darkTextSecondary]}>English</Text>
+            <Text style={[styles.miniCardText, isDark && styles.darkTextSecondary]}>{item.english}</Text>
           </View>
         </View>
-        <Text style={[styles.english, isDark && styles.darkTextSecondary]}>
-          {item.english}
-        </Text>
+
+        {/* Notes and metadata */}
         {item.cultural_notes && (
           <Text style={[styles.notes, isDark && styles.darkTextSecondary]}>
             {item.cultural_notes}
           </Text>
         )}
-        {lastUpdated && (
-          <Text style={[styles.lastUpdated, isDark && styles.darkTextSecondary]}>
-            Updated: {new Date(lastUpdated).toLocaleDateString()}
+        
+        <View style={styles.cardFooter}>
+          <Text style={[styles.difficultyBadge, styles[`difficulty_${item.difficulty}`]]}>
+            {item.difficulty}
           </Text>
-        )}
+          {lastUpdated && (
+            <Text style={[styles.lastUpdated, isDark && styles.darkTextSecondary]}>
+              Updated: {new Date(lastUpdated).toLocaleDateString()}
+            </Text>
+          )}
+        </View>
       </View>
     );
   };
@@ -162,22 +187,22 @@ export default function StudyListScreen({ route }: Props) {
         </View>
         <View style={styles.sortButtons}>
           <TouchableOpacity 
-            style={[styles.sortButton, sortBy === 'difficulty' && styles.sortButtonActive]}
+            style={[styles.sortButton, isDark && styles.darkSortButton, sortBy === 'difficulty' && styles.sortButtonActive]}
             onPress={() => setSortBy('difficulty')}
           >
-            <Text style={styles.sortButtonText}>📊 Difficulty</Text>
+            <Text style={[styles.sortButtonText, isDark && styles.darkSortButtonText]}>📊 Difficulty</Text>
           </TouchableOpacity>
           <TouchableOpacity 
-            style={[styles.sortButton, sortBy === 'recent' && styles.sortButtonActive]}
+            style={[styles.sortButton, isDark && styles.darkSortButton, sortBy === 'recent' && styles.sortButtonActive]}
             onPress={() => setSortBy('recent')}
           >
-            <Text style={styles.sortButtonText}>🕒 Recent</Text>
+            <Text style={[styles.sortButtonText, isDark && styles.darkSortButtonText]}>🕒 Recent</Text>
           </TouchableOpacity>
           <TouchableOpacity 
-            style={[styles.sortButton, sortBy === 'alphabetical' && styles.sortButtonActive]}
+            style={[styles.sortButton, isDark && styles.darkSortButton, sortBy === 'alphabetical' && styles.sortButtonActive]}
             onPress={() => setSortBy('alphabetical')}
           >
-            <Text style={styles.sortButtonText}>🔤 A-Z</Text>
+            <Text style={[styles.sortButtonText, isDark && styles.darkSortButtonText]}>🔤 A-Z</Text>
           </TouchableOpacity>
         </View>
         {flaggedItems.size > 0 && (
@@ -344,6 +369,9 @@ const styles = StyleSheet.create({
     borderRadius: 4,
     backgroundColor: '#f3f4f6',
   },
+  darkIconButton: {
+    backgroundColor: '#374151',
+  },
   iconText: {
     fontSize: 16,
   },
@@ -351,11 +379,83 @@ const styles = StyleSheet.create({
     borderLeftWidth: 4,
     borderLeftColor: '#ef4444',
   },
+  cardContainer: {
+    flexDirection: 'column',
+    gap: 8,
+    marginBottom: 8,
+  },
+  miniCard: {
+    flex: 1,
+    padding: 12,
+    borderRadius: 8,
+    backgroundColor: '#f9fafb',
+    borderWidth: 1,
+    borderColor: '#e5e7eb',
+  },
+  darkMiniCard: {
+    backgroundColor: '#374151',
+    borderColor: '#4b5563',
+  },
+  kikuyuCard: {
+    backgroundColor: '#f0f9ff',
+    borderColor: '#0ea5e9',
+  },
+  englishCard: {
+    backgroundColor: '#f0fdf4',
+    borderColor: '#22c55e',
+  },
+  miniCardHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 6,
+  },
+  miniCardLabel: {
+    fontSize: 10,
+    fontWeight: '600',
+    color: '#6b7280',
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  miniCardText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#111827',
+    lineHeight: 22,
+  },
+  cardFooter: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginTop: 8,
+  },
+  difficultyBadge: {
+    fontSize: 10,
+    fontWeight: '600',
+    color: '#6b7280',
+    textTransform: 'capitalize',
+    fontStyle: 'italic',
+  },
+  difficulty_beginner: {
+    color: '#059669',
+  },
+  difficulty_intermediate: {
+    color: '#d97706',
+  },
+  difficulty_advanced: {
+    color: '#dc2626',
+  },
   lastUpdated: {
     fontSize: 10,
     color: '#9ca3af',
-    marginTop: 4,
     fontStyle: 'italic',
+  },
+  darkSortButton: {
+    backgroundColor: '#374151',
+    borderColor: '#4b5563',
+  },
+  darkSortButtonText: {
+    color: '#d1d5db',
   },
 });
 
