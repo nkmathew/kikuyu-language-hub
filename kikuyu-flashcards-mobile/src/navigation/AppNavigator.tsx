@@ -12,6 +12,7 @@ import FlashcardScreen from '../screens/FlashcardScreen';
 import ProgressScreen from '../screens/ProgressScreen';
 import StudyListScreen from '../screens/StudyListScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import FlaggedTranslationsScreen from '../screens/FlaggedTranslationsScreen';
 
 export type RootStackParamList = {
   Home: undefined;
@@ -23,6 +24,7 @@ export type RootStackParamList = {
 export type BottomTabParamList = {
   HomeTab: undefined;
   Progress: undefined;
+  Flagged: undefined;
   Settings: undefined;
 };
 
@@ -100,6 +102,17 @@ export default function AppNavigator() {
             headerShown: true,
             tabBarIcon: ({ color, size }) => (
               <Text style={{ fontSize: size, color }}>📊</Text>
+            )
+          }}
+        />
+        <Tab.Screen
+          name="Flagged"
+          component={FlaggedTranslationsScreen}
+          options={{ 
+            title: 'Flagged', 
+            headerShown: true,
+            tabBarIcon: ({ color, size }) => (
+              <Text style={{ fontSize: size, color }}>🚩</Text>
             )
           }}
         />
