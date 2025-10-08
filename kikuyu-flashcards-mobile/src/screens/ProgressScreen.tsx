@@ -134,32 +134,32 @@ export default function ProgressScreen() {
       {/* Spaced Repetition Stats */}
       {studyStats && studyStats.totalCards > 0 && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Learning Status</Text>
+          <Text style={[styles.sectionTitle, isDark && styles.darkText]}>Learning Status</Text>
           <View style={[styles.card, isDark && styles.darkCard]}>
             <View style={styles.progressRow}>
-              <Text style={styles.progressLabel}>Due Today</Text>
+              <Text style={[styles.progressLabel, isDark && styles.darkTextSecondary]}>Due Today</Text>
               <Text style={[styles.progressValue, styles.dueValue]}>{studyStats.dueToday}</Text>
             </View>
             <View style={styles.progressRow}>
-              <Text style={styles.progressLabel}>Due Soon (3 days)</Text>
-              <Text style={styles.progressValue}>{studyStats.dueSoon}</Text>
+              <Text style={[styles.progressLabel, isDark && styles.darkTextSecondary]}>Due Soon (3 days)</Text>
+              <Text style={[styles.progressValue, isDark && styles.darkText]}>{studyStats.dueSoon}</Text>
             </View>
             <View style={styles.progressRow}>
-              <Text style={styles.progressLabel}>Learning</Text>
-              <Text style={styles.progressValue}>{studyStats.learning}</Text>
+              <Text style={[styles.progressLabel, isDark && styles.darkTextSecondary]}>Learning</Text>
+              <Text style={[styles.progressValue, isDark && styles.darkText]}>{studyStats.learning}</Text>
             </View>
             <View style={styles.progressRow}>
-              <Text style={styles.progressLabel}>Mastered</Text>
+              <Text style={[styles.progressLabel, isDark && styles.darkTextSecondary]}>Mastered</Text>
               <Text style={[styles.progressValue, styles.masteredValue]}>{studyStats.mastered}</Text>
             </View>
             <View style={[styles.divider, isDark && styles.darkDivider]} />
             <View style={styles.progressRow}>
-              <Text style={styles.progressLabel}>Total Cards</Text>
+              <Text style={[styles.progressLabel, isDark && styles.darkTextSecondary]}>Total Cards</Text>
               <Text style={[styles.progressValue, styles.totalValue]}>{studyStats.totalCards}</Text>
             </View>
             <View style={styles.progressRow}>
-              <Text style={styles.progressLabel}>Average Ease Factor</Text>
-              <Text style={styles.progressValue}>{studyStats.averageEaseFactor}</Text>
+              <Text style={[styles.progressLabel, isDark && styles.darkTextSecondary]}>Average Ease Factor</Text>
+              <Text style={[styles.progressValue, isDark && styles.darkText]}>{studyStats.averageEaseFactor}</Text>
             </View>
           </View>
         </View>
@@ -168,7 +168,7 @@ export default function ProgressScreen() {
       {/* Recent Sessions */}
       {sessions.length > 0 && (
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Recent Sessions</Text>
+          <Text style={[styles.sectionTitle, isDark && styles.darkText]}>Recent Sessions</Text>
           {sessions.reverse().map((session, index) => {
             const accuracy = Math.round((session.correctAnswers / session.cardsStudied) * 100);
             const date = new Date(session.startTime);
@@ -199,24 +199,24 @@ export default function ProgressScreen() {
 
       {/* Overall Performance */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Overall Performance</Text>
+        <Text style={[styles.sectionTitle, isDark && styles.darkText]}>Overall Performance</Text>
         <View style={[styles.card, isDark && styles.darkCard]}>
           <View style={styles.performanceRow}>
-            <Text style={styles.performanceLabel}>Average Accuracy</Text>
+            <Text style={[styles.performanceLabel, isDark && styles.darkTextSecondary]}>Average Accuracy</Text>
             <Text style={[styles.performanceValue, getAccuracyStyle(averageAccuracy)]}>
               {averageAccuracy}%
             </Text>
           </View>
           <View style={styles.performanceRow}>
-            <Text style={styles.performanceLabel}>Total Study Time</Text>
-            <Text style={styles.performanceValue}>
+            <Text style={[styles.performanceLabel, isDark && styles.darkTextSecondary]}>Total Study Time</Text>
+            <Text style={[styles.performanceValue, isDark && styles.darkText]}>
               {Math.floor(todayStudyTime / 60)}h {todayStudyTime % 60}m
             </Text>
           </View>
           {stats?.lastStudyDate && (
             <View style={styles.performanceRow}>
-              <Text style={styles.performanceLabel}>Last Studied</Text>
-              <Text style={styles.performanceValue}>
+              <Text style={[styles.performanceLabel, isDark && styles.darkTextSecondary]}>Last Studied</Text>
+              <Text style={[styles.performanceValue, isDark && styles.darkText]}>
                 {getTimeAgo(new Date(stats.lastStudyDate))}
               </Text>
             </View>
@@ -226,7 +226,7 @@ export default function ProgressScreen() {
 
       {/* Actions */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Data Management</Text>
+        <Text style={[styles.sectionTitle, isDark && styles.darkText]}>Data Management</Text>
         <TouchableOpacity style={styles.actionButton} onPress={handleExportData}>
           <Text style={styles.actionButtonText}>📤 Export Progress Data</Text>
         </TouchableOpacity>
@@ -330,18 +330,18 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
   section: {
-    padding: 16,
+    padding: 12,
   },
   sectionTitle: {
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: '600',
     color: '#111827',
-    marginBottom: 12,
+    marginBottom: 8,
   },
   card: {
     backgroundColor: '#fff',
     borderRadius: 12,
-    padding: 16,
+    padding: 12,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
@@ -352,7 +352,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingVertical: 8,
+    paddingVertical: 6,
   },
   progressLabel: {
     fontSize: 16,
@@ -437,7 +437,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingVertical: 12,
+    paddingVertical: 6,
   },
   performanceLabel: {
     fontSize: 16,
