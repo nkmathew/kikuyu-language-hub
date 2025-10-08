@@ -21,6 +21,7 @@ export default function StudyListScreen({ route }: Props) {
   const [items, setItems] = useState<Flashcard[]>([]);
   const [sortBy, setSortBy] = useState<SortOption>('difficulty');
   const [flaggedItems, setFlaggedItems] = useState<Set<string>>(new Set());
+  const [currentPosition, setCurrentPosition] = useState({ visibleStart: 0, visibleEnd: 0, total: 0 });
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
 
@@ -139,9 +140,26 @@ export default function StudyListScreen({ route }: Props) {
 
   const sortedItems = sortItems(items, sortBy);
 
+  const handleViewableItemsChanged = ({ viewableItems }: any) => {
+    if (viewableItems.length > 0) {
+      const firstIndex = viewableItems[0].index || 0;
+      const lastIndex = viewableItems[viewableItems.length - 1].index || 0;
+      setCurrentPosition({
+        visibleStart: firstIndex + 1,
+        visibleEnd: lastIndex + 1,
+        total: sortedItems.length
+      });
+    }
+  };
+
   return (
     <View style={[styles.container, isDark && styles.darkBg]}>
       <View style={[styles.header, isDark && styles.darkHeader]}>
+        <View style={[styles.positionIndicator, isDark && styles.darkPositionIndicator]}>
+          <Text style={[styles.positionText, isDark && styles.darkText]}>
+            📍 {currentPosition.visibleStart}-{currentPosition.visibleEnd} of {currentPosition.total}
+          </Text>
+        </View>
         <View style={styles.sortButtons}>
           <TouchableOpacity 
             style={[styles.sortButton, sortBy === 'difficulty' && styles.sortButtonActive]}
@@ -179,6 +197,10 @@ export default function StudyListScreen({ route }: Props) {
         renderItem={renderItem}
         ItemSeparatorComponent={() => <View style={styles.sep} />}
         contentContainerStyle={{ padding: 16, paddingBottom: 24 }}
+        onViewableItemsChanged={handleViewableItemsChanged}
+        viewabilityConfig={{
+          itemVisiblePercentThreshold: 50
+        }}
       />
     </View>
   );
@@ -260,6 +282,21 @@ const styles = StyleSheet.create({
   darkHeader: {
     backgroundColor: '#1f2937',
     borderBottomColor: '#374151',
+  },
+  positionIndicator: {
+    alignItems: 'center',
+    marginBottom: 12,
+    paddingVertical: 8,
+    backgroundColor: '#f9fafb',
+    borderRadius: 8,
+  },
+  positionText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#374151',
+  },
+  darkPositionIndicator: {
+    backgroundColor: '#374151',
   },
   sortButtons: {
     flexDirection: 'row',
