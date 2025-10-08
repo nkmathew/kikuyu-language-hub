@@ -37,23 +37,24 @@ export default function FlaggedTranslationsScreen() {
 
       if (storedFlagged) {
         const flaggedIds = JSON.parse(storedFlagged);
-        const allItems: Flashcard[] = [];
 
-        // Load all categories to find flagged items
-        const categories = ['vocabulary', 'proverbs', 'conjugations', 'grammar', 'general', 'phrases'];
-        for (const category of categories) {
-          try {
-            const categoryData = await dataLoader.loadCategory(category as any);
-            const allCards = dataLoader.getCardsByDifficulty(categoryData, ['beginner', 'intermediate', 'advanced']);
-            allItems.push(...allCards);
-          } catch (error) {
-            console.error(`Error loading category ${category}:`, error);
-          }
+        // Load 'general' category which includes all cards (no duplicates with fixed dataLoader)
+        try {
+          const categoryData = await dataLoader.loadCategory('general');
+          const allCards = dataLoader.getCardsByDifficulty(categoryData, ['beginner', 'intermediate', 'advanced']);
+
+          // Filter to only flagged items and remove any duplicates by ID
+          const flaggedMap = new Map<string, Flashcard>();
+          allCards.forEach(card => {
+            if (flaggedIds.includes(card.id) && !flaggedMap.has(card.id)) {
+              flaggedMap.set(card.id, card);
+            }
+          });
+
+          setFlaggedItems(Array.from(flaggedMap.values()));
+        } catch (error) {
+          console.error('Error loading flagged items:', error);
         }
-
-        // Filter to only flagged items
-        const flagged = allItems.filter(item => flaggedIds.includes(item.id));
-        setFlaggedItems(flagged);
       }
 
       // Load reasons

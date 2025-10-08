@@ -148,12 +148,20 @@ export default function StudyListScreen({ route }: Props) {
           <View style={[styles.miniCard, styles.kikuyuCard, isDark && styles.darkMiniCard]}>
             <View style={styles.miniCardHeader}>
               <Text style={[styles.miniCardLabel, isDark && styles.darkTextSecondary]}>Kikuyu</Text>
-              <TouchableOpacity
-                style={[styles.iconButton, isDark && styles.darkIconButton]}
-                onPress={() => copyToClipboard(`${item.kikuyu} - ${item.english}`)}
-              >
-                <Text style={styles.iconText}>📋</Text>
-              </TouchableOpacity>
+              <View style={styles.actionButtons}>
+                <TouchableOpacity
+                  style={[styles.iconButton, isDark && styles.darkIconButton]}
+                  onPress={() => toggleFlag(item.id)}
+                >
+                  <Text style={styles.iconText}>{isFlagged ? '🚩' : '🏳️'}</Text>
+                </TouchableOpacity>
+                <TouchableOpacity
+                  style={[styles.iconButton, isDark && styles.darkIconButton]}
+                  onPress={() => copyToClipboard(`${item.kikuyu} - ${item.english}`)}
+                >
+                  <Text style={styles.iconText}>📋</Text>
+                </TouchableOpacity>
+              </View>
             </View>
             <Text style={[styles.miniCardText, isDark && styles.darkText]}>{item.kikuyu}</Text>
           </View>
@@ -238,28 +246,6 @@ export default function StudyListScreen({ route }: Props) {
             <Text style={[styles.sortButtonText, isDark && styles.darkSortButtonText]}>📏 Length</Text>
           </TouchableOpacity>
         </View>
-        {flaggedItems.size > 0 && (
-          <TouchableOpacity 
-            style={[
-              styles.exportButton, 
-              isDark && styles.darkExportButton,
-              exporting && styles.exportButtonDisabled
-            ]}
-            onPress={exportFlaggedItems}
-            disabled={exporting}
-          >
-            {exporting ? (
-              <View style={styles.exportLoadingContainer}>
-                <ActivityIndicator size="small" color="#fff" />
-                <Text style={styles.exportButtonText}>Exporting...</Text>
-              </View>
-            ) : (
-              <Text style={styles.exportButtonText}>
-                📤 Export {flaggedItems.size} Flagged
-              </Text>
-            )}
-          </TouchableOpacity>
-        )}
       </View>
       <LoadingOverlay 
         visible={exporting} 
