@@ -81,7 +81,8 @@ class DataLoader {
         'vocabulary/easy_kikuyu_batch_019_vocab.json',
         'vocabulary/easy_kikuyu_batch_020_vocab.json',
         'vocabulary/easy_kikuyu_batch_021_vocab.json',
-        'vocabulary/easy_kikuyu_batch_022_vocab.json'
+        'vocabulary/easy_kikuyu_batch_022_vocab.json',
+        'vocabulary/easy_kikuyu_batch_023_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
@@ -98,7 +99,8 @@ class DataLoader {
         'conjugations/easy_kikuyu_batch_019_conjugations.json',
         'conjugations/easy_kikuyu_batch_020_conjugations.json',
         'conjugations/easy_kikuyu_batch_021_conjugations.json',
-        'conjugations/easy_kikuyu_batch_022_conjugations.json'
+        'conjugations/easy_kikuyu_batch_022_conjugations.json',
+        'conjugations/easy_kikuyu_batch_023_conjugations.json'
       ],
       proverbs: [
         'proverbs/easy_kikuyu_wisdom.json',
@@ -129,7 +131,8 @@ class DataLoader {
         'grammar/easy_kikuyu_batch_019_grammar.json',
         'grammar/easy_kikuyu_batch_020_grammar.json',
         'grammar/easy_kikuyu_batch_021_grammar.json',
-        'grammar/easy_kikuyu_batch_022_grammar.json'
+        'grammar/easy_kikuyu_batch_022_grammar.json',
+        'grammar/easy_kikuyu_batch_023_grammar.json'
       ],
       general: [], // Will be populated with all categories combined
       phrases: [
@@ -149,7 +152,8 @@ class DataLoader {
         'phrases/easy_kikuyu_batch_019_phrases.json',
         'phrases/easy_kikuyu_batch_020_phrases.json',
         'phrases/easy_kikuyu_batch_021_phrases.json',
-        'phrases/easy_kikuyu_batch_022_phrases.json'
+        'phrases/easy_kikuyu_batch_022_phrases.json',
+        'phrases/easy_kikuyu_batch_023_phrases.json'
       ]
     };
 
