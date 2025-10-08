@@ -105,7 +105,9 @@ class DataLoader {
         'vocabulary/easy_kikuyu_batch_043_vocab.json',
         'vocabulary/easy_kikuyu_batch_044_vocab.json',
         'vocabulary/easy_kikuyu_batch_045_vocab.json',
-        'vocabulary/easy_kikuyu_batch_046_vocab.json'
+        'vocabulary/easy_kikuyu_batch_046_vocab.json',
+        'vocabulary/easy_kikuyu_batch_047_vocab.json',
+        'vocabulary/easy_kikuyu_batch_048_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
@@ -136,7 +138,9 @@ class DataLoader {
         'conjugations/easy_kikuyu_batch_043_conjugations.json',
         'conjugations/easy_kikuyu_batch_044_conjugations.json',
         'conjugations/easy_kikuyu_batch_045_conjugations.json',
-        'conjugations/easy_kikuyu_batch_046_conjugations.json'
+        'conjugations/easy_kikuyu_batch_046_conjugations.json',
+        'conjugations/easy_kikuyu_batch_047_conjugations.json',
+        'conjugations/easy_kikuyu_batch_048_conjugations.json'
       ],
       proverbs: [
         'proverbs/easy_kikuyu_wisdom.json',
@@ -218,13 +222,17 @@ class DataLoader {
         'phrases/easy_kikuyu_batch_043_phrases.json',
         'phrases/easy_kikuyu_batch_044_phrases.json',
         'phrases/easy_kikuyu_batch_045_phrases.json',
-        'phrases/easy_kikuyu_batch_046_phrases.json'
+        'phrases/easy_kikuyu_batch_046_phrases.json',
+        'phrases/easy_kikuyu_batch_047_phrases.json',
+        'phrases/easy_kikuyu_batch_048_phrases.json'
       ],
       cultural: [
         'cultural/easy_kikuyu_batch_040_cultural.json',
         'cultural/easy_kikuyu_batch_044_cultural.json',
         'cultural/easy_kikuyu_batch_045_cultural.json',
-        'cultural/easy_kikuyu_batch_046_cultural.json'
+        'cultural/easy_kikuyu_batch_046_cultural.json',
+        'cultural/easy_kikuyu_batch_047_cultural.json',
+        'cultural/easy_kikuyu_batch_048_cultural.json'
       ]
     };
 
