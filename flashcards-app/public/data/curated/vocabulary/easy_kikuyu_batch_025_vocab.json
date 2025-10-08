@@ -1,0 +1,96 @@
+{
+  "batch_info": {
+    "batch_number": "025",
+    "total_cards": 6,
+    "category": "vocabulary",
+    "source_files": ["247.txt", "248.txt", "249.txt", "251.txt", "252.txt", "253.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T14:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-025-001",
+      "kikuyu": "Birds - Eagle",
+      "english": "Ndiiyũ (eagle)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Bird of prey vocabulary",
+      "quality_score": 4.2,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 247",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-025-002",
+      "kikuyu": "Food & Drinks - Beginner 2",
+      "english": "Drinks: Njoohi (beer), Maai (water), Maai ma macungwa (orange juice), Iria (milk), Iria igagatu (fermented milk), Ũcũrũ mũgagatu (fermented porridge), Thoota (soda). Foods: Mũkimo (mashed food), Cabaci (chapattis), Mũgate (bread), Mũcere (rice), Mboco (beans), Nyama (meat), Thamaki/Kĩũngũyũ (fish), Mũtura (traditional sausage). Cooking verbs: Gũkaranga (to fry), Gũtherukia (to boil), Kũhĩhia (to roast), Gũkanda mũtu (to make dough)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Comprehensive food, drinks, and cooking vocabulary. Note: Kĩũngũyũ is original Kikuyu word for fish, Thamaki is borrowed. Fermented drinks (igagatu) are traditional",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 248",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-025-003",
+      "kikuyu": "Safari Animals",
+      "english": "Wambũi mĩcore (zebra), Mũrũthi (lion), Ndũiga (giraffe), Huria (rhinoceros), Njogu (elephant), Mbogo (buffalo)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Iconic safari animals. Wambũi mĩcore literally describes zebra's striped pattern",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 249",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-025-004",
+      "kikuyu": "Health & Illness Vocabulary",
+      "english": "Gũtũnda (to have a rash), Ndĩ mũtũndu guoko (I have a rash on my arm), Thundo (pimple/s), Ndĩna thundo ũthiũ (I have a pimple on my face), Kĩronda (a wound), E na kironda iru (he/she has a wound on his knee), Kũrwara (to be sick), Ndĩ mũrwaru nda (I am sick in the stomach), Gũturwo (to have pain)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Health and medical conditions. Pattern: Ndĩ mũrwaru + body part for location of illness. Kĩronda (wound) uses class agreement",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 251",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-025-005",
+      "kikuyu": "Body Parts - Hair & Elbow",
+      "english": "Igokora/Kĩgokora (elbow - variant pronunciations), Rucuĩrĩ (single hair strand), Njuĩrĩ (hair - collective, no matter how many strands)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Additional body parts. Note singular/collective distinction: Rucuĩrĩ (one strand) vs Njuĩrĩ (hair in general). Regional variation: Igokora/Kĩgokora both acceptable",
+      "quality_score": 4.3,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 252",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-025-006",
+      "kikuyu": "Body Parts - Complete with Sing/Plur",
+      "english": "Kĩongo/Ciongo (head), Njuĩrĩ/Njuĩrĩ (hair - invariant), Gũtũ/Matũ (ear), Ũthĩĩ/Maũthĩĩ (face), Inĩũrũ/Manĩũrũ (nose), Rũrĩmĩ/Nĩmĩ (tongue), Rĩĩtho/Maĩtho (eye), Guoko/Moko (hand), Kĩara/Ciara (finger), Igokora/Magokora (elbow), Kũgũrũ/Magũrũ (leg), Iru/Maru (knee)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Complete body parts with singular/plural forms showing noun class patterns. Ma- is common plural prefix for body parts. Includes trilingual comparison (English/Swahili/Kikuyu)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 253",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    }
+  ]
+}
