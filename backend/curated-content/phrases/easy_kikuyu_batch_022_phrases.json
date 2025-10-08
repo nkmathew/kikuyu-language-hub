@@ -1,39 +1,263 @@
 {
   "batch_info": {
     "batch_number": "022",
-    "total_cards": 2,
+    "total_cards": 18,
     "category": "phrases",
     "source_files": ["217.txt", "223.txt"],
     "created_date": "2025-01-08",
-    "last_updated": "2025-01-08T13:00:00Z"
+    "last_updated": "2025-01-09T14:15:00Z"
   },
   "flashcards": [
     {
       "id": "phrase-022-001",
-      "kikuyu": "Week 2 Greetings Dialogue",
-      "english": "Wĩmwe ga Karanja (are you fine Karanja), Nđĩmwe ga Njeri (I am fine Njeri), Ũhoro waku Mwangi (how are you Mwangi/your news Mwangi), Nĩ mwega mũno (it is very good), Nĩ nđakũgeithia (greetings to you singular), Nĩ nđageithĩka (I have received greetings), Nĩ nđamũgeithia (greetings you all), Nĩ twageithĩka (we have received greetings), Mũrĩega (are you all fine?), Ĩĩ tũrĩega mũno (yes, we are very fine)",
+      "kikuyu": "Wĩmwe ga Karanja",
+      "english": "Are you fine Karanja?",
       "category": "phrases",
       "difficulty": "beginner",
-      "notes": "Traditional greeting patterns showing singular/plural distinction. Pattern: Nĩ nđa-/Nĩ twa- for singular/plural greetings reception. Shows cultural exchange of greetings and well-being inquiries",
+      "notes": "Traditional greeting using name. Pattern: Wĩmwe + ga + [name]",
       "quality_score": 4.7,
       "source": {
         "origin": "Easy Kikuyu Lesson 217",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:00:00Z"
+        "last_updated": "2025-01-09T14:15:00Z"
       }
     },
     {
       "id": "phrase-022-002",
-      "kikuyu": "Sound & Feeling Expressions",
-      "english": "Kũringa kanua (to be angry, making sounds with mouth - when angry), Kũbogotha (to mumble: Mũrwaru nĩ arararia, aca no nĩ arabogotha - the sick person is talking, look he is also mumbling), Gũthĩoma (to speak with an accent: Arathioma akĩaria Gĩkũyũ), Kũhaya (to groan: Ndiratwara mwana thibitarĩ tondũ nĩ arahaya - I'm taking the child to hospital because he is groaning), Gũkorora (to snort: Kaĩ ũrakorora? Tua gĩkorora - why are you snorting? Blow your nose), Gũathĩmũra (to sneeze: Nyita kanua ũgĩathĩmũra - cover your mouth when sneezing), Kũnũhanũha (fast sounds made by someone crying), Gũĩthĩkĩra (to have a sad posture, e.g. when mourning)",
+      "kikuyu": "Nđĩmwe ga Njeri",
+      "english": "I am fine Njeri",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Response to greeting. Pattern: Nđĩmwe + ga + [name]",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-003",
+      "kikuyu": "Ũhoro waku Mwangi",
+      "english": "How are you Mwangi / Your news Mwangi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Common greeting inquiry. Literally 'your news'. 'ũhoro' = news/information",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-004",
+      "kikuyu": "Nĩ mwega mũno",
+      "english": "It is very good",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Positive response to news inquiry. 'mũno' = very much",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-005",
+      "kikuyu": "Nĩ nđakũgeithia",
+      "english": "Greetings to you (singular)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Formal greeting expression. Singular form with 'kũ-' prefix",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-006",
+      "kikuyu": "Nĩ nđageithĩka",
+      "english": "I have received greetings",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Response to greeting. Perfect tense showing completed reception",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-007",
+      "kikuyu": "Nĩ nđamũgeithia",
+      "english": "Greetings you all",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Formal greeting expression. Plural form with 'mũ-' prefix",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-008",
+      "kikuyu": "Nĩ twageithĩka",
+      "english": "We have received greetings",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Plural response to greeting. 'twa-' = we (plural subject)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-009",
+      "kikuyu": "Mũrĩega",
+      "english": "Are you all fine?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Plural greeting question. 'mũ-' = you (plural)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-010",
+      "kikuyu": "Ĩĩ tũrĩega mũno",
+      "english": "Yes, we are very fine",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Affirmative plural response. 'tũ-' = we, 'mũno' = very much",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-011",
+      "kikuyu": "Kũringa kanua",
+      "english": "To be angry, making sounds with mouth (when angry)",
       "category": "phrases",
       "difficulty": "advanced",
-      "notes": "Idiomatic expressions for sounds and emotional/physical manifestations. Shows rich vocabulary for subtle emotional and bodily expressions. Cultural context: mourning postures, illness expressions",
+      "notes": "Idiomatic expression for anger manifestation. 'kanua' = mouth",
       "quality_score": 4.8,
       "source": {
         "origin": "Easy Kikuyu Lesson 223",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:00:00Z"
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-012",
+      "kikuyu": "Kũbogotha",
+      "english": "To mumble",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Example: Mũrwaru nĩ arararia, aca no nĩ arabogotha (the sick person is talking, look he is also mumbling)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-013",
+      "kikuyu": "Gũthĩoma",
+      "english": "To speak with an accent",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Example: Arathioma akĩaria Gĩkũyũ (He speaks with an accent when speaking Kikuyu)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-014",
+      "kikuyu": "Kũhaya",
+      "english": "To groan",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Example: Ndiratwara mwana thibitarĩ tondũ nĩ arahaya (I'm taking the child to hospital because he is groaning)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-015",
+      "kikuyu": "Gũkorora",
+      "english": "To snort",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Example: Kaĩ ũrakorora? Tua gĩkorora (Why are you snorting? Blow your nose)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-016",
+      "kikuyu": "Gũathĩmũra",
+      "english": "To sneeze",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Example: Nyita kanua ũgĩathĩmũra (Cover your mouth when sneezing)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-017",
+      "kikuyu": "Kũnũhanũha",
+      "english": "Fast sounds made by someone crying",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Onomatopoeic expression describing crying sounds",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-018",
+      "kikuyu": "Gũĩthĩkĩra",
+      "english": "To have a sad posture (e.g. when mourning)",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Cultural expression for body language of grief or sadness",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
       }
     }
   ]

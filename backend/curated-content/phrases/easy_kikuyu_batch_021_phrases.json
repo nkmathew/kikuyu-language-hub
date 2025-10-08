@@ -1,53 +1,375 @@
 {
   "batch_info": {
     "batch_number": "021",
-    "total_cards": 3,
+    "total_cards": 26,
     "category": "phrases",
     "source_files": ["205.txt", "208.txt", "212.txt"],
     "created_date": "2025-01-08",
-    "last_updated": "2025-01-08T12:30:00Z"
+    "last_updated": "2025-01-09T14:00:00Z"
   },
   "flashcards": [
     {
       "id": "phrase-021-001",
-      "kikuyu": "Simple Foundation Questions",
-      "english": "Wĩtagwo atĩa? (what is your name?), Ũĩkaraga kũ? (where do you stay?), Wĩ na mĩaka ĩĩgana? (how old are you?), Wendete irio irĩkũ? (what food do you like?), Thukuru/Cukuru yanyu ĩtagwo atĩa? (what is the name of your school?), Mũrata waku etagwo atĩa? (what is your friend's name?), Bũrũri wanyu wĩtagwo atĩa? (what is your country called?), Bũrũri witũ wĩtagwo Kenya (our country is called Kenya), Rũthiomi rwaku rwĩtagwo atĩa? (what is your language called?), Rũthiomi rwakwa rwĩtagwo Gĩkũyũ (my language is called Gikuyu)",
+      "kikuyu": "Wĩtagwo atĩa?",
+      "english": "What is your name?",
       "category": "phrases",
       "difficulty": "beginner",
-      "notes": "Foundation week 4 questions covering identity, location, age, preferences, and cultural background. Shows question pattern with 'atĩa' (what) and response patterns",
+      "notes": "Basic identity question. 'wĩtagwo' = you are called",
       "quality_score": 4.7,
       "source": {
         "origin": "Easy Kikuyu Lesson 205",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
+        "last_updated": "2025-01-09T14:00:00Z"
       }
     },
     {
       "id": "phrase-021-002",
-      "kikuyu": "Handwashing Instructions (6 Steps)",
-      "english": "1. Wĩtĩrĩrie mai (wet your hands), 2. Wĩhake thabuni (apply soap), 3. Wĩthambe moko thekondi mirongo îrî (wash your hands for 20 seconds), 4. Wĩkamũre (rinse), 5. Wĩhuure na ngacibũ ya karatathi (dry with a clean paper towel), 6. Hũthĩra ngacibũ ya karatathi kũhinga mũberethi (use the paper towel to turn off the tap)",
+      "kikuyu": "Ũĩkaraga kũ?",
+      "english": "Where do you stay?",
       "category": "phrases",
-      "difficulty": "intermediate",
-      "notes": "Step-by-step hygiene instructions showing imperative forms with reflexive prefix wĩ-. Vocabulary: thabuni (soap), ngacibũ ya karatathi (paper towel), mũberethi (tap). Practical COVID-19 era content",
+      "difficulty": "beginner",
+      "notes": "Habitual location question. '-aga' = habitual tense",
       "quality_score": 4.6,
       "source": {
-        "origin": "Easy Kikuyu Lesson 208",
+        "origin": "Easy Kikuyu Lesson 205",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
+        "last_updated": "2025-01-09T14:00:00Z"
       }
     },
     {
       "id": "phrase-021-003",
-      "kikuyu": "School Conversation Dialogue",
-      "english": "Wee, ũka haha (you, come here), Nĩĩ? (me?), Ĩĩ wee (yes you), Njũke? (I come?), Ĩĩ ũka (yes come), Wĩtagwo atĩa? (what is your name?), Njĩtagwo Mwangi (my name is Mwangi), Kwanyu nĩ kũ? (where is your home?), Gwitũ nĩ Mũrang'a (our home is in Mũrang'a), Kwanyu gwĩtagwo mũrang'a? (your place is called mũrang'a?), Nĩ ũthiaga thukuru? (do you go to school?), Ĩĩ nĩ thiaga thukuru (yes I go to school), Thukuru yanyu ĩtagwo atĩa? (what is the name of your school?), Ĩtagwo Mũgumo-inĩ (it is called Mũgumo-inĩ), Nĩ wega. Mwarimũ wanyu etagwo atĩa? (good. What is your teacher's name?), Mwarimũ witũ etagwo Kariuki (our teacher's name is Kariuki)",
+      "kikuyu": "Wĩ na mĩaka ĩĩgana?",
+      "english": "How old are you?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Age inquiry. Literally 'You have years how many?'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-004",
+      "kikuyu": "Wendete irio irĩkũ?",
+      "english": "What food do you like?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Preference question. 'wendete' = you like/love",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-005",
+      "kikuyu": "Thukuru yanyu ĩtagwo atĩa?",
+      "english": "What is the name of your school?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "School identification. Alternative spelling: Cukuru",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-006",
+      "kikuyu": "Mũrata waku etagwo atĩa?",
+      "english": "What is your friend's name?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Friend inquiry. 'mũrata' = friend",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-007",
+      "kikuyu": "Bũrũri wanyu wĩtagwo atĩa?",
+      "english": "What is your country called?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Country inquiry. 'bũrũri' = country/nation",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-008",
+      "kikuyu": "Bũrũri witũ wĩtagwo Kenya",
+      "english": "Our country is called Kenya",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Country statement response. 'witũ' = our",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-009",
+      "kikuyu": "Rũthiomi rwaku rwĩtagwo atĩa?",
+      "english": "What is your language called?",
       "category": "phrases",
       "difficulty": "intermediate",
-      "notes": "Complete conversation showing questioning, calling someone, identification, and school discussion. Shows subjunctive questioning pattern: Njũke? (I come?), Ĩĩ ũka (yes, come). Cultural context: asking about home region (Mũrang'a)",
+      "notes": "Language inquiry. 'rũthiomi' = language/tongue",
       "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-010",
+      "kikuyu": "Rũthiomi rwakwa rwĩtagwo Gĩkũyũ",
+      "english": "My language is called Gikuyu",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Language statement response. Shows cultural pride",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-011",
+      "kikuyu": "Wĩtĩrĩrie mai",
+      "english": "Wet your hands",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Handwashing step 1. Reflexive prefix 'wĩ-'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-012",
+      "kikuyu": "Wĩhake thabuni",
+      "english": "Apply soap",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Handwashing step 2. 'thabuni' = soap",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-013",
+      "kikuyu": "Wĩthambe moko thekondi mirongo îrî",
+      "english": "Wash your hands for 20 seconds",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Handwashing step 3. 'thekondi' = seconds, 'mirongo îrî' = twenty",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-014",
+      "kikuyu": "Wĩkamũre",
+      "english": "Rinse",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Handwashing step 4. Reflexive command form",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-015",
+      "kikuyu": "Wĩhuure na ngacibũ ya karatathi",
+      "english": "Dry with a clean paper towel",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Handwashing step 5. 'ngacibũ ya karatathi' = paper towel",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-016",
+      "kikuyu": "Hũthĩra ngacibũ ya karatathi kũhinga mũberethi",
+      "english": "Use the paper towel to turn off the tap",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Handwashing step 6. 'mũberethi' = tap, 'kũhinga' = to close",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-017",
+      "kikuyu": "Wee, ũka haha",
+      "english": "You, come here",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Calling someone. 'wee' = you (emphatic)",
+      "quality_score": 4.6,
       "source": {
         "origin": "Easy Kikuyu Lesson 212",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-018",
+      "kikuyu": "Njũke?",
+      "english": "Should I come? / I come?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Subjunctive question. Seeking permission/clarification",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-019",
+      "kikuyu": "Njĩtagwo Mwangi",
+      "english": "My name is Mwangi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Self-introduction. Literally 'I am called Mwangi'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-020",
+      "kikuyu": "Kwanyu nĩ kũ?",
+      "english": "Where is your home?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Home location question. 'kwanyu' = your place",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-021",
+      "kikuyu": "Gwitũ nĩ Mũrang'a",
+      "english": "Our home is in Mũrang'a",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Home location statement. 'gwitũ' = our place",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-022",
+      "kikuyu": "Kwanyu gwĩtagwo Mũrang'a?",
+      "english": "Your place is called Mũrang'a?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Confirmation question about place name",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-023",
+      "kikuyu": "Nĩ ũthiaga thukuru?",
+      "english": "Do you go to school?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "School attendance question. Habitual tense",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-024",
+      "kikuyu": "Ĩĩ nĩ thiaga thukuru",
+      "english": "Yes I go to school",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Affirmative response to school question",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-025",
+      "kikuyu": "Ĩtagwo Mũgumo-inĩ",
+      "english": "It is called Mũgumo-inĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "School name response. '-inĩ' = at/in (locative)",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-021-026",
+      "kikuyu": "Mwarimũ witũ etagwo Kariuki",
+      "english": "Our teacher's name is Kariuki",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Teacher identification. 'mwarimũ' = teacher",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
       }
     }
   ]
