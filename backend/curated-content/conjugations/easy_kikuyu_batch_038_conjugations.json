@@ -1,0 +1,167 @@
+{
+  "batch": 38,
+  "source_files": "375-384",
+  "total_flashcards": 15,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "Verb_Derivations"],
+  "difficulty_distribution": {
+    "beginner": 5,
+    "intermediate": 8,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b38_conj_001",
+      "kikuyu": "Ĩtĩkĩra",
+      "english": "accept",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Base verb or singular command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #377"
+    },
+    {
+      "id": "ek_b38_conj_002",
+      "kikuyu": "Gũĩtĩkĩra",
+      "english": "to accept",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #377"
+    },
+    {
+      "id": "ek_b38_conj_003",
+      "kikuyu": "Ĩtĩkĩria",
+      "english": "allow",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - causative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #377"
+    },
+    {
+      "id": "ek_b38_conj_004",
+      "kikuyu": "Mwĩtĩkĩrie",
+      "english": "allow him/her",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Command form directed at 'him/her' (applicative + imperative)",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #377"
+    },
+    {
+      "id": "ek_b38_conj_005",
+      "kikuyu": "Hingia",
+      "english": "achieve, accomplish",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Base verb or singular command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #379"
+    },
+    {
+      "id": "ek_b38_conj_006",
+      "kikuyu": "Kuhĩngia",
+      "english": "to achieve",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #379"
+    },
+    {
+      "id": "ek_b38_conj_007",
+      "kikuyu": "Nĩ wahĩngia?",
+      "english": "Did you achieve?",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Question form in the past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #379"
+    },
+    {
+      "id": "ek_b38_conj_008",
+      "kikuyu": "Ĩka",
+      "english": "do",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Base verb or singular command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #383"
+    },
+    {
+      "id": "ek_b38_conj_009",
+      "kikuyu": "Gũĩka",
+      "english": "to do",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #383"
+    },
+    {
+      "id": "ek_b38_conj_010",
+      "kikuyu": "Ĩkĩra",
+      "english": "do for (someone)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - applicative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #383"
+    },
+    {
+      "id": "ek_b38_conj_011",
+      "kikuyu": "Mwĩkĩre",
+      "english": "do it for him/her",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Command form directed at 'him/her' (applicative + imperative)",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #383"
+    },
+    {
+      "id": "ek_b38_conj_012",
+      "kikuyu": "Ĩkĩra",
+      "english": "put something inside another",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Base form / singular command",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #384"
+    },
+    {
+      "id": "ek_b38_conj_013",
+      "kikuyu": "Gũĩkĩra",
+      "english": "to put (pour)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #384"
+    },
+    {
+      "id": "ek_b38_conj_014",
+      "kikuyu": "Gũĩkĩrĩra",
+      "english": "to put (pour) for someone",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - applicative form",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #384"
+    },
+    {
+      "id": "ek_b38_conj_015",
+      "kikuyu": "Mwĩkĩrĩre",
+      "english": "put (pour) it for him/her",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Command form",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #384"
+    }
+  ]
+}

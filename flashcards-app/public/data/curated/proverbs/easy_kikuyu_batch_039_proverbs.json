@@ -1,0 +1,32 @@
+{
+  "batch": 39,
+  "source_files": "385-394",
+  "total_flashcards": 1,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Proverbs"],
+  "difficulty_distribution": {
+    "beginner": 0,
+    "intermediate": 0,
+    "advanced": 1
+  },
+  "flashcards": [
+    {
+      "id": "ek_b39_proverb_001",
+      "kikuyu": "Mwana wa ngari akunyaga o ta nyina",
+      "english": "The leopard's baby pinches (scratches) just like its mother",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about inheritance",
+      "cultural_notes": "Like father like son - children inherit traits from their parents",
+      "sub_translations": [
+        {"kikuyu": "Mwana wa ngari", "english": "The leopard's baby"},
+        {"kikuyu": "akunyaga o ta nyina", "english": "pinches just like its mother"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #387"
+    }
+  ]
+}

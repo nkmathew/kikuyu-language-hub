@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 037
-**Last File Index**: 374
-**Next Batch**: 038 (files 375-384)
+**Last Completed Batch**: 039
+**Last File Index**: 394
+**Next Batch**: 040 (files 395-404)
 **Date Updated**: 2025-01-27
 
 ## Batch History
@@ -47,13 +47,15 @@
 | **035** | **345-354** | **82** | **✅ Complete** | **2025-10-08** | **Understanding phrases, proverbs (travel/chase), verbs of motion (15 verbs), imperative rule (remove GŨ/KŨ), noun classes (ndũ derivatives), auxiliary verb 'be', professions** |
 | **036** | **355-364** | **68** | **✅ Complete** | **2025-10-08** | **Proverbs (saving/self-help/death separates), Rabbit folktale start, professions (15+ jobs: writer, artist, shopkeeper, watchmen, nuns, preacher), materials, blessings** |
 | **037** | **365-374** | **55** | **✅ Complete** | **2025-01-27** | **Greetings, proverbs (slander vs knife/staying home), insult vocabulary, professions (engineer, photographer, hunter, herder, potters, traditional healer), conversation questions, days, running verbs with derivations** |
-| 038 | 375-384 | - | ⏳ Pending | - | Next batch |
+| **038** | **375-384** | **86** | **✅ Complete** | **2025-01-27** | **Proverbs (cleverness/unity/education), verb conjugations (accept/achieve/do/put), health states, professions (seller/buyer/leader/artist/architect/soldier), plural commands grammar, colors conversation** |
+| **039** | **385-394** | **65** | **✅ Complete** | **2025-01-27** | **Proverb (leopard baby like mother), transportation vocabulary, escort verbs, school conversations, negation patterns, prayers, alcohol advice** |
+| 040 | 395-404 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 37
-- **Total Files Processed**: 374 / 538 (69.5%)
-- **Remaining Files**: 164
-- **Estimated Remaining Batches**: ~16 batches
+- **Total Batches Completed**: 39
+- **Total Files Processed**: 394 / 538 (73.2%)
+- **Remaining Files**: 144
+- **Estimated Remaining Batches**: ~14 batches
 
 ## Batch 028 Summary
 **Files**: 275-284

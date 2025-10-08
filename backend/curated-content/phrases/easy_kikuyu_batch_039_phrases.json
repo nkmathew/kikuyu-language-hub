@@ -1,0 +1,217 @@
+{
+  "batch": 39,
+  "source_files": "385-394",
+  "total_flashcards": 20,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Phrases", "Conversation"],
+  "difficulty_distribution": {
+    "beginner": 8,
+    "intermediate": 10,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b39_phrase_001",
+      "kikuyu": "Andũ amwe manyuaga njohi ũmũthĩ",
+      "english": "Some people drink beer today",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Social activity description",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #385"
+    },
+    {
+      "id": "ek_b39_phrase_002",
+      "kikuyu": "Ndamũthaitha mũtikanyue mũno",
+      "english": "I plead with you not to drink much",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Advice/plea",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #385"
+    },
+    {
+      "id": "ek_b39_phrase_003",
+      "kikuyu": "Kana mũtigane nayo",
+      "english": "Or stop it (or leave it alone)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Alternative advice",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #385"
+    },
+    {
+      "id": "ek_b39_phrase_004",
+      "kikuyu": "ũthiaga wĩra kũ?",
+      "english": "Where do you go to work?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about workplace",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_phrase_005",
+      "kikuyu": "Nĩ ũkuuagwo nĩ mbaathi?",
+      "english": "Are you transported by bus?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about transportation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_phrase_006",
+      "kikuyu": "Nĩ kũrĩ mũgithi?",
+      "english": "Is there a train?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about transportation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_phrase_007",
+      "kikuyu": "Nĩ ũkuuagwo nĩ bikibiki?",
+      "english": "Are you transported by motorbike?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about transportation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_phrase_008",
+      "kikuyu": "Rĩmwe na rĩmwe nĩ ũthiaga na magũrũ",
+      "english": "Do you walk sometimes?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about walking",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_phrase_009",
+      "kikuyu": "ĩtĩkĩrai ndĩ mũgeithie",
+      "english": "Allow me to greet you (all)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Polite greeting request",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #388"
+    },
+    {
+      "id": "ek_b39_phrase_010",
+      "kikuyu": "Korwoi na kiumia kĩega",
+      "english": "Have a good week (you all)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Well-wishing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #388"
+    },
+    {
+      "id": "ek_b39_phrase_011",
+      "kikuyu": "MŨTĨ ũcio ti mwega",
+      "english": "That tree is not good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Negative description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_phrase_012",
+      "kikuyu": "IHIGA rĩũ ti riega",
+      "english": "That stone is not good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Negative description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_phrase_013",
+      "kikuyu": "MAAĨ mau ti mega",
+      "english": "That water is not good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Negative description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_phrase_014",
+      "kikuyu": "MBECA icio ti njega",
+      "english": "That money is not good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Negative description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_phrase_015",
+      "kikuyu": "KAHIŨ kaũ ti kega",
+      "english": "That knife is not good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Negative description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_phrase_016",
+      "kikuyu": "Mũndũ mwega",
+      "english": "A good person",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Character description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_phrase_017",
+      "kikuyu": "Mũndũ mũũru",
+      "english": "A bad person",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Character description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #390"
+    },
+    {
+      "id": "ek_b39_phrase_018",
+      "kikuyu": "Wathomeire thukuru ĩrĩkũ?",
+      "english": "Which school did you go to?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about education",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_phrase_019",
+      "kikuyu": "Mwarimũ ũrĩa wendete mũno nũũ?",
+      "english": "Who was your favourite teacher?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about school memories",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_phrase_020",
+      "kikuyu": "Wee ûrahoya atîa?",
+      "english": "What are your prayers?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about religious practice",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #394"
+    }
+  ]
+}

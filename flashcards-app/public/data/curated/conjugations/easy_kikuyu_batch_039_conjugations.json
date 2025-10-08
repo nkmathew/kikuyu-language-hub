@@ -1,0 +1,98 @@
+{
+  "batch": 39,
+  "source_files": "385-394",
+  "total_flashcards": 8,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "Verb_Derivations"],
+  "difficulty_distribution": {
+    "beginner": 2,
+    "intermediate": 4,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b39_conj_001",
+      "kikuyu": "Kumagaria",
+      "english": "to escort/see off",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "notes": "Especially a departing visitor",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #391"
+    },
+    {
+      "id": "ek_b39_conj_002",
+      "kikuyu": "Umagaria mũgeni",
+      "english": "escort the visitor",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Command with object",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #391"
+    },
+    {
+      "id": "ek_b39_conj_003",
+      "kikuyu": "Mumagarie",
+      "english": "escort him/her",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Command with object pronoun",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #391"
+    },
+    {
+      "id": "ek_b39_conj_004",
+      "kikuyu": "Nyumagaria wenda",
+      "english": "Escort me please",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Polite request with object pronoun",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #391"
+    },
+    {
+      "id": "ek_b39_conj_005",
+      "kikuyu": "Njeri ni oimagaria ageni",
+      "english": "Njeri has escorted the visitors",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Past tense example",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #391"
+    },
+    {
+      "id": "ek_b39_conj_006",
+      "kikuyu": "Nĩ ma",
+      "english": "True",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Affirmative response",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #393"
+    },
+    {
+      "id": "ek_b39_conj_007",
+      "kikuyu": "ti ma",
+      "english": "not true",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Negative response",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #393"
+    },
+    {
+      "id": "ek_b39_conj_008",
+      "kikuyu": "ûrahoya",
+      "english": "you pray",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #394"
+    }
+  ]
+}
