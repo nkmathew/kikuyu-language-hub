@@ -1,0 +1,467 @@
+{
+  "batch": 54,
+  "source_files": "535-538",
+  "total_flashcards": 45,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 25,
+    "intermediate": 15,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b54_vocab_001",
+      "kikuyu": "andika",
+      "english": "write",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_002",
+      "kikuyu": "canjamuka",
+      "english": "be merry",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_003",
+      "kikuyu": "ikuruka",
+      "english": "descend",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_004",
+      "kikuyu": "kuhuruka",
+      "english": "to rest",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_005",
+      "kikuyu": "maka",
+      "english": "be surprised",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_006",
+      "kikuyu": "coka",
+      "english": "return",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_007",
+      "kikuyu": "arahuka",
+      "english": "wake up",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_008",
+      "kikuyu": "kuriuka",
+      "english": "to resurrect",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_009",
+      "kikuyu": "hikahika",
+      "english": "speed up",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_010",
+      "kikuyu": "gwika",
+      "english": "do",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_011",
+      "kikuyu": "kuhituka",
+      "english": "pass",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_012",
+      "kikuyu": "gutuika",
+      "english": "become",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_013",
+      "kikuyu": "ngicoka",
+      "english": "then",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_014",
+      "kikuyu": "kwihoka",
+      "english": "to trust",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #535"
+    },
+    {
+      "id": "ek_b54_vocab_015",
+      "kikuyu": "anĩka",
+      "english": "put out to dry",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_016",
+      "kikuyu": "atũka",
+      "english": "split",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_017",
+      "kikuyu": "cuka",
+      "english": "sheet",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - household item",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_018",
+      "kikuyu": "endeka",
+      "english": "lovely/loveable",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_019",
+      "kikuyu": "gutũka",
+      "english": "realise (realize)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_020",
+      "kikuyu": "kĩraka",
+      "english": "patch",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - repair item",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_021",
+      "kikuyu": "kunĩka",
+      "english": "cover",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_022",
+      "kikuyu": "mbĩtĩka",
+      "english": "contest",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - competition",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_023",
+      "kikuyu": "mũhaka",
+      "english": "boundary",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - location",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_024",
+      "kikuyu": "mũhaka",
+      "english": "must",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Modal verb - obligation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_025",
+      "kikuyu": "mũtoka",
+      "english": "car (automobile)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_026",
+      "kikuyu": "mwatũka",
+      "english": "crack",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - damage",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_027",
+      "kikuyu": "nyororoka",
+      "english": "slide",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_028",
+      "kikuyu": "rĩĩka",
+      "english": "age set",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - social group",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_029",
+      "kikuyu": "tahĩka",
+      "english": "vomit",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_030",
+      "kikuyu": "tambũrũka",
+      "english": "spread",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_031",
+      "kikuyu": "therũka",
+      "english": "boil",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_032",
+      "kikuyu": "thĩka",
+      "english": "bury",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_033",
+      "kikuyu": "thondeka",
+      "english": "repair/fix",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_034",
+      "kikuyu": "tĩndĩka",
+      "english": "push",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #536"
+    },
+    {
+      "id": "ek_b54_vocab_035",
+      "kikuyu": "hũta",
+      "english": "hunger",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - physical state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #537"
+    },
+    {
+      "id": "ek_b54_vocab_036",
+      "kikuyu": "kũhũta",
+      "english": "to be hungry",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #537"
+    },
+    {
+      "id": "ek_b54_vocab_037",
+      "kikuyu": "wĩĩgĩĩre",
+      "english": "he/she who has saved (something)",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - relative clause",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #537"
+    },
+    {
+      "id": "ek_b54_vocab_038",
+      "kikuyu": "ndahũtaga",
+      "english": "does not go hungry",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - negative present",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #537"
+    },
+    {
+      "id": "ek_b54_vocab_039",
+      "kikuyu": "aigana",
+      "english": "how many",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word - quantity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #538"
+    },
+    {
+      "id": "ek_b54_vocab_040",
+      "kikuyu": "airĩtu",
+      "english": "girls",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - people",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #538"
+    },
+    {
+      "id": "ek_b54_vocab_041",
+      "kikuyu": "anake",
+      "english": "boys",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - people",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #538"
+    },
+    {
+      "id": "ek_b54_vocab_042",
+      "kikuyu": "mũkũrũ",
+      "english": "eldest",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - age",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #538"
+    },
+    {
+      "id": "ek_b54_vocab_043",
+      "kikuyu": "mũĩkaraga",
+      "english": "you stay (live)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #538"
+    },
+    {
+      "id": "ek_b54_vocab_044",
+      "kikuyu": "kwanyu",
+      "english": "you (plural)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Pronoun - 2nd person plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #538"
+    },
+    {
+      "id": "ek_b54_vocab_045",
+      "kikuyu": "mũrĩ",
+      "english": "you are",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #538"
+    }
+  ]
+}
