@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer, DarkTheme, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { useColorScheme } from 'react-native';
+import { useColorScheme, Text } from 'react-native';
 import { CategoryType, DifficultyLevel } from '../types/flashcard';
 
 // Screens
@@ -83,12 +83,23 @@ export default function AppNavigator() {
         <Tab.Screen
           name="HomeTab"
           component={HomeStack}
-          options={{ title: 'Learn' }}
+          options={{ 
+            title: 'Learn',
+            tabBarIcon: ({ color, size }) => (
+              <Text style={{ fontSize: size, color }}>📚</Text>
+            )
+          }}
         />
         <Tab.Screen
           name="Progress"
           component={ProgressScreen}
-          options={{ title: 'Progress', headerShown: true }}
+          options={{ 
+            title: 'Progress', 
+            headerShown: true,
+            tabBarIcon: ({ color, size }) => (
+              <Text style={{ fontSize: size, color }}>📊</Text>
+            )
+          }}
         />
       </Tab.Navigator>
     </NavigationContainer>

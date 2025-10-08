@@ -114,7 +114,7 @@ export default function CategoryScreen({ navigation, route }: Props) {
                 style={[
                   styles.difficultyCard,
                   isDark && styles.darkCard,
-                  isSelected && styles.difficultyCardSelected,
+                  isSelected && (isDark ? styles.darkDifficultyCardSelected : styles.difficultyCardSelected),
                   count === 0 && styles.difficultyCardDisabled,
                 ]}
                 onPress={() => count > 0 && toggleDifficulty(difficulty)}
@@ -241,6 +241,10 @@ const styles = StyleSheet.create({
   difficultyCardSelected: {
     borderColor: '#2563eb',
     backgroundColor: '#eff6ff',
+  },
+  darkDifficultyCardSelected: {
+    borderColor: '#3b82f6',
+    backgroundColor: '#1e3a8a',
   },
   difficultyCardDisabled: {
     opacity: 0.5,

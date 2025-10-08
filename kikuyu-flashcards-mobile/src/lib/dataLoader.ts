@@ -44,8 +44,8 @@ class DataLoader {
         }
       });
 
-      // If category is 'general', combine all categories
-      if (category === 'general') {
+      // If category is 'general' or 'all', combine all categories
+      if (category === 'general' || category === 'all') {
         this.allData.forEach((content, path) => {
           if (!path.includes('schema.json')) {
             const cards = content.flashcards || content.entries || [];

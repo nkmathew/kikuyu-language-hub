@@ -41,7 +41,16 @@ export default function HomeScreen({ navigation }: Props) {
     try {
       const allCategories = await dataLoader.loadAllCategories();
 
+      const totalCount = Object.values(allCategories).reduce((sum, cat) => sum + cat.total_count, 0);
+      
       const categoryItems: CategoryItem[] = [
+        {
+          key: 'all' as CategoryType,
+          title: 'All Content',
+          description: 'All flashcards combined',
+          icon: '🌟',
+          count: totalCount,
+        },
         {
           key: 'vocabulary',
           title: 'Vocabulary',
