@@ -9,6 +9,8 @@ import {
   useColorScheme,
   Clipboard,
   Share,
+  Modal,
+  TextInput,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Flashcard } from '../types/flashcard';
@@ -23,6 +25,9 @@ export default function FlaggedTranslationsScreen() {
   const [flaggedItems, setFlaggedItems] = useState<Flashcard[]>([]);
   const [flagReasons, setFlagReasons] = useState<FlagReason>({});
   const [loading, setLoading] = useState(true);
+  const [reasonModalVisible, setReasonModalVisible] = useState(false);
+  const [currentEditingId, setCurrentEditingId] = useState<string>('');
+  const [reasonInput, setReasonInput] = useState('');
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
 
@@ -90,33 +95,31 @@ export default function FlaggedTranslationsScreen() {
   };
 
   const addReason = (id: string) => {
-    Alert.prompt(
-      'Add Reason',
-      'Why is this translation flagged?',
-      [
-        {
-          text: 'Cancel',
-          style: 'cancel',
-        },
-        {
-          text: 'Save',
-          onPress: async (reason) => {
-            if (reason && reason.trim()) {
-              const newReasons = { ...flagReasons, [id]: reason.trim() };
-              setFlagReasons(newReasons);
-              try {
-                await AsyncStorage.setItem('flagReasons', JSON.stringify(newReasons));
-              } catch (error) {
-                console.error('Error saving reason:', error);
-                Alert.alert('Error', 'Failed to save reason');
-              }
-            }
-          },
-        },
-      ],
-      'plain-text',
-      flagReasons[id] || ''
-    );
+    setCurrentEditingId(id);
+    setReasonInput(flagReasons[id] || '');
+    setReasonModalVisible(true);
+  };
+
+  const saveReason = async () => {
+    if (reasonInput.trim()) {
+      const newReasons = { ...flagReasons, [currentEditingId]: reasonInput.trim() };
+      setFlagReasons(newReasons);
+      try {
+        await AsyncStorage.setItem('flagReasons', JSON.stringify(newReasons));
+      } catch (error) {
+        console.error('Error saving reason:', error);
+        Alert.alert('Error', 'Failed to save reason');
+      }
+    }
+    setReasonModalVisible(false);
+    setReasonInput('');
+    setCurrentEditingId('');
+  };
+
+  const cancelReason = () => {
+    setReasonModalVisible(false);
+    setReasonInput('');
+    setCurrentEditingId('');
   };
 
   const clearAllFlags = () => {
@@ -289,6 +292,52 @@ export default function FlaggedTranslationsScreen() {
         </Text>
       </View>
 
+      {/* Reason Modal */}
+      <Modal
+        visible={reasonModalVisible}
+        transparent={true}
+        animationType="fade"
+        onRequestClose={cancelReason}
+      >
+        <View style={styles.modalOverlay}>
+          <View style={[styles.modalContent, isDark && styles.darkModalContent]}>
+            <Text style={[styles.modalTitle, isDark && styles.darkText]}>
+              {flagReasons[currentEditingId] ? 'Edit Reason' : 'Add Reason'}
+            </Text>
+            <Text style={[styles.modalSubtitle, isDark && styles.darkTextSecondary]}>
+              Why is this translation flagged?
+            </Text>
+
+            <TextInput
+              style={[styles.modalInput, isDark && styles.darkModalInput]}
+              value={reasonInput}
+              onChangeText={setReasonInput}
+              placeholder="Enter reason..."
+              placeholderTextColor={isDark ? '#6b7280' : '#9ca3af'}
+              multiline
+              numberOfLines={4}
+              autoFocus
+            />
+
+            <View style={styles.modalButtons}>
+              <TouchableOpacity
+                style={[styles.modalButton, styles.modalCancelButton]}
+                onPress={cancelReason}
+              >
+                <Text style={styles.modalCancelButtonText}>Cancel</Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[styles.modalButton, styles.modalSaveButton]}
+                onPress={saveReason}
+              >
+                <Text style={styles.modalSaveButtonText}>Save</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
+        </View>
+      </Modal>
+
       {flaggedItems.length === 0 ? (
         <View style={styles.emptyState}>
           <Text style={[styles.emptyTitle, isDark && styles.darkText]}>No Flagged Items</Text>
@@ -299,33 +348,37 @@ export default function FlaggedTranslationsScreen() {
       ) : (
         <>
           <View style={[styles.actionsContainer, isDark && styles.darkActionsContainer]}>
-            <TouchableOpacity
-              style={[styles.actionButton, styles.copyButton, isDark && styles.darkActionButton]}
-              onPress={copyToClipboard}
-            >
-              <Text style={styles.actionButtonText}>📋 Copy to Clipboard</Text>
-            </TouchableOpacity>
-            
-            <TouchableOpacity
-              style={[styles.actionButton, styles.shareButton, isDark && styles.darkShareButton]}
-              onPress={shareAsEmail}
-            >
-              <Text style={styles.actionButtonText}>📧 Share as Email</Text>
-            </TouchableOpacity>
-            
-            <TouchableOpacity
-              style={[styles.actionButton, styles.saveButton, isDark && styles.darkSaveButton]}
-              onPress={saveToFile}
-            >
-              <Text style={styles.actionButtonText}>💾 Save to File</Text>
-            </TouchableOpacity>
-            
-            <TouchableOpacity
-              style={[styles.actionButton, styles.clearButton, isDark && styles.darkClearButton]}
-              onPress={clearAllFlags}
-            >
-              <Text style={[styles.actionButtonText, styles.clearButtonText]}>🗑️ Clear All</Text>
-            </TouchableOpacity>
+            <View style={styles.actionRow}>
+              <TouchableOpacity
+                style={[styles.actionButton, styles.copyButton, isDark && styles.darkActionButton]}
+                onPress={copyToClipboard}
+              >
+                <Text style={styles.actionButtonText}>📋 Copy</Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[styles.actionButton, styles.shareButton, isDark && styles.darkShareButton]}
+                onPress={shareAsEmail}
+              >
+                <Text style={styles.actionButtonText}>📧 Share</Text>
+              </TouchableOpacity>
+            </View>
+
+            <View style={styles.actionRow}>
+              <TouchableOpacity
+                style={[styles.actionButton, styles.saveButton, isDark && styles.darkSaveButton]}
+                onPress={saveToFile}
+              >
+                <Text style={styles.actionButtonText}>💾 Save</Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[styles.actionButton, styles.clearButton, isDark && styles.darkClearButton]}
+                onPress={clearAllFlags}
+              >
+                <Text style={[styles.actionButtonText, styles.clearButtonText]}>🗑️ Clear All</Text>
+              </TouchableOpacity>
+            </View>
           </View>
 
           <FlatList
@@ -394,7 +447,7 @@ const styles = StyleSheet.create({
   },
   actionsContainer: {
     backgroundColor: '#fff',
-    padding: 16,
+    padding: 12,
     borderBottomWidth: 1,
     borderBottomColor: '#e5e7eb',
   },
@@ -402,10 +455,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#1f2937',
     borderBottomColor: '#374151',
   },
-  actionButton: {
-    borderRadius: 8,
-    padding: 12,
+  actionRow: {
+    flexDirection: 'row',
+    gap: 8,
     marginBottom: 8,
+  },
+  actionButton: {
+    flex: 1,
+    borderRadius: 8,
+    padding: 10,
     alignItems: 'center',
   },
   copyButton: {
@@ -436,7 +494,7 @@ const styles = StyleSheet.create({
     borderColor: '#dc2626',
   },
   actionButtonText: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
     color: '#fff',
   },
@@ -579,5 +637,83 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#92400e',
     lineHeight: 20,
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  modalContent: {
+    backgroundColor: '#fff',
+    borderRadius: 16,
+    padding: 24,
+    width: '100%',
+    maxWidth: 400,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+  },
+  darkModalContent: {
+    backgroundColor: '#1f2937',
+  },
+  modalTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#111827',
+    marginBottom: 4,
+  },
+  modalSubtitle: {
+    fontSize: 14,
+    color: '#6b7280',
+    marginBottom: 16,
+  },
+  modalInput: {
+    backgroundColor: '#f3f4f6',
+    borderRadius: 8,
+    padding: 12,
+    fontSize: 16,
+    color: '#111827',
+    minHeight: 100,
+    textAlignVertical: 'top',
+    marginBottom: 20,
+    borderWidth: 1,
+    borderColor: '#d1d5db',
+  },
+  darkModalInput: {
+    backgroundColor: '#374151',
+    color: '#f3f4f6',
+    borderColor: '#4b5563',
+  },
+  modalButtons: {
+    flexDirection: 'row',
+    gap: 12,
+  },
+  modalButton: {
+    flex: 1,
+    borderRadius: 8,
+    padding: 12,
+    alignItems: 'center',
+  },
+  modalCancelButton: {
+    backgroundColor: '#f3f4f6',
+    borderWidth: 1,
+    borderColor: '#d1d5db',
+  },
+  modalCancelButtonText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#374151',
+  },
+  modalSaveButton: {
+    backgroundColor: '#2563eb',
+  },
+  modalSaveButtonText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#fff',
   },
 });
