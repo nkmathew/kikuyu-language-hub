@@ -1,0 +1,54 @@
+{
+  "batch_info": {
+    "batch_number": "022",
+    "total_cards": 3,
+    "category": "vocabulary",
+    "source_files": ["217.txt", "219.txt", "223.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T13:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-022-001",
+      "kikuyu": "Sitting Room Furniture",
+      "english": "Mũrango (door), Kabati (cupboard), Metha (table), Nđirica (window), Gĩtĩ (chair), Gaturwa/Njĩngwa (stool)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Essential sitting room furniture vocabulary from week 2 greetings lesson",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-022-002",
+      "kikuyu": "Professions & Jobs",
+      "english": "Bundi (handyman/carpenter/plumber), Mũrĩmi (farmer), Nđereba (driver), Atongoria (leaders), Borithi (police), Mũũbĩa (priest/catholic), Mũhũrĩri wa mbica (photographer), Mũgwĩmi (hunter), Mũrĩithia wa mahiũ (herder of domestic animals), Aturi (iron mongers), Ombi a nyũngũ (potters), Mũgo (medicine person/traditional healer)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "12 professions with work descriptions. Pattern: Nđĩ/Wĩ/Nĩ + profession. Example: Nđutaga wĩra wa mbaũ (I work with timber), Arutaga wĩra wa gũtongoria magongona ma kanitha (his work is to lead church services)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 219",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-022-003",
+      "kikuyu": "Emotions & Feelings",
+      "english": "Guoya (scared), Gikeno (happy), Kĩeha (sad), Marakara (angry), Ndũhĩo (excited), Kĩmako (worried), Kũhahũka (surprised), Ũrĩmũ (silly), Kwaga kũiganĩra (frustrated), Kũigua kĩnyiria (to be disgusted), Kũnyĩra (to express disgust)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Emotions vocabulary with question pattern: Ũraigua atĩa? (what are you feeling?) → Ndiraguĩra... (I am feeling...). Includes emotional expressions and physical manifestations",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    }
+  ]
+}
