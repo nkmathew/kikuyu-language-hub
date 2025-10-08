@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 040
-**Last File Index**: 404
-**Next Batch**: 041 (files 405-414)
+**Last Completed Batch**: 044
+**Last File Index**: 444
+**Next Batch**: 045 (files 445-454)
 **Date Updated**: 2025-01-27
 
 ## Batch History
@@ -50,13 +50,17 @@
 | **038** | **375-384** | **86** | **✅ Complete** | **2025-01-27** | **Proverbs (cleverness/unity/education), verb conjugations (accept/achieve/do/put), health states, professions (seller/buyer/leader/artist/architect/soldier), plural commands grammar, colors conversation** |
 | **039** | **385-394** | **65** | **✅ Complete** | **2025-01-27** | **Proverb (leopard baby like mother), transportation vocabulary, escort verbs, school conversations, negation patterns, prayers, alcohol advice** |
 | **040** | **395-404** | **77** | **✅ Complete** | **2025-01-27** | **Prayers & forgiveness, months/dates, emotions vocabulary, proverbs about old age, enter verbs, travel vocabulary, April Fools, cultural emotions** |
-| 041 | 405-414 | - | ⏳ Pending | - | Next batch |
+| **041** | **405-414** | **61** | **✅ Complete** | **2025-01-27** | **Proverb (beauty cannot be eaten), laugh verbs, conditional tense patterns, dates/numbers, religious greetings, learning wisdom** |
+| **042** | **415-424** | **65** | **✅ Complete** | **2025-01-27** | **Proverbs (strength/savings), lottery scenarios, strength vocabulary, give verbs, news translation, social media, classroom questions** |
+| **043** | **425-434** | **97** | **✅ Complete** | **2025-01-27** | **Tiredness/exercise verbs, throw verbs, weather vocabulary, blessings, remove/pay verbs, time references, conditional tense, directions, monosyllables** |
+| **044** | **435-444** | **110** | **✅ Complete** | **2025-01-27** | **News stories (German/Nigerian/Tanzanian relationships), love reasons, cooking vocabulary, love verbs, negating conditional tense, traditional proverbs** |
+| 045 | 445-454 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 40
-- **Total Files Processed**: 404 / 538 (75.1%)
-- **Remaining Files**: 134
-- **Estimated Remaining Batches**: ~13 batches
+- **Total Batches Completed**: 44
+- **Total Files Processed**: 444 / 538 (82.5%)
+- **Remaining Files**: 94
+- **Estimated Remaining Batches**: ~9 batches
 
 ## Batch 028 Summary
 **Files**: 275-284

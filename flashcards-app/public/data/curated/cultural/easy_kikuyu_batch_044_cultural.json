@@ -1,0 +1,267 @@
+{
+  "batch": 44,
+  "source_files": "435-444",
+  "total_flashcards": 25,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Cultural", "Cooking", "Proverbs"],
+  "difficulty_distribution": {
+    "beginner": 10,
+    "intermediate": 12,
+    "advanced": 3
+  },
+  "flashcards": [
+    {
+      "id": "ek_b44_cultural_001",
+      "kikuyu": "Rĩiko rĩa ngũ",
+      "english": "Wood fire cooker",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional cooking method",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_002",
+      "kikuyu": "Njiko ya makara",
+      "english": "Charcoal cooker",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional cooking method",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_003",
+      "kikuyu": "Nyũngũ",
+      "english": "Clay pot",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional cooking vessel",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_004",
+      "kikuyu": "Thaburia",
+      "english": "Metal cooking pot",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Modern cooking vessel",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_005",
+      "kikuyu": "Gĩkombe",
+      "english": "cup",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Dining utensil",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_006",
+      "kikuyu": "Thani",
+      "english": "plate",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Dining utensil",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_007",
+      "kikuyu": "Rũgĩo",
+      "english": "Frying pan",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Cooking utensil",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_008",
+      "kikuyu": "Kĩĩhũrĩ",
+      "english": "Half calabash",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional serving vessel",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_009",
+      "kikuyu": "Gĩtarũrũ",
+      "english": "Woven (serving) tray",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional serving vessel",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_010",
+      "kikuyu": "Gũkĩma",
+      "english": "to mash food",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Cooking method",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_011",
+      "kikuyu": "Mũkimo",
+      "english": "mashed food",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_012",
+      "kikuyu": "Ngima",
+      "english": "Ugali (foo foo)",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional staple food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #441"
+    },
+    {
+      "id": "ek_b44_cultural_013",
+      "kikuyu": "Gũkaranga",
+      "english": "to fry",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Cooking method",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_014",
+      "kikuyu": "Gũtherũkia",
+      "english": "human action of boiling food",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Cooking method",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_015",
+      "kikuyu": "Kumbika",
+      "english": "to bake (in ash)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional cooking method",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_016",
+      "kikuyu": "Gũtherũka",
+      "english": "to boil",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Cooking method",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_017",
+      "kikuyu": "Gũtogota",
+      "english": "sound made by heavy liquid boiling, eg. Porridge",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Cooking sound",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_018",
+      "kikuyu": "Mĩrukĩ",
+      "english": "vapour (also gas and air)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Cooking phenomenon",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_019",
+      "kikuyu": "Kũhia",
+      "english": "to burn (or to get cooked)",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Cooking method",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_020",
+      "kikuyu": "Kũhĩhia",
+      "english": "to roast (to cause to burn)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Cooking method",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_021",
+      "kikuyu": "Gũkĩa",
+      "english": "to prepare a special fermented porridge",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Traditional food preparation",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_022",
+      "kikuyu": "Gũkerũra",
+      "english": "action of pouring out water after boiling beans or other cereals",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Traditional cooking method",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #443"
+    },
+    {
+      "id": "ek_b44_cultural_023",
+      "kikuyu": "Kwa mwendwo gũtirĩ irĩma",
+      "english": "There are no hills to a lover's home",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Traditional saying about love",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #439"
+    },
+    {
+      "id": "ek_b44_cultural_024",
+      "kikuyu": "Kirĩma",
+      "english": "big mountain",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Geographical feature",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #439"
+    },
+    {
+      "id": "ek_b44_cultural_025",
+      "kikuyu": "Karĩma",
+      "english": "small mountain",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Geographical feature",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #439"
+    }
+  ]
+}
