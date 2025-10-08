@@ -15,8 +15,13 @@ import { Flashcard } from '../types/flashcard';
 import { dataLoader } from '../lib/dataLoader';
 import LoadingSpinner from '../components/LoadingSpinner';
 
+interface FlagReason {
+  [cardId: string]: string;
+}
+
 export default function FlaggedTranslationsScreen() {
   const [flaggedItems, setFlaggedItems] = useState<Flashcard[]>([]);
+  const [flagReasons, setFlagReasons] = useState<FlagReason>({});
   const [loading, setLoading] = useState(true);
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
@@ -28,10 +33,12 @@ export default function FlaggedTranslationsScreen() {
   const loadFlaggedItems = async () => {
     try {
       const storedFlagged = await AsyncStorage.getItem('flaggedItems');
+      const storedReasons = await AsyncStorage.getItem('flagReasons');
+
       if (storedFlagged) {
         const flaggedIds = JSON.parse(storedFlagged);
         const allItems: Flashcard[] = [];
-        
+
         // Load all categories to find flagged items
         const categories = ['vocabulary', 'proverbs', 'conjugations', 'grammar', 'general', 'phrases'];
         for (const category of categories) {
@@ -43,10 +50,15 @@ export default function FlaggedTranslationsScreen() {
             console.error(`Error loading category ${category}:`, error);
           }
         }
-        
+
         // Filter to only flagged items
         const flagged = allItems.filter(item => flaggedIds.includes(item.id));
         setFlaggedItems(flagged);
+      }
+
+      // Load reasons
+      if (storedReasons) {
+        setFlagReasons(JSON.parse(storedReasons));
       }
     } catch (error) {
       console.error('Error loading flagged items:', error);
@@ -63,6 +75,12 @@ export default function FlaggedTranslationsScreen() {
         const updatedIds = flaggedIds.filter((itemId: string) => itemId !== id);
         await AsyncStorage.setItem('flaggedItems', JSON.stringify(updatedIds));
         setFlaggedItems(prev => prev.filter(item => item.id !== id));
+
+        // Also remove the reason
+        const newReasons = { ...flagReasons };
+        delete newReasons[id];
+        setFlagReasons(newReasons);
+        await AsyncStorage.setItem('flagReasons', JSON.stringify(newReasons));
       }
     } catch (error) {
       console.error('Error removing flag:', error);
@@ -70,10 +88,40 @@ export default function FlaggedTranslationsScreen() {
     }
   };
 
+  const addReason = (id: string) => {
+    Alert.prompt(
+      'Add Reason',
+      'Why is this translation flagged?',
+      [
+        {
+          text: 'Cancel',
+          style: 'cancel',
+        },
+        {
+          text: 'Save',
+          onPress: async (reason) => {
+            if (reason && reason.trim()) {
+              const newReasons = { ...flagReasons, [id]: reason.trim() };
+              setFlagReasons(newReasons);
+              try {
+                await AsyncStorage.setItem('flagReasons', JSON.stringify(newReasons));
+              } catch (error) {
+                console.error('Error saving reason:', error);
+                Alert.alert('Error', 'Failed to save reason');
+              }
+            }
+          },
+        },
+      ],
+      'plain-text',
+      flagReasons[id] || ''
+    );
+  };
+
   const clearAllFlags = () => {
     Alert.alert(
       'Clear All Flags',
-      'This will remove all flagged translations. This action cannot be undone.',
+      'This will remove all flagged translations and their reasons. This action cannot be undone.',
       [
         { text: 'Cancel', style: 'cancel' },
         {
@@ -81,7 +129,9 @@ export default function FlaggedTranslationsScreen() {
           style: 'destructive',
           onPress: async () => {
             await AsyncStorage.removeItem('flaggedItems');
+            await AsyncStorage.removeItem('flagReasons');
             setFlaggedItems([]);
+            setFlagReasons({});
             Alert.alert('Success', 'All flags have been cleared');
           },
         },
@@ -105,6 +155,7 @@ export default function FlaggedTranslationsScreen() {
       category: item.category,
       cultural_notes: item.cultural_notes || '',
       source: item.source?.origin || '',
+      flag_reason: flagReasons[item.id] || '',
     }));
   };
 
@@ -116,7 +167,7 @@ export default function FlaggedTranslationsScreen() {
 
     const exportData = formatForExport(flaggedItems);
     const text = exportData.map(item =>
-      `[Batch ${item.batch}] ${item.id}\n${item.kikuyu} - ${item.english}\nDifficulty: ${item.difficulty} | Category: ${item.category}`
+      `[Batch ${item.batch}] ${item.id}\n${item.kikuyu} - ${item.english}\nDifficulty: ${item.difficulty} | Category: ${item.category}${item.flag_reason ? `\nReason: ${item.flag_reason}` : ''}`
     ).join('\n\n');
 
     Clipboard.setString(text);
@@ -132,7 +183,7 @@ export default function FlaggedTranslationsScreen() {
     const exportData = formatForExport(flaggedItems);
     const emailBody = `Flagged Kikuyu Translations (${flaggedItems.length} items):\n\n` +
       exportData.map(item =>
-        `• [Batch ${item.batch}] ${item.id}\n  ${item.kikuyu} - ${item.english}\n  Difficulty: ${item.difficulty} | Category: ${item.category}\n  Source: ${item.source}\n  Notes: ${item.cultural_notes}\n`
+        `• [Batch ${item.batch}] ${item.id}\n  ${item.kikuyu} - ${item.english}\n  Difficulty: ${item.difficulty} | Category: ${item.category}\n  Source: ${item.source}\n  Notes: ${item.cultural_notes}${item.flag_reason ? `\n  ⚠️ Flag Reason: ${item.flag_reason}` : ''}\n`
       ).join('\n');
 
     try {
@@ -166,37 +217,61 @@ export default function FlaggedTranslationsScreen() {
     }
   };
 
-  const renderItem = ({ item }: { item: Flashcard }) => (
-    <View style={[styles.itemCard, isDark && styles.darkItemCard]}>
-      <View style={styles.itemHeader}>
-        <View style={styles.itemInfo}>
-          <Text style={[styles.kikuyuText, isDark && styles.darkText]}>{item.kikuyu}</Text>
-          <Text style={[styles.englishText, isDark && styles.darkTextSecondary]}>{item.english}</Text>
+  const renderItem = ({ item }: { item: Flashcard }) => {
+    const reason = flagReasons[item.id];
+
+    return (
+      <View style={[styles.itemCard, isDark && styles.darkItemCard]}>
+        <View style={styles.itemHeader}>
+          <View style={styles.itemInfo}>
+            <Text style={[styles.kikuyuText, isDark && styles.darkText]}>{item.kikuyu}</Text>
+            <Text style={[styles.englishText, isDark && styles.darkTextSecondary]}>{item.english}</Text>
+          </View>
+          <TouchableOpacity
+            style={[styles.removeButton, isDark && styles.darkRemoveButton]}
+            onPress={() => removeFlag(item.id)}
+          >
+            <Text style={styles.removeButtonText}>✕</Text>
+          </TouchableOpacity>
         </View>
-        <TouchableOpacity
-          style={[styles.removeButton, isDark && styles.darkRemoveButton]}
-          onPress={() => removeFlag(item.id)}
-        >
-          <Text style={styles.removeButtonText}>✕</Text>
-        </TouchableOpacity>
+
+        <View style={styles.itemMeta}>
+          <Text style={[styles.metaText, styles[`difficulty_${item.difficulty}`]]}>
+            {item.difficulty}
+          </Text>
+          <Text style={[styles.metaText, isDark && styles.darkTextSecondary]}>
+            {item.category}
+          </Text>
+        </View>
+
+        {item.cultural_notes && (
+          <Text style={[styles.notesText, isDark && styles.darkTextSecondary]}>
+            {item.cultural_notes}
+          </Text>
+        )}
+
+        {/* Flag Reason Section */}
+        {reason ? (
+          <View style={[styles.reasonContainer, isDark && styles.darkReasonContainer]}>
+            <View style={styles.reasonHeader}>
+              <Text style={[styles.reasonLabel, isDark && styles.darkTextSecondary]}>⚠️ Reason:</Text>
+              <TouchableOpacity onPress={() => addReason(item.id)}>
+                <Text style={styles.editReasonText}>Edit</Text>
+              </TouchableOpacity>
+            </View>
+            <Text style={[styles.reasonText, isDark && styles.darkText]}>{reason}</Text>
+          </View>
+        ) : (
+          <TouchableOpacity
+            style={[styles.addReasonButton, isDark && styles.darkAddReasonButton]}
+            onPress={() => addReason(item.id)}
+          >
+            <Text style={styles.addReasonText}>+ Add Reason</Text>
+          </TouchableOpacity>
+        )}
       </View>
-      
-      <View style={styles.itemMeta}>
-        <Text style={[styles.metaText, styles[`difficulty_${item.difficulty}`]]}>
-          {item.difficulty}
-        </Text>
-        <Text style={[styles.metaText, isDark && styles.darkTextSecondary]}>
-          {item.category}
-        </Text>
-      </View>
-      
-      {item.cultural_notes && (
-        <Text style={[styles.notesText, isDark && styles.darkTextSecondary]}>
-          {item.cultural_notes}
-        </Text>
-      )}
-    </View>
-  );
+    );
+  };
 
   if (loading) {
     return <LoadingSpinner message="Loading flagged items..." />;
@@ -451,5 +526,57 @@ const styles = StyleSheet.create({
   },
   darkTextSecondary: {
     color: '#9ca3af',
+  },
+  addReasonButton: {
+    marginTop: 8,
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    backgroundColor: '#eff6ff',
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: '#3b82f6',
+    alignSelf: 'flex-start',
+  },
+  darkAddReasonButton: {
+    backgroundColor: '#1e3a8a',
+    borderColor: '#60a5fa',
+  },
+  addReasonText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#2563eb',
+  },
+  reasonContainer: {
+    marginTop: 12,
+    padding: 12,
+    backgroundColor: '#fef3c7',
+    borderRadius: 8,
+    borderLeftWidth: 3,
+    borderLeftColor: '#f59e0b',
+  },
+  darkReasonContainer: {
+    backgroundColor: '#78350f',
+    borderLeftColor: '#fbbf24',
+  },
+  reasonHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 6,
+  },
+  reasonLabel: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#92400e',
+  },
+  editReasonText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#2563eb',
+  },
+  reasonText: {
+    fontSize: 14,
+    color: '#92400e',
+    lineHeight: 20,
   },
 });
