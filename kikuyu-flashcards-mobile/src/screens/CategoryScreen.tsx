@@ -25,7 +25,6 @@ interface Props {
 export default function CategoryScreen({ navigation, route }: Props) {
   const { category } = route.params;
   const [categoryData, setCategoryData] = useState<CategoryData | null>(null);
-  const [selectedDifficulties, setSelectedDifficulties] = useState<DifficultyLevel[]>(['all']);
   const [loading, setLoading] = useState(true);
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
@@ -45,38 +44,6 @@ export default function CategoryScreen({ navigation, route }: Props) {
     }
   };
 
-  const toggleDifficulty = (difficulty: DifficultyLevel) => {
-    setSelectedDifficulties(prev => {
-      if (difficulty === 'all') {
-        // If "all" is selected, clear other selections and select only "all"
-        return ['all'];
-      } else {
-        // If a specific difficulty is selected, remove "all" and add the specific difficulty
-        if (prev.includes(difficulty)) {
-          const newSelection = prev.filter(d => d !== difficulty);
-          return newSelection.length > 0 ? newSelection : ['all'];
-        } else {
-          const withoutAll = prev.filter(d => d !== 'all');
-          return [...withoutAll, difficulty];
-        }
-      }
-    });
-  };
-
-  const handleStartStudy = () => {
-    navigation.navigate('Flashcard', {
-      category,
-      difficulties: selectedDifficulties,
-    });
-  };
-
-  const handleOpenStudyList = () => {
-    navigation.navigate('StudyList', {
-      category,
-      difficulties: selectedDifficulties,
-    });
-  };
-
   if (loading) {
     return (
       <View style={[styles.centerContainer, isDark && styles.darkBg]}>
@@ -93,12 +60,6 @@ export default function CategoryScreen({ navigation, route }: Props) {
     );
   }
 
-  const totalSelectedCards = selectedDifficulties.includes('all') 
-    ? categoryData.total_count 
-    : selectedDifficulties.reduce((sum, diff) => {
-        return sum + categoryData.difficulty_counts[diff];
-      }, 0);
-
   return (
     <ScrollView style={[styles.container, isDark && styles.darkBg]}>
       <View style={styles.statsContainer}>
@@ -109,107 +70,118 @@ export default function CategoryScreen({ navigation, route }: Props) {
       </View>
 
       <View style={styles.section}>
-        <Text style={[styles.sectionTitle, isDark && styles.darkText]}>Select Difficulty</Text>
-        <Text style={[styles.sectionSubtitle, isDark && styles.darkTextSecondary]}>Choose one or more levels</Text>
+        <Text style={[styles.sectionTitle, isDark && styles.darkText]}>Choose Study Mode</Text>
+        <Text style={[styles.sectionSubtitle, isDark && styles.darkTextSecondary]}>Select flashcards or study list for any difficulty level</Text>
 
         <View style={styles.difficultyContainer}>
           {/* All option */}
-          <TouchableOpacity
+          <View
             style={[
               styles.difficultyCard,
               isDark && styles.darkCard,
-              selectedDifficulties.includes('all') && (isDark ? styles.darkDifficultyCardSelected : styles.difficultyCardSelected),
             ]}
-            onPress={() => toggleDifficulty('all')}
-            activeOpacity={0.7}
           >
             <View style={styles.difficultyHeader}>
               <Text style={[
                 styles.difficultyTitle,
                 isDark && styles.darkText,
-                selectedDifficulties.includes('all') && styles.difficultyTitleSelected,
               ]}>
-                All
+                All Levels
               </Text>
-              {selectedDifficulties.includes('all') && <Text style={styles.checkmark}>✓</Text>}
+              <Text style={[
+                styles.difficultyCount,
+                isDark && styles.darkTextSecondary,
+              ]}>
+                {categoryData.total_count} cards
+              </Text>
             </View>
-            <Text style={[
-              styles.difficultyCount,
-              isDark && styles.darkTextSecondary,
-              selectedDifficulties.includes('all') && styles.difficultyCountSelected,
-            ]}>
-              {categoryData.total_count} cards
-            </Text>
-          </TouchableOpacity>
+
+            <View style={styles.buttonRow}>
+              <TouchableOpacity
+                style={[
+                  styles.actionButton,
+                  styles.flashcardsButton,
+                ]}
+                onPress={() => navigation.navigate('Flashcard', { category, difficulties: ['all'] })}
+                activeOpacity={0.7}
+              >
+                <Text style={styles.actionButtonText}>📚 Flashcards</Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[
+                  styles.actionButton,
+                  styles.listButton,
+                ]}
+                onPress={() => navigation.navigate('StudyList', { category, difficulties: ['all'] })}
+                activeOpacity={0.7}
+              >
+                <Text style={styles.actionButtonText}>📋 Study List</Text>
+              </TouchableOpacity>
+            </View>
+          </View>
 
           {/* Individual difficulty options */}
           {(['beginner', 'intermediate', 'advanced'] as DifficultyLevel[]).map(difficulty => {
             const count = categoryData.difficulty_counts[difficulty];
-            const isSelected = selectedDifficulties.includes(difficulty);
 
             return (
-              <TouchableOpacity
+              <View
                 key={difficulty}
                 style={[
                   styles.difficultyCard,
                   isDark && styles.darkCard,
-                  isSelected && (isDark ? styles.darkDifficultyCardSelected : styles.difficultyCardSelected),
                   count === 0 && styles.difficultyCardDisabled,
                 ]}
-                onPress={() => count > 0 && toggleDifficulty(difficulty)}
-                disabled={count === 0}
-                activeOpacity={0.7}
               >
                 <View style={styles.difficultyHeader}>
                   <Text style={[
                     styles.difficultyTitle,
                     isDark && styles.darkText,
-                    isSelected && styles.difficultyTitleSelected,
                   ]}>
                     {difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}
                   </Text>
-                  {isSelected && <Text style={styles.checkmark}>✓</Text>}
+                  <Text style={[
+                    styles.difficultyCount,
+                    isDark && styles.darkTextSecondary,
+                  ]}>
+                    {count} cards
+                  </Text>
                 </View>
-                <Text style={[
-                  styles.difficultyCount,
-                  isDark && styles.darkTextSecondary,
-                  isSelected && styles.difficultyCountSelected,
-                ]}>
-                  {count} cards
-                </Text>
-              </TouchableOpacity>
+
+                <View style={styles.buttonRow}>
+                  <TouchableOpacity
+                    style={[
+                      styles.actionButton,
+                      styles.flashcardsButton,
+                      count === 0 && styles.actionButtonDisabled,
+                    ]}
+                    onPress={() => navigation.navigate('Flashcard', { category, difficulties: [difficulty] })}
+                    disabled={count === 0}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={styles.actionButtonText}>📚 Flashcards</Text>
+                  </TouchableOpacity>
+
+                  <TouchableOpacity
+                    style={[
+                      styles.actionButton,
+                      styles.listButton,
+                      count === 0 && styles.actionButtonDisabled,
+                    ]}
+                    onPress={() => navigation.navigate('StudyList', { category, difficulties: [difficulty] })}
+                    disabled={count === 0}
+                    activeOpacity={0.7}
+                  >
+                    <Text style={styles.actionButtonText}>📋 Study List</Text>
+                  </TouchableOpacity>
+                </View>
+              </View>
             );
           })}
         </View>
       </View>
 
-      <View style={styles.footer}>
-        <TouchableOpacity
-          style={[
-            styles.startButton,
-            totalSelectedCards === 0 && styles.startButtonDisabled,
-          ]}
-          onPress={handleStartStudy}
-          disabled={totalSelectedCards === 0}
-        >
-          <Text style={styles.startButtonText}>
-            Start Studying ({totalSelectedCards} cards)
-          </Text>
-        </TouchableOpacity>
-        <View style={{ height: 12 }} />
-        <TouchableOpacity
-          style={[
-            styles.startButton,
-            { backgroundColor: '#111827', borderWidth: 2, borderColor: '#2563eb' },
-            totalSelectedCards === 0 && styles.startButtonDisabled,
-          ]}
-          onPress={handleOpenStudyList}
-          disabled={totalSelectedCards === 0}
-          activeOpacity={0.8}
-        >
-          <Text style={styles.startButtonText}>Study List Mode</Text>
-        </TouchableOpacity>
-      </View>
     </ScrollView>
   );
 }
@@ -277,14 +249,6 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: '#e5e7eb',
   },
-  difficultyCardSelected: {
-    borderColor: '#2563eb',
-    backgroundColor: '#eff6ff',
-  },
-  darkDifficultyCardSelected: {
-    borderColor: '#3b82f6',
-    backgroundColor: '#1e3a8a',
-  },
   difficultyCardDisabled: {
     opacity: 0.5,
   },
@@ -292,43 +256,40 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    marginBottom: 4,
+    marginBottom: 12,
   },
   difficultyTitle: {
     fontSize: 18,
     fontWeight: '600',
     color: '#111827',
   },
-  difficultyTitleSelected: {
-    color: '#2563eb',
-  },
-  checkmark: {
-    fontSize: 20,
-    color: '#2563eb',
-  },
   difficultyCount: {
     fontSize: 14,
     color: '#6b7280',
   },
-  difficultyCountSelected: {
-    color: '#2563eb',
+  buttonRow: {
+    flexDirection: 'row',
+    gap: 8,
   },
-  footer: {
-    padding: 16,
-    paddingBottom: 32,
-  },
-  startButton: {
-    backgroundColor: '#2563eb',
-    borderRadius: 12,
-    padding: 16,
+  actionButton: {
+    flex: 1,
+    borderRadius: 8,
+    padding: 12,
     alignItems: 'center',
   },
-  startButtonDisabled: {
-    backgroundColor: '#9ca3af',
+  flashcardsButton: {
+    backgroundColor: '#2563eb',
   },
-  startButtonText: {
+  listButton: {
+    backgroundColor: '#059669',
+  },
+  actionButtonDisabled: {
+    backgroundColor: '#9ca3af',
+    opacity: 0.5,
+  },
+  actionButtonText: {
     color: '#fff',
-    fontSize: 18,
+    fontSize: 14,
     fontWeight: '600',
   },
   darkBg: {
