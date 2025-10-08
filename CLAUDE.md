@@ -128,7 +128,6 @@ kikuyu-language-hub/
 │   └── public/                # Static assets + PWA manifest
 ├── raw-data/                  # Source material
 │   └── easy-kikuyu/          # 538 lesson files from Emmanuel Kariuki
-├── study-material/            # Additional language resources
 ├── infra/                     # Docker Compose
 └── docs/                      # Documentation
 ```
