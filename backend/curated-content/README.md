@@ -26,14 +26,14 @@ Content from this directory is automatically synced to:
 
 ### How to Sync
 
-**On Windows (Git Bash/MSYS):**
+**All platforms (requires Python 3.8+ with `rich`):**
 ```bash
-./sync-curated-content.bat
+python sync-curated-content.py
 ```
 
-**On Linux/macOS:**
+Install requirements if needed:
 ```bash
-./sync-curated-content.sh
+pip install rich
 ```
 
 ### After Making Changes
@@ -49,6 +49,12 @@ Content from this directory is automatically synced to:
 - `kikuyu-flashcards-mobile/src/assets/data/curated/`
 
 These directories are gitignored and will be overwritten by the sync script.
+
+The sync script provides a detailed summary showing:
+- ✅ File counts per category
+- ✅ Sync status for each app
+- ✅ Total files synced
+- ✅ Timestamp of sync operation
 
 ## Content Categories
 

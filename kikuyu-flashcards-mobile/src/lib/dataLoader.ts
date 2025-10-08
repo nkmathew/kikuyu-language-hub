@@ -34,20 +34,20 @@ class DataLoader {
 
     try {
       const allCards: Flashcard[] = [];
-      const categoryPath = `./${category}/`;
-
-      // Find all files for this category
-      this.allData.forEach((content, path) => {
-        if (path.startsWith(categoryPath)) {
-          const cards = content.flashcards || content.entries || [];
-          allCards.push(...cards);
-        }
-      });
 
       // If category is 'general' or 'all', combine all categories
       if (category === 'general' || category === 'all') {
         this.allData.forEach((content, path) => {
           if (!path.includes('schema.json')) {
+            const cards = content.flashcards || content.entries || [];
+            allCards.push(...cards);
+          }
+        });
+      } else {
+        // Load specific category
+        const categoryPath = `./${category}/`;
+        this.allData.forEach((content, path) => {
+          if (path.startsWith(categoryPath)) {
             const cards = content.flashcards || content.entries || [];
             allCards.push(...cards);
           }

@@ -51,19 +51,17 @@ kikuyu-language-hub/
         └── [same structure]
 ```
 
-## Sync Scripts
+## Sync Script
 
-Two scripts are provided for different environments:
+A Python script with rich terminal output is provided for all platforms:
 
-### Windows (Git Bash/MSYS)
 ```bash
-./sync-curated-content.bat
+python sync-curated-content.py
 ```
 
-### Linux/macOS
+**Requirements**: Python 3.8+ with `rich` library
 ```bash
-chmod +x sync-curated-content.sh
-./sync-curated-content.sh
+pip install rich
 ```
 
 ## Workflow
@@ -79,9 +77,7 @@ chmod +x sync-curated-content.sh
 2. **Run sync script** to copy to other apps:
    ```bash
    # From project root
-   ./sync-curated-content.bat  # Windows
-   # OR
-   ./sync-curated-content.sh   # Linux/macOS
+   python sync-curated-content.py
    ```
 
 3. **Verify sync** worked:
@@ -111,8 +107,7 @@ chmod +x sync-curated-content.sh
 
 ✅ **Tracked by git**:
 - `backend/curated-content/**/*` (source of truth)
-- `sync-curated-content.bat` (Windows sync script)
-- `sync-curated-content.sh` (Linux/macOS sync script)
+- `sync-curated-content.py` (Python sync script)
 - `.gitignore` (configuration)
 
 ❌ **Gitignored** (auto-synced):
@@ -165,11 +160,12 @@ kikuyu-flashcards-mobile/src/assets/data/curated/
 
 2. Run sync script:
    ```bash
-   ./sync-curated-content.bat
+   python sync-curated-content.py
    ```
 
-3. Verify copied:
+3. Verify copied (check the summary table):
    ```bash
+   # Or manually check
    ls flashcards-app/public/data/curated/vocabulary/your_file.json
    ```
 
@@ -192,7 +188,7 @@ kikuyu-flashcards-mobile/src/assets/data/curated/
 
 3. Re-sync:
    ```bash
-   ./sync-curated-content.bat
+   python sync-curated-content.py
    ```
 
 ### "Merge conflicts in curated content"

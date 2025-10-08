@@ -264,11 +264,7 @@ The flashcards are curated from authentic native speaker content:
 
 Content is synced to other apps using:
 ```bash
-# Windows (Git Bash/MSYS)
-./sync-curated-content.bat
-
-# Linux/macOS
-./sync-curated-content.sh
+python sync-curated-content.py
 ```
 
 The sync script copies content from `backend/curated-content/` to:
@@ -278,11 +274,11 @@ The sync script copies content from `backend/curated-content/` to:
 ### Adding New Content
 
 1. ✅ Add JSON file to `backend/curated-content/[category]/`
-2. ✅ Run sync script: `./sync-curated-content.bat` or `./sync-curated-content.sh`
+2. ✅ Run sync script: `python sync-curated-content.py`
 3. ✅ Update `flashcards-app/src/lib/dataLoader.ts` if adding new batches
 4. ✅ Follow the schema in `backend/curated-content/schema.json`
 5. ✅ Test locally with `npm run dev` in flashcards-app
-6. ✅ Commit changes (including synced copies)
+6. ✅ Commit changes (backend source only - synced copies are gitignored)
 7. ✅ Deploy via git push
 
 **Note**: The synced directories are gitignored to prevent accidental inconsistencies.
