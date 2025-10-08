@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 050
-**Last File Index**: 504
-**Next Batch**: 051 (files 505-514)
+**Last Completed Batch**: 052
+**Last File Index**: 524
+**Next Batch**: 053 (files 525-534)
 **Date Updated**: 2025-01-27
 
 ## Batch History
@@ -60,13 +60,15 @@
 | **048** | **475-484** | **115** | **✅ Complete** | **2025-01-27** | **Family relationships, refuse verbs, auxiliary 'to have', greetings, animal vocabulary, news translation, lateness expressions, movement verbs** |
 | **049** | **485-494** | **125** | **✅ Complete** | **2025-01-27** | **Demonstratives, food/cooking questions, stand/stop verbs, riddles, jobs vocabulary, look/sleep verbs, driving vocabulary, news translation, religious greetings** |
 | **050** | **495-504** | **125** | **✅ Complete** | **2025-01-27** | **Pronouns, animal names, classroom instructions, proverbs, location questions, climbing verbs, clothing vocabulary, monosyllables** |
-| 051 | 505-514 | - | ⏳ Pending | - | Next batch |
+| **051** | **505-514** | **145** | **✅ Complete** | **2025-01-27** | **Traditional story (Zebra & Elephant), vocabulary lists, jobs vocabulary, words ending in 'ĩo'/'ero', love/want verbs, digestive system, monosyllables** |
+| **052** | **515-524** | **145** | **✅ Complete** | **2025-01-27** | **Words ending in 'go', family information questions, conditional tense, proverbs, gender/people vocabulary, love expressions, imperative commands** |
+| 053 | 525-534 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 50
-- **Total Files Processed**: 504 / 538 (93.7%)
-- **Remaining Files**: 34
-- **Estimated Remaining Batches**: ~3 batches
+- **Total Batches Completed**: 52
+- **Total Files Processed**: 524 / 538 (97.4%)
+- **Remaining Files**: 14
+- **Estimated Remaining Batches**: ~1 batch
 
 ## Batch 028 Summary
 **Files**: 275-284
