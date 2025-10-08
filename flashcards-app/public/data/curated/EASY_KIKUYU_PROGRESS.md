@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 044
-**Last File Index**: 444
-**Next Batch**: 045 (files 445-454)
+**Last Completed Batch**: 046
+**Last File Index**: 464
+**Next Batch**: 047 (files 465-474)
 **Date Updated**: 2025-01-27
 
 ## Batch History
@@ -54,13 +54,15 @@
 | **042** | **415-424** | **65** | **✅ Complete** | **2025-01-27** | **Proverbs (strength/savings), lottery scenarios, strength vocabulary, give verbs, news translation, social media, classroom questions** |
 | **043** | **425-434** | **97** | **✅ Complete** | **2025-01-27** | **Tiredness/exercise verbs, throw verbs, weather vocabulary, blessings, remove/pay verbs, time references, conditional tense, directions, monosyllables** |
 | **044** | **435-444** | **110** | **✅ Complete** | **2025-01-27** | **News stories (German/Nigerian/Tanzanian relationships), love reasons, cooking vocabulary, love verbs, negating conditional tense, traditional proverbs** |
-| 045 | 445-454 | - | ⏳ Pending | - | Next batch |
+| **045** | **445-454** | **125** | **✅ Complete** | **2025-01-27** | **Religious blessings, essential verbs, imperative sentences, positive/negative imperatives, greetings, possession, sleep vocabulary, morning routines** |
+| **046** | **455-464** | **110** | **✅ Complete** | **2025-01-27** | **Past tenses, food/drink vocabulary, fighting verbs, sequential actions, translation, giving verbs, historical story (Bowes and Kikuyu)** |
+| 047 | 465-474 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 44
-- **Total Files Processed**: 444 / 538 (82.5%)
-- **Remaining Files**: 94
-- **Estimated Remaining Batches**: ~9 batches
+- **Total Batches Completed**: 46
+- **Total Files Processed**: 464 / 538 (86.2%)
+- **Remaining Files**: 74
+- **Estimated Remaining Batches**: ~7 batches
 
 ## Batch 028 Summary
 **Files**: 275-284
