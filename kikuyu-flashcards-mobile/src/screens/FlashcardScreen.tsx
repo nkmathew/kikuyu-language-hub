@@ -8,6 +8,7 @@ import {
   Dimensions,
   ActivityIndicator,
   Alert,
+  useColorScheme,
 } from 'react-native';
 import { RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
@@ -26,7 +27,7 @@ interface Props {
 }
 
 const { width } = Dimensions.get('window');
-const CARD_WIDTH = width - 32;
+const CARD_WIDTH = width - 48;
 
 export default function FlashcardScreen({ navigation, route }: Props) {
   const { category, difficulties } = route.params;
@@ -37,6 +38,8 @@ export default function FlashcardScreen({ navigation, route }: Props) {
   const [sessionStartTime] = useState(new Date().toISOString());
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const flipAnimation = useRef(new Animated.Value(0)).current;
+  const colorScheme = useColorScheme();
+  const isDark = colorScheme === 'dark';
 
   useEffect(() => {
     loadCards();
@@ -56,9 +59,10 @@ export default function FlashcardScreen({ navigation, route }: Props) {
   };
 
   const flipCard = () => {
-    Animated.timing(flipAnimation, {
-      toValue: isFlipped ? 0 : 1,
-      duration: 300,
+    Animated.spring(flipAnimation, {
+      toValue: isFlipped ? 0 : 180,
+      friction: 8,
+      tension: 10,
       useNativeDriver: true,
     }).start();
     setIsFlipped(!isFlipped);
@@ -148,27 +152,37 @@ export default function FlashcardScreen({ navigation, route }: Props) {
   };
 
   const frontInterpolate = flipAnimation.interpolate({
-    inputRange: [0, 1],
+    inputRange: [0, 180],
     outputRange: ['0deg', '180deg'],
   });
 
   const backInterpolate = flipAnimation.interpolate({
-    inputRange: [0, 1],
+    inputRange: [0, 180],
     outputRange: ['180deg', '360deg'],
+  });
+
+  const frontOpacity = flipAnimation.interpolate({
+    inputRange: [0, 90, 180],
+    outputRange: [1, 0, 0],
+  });
+
+  const backOpacity = flipAnimation.interpolate({
+    inputRange: [0, 90, 180],
+    outputRange: [0, 0, 1],
   });
 
   if (loading) {
     return (
-      <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#2563eb" />
+      <View style={[styles.centerContainer, isDark && styles.darkBg]}>
+        <ActivityIndicator size="large" color="#3b82f6" />
       </View>
     );
   }
 
   if (cards.length === 0) {
     return (
-      <View style={styles.centerContainer}>
-        <Text style={styles.emptyText}>No cards available</Text>
+      <View style={[styles.centerContainer, isDark && styles.darkBg]}>
+        <Text style={[styles.emptyText, isDark && styles.darkText]}>No cards available</Text>
         <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
           <Text style={styles.backButtonText}>Go Back</Text>
         </TouchableOpacity>
@@ -179,10 +193,10 @@ export default function FlashcardScreen({ navigation, route }: Props) {
   const currentCard = cards[currentIndex];
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, isDark && styles.darkBg]}>
       <View style={styles.progressContainer}>
-        <Text style={styles.progressText}>
-          {currentIndex + 1} / {cards.length}
+        <Text style={[styles.progressText, isDark && styles.darkTextSecondary]}>
+          Card {currentIndex + 1} of {cards.length}
         </Text>
         <View style={styles.progressBar}>
           <View
@@ -193,45 +207,53 @@ export default function FlashcardScreen({ navigation, route }: Props) {
           />
         </View>
         <Text style={styles.accuracyText}>
-          Accuracy: {cards.length > 0 ? Math.round((correctAnswers / (currentIndex + 1)) * 100) : 0}%
+          Accuracy: {Math.round((correctAnswers / (currentIndex + 1)) * 100)}%
         </Text>
       </View>
 
       <View style={styles.cardContainer}>
-        <TouchableOpacity onPress={flipCard} activeOpacity={0.9}>
+        <TouchableOpacity onPress={flipCard} activeOpacity={0.9} style={styles.cardTouchable}>
           <Animated.View
             style={[
               styles.card,
-              styles.cardFront,
-              { transform: [{ rotateY: frontInterpolate }] },
+              isDark && styles.darkCard,
+              {
+                transform: [{ rotateY: frontInterpolate }],
+                opacity: frontOpacity,
+              },
             ]}
           >
-            <Text style={styles.cardLabel}>Kikuyu</Text>
-            <Text style={styles.cardText}>{currentCard.kikuyu}</Text>
+            <Text style={[styles.cardLabel, isDark && styles.darkTextSecondary]}>Kikuyu</Text>
+            <Text style={[styles.cardText, isDark && styles.darkText]}>{currentCard.kikuyu}</Text>
             {currentCard.difficulty && (
               <View style={[styles.difficultyBadge, styles[`badge_${currentCard.difficulty}`]]}>
                 <Text style={styles.difficultyText}>{currentCard.difficulty}</Text>
               </View>
             )}
-            <Text style={styles.tapHint}>Tap to flip</Text>
+            <Text style={[styles.tapHint, isDark && styles.darkTextMuted]}>Tap to see translation</Text>
           </Animated.View>
 
           <Animated.View
             style={[
               styles.card,
-              styles.cardBack,
-              { transform: [{ rotateY: backInterpolate }] },
+              styles.cardBackPositioned,
+              isDark && styles.darkCard,
+              {
+                transform: [{ rotateY: backInterpolate }],
+                opacity: backOpacity,
+              },
             ]}
+            pointerEvents={isFlipped ? 'auto' : 'none'}
           >
-            <Text style={styles.cardLabel}>English</Text>
-            <Text style={styles.cardText}>{currentCard.english}</Text>
+            <Text style={[styles.cardLabel, isDark && styles.darkTextSecondary]}>English</Text>
+            <Text style={[styles.cardText, isDark && styles.darkText]}>{currentCard.english}</Text>
             {currentCard.notes && (
-              <View style={styles.notesContainer}>
-                <Text style={styles.notesLabel}>Notes:</Text>
-                <Text style={styles.notesText}>{currentCard.notes}</Text>
+              <View style={[styles.notesContainer, isDark && styles.darkNotesContainer]}>
+                <Text style={[styles.notesLabel, isDark && styles.darkTextSecondary]}>Notes:</Text>
+                <Text style={[styles.notesText, isDark && styles.darkText]}>{currentCard.notes}</Text>
               </View>
             )}
-            <Text style={styles.tapHint}>Rate your recall</Text>
+            <Text style={[styles.tapHint, isDark && styles.darkTextMuted]}>How well did you know this?</Text>
           </Animated.View>
         </TouchableOpacity>
       </View>
@@ -242,48 +264,46 @@ export default function FlashcardScreen({ navigation, route }: Props) {
             style={[styles.ratingButton, styles.hardButton]}
             onPress={() => handleRating('hard')}
           >
-            <Text style={styles.ratingButtonText}>Hard</Text>
-            <Text style={styles.ratingSubtext}>Again soon</Text>
+            <Text style={styles.ratingButtonText}>😰 Hard</Text>
+            <Text style={styles.ratingSubtext}>{'< 1 day'}</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={[styles.ratingButton, styles.mediumButton]}
             onPress={() => handleRating('medium')}
           >
-            <Text style={styles.ratingButtonText}>Good</Text>
-            <Text style={styles.ratingSubtext}>In 1 day</Text>
+            <Text style={styles.ratingButtonText}>🤔 Good</Text>
+            <Text style={styles.ratingSubtext}>1 day</Text>
           </TouchableOpacity>
 
           <TouchableOpacity
             style={[styles.ratingButton, styles.easyButton]}
             onPress={() => handleRating('easy')}
           >
-            <Text style={styles.ratingButtonText}>Easy</Text>
-            <Text style={styles.ratingSubtext}>In 4 days</Text>
+            <Text style={styles.ratingButtonText}>😊 Easy</Text>
+            <Text style={styles.ratingSubtext}>4 days</Text>
           </TouchableOpacity>
         </View>
       )}
 
-      <View style={styles.navigationContainer}>
-        <TouchableOpacity
-          style={[styles.navButton, currentIndex === 0 && styles.navButtonDisabled]}
-          onPress={previousCard}
-          disabled={currentIndex === 0}
-        >
-          <Text style={styles.navButtonText}>← Previous</Text>
-        </TouchableOpacity>
+      {!isFlipped && (
+        <View style={styles.navigationContainer}>
+          <TouchableOpacity
+            style={[styles.navButton, currentIndex === 0 && styles.navButtonDisabled]}
+            onPress={previousCard}
+            disabled={currentIndex === 0}
+          >
+            <Text style={styles.navButtonText}>← Previous</Text>
+          </TouchableOpacity>
 
-        <TouchableOpacity
-          style={[
-            styles.navButton,
-            (currentIndex === cards.length - 1 || !isFlipped) && styles.navButtonDisabled,
-          ]}
-          onPress={() => handleRating('medium')}
-          disabled={currentIndex === cards.length - 1 || !isFlipped}
-        >
-          <Text style={styles.navButtonText}>Skip →</Text>
-        </TouchableOpacity>
-      </View>
+          <TouchableOpacity
+            style={[styles.navButton, styles.navButtonSecondary]}
+            onPress={() => navigation.goBack()}
+          >
+            <Text style={styles.navButtonText}>Exit</Text>
+          </TouchableOpacity>
+        </View>
+      )}
     </View>
   );
 }
@@ -293,6 +313,9 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f3f4f6',
     padding: 16,
+  },
+  darkBg: {
+    backgroundColor: '#111827',
   },
   centerContainer: {
     flex: 1,
@@ -305,8 +328,17 @@ const styles = StyleSheet.create({
     color: '#6b7280',
     marginBottom: 16,
   },
+  darkText: {
+    color: '#f3f4f6',
+  },
+  darkTextSecondary: {
+    color: '#9ca3af',
+  },
+  darkTextMuted: {
+    color: '#6b7280',
+  },
   backButton: {
-    backgroundColor: '#2563eb',
+    backgroundColor: '#3b82f6',
     paddingHorizontal: 24,
     paddingVertical: 12,
     borderRadius: 8,
@@ -317,24 +349,25 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   progressContainer: {
-    marginBottom: 16,
+    marginBottom: 20,
   },
   progressText: {
     fontSize: 16,
     color: '#6b7280',
     marginBottom: 8,
     textAlign: 'center',
+    fontWeight: '600',
   },
   progressBar: {
-    height: 4,
+    height: 6,
     backgroundColor: '#e5e7eb',
-    borderRadius: 2,
+    borderRadius: 3,
     overflow: 'hidden',
-    marginBottom: 4,
+    marginBottom: 8,
   },
   progressFill: {
     height: '100%',
-    backgroundColor: '#2563eb',
+    backgroundColor: '#3b82f6',
   },
   accuracyText: {
     fontSize: 14,
@@ -346,47 +379,55 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    marginVertical: 20,
+  },
+  cardTouchable: {
+    width: CARD_WIDTH,
+    height: 400,
   },
   card: {
-    width: CARD_WIDTH,
-    minHeight: 300,
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
     backgroundColor: '#fff',
-    borderRadius: 16,
+    borderRadius: 20,
     padding: 24,
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.2,
-    shadowRadius: 8,
-    elevation: 5,
+    shadowOpacity: 0.15,
+    shadowRadius: 12,
+    elevation: 8,
     backfaceVisibility: 'hidden',
   },
-  cardFront: {
-    position: 'absolute',
+  darkCard: {
+    backgroundColor: '#1f2937',
   },
-  cardBack: {
+  cardBackPositioned: {
     position: 'absolute',
   },
   cardLabel: {
     fontSize: 14,
-    color: '#6b7280',
-    fontWeight: '600',
+    color: '#9ca3af',
+    fontWeight: '700',
     textTransform: 'uppercase',
-    marginBottom: 12,
+    letterSpacing: 1,
+    marginBottom: 16,
   },
   cardText: {
-    fontSize: 24,
+    fontSize: 22,
     color: '#111827',
     fontWeight: '600',
     textAlign: 'center',
+    lineHeight: 32,
     marginBottom: 16,
   },
   difficultyBadge: {
-    paddingHorizontal: 12,
-    paddingVertical: 4,
-    borderRadius: 12,
-    marginTop: 8,
+    paddingHorizontal: 16,
+    paddingVertical: 6,
+    borderRadius: 16,
+    marginTop: 12,
   },
   badge_beginner: {
     backgroundColor: '#dcfce7',
@@ -399,80 +440,86 @@ const styles = StyleSheet.create({
   },
   difficultyText: {
     fontSize: 12,
-    fontWeight: '600',
+    fontWeight: '700',
     color: '#374151',
+    textTransform: 'capitalize',
   },
   notesContainer: {
     marginTop: 16,
-    padding: 12,
-    backgroundColor: '#f3f4f6',
-    borderRadius: 8,
+    padding: 16,
+    backgroundColor: '#f9fafb',
+    borderRadius: 12,
     width: '100%',
+  },
+  darkNotesContainer: {
+    backgroundColor: '#374151',
   },
   notesLabel: {
     fontSize: 12,
     color: '#6b7280',
-    fontWeight: '600',
-    marginBottom: 4,
+    fontWeight: '700',
+    marginBottom: 6,
+    textTransform: 'uppercase',
   },
   notesText: {
     fontSize: 14,
     color: '#374151',
-    lineHeight: 20,
+    lineHeight: 22,
   },
   tapHint: {
-    fontSize: 12,
+    fontSize: 13,
     color: '#9ca3af',
     fontStyle: 'italic',
-    marginTop: 8,
+    marginTop: 16,
   },
   ratingContainer: {
     flexDirection: 'row',
-    gap: 8,
-    marginBottom: 16,
+    gap: 12,
+    marginBottom: 20,
   },
   ratingButton: {
     flex: 1,
-    padding: 16,
-    borderRadius: 12,
+    paddingVertical: 18,
+    borderRadius: 16,
     alignItems: 'center',
+    borderWidth: 3,
   },
   hardButton: {
     backgroundColor: '#fef2f2',
-    borderWidth: 2,
     borderColor: '#ef4444',
   },
   mediumButton: {
-    backgroundColor: '#fefce8',
-    borderWidth: 2,
-    borderColor: '#eab308',
+    backgroundColor: '#fffbeb',
+    borderColor: '#f59e0b',
   },
   easyButton: {
     backgroundColor: '#f0fdf4',
-    borderWidth: 2,
     borderColor: '#22c55e',
   },
   ratingButtonText: {
     fontSize: 16,
-    fontWeight: '600',
+    fontWeight: '700',
     color: '#111827',
-    marginBottom: 2,
+    marginBottom: 4,
   },
   ratingSubtext: {
     fontSize: 12,
     color: '#6b7280',
+    fontWeight: '600',
   },
   navigationContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    gap: 16,
+    gap: 12,
   },
   navButton: {
     flex: 1,
-    backgroundColor: '#2563eb',
-    paddingVertical: 14,
+    backgroundColor: '#3b82f6',
+    paddingVertical: 16,
     borderRadius: 12,
     alignItems: 'center',
+  },
+  navButtonSecondary: {
+    backgroundColor: '#6b7280',
   },
   navButtonDisabled: {
     backgroundColor: '#d1d5db',
@@ -480,6 +527,6 @@ const styles = StyleSheet.create({
   navButtonText: {
     color: '#fff',
     fontSize: 16,
-    fontWeight: '600',
+    fontWeight: '700',
   },
 });
