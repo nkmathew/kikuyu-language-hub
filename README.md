@@ -252,18 +252,40 @@ flake8 .           # Linting
 
 The flashcards are curated from authentic native speaker content:
 - **Source**: Emmanuel Kariuki's Easy Kikuyu Facebook lessons
-- **Files Processed**: 64+ lesson files
+- **Files Processed**: 538 lesson files (100% complete!)
 - **Quality Control**: Manual curation with quality scores
 - **Format**: Structured JSON with metadata
-- **Batches**: Organized in batches 001-006
+- **Batches**: Organized in batches 001-054
+- **Total Flashcards**: 2000+ curated items
+
+### Content Source of Truth
+
+**Important**: `backend/curated-content/` is the single source of truth for all curated content.
+
+Content is synced to other apps using:
+```bash
+# Windows (Git Bash/MSYS)
+./sync-curated-content.bat
+
+# Linux/macOS
+./sync-curated-content.sh
+```
+
+The sync script copies content from `backend/curated-content/` to:
+- `flashcards-app/public/data/curated/` (Next.js app)
+- `kikuyu-flashcards-mobile/src/assets/data/curated/` (React Native app)
 
 ### Adding New Content
 
-1. Add JSON file to `flashcards-app/public/data/curated/[category]/`
-2. Update `src/lib/dataLoader.ts` to include the file
-3. Follow the schema in existing files
-4. Test locally with `npm run dev`
-5. Deploy via git push
+1. ✅ Add JSON file to `backend/curated-content/[category]/`
+2. ✅ Run sync script: `./sync-curated-content.bat` or `./sync-curated-content.sh`
+3. ✅ Update `flashcards-app/src/lib/dataLoader.ts` if adding new batches
+4. ✅ Follow the schema in `backend/curated-content/schema.json`
+5. ✅ Test locally with `npm run dev` in flashcards-app
+6. ✅ Commit changes (including synced copies)
+7. ✅ Deploy via git push
+
+**Note**: The synced directories are gitignored to prevent accidental inconsistencies.
 
 ## 🤝 Contributing
 

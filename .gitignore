@@ -34,3 +34,8 @@ yarn-debug.log*
 yarn-error.log*
 
 .next/
+
+# Curated content (source of truth: backend/curated-content/)
+# Other copies are synced via sync-curated-content script
+flashcards-app/public/data/curated/
+kikuyu-flashcards-mobile/src/assets/data/curated/
