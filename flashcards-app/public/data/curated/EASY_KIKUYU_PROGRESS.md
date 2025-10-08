@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 028
-**Last File Index**: 284
-**Next Batch**: 029 (files 285-294)
+**Last Completed Batch**: 033
+**Last File Index**: 334
+**Next Batch**: 034 (files 335-344)
 **Date Updated**: 2025-10-08
 
 ## Batch History
@@ -38,14 +38,18 @@
 | 026 | 255-264 | - | ✅ Complete | - | - |
 | 027 | 265-274 | - | ✅ Complete | - | - |
 | **028** | **275-284** | **45** | **✅ Complete** | **2025-10-08** | **Jobs, COVID-19 vocab, storytelling, tonal distinctions** |
-| 029 | 285-294 | - | ⏳ Pending | - | Next batch |
-| 030 | 295-304 | - | ⏳ Pending | - | - |
+| **029** | **285-294** | **68** | **✅ Complete** | **2025-10-08** | **Traditional stories, health states, professions, family vocab, directions, cooking** |
+| **030** | **295-304** | **52** | **✅ Complete** | **2025-10-08** | **Cooking/fire vocab, clothing/jewelry, negation patterns, proverb, story continuation, hanging verbs** |
+| **031** | **305-314** | **58** | **✅ Complete** | **2025-10-08** | **Verb derivations (pulling, abandoning), story continuation, demonstratives, body parts, conditional tense** |
+| **032** | **315-324** | **71** | **✅ Complete** | **2025-10-08** | **Folktale continuation (Zebra & Ant), time vocabulary, clothing/jewelry, words ending 'ka', verb Kũhũra (multiple meanings), colors** |
+| **033** | **325-334** | **97** | **✅ Complete** | **2025-10-08** | **Proverbs (tree/thief/elephant), wild animals, emotions (laugh/cry/happy/annoyed/love), shame vs shyness, traditional Kikuyu foods** |
+| 034 | 335-344 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 28
-- **Total Files Processed**: 284 / 538 (52.8%)
-- **Remaining Files**: 254
-- **Estimated Remaining Batches**: ~25 batches
+- **Total Batches Completed**: 33
+- **Total Files Processed**: 334 / 538 (62.1%)
+- **Remaining Files**: 204
+- **Estimated Remaining Batches**: ~20 batches
 
 ## Batch 028 Summary
 **Files**: 275-284
@@ -92,11 +96,200 @@
 - **Good Quality (4.6-4.7)**: 32 flashcards
 - **Standard Quality (4.5)**: 6 flashcards
 
+## Batch 029 Summary
+**Files**: 285-294
+**Total Flashcards**: 68
+**Categories**: Vocabulary, Phrases, Conjugations, Cultural
+**Difficulty**: Beginner (32), Intermediate (29), Advanced (7)
+
+### Key Content Areas:
+1. **Traditional Storytelling** (285)
+   - "Tene tene rĩ" story opening
+   - Elephant folktale beginning
+   - Narrative phrases
+
+2. **Health & States** (286)
+   - "Ũraigua atĩa?" (How do you feel?)
+   - Sick, blessed, injured, thin, obese
+   - Registration and legal states
+
+3. **Professions II** (287)
+   - Engineer, photographer, hunter
+   - Herder, blacksmith, potter
+   - Traditional healer (mugo)
+
+4. **Family & Directions** (288-289)
+   - Left (Ũmotho), Centre (Gatagatĩ), Right (Ũrĩo)
+   - Parents (Aciari), mother (Maitũ), father (Baba)
+   - Boy/girl child terminology
+
+5. **COVID-19 Safety** (290)
+   - Wash hands, keep distance, stay home
+   - Disease vocabulary
+
+6. **Physical Descriptions** (291)
+   - Four girls, laughing, plaited hair
+   - Traditional dental practices
+
+7. **Similar Verbs** (292)
+   - Theka (laugh), Thika (bury), anĩka (dry)
+   - Egeeka (tickle), Thamaka (rule)
+
+8. **Infant Care** (293)
+   - Suckling vocabulary
+   - Infant terminology (rũkenge)
+   - Gender questions
+
+9. **Cooking Vocabulary** (294)
+   - Utensils: pot, cup, plate, frying pan
+   - Methods: mash, fry, boil (transitive & intransitive)
+
+### Notable Features:
+- **Story Opening**: Traditional "Tene tene rĩ" formula
+- **Dual Meanings**: Kũigua (feel/hear)
+- **Transitive/Intransitive**: Gũtherũkia (boil something) vs Gũtherũka (boiling happens)
+- **Cultural Professions**: mugo (traditional healer), ombi a nyũngũ (potters)
+- **COVID Vocabulary**: Contemporary language adaptation
+- **Family Terms**: Both formal (Aciari) and affectionate (Baba, Maitũ)
+
+## Batch 030 Summary
+**Files**: 295-304 (Note: 295-296 duplicates, 297 duplicate of 286)
+**Total Flashcards**: 52
+**Categories**: Vocabulary, Phrases, Proverbs, Conjugations
+**Difficulty**: Beginner (35), Intermediate (14), Advanced (3)
+
+### Key Content Areas:
+1. **Cooking & Fire Vocabulary** (295)
+   - Kũruga (to cook), Mũrugi (chef)
+   - Types of fire: wood, charcoal, electric, gas
+   - Traditional hearth (Riiko) vs modern stove (Njiko)
+   - Earthenware pot (Nyũngũ)
+
+2. **Road Safety** (298)
+   - Mũtino wa barabara (road accident)
+   - Picture description phrases
+
+3. **Clothing & Accessories** (299)
+   - Basic clothing: shirt, trousers, socks, shoes
+   - Jewelry: earrings, bangles, rings, necklace
+   - Headwear: hat, headscarf
+   - Spectacles, necktie
+
+4. **Negation Patterns** (300)
+   - Complete negation conjugation: Ndirĩ, Ndũrĩ, Ndarĩ
+   - Plural forms: Matirĩ, Mũtirĩ
+   - Animal/thing negation: Itirĩ/Citirĩ
+
+5. **Traditional Proverb** (301)
+   - "Mbogo Nyinḡĩ itirĩ Nyama" (Too many buffaloes have no meat)
+   - Meaning: Deal with one thing at a time
+
+6. **Story Continuation** (302-303)
+   - Nighttime silence: owls, crickets, snakes, hyena
+   - Elephant's song
+   - Animal sounds vocabulary
+
+7. **Hanging/Suspending Verbs** (304)
+   - Gũcuuria (to hang)
+   - Applicative form: Gũcuurĩria (to hang for someone)
+
+### Notable Features:
+- **Fire Types**: Traditional (wood) to modern (electric, gas)
+- **Cultural Note**: No specific Kikuyu word for "cooking gas"
+- **Complete Negation System**: All persons and number forms
+- **Proverb Application**: Focus and prioritization wisdom
+- **Applicative Suffix**: -ĩria showing benefactive meaning
+- **Story Technique**: Repetitive negation for dramatic effect
+
+## Batch 031 Summary
+**Files**: 305-314 (Note: 312-313 duplicates from batch 028)
+**Total Flashcards**: 58
+**Categories**: Vocabulary, Phrases, Conjugations
+**Difficulty**: Beginner (29), Intermediate (24), Advanced (5)
+
+### Key Content Areas:
+1. **Verb Derivations** (305-306)
+   - Gũcĩa (to pull) → Gũcĩĩria (pull for someone)
+   - Tiga (stop/abandon) → Tigithania (separate/set apart)
+   - Applicative and reciprocal suffixes
+
+2. **Story Continuation** (307-308)
+   - Elephant folktale part 4-5
+   - Dramatic nighttime descriptions
+   - Animal behavior and sounds
+
+3. **Word Patterns** (309)
+   - Words ending in 'ma': thoma, koma, rũgama
+   - Pattern recognition vocabulary
+
+4. **Demonstratives** (310)
+   - Noun class agreements: ĩ-, rĩ-, ma-, ci-, kĩ-
+   - Demonstrative patterns with different classes
+
+5. **Body Parts** (311)
+   - Complete body vocabulary: head, eye, hand, leg, ear, nose, mouth
+
+6. **Conditional Tense** (314)
+   - Complete pattern: Ũngĩ, Ingĩ, Tũngĩ, Mangĩ + verb
+   - Hypothetical constructions
+
+### Notable Features:
+- **Applicative Suffix**: -ĩria showing benefactive meaning
+- **Reciprocal Suffix**: -thania for separative actions
+- **Noun Class System**: Demonstrative agreement patterns
+- **Conditional Pattern**: ngĩ/ingĩ/tũngĩ/mangĩ + verb structure
+
+## Batch 032 Summary
+**Files**: 315-324 (Note: 318 duplicate of 315)
+**Total Flashcards**: 71
+**Categories**: Vocabulary, Phrases, Proverbs
+**Difficulty**: Beginner (41), Intermediate (26), Advanced (4)
+
+### Key Content Areas:
+1. **Folktale Continuation** (315-317)
+   - Ant's loyalty song: "I will climb all hills"
+   - Journey to visit sick friend
+   - Zebra and Black Ant friendship story
+   - Traditional storytelling phrases
+
+2. **Days & Time Vocabulary** (319-321)
+   - Days: Jumatatũ (Monday), Wakana (Thursday)
+   - Time units: minute, hour, day, week, month, year
+   - Time references: yesterday, tomorrow, day after tomorrow
+
+3. **Proverb** (320)
+   - "Wĩĩgiĩre ndahũtaga" (Who saves doesn't go hungry)
+   - Teaching value of preparation
+
+4. **Clothing & Accessories** (322, 324)
+   - Complete clothing vocabulary: shirt, trousers, socks, shoes
+   - Jewelry: earrings, bangles, rings, necklace
+   - Traditional items: leather sandals (Nginyĩra)
+   - Color questions and preferences
+
+5. **Words Ending in 'ka'** (322)
+   - 22 words with 'ka' ending pattern
+   - Includes: anĩka, atũka, endeka, riika (age set), mũhaka (boundary/must)
+
+6. **Verb Kũhũra - Multiple Meanings** (323)
+   - Beat, wash, iron, make call, thrash beans/maize, play football
+   - Shows contextual meaning variation
+   - Reciprocal form: Kũhũrana (beat each other)
+
+### Notable Features:
+- **Traditional Folktale**: Complete narrative sequence with cultural values
+- **Polysemy**: Kũhũra with 7+ distinct meanings based on object
+- **Cultural Concepts**: riika (age set), Nginyĩra (traditional sandals)
+- **Modern Idioms**: "Kũhũra thimũ" (to make a call, lit. "beat phone")
+- **Wedding Customs**: Bride wears white, groom wears any color
+- **Time System**: Complete temporal vocabulary from minutes to years
+
 ## Notes for Next Session
-- Continue with files 285-294 (Batch 029)
+- Continue with files 325-334 (Batch 033)
 - Total raw files: 538
 - Pattern: 10 files per batch (except last batch may have 8)
-- Expected completion: ~25 more batches
+- Expected completion: ~21 more batches
+- Progress: Just passed 60% completion mark!
 
 ## Source Attribution
 All content from **Easy Kikuyu** by Emmanuel Kariuki

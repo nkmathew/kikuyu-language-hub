@@ -86,7 +86,13 @@ class DataLoader {
         'vocabulary/easy_kikuyu_batch_024_vocab.json',
         'vocabulary/easy_kikuyu_batch_025_vocab.json',
         'vocabulary/easy_kikuyu_batch_026_vocab.json',
-        'vocabulary/easy_kikuyu_batch_027_vocab.json'
+        'vocabulary/easy_kikuyu_batch_027_vocab.json',
+        'vocabulary/easy_kikuyu_batch_028_vocab.json',
+        'vocabulary/easy_kikuyu_batch_029_vocab.json',
+        'vocabulary/easy_kikuyu_batch_030_vocab.json',
+        'vocabulary/easy_kikuyu_batch_031_vocab.json',
+        'vocabulary/easy_kikuyu_batch_032_vocab.json',
+        'vocabulary/easy_kikuyu_batch_033_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
