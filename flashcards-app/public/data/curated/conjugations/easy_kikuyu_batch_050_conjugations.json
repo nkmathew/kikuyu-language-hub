@@ -1,0 +1,117 @@
+{
+  "batch": 50,
+  "source_files": "495-504",
+  "total_flashcards": 10,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "Present_Tense", "Future_Tense"],
+  "difficulty_distribution": {
+    "beginner": 5,
+    "intermediate": 3,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b50_conj_001",
+      "kikuyu": "woya",
+      "english": "have taken",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_conj_002",
+      "kikuyu": "moka",
+      "english": "have come",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_conj_003",
+      "kikuyu": "mwataha",
+      "english": "have fetched",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_conj_004",
+      "kikuyu": "arĩ",
+      "english": "he/she has",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #498"
+    },
+    {
+      "id": "ek_b50_conj_005",
+      "kikuyu": "kũhurũkaga",
+      "english": "to be resting",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Continuous tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_conj_006",
+      "kikuyu": "matihurũkaga",
+      "english": "they do not rest (continuous tense)",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Negative continuous tense",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_conj_007",
+      "kikuyu": "ũgacooka",
+      "english": "will you come back",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Future tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #500"
+    },
+    {
+      "id": "ek_b50_conj_008",
+      "kikuyu": "haica",
+      "english": "climb",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #503"
+    },
+    {
+      "id": "ek_b50_conj_009",
+      "kikuyu": "haicia",
+      "english": "raise, move something up",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #503"
+    },
+    {
+      "id": "ek_b50_conj_010",
+      "kikuyu": "haicia mūrigo waku ngarīīnī",
+      "english": "move your luggage inside the vehicle",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Complex imperative with object",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #501"
+    }
+  ]
+}

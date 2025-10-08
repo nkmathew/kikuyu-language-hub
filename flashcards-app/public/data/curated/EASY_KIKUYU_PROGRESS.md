@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 048
-**Last File Index**: 484
-**Next Batch**: 049 (files 485-494)
+**Last Completed Batch**: 050
+**Last File Index**: 504
+**Next Batch**: 051 (files 505-514)
 **Date Updated**: 2025-01-27
 
 ## Batch History
@@ -58,13 +58,15 @@
 | **046** | **455-464** | **110** | **✅ Complete** | **2025-01-27** | **Past tenses, food/drink vocabulary, fighting verbs, sequential actions, translation, giving verbs, historical story (Bowes and Kikuyu)** |
 | **047** | **465-474** | **95** | **✅ Complete** | **2025-01-27** | **Conditional tense, home vocabulary, New Year greetings, market conversations, birth verbs, family relationships, building verbs** |
 | **048** | **475-484** | **115** | **✅ Complete** | **2025-01-27** | **Family relationships, refuse verbs, auxiliary 'to have', greetings, animal vocabulary, news translation, lateness expressions, movement verbs** |
-| 049 | 485-494 | - | ⏳ Pending | - | Next batch |
+| **049** | **485-494** | **125** | **✅ Complete** | **2025-01-27** | **Demonstratives, food/cooking questions, stand/stop verbs, riddles, jobs vocabulary, look/sleep verbs, driving vocabulary, news translation, religious greetings** |
+| **050** | **495-504** | **125** | **✅ Complete** | **2025-01-27** | **Pronouns, animal names, classroom instructions, proverbs, location questions, climbing verbs, clothing vocabulary, monosyllables** |
+| 051 | 505-514 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 48
-- **Total Files Processed**: 484 / 538 (90.0%)
-- **Remaining Files**: 54
-- **Estimated Remaining Batches**: ~5 batches
+- **Total Batches Completed**: 50
+- **Total Files Processed**: 504 / 538 (93.7%)
+- **Remaining Files**: 34
+- **Estimated Remaining Batches**: ~3 batches
 
 ## Batch 028 Summary
 **Files**: 275-284
