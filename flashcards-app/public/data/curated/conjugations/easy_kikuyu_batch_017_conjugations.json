@@ -1,0 +1,43 @@
+{
+  "batch_info": {
+    "batch_number": "017",
+    "total_cards": 1,
+    "category": "conjugations",
+    "source_files": ["174.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T10:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-017-001",
+      "kikuyu": "3rd Person to 1st Person Conjugation Pattern",
+      "english": "3rd Singular (He/She): Nĩ aracaria (is searching) → 1st Singular (I): Nĩ ndiracaria (I am searching). 3rd Plural (They): Nĩ maroka (are coming) → 1st Plural (We): Nĩ tũrĩoka (We are coming)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Complete pattern showing transformation from 3rd to 1st person. Pattern: Nĩ a-/ma- → Nĩ ndi-/tũrĩa-. Examples: aracooka→ndiracooka (coming back), areka→ndireka (doing), araikara→ndiraikara (staying), marathĩĩ→tũrĩathĩĩ (going), marathooma→tũrĩathooma (reading)",
+      "quality_score": 4.8,
+      "examples": [
+        {
+          "kikuyu": "Nĩ arethamba → Nĩ ndirethamba",
+          "english": "He/She is bathing → I am bathing",
+          "notes": "3rd singular to 1st singular"
+        },
+        {
+          "kikuyu": "Nĩ maratheka → Nĩ tũrĩatheka",
+          "english": "They are laughing → We are laughing",
+          "notes": "3rd plural to 1st plural"
+        },
+        {
+          "kikuyu": "Nĩ marandĩka → Nĩ tũrĩandĩka",
+          "english": "They are writing → We are writing",
+          "notes": "3rd plural to 1st plural"
+        }
+      ],
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    }
+  ]
+}

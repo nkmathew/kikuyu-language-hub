@@ -1,0 +1,73 @@
+{
+  "batch_info": {
+    "batch_number": "017",
+    "total_cards": 3,
+    "category": "grammar",
+    "source_files": ["172.txt", "173.txt", "174.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T10:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "grammar-017-001",
+      "kikuyu": "Noun Class 4 & Diminutive Class",
+      "english": "Class 4 (Kĩ-/Gĩ- → Ci-/Ĩ-): Gĩkombe gĩkĩ kĩnene (this big cup) → Ĩkombe ĩcĩ nene (these big cups). Diminutive (Ka-/Ga- → tũ-): Gakombe gaka kega (this nice small cup) → tũkombe tũtũ twega (these nice small cups)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "notes": "Class 4: objects, man-made items, sometimes disrespected humans/animals. Diminutive: makes things sound small. Agreement pattern: noun prefix matches demonstrative and adjective. Examples: Kahĩĩ gakĩ gaceke (this slim small boy), Kanyoni gaka gathaka (this beautiful small bird)",
+      "quality_score": 4.8,
+      "examples": [
+        {
+          "kikuyu": "Gĩtarũrũ gĩkĩ kĩnene → Ĩtarũrũ ĩcĩ nene",
+          "english": "This big woven tray → These big woven trays",
+          "notes": "Class 4 example"
+        },
+        {
+          "kikuyu": "Gatarũrũ gaka karĩĩ → tũtarũrũ tũtũ twarĩĩ",
+          "english": "This wide small woven tray → These wide small woven trays",
+          "notes": "Diminutive example"
+        }
+      ],
+      "source": {
+        "origin": "Easy Kikuyu Lesson 172",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "grammar-017-002",
+      "kikuyu": "Consonant Examples (g, h, k)",
+      "english": "G: Guka gucia guoko gakwa (Grandfather, pull my hand), Gĩra gĩkombe gĩkĩ (Come for this cup). H: Haha hena heho (This place is cold), Huha mwaki wahota (Blow the fire if you can). K: Kairĩtu kena karamu (The girl has a pen), Kana kona kora kora (The child saw a frog and ran away)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "notes": "Pronunciation practice for velar consonants. Vocabulary: Gĩkombe (cup), Karamu (pen/pencil), Kĩura (frog), Kora (small frog). Shows alliteration for teaching pronunciation",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 173",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "grammar-017-003",
+      "kikuyu": "Conjunctions - Complete System",
+      "english": "Na (and/nor), No (but), Kana (or), Thutha wa (after), Ona gũtũĩka (although), Tondũ wa/niamu (because), Kinya rĩrĩa (till)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "notes": "Most conjunctions are phrases, few are single words. Examples: Nĩ marĩaga ngũrũwe na makanyua njohi (They eat pork and drink beer), Nĩ mathakaga no matinaga (They play but they do not dance), No woye karamu kana ibuku (You can take a pen or a book)",
+      "quality_score": 4.7,
+      "examples": [
+        {
+          "kikuyu": "Matirĩaga ngũrũwe na matinyuaga njohi",
+          "english": "They neither eat pork nor do they drink beer",
+          "notes": "Na used for 'nor' in negative context"
+        }
+      ],
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    }
+  ]
+}
