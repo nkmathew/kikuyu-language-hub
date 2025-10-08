@@ -39,7 +39,7 @@ export default function FlashcardScreen({ navigation, route }: Props) {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const flipAnimation = useRef(new Animated.Value(0)).current;
   const colorScheme = useColorScheme();
-  const isDark = true; // Force dark mode as default
+  const isDark = colorScheme === 'dark' || true;
 
   useEffect(() => {
     loadCards();
@@ -261,7 +261,7 @@ export default function FlashcardScreen({ navigation, route }: Props) {
       {isFlipped && (
         <View style={styles.ratingContainer}>
           <TouchableOpacity
-            style={[styles.ratingButton, styles.hardButton]}
+            style={[styles.ratingButton, styles.hardButton, isDark && styles.darkRatingHard]}
             onPress={() => handleRating('hard')}
           >
             <Text style={styles.ratingButtonText}>😰 Hard</Text>
@@ -269,7 +269,7 @@ export default function FlashcardScreen({ navigation, route }: Props) {
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={[styles.ratingButton, styles.mediumButton]}
+            style={[styles.ratingButton, styles.mediumButton, isDark && styles.darkRatingMedium]}
             onPress={() => handleRating('medium')}
           >
             <Text style={styles.ratingButtonText}>🤔 Good</Text>
@@ -277,7 +277,7 @@ export default function FlashcardScreen({ navigation, route }: Props) {
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={[styles.ratingButton, styles.easyButton]}
+            style={[styles.ratingButton, styles.easyButton, isDark && styles.darkRatingEasy]}
             onPress={() => handleRating('easy')}
           >
             <Text style={styles.ratingButtonText}>😊 Easy</Text>
@@ -289,7 +289,7 @@ export default function FlashcardScreen({ navigation, route }: Props) {
       {!isFlipped && (
         <View style={styles.navigationContainer}>
           <TouchableOpacity
-            style={[styles.navButton, currentIndex === 0 && styles.navButtonDisabled]}
+            style={[styles.navButton, currentIndex === 0 && (isDark ? styles.navButtonDisabledDark : styles.navButtonDisabled)]}
             onPress={previousCard}
             disabled={currentIndex === 0}
           >
@@ -304,7 +304,7 @@ export default function FlashcardScreen({ navigation, route }: Props) {
           </TouchableOpacity>
 
           <TouchableOpacity
-            style={[styles.navButton, currentIndex === cards.length - 1 && styles.navButtonDisabled]}
+            style={[styles.navButton, currentIndex === cards.length - 1 && (isDark ? styles.navButtonDisabledDark : styles.navButtonDisabled)]}
             onPress={nextCard}
             disabled={currentIndex === cards.length - 1}
           >
@@ -531,6 +531,21 @@ const styles = StyleSheet.create({
   },
   navButtonDisabled: {
     backgroundColor: '#d1d5db',
+  },
+  navButtonDisabledDark: {
+    backgroundColor: '#374151',
+  },
+  darkRatingHard: {
+    backgroundColor: '#7f1d1d',
+    borderColor: '#ef4444',
+  },
+  darkRatingMedium: {
+    backgroundColor: '#78350f',
+    borderColor: '#f59e0b',
+  },
+  darkRatingEasy: {
+    backgroundColor: '#064e3b',
+    borderColor: '#22c55e',
   },
   navButtonText: {
     color: '#fff',

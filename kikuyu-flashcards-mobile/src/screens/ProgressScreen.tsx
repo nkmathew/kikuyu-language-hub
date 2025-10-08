@@ -22,7 +22,7 @@ export default function ProgressScreen() {
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
   const colorScheme = useColorScheme();
-  const isDark = true; // Force dark mode as default
+  const isDark = colorScheme === 'dark' || true;
 
   useFocusEffect(
     useCallback(() => {
@@ -135,7 +135,7 @@ export default function ProgressScreen() {
       {studyStats && studyStats.totalCards > 0 && (
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Learning Status</Text>
-          <View style={styles.card}>
+          <View style={[styles.card, isDark && styles.darkCard]}>
             <View style={styles.progressRow}>
               <Text style={styles.progressLabel}>Due Today</Text>
               <Text style={[styles.progressValue, styles.dueValue]}>{studyStats.dueToday}</Text>
@@ -152,7 +152,7 @@ export default function ProgressScreen() {
               <Text style={styles.progressLabel}>Mastered</Text>
               <Text style={[styles.progressValue, styles.masteredValue]}>{studyStats.mastered}</Text>
             </View>
-            <View style={styles.divider} />
+            <View style={[styles.divider, isDark && styles.darkDivider]} />
             <View style={styles.progressRow}>
               <Text style={styles.progressLabel}>Total Cards</Text>
               <Text style={[styles.progressValue, styles.totalValue]}>{studyStats.totalCards}</Text>
@@ -175,20 +175,20 @@ export default function ProgressScreen() {
             const timeAgo = getTimeAgo(date);
 
             return (
-              <View key={index} style={styles.sessionCard}>
+              <View key={index} style={[styles.sessionCard, isDark && styles.darkCard]}>
                 <View style={styles.sessionHeader}>
-                  <Text style={styles.sessionCategory}>{session.category}</Text>
-                  <Text style={styles.sessionTime}>{timeAgo}</Text>
+                  <Text style={[styles.sessionCategory, isDark && styles.darkText]}>{session.category}</Text>
+                  <Text style={[styles.sessionTime, isDark && styles.darkTextSecondary]}>{timeAgo}</Text>
                 </View>
                 <View style={styles.sessionStats}>
-                  <Text style={styles.sessionText}>
+                  <Text style={[styles.sessionText, isDark && styles.darkTextSecondary]}>
                     {session.cardsStudied} cards • {accuracy}% accuracy
                   </Text>
-                  <Text style={styles.sessionDifficulty}>
+                  <Text style={[styles.sessionDifficulty, isDark && styles.darkTextSecondary]}>
                     {session.difficulty.join(', ')}
                   </Text>
                 </View>
-                <View style={styles.sessionProgressBar}>
+                <View style={[styles.sessionProgressBar, isDark && styles.darkProgressBar]}>
                   <View style={[styles.sessionProgressFill, { width: `${accuracy}%` }]} />
                 </View>
               </View>
@@ -200,7 +200,7 @@ export default function ProgressScreen() {
       {/* Overall Performance */}
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Overall Performance</Text>
-        <View style={styles.card}>
+        <View style={[styles.card, isDark && styles.darkCard]}>
           <View style={styles.performanceRow}>
             <Text style={styles.performanceLabel}>Average Accuracy</Text>
             <Text style={[styles.performanceValue, getAccuracyStyle(averageAccuracy)]}>
@@ -241,7 +241,7 @@ export default function ProgressScreen() {
       </View>
 
       <View style={styles.footer}>
-        <Text style={styles.footerText}>Pull down to refresh</Text>
+        <Text style={[styles.footerText, isDark && styles.darkTextSecondary]}>Pull down to refresh</Text>
       </View>
     </ScrollView>
   );
@@ -377,6 +377,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#e5e7eb',
     marginVertical: 8,
   },
+  darkDivider: {
+    backgroundColor: '#374151',
+  },
   sessionCard: {
     backgroundColor: '#fff',
     borderRadius: 12,
@@ -422,6 +425,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#e5e7eb',
     borderRadius: 2,
     overflow: 'hidden',
+  },
+  darkProgressBar: {
+    backgroundColor: '#374151',
   },
   sessionProgressFill: {
     height: '100%',

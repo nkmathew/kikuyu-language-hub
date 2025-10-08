@@ -31,7 +31,7 @@ export default function HomeScreen({ navigation }: Props) {
   const [categories, setCategories] = useState<CategoryItem[]>([]);
   const [loading, setLoading] = useState(true);
   const colorScheme = useColorScheme();
-  const isDark = true; // Force dark mode as default
+  const isDark = colorScheme === 'dark' || true;
 
   useEffect(() => {
     loadCategories();

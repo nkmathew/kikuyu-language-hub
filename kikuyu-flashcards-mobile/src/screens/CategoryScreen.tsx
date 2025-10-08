@@ -28,7 +28,7 @@ export default function CategoryScreen({ navigation, route }: Props) {
   const [selectedDifficulties, setSelectedDifficulties] = useState<DifficultyLevel[]>(['beginner']);
   const [loading, setLoading] = useState(true);
   const colorScheme = useColorScheme();
-  const isDark = true; // Force dark mode as default
+  const isDark = colorScheme === 'dark' || true;
 
   useEffect(() => {
     loadCategoryData();
@@ -58,6 +58,13 @@ export default function CategoryScreen({ navigation, route }: Props) {
 
   const handleStartStudy = () => {
     navigation.navigate('Flashcard', {
+      category,
+      difficulties: selectedDifficulties,
+    });
+  };
+
+  const handleOpenStudyList = () => {
+    navigation.navigate('StudyList', {
       category,
       difficulties: selectedDifficulties,
     });
@@ -149,6 +156,19 @@ export default function CategoryScreen({ navigation, route }: Props) {
           <Text style={styles.startButtonText}>
             Start Studying ({totalSelectedCards} cards)
           </Text>
+        </TouchableOpacity>
+        <View style={{ height: 12 }} />
+        <TouchableOpacity
+          style={[
+            styles.startButton,
+            { backgroundColor: '#111827', borderWidth: 2, borderColor: '#2563eb' },
+            totalSelectedCards === 0 && styles.startButtonDisabled,
+          ]}
+          onPress={handleOpenStudyList}
+          disabled={totalSelectedCards === 0}
+          activeOpacity={0.8}
+        >
+          <Text style={styles.startButtonText}>Study List Mode</Text>
         </TouchableOpacity>
       </View>
     </ScrollView>

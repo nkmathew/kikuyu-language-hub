@@ -1,7 +1,8 @@
 import React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
+import { NavigationContainer, DarkTheme, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+import { useColorScheme } from 'react-native';
 import { CategoryType, DifficultyLevel } from '../types/flashcard';
 
 // Screens
@@ -9,11 +10,13 @@ import HomeScreen from '../screens/HomeScreen';
 import CategoryScreen from '../screens/CategoryScreen';
 import FlashcardScreen from '../screens/FlashcardScreen';
 import ProgressScreen from '../screens/ProgressScreen';
+import StudyListScreen from '../screens/StudyListScreen';
 
 export type RootStackParamList = {
   Home: undefined;
   Category: { category: CategoryType };
   Flashcard: { category: CategoryType; difficulties: DifficultyLevel[] };
+  StudyList: { category: CategoryType; difficulties: DifficultyLevel[] };
 };
 
 export type BottomTabParamList = {
@@ -52,17 +55,28 @@ function HomeStack() {
         component={FlashcardScreen}
         options={{ title: 'Study' }}
       />
+      <Stack.Screen
+        name="StudyList"
+        component={StudyListScreen}
+        options={{ title: 'Study List' }}
+      />
     </Stack.Navigator>
   );
 }
 
 export default function AppNavigator() {
+  const colorScheme = useColorScheme();
+  const isDark = colorScheme === 'dark' || true;
   return (
-    <NavigationContainer>
+    <NavigationContainer theme={isDark ? DarkTheme : DefaultTheme}>
       <Tab.Navigator
         screenOptions={{
-          tabBarActiveTintColor: '#2563eb',
-          tabBarInactiveTintColor: '#6b7280',
+          tabBarActiveTintColor: isDark ? '#60a5fa' : '#2563eb',
+          tabBarInactiveTintColor: isDark ? '#9ca3af' : '#6b7280',
+          tabBarStyle: {
+            backgroundColor: isDark ? '#111827' : '#ffffff',
+            borderTopColor: isDark ? '#374151' : '#e5e7eb',
+          },
           headerShown: false,
         }}
       >
