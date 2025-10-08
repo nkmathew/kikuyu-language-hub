@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 039
-**Last File Index**: 394
-**Next Batch**: 040 (files 395-404)
+**Last Completed Batch**: 040
+**Last File Index**: 404
+**Next Batch**: 041 (files 405-414)
 **Date Updated**: 2025-01-27
 
 ## Batch History
@@ -49,13 +49,14 @@
 | **037** | **365-374** | **55** | **✅ Complete** | **2025-01-27** | **Greetings, proverbs (slander vs knife/staying home), insult vocabulary, professions (engineer, photographer, hunter, herder, potters, traditional healer), conversation questions, days, running verbs with derivations** |
 | **038** | **375-384** | **86** | **✅ Complete** | **2025-01-27** | **Proverbs (cleverness/unity/education), verb conjugations (accept/achieve/do/put), health states, professions (seller/buyer/leader/artist/architect/soldier), plural commands grammar, colors conversation** |
 | **039** | **385-394** | **65** | **✅ Complete** | **2025-01-27** | **Proverb (leopard baby like mother), transportation vocabulary, escort verbs, school conversations, negation patterns, prayers, alcohol advice** |
-| 040 | 395-404 | - | ⏳ Pending | - | Next batch |
+| **040** | **395-404** | **77** | **✅ Complete** | **2025-01-27** | **Prayers & forgiveness, months/dates, emotions vocabulary, proverbs about old age, enter verbs, travel vocabulary, April Fools, cultural emotions** |
+| 041 | 405-414 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 39
-- **Total Files Processed**: 394 / 538 (73.2%)
-- **Remaining Files**: 144
-- **Estimated Remaining Batches**: ~14 batches
+- **Total Batches Completed**: 40
+- **Total Files Processed**: 404 / 538 (75.1%)
+- **Remaining Files**: 134
+- **Estimated Remaining Batches**: ~13 batches
 
 ## Batch 028 Summary
 **Files**: 275-284

@@ -1,0 +1,50 @@
+{
+  "batch": 40,
+  "source_files": "395-404",
+  "total_flashcards": 2,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Proverbs"],
+  "difficulty_distribution": {
+    "beginner": 0,
+    "intermediate": 1,
+    "advanced": 1
+  },
+  "flashcards": [
+    {
+      "id": "ek_b40_proverb_001",
+      "kikuyu": "ũkũrũ ti mũrimũ",
+      "english": "Old age is not a disease",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about aging",
+      "cultural_notes": "Respect for elderly - old age is natural, not an illness",
+      "sub_translations": [
+        {"kikuyu": "ũkũrũ", "english": "old age"},
+        {"kikuyu": "ti", "english": "is not"},
+        {"kikuyu": "mũrimũ", "english": "disease"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #399"
+    },
+    {
+      "id": "ek_b40_proverb_002",
+      "kikuyu": "ũkũrũ ndũgaga mbu ũgĩũka",
+      "english": "Old age does not ululate (announce) when it is coming",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about aging",
+      "cultural_notes": "Old age creeps on you - don't laugh at old people",
+      "sub_translations": [
+        {"kikuyu": "ũkũrũ", "english": "old age"},
+        {"kikuyu": "ndũgaga", "english": "does not ululate"},
+        {"kikuyu": "mbu", "english": "ululate"},
+        {"kikuyu": "ũgĩũka", "english": "when it is coming"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #401"
+    }
+  ]
+}
