@@ -25,7 +25,7 @@ interface Props {
 export default function CategoryScreen({ navigation, route }: Props) {
   const { category } = route.params;
   const [categoryData, setCategoryData] = useState<CategoryData | null>(null);
-  const [selectedDifficulties, setSelectedDifficulties] = useState<DifficultyLevel[]>(['beginner']);
+  const [selectedDifficulties, setSelectedDifficulties] = useState<DifficultyLevel[]>(['all']);
   const [loading, setLoading] = useState(true);
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
@@ -47,11 +47,18 @@ export default function CategoryScreen({ navigation, route }: Props) {
 
   const toggleDifficulty = (difficulty: DifficultyLevel) => {
     setSelectedDifficulties(prev => {
-      if (prev.includes(difficulty)) {
-        const newSelection = prev.filter(d => d !== difficulty);
-        return newSelection.length > 0 ? newSelection : prev;
+      if (difficulty === 'all') {
+        // If "all" is selected, clear other selections and select only "all"
+        return ['all'];
       } else {
-        return [...prev, difficulty];
+        // If a specific difficulty is selected, remove "all" and add the specific difficulty
+        if (prev.includes(difficulty)) {
+          const newSelection = prev.filter(d => d !== difficulty);
+          return newSelection.length > 0 ? newSelection : ['all'];
+        } else {
+          const withoutAll = prev.filter(d => d !== 'all');
+          return [...withoutAll, difficulty];
+        }
       }
     });
   };
@@ -86,9 +93,11 @@ export default function CategoryScreen({ navigation, route }: Props) {
     );
   }
 
-  const totalSelectedCards = selectedDifficulties.reduce((sum, diff) => {
-    return sum + categoryData.difficulty_counts[diff];
-  }, 0);
+  const totalSelectedCards = selectedDifficulties.includes('all') 
+    ? categoryData.total_count 
+    : selectedDifficulties.reduce((sum, diff) => {
+        return sum + categoryData.difficulty_counts[diff];
+      }, 0);
 
   return (
     <ScrollView style={[styles.container, isDark && styles.darkBg]}>
@@ -104,6 +113,36 @@ export default function CategoryScreen({ navigation, route }: Props) {
         <Text style={[styles.sectionSubtitle, isDark && styles.darkTextSecondary]}>Choose one or more levels</Text>
 
         <View style={styles.difficultyContainer}>
+          {/* All option */}
+          <TouchableOpacity
+            style={[
+              styles.difficultyCard,
+              isDark && styles.darkCard,
+              selectedDifficulties.includes('all') && (isDark ? styles.darkDifficultyCardSelected : styles.difficultyCardSelected),
+            ]}
+            onPress={() => toggleDifficulty('all')}
+            activeOpacity={0.7}
+          >
+            <View style={styles.difficultyHeader}>
+              <Text style={[
+                styles.difficultyTitle,
+                isDark && styles.darkText,
+                selectedDifficulties.includes('all') && styles.difficultyTitleSelected,
+              ]}>
+                All
+              </Text>
+              {selectedDifficulties.includes('all') && <Text style={styles.checkmark}>✓</Text>}
+            </View>
+            <Text style={[
+              styles.difficultyCount,
+              isDark && styles.darkTextSecondary,
+              selectedDifficulties.includes('all') && styles.difficultyCountSelected,
+            ]}>
+              {categoryData.total_count} cards
+            </Text>
+          </TouchableOpacity>
+
+          {/* Individual difficulty options */}
           {(['beginner', 'intermediate', 'advanced'] as DifficultyLevel[]).map(difficulty => {
             const count = categoryData.difficulty_counts[difficulty];
             const isSelected = selectedDifficulties.includes(difficulty);

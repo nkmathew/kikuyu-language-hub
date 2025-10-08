@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, useColorScheme, Clipboard, Alert } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, useColorScheme, Clipboard, Alert, ActivityIndicator } from 'react-native';
 import { RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigation/AppNavigator';
 import { Flashcard } from '../types/flashcard';
 import { dataLoader } from '../lib/dataLoader';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import LoadingSpinner from '../components/LoadingSpinner';
+import LoadingOverlay from '../components/LoadingOverlay';
 
 type StudyListNavigationProp = NativeStackNavigationProp<RootStackParamList, 'StudyList'>;
 type StudyListRouteProp = RouteProp<RootStackParamList, 'StudyList'>;
@@ -15,7 +17,7 @@ interface Props {
   route: StudyListRouteProp;
 }
 
-type SortOption = 'difficulty' | 'recent' | 'alphabetical';
+type SortOption = 'difficulty' | 'recent' | 'alphabetical' | 'length';
 
 export default function StudyListScreen({ route }: Props) {
   const { category, difficulties } = route.params;
@@ -23,23 +25,32 @@ export default function StudyListScreen({ route }: Props) {
   const [sortBy, setSortBy] = useState<SortOption>('recent');
   const [flaggedItems, setFlaggedItems] = useState<Set<string>>(new Set());
   const [currentPosition, setCurrentPosition] = useState({ visibleStart: 0, visibleEnd: 0, total: 0 });
+  const [loading, setLoading] = useState(true);
+  const [exporting, setExporting] = useState(false);
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
 
   useEffect(() => {
     (async () => {
-      const categoryData = await dataLoader.loadCategory(category);
-      const selected = dataLoader.getCardsByDifficulty(categoryData, difficulties);
-      setItems(selected);
-      
-      // Load flagged items from storage
       try {
-        const storedFlagged = await AsyncStorage.getItem('flaggedItems');
-        if (storedFlagged) {
-          setFlaggedItems(new Set(JSON.parse(storedFlagged)));
+        setLoading(true);
+        const categoryData = await dataLoader.loadCategory(category);
+        const selected = dataLoader.getCardsByDifficulty(categoryData, difficulties);
+        setItems(selected);
+        
+        // Load flagged items from storage
+        try {
+          const storedFlagged = await AsyncStorage.getItem('flaggedItems');
+          if (storedFlagged) {
+            setFlaggedItems(new Set(JSON.parse(storedFlagged)));
+          }
+        } catch (error) {
+          console.error('Error loading flagged items:', error);
         }
       } catch (error) {
-        console.error('Error loading flagged items:', error);
+        console.error('Error loading study list:', error);
+      } finally {
+        setLoading(false);
       }
     })();
   }, [category, difficulties]);
@@ -60,6 +71,17 @@ export default function StudyListScreen({ route }: Props) {
         });
       case 'alphabetical':
         return sorted.sort((a, b) => a.kikuyu.localeCompare(b.kikuyu));
+      case 'length':
+        return sorted.sort((a, b) => {
+          // Sort by Kikuyu word length (shortest first)
+          const aLength = a.kikuyu.length;
+          const bLength = b.kikuyu.length;
+          if (aLength !== bLength) {
+            return aLength - bLength;
+          }
+          // If lengths are equal, sort alphabetically
+          return a.kikuyu.localeCompare(b.kikuyu);
+        });
       default:
         return sorted;
     }
@@ -86,24 +108,33 @@ export default function StudyListScreen({ route }: Props) {
     Alert.alert('Copied!', 'Text copied to clipboard');
   };
 
-  const exportFlaggedItems = () => {
+  const exportFlaggedItems = async () => {
     const flaggedCards = items.filter(item => flaggedItems.has(item.id));
     if (flaggedCards.length === 0) {
       Alert.alert('No Flagged Items', 'Please flag some items first');
       return;
     }
     
-    const exportData = flaggedCards.map(card => ({
-      kikuyu: card.kikuyu,
-      english: card.english,
-      difficulty: card.difficulty,
-      category: card.category,
-      notes: card.cultural_notes || card.notes || '',
-    }));
-    
-    const jsonString = JSON.stringify(exportData, null, 2);
-    Clipboard.setString(jsonString);
-    Alert.alert('Exported!', `Copied ${flaggedCards.length} flagged items to clipboard`);
+    try {
+      setExporting(true);
+      
+      const exportData = flaggedCards.map(card => ({
+        kikuyu: card.kikuyu,
+        english: card.english,
+        difficulty: card.difficulty,
+        category: card.category,
+        notes: card.cultural_notes || card.notes || '',
+      }));
+      
+      const jsonString = JSON.stringify(exportData, null, 2);
+      Clipboard.setString(jsonString);
+      Alert.alert('Exported!', `Copied ${flaggedCards.length} flagged items to clipboard`);
+    } catch (error) {
+      Alert.alert('Export Error', 'Failed to export flagged items');
+      console.error('Export error:', error);
+    } finally {
+      setExporting(false);
+    }
   };
 
   const renderItem = ({ item }: { item: Flashcard }) => {
@@ -165,6 +196,10 @@ export default function StudyListScreen({ route }: Props) {
 
   const sortedItems = sortItems(items, sortBy);
 
+  if (loading) {
+    return <LoadingSpinner message="Loading study list..." />;
+  }
+
   const handleViewableItemsChanged = ({ viewableItems }: any) => {
     if (viewableItems.length > 0) {
       const firstIndex = viewableItems[0].index || 0;
@@ -204,18 +239,40 @@ export default function StudyListScreen({ route }: Props) {
           >
             <Text style={[styles.sortButtonText, isDark && styles.darkSortButtonText]}>🔤 A-Z</Text>
           </TouchableOpacity>
+          <TouchableOpacity 
+            style={[styles.sortButton, isDark && styles.darkSortButton, sortBy === 'length' && styles.sortButtonActive]}
+            onPress={() => setSortBy('length')}
+          >
+            <Text style={[styles.sortButtonText, isDark && styles.darkSortButtonText]}>📏 Length</Text>
+          </TouchableOpacity>
         </View>
         {flaggedItems.size > 0 && (
           <TouchableOpacity 
-            style={[styles.exportButton, isDark && styles.darkExportButton]}
+            style={[
+              styles.exportButton, 
+              isDark && styles.darkExportButton,
+              exporting && styles.exportButtonDisabled
+            ]}
             onPress={exportFlaggedItems}
+            disabled={exporting}
           >
-            <Text style={styles.exportButtonText}>
-              📤 Export {flaggedItems.size} Flagged
-            </Text>
+            {exporting ? (
+              <View style={styles.exportLoadingContainer}>
+                <ActivityIndicator size="small" color="#fff" />
+                <Text style={styles.exportButtonText}>Exporting...</Text>
+              </View>
+            ) : (
+              <Text style={styles.exportButtonText}>
+                📤 Export {flaggedItems.size} Flagged
+              </Text>
+            )}
           </TouchableOpacity>
         )}
       </View>
+      <LoadingOverlay 
+        visible={exporting} 
+        message="Exporting flagged items..." 
+      />
       <FlatList
         data={sortedItems}
         keyExtractor={i => i.id}
@@ -456,6 +513,26 @@ const styles = StyleSheet.create({
   },
   darkSortButtonText: {
     color: '#d1d5db',
+  },
+  centerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f3f4f6',
+  },
+  loadingText: {
+    marginTop: 16,
+    fontSize: 16,
+    color: '#6b7280',
+    textAlign: 'center',
+  },
+  exportButtonDisabled: {
+    opacity: 0.6,
+  },
+  exportLoadingContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
   },
 });
 

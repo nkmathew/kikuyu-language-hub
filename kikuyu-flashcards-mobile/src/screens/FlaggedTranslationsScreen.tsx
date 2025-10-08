@@ -13,6 +13,7 @@ import {
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Flashcard } from '../types/flashcard';
 import { dataLoader } from '../lib/dataLoader';
+import LoadingSpinner from '../components/LoadingSpinner';
 
 export default function FlaggedTranslationsScreen() {
   const [flaggedItems, setFlaggedItems] = useState<Flashcard[]>([]);
@@ -190,11 +191,7 @@ export default function FlaggedTranslationsScreen() {
   );
 
   if (loading) {
-    return (
-      <View style={[styles.container, isDark && styles.darkBg]}>
-        <Text style={[styles.loadingText, isDark && styles.darkText]}>Loading flagged items...</Text>
-      </View>
-    );
+    return <LoadingSpinner message="Loading flagged items..." />;
   }
 
   return (

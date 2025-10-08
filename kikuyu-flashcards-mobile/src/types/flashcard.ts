@@ -136,5 +136,5 @@ export interface UserPreferences {
 }
 
 export type StudyMode = 'flashcards' | 'quiz' | 'review';
-export type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced';
+export type DifficultyLevel = 'beginner' | 'intermediate' | 'advanced' | 'all';
 export type CategoryType = 'vocabulary' | 'proverbs' | 'conjugations' | 'grammar' | 'general' | 'phrases' | 'all';

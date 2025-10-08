@@ -116,6 +116,11 @@ class DataLoader {
   getCardsByDifficulty(categoryData: CategoryData, difficulties: string[]): Flashcard[] {
     const cards: Flashcard[] = [];
 
+    // If "all" is in the difficulties array, return all cards
+    if (difficulties.includes('all')) {
+      return categoryData.items.all;
+    }
+
     difficulties.forEach(difficulty => {
       switch (difficulty.toLowerCase()) {
         case 'beginner':
