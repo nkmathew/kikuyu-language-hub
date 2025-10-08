@@ -39,7 +39,7 @@ export default function FlashcardScreen({ navigation, route }: Props) {
   const [correctAnswers, setCorrectAnswers] = useState(0);
   const flipAnimation = useRef(new Animated.Value(0)).current;
   const colorScheme = useColorScheme();
-  const isDark = colorScheme === 'dark';
+  const isDark = true; // Force dark mode as default
 
   useEffect(() => {
     loadCards();
@@ -301,6 +301,14 @@ export default function FlashcardScreen({ navigation, route }: Props) {
             onPress={() => navigation.goBack()}
           >
             <Text style={styles.navButtonText}>Exit</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.navButton, currentIndex === cards.length - 1 && styles.navButtonDisabled]}
+            onPress={nextCard}
+            disabled={currentIndex === cards.length - 1}
+          >
+            <Text style={styles.navButtonText}>Next →</Text>
           </TouchableOpacity>
         </View>
       )}

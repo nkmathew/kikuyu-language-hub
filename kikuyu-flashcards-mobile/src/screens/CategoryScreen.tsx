@@ -6,6 +6,7 @@ import {
   TouchableOpacity,
   ActivityIndicator,
   ScrollView,
+  useColorScheme,
 } from 'react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RouteProp } from '@react-navigation/native';
@@ -26,6 +27,8 @@ export default function CategoryScreen({ navigation, route }: Props) {
   const [categoryData, setCategoryData] = useState<CategoryData | null>(null);
   const [selectedDifficulties, setSelectedDifficulties] = useState<DifficultyLevel[]>(['beginner']);
   const [loading, setLoading] = useState(true);
+  const colorScheme = useColorScheme();
+  const isDark = true; // Force dark mode as default
 
   useEffect(() => {
     loadCategoryData();
@@ -62,16 +65,16 @@ export default function CategoryScreen({ navigation, route }: Props) {
 
   if (loading) {
     return (
-      <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#2563eb" />
+      <View style={[styles.centerContainer, isDark && styles.darkBg]}>
+        <ActivityIndicator size="large" color="#3b82f6" />
       </View>
     );
   }
 
   if (!categoryData) {
     return (
-      <View style={styles.centerContainer}>
-        <Text style={styles.errorText}>Failed to load category data</Text>
+      <View style={[styles.centerContainer, isDark && styles.darkBg]}>
+        <Text style={[styles.errorText, isDark && styles.darkText]}>Failed to load category data</Text>
       </View>
     );
   }
@@ -81,17 +84,17 @@ export default function CategoryScreen({ navigation, route }: Props) {
   }, 0);
 
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView style={[styles.container, isDark && styles.darkBg]}>
       <View style={styles.statsContainer}>
-        <View style={styles.statCard}>
-          <Text style={styles.statNumber}>{categoryData.total_count}</Text>
-          <Text style={styles.statLabel}>Total Cards</Text>
+        <View style={[styles.statCard, isDark && styles.darkCard]}>
+          <Text style={[styles.statNumber, isDark && styles.darkTextPrimary]}>{categoryData.total_count}</Text>
+          <Text style={[styles.statLabel, isDark && styles.darkTextSecondary]}>Total Cards</Text>
         </View>
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Select Difficulty</Text>
-        <Text style={styles.sectionSubtitle}>Choose one or more levels</Text>
+        <Text style={[styles.sectionTitle, isDark && styles.darkText]}>Select Difficulty</Text>
+        <Text style={[styles.sectionSubtitle, isDark && styles.darkTextSecondary]}>Choose one or more levels</Text>
 
         <View style={styles.difficultyContainer}>
           {(['beginner', 'intermediate', 'advanced'] as DifficultyLevel[]).map(difficulty => {
@@ -103,6 +106,7 @@ export default function CategoryScreen({ navigation, route }: Props) {
                 key={difficulty}
                 style={[
                   styles.difficultyCard,
+                  isDark && styles.darkCard,
                   isSelected && styles.difficultyCardSelected,
                   count === 0 && styles.difficultyCardDisabled,
                 ]}
@@ -113,6 +117,7 @@ export default function CategoryScreen({ navigation, route }: Props) {
                 <View style={styles.difficultyHeader}>
                   <Text style={[
                     styles.difficultyTitle,
+                    isDark && styles.darkText,
                     isSelected && styles.difficultyTitleSelected,
                   ]}>
                     {difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}
@@ -121,6 +126,7 @@ export default function CategoryScreen({ navigation, route }: Props) {
                 </View>
                 <Text style={[
                   styles.difficultyCount,
+                  isDark && styles.darkTextSecondary,
                   isSelected && styles.difficultyCountSelected,
                 ]}>
                   {count} cards
@@ -261,5 +267,20 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 18,
     fontWeight: '600',
+  },
+  darkBg: {
+    backgroundColor: '#111827',
+  },
+  darkCard: {
+    backgroundColor: '#1f2937',
+  },
+  darkText: {
+    color: '#f3f4f6',
+  },
+  darkTextPrimary: {
+    color: '#3b82f6',
+  },
+  darkTextSecondary: {
+    color: '#9ca3af',
   },
 });

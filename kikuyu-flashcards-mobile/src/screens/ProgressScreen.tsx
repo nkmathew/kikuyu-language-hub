@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   RefreshControl,
   Alert,
+  useColorScheme,
 } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { storageService, AppStats } from '../lib/storage';
@@ -20,6 +21,8 @@ export default function ProgressScreen() {
   const [studyStats, setStudyStats] = useState<ReturnType<typeof spacedRepetitionService.getStudyStats> | null>(null);
   const [loading, setLoading] = useState(true);
   const [refreshing, setRefreshing] = useState(false);
+  const colorScheme = useColorScheme();
+  const isDark = true; // Force dark mode as default
 
   useFocusEffect(
     useCallback(() => {
@@ -81,8 +84,8 @@ export default function ProgressScreen() {
 
   if (loading) {
     return (
-      <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#2563eb" />
+      <View style={[styles.centerContainer, isDark && styles.darkBg]}>
+        <ActivityIndicator size="large" color="#3b82f6" />
       </View>
     );
   }
@@ -94,37 +97,37 @@ export default function ProgressScreen() {
 
   return (
     <ScrollView
-      style={styles.container}
+      style={[styles.container, isDark && styles.darkBg]}
       refreshControl={
-        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} colors={['#2563eb']} />
+        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} colors={['#3b82f6']} />
       }
     >
       {/* Header Stats */}
-      <View style={styles.header}>
-        <Text style={styles.headerTitle}>Your Progress</Text>
-        <Text style={styles.headerSubtitle}>Keep up the great work!</Text>
+      <View style={[styles.header, isDark && styles.darkHeader]}>
+        <Text style={[styles.headerTitle, isDark && styles.darkText]}>Your Progress</Text>
+        <Text style={[styles.headerSubtitle, isDark && styles.darkTextSecondary]}>Keep up the great work!</Text>
       </View>
 
       {/* Main Stats Grid */}
       <View style={styles.statsGrid}>
-        <View style={[styles.statCard, styles.statCardPrimary]}>
+        <View style={[styles.statCard, styles.statCardPrimary, isDark && styles.darkCardPrimary]}>
           <Text style={styles.statNumber}>{stats?.streakCount || 0}</Text>
-          <Text style={styles.statLabel}>🔥 Day Streak</Text>
+          <Text style={[styles.statLabel, isDark && styles.darkTextSecondary]}>🔥 Day Streak</Text>
         </View>
 
-        <View style={styles.statCard}>
-          <Text style={styles.statNumber}>{stats?.totalCardsStudied || 0}</Text>
-          <Text style={styles.statLabel}>Cards Studied</Text>
+        <View style={[styles.statCard, isDark && styles.darkCard]}>
+          <Text style={[styles.statNumber, isDark && styles.darkTextPrimary]}>{stats?.totalCardsStudied || 0}</Text>
+          <Text style={[styles.statLabel, isDark && styles.darkTextSecondary]}>Cards Studied</Text>
         </View>
 
-        <View style={styles.statCard}>
-          <Text style={styles.statNumber}>{stats?.totalSessionsCompleted || 0}</Text>
-          <Text style={styles.statLabel}>Sessions</Text>
+        <View style={[styles.statCard, isDark && styles.darkCard]}>
+          <Text style={[styles.statNumber, isDark && styles.darkTextPrimary]}>{stats?.totalSessionsCompleted || 0}</Text>
+          <Text style={[styles.statLabel, isDark && styles.darkTextSecondary]}>Sessions</Text>
         </View>
 
-        <View style={styles.statCard}>
-          <Text style={styles.statNumber}>{todayStudyTime}</Text>
-          <Text style={styles.statLabel}>Minutes</Text>
+        <View style={[styles.statCard, isDark && styles.darkCard]}>
+          <Text style={[styles.statNumber, isDark && styles.darkTextPrimary]}>{todayStudyTime}</Text>
+          <Text style={[styles.statLabel, isDark && styles.darkTextSecondary]}>Minutes</Text>
         </View>
       </View>
 
@@ -465,6 +468,29 @@ const styles = StyleSheet.create({
   },
   footerText: {
     fontSize: 14,
+    color: '#9ca3af',
+  },
+  darkBg: {
+    backgroundColor: '#111827',
+  },
+  darkHeader: {
+    backgroundColor: '#1f2937',
+    borderBottomColor: '#374151',
+  },
+  darkCard: {
+    backgroundColor: '#1f2937',
+  },
+  darkCardPrimary: {
+    backgroundColor: '#1e3a8a',
+    borderColor: '#3b82f6',
+  },
+  darkText: {
+    color: '#f3f4f6',
+  },
+  darkTextPrimary: {
+    color: '#3b82f6',
+  },
+  darkTextSecondary: {
     color: '#9ca3af',
   },
 });

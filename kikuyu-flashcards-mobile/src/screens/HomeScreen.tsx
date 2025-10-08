@@ -6,6 +6,7 @@ import {
   FlatList,
   TouchableOpacity,
   ActivityIndicator,
+  useColorScheme,
 } from 'react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigation/AppNavigator';
@@ -29,6 +30,8 @@ interface CategoryItem {
 export default function HomeScreen({ navigation }: Props) {
   const [categories, setCategories] = useState<CategoryItem[]>([]);
   const [loading, setLoading] = useState(true);
+  const colorScheme = useColorScheme();
+  const isDark = true; // Force dark mode as default
 
   useEffect(() => {
     loadCategories();
@@ -90,36 +93,36 @@ export default function HomeScreen({ navigation }: Props) {
 
   const renderCategoryCard = ({ item }: { item: CategoryItem }) => (
     <TouchableOpacity
-      style={styles.card}
+      style={[styles.card, isDark && styles.darkCard]}
       onPress={() => handleCategoryPress(item.key)}
       activeOpacity={0.7}
     >
       <View style={styles.cardContent}>
         <Text style={styles.icon}>{item.icon}</Text>
         <View style={styles.cardTextContainer}>
-          <Text style={styles.cardTitle}>{item.title}</Text>
-          <Text style={styles.cardDescription}>{item.description}</Text>
-          <Text style={styles.cardCount}>{item.count} cards</Text>
+          <Text style={[styles.cardTitle, isDark && styles.darkText]}>{item.title}</Text>
+          <Text style={[styles.cardDescription, isDark && styles.darkTextSecondary]}>{item.description}</Text>
+          <Text style={[styles.cardCount, isDark && styles.darkTextSecondary]}>{item.count} cards</Text>
         </View>
-        <Text style={styles.arrow}>›</Text>
+        <Text style={[styles.arrow, isDark && styles.darkText]}>›</Text>
       </View>
     </TouchableOpacity>
   );
 
   if (loading) {
     return (
-      <View style={styles.centerContainer}>
-        <ActivityIndicator size="large" color="#2563eb" />
-        <Text style={styles.loadingText}>Loading flashcards...</Text>
+      <View style={[styles.centerContainer, isDark && styles.darkBg]}>
+        <ActivityIndicator size="large" color="#3b82f6" />
+        <Text style={[styles.loadingText, isDark && styles.darkText]}>Loading flashcards...</Text>
       </View>
     );
   }
 
   return (
-    <View style={styles.container}>
-      <View style={styles.header}>
-        <Text style={styles.headerTitle}>Learn Kikuyu</Text>
-        <Text style={styles.headerSubtitle}>Choose a category to begin</Text>
+    <View style={[styles.container, isDark && styles.darkBg]}>
+      <View style={[styles.header, isDark && styles.darkHeader]}>
+        <Text style={[styles.headerTitle, isDark && styles.darkText]}>Learn Kikuyu</Text>
+        <Text style={[styles.headerSubtitle, isDark && styles.darkTextSecondary]}>Choose a category to begin</Text>
       </View>
       <FlatList
         data={categories}
@@ -206,6 +209,22 @@ const styles = StyleSheet.create({
   },
   arrow: {
     fontSize: 24,
+    color: '#9ca3af',
+  },
+  darkBg: {
+    backgroundColor: '#111827',
+  },
+  darkHeader: {
+    backgroundColor: '#1f2937',
+    borderBottomColor: '#374151',
+  },
+  darkCard: {
+    backgroundColor: '#1f2937',
+  },
+  darkText: {
+    color: '#f3f4f6',
+  },
+  darkTextSecondary: {
     color: '#9ca3af',
   },
 });
