@@ -1,0 +1,52 @@
+{
+  "batch_info": {
+    "batch_number": "019",
+    "total_cards": 2,
+    "category": "grammar",
+    "source_files": ["188.txt", "190.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T11:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "grammar-019-001",
+      "kikuyu": "Agent/Patient Noun Formation (Review)",
+      "english": "Agent (Mũ-verb-ani = doer): Mũingatani (chaser), Mũrutani (teacher/one teaching), Mũhurani (beater/one beating). Patient (Mũ-verb-wo = receiver): Mũingatwo (one being chased), Mũrutwo (student/one being taught), Mũhurwo (one being beaten)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "notes": "Systematic pattern for creating agent and patient nouns from verbs. From Kũingata (to chase) → Mũingatani/Mũingatwo. From Kũruta (to teach) → Mũrutani/Mũrutwo. From Kũhũra (to beat) → Mũhurani/Mũhurwo. Related to proverbs about both parties getting tired",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 188",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      }
+    },
+    {
+      "id": "grammar-019-002",
+      "kikuyu": "Imperative Forms (Commands)",
+      "english": "Kũgũra (to buy) → Gũra (buy!), Kũhinga (to close) → Hinga (close!), Kũhingũra (to open) → Hingũra (open!), Kũrũgama (to stand) → Rũgama (stand!), Kwaria (to speak) → Aria (speak!)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "notes": "Imperative formation: drop Kũ-/Gũ-/Kw- prefix from infinitive. Examples in use: Rũgama na mwena (stand on the side), Gũrĩra mũgate na iria (buy me bread), Hinga mũrango tuthĩĩ (close the door and let us go), Hingũra ibuku tuthoome (open the book we read)",
+      "quality_score": 4.6,
+      "examples": [
+        {
+          "kikuyu": "Aria na arata aku",
+          "english": "Speak to your friends",
+          "notes": "Imperative with prepositional phrase"
+        },
+        {
+          "kikuyu": "Hinga mũrango tuthĩĩ",
+          "english": "Close the door and let us go",
+          "notes": "Imperative followed by subjunctive"
+        }
+      ],
+      "source": {
+        "origin": "Easy Kikuyu Lessons 190-191",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      }
+    }
+  ]
+}

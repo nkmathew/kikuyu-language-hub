@@ -1,0 +1,66 @@
+{
+  "batch_info": {
+    "batch_number": "019",
+    "total_cards": 3,
+    "category": "conjugations",
+    "source_files": ["187.txt", "192.txt", "193.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T11:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-019-001",
+      "kikuyu": "1st Person Habitual Tense (Singular & Plural)",
+      "english": "Singular (Nĩĩ): Njũkaga (I come), Nđĩraga (I cry), Nđĩaga (I eat), Njaragia (I speak), Ngenaga (I am usually happy), Thekaga (I laugh), Thiaga (I go), Thomaga (I read). Plural (Ithuĩ): Tũkaga (we come), Tũrĩraga (we cry), Tũrĩaga (we eat), Twaragia (we speak), Tũkenaga (we are happy), Tũthekaga (we laugh), Tũthiaga (we go), Tũthomaga (we read), Tũanđĩkaga (we write)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Complete 1st person habitual conjugations. Pattern: Nĩĩ + verb-aga (I habitually...), Ithuĩ + tũ-verb-aga (we habitually...). Shows systematic pattern across 9 common verbs",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 187",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      }
+    },
+    {
+      "id": "conj-019-002",
+      "kikuyu": "Location: Now vs Earlier Today",
+      "english": "Now (Kahinda gaka/rĩu): Nđĩ gũkũ (I am here), Twĩ gũkũ (we are here), Wĩ gũkũ (you are here), Mwĩ gukũ (you all are here), E gũkũ (he/she is here), Me gũkũ (they are here). Earlier today (ũmũthĩ mahinda mahitũku): Nyuma gũkũ, Tuma gũkũ, Uma gũkũ, Muma gũkũ, Oima gũkũ, Moima gũkũ",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Present vs recent past location. Pattern change: Nđĩ/Twĩ/Wĩ → Nyuma/Tuma/Uma (earlier today). Examples: Nđĩ gũkũ, na nđĩrarĩa nyama (I am here and I'm eating meat) vs Nyuma gũkũ na nđĩire nyama (I was here earlier and I ate meat)",
+      "quality_score": 4.8,
+      "examples": [
+        {
+          "kikuyu": "Twĩ gũkũ na tũrarĩa nyama",
+          "english": "We are here and we're eating meat",
+          "notes": "Present continuous with location"
+        },
+        {
+          "kikuyu": "Tuma gũkũ na tũrĩire nyama",
+          "english": "We were here earlier and we ate meat",
+          "notes": "Recent past with location"
+        }
+      ],
+      "source": {
+        "origin": "Easy Kikuyu Lesson 192",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      }
+    },
+    {
+      "id": "conj-019-003",
+      "kikuyu": "Experience Questions with Wildlife",
+      "english": "Ĩno nĩ Nyaga (This is an ostrich) - Nĩ ũrĩ wona Nyaga? (Have you ever seen an ostrich?). Ĩno nĩ Huria (This is a rhino) - Nĩ marĩ mona huria? (Have they ever seen a rhino?). Ũyũ nĩ mũrũthi (This is a lion) - Nĩ mũrĩ mwona mũrũthi? (Have you all ever seen a lion?)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Experience tense pattern: Nĩ + subject + rĩ/marĩ/mũrĩ + wona/mona/mwona. Shows agreement across different persons. Thooma wanĩĩrire = read aloud",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 193",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      }
+    }
+  ]
+}
