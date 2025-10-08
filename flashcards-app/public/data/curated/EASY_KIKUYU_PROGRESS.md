@@ -1,10 +1,10 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 036
-**Last File Index**: 364
-**Next Batch**: 037 (files 365-374)
-**Date Updated**: 2025-10-08
+**Last Completed Batch**: 037
+**Last File Index**: 374
+**Next Batch**: 038 (files 375-384)
+**Date Updated**: 2025-01-27
 
 ## Batch History
 
@@ -46,13 +46,14 @@
 | **034** | **335-344** | **114** | **✅ Complete** | **2025-10-08** | **Complete body parts vocabulary, fire/light verbs (Akia/Horia), plural commands (+i), greetings system, basic phrases, proverbs (sleep/patience)** |
 | **035** | **345-354** | **82** | **✅ Complete** | **2025-10-08** | **Understanding phrases, proverbs (travel/chase), verbs of motion (15 verbs), imperative rule (remove GŨ/KŨ), noun classes (ndũ derivatives), auxiliary verb 'be', professions** |
 | **036** | **355-364** | **68** | **✅ Complete** | **2025-10-08** | **Proverbs (saving/self-help/death separates), Rabbit folktale start, professions (15+ jobs: writer, artist, shopkeeper, watchmen, nuns, preacher), materials, blessings** |
-| 037 | 365-374 | - | ⏳ Pending | - | Next batch |
+| **037** | **365-374** | **55** | **✅ Complete** | **2025-01-27** | **Greetings, proverbs (slander vs knife/staying home), insult vocabulary, professions (engineer, photographer, hunter, herder, potters, traditional healer), conversation questions, days, running verbs with derivations** |
+| 038 | 375-384 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 36
-- **Total Files Processed**: 364 / 538 (67.7%)
-- **Remaining Files**: 174
-- **Estimated Remaining Batches**: ~17 batches
+- **Total Batches Completed**: 37
+- **Total Files Processed**: 374 / 538 (69.5%)
+- **Remaining Files**: 164
+- **Estimated Remaining Batches**: ~16 batches
 
 ## Batch 028 Summary
 **Files**: 275-284
@@ -287,12 +288,62 @@
 - **Wedding Customs**: Bride wears white, groom wears any color
 - **Time System**: Complete temporal vocabulary from minutes to years
 
+## Batch 037 Summary
+**Files**: 365-374
+**Total Flashcards**: 55
+**Categories**: Vocabulary, Phrases, Proverbs, Conversation
+**Difficulty**: Beginner (28), Intermediate (22), Advanced (5)
+
+### Key Content Areas:
+1. **Greetings & Social Interactions** (365, 367)
+   - "Nĩndamũgeithia" (I have greeted you all)
+   - "Geithĩkai" (Receive greetings - plural)
+
+2. **Proverbs & Wisdom** (366, 372)
+   - "Gũtema na kanua ti gũtema na rũhĩũ" (Slander is not like cutting with knife)
+   - "Gĩtindo kĩa mũciĩ nĩ kĩũru" (Staying home too much is bad)
+   - Emphasis on words' power and productivity
+
+3. **Insult & Conflict Vocabulary** (368)
+   - Kũruma (to insult)
+   - Kũrumana (to insult repeatedly)
+   - Kĩrumi (an insult/curse)
+
+4. **Professions III** (369)
+   - Technical: Engineer, photographer (mũhũrĩ wa mbica)
+   - Traditional: Hunter, herder, iron mongers
+   - Artisans: Potters (ombi a nyũngũ)
+   - Medicine: mugo (traditional healer)
+
+5. **Conversation Questions** (370, 374)
+   - Family size: "Kwanyu mũrĩ aigana?"
+   - Birth order: "Nũũ mũkũrũrũ?"
+   - Residence: "Mũĩkaraga kũ?"
+   - Current activities and thoughts
+
+6. **Verb Derivations** (373)
+   - Teng'era/Gũtengera (run)
+   - Teng'erithia (cause to run)
+   - Teng'eria (chase)
+   - Teng'erania (chase others about)
+
+7. **Days of the Week** (371)
+   - Wakana (Thursday), Wagatano (Friday)
+   - Time references
+
+### Notable Features:
+- **Knife Terminology**: Rũhĩũ (medium knife) vs Kahĩũ (small knife)
+- **Photographer**: Literally "striker/hitter of pictures" (mũhũrĩ wa mbica)
+- **Cultural Values**: Proverbs emphasize consequences of words and importance of activity
+- **Traditional Healer**: mugo appears again, reinforcing cultural medicine practices
+- **Verb Derivations**: Complete causative, applicative, and reciprocal forms
+
 ## Notes for Next Session
-- Continue with files 325-334 (Batch 033)
+- Continue with files 375-384 (Batch 038)
 - Total raw files: 538
 - Pattern: 10 files per batch (except last batch may have 8)
-- Expected completion: ~21 more batches
-- Progress: Just passed 60% completion mark!
+- Expected completion: ~16 more batches
+- Progress: Just passed 69% completion mark!
 
 ## Source Attribution
 All content from **Easy Kikuyu** by Emmanuel Kariuki

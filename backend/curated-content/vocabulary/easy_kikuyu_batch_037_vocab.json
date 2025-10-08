@@ -1,0 +1,584 @@
+{
+  "batch": 37,
+  "source_files": "365-374",
+  "total_flashcards": 55,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary", "Phrases", "Proverbs", "Conversation"],
+  "difficulty_distribution": {
+    "beginner": 28,
+    "intermediate": 22,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b37_001",
+      "kikuyu": "Nĩndamũgeithia",
+      "english": "I have greeted you (all)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #365"
+    },
+    {
+      "id": "ek_b37_002",
+      "kikuyu": "Geithĩkai",
+      "english": "Receive greetings (you all)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting response - plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #367"
+    },
+    {
+      "id": "ek_b37_003",
+      "kikuyu": "Wakana",
+      "english": "Thursday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Day of the week",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #366"
+    },
+    {
+      "id": "ek_b37_004",
+      "kikuyu": "Thimo",
+      "english": "proverb",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - traditional wisdom",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #366"
+    },
+    {
+      "id": "ek_b37_005",
+      "kikuyu": "Gũtema na kanua ti gũtema na rũhĩũ",
+      "english": "To slander is not like cutting with a knife",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about words vs actions",
+      "cultural_notes": "Cautions against the destructive power of words and slander, implying damage can be worse than physical cuts",
+      "sub_translations": [
+        {"kikuyu": "Gũtema na kanua", "english": "To cut with the mouth (slander)"},
+        {"kikuyu": "ti gũtema na rũhĩũ", "english": "is not like cutting with a knife"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #366"
+    },
+    {
+      "id": "ek_b37_006",
+      "kikuyu": "Gũtema",
+      "english": "to cut",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - cutting action",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #366"
+    },
+    {
+      "id": "ek_b37_007",
+      "kikuyu": "Kanua",
+      "english": "mouth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #366"
+    },
+    {
+      "id": "ek_b37_008",
+      "kikuyu": "Rũhĩũ",
+      "english": "medium sized knife",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - tool",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #366"
+    },
+    {
+      "id": "ek_b37_009",
+      "kikuyu": "Kahĩũ",
+      "english": "small knife",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - tool",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #366"
+    },
+    {
+      "id": "ek_b37_010",
+      "kikuyu": "Ruma",
+      "english": "insult (command form)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - base form",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #368"
+    },
+    {
+      "id": "ek_b37_011",
+      "kikuyu": "Kũruma",
+      "english": "to insult",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #368"
+    },
+    {
+      "id": "ek_b37_012",
+      "kikuyu": "Kũrumana",
+      "english": "to insult repeatedly",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - repetitive form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #368"
+    },
+    {
+      "id": "ek_b37_013",
+      "kikuyu": "Kĩrumi",
+      "english": "an insult / a curse",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - result of insulting",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #368"
+    },
+    {
+      "id": "ek_b37_014",
+      "kikuyu": "Wagatano",
+      "english": "Friday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Day of the week",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #368"
+    },
+    {
+      "id": "ek_b37_015",
+      "kikuyu": "Mawira",
+      "english": "jobs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - work/employment",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_016",
+      "kikuyu": "(Nĩĩ) Ndĩ injinia",
+      "english": "I am an engineer",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "notes": "Subject pronoun (Nĩĩ) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_017",
+      "kikuyu": "injinia",
+      "english": "engineer",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_018",
+      "kikuyu": "(Nĩĩ) Ndĩ mũhũrĩ wa mbica",
+      "english": "I am a photographer",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - specialized",
+      "notes": "Mũhũrĩ means striker/hitter, mbica means pictures",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_019",
+      "kikuyu": "mũhũrĩ",
+      "english": "striker/hitter",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - one who strikes",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_020",
+      "kikuyu": "mbica",
+      "english": "pictures",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - images",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_021",
+      "kikuyu": "(Wẽẽ) wĩ mũgwĩmi",
+      "english": "You are a hunter",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_022",
+      "kikuyu": "mũgwĩmi",
+      "english": "hunter",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_023",
+      "kikuyu": "(Wẽ) nĩ mũrĩĩthia wa mahiũ",
+      "english": "he/she is a herder (of domestic animals)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - specialized",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_024",
+      "kikuyu": "mũrĩĩthia",
+      "english": "herder",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Profession - animal caretaker",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_025",
+      "kikuyu": "mahiũ",
+      "english": "domestic animals",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - livestock",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_026",
+      "kikuyu": "(Inyuĩ) mwĩ aturi",
+      "english": "You are iron mongers",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_027",
+      "kikuyu": "aturi",
+      "english": "iron mongers",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Profession - metal workers",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_028",
+      "kikuyu": "(O) nĩ ombi a nyũngũ",
+      "english": "they are potters",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "notes": "Literally 'molders of pots'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_029",
+      "kikuyu": "ombi",
+      "english": "molders",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Profession - craft workers",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_030",
+      "kikuyu": "nyũngũ",
+      "english": "pots",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - earthenware",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_031",
+      "kikuyu": "Ũyũ nĩ mugo",
+      "english": "This is a medicine (person)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - demonstrative",
+      "cultural_notes": "Mugo traditionally refers to a medicine man or traditional healer",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_032",
+      "kikuyu": "mugo",
+      "english": "medicine (person) / traditional healer",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Profession - traditional healer",
+      "cultural_notes": "Traditional medicine man or healer",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_033",
+      "kikuyu": "Kwanyu mũrĩ aigana?",
+      "english": "How many are you (at your home)?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about family size",
+      "notes": "Asking about number of people in household",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_034",
+      "kikuyu": "Aĩrĩtu nĩ aigana?",
+      "english": "How many girls?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about daughters",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_035",
+      "kikuyu": "Anake nĩ aigana?",
+      "english": "How many boys?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about sons",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_036",
+      "kikuyu": "Nũũ mũkũrũrũ?",
+      "english": "Who is eldest?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about family hierarchy",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_037",
+      "kikuyu": "Mũĩkaraga kũ?",
+      "english": "Where do you stay?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about residence",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_038",
+      "kikuyu": "ũmũthĩ nĩ Wakana",
+      "english": "Today is Thursday",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Day identification",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #371"
+    },
+    {
+      "id": "ek_b37_039",
+      "kikuyu": "Rũciũ nĩ Wagatano",
+      "english": "Tomorrow is Friday",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Future day identification",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #371"
+    },
+    {
+      "id": "ek_b37_040",
+      "kikuyu": "Gĩtindo kĩa mũciĩ nĩ kĩũru",
+      "english": "Staying home too much is bad",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about productivity",
+      "cultural_notes": "Encourages productivity and active participation in life outside the home",
+      "sub_translations": [
+        {"kikuyu": "Gĩtindo kĩa mũciĩ", "english": "staying at home"},
+        {"kikuyu": "nĩ kĩũru", "english": "is bad"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #372"
+    },
+    {
+      "id": "ek_b37_041",
+      "kikuyu": "Gũtinda",
+      "english": "to stay (somewhere)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - remaining in place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #372"
+    },
+    {
+      "id": "ek_b37_042",
+      "kikuyu": "Gĩtindo",
+      "english": "the staying (act of)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - gerund form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #372"
+    },
+    {
+      "id": "ek_b37_043",
+      "kikuyu": "Mũciĩ",
+      "english": "home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - dwelling place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #372"
+    },
+    {
+      "id": "ek_b37_044",
+      "kikuyu": "Teng'era",
+      "english": "run",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - base form",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_045",
+      "kikuyu": "Gũtengera",
+      "english": "to run",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_046",
+      "kikuyu": "Teng'erithia",
+      "english": "cause to run",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - causative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_047",
+      "kikuyu": "Teng'eria",
+      "english": "run after another (chase)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - applicative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_048",
+      "kikuyu": "Teng'erania",
+      "english": "chase others about",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - reciprocal/associative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_049",
+      "kikuyu": "Kamau nĩ mũtengeri",
+      "english": "Kamau is a runner, athlete",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession/description",
+      "notes": "Implies a fast runner if the root word 'run' is stressed",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_050",
+      "kikuyu": "Ureciria atĩa rĩu?",
+      "english": "What are you thinking now?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about current thoughts",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_051",
+      "kikuyu": "Ũgwũka atĩa ũmũthĩ?",
+      "english": "What will you do today?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about plans",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_052",
+      "kikuyu": "Wĩra ũrĩkũ?",
+      "english": "Which work?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about work/task",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_053",
+      "kikuyu": "Mwena ũrĩkũ?",
+      "english": "Which side?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about direction",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_054",
+      "kikuyu": "Mwĩna ũ?",
+      "english": "With whom are you?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about companions",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_055",
+      "kikuyu": "Mũgeithie?",
+      "english": "Greet him/her",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Imperative - command to greet",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #374"
+    }
+  ]
+}
