@@ -1,0 +1,72 @@
+{
+  "batch_info": {
+    "batch_number": "008",
+    "total_cards": 4,
+    "category": "vocabulary",
+    "source_files": ["075.txt", "076.txt", "077.txt", "078.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T05:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-008-001",
+      "kikuyu": "Nderi",
+      "english": "Vulture",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Large scavenging bird - important in traditional Kikuyu culture",
+      "quality_score": 4.3,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 075",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-008-002",
+      "kikuyu": "Rwigi",
+      "english": "Hawk / Kite (bird of prey)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Mwewe - alternative name for hawk/kite species",
+      "quality_score": 4.3,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 076",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-008-003",
+      "kikuyu": "Mweri wa ĩnana",
+      "english": "The eighth month (August)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Literal: month of eight. Part of Kikuyu calendar system using ordinal numbers",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 077",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-008-004",
+      "kikuyu": "Ũrata",
+      "english": "Friendship",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Mũriega arata (A good friend). Mũthenya wa ũrata (friendship day/international friendship day)",
+      "examples": [
+        "Mũriega arata (A good friend)",
+        "Ũmũthĩ nĩ mũthenya wa ũrata wa mabũrũri moothe (Today is international friendship day)"
+      ],
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 078",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      }
+    }
+  ]
+}

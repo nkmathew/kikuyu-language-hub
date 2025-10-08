@@ -1,0 +1,82 @@
+{
+  "batch_info": {
+    "batch_number": "015",
+    "total_cards": 5,
+    "category": "vocabulary",
+    "source_files": ["146.txt", "148.txt", "149.txt", "150.txt", "154.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T09:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-015-001",
+      "kikuyu": "Sleep Vocabulary & Phrases",
+      "english": "Gũcũnga (doze), Gũkoma (sleep), Gũkoma na nda (sleep face down), Gũkoma na ngara/mũgongo (sleep on back), Gũkoma na mwena (sleep on side), Kũrara (spend the night), Hinga maitho ũkome (shut eyes and sleep), Koma na wega/thayũ (sleep well), Gĩa na ũtuko mwega (have a good night)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete sleep vocabulary. Rara nĩ gwatuka (sleep-over, darkness has fallen). Koma ũkĩre thaa igĩrĩ cia rũci-inĩ (sleep and wake at 8am). Question: Kaĩ ũkomaga ũhingũrĩte maitho? (do you sleep with eyes open?)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 146",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-015-002",
+      "kikuyu": "Sacred Trees",
+      "english": "Mũembe (mango tree), Mũcungwa (orange tree), Mũkũyũ (ficus sycamora), Mũgumo (ficus natalensis/thoningii), Mũtamaiyũ (African olive tree)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Important tree species. Mũkũyũ and Mũgumo are sacred ficus species in Kikuyu culture, traditional sites for ceremonies and sacrifices. Mũgumo is particularly sacred",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 148",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-015-003",
+      "kikuyu": "Nasal Consonants Practice (m, ng, ng')",
+      "english": "M: Maitũ (mother), mama (uncle), mara (intestines), moko (hands), mata (saliva). Ng: Ngaari (car), Nganga (guinea fowl), Ngobia (hat), ngoroba (floor/storey). Ng': Ng'ang'a (name/medicine man), Mũrãng'a (place), ng'aragu (hunger), ng'ethia (be idle)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Pronunciation practice. Ng' is velar nasal like 'ng' in singer (NOT finger). Example sentences: Maitũ na mama mathiire mũgũnda (Mother and uncle went to farm), Ng'ang'a ena ng'aragu (Ng'ang'a is very hungry)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 149",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-015-004",
+      "kikuyu": "Theerũ",
+      "english": "Vervet Monkey",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Common monkey species found in Kenya. Part of wildlife vocabulary",
+      "quality_score": 4.2,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 150",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-015-005",
+      "kikuyu": "Time Vocabulary",
+      "english": "Heho (cold), Mĩaraho (midday/around and soon after midday)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Time and weather related terms. Mĩaraho refers specifically to the period around and shortly after midday",
+      "quality_score": 4.3,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 154",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      }
+    }
+  ]
+}

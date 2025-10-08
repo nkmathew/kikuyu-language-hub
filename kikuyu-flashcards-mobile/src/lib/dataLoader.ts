@@ -1,28 +1,31 @@
 import { CategoryData, Flashcard, CuratedContent, CategoryType } from '../types/flashcard';
 
-// Import bundled data files
-import batch001Vocab from '../assets/data/curated/vocabulary/easy_kikuyu_batch_001_vocab.json';
-import batch002Phrases from '../assets/data/curated/phrases/easy_kikuyu_batch_002_phrases.json';
-import batch002Grammar from '../assets/data/curated/grammar/easy_kikuyu_batch_002_grammar.json';
+// Dynamic require for all data files
+const dataContext = require.context('../assets/data/curated', true, /\.json$/);
 
 class DataLoader {
   private cache: Map<string, CategoryData> = new Map();
+  private allData: Map<string, CuratedContent> = new Map();
 
-  // Map of bundled data files
-  private bundledData: Record<string, Record<string, CuratedContent>> = {
-    vocabulary: {
-      'vocabulary/easy_kikuyu_batch_001_vocab.json': batch001Vocab as CuratedContent,
-    },
-    phrases: {
-      'phrases/easy_kikuyu_batch_002_phrases.json': batch002Phrases as CuratedContent,
-    },
-    grammar: {
-      'grammar/easy_kikuyu_batch_002_grammar.json': batch002Grammar as CuratedContent,
-    },
-    conjugations: {},
-    proverbs: {},
-    general: {},
-  };
+  constructor() {
+    this.loadAllDataFiles();
+  }
+
+  private loadAllDataFiles() {
+    // Load all JSON files dynamically
+    dataContext.keys().forEach((key) => {
+      if (key.includes('schema.json')) return; // Skip schema file
+
+      try {
+        const data = dataContext(key);
+        this.allData.set(key, data as CuratedContent);
+      } catch (error) {
+        console.error(`Error loading ${key}:`, error);
+      }
+    });
+
+    console.log(`Loaded ${this.allData.size} data files`);
+  }
 
   async loadCategory(category: CategoryType): Promise<CategoryData> {
     if (this.cache.has(category)) {
@@ -30,13 +33,25 @@ class DataLoader {
     }
 
     try {
-      const categoryFiles = this.bundledData[category];
       const allCards: Flashcard[] = [];
+      const categoryPath = `./${category}/`;
 
-      // Load all files for this category
-      for (const [path, content] of Object.entries(categoryFiles)) {
-        const cards = content.flashcards || content.entries || [];
-        allCards.push(...cards);
+      // Find all files for this category
+      this.allData.forEach((content, path) => {
+        if (path.startsWith(categoryPath)) {
+          const cards = content.flashcards || content.entries || [];
+          allCards.push(...cards);
+        }
+      });
+
+      // If category is 'general', combine all categories
+      if (category === 'general') {
+        this.allData.forEach((content, path) => {
+          if (!path.includes('schema.json')) {
+            const cards = content.flashcards || content.entries || [];
+            allCards.push(...cards);
+          }
+        });
       }
 
       // Categorize by difficulty
@@ -143,9 +158,14 @@ class DataLoader {
       const tagsMatch = card.tags?.some(tag => tag.toLowerCase().includes(term)) || false;
       const subcategoryMatch = card.subcategory?.toLowerCase().includes(term) || false;
       const culturalNotesMatch = card.cultural_notes?.toLowerCase().includes(term) || false;
+      const notesMatch = card.notes?.toLowerCase().includes(term) || false;
 
-      return basicMatch || categoryMatch || tagsMatch || subcategoryMatch || culturalNotesMatch;
+      return basicMatch || categoryMatch || tagsMatch || subcategoryMatch || culturalNotesMatch || notesMatch;
     });
+  }
+
+  getTotalCardCount(): number {
+    return this.allData.size;
   }
 }
 

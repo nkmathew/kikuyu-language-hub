@@ -1,0 +1,68 @@
+{
+  "batch_info": {
+    "batch_number": "023",
+    "total_cards": 4,
+    "category": "vocabulary",
+    "source_files": ["226.txt", "229.txt", "233.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T13:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-023-001",
+      "kikuyu": "Opposites - Antonym Pairs (37 Pairs)",
+      "english": "Gũcambia/gũgooca (criticize/praise), Gũtaara/kũhĩtithia (guide/mislead), Gũtherema/gũkũndera (accept/reject), Gũthĩnia/gũteithia (bother/help), Gũtonga/gũthĩna (be rich/be poor), Gwaka/gũtharia (build/demolish), Kũgetha/kũhanda (harvest/plant), Kũhũnyũka/kũrura (be fast/be slow), Kũhũta/kũhũna (be hungry/be full), Kũrĩra/gũtheka (cry/laugh), Kwĩhĩka/kwĩgũucia (feel shy/be proud), Mũnyuko/noru (thin/fat), Ndũma/ũtheri (darkness/light), Ngũĩ/ndũhĩo (anger/excitement), Njamba/kĩguoya (hero/coward), Thayũ/mbaara (peace/war)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "notes": "Comprehensive antonym set (Ciugo îkararanĩtie) covering verbs, nouns, and adjectives. Includes abstract concepts: Kĩrumi/kĩrathimo (curse/blessing), Mũtĩino/mũnyaka (bad luck/good luck), Mwendwo-nĩ-irĩ/Mũtiga-irĩ (beloved/forgotten)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 226",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-023-002",
+      "kikuyu": "Household Items (Indo cia nyũmba)",
+      "english": "Riiko/Marĩiko (stove/cooker sing/plur), Metha (table), Mwaburi/Mĩaburi (umbrella), Thaani (plate), Gĩtĩ/Itĩ (chair), Nyũgũ (clay pot), Kahiũ/Tũhĩũ (knife), Hũma (fork), Gĩciko/Iciko (spoon), Mbakũri (serving bowl), Mũcuba/Mĩcuba (bottle), Njagĩ (water pitcher/jug), Thaburia (cooking pot), Ngirathi (glass), Kĩĩhũri/Cĩihũri (gourd/calabash), Mbũthũ (decorated calabash)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Essential household items with singular/plural forms showing noun class patterns. Includes traditional items (nyũgũ, kĩĩhũri, mbũthũ) and modern items (riiko, metha)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 229",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-023-003",
+      "kikuyu": "Drinks Vocabulary",
+      "english": "Iria (milk), Thota (soda), Ũcũrũ (porridge), Thubu (soup), Cai (tea), Kahũwa (coffee), Iria igagatu (sour milk), Maĩ (water), Maĩ ma macungwa (orange juice), Maĩ ma ndimũ (lemon juice), Maĩ ma matunda (fruit juice)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Common beverages vocabulary. Pattern for juice: Maĩ ma + fruit name. Traditional drinks: iria igagatu (fermented milk), ũcũrũ (porridge drink)",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 233",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-023-004",
+      "kikuyu": "Ordinal Numbers (1st-10th)",
+      "english": "Wa/ya/rĩa/gĩa mbere (first), wa/ya/rĩa/gĩa keerĩ (second), wa/ya/rĩa/gĩa gatatũ (third), wa/ya/rĩa/gĩa kana (fourth), wa/ya/rĩa/gĩa gatano (fifth), wa/ya/rĩa/gĩa gatandatũ (sixth), wa/ya/rĩa/gĩa mũgwanja (seventh), wa/ya/rĩa/gĩa kanana (eighth), wa/ya/rĩa/gĩa kenda (ninth), wa/ya/rĩa/gĩa ikũmi (tenth)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Ordinal numbers with noun class agreement. Connective changes: wa (Mũ-/Mĩ- class), ya (N- class), rĩa (Rĩ-/Ma- class), gĩa/kĩa (Gĩ-/Kĩ- class), ka (Ka-/Tũ- class). Example: Mũndũ wa mbere (first person), Gĩkombe kĩa mbere (first cup)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 231",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:30:00Z"
+      }
+    }
+  ]
+}

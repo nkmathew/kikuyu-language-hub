@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "027",
+    "total_cards": 2,
+    "category": "grammar",
+    "source_files": ["268.txt", "269.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T15:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "grammar-027-001",
+      "kikuyu": "Verb -ruta - Multiple Meanings & Extensions",
+      "english": "Root verb: -ruta (remove/do/pay). Infinitive: Kũruta (to remove/to give out/to teach). Applicative (-ĩra/-era): Rutĩra (remove for/pay for/do for). Agent/Patient derivation: Mũrutani (teacher - lit. one who teaches/removes knowledge), Mũrutwo (learner - lit. one who is taught/removed from ignorance). Examples: Ruta wĩra (do work), Ruta mbeca (pay money), Ruta igũtũ (remove the ear), Kũrutĩra Mwangi mbeca (to pay money for Mwangi). Conjugations: Ndĩraruta (I am removing/teaching/doing), Mũrutani araruta Arutwo (the teacher is teaching the learners), Mũrĩrutĩra Mwangi mbeca (you plural are paying money for Mwangi). Commands: Ruta wĩra (do work), Rutaĩ mbeca (pay money - plural)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "notes": "Comprehensive analysis of versatile verb -ruta showing Bantu morphology: basic verb, infinitive, applicative extension, agent/patient derivation, and present continuous conjugations. Great example of how one root generates multiple related meanings through extensions",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 268",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:30:00Z"
+      }
+    },
+    {
+      "id": "grammar-027-002",
+      "kikuyu": "Passive Voice & Reflexive - Advanced Grammar",
+      "english": "Passive voice (-wo/-irwo): Oha (tie) → Ohetwo (he has been tied) → Yohetwo (it has been tied), Kũmenyerera (to take care) → Ĩmenyerereirwo (it has been cared for). Reflexive (-i-): Wimenyerere (take care of yourself - uses infix -i- before verb root). Noun class agreement: Ndigiri (donkey) uses demonstrative ĩno (this) and subject prefix ĩ- (it) for I-I noun class. Example sentences: Ndigiri ĩno nĩ ya Wajir (this donkey is from Wajir), Nĩmũrona ũrĩa ĩmenyerereirwo (do you all see how it has been cared for?), Yohetwo na muuto (it has been tied with pillows). Vocabulary: Ndigiri (donkey - authentic Kikuyu), Mũkanda (rope), Wega (well/good), Mĩohe (tie it - command), Ũrĩa (how - in this context)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "notes": "Advanced grammar showing passive voice formation (-wo ending), reflexive verbs (-i- infix), and noun class agreement in I-I class. Sentence breakdown demonstrates complex grammatical structures with passive, plural interrogative (Nĩmũrona), and embedded clauses (ũrĩa...)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 269",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:30:00Z"
+      }
+    }
+  ]
+}

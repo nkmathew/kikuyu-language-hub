@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "015",
+    "total_cards": 2,
+    "category": "proverbs",
+    "source_files": ["153.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T09:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "proverb-015-001",
+      "kikuyu": "Andũ marĩ mũoyo matĩhurũkaga",
+      "english": "People who are alive do not rest (There is always work to be done in life)",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "notes": "Teaching about continuous effort in life. Vocabulary: marĩ mũoyo (who have a soul/spirit, who are alive), Hurũka (rest), Kũhurũka (to rest). Cultural value of constant productivity",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 153",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      }
+    },
+    {
+      "id": "proverb-015-002",
+      "kikuyu": "Mũingatwo na mũingatani, gũtirĩ ũtahũmaga",
+      "english": "The one being chased and the one chasing, both get tired (Effort is expended by all parties in a strenuous endeavor)",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "notes": "Grammar lesson on agent/patient forms. Kũingata (to chase) → Mũingatani (chaser/agent) + Mũingatwo (one being chased/patient). Pattern: Mũ-[verb root]-ani (agent), Mũ-[verb root]-wo (patient). Other examples: Mũrutani/Mũrutwo (teacher/student), Mũhurani/Mũhurwo (beater/beaten)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 153",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      }
+    }
+  ]
+}

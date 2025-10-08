@@ -1,0 +1,96 @@
+{
+  "batch_info": {
+    "batch_number": "017",
+    "total_cards": 6,
+    "category": "vocabulary",
+    "source_files": ["165.txt", "167.txt", "169.txt", "171.txt", "173.txt", "174.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T10:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-017-001",
+      "kikuyu": "Snake Species",
+      "english": "Gītahuha (puff adder), Mūrarū (green grass snake), Gīīko (cobra)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Specific snake species. Nyoka is general term for snake. Context: Andīka marītwa ma nyamū ciathī (Write names of snakes)",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 165",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-017-002",
+      "kikuyu": "Diseases & Health",
+      "english": "Njooma (common cold), Kīhuti (cold sores around mouth)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Basic health/disease vocabulary. Context: Andīka marītwa ma mīrimū (Write names of diseases in Kikuyu)",
+      "quality_score": 4.3,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 167",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-017-003",
+      "kikuyu": "Fish Vocabulary",
+      "english": "Kĩũngũyũ / thamaki (fish - singular), Ciũngũyũ / thamaki (several fish - plural)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Fish vocabulary with two terms. Question: Agĩkũyũ nĩ mwatigira gũtherũkia ciũngũyũ? (Kikuyus have stopped boiling fish?). Gũtherũkia = to boil",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 169",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-017-004",
+      "kikuyu": "Ants & Insects",
+      "english": "Thigiriri (tiny common black ants), Thūraita (large black ants), Mūgagaca (tiny brown ants), Thuraku (soldier ants), Mūthūa (termites), Igi (wasp)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Complete ant and insect classification. Shows detailed knowledge of ant species by size and color. Cultural importance: ants feature in traditional stories",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 171",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-017-005",
+      "kikuyu": "Numbers with People (Andũ)",
+      "english": "Mũndũ ũmwe (1 person), Andũ erĩ (2 people), atatũ (3), ana (4), atano (5), atandatũ (6), mũgwanja (7), anana (8), kenda (9), ikũmi (10), ikũmi na ũmwe (11)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Numbers 1-11 showing agreement with Class 1 nouns (people). Pattern changes: ĩmwe→ũmwe, igĩrĩ→erĩ, ĩthatũ→atatũ, etc. Demonstrates noun class concord system",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 168",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-017-006",
+      "kikuyu": "Light & Darkness Sources",
+      "english": "Ũtheri (light), Nduma (darkness). Light sources: Ũtheri wa rĩũa (sunlight), wa mweri na njata (moonlight & stars), wa thitima (electric light), wa mũcũmaa (candle), wa toci (torch), wa mwaki wa ngũ (firewood fire)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete light sources vocabulary showing traditional (mwaki wa ngũ, mũcũmaa) and modern (thitima, toci) sources. Ũtheri wa = light of/from",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    }
+  ]
+}

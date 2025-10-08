@@ -1,0 +1,43 @@
+{
+  "batch_info": {
+    "batch_number": "016",
+    "total_cards": 1,
+    "category": "grammar",
+    "source_files": ["158.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T10:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "grammar-016-001",
+      "kikuyu": "Frequency Adverbs",
+      "english": "Hĩndĩ cĩothe (always), Kaĩngĩ kaĩngĩ (constantly), Hakuhi hĩndĩ cĩothe (nearly every day), Nĩ ta hĩndĩ cĩothe (almost every day), Kaĩngĩ (often), Rĩmwe na rĩmwe (sometimes/once in a while), Tĩ kaĩngĩ (rarely), O na rĩ (never)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "notes": "Complete frequency adverb system from always to never. Example sentences: Hoyaga hĩndĩ cĩothe (I pray always), ũkaga gũkũ kaĩngĩ kaĩngĩ (Come here constantly), Ndirĩ ndamũona o na rĩ! (I haven't seen him/her ever!)",
+      "quality_score": 4.7,
+      "examples": [
+        {
+          "kikuyu": "Rĩaga irio cĩĩ na mboga hakuhi hĩndĩ cĩothe",
+          "english": "Eat food with vegetables nearly every day",
+          "notes": "Habitual action with frequency adverb"
+        },
+        {
+          "kikuyu": "Nĩ athiaga Thika rĩmwe na rĩmwe",
+          "english": "He goes to Thika once in a while",
+          "notes": "Occasional action"
+        },
+        {
+          "kikuyu": "Tĩ kaĩngĩ okaga",
+          "english": "He/she rarely comes",
+          "notes": "Infrequent action"
+        }
+      ],
+      "source": {
+        "origin": "Easy Kikuyu Lesson 158",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    }
+  ]
+}

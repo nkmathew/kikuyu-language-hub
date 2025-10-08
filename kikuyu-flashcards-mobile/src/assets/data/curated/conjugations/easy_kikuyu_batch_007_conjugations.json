@@ -1,0 +1,90 @@
+{
+  "batch_info": {
+    "batch_number": "007",
+    "total_cards": 4,
+    "category": "conjugations",
+    "source_files": ["067.txt", "070.txt", "072.txt", "074.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T05:05:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-007-001",
+      "kikuyu": "Ûgû/Ûgwî/Ûkwî/Ûkû (today future) vs Ûgo/Ûge/Ûke/Ûga (tomorrow future)",
+      "english": "Second person future tense - today vs tomorrow/beyond",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Ûgûkîra (you will wake up today) vs Ûgokîra (you will wake up tomorrow+). Key difference: û-vowel for today, o/e-vowels for future days",
+      "examples": [
+        "Ûgwîthamba na maî mahoro (You will bathe with cold water today)",
+        "Ûgethamba na maî mahoro (You will bathe with cold water tomorrow)"
+      ],
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 067",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      }
+    },
+    {
+      "id": "conj-007-002",
+      "kikuyu": "Ngo/Nga/Nge (first person tomorrow future)",
+      "english": "First person future tense - tomorrow and beyond",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Prefixes for 'I will...' starting tomorrow: Ngo-, Nga-, Nge-. Example: Ngokîra (I will wake up), Ngaruga (I will cook)",
+      "examples": [
+        "Ngethamba na maî mahoro (I will bathe with cold water)",
+        "Ngahinga mûrango (I will shut/lock the door)",
+        "Rûcîû ngokîra dagîka ikûmi ciathira (Tomorrow I will wake up ten minutes later)"
+      ],
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 070",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      }
+    },
+    {
+      "id": "conj-007-003",
+      "kikuyu": "Ngû/Ngwî (first person today future)",
+      "english": "First person future tense - moments later or anytime today",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Prefixes for 'I will...' later today: Ngû-, Ngwî-. Example: Ngûkîra (I will wake up), Ngwîthamba (I will bathe). Can start with Ûmûthî (today)",
+      "examples": [
+        "Ngwîhumba nguo naihenya (I will put on clothes quickly)",
+        "Ngûrûga ûcûrû wa mûûtû wa mûhîa (I will make sorghum porridge)",
+        "Ûmûthî ngûcoka hinge mûrango (Today then I will shut the door)"
+      ],
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 072",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      }
+    },
+    {
+      "id": "conj-007-004",
+      "kikuyu": "Ndî/Wî/E/Me/Twî/Mwî + na",
+      "english": "Auxiliary verb 'to have' - all persons",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Pronouns optional in Kikuyu as verb indicates person. Ndî na = I have, Wî na = You have, E na = He/she has, Me na = They have, Twî na = We have, Mwî na = You (plural) have",
+      "examples": [
+        "Ndî na karamu (I have a pen)",
+        "Wî na tûramû (You have pens)",
+        "E na ngîrathi yakwa (He/she has my glass)",
+        "Me na ngîrathi ciakwa (They have my glasses)",
+        "Twî na mwarimû ûngî (We have another teacher)",
+        "Mwî na thîna (You all have problems)"
+      ],
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 074",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      }
+    }
+  ]
+}

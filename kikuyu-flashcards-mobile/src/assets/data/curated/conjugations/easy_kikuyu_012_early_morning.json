@@ -1,0 +1,57 @@
+{
+  "source_text": "I drank tea and ate bread",
+  "target_text": "Nyuire cai na ndĩrĩre mũgate",
+  "context": "Past tense - describing actions from early this morning",
+  "cultural_notes": "Note the different past tense marker compared to 'moments ago' - this indicates earlier in the day",
+  "difficulty": "intermediate",
+  "categories": ["conjugations", "past tense"],
+  "tags": ["past tense", "morning", "daily actions", "verbs", "eating", "drinking"],
+  "quality_score": 4.7,
+  "metadata": {
+    "source": "Easy Kikuyu - Emmanuel Kariuki",
+    "lesson_number": "012",
+    "content_type": "tense_conjugation",
+    "tense": "past_morning",
+    "note": "Original text has typo: 'borught' should be 'brought'"
+  },
+  "examples": [
+    {
+      "kikuyu": "Nyuire cai na ndĩrĩre mũgate",
+      "english": "I drank tea and ate bread",
+      "context": "Early this morning"
+    },
+    {
+      "kikuyu": "Ndehĩre irio metha-inĩ",
+      "english": "I brought food to the table",
+      "context": "Early this morning"
+    }
+  ],
+  "grammatical_info": {
+    "tense": "past_morning",
+    "comparison_with_recent_past": {
+      "recent_past": "nda-",
+      "morning_past": "-ire ending",
+      "note": "Different conjugation patterns for different time periods"
+    },
+    "verbs": [
+      {
+        "infinitive": "kũnyua",
+        "meaning": "to drink",
+        "recent_past": "ndanyua",
+        "morning_past": "nyuire"
+      },
+      {
+        "infinitive": "kũrĩa",
+        "meaning": "to eat",
+        "recent_past": "ndarĩa",
+        "morning_past": "ndĩrĩre"
+      },
+      {
+        "infinitive": "kũheha",
+        "meaning": "to bring",
+        "recent_past": "ndahehe",
+        "morning_past": "ndehĩre"
+      }
+    ]
+  }
+}

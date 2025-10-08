@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "009",
+    "total_cards": 2,
+    "category": "proverbs",
+    "source_files": ["085.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T06:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "prov-009-001",
+      "kikuyu": "O akiendagwo ni Ngai",
+      "english": "God continues to love him/her",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "notes": "Expression of divine love and grace - emphasizing God's unchanging love despite circumstances",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 085",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      }
+    },
+    {
+      "id": "prov-009-002",
+      "kikuyu": "O mũndũ athondekaga ũrĩrĩ wake",
+      "english": "Every person makes up his own bed",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "notes": "Proverb about personal responsibility - you are responsible for the consequences of your own actions. Similar to 'you reap what you sow'",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 085",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      }
+    }
+  ]
+}

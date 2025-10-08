@@ -1,0 +1,54 @@
+{
+  "batch_info": {
+    "batch_number": "017",
+    "total_cards": 3,
+    "category": "phrases",
+    "source_files": ["166.txt", "170.txt", "174.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T10:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "phrase-017-001",
+      "kikuyu": "Nuclear Family Dialogue",
+      "english": "Ũyũ nĩ baba (This is father), Ũyũ ũngĩ nĩ maitũ (This other one is mother), Tũrũgamĩte na mwarĩ wa maitũ (We are standing with my sister), Ũcio mũraihu nĩ mama (The tall one is my uncle). Baba arahũra mbica (Father is taking photographs)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Family introduction phrases. Mama = maternal uncle. Complete dialogue: Teacher asks Maina to identify family members in photo. Ends with: Mũrũgamĩte naũ? (Who are you standing with?), Ĩkara thĩ (Sit down)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-002",
+      "kikuyu": "Health & Hospital Conversation",
+      "english": "Ndĩ mũrwaru (I am sick), Ndiraiguia wega (I'm not feeling well), Thĩĩ thibitarĩ (Go to hospital), Ũraatũũrwo nĩ kũ? (Where are you hurting?), Ndiraatũũrwo nĩ mũtwee (I have a headache), Nĩ ũraatũũrwo nĩ nda? (Do you have stomachache?), O na igego nĩ rĩraatũũra (I also have a toothache), Thĩĩ wone ndagĩtarĩ wa magego (Go see a dentist), Hĩĩ! Wĩ na ũrugarĩ! (Wah! Your temperature is high)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Complete medical conversation. Vocabulary: Thibitarĩ (hospital), Mũrwaru (patient/sick person), Ndagĩtarĩ (doctor-male), Mũrigitani (doctor-female/nurse), Dagĩtarĩ wa magego (dentist), Mĩthaiga/Ndawa (medicine)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-003",
+      "kikuyu": "Greeting & Visitor Dialogue",
+      "english": "Ko ko ko (knocking sound), Nũũ? (Who is it?), Nĩ nĩĩ (It is me), Nĩ we ũ? (Who are you?), Njitagwo Njeri (My name is Njeri), Njeri wa ũ? (Whose Njeri/who is your father?), Wee wĩ mũgeni (You are a visitor), Ĩĩ ndĩ mũgeni (Yes I am a visitor), Ingĩra (Enter), Nyua cai (Take tea), Nĩ ndainuka (I am off home), Thĩĩ na wega (Go in peace)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Complete visitor greeting dialogue. Traditional lineage inquiry: Njeri wa ũ? Cultural practice of asking about father's identity. Common hospitality: Nyua cai (offering tea)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      }
+    }
+  ]
+}

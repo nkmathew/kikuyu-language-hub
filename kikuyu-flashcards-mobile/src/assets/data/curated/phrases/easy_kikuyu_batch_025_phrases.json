@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "025",
+    "total_cards": 2,
+    "category": "phrases",
+    "source_files": ["246.txt", "250.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T14:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "phrase-025-001",
+      "kikuyu": "Simple Foundation Questions - Week 4",
+      "english": "Mwarimũ waku etagwo atĩa? (what is the name of your teacher?), Nĩ wendete gũthooma? (do you like reading?), Njĩĩra rĩtwa rĩa ibuku rĩmwe (tell me the name of one book), Nĩ ũthakaga mĩthako? (do you play games?), Wendete mĩthako ũrĩkũ? (which game do you like?), Mũrũ wa nyũkwa etagwo atĩa? (what is your brother's name?), Mwarĩ wa nyũkwa etagwo atĩa? (what is your sister's name?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Foundation week 4 question patterns. Vocabulary: Mwarimũ (teacher), Ibuku (book), Mũthako wa mũbira (playing with a ball). Shows personal interest and family questions",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    },
+    {
+      "id": "phrase-025-002",
+      "kikuyu": "Transport & Payment Dialogue (Matatu)",
+      "english": "Wathĩĩ kũ mũthĩĩ? (where are you going?), Ndathĩĩ Karĩũbang'i (I am going to Kariobangi), Haica ngarĩ ĩrĩa (take that vehicle), Ĩno nĩ ya Mathare (this one goes to Mathare), Nĩ ngatho (thanks), Ĩno nĩ ya Karĩũbang'i? (is this one to Kariobangi?), Ĩĩ nĩ yo ingĩra naihenya, mĩtũkĩ mĩtũkĩ maitũ (yes it is, get in quickly mother), Nyita guoko ndikagwe (hold my hand so I don't fall), Ĩkarĩra gĩtĩ gĩkĩ na ũrehe mbeca (sit on this seat and bring the money), Nĩ cigana? (how much?), Ciringi mĩrongo ĩtano (fifty shillings), Hĩ! Karĩ goro atĩa? (my! How expensive?), Tĩ goro maitũ nĩguo tũrĩhagia (it's not expensive mum, that's what we charge), Ke igana rĩmwe ũnjokerie mĩrongo ĩtano (take this 100 shillings and give back 50)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Complete matatu dialogue (week 4-2) showing transport negotiation. Vocabulary: Mũthĩĩ (traveller), Haica (climb), Uma (get out), Ngatho (gratitude), Nyita (hold), Mĩtũkĩ/naihenya (quickly), Mbeca/mbia (money), Ĩkarĩra (sit on), Goro (expensive), ũnjokerie (return to me), Tũrĩhagia (we charge)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    }
+  ]
+}

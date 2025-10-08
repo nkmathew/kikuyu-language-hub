@@ -7,12 +7,15 @@ import {
   Animated,
   Dimensions,
   ActivityIndicator,
+  Alert,
 } from 'react-native';
 import { RouteProp } from '@react-navigation/native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../navigation/AppNavigator';
-import { Flashcard } from '../types/flashcard';
+import { Flashcard, StudySession } from '../types/flashcard';
 import { dataLoader } from '../lib/dataLoader';
+import { storageService } from '../lib/storage';
+import { spacedRepetitionService } from '../lib/spacedRepetition';
 
 type FlashcardScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Flashcard'>;
 type FlashcardScreenRouteProp = RouteProp<RootStackParamList, 'Flashcard'>;
@@ -31,6 +34,8 @@ export default function FlashcardScreen({ navigation, route }: Props) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [sessionStartTime] = useState(new Date().toISOString());
+  const [correctAnswers, setCorrectAnswers] = useState(0);
   const flipAnimation = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
@@ -59,12 +64,41 @@ export default function FlashcardScreen({ navigation, route }: Props) {
     setIsFlipped(!isFlipped);
   };
 
-  const nextCard = () => {
-    if (currentIndex < cards.length - 1) {
-      setCurrentIndex(currentIndex + 1);
-      setIsFlipped(false);
-      flipAnimation.setValue(0);
+  const handleRating = async (rating: 'easy' | 'medium' | 'hard') => {
+    const currentCard = cards[currentIndex];
+
+    // Update progress with spaced repetition
+    const previousProgress = await storageService.getCardProgress(currentCard.id);
+    const newProgress = spacedRepetitionService.calculateNextReview(
+      currentCard.id,
+      previousProgress,
+      rating
+    );
+    await storageService.saveCardProgress(currentCard.id, newProgress);
+
+    // Track correct answers
+    if (rating === 'easy' || rating === 'medium') {
+      setCorrectAnswers(prev => prev + 1);
     }
+
+    // Increment cards studied
+    await storageService.incrementCardsStudied();
+
+    // Update streak
+    await storageService.updateStreak();
+
+    // Move to next card
+    if (currentIndex < cards.length - 1) {
+      nextCard();
+    } else {
+      await finishSession();
+    }
+  };
+
+  const nextCard = () => {
+    setCurrentIndex(currentIndex + 1);
+    setIsFlipped(false);
+    flipAnimation.setValue(0);
   };
 
   const previousCard = () => {
@@ -73,6 +107,44 @@ export default function FlashcardScreen({ navigation, route }: Props) {
       setIsFlipped(false);
       flipAnimation.setValue(0);
     }
+  };
+
+  const finishSession = async () => {
+    const endTime = new Date().toISOString();
+    const startTime = new Date(sessionStartTime);
+    const endTimeDate = new Date(endTime);
+    const durationMinutes = Math.round((endTimeDate.getTime() - startTime.getTime()) / (1000 * 60));
+
+    // Save session
+    const session: StudySession = {
+      category,
+      difficulty: difficulties,
+      mode: 'flashcards',
+      cardsStudied: cards.length,
+      correctAnswers,
+      startTime: sessionStartTime,
+      endTime,
+    };
+
+    await storageService.saveSession(session);
+    await storageService.incrementSessionsCompleted();
+    await storageService.addStudyTime(durationMinutes);
+
+    // Show completion alert
+    Alert.alert(
+      'Session Complete! 🎉',
+      `You studied ${cards.length} cards with ${Math.round((correctAnswers / cards.length) * 100)}% accuracy!`,
+      [
+        {
+          text: 'View Progress',
+          onPress: () => navigation.navigate('Home'),
+        },
+        {
+          text: 'Study More',
+          onPress: () => navigation.goBack(),
+        },
+      ]
+    );
   };
 
   const frontInterpolate = flipAnimation.interpolate({
@@ -120,6 +192,9 @@ export default function FlashcardScreen({ navigation, route }: Props) {
             ]}
           />
         </View>
+        <Text style={styles.accuracyText}>
+          Accuracy: {cards.length > 0 ? Math.round((correctAnswers / (currentIndex + 1)) * 100) : 0}%
+        </Text>
       </View>
 
       <View style={styles.cardContainer}>
@@ -133,6 +208,11 @@ export default function FlashcardScreen({ navigation, route }: Props) {
           >
             <Text style={styles.cardLabel}>Kikuyu</Text>
             <Text style={styles.cardText}>{currentCard.kikuyu}</Text>
+            {currentCard.difficulty && (
+              <View style={[styles.difficultyBadge, styles[`badge_${currentCard.difficulty}`]]}>
+                <Text style={styles.difficultyText}>{currentCard.difficulty}</Text>
+              </View>
+            )}
             <Text style={styles.tapHint}>Tap to flip</Text>
           </Animated.View>
 
@@ -151,10 +231,38 @@ export default function FlashcardScreen({ navigation, route }: Props) {
                 <Text style={styles.notesText}>{currentCard.notes}</Text>
               </View>
             )}
-            <Text style={styles.tapHint}>Tap to flip</Text>
+            <Text style={styles.tapHint}>Rate your recall</Text>
           </Animated.View>
         </TouchableOpacity>
       </View>
+
+      {isFlipped && (
+        <View style={styles.ratingContainer}>
+          <TouchableOpacity
+            style={[styles.ratingButton, styles.hardButton]}
+            onPress={() => handleRating('hard')}
+          >
+            <Text style={styles.ratingButtonText}>Hard</Text>
+            <Text style={styles.ratingSubtext}>Again soon</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.ratingButton, styles.mediumButton]}
+            onPress={() => handleRating('medium')}
+          >
+            <Text style={styles.ratingButtonText}>Good</Text>
+            <Text style={styles.ratingSubtext}>In 1 day</Text>
+          </TouchableOpacity>
+
+          <TouchableOpacity
+            style={[styles.ratingButton, styles.easyButton]}
+            onPress={() => handleRating('easy')}
+          >
+            <Text style={styles.ratingButtonText}>Easy</Text>
+            <Text style={styles.ratingSubtext}>In 4 days</Text>
+          </TouchableOpacity>
+        </View>
+      )}
 
       <View style={styles.navigationContainer}>
         <TouchableOpacity
@@ -168,23 +276,14 @@ export default function FlashcardScreen({ navigation, route }: Props) {
         <TouchableOpacity
           style={[
             styles.navButton,
-            currentIndex === cards.length - 1 && styles.navButtonDisabled,
+            (currentIndex === cards.length - 1 || !isFlipped) && styles.navButtonDisabled,
           ]}
-          onPress={nextCard}
-          disabled={currentIndex === cards.length - 1}
+          onPress={() => handleRating('medium')}
+          disabled={currentIndex === cards.length - 1 || !isFlipped}
         >
-          <Text style={styles.navButtonText}>Next →</Text>
+          <Text style={styles.navButtonText}>Skip →</Text>
         </TouchableOpacity>
       </View>
-
-      {currentIndex === cards.length - 1 && (
-        <TouchableOpacity
-          style={styles.finishButton}
-          onPress={() => navigation.navigate('Home')}
-        >
-          <Text style={styles.finishButtonText}>Finish Study Session</Text>
-        </TouchableOpacity>
-      )}
     </View>
   );
 }
@@ -231,10 +330,17 @@ const styles = StyleSheet.create({
     backgroundColor: '#e5e7eb',
     borderRadius: 2,
     overflow: 'hidden',
+    marginBottom: 4,
   },
   progressFill: {
     height: '100%',
     backgroundColor: '#2563eb',
+  },
+  accuracyText: {
+    fontSize: 14,
+    color: '#10b981',
+    textAlign: 'center',
+    fontWeight: '600',
   },
   cardContainer: {
     flex: 1,
@@ -276,6 +382,26 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginBottom: 16,
   },
+  difficultyBadge: {
+    paddingHorizontal: 12,
+    paddingVertical: 4,
+    borderRadius: 12,
+    marginTop: 8,
+  },
+  badge_beginner: {
+    backgroundColor: '#dcfce7',
+  },
+  badge_intermediate: {
+    backgroundColor: '#fef3c7',
+  },
+  badge_advanced: {
+    backgroundColor: '#fee2e2',
+  },
+  difficultyText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#374151',
+  },
   notesContainer: {
     marginTop: 16,
     padding: 12,
@@ -300,10 +426,45 @@ const styles = StyleSheet.create({
     fontStyle: 'italic',
     marginTop: 8,
   },
+  ratingContainer: {
+    flexDirection: 'row',
+    gap: 8,
+    marginBottom: 16,
+  },
+  ratingButton: {
+    flex: 1,
+    padding: 16,
+    borderRadius: 12,
+    alignItems: 'center',
+  },
+  hardButton: {
+    backgroundColor: '#fef2f2',
+    borderWidth: 2,
+    borderColor: '#ef4444',
+  },
+  mediumButton: {
+    backgroundColor: '#fefce8',
+    borderWidth: 2,
+    borderColor: '#eab308',
+  },
+  easyButton: {
+    backgroundColor: '#f0fdf4',
+    borderWidth: 2,
+    borderColor: '#22c55e',
+  },
+  ratingButtonText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#111827',
+    marginBottom: 2,
+  },
+  ratingSubtext: {
+    fontSize: 12,
+    color: '#6b7280',
+  },
   navigationContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginTop: 24,
     gap: 16,
   },
   navButton: {
@@ -319,18 +480,6 @@ const styles = StyleSheet.create({
   navButtonText: {
     color: '#fff',
     fontSize: 16,
-    fontWeight: '600',
-  },
-  finishButton: {
-    backgroundColor: '#10b981',
-    paddingVertical: 16,
-    borderRadius: 12,
-    alignItems: 'center',
-    marginTop: 16,
-  },
-  finishButtonText: {
-    color: '#fff',
-    fontSize: 18,
     fontWeight: '600',
   },
 });
