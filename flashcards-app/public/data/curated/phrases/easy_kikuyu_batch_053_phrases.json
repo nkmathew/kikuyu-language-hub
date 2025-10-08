@@ -1,0 +1,367 @@
+{
+  "batch": 53,
+  "source_files": "525-534",
+  "total_flashcards": 35,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Phrases", "Work_Transportation", "Colors_Clothing", "Proverbs", "News"],
+  "difficulty_distribution": {
+    "beginner": 15,
+    "intermediate": 15,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b53_phrase_001",
+      "kikuyu": "ũthĩaga wĩra kũ?",
+      "english": "where do you go to work?",
+      "difficulty": "intermediate",
+      "category": "Work_Transportation",
+      "context": "Work location question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_phrase_002",
+      "kikuyu": "Nĩ ũkuuagwo nũ mbaathĩ?",
+      "english": "Are you transported by bus?",
+      "difficulty": "intermediate",
+      "category": "Work_Transportation",
+      "context": "Transportation question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_phrase_003",
+      "kikuyu": "Nĩ kũrĩ mũgithi?",
+      "english": "Is there a train?",
+      "difficulty": "intermediate",
+      "category": "Work_Transportation",
+      "context": "Transportation question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_phrase_004",
+      "kikuyu": "Nĩ ũkuuagwo nĩ bikibiki?",
+      "english": "Are you transported by motorbike?",
+      "difficulty": "intermediate",
+      "category": "Work_Transportation",
+      "context": "Transportation question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_phrase_005",
+      "kikuyu": "Rĩmwe na rĩmwe nĩ ũthĩaga na magũrũ",
+      "english": "Do you walk sometimes?",
+      "difficulty": "intermediate",
+      "category": "Work_Transportation",
+      "context": "Transportation question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_phrase_006",
+      "kikuyu": "Mũthua ngoro ti Mũthua Kũgũrũ",
+      "english": "Person with lame heart is not same as person with lame leg",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional proverb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_phrase_007",
+      "kikuyu": "Rũciũ nĩ guo mũthenya",
+      "english": "Tomorrow is the day",
+      "difficulty": "beginner",
+      "category": "News",
+      "context": "News announcement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_008",
+      "kikuyu": "Mũthenya wa mũthia wa gũcenjania noti cia tene na noti njerũ",
+      "english": "The last day for exchanging old notes with new notes",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News announcement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_009",
+      "kikuyu": "Kũrĩrĩkana atĩ noti icio ngũrũ ciagĩrĩirwo gũkorwo ciĩ noti baribarĩ",
+      "english": "It is said that those old notes should be loose notes",
+      "difficulty": "advanced",
+      "category": "News",
+      "context": "News explanation",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_010",
+      "kikuyu": "ta mirioni magana merĩ na ikumi na mũgwanja",
+      "english": "about two hundred million and seventeen",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News statistics",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_011",
+      "kikuyu": "No kinyanagia na ũmũthĩ cĩcoketio makĩrĩa ma nuthu",
+      "english": "but up to today a little more than half have been returned",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News statistics",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_012",
+      "kikuyu": "Icio ingĩ cĩĩkũ?",
+      "english": "Where are the other (notes)?",
+      "difficulty": "beginner",
+      "category": "News",
+      "context": "News question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_013",
+      "kikuyu": "Cĩcokieĩ bengĩ ĩrĩa ĩrĩ hakuhi na we",
+      "english": "return them to the bank the one near you",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News instruction",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_014",
+      "kikuyu": "Ririkaniai cúcũ na Grandfather na guka na Grandfather matĩkarĩgĩe na marataathĩ",
+      "english": "Remind Grandmother and Grandfather so they do not end up with paper",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News warning",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_phrase_015",
+      "kikuyu": "Wendente marangi marĩkũ?",
+      "english": "Which colors do you like?",
+      "difficulty": "beginner",
+      "category": "Colors_Clothing",
+      "context": "Color preference question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_016",
+      "kikuyu": "Ũmũthĩ cati yaku nĩ ya rangi ũrĩkũ?",
+      "english": "What is the colour of your shirt today?",
+      "difficulty": "intermediate",
+      "category": "Colors_Clothing",
+      "context": "Clothing color question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_017",
+      "kikuyu": "Wĩ na mũbuto wa rangi ũrĩkũ?",
+      "english": "What is the colour of your trousers?",
+      "difficulty": "intermediate",
+      "category": "Colors_Clothing",
+      "context": "Clothing color question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_018",
+      "kikuyu": "No wĩhumbe irinda itune?",
+      "english": "Would you wear a red dress?",
+      "difficulty": "intermediate",
+      "category": "Colors_Clothing",
+      "context": "Clothing preference question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_019",
+      "kikuyu": "Kana wendete irinda rĩa rangi wa nyeni?",
+      "english": "Or do you like a green dress?",
+      "difficulty": "intermediate",
+      "category": "Colors_Clothing",
+      "context": "Clothing preference question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_020",
+      "kikuyu": "Mũrata waku endete rangi ũrĩkũ?",
+      "english": "Which colour does your friend like?",
+      "difficulty": "intermediate",
+      "category": "Colors_Clothing",
+      "context": "Color preference question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_021",
+      "kikuyu": "No ehumbe mũbuto wa gakararĩ?",
+      "english": "Would he/she wear a purple trouser?",
+      "difficulty": "intermediate",
+      "category": "Colors_Clothing",
+      "context": "Clothing preference question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_022",
+      "kikuyu": "Nĩ ũrĩ thuti njirũ?",
+      "english": "Do you have a black suit?",
+      "difficulty": "beginner",
+      "category": "Colors_Clothing",
+      "context": "Clothing question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_023",
+      "kikuyu": "Mũhiki ehumbaga nguo njeru",
+      "english": "A bride wears white clothes",
+      "difficulty": "beginner",
+      "category": "Colors_Clothing",
+      "context": "Cultural clothing statement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_024",
+      "kikuyu": "Mũhikania no ehumbe rangi wo wothe",
+      "english": "A bride-groom can wear any colour",
+      "difficulty": "beginner",
+      "category": "Colors_Clothing",
+      "context": "Cultural clothing statement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_025",
+      "kikuyu": "Ũĩ marangi marĩkũ na rũthiomi rwa Gĩkũyũ?",
+      "english": "Which colours do you know in Kikuyu language?",
+      "difficulty": "intermediate",
+      "category": "Colors_Clothing",
+      "context": "Language knowledge question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #530"
+    },
+    {
+      "id": "ek_b53_phrase_026",
+      "kikuyu": "Mũtĩ ũrũngagwo ũrĩ mũnini",
+      "english": "A tree is straightened when young (when still a sapling)",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional proverb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #532"
+    },
+    {
+      "id": "ek_b53_phrase_027",
+      "kikuyu": "O rĩmwe thiia ĩkĩrũga na gũteng'era",
+      "english": "At once antelope jumped and ran",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Story narrative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_phrase_028",
+      "kikuyu": "gũthĩĩ kwanĩĩra ũhoro ũcio kũrĩ nyamũ ciothe",
+      "english": "to go to announce that news to all animals",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Story narrative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_phrase_029",
+      "kikuyu": "Nyamũ cĩarĩ na kĩeha kĩĩngĩ mũno",
+      "english": "The animals were sad, a lot of sadness",
+      "difficulty": "beginner",
+      "category": "Proverbs",
+      "context": "Story narrative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_phrase_030",
+      "kikuyu": "Thĩia yahunjĩĩrĩe ũhoro wa ndwarĩ ya Wambũi Mĩcore bũrũriĩnĩ wothe",
+      "english": "Antelope preached about the illness of Zebra throughout the country",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Story narrative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_phrase_031",
+      "kikuyu": "no mũhaka Wambũi Mĩcore ĩkorwo ĩrĩ ya mbere kũrĩa, na ya mbere kũnyua maĩ",
+      "english": "Zebra must be the first to eat and first to drink water",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Story narrative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_phrase_032",
+      "kikuyu": "Mũrĩmũ waku ndũrabatara ndawa",
+      "english": "Your illness does not need medicine",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Story dialogue",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_phrase_033",
+      "kikuyu": "Wona weka ũrĩa ngũkwĩra nĩũkũhona",
+      "english": "If you do what I tell you you will get cured",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Story dialogue",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_phrase_034",
+      "kikuyu": "Ũtuko no mũhaka ũhurũke na thayo",
+      "english": "At night you must rest peacefully",
+      "difficulty": "beginner",
+      "category": "Proverbs",
+      "context": "Story dialogue",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_phrase_035",
+      "kikuyu": "Gwakĩa, ũkorwo ũrĩ wa mbere kũrĩa nyeki, na ũkorwo ũrĩ wa mbere kũnyua maĩ ĩriainĩ",
+      "english": "At day break, be the first to eat grass, and be the first to drink water at the lake/pond",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Story dialogue",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #534"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "batch": 53,
+  "source_files": "525-534",
+  "total_flashcards": 25,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "2nd_Person_Plural_Imperative", "Passive_Verbs"],
+  "difficulty_distribution": {
+    "beginner": 10,
+    "intermediate": 12,
+    "advanced": 3
+  },
+  "flashcards": [
+    {
+      "id": "ek_b53_conj_001",
+      "kikuyu": "carĩai",
+      "english": "search for (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_002",
+      "kikuyu": "mũtĩgacarĩe",
+      "english": "don't search for (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_003",
+      "kikuyu": "etererai",
+      "english": "wait (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_004",
+      "kikuyu": "mũtĩgetere",
+      "english": "don't wait (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_005",
+      "kikuyu": "gerĩai",
+      "english": "try (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_006",
+      "kikuyu": "mũtĩgagerĩe",
+      "english": "don't try (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_007",
+      "kikuyu": "hingũrai",
+      "english": "open (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_008",
+      "kikuyu": "mũtĩkahingũre",
+      "english": "don't open (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_009",
+      "kikuyu": "hũrai",
+      "english": "beat (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_010",
+      "kikuyu": "mũtĩkahũre",
+      "english": "don't beat (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_011",
+      "kikuyu": "ĩkai naihenya",
+      "english": "do fast (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_012",
+      "kikuyu": "mũtĩgeke naihenya",
+      "english": "don't do it fast (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_013",
+      "kikuyu": "kinyai kĩracĩ",
+      "english": "step on the clutch (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_014",
+      "kikuyu": "mũtĩgakinye",
+      "english": "don't step on (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_015",
+      "kikuyu": "nyitai",
+      "english": "hold (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_016",
+      "kikuyu": "mũtĩkanyĩte",
+      "english": "don't hold (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_017",
+      "kikuyu": "rũgamai",
+      "english": "stop/stand (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_018",
+      "kikuyu": "mũtĩkarũgame",
+      "english": "don't stop/stand (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_019",
+      "kikuyu": "rũmĩrĩrai",
+      "english": "follow (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_020",
+      "kikuyu": "mũtĩkarũmĩrĩre",
+      "english": "don't follow (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_021",
+      "kikuyu": "tĩnĩai",
+      "english": "cut (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_022",
+      "kikuyu": "mũtĩgatĩnie",
+      "english": "don't cut (you all)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_conj_023",
+      "kikuyu": "ũkuuagwo",
+      "english": "you are transported",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - passive present",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_conj_024",
+      "kikuyu": "kũrĩrĩkana",
+      "english": "it is said that",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - passive",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_conj_025",
+      "kikuyu": "cĩcoketio",
+      "english": "have been returned",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - passive perfect",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #529"
+    }
+  ]
+}
