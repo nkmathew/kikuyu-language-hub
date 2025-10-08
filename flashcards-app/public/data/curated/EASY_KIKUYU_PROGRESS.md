@@ -1,9 +1,9 @@
 # Easy Kikuyu Curation Progress Tracker
 
 ## Current Status
-**Last Completed Batch**: 035
-**Last File Index**: 354
-**Next Batch**: 036 (files 355-364)
+**Last Completed Batch**: 036
+**Last File Index**: 364
+**Next Batch**: 037 (files 365-374)
 **Date Updated**: 2025-10-08
 
 ## Batch History
@@ -45,13 +45,14 @@
 | **033** | **325-334** | **97** | **✅ Complete** | **2025-10-08** | **Proverbs (tree/thief/elephant), wild animals, emotions (laugh/cry/happy/annoyed/love), shame vs shyness, traditional Kikuyu foods** |
 | **034** | **335-344** | **114** | **✅ Complete** | **2025-10-08** | **Complete body parts vocabulary, fire/light verbs (Akia/Horia), plural commands (+i), greetings system, basic phrases, proverbs (sleep/patience)** |
 | **035** | **345-354** | **82** | **✅ Complete** | **2025-10-08** | **Understanding phrases, proverbs (travel/chase), verbs of motion (15 verbs), imperative rule (remove GŨ/KŨ), noun classes (ndũ derivatives), auxiliary verb 'be', professions** |
-| 036 | 355-364 | - | ⏳ Pending | - | Next batch |
+| **036** | **355-364** | **68** | **✅ Complete** | **2025-10-08** | **Proverbs (saving/self-help/death separates), Rabbit folktale start, professions (15+ jobs: writer, artist, shopkeeper, watchmen, nuns, preacher), materials, blessings** |
+| 037 | 365-374 | - | ⏳ Pending | - | Next batch |
 
 ## Overall Statistics
-- **Total Batches Completed**: 35
-- **Total Files Processed**: 354 / 538 (65.8%)
-- **Remaining Files**: 184
-- **Estimated Remaining Batches**: ~18 batches
+- **Total Batches Completed**: 36
+- **Total Files Processed**: 364 / 538 (67.7%)
+- **Remaining Files**: 174
+- **Estimated Remaining Batches**: ~17 batches
 
 ## Batch 028 Summary
 **Files**: 275-284

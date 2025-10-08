@@ -94,7 +94,8 @@ class DataLoader {
         'vocabulary/easy_kikuyu_batch_032_vocab.json',
         'vocabulary/easy_kikuyu_batch_033_vocab.json',
         'vocabulary/easy_kikuyu_batch_034_vocab.json',
-        'vocabulary/easy_kikuyu_batch_035_vocab.json'
+        'vocabulary/easy_kikuyu_batch_035_vocab.json',
+        'vocabulary/easy_kikuyu_batch_036_vocab.json'
       ],
       conjugations: [
         'conjugations/wiktionary_basic_verbs.json',
