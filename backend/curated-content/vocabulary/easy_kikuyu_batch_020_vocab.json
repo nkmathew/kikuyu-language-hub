@@ -1,0 +1,68 @@
+{
+  "batch_info": {
+    "batch_number": "020",
+    "total_cards": 4,
+    "category": "vocabulary",
+    "source_files": ["196.txt", "199.txt", "200.txt", "202.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T12:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-020-001",
+      "kikuyu": "Verb to Noun Formation (Agent Pattern)",
+      "english": "Gũthĩĩ (to go) → Mũthĩĩ (traveller), Kũruga (to cook) → Mũrugi (cook), Gũciara (to give birth) → Mũciari (parent), Kũrigita (to nurse) → Mũrigiti/Mũrigitani (nurse), Kũrĩma (to farm) → Mũrĩmi (farmer), Kũũmba (to mold with clay) → Mũmbi (potter), Kwenda (to want/love) → Mwendwa (lover), Kũrwara (to be sick) → Mũrwaru (sick person), Kũiya (to steal) → Mũici (thief)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Agent noun formation: prefix verb roots with Mũ-, mostly ending with 'i'. This pattern turns action verbs into nouns denoting the person who performs the action. Note: There are always exceptions to this rule",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 196",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-020-002",
+      "kikuyu": "Hospital Vocabulary",
+      "english": "Thibitarĩ (hospital), Mũrwaru (patient), Nđagĩtarĩ (doctor), Mũrigitani (nurse), Dagĩtarĩ wa magego (dentist), Mĩthaiga/Nđawa (medicine), Nđawa ya mbũrũgũtũ (tablet)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Essential medical/hospital terminology. Note: Thibitarĩ nĩ nyũmba nene (A hospital is a big building). Nđawa can refer to medicine in general, while nđawa ya mbũrũgũtũ specifically means tablets",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 199",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-020-003",
+      "kikuyu": "Class III Household & Animals",
+      "english": "Metha (table), Mbica (picture/photo), Nyũngũ (cooking pot), Ngĩrathi (glass), Thaani (plate), Baathi (iron for clothes), Terebiceni (television), Thaburia (saucepan), Mbirika (kettle), Kuburi (padlock), Cabi (keys), Ng'ombe (cow), Thenge (he-goat), Ngũkũ (chicken/hen), Mbata (duck), Ngigĩ (grasshopper)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Class III nouns: noun form does not change in plural. Demonstratives: ĩno (this singular), ici (these plural). Example: Metha ĩno ĩmwe (this one table), Metha ici igĩrĩ (these two tables)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 200",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-020-004",
+      "kikuyu": "Essential Verbs Set 2",
+      "english": "Kũgũra (to buy), Kũgwa (to fall), Kũhinga (to close), Kũhingũra (to open), Kũhota (to manage/be able to do), Kũiga (to keep/place), Kũmenya (to know), Kũnyita (to catch/hold/understand), Kũrehe (to bring), Kũringa (to hit), Kũrũga (to cook), Kũrũgama (to stand), Kũrũmĩrĩra (to follow), Kuuga (to say), Kwenda (to want/love), Kwendia (to sell), Kwohera (to forgive/tie for someone)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "17 essential verbs you should know. Note polysemy: Kũnyita can mean catch, hold, OR understand. Kwohera can mean forgive OR tie for someone (context-dependent)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 202",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "026",
+    "total_cards": 2,
+    "category": "conjugations",
+    "source_files": ["257.txt", "261.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T15:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-026-001",
+      "kikuyu": "3rd Person Present Progressive - Complete",
+      "english": "Pattern: Subject prefix + -ra- progressive marker + verb stem. Singular (a-): Nĩ aroka (is coming), Nĩ ararĩra (is crying), Nĩ ararĩa (is eating), Nĩ araria (is speaking), Nĩ arakena (is happy), Nĩ aratheka (is laughing), Nĩ arathĩĩ (is going), Nĩ arathooma (is reading), Nĩ arandĩka (is writing). Plural (ma-): Nĩ maroka (are coming), Nĩ mararĩra (are crying), Nĩ mararĩa (are eating), Nĩ mararia (are speaking), Nĩ marakena (are happy), Nĩ maratheka (are laughing), Nĩ marathĩĩ (are going), Nĩ marathooma (are reading), Nĩ marandĩka (are writing)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "3rd person progressive tense using pronouns We (he/she) and O (they). Progressive marker -ra- indicates ongoing action. Note: pronouns have short vowel in this context",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 257",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:00:00Z"
+      }
+    },
+    {
+      "id": "conj-026-002",
+      "kikuyu": "1st & 2nd Person Present Progressive",
+      "english": "1st Person Singular (ndĩ-): Nĩĩ ndĩroka/ndĩrarĩra/ndĩrarĩa/ndĩraria/ndĩrakena/ndĩratheka/ndĩrathĩĩ/ndĩrathooma/ndĩrandĩka (I am coming/crying/eating/speaking/happy/laughing/going/reading/writing). 1st Person Plural (tũ-): Nĩĩ tũroka/tũrarĩra/tũrarĩa/tũraria/tũrakena/tũratheka/tũrathĩĩ/tũrathooma/tũrandĩka (we are...). 2nd Person Singular (ũ-): Nĩĩ ũroka/ũrarĩra/ũrarĩa/ũraria/ũrakena/ũratheka/ũrathĩĩ/ũrathooma/ũrandĩka (you are...). 2nd Person Plural (mũ-): Nĩĩ mũroka/mũrarĩra/mũrarĩa/mũraria/mũrakena/mũratheka/mũrathĩĩ/mũrathooma/mũrandĩka (you all are...)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Complete 1st and 2nd person progressive conjugations. Note: -ra- progressive marker sometimes simplified to -r- in rapid speech. Subject prefixes: ndĩ- (I), tũ- (we), ũ- (you sing), mũ- (you plur)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 261",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:00:00Z"
+      }
+    }
+  ]
+}

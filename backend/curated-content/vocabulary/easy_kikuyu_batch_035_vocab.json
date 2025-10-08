@@ -1,0 +1,885 @@
+{
+  "batch": 35,
+  "source_files": "345-354",
+  "total_flashcards": 82,
+  "created_date": "2025-10-08",
+  "last_updated": "2025-10-08T19:30:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary", "Phrases", "Proverbs", "Grammar"],
+  "difficulty_distribution": {
+    "beginner": 48,
+    "intermediate": 25,
+    "advanced": 9
+  },
+  "flashcards": [
+    {
+      "id": "ek_b35_001",
+      "kikuyu": "Nĩ waigua?",
+      "english": "Do you hear (understand)?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Checking comprehension",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #345"
+    },
+    {
+      "id": "ek_b35_002",
+      "kikuyu": "Nĩ wanyita?",
+      "english": "Do you catch (understand)?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Checking comprehension",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #345"
+    },
+    {
+      "id": "ek_b35_003",
+      "kikuyu": "Nĩ twaiguana?",
+      "english": "Do we understand each other?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Mutual understanding check",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #345"
+    },
+    {
+      "id": "ek_b35_004",
+      "kikuyu": "Igua",
+      "english": "hear",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - auditory perception",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #345"
+    },
+    {
+      "id": "ek_b35_005",
+      "kikuyu": "Igua na matũ merĩ",
+      "english": "Hear (listen) with both ears",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Idiom meaning to listen very attentively or seriously",
+      "cultural_notes": "Traditional phrase emphasizing attentive listening",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #345"
+    },
+    {
+      "id": "ek_b35_006",
+      "kikuyu": "Mũndũ ũtacẽraga oigaga no nyina ũĩ kũruga",
+      "english": "The person who does not travel thinks only his mother knows how to cook",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about broadening perspective",
+      "cultural_notes": "Metaphor emphasizing that travel and exposure broaden one's perspective and show that there are many ways of doing things",
+      "sub_translations": [
+        {"kikuyu": "Mũndũ ũtacẽraga", "english": "the person who does not travel"},
+        {"kikuyu": "oigaga no nyina ũĩ kũruga", "english": "thinks only his mother knows how to cook"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #346"
+    },
+    {
+      "id": "ek_b35_007",
+      "kikuyu": "Ũtacẽraga",
+      "english": "who does not travel",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Negative habitual form",
+      "notes": "From Gũcẽra (to travel)",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #346"
+    },
+    {
+      "id": "ek_b35_008",
+      "kikuyu": "Ũcẽraga",
+      "english": "who travels",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Habitual form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #346"
+    },
+    {
+      "id": "ek_b35_009",
+      "kikuyu": "Gũcẽra",
+      "english": "to visit, travel",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - movement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #346"
+    },
+    {
+      "id": "ek_b35_010",
+      "kikuyu": "Kũruga",
+      "english": "to cook",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - food preparation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #346"
+    },
+    {
+      "id": "ek_b35_011",
+      "kikuyu": "Gũthii",
+      "english": "to go",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb of motion - infinitive",
+      "notes": "Remove GŨ to form imperative: Thii (Go!)",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_012",
+      "kikuyu": "Gũkinya",
+      "english": "arrive",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb of motion",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_013",
+      "kikuyu": "Gũikũrũka",
+      "english": "to go down (e.g. Staircase)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb of motion - descending",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_014",
+      "kikuyu": "Gũtuĩka",
+      "english": "to become",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - transformation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_015",
+      "kikuyu": "Kũingĩra",
+      "english": "to enter",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb of motion",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_016",
+      "kikuyu": "Kũhaica",
+      "english": "to climb",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb of motion - ascending",
+      "notes": "Remove KŨ to form imperative: Haica (Climb!)",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_017",
+      "kikuyu": "Gũkua",
+      "english": "to die",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - cessation of life",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_018",
+      "kikuyu": "Kũroka",
+      "english": "to go (or arrive) first thing in the morning",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - early morning action",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_019",
+      "kikuyu": "Gũciarwo",
+      "english": "to be born",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - passive form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_020",
+      "kikuyu": "Gũciara",
+      "english": "to bear (child)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - giving birth",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_021",
+      "kikuyu": "Kuuma",
+      "english": "to come out",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb of motion - exiting",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_022",
+      "kikuyu": "Kũhĩtũka",
+      "english": "to become",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - transformation (alternative to Gũtuĩka)",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_023",
+      "kikuyu": "Gũcooka",
+      "english": "to come back",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb of motion - returning",
+      "notes": "Remove GŨ to form imperative: Cooka (Come back!)",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_024",
+      "kikuyu": "Gũĩkara",
+      "english": "to stay",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - remaining in place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_025",
+      "kikuyu": "Kũrara",
+      "english": "to stay overnight",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - spending the night",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #347"
+    },
+    {
+      "id": "ek_b35_026",
+      "kikuyu": "Gûtuîka",
+      "english": "to become / to break",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - dual meaning: transformation OR breaking",
+      "notes": "Context determines meaning",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #348"
+    },
+    {
+      "id": "ek_b35_027",
+      "kikuyu": "Kûhîtûka",
+      "english": "to pass / to pass an exam",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - success in test",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #348"
+    },
+    {
+      "id": "ek_b35_028",
+      "kikuyu": "Kûhîtûkîra",
+      "english": "to pass by (on your way to another place)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb with directional suffix -ĩra",
+      "notes": "Shows motion past a location toward another destination",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #348"
+    },
+    {
+      "id": "ek_b35_029",
+      "kikuyu": "Mũndũ",
+      "english": "person (human object)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun class - Mũ- singular prefix for human class",
+      "notes": "From Mũ + ndũ (object)",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_030",
+      "kikuyu": "Andũ",
+      "english": "people",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun class - A- plural prefix for human class",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_031",
+      "kikuyu": "Kĩndũ",
+      "english": "something (non-human object)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun class - Kĩ- singular prefix for non-human object class",
+      "notes": "From Kĩ + ndũ",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_032",
+      "kikuyu": "Indo",
+      "english": "things",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun class - I- plural prefix for non-human object class",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_033",
+      "kikuyu": "Ndũũ",
+      "english": "What (what thing)?",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word - base 'Ndũ' + interrogative suffix 'ũ'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_034",
+      "kikuyu": "Mũndũũ",
+      "english": "what kind of person (tribe)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Question word - Mũ + ndũ + ũ",
+      "notes": "Lower tone in last syllable 'ũ'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_035",
+      "kikuyu": "Tĩkĩndũ",
+      "english": "it's nothing (no object)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Negative construction - Tĩ- negative marker",
+      "notes": "Tĩ + kĩ + ndũ (it is not + object)",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_036",
+      "kikuyu": "Tondũ",
+      "english": "Because (the object is...)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Conjunction - introducing reason or cause",
+      "notes": "From To + ndũ",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #349"
+    },
+    {
+      "id": "ek_b35_037",
+      "kikuyu": "MŨRĨEGA RŨCIINĨ",
+      "english": "Are you (plural) well this morning",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Morning greeting - plural",
+      "sub_translations": [
+        {"kikuyu": "MŨRĨEGA", "english": "are you (plural) well"},
+        {"kikuyu": "RŨCIINĨ", "english": "in the morning"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #350"
+    },
+    {
+      "id": "ek_b35_038",
+      "kikuyu": "WĨ BŨRŨRĨNĨ ŨRĨKŨ?",
+      "english": "In which country are you?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Question about location",
+      "sub_translations": [
+        {"kikuyu": "WĨ", "english": "you are"},
+        {"kikuyu": "BŨRŨRĨNĨ ŨRĨKŨ", "english": "in which country"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #350"
+    },
+    {
+      "id": "ek_b35_039",
+      "kikuyu": "Ndĩ",
+      "english": "I am",
+      "difficulty": "beginner",
+      "category": "Grammar",
+      "context": "Auxiliary verb 'be' - 1st person singular",
+      "notes": "Subject pronoun (Nĩĩ) optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_040",
+      "kikuyu": "Wĩ",
+      "english": "you are",
+      "difficulty": "beginner",
+      "category": "Grammar",
+      "context": "Auxiliary verb 'be' - 2nd person singular",
+      "notes": "Subject pronoun (Wẽẽ) optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_041",
+      "kikuyu": "nĩ",
+      "english": "He/she is / they are",
+      "difficulty": "beginner",
+      "category": "Grammar",
+      "context": "Auxiliary verb 'be' - 3rd person",
+      "notes": "Subject pronouns (Wẽ) or (O) optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_042",
+      "kikuyu": "twĩ",
+      "english": "We are",
+      "difficulty": "beginner",
+      "category": "Grammar",
+      "context": "Auxiliary verb 'be' - 1st person plural",
+      "notes": "Subject pronoun (Ithuĩ) optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_043",
+      "kikuyu": "Ndĩ mwarimũ",
+      "english": "I am a teacher",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - 1st person",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_044",
+      "kikuyu": "Wĩ mũrutwo",
+      "english": "You are a student",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - 2nd person",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_045",
+      "kikuyu": "Wẽ nĩ mũrĩmi",
+      "english": "he/she is a farmer",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - 3rd person singular",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_046",
+      "kikuyu": "O nĩ athigari",
+      "english": "they are police",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - 3rd person plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_047",
+      "kikuyu": "Twĩ athũngũ",
+      "english": "we are Europeans",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Identity statement - 1st person plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_048",
+      "kikuyu": "Nĩĩ ndĩ mũrathime",
+      "english": "I am blessed",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "State of being - 1st person",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_049",
+      "kikuyu": "Aĩrĩtu nĩ athaka",
+      "english": "the girls are beautiful",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Description statement",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_050",
+      "kikuyu": "Bũrũri nĩ mwega",
+      "english": "the country is good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Quality statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #351"
+    },
+    {
+      "id": "ek_b35_051",
+      "kikuyu": "Ngwĩhoka Mũriega",
+      "english": "I hope You (all) are well",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Polite greeting expressing hope",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #352"
+    },
+    {
+      "id": "ek_b35_052",
+      "kikuyu": "Mũĩngatwo na mũĩngatani, gũtirĩ ũtahũmaga",
+      "english": "The one being chased, and the one chasing, both get tired",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about conflict",
+      "cultural_notes": "Means that conflict, competition, or sustained effort is exhausting for all parties involved, regardless of which role they play",
+      "sub_translations": [
+        {"kikuyu": "Mũĩngatwo", "english": "the one being chased"},
+        {"kikuyu": "mũĩngatani", "english": "the chaser"},
+        {"kikuyu": "gũtirĩ ũtahũmaga", "english": "there is none who doesn't get tired"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_053",
+      "kikuyu": "Ĩngata",
+      "english": "chase away",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - driving away",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_054",
+      "kikuyu": "Kũĩngata",
+      "english": "to chase away",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_055",
+      "kikuyu": "Mũĩngatani",
+      "english": "the chaser",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - agent performing chase",
+      "notes": "Derived from Kũĩngata with -ani suffix",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_056",
+      "kikuyu": "Mũĩngatwo",
+      "english": "the one being chased",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - patient receiving chase",
+      "notes": "Derived from Kũĩngata with passive -wo suffix",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_057",
+      "kikuyu": "Kũhũma",
+      "english": "to run out of breath",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - exhaustion",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_058",
+      "kikuyu": "Mũrũtani",
+      "english": "Teacher",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - one who teaches",
+      "notes": "Derived with -ani agent suffix",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_059",
+      "kikuyu": "Mũrutwo",
+      "english": "pupil/student (literally, the one being taught)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - one who is taught",
+      "notes": "Derived with passive -wo suffix",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #353"
+    },
+    {
+      "id": "ek_b35_060",
+      "kikuyu": "Juma",
+      "english": "Saturday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Day of the week",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_061",
+      "kikuyu": "Mawira",
+      "english": "Jobs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - professions/work",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_062",
+      "kikuyu": "(Nĩĩ) Ndĩ Mwarimũ",
+      "english": "I am a teacher",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "notes": "Subject pronoun (Nĩĩ) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_063",
+      "kikuyu": "(Wẽẽ) wĩ karani",
+      "english": "You are a Clerk",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "notes": "Subject pronoun (Wẽẽ) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_064",
+      "kikuyu": "karani",
+      "english": "Clerk",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_065",
+      "kikuyu": "(Wẽ) nĩ dagitarĩ",
+      "english": "he/she is a doctor",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "notes": "Subject pronoun (Wẽ) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_066",
+      "kikuyu": "dagitarĩ",
+      "english": "doctor",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_067",
+      "kikuyu": "(O) nĩ mabundi",
+      "english": "they are craftsmen",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "notes": "Subject pronoun (O) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_068",
+      "kikuyu": "mabundi",
+      "english": "craftsmen",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_069",
+      "kikuyu": "(Ithuĩ) twĩ atangathi",
+      "english": "We are reporters",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - 1st person plural",
+      "notes": "Subject pronoun (Ithuĩ) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_070",
+      "kikuyu": "atangathi",
+      "english": "reporters",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_071",
+      "kikuyu": "Mũrĩĩthia",
+      "english": "speaker/broadcaster",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_072",
+      "kikuyu": "Mũrĩĩthia arutaga wĩra ũrĩkũ?",
+      "english": "What job does the broadcaster do?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Question about profession",
+      "sub_translations": [
+        {"kikuyu": "arutaga wĩra", "english": "does work"},
+        {"kikuyu": "ũrĩkũ", "english": "which"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_073",
+      "kikuyu": "mwarimũ",
+      "english": "teacher",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_074",
+      "kikuyu": "mũrĩmi",
+      "english": "farmer",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_075",
+      "kikuyu": "athigari",
+      "english": "police",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_076",
+      "kikuyu": "athũngũ",
+      "english": "Europeans",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Ethnic group designation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_077",
+      "kikuyu": "mũrathime",
+      "english": "blessed",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - state of blessing",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_078",
+      "kikuyu": "athaka",
+      "english": "beautiful",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - appearance",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_079",
+      "kikuyu": "mwega",
+      "english": "good",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_080",
+      "kikuyu": "Bũrũri",
+      "english": "country",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nation/land",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_081",
+      "kikuyu": "Aĩrĩtu",
+      "english": "girls",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    },
+    {
+      "id": "ek_b35_082",
+      "kikuyu": "wĩra",
+      "english": "work",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - job/task",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #354"
+    }
+  ]
+}

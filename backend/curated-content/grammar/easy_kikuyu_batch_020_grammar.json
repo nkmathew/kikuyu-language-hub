@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "020",
+    "total_cards": 2,
+    "category": "grammar",
+    "source_files": ["197.txt", "200.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T12:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "grammar-020-001",
+      "kikuyu": "Benefactive Suffix -ĩra/-era",
+      "english": "Ĩkĩĩra = put/pour for someone: Ĩkĩĩra Njeri cai (pour tea for Njeri). Gũthooma (to read) → Thomera = read to/for someone: Thoomera mwana ibuku (read a book to the child). Gũtwara (to deliver) → Twarĩĩra = deliver to/for somebody: Twarĩĩra maina irio (take food to Maina)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "notes": "Benefactive suffix -ĩra/-era transforms verbs to mean 'do for/to someone'. Applied benefactive pattern: base verb + benefactive suffix. The suffix indicates the action benefits or is directed toward someone",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 197",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    },
+    {
+      "id": "grammar-020-002",
+      "kikuyu": "Class III Noun Plural Invariance",
+      "english": "Class III nouns do not change form in plural. Singular: uses ĩno (this). Plural: uses ici (these). Example: Metha ĩno ĩmwe (this one table) vs Metha ici igĩrĩ (these two tables) - 'metha' stays the same",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "notes": "Class III includes objects, birds, reptiles, insects, and some mammals. Unlike Class I/II (people) which change form, Class III nouns remain invariant. Only demonstratives and numbers show plurality",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 200",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    }
+  ]
+}

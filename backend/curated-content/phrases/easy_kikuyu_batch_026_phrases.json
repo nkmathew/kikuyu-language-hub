@@ -1,0 +1,68 @@
+{
+  "batch_info": {
+    "batch_number": "026",
+    "total_cards": 4,
+    "category": "phrases",
+    "source_files": ["259.txt", "260.txt", "262.txt", "263.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T15:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "phrase-026-001",
+      "kikuyu": "Imperative Commands - Household",
+      "english": "Ĩkaara thĩ! (sit down!), Ũka Naĩhenya! (come quickly!), Rĩĩra methaini (eat at the table), Hinga mũrango (close the door), Hingũrĩra Ndĩrica (open the window for someone), Andĩka ũhoro ũcio (write that news/matter), Cookia gĩtĩ kĩu (return that chair), Thĩĩ kabati (go to the cupboard), Ruta gĩtĩ kĩu (remove that chair), Ngeithi njega! (good greetings/hello!)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Imperative command forms for household tasks. Pattern: verb + object + locative (-ini suffix). Uses benefactive suffix -ĩra (do for someone) in hingũrĩra. Noun class agreement: njega agrees with ngeithi",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-026-002",
+      "kikuyu": "Greetings - Week 2-1",
+      "english": "Wĩmwega Karanja (are you fine Karanja), Ndimwega Njerĩ (I am fine Njerĩ), Ũhoro waku Mwangĩ (how are you Mwangĩ - lit. your news), Nĩ mwega mũno (it is very good), Nĩĩ ndakũgeĩthia (greetings to you - singular, formal), Nĩĩ ndamũgeĩthia (greetings you all - plural, formal), Mũrĩega (are you all fine?), Ĩĩ tũrĩega mũno (yes, we are very fine)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Week 2-1 greeting patterns showing singular and plural forms. Formal greetings use ndakũgeĩthia (singular) and ndamũgeĩthia (plural). Response pattern: Nĩ mwega references the news being good",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-026-003",
+      "kikuyu": "Multi-topic Dialogue - Transport/School/Food",
+      "english": "Ngeithĩ! Mũrĩega? (greetings! Are you all fine?), Ndimwega. Ũhoro waku? (I am fine. How are you?), Nĩ mwega mũno (it is very good), Wathĩĩ kũ mũthĩĩ? (where are you going traveller?), Ndathĩĩ Karĩũbang'ĩ (I am going to Kariobangi), Haica ngarĩ ĩrĩa. Nĩ cigana? (take that vehicle. How much?), Ciringi mĩrongo ĩtano. Nĩ ngatho (fifty shillings. Thanks), Ũka! (come/go!), Nĩ ũthĩĩaga thukuru? (do you go to school?), Ĩĩ nĩ thĩaga thukuru (yes, I go to school), Thukuru yanyu ĩtagwo atĩa? (what is the name of your school?), Ĩtagwo Mũgumo-inĩ (it is called Mũgumo-inĩ), Tũrarĩa mũcère na nyama rĩu (we are eating rice and meat now), Nĩ tũrarĩa irĩa igagatu na mũgate (we are eating fermented milk and bread)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Complete multi-topic conversation combining transport, school questions, and food. Shows natural dialogue flow across different contexts. Progressive tense: tũrarĩa (we are eating)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-026-004",
+      "kikuyu": "Simple Sentence Construction Practice",
+      "english": "Ũka haha (come here), Andĩka marũa (write a letter), Rĩra maĩ (cry for water), Theka mũthũuri (laugh at the man), Rĩa irio (eat food), Aria na mwanake (speak with the young man), Thii wĩra (go to work), Thooma marũa (read a letter), Ruga ũcũrũ (cook porridge), Mũirĩtu aruta wĩra (the girl is doing work), Kira, mũtumia (keep quiet, woman), Ruta irio (remove the food), Mũthũuri arĩa irio (the man is eating food)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Foundation sentence construction using week 1:2 vocabulary. Shows verb + object pattern. Examples demonstrate imperative forms and simple present progressive (aruta/arĩa)",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 263",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T15:00:00Z"
+      }
+    }
+  ]
+}

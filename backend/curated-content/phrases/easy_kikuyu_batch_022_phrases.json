@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "022",
+    "total_cards": 2,
+    "category": "phrases",
+    "source_files": ["217.txt", "223.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T13:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "phrase-022-001",
+      "kikuyu": "Week 2 Greetings Dialogue",
+      "english": "Wĩmwe ga Karanja (are you fine Karanja), Nđĩmwe ga Njeri (I am fine Njeri), Ũhoro waku Mwangi (how are you Mwangi/your news Mwangi), Nĩ mwega mũno (it is very good), Nĩ nđakũgeithia (greetings to you singular), Nĩ nđageithĩka (I have received greetings), Nĩ nđamũgeithia (greetings you all), Nĩ twageithĩka (we have received greetings), Mũrĩega (are you all fine?), Ĩĩ tũrĩega mũno (yes, we are very fine)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Traditional greeting patterns showing singular/plural distinction. Pattern: Nĩ nđa-/Nĩ twa- for singular/plural greetings reception. Shows cultural exchange of greetings and well-being inquiries",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-022-002",
+      "kikuyu": "Sound & Feeling Expressions",
+      "english": "Kũringa kanua (to be angry, making sounds with mouth - when angry), Kũbogotha (to mumble: Mũrwaru nĩ arararia, aca no nĩ arabogotha - the sick person is talking, look he is also mumbling), Gũthĩoma (to speak with an accent: Arathioma akĩaria Gĩkũyũ), Kũhaya (to groan: Ndiratwara mwana thibitarĩ tondũ nĩ arahaya - I'm taking the child to hospital because he is groaning), Gũkorora (to snort: Kaĩ ũrakorora? Tua gĩkorora - why are you snorting? Blow your nose), Gũathĩmũra (to sneeze: Nyita kanua ũgĩathĩmũra - cover your mouth when sneezing), Kũnũhanũha (fast sounds made by someone crying), Gũĩthĩkĩra (to have a sad posture, e.g. when mourning)",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "notes": "Idiomatic expressions for sounds and emotional/physical manifestations. Shows rich vocabulary for subtle emotional and bodily expressions. Cultural context: mourning postures, illness expressions",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    }
+  ]
+}
