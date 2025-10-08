@@ -1,0 +1,719 @@
+{
+  "batch": 31,
+  "source_files": "305-314",
+  "total_flashcards": 58,
+  "categories": ["vocabulary", "phrases", "conjugations", "grammar"],
+  "difficulty_levels": ["beginner", "intermediate", "advanced"],
+  "cultural_context": "Pulling/abandoning verbs, story continuation, word patterns ending in 'ma', demonstratives with nouns, body parts vocabulary, conditional tense",
+  "notes": "Files 312-313 are duplicates from batch 028 (skipped). New content from 305-311, 314",
+  "created_date": "2025-10-08",
+  "last_updated": "2025-10-08T17:30:00Z",
+  "flashcards": [
+    {
+      "id": "ek_b31_001",
+      "kikuyu": "Wagatano",
+      "english": "Friday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Days of the week",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_002",
+      "kikuyu": "Kũgũcĩa",
+      "english": "to pull",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - pulling action",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_003",
+      "kikuyu": "Ta Gũcĩa",
+      "english": "Just pull",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command - simple imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_004",
+      "kikuyu": "Gũcĩai",
+      "english": "pull (said to several persons)",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Plural imperative",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_005",
+      "kikuyu": "Gũcĩĩria",
+      "english": "pull for someone",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Applicative form - benefactive",
+      "notes": "Shows -ĩria applicative suffix",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_006",
+      "kikuyu": "Gũcagũcĩa",
+      "english": "Pull a little bit more",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Iterative/diminutive form",
+      "notes": "Reduplication showing incremental action",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_007",
+      "kikuyu": "Gũcĩa thigara",
+      "english": "Pull a cigarette (smoke)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Idiomatic usage",
+      "sub_translations": [
+        {"kikuyu": "Gũcĩa", "english": "to pull"},
+        {"kikuyu": "thigara", "english": "cigarette"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_008",
+      "kikuyu": "Ngũcĩĩria ngarĩ",
+      "english": "Tow the car for me",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Vehicle assistance",
+      "sub_translations": [
+        {"kikuyu": "Ngũcĩĩria", "english": "pull for me"},
+        {"kikuyu": "ngarĩ", "english": "car"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_009",
+      "kikuyu": "Ngũcanĩo",
+      "english": "push and pull (trouble)",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Idiomatic - conflict/struggle",
+      "notes": "Metaphorical meaning of struggle",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_010",
+      "kikuyu": "Njerĩ nĩ agũcĩa mũkanda",
+      "english": "Njeri has pulled the rope",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Complete action",
+      "sub_translations": [
+        {"kikuyu": "Njerĩ", "english": "Njeri (name)"},
+        {"kikuyu": "nĩ agũcĩa", "english": "has pulled"},
+        {"kikuyu": "mũkanda", "english": "rope"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #305"
+    },
+    {
+      "id": "ek_b31_011",
+      "kikuyu": "Tiganĩria",
+      "english": "to abandon",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - leaving permanently",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #306"
+    },
+    {
+      "id": "ek_b31_012",
+      "kikuyu": "Tiga",
+      "english": "stop doing, leave behind",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - basic form",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #306"
+    },
+    {
+      "id": "ek_b31_013",
+      "kikuyu": "Tigithania",
+      "english": "Remove two things from each other",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Reciprocal/separative form",
+      "notes": "Shows -thania reciprocal suffix",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #306"
+    },
+    {
+      "id": "ek_b31_014",
+      "kikuyu": "No Gĩkuo gĩgatutĩgithania",
+      "english": "We shall only be separated by death",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Romantic/commitment expression",
+      "sub_translations": [
+        {"kikuyu": "No Gĩkuo", "english": "only death"},
+        {"kikuyu": "gĩgatutĩgithania", "english": "shall separate us"}
+      ],
+      "cultural_notes": "Deep commitment phrase, often in wedding vows",
+      "quality": 4.9,
+      "source": "Easy Kikuyu #306"
+    },
+    {
+      "id": "ek_b31_015",
+      "kikuyu": "O rĩmwe gũkĩĩgwĩka inegene ikĩrũ",
+      "english": "Suddenly there was a lot of noise",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Story continuation - dramatic event",
+      "sub_translations": [
+        {"kikuyu": "O rĩmwe", "english": "suddenly"},
+        {"kikuyu": "gũkĩĩgwĩka", "english": "there was made"},
+        {"kikuyu": "inegene ikĩrũ", "english": "much noise"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #307"
+    },
+    {
+      "id": "ek_b31_016",
+      "kikuyu": "Nyamũ ciothe nĩ ciaigwire inegene rĩũ",
+      "english": "All the animals heard that noise",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Story - animal reaction",
+      "sub_translations": [
+        {"kikuyu": "Nyamũ ciothe", "english": "all animals"},
+        {"kikuyu": "nĩ ciaigwire", "english": "heard"},
+        {"kikuyu": "inegene rĩũ", "english": "that noise"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #307"
+    },
+    {
+      "id": "ek_b31_017",
+      "kikuyu": "Thigiriri",
+      "english": "black ant",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Insect name",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #307"
+    },
+    {
+      "id": "ek_b31_018",
+      "kikuyu": "Yaigwire tarĩ marurumĩ ma mbũra",
+      "english": "I heard as if it was thunder",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Simile - sound comparison",
+      "sub_translations": [
+        {"kikuyu": "Yaigwire", "english": "heard"},
+        {"kikuyu": "tarĩ", "english": "as if"},
+        {"kikuyu": "marurumĩ ma mbũra", "english": "thunder of rain"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #307"
+    },
+    {
+      "id": "ek_b31_019",
+      "kikuyu": "marurumĩ ma mbũra",
+      "english": "thunder",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Weather phenomenon",
+      "notes": "Literally 'roaring of rain'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #307"
+    },
+    {
+      "id": "ek_b31_020",
+      "kikuyu": "yainaga na mũgambo mũnene mũno",
+      "english": "was singing in a loud voice",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Story - loud singing",
+      "sub_translations": [
+        {"kikuyu": "yainaga", "english": "was singing"},
+        {"kikuyu": "na mũgambo", "english": "with voice"},
+        {"kikuyu": "mũnene mũno", "english": "very big/loud"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #307"
+    },
+    {
+      "id": "ek_b31_021",
+      "kikuyu": "yainaga ĩkĩrũgarũgaga",
+      "english": "Was singing and jumping up and down",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Story - animated movement",
+      "sub_translations": [
+        {"kikuyu": "yainaga", "english": "was singing"},
+        {"kikuyu": "ĩkĩrũgarũgaga", "english": "jumping up and down"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #308"
+    },
+    {
+      "id": "ek_b31_022",
+      "kikuyu": "Mũrũgarũgo ũcio waiguĩkaga tarĩ gĩthingithia",
+      "english": "That jumping up and down sounded like an earthquake",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Story - dramatic comparison",
+      "sub_translations": [
+        {"kikuyu": "Mũrũgarũgo", "english": "jumping up and down"},
+        {"kikuyu": "waiguĩkaga", "english": "sounded"},
+        {"kikuyu": "tarĩ gĩthingithia", "english": "like earthquake"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #308"
+    },
+    {
+      "id": "ek_b31_023",
+      "kikuyu": "gĩthingithia",
+      "english": "earthquake",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Natural disaster",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #308"
+    },
+    {
+      "id": "ek_b31_024",
+      "kikuyu": "Nĩ mũnjũĩ hĩhĩ nĩĩ?",
+      "english": "Do you know me really?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Rhetorical question in story",
+      "sub_translations": [
+        {"kikuyu": "Nĩ mũnjũĩ", "english": "do you know me"},
+        {"kikuyu": "hĩhĩ", "english": "really, truly"},
+        {"kikuyu": "nĩĩ", "english": "me"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #308"
+    },
+    {
+      "id": "ek_b31_025",
+      "kikuyu": "Nĩnĩĩ Wangĩĩnĩiya ũrĩa mũthaka takĩ",
+      "english": "I am the boisterous, most beautiful",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Story - character boasting",
+      "sub_translations": [
+        {"kikuyu": "Nĩnĩĩ", "english": "I am"},
+        {"kikuyu": "Wangĩĩnĩiya", "english": "the boisterous one"},
+        {"kikuyu": "ũrĩa mũthaka takĩ", "english": "the most beautiful"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #308"
+    },
+    {
+      "id": "ek_b31_026",
+      "kikuyu": "Iguai mũgambo wakwa inyuothe",
+      "english": "Listen to my voice you all",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Story - command to audience",
+      "sub_translations": [
+        {"kikuyu": "Iguai", "english": "listen (plural)"},
+        {"kikuyu": "mũgambo wakwa", "english": "my voice"},
+        {"kikuyu": "inyuothe", "english": "you all"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #308"
+    },
+    {
+      "id": "ek_b31_027",
+      "kikuyu": "Nĩnĩĩ mwendwa wa nyamũ ciothe",
+      "english": "I am loved by all the animals",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Story - boastful claim",
+      "sub_translations": [
+        {"kikuyu": "Nĩnĩĩ", "english": "I am"},
+        {"kikuyu": "mwendwa", "english": "loved one"},
+        {"kikuyu": "wa nyamũ ciothe", "english": "by all animals"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #308"
+    },
+    {
+      "id": "ek_b31_028",
+      "kikuyu": "cama",
+      "english": "taste",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_029",
+      "kikuyu": "tema",
+      "english": "cut",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_030",
+      "kikuyu": "thoma",
+      "english": "read",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma'",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_031",
+      "kikuyu": "koma",
+      "english": "sleep",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_032",
+      "kikuyu": "thama",
+      "english": "exodus/move out",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_033",
+      "kikuyu": "rũgama",
+      "english": "stand",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_034",
+      "kikuyu": "homa",
+      "english": "flu/fever",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma' - illness",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_035",
+      "kikuyu": "thitima",
+      "english": "electricity",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Word ending in 'ma'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #309"
+    },
+    {
+      "id": "ek_b31_036",
+      "kikuyu": "Metha ĩyo nĩ njega",
+      "english": "That table is good",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Demonstrative with noun agreement",
+      "sub_translations": [
+        {"kikuyu": "Metha", "english": "table"},
+        {"kikuyu": "ĩyo", "english": "that"},
+        {"kikuyu": "nĩ njega", "english": "is good"}
+      ],
+      "notes": "Shows class agreement pattern",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #310"
+    },
+    {
+      "id": "ek_b31_037",
+      "kikuyu": "Riiko rĩũ nĩ rĩega",
+      "english": "That cooker is good",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Demonstrative with rĩ- class",
+      "sub_translations": [
+        {"kikuyu": "Riiko", "english": "cooker"},
+        {"kikuyu": "rĩũ", "english": "that"},
+        {"kikuyu": "nĩ rĩega", "english": "is good"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #310"
+    },
+    {
+      "id": "ek_b31_038",
+      "kikuyu": "Macani mau nĩ mega",
+      "english": "Those tea leaves are good",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Demonstrative with ma- class",
+      "sub_translations": [
+        {"kikuyu": "Macani", "english": "tea leaves"},
+        {"kikuyu": "mau", "english": "those"},
+        {"kikuyu": "nĩ mega", "english": "are good"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #310"
+    },
+    {
+      "id": "ek_b31_039",
+      "kikuyu": "Mboco icio nĩ njega",
+      "english": "Those beans are good",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Demonstrative with ci- class",
+      "sub_translations": [
+        {"kikuyu": "Mboco", "english": "beans"},
+        {"kikuyu": "icio", "english": "those"},
+        {"kikuyu": "nĩ njega", "english": "are good"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #310"
+    },
+    {
+      "id": "ek_b31_040",
+      "kikuyu": "Gĩkombe kĩu nĩ kĩega",
+      "english": "That cup is good",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Demonstrative with kĩ- class",
+      "sub_translations": [
+        {"kikuyu": "Gĩkombe", "english": "cup"},
+        {"kikuyu": "kĩu", "english": "that"},
+        {"kikuyu": "nĩ kĩega", "english": "is good"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #310"
+    },
+    {
+      "id": "ek_b31_041",
+      "kikuyu": "mũtwe",
+      "english": "head",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_042",
+      "kikuyu": "Njuĩrĩ",
+      "english": "hair",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_043",
+      "kikuyu": "Iniũrũ",
+      "english": "nose",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts - facial",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_044",
+      "kikuyu": "Kanua",
+      "english": "mouth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts - facial",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_045",
+      "kikuyu": "Igego / magego",
+      "english": "tooth / teeth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts - singular/plural",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_046",
+      "kikuyu": "riitho / Maitho",
+      "english": "eye / eyes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts - singular/plural",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_047",
+      "kikuyu": "ngingo",
+      "english": "neck",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_048",
+      "kikuyu": "guoko / mooko",
+      "english": "hand / hands",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts - singular/plural",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_049",
+      "kikuyu": "Nda",
+      "english": "stomach",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts - internal",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_050",
+      "kikuyu": "Kũgũrũ / magũrũ",
+      "english": "leg / legs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body parts - singular/plural",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #311"
+    },
+    {
+      "id": "ek_b31_051",
+      "kikuyu": "Gũthoma",
+      "english": "to read/learn",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Educational verb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #314"
+    },
+    {
+      "id": "ek_b31_052",
+      "kikuyu": "Ũngĩthoma no ũhĩge?",
+      "english": "If you read/learn, would you become sharp/clever?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Conditional tense - hypothetical",
+      "sub_translations": [
+        {"kikuyu": "Ũngĩthoma", "english": "if you read/learn"},
+        {"kikuyu": "no ũhĩge", "english": "would you become sharp"}
+      ],
+      "notes": "Conditional pattern: ũngĩ + verb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #314"
+    },
+    {
+      "id": "ek_b31_053",
+      "kikuyu": "Kũhĩga",
+      "english": "to be sharp, clever",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Mental acuity",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #314"
+    },
+    {
+      "id": "ek_b31_054",
+      "kikuyu": "Ingĩthoma no njũhĩge",
+      "english": "If I read/learn I would become sharp/clever",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Conditional tense - 1st person",
+      "sub_translations": [
+        {"kikuyu": "Ingĩthoma", "english": "if I read/learn"},
+        {"kikuyu": "no njũhĩge", "english": "I would become sharp"}
+      ],
+      "notes": "Conditional pattern: ingĩ + verb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #314"
+    },
+    {
+      "id": "ek_b31_055",
+      "kikuyu": "Tũngĩthoma no tũhĩge",
+      "english": "If we read/learn we would become sharp/clever",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Conditional tense - 1st person plural",
+      "sub_translations": [
+        {"kikuyu": "Tũngĩthoma", "english": "if we read/learn"},
+        {"kikuyu": "no tũhĩge", "english": "we would become sharp"}
+      ],
+      "notes": "Conditional pattern: tũngĩ + verb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #314"
+    },
+    {
+      "id": "ek_b31_056",
+      "kikuyu": "Mangĩthoma no mohĩge",
+      "english": "If they read/learn they would become sharp/clever",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Conditional tense - 3rd person plural",
+      "sub_translations": [
+        {"kikuyu": "Mangĩthoma", "english": "if they read/learn"},
+        {"kikuyu": "no mohĩge", "english": "they would become sharp"}
+      ],
+      "notes": "Conditional pattern: mangĩ + verb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #314"
+    },
+    {
+      "id": "ek_b31_057",
+      "kikuyu": "Kahiu kogĩ",
+      "english": "sharp knife",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Example of 'sharp' usage",
+      "sub_translations": [
+        {"kikuyu": "Kahiu", "english": "knife"},
+        {"kikuyu": "kogĩ", "english": "sharp"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #314"
+    },
+    {
+      "id": "ek_b31_058",
+      "kikuyu": "Wakerĩ rũũcinĩ",
+      "english": "Tuesday morning",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Time expression",
+      "sub_translations": [
+        {"kikuyu": "Wakerĩ", "english": "Tuesday"},
+        {"kikuyu": "rũũcinĩ", "english": "morning"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #310"
+    }
+  ]
+}

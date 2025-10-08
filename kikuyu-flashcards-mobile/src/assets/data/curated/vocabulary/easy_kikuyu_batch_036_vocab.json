@@ -1,0 +1,736 @@
+{
+  "batch": 36,
+  "source_files": "355-364",
+  "total_flashcards": 68,
+  "created_date": "2025-10-08",
+  "last_updated": "2025-10-08T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary", "Phrases", "Proverbs"],
+  "difficulty_distribution": {
+    "beginner": 38,
+    "intermediate": 22,
+    "advanced": 8
+  },
+  "flashcards": [
+    {
+      "id": "ek_b36_001",
+      "kikuyu": "Wĩĩgĩire ndahũũtaga",
+      "english": "He/she that has saved does not starve",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about preparation",
+      "cultural_notes": "Emphasizes the importance of saving, preparation, and prudence for future security",
+      "quality": 4.9,
+      "source": "Easy Kikuyu #355"
+    },
+    {
+      "id": "ek_b36_002",
+      "kikuyu": "Kũĩga",
+      "english": "to keep, store",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - preservation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #355"
+    },
+    {
+      "id": "ek_b36_003",
+      "kikuyu": "Ng'aragu",
+      "english": "Hunger",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - physical need",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #355"
+    },
+    {
+      "id": "ek_b36_004",
+      "kikuyu": "Kũhũũta",
+      "english": "to be hungry",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - experiencing hunger",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #355"
+    },
+    {
+      "id": "ek_b36_005",
+      "kikuyu": "Hũũro",
+      "english": "stomach area in animal",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - anatomical",
+      "notes": "e.g. Cow that gets depressed when the animal is hungry",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #355"
+    },
+    {
+      "id": "ek_b36_006",
+      "kikuyu": "Mũrokorwo na kiumia kĩega",
+      "english": "May you (all) have a good week",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Blessing/well-wishes - plural",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #356"
+    },
+    {
+      "id": "ek_b36_007",
+      "kikuyu": "Tene tene rĩ, kwarĩ na",
+      "english": "A long time ago, there was",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Traditional story opening",
+      "cultural_notes": "Classic folktale beginning formula",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_008",
+      "kikuyu": "Wakabuku",
+      "english": "Mr. rabbit",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Character name in folktales",
+      "cultural_notes": "Traditional story character",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_009",
+      "kikuyu": "Arĩ mwĩendi mũno",
+      "english": "He was very selfish",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Character description",
+      "notes": "mwĩendi = selfish person",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_010",
+      "kikuyu": "Endete indo nene nene",
+      "english": "He loved big things",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Character trait description",
+      "notes": "Repetition of 'nene' emphasizes 'very big'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_011",
+      "kikuyu": "Mũgũnda mũnene",
+      "english": "A big farm",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Possession description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_012",
+      "kikuyu": "Ngombe nene",
+      "english": "Big cows",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Animal description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_013",
+      "kikuyu": "Mbũri nene",
+      "english": "Big sheep",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Animal description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_014",
+      "kikuyu": "Na ngũkũ nene",
+      "english": "And big chicken",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Animal description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_015",
+      "kikuyu": "Ona mboga, ahandaga nene",
+      "english": "Even cabbages, he planted big ones",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Farming activity description",
+      "sub_translations": [
+        {"kikuyu": "Ona mboga", "english": "Even cabbages"},
+        {"kikuyu": "ahandaga nene", "english": "he planted big ones"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_016",
+      "kikuyu": "Ngai ateithagia wĩteithĩtie",
+      "english": "God helps he/she who has helped self",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about initiative",
+      "cultural_notes": "Similar to English 'God helps those who help themselves' - emphasizes effort and initiative",
+      "sub_translations": [
+        {"kikuyu": "Ngai ateithagia", "english": "God helps"},
+        {"kikuyu": "wĩteithĩtie", "english": "who has helped himself/herself"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #358"
+    },
+    {
+      "id": "ek_b36_017",
+      "kikuyu": "Ngai",
+      "english": "God",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - deity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #358"
+    },
+    {
+      "id": "ek_b36_018",
+      "kikuyu": "Teithia",
+      "english": "help",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - assistance",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #358"
+    },
+    {
+      "id": "ek_b36_019",
+      "kikuyu": "Wĩteithie",
+      "english": "help yourself (command)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Reflexive imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #358"
+    },
+    {
+      "id": "ek_b36_020",
+      "kikuyu": "Wĩteithĩtie",
+      "english": "who has helped him/herself",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Perfect tense reflexive",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #358"
+    },
+    {
+      "id": "ek_b36_021",
+      "kikuyu": "Mũteithie",
+      "english": "help him/her (command)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Imperative with object",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #358"
+    },
+    {
+      "id": "ek_b36_022",
+      "kikuyu": "Wagatano",
+      "english": "Friday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Day of the week",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #359"
+    },
+    {
+      "id": "ek_b36_023",
+      "kikuyu": "Tiganĩria",
+      "english": "to abandon",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - leaving behind",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #359"
+    },
+    {
+      "id": "ek_b36_024",
+      "kikuyu": "Tiga",
+      "english": "stop doing, leave behind",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - cessation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #359"
+    },
+    {
+      "id": "ek_b36_025",
+      "kikuyu": "Tigithania",
+      "english": "Remove two things from each other",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - reciprocal separation",
+      "notes": "Shows reciprocal suffix -thania",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #359"
+    },
+    {
+      "id": "ek_b36_026",
+      "kikuyu": "No Gĩkuo gĩgatutigithania",
+      "english": "We shall only be separated by death",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Expression of eternal bond",
+      "cultural_notes": "Traditional expression of lifelong commitment",
+      "sub_translations": [
+        {"kikuyu": "No Gĩkuo", "english": "Only death"},
+        {"kikuyu": "gĩgatutigithania", "english": "will separate us"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #359"
+    },
+    {
+      "id": "ek_b36_027",
+      "kikuyu": "Ngeithi nyingĩ",
+      "english": "much greetings",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting expression",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #360"
+    },
+    {
+      "id": "ek_b36_028",
+      "kikuyu": "O mũndũ anjĩre wĩra ũrĩa arutaga",
+      "english": "Each person to tell me the work that he/she does",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Request for information",
+      "sub_translations": [
+        {"kikuyu": "O mũndũ", "english": "each person"},
+        {"kikuyu": "anjĩre", "english": "to tell me"},
+        {"kikuyu": "wĩra ũrĩa arutaga", "english": "the work that he/she does"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #360"
+    },
+    {
+      "id": "ek_b36_029",
+      "kikuyu": "anjĩre",
+      "english": "to tell me",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb with object pronoun",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #360"
+    },
+    {
+      "id": "ek_b36_030",
+      "kikuyu": "ũrĩa",
+      "english": "that / which",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Relative pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #360"
+    },
+    {
+      "id": "ek_b36_031",
+      "kikuyu": "arutaga",
+      "english": "he/she does",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - habitual present",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #360"
+    },
+    {
+      "id": "ek_b36_032",
+      "kikuyu": "(Nĩĩ) Ndĩ bundi",
+      "english": "I am a handyman",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement (carpenter, plumber, etc.)",
+      "notes": "Subject pronoun (Nĩĩ) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_033",
+      "kikuyu": "bundi",
+      "english": "handyman",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_034",
+      "kikuyu": "(Nĩĩ) Ndĩ bundi wa mbao",
+      "english": "I am a carpenter",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - specialized",
+      "notes": "Mbao means wood/timber",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_035",
+      "kikuyu": "Mbao",
+      "english": "wood, timber",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - material",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_036",
+      "kikuyu": "Cuma",
+      "english": "metal",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - material",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_037",
+      "kikuyu": "(Wẽẽ) wĩ mũrĩmi",
+      "english": "You are a farmer",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_038",
+      "kikuyu": "(Wẽ) nĩ ndereva",
+      "english": "he/she is a driver",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_039",
+      "kikuyu": "ndereva",
+      "english": "driver",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_040",
+      "kikuyu": "(Inyuĩ) mwĩ atongoria",
+      "english": "You (plural) are leaders",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_041",
+      "kikuyu": "atongoria",
+      "english": "leaders",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_042",
+      "kikuyu": "(O) nĩ borithi",
+      "english": "they are police (men/women)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_043",
+      "kikuyu": "borithi",
+      "english": "police (men/women)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_044",
+      "kikuyu": "Ũyũ nĩ mũbia",
+      "english": "this is a priest (catholic)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - demonstrative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_045",
+      "kikuyu": "mũbia",
+      "english": "priest (catholic)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Religious profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #361"
+    },
+    {
+      "id": "ek_b36_046",
+      "kikuyu": "Kiumia gĩa gatatũ mwaka ũyũ nĩ gĩathira",
+      "english": "The third week of this year is over",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Time statement - completion",
+      "sub_translations": [
+        {"kikuyu": "Kiumia gĩa gatatũ", "english": "The third week"},
+        {"kikuyu": "mwaka ũyũ", "english": "this year"},
+        {"kikuyu": "nĩ gĩathira", "english": "is over"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #362"
+    },
+    {
+      "id": "ek_b36_047",
+      "kikuyu": "Rathimwoi",
+      "english": "Be blessed (you all)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Blessing - plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #362"
+    },
+    {
+      "id": "ek_b36_048",
+      "kikuyu": "No Mûhurûkîte wikendi?",
+      "english": "you are (are you) still resting over the weekend?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Question about current state",
+      "sub_translations": [
+        {"kikuyu": "No Mûhurûkîte", "english": "are still resting"},
+        {"kikuyu": "wikendi", "english": "the weekend"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #363"
+    },
+    {
+      "id": "ek_b36_049",
+      "kikuyu": "wikendi",
+      "english": "weekend",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Time period - borrowed word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #363"
+    },
+    {
+      "id": "ek_b36_050",
+      "kikuyu": "(Nĩĩ) Ndĩ mwandĩki",
+      "english": "I am a writer",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_051",
+      "kikuyu": "mwandĩki",
+      "english": "writer",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_052",
+      "kikuyu": "(Nĩĩ) Ndĩ mwandĩki wa magathĩtĩ",
+      "english": "I am a newspaper journalist",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - specialized",
+      "notes": "Magathĩtĩ means newspapers",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_053",
+      "kikuyu": "magathĩtĩ",
+      "english": "newspapers",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - media",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_054",
+      "kikuyu": "Mwandĩki wa mabuku",
+      "english": "A Book writer",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession - specialized",
+      "notes": "Mabuku means books",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_055",
+      "kikuyu": "mabuku",
+      "english": "books",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - publications",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_056",
+      "kikuyu": "(Wẽẽ) wĩ mũcori",
+      "english": "You are an artist",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_057",
+      "kikuyu": "mũcori",
+      "english": "artist",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_058",
+      "kikuyu": "(Wẽ) nĩ mwendia wa nduka",
+      "english": "he/she is a shop keeper",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_059",
+      "kikuyu": "Mwendia",
+      "english": "one who sells",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - vendor",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_060",
+      "kikuyu": "nduka",
+      "english": "shop",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place of business",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_061",
+      "kikuyu": "(Inyuĩ) mwĩ arangĩri",
+      "english": "You (plural) are watchmen",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_062",
+      "kikuyu": "arangĩri",
+      "english": "watchmen",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_063",
+      "kikuyu": "(O) nĩ mathĩa",
+      "english": "they are nuns (Catholic)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Religious profession - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_064",
+      "kikuyu": "mathĩa",
+      "english": "nuns (Catholic)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Religious profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_065",
+      "kikuyu": "Ũyũ nĩ mũhunjia",
+      "english": "this is a preacher",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Religious profession - any religion",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_066",
+      "kikuyu": "mũhunjia",
+      "english": "preacher",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Religious profession (any religion)",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #364"
+    },
+    {
+      "id": "ek_b36_067",
+      "kikuyu": "mwĩendi",
+      "english": "selfish person",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Character trait - negative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #357"
+    },
+    {
+      "id": "ek_b36_068",
+      "kikuyu": "mboga",
+      "english": "cabbages / vegetables",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food crop",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #357"
+    }
+  ]
+}

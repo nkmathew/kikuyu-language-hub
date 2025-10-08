@@ -1,0 +1,167 @@
+{
+  "batch": 46,
+  "source_files": "455-464",
+  "total_flashcards": 15,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Cultural", "History", "Story"],
+  "difficulty_distribution": {
+    "beginner": 5,
+    "intermediate": 8,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b46_cultural_001",
+      "kikuyu": "rũgano rũkũhĩ",
+      "english": "short story",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Story type",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #461"
+    },
+    {
+      "id": "ek_b46_cultural_002",
+      "kikuyu": "tene tene no ti tene mũno rĩ",
+      "english": "A long long (time ago) but not very long (ago)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Story beginning",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #461"
+    },
+    {
+      "id": "ek_b46_cultural_003",
+      "kikuyu": "kwarĩ na mũthũngũ wetagwo Bowes",
+      "english": "There was a European called Bowes",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical character",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #461"
+    },
+    {
+      "id": "ek_b46_cultural_004",
+      "kikuyu": "mũthũngũ ũcio endagĩria agĩkũyũ",
+      "english": "That European sold to the Kikuyu",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical trade",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #461"
+    },
+    {
+      "id": "ek_b46_cultural_005",
+      "kikuyu": "indo ngeni ta macuka",
+      "english": "Things like cloth (sheets)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Trade goods",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #461"
+    },
+    {
+      "id": "ek_b46_cultural_006",
+      "kikuyu": "mĩrĩnga ya mũnyaka na ciũma",
+      "english": "copper wire and beads",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Trade goods",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #461"
+    },
+    {
+      "id": "ek_b46_cultural_007",
+      "kikuyu": "ahe agĩkũyũ indo icio rĩ",
+      "english": "when he gave the Kikuyu those things",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical exchange",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #461"
+    },
+    {
+      "id": "ek_b46_cultural_008",
+      "kikuyu": "nao makamũhe magetha mao",
+      "english": "They gave him their harvests",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical exchange",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #462"
+    },
+    {
+      "id": "ek_b46_cultural_009",
+      "kikuyu": "atwaraga magetha mau ma agĩkũyũ Nairobi",
+      "english": "He took those Kikuyu harvests to Nairobi",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Historical trade route",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #462"
+    },
+    {
+      "id": "ek_b46_cultural_010",
+      "kikuyu": "kwenderia comba",
+      "english": "to sell to white people",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical trade",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #462"
+    },
+    {
+      "id": "ek_b46_cultural_011",
+      "kikuyu": "tondũ Bowes nĩ arĩ na mĩcĩnga",
+      "english": "Because he had guns",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical power",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #462"
+    },
+    {
+      "id": "ek_b46_cultural_012",
+      "kikuyu": "etigĩrĩtwo mũno nĩ agĩkũyũ",
+      "english": "He was much feared by the kikuyu",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Historical relationship",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #462"
+    },
+    {
+      "id": "ek_b46_cultural_013",
+      "kikuyu": "tondũ marĩ na matimo na ngo tu",
+      "english": "Because they had spears and shields",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional weapons",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #462"
+    },
+    {
+      "id": "ek_b46_cultural_014",
+      "kikuyu": "bowes atumire ndũgũ na mũnene wetagwo Wangombe",
+      "english": "Bowes made friends with a leader known as Wangombe",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical relationship",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #463"
+    },
+    {
+      "id": "ek_b46_cultural_015",
+      "kikuyu": "kinya rĩmwe agathĩĩ mbara kũrũa",
+      "english": "Until once, he went to war, to fight",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Historical conflict",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #463"
+    }
+  ]
+}

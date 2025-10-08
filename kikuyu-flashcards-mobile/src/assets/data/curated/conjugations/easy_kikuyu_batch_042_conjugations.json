@@ -1,0 +1,97 @@
+{
+  "batch": 42,
+  "source_files": "415-424",
+  "total_flashcards": 8,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "Verb_Derivations"],
+  "difficulty_distribution": {
+    "beginner": 2,
+    "intermediate": 4,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b42_conj_001",
+      "kikuyu": "Kũhinya",
+      "english": "to be thick/to be compact",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #417"
+    },
+    {
+      "id": "ek_b42_conj_002",
+      "kikuyu": "Kũhinyia",
+      "english": "to compact/make thick",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - causative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #417"
+    },
+    {
+      "id": "ek_b42_conj_003",
+      "kikuyu": "Kũhinyĩrĩria",
+      "english": "to force down/to oppress",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - causative",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #417"
+    },
+    {
+      "id": "ek_b42_conj_004",
+      "kikuyu": "Kunjuga",
+      "english": "to stir up (a liquid, or trouble)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #418"
+    },
+    {
+      "id": "ek_b42_conj_005",
+      "kikuyu": "Kũheo",
+      "english": "to be given",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - passive infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #419"
+    },
+    {
+      "id": "ek_b42_conj_006",
+      "kikuyu": "ũngĩheo",
+      "english": "if you are given",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Conditional tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #419"
+    },
+    {
+      "id": "ek_b42_conj_007",
+      "kikuyu": "Gũtwaro",
+      "english": "to be taken (driven/carried away)",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - passive infinitive",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_conj_008",
+      "kikuyu": "Kũhũta",
+      "english": "to be hungry",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #424"
+    }
+  ]
+}

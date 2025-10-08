@@ -1,0 +1,371 @@
+{
+  "batch": 38,
+  "source_files": "375-384",
+  "total_flashcards": 35,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 20,
+    "intermediate": 12,
+    "advanced": 3
+  },
+  "flashcards": [
+    {
+      "id": "ek_b38_vocab_001",
+      "kikuyu": "Andũ",
+      "english": "people",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - human beings",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #375"
+    },
+    {
+      "id": "ek_b38_vocab_002",
+      "kikuyu": "aitũ",
+      "english": "our",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Possessive pronoun - first person plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #375"
+    },
+    {
+      "id": "ek_b38_vocab_003",
+      "kikuyu": "mũrĩega",
+      "english": "fine/well",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - state of being",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #375"
+    },
+    {
+      "id": "ek_b38_vocab_004",
+      "kikuyu": "Mũgĩ",
+      "english": "clever",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - intelligence",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #376"
+    },
+    {
+      "id": "ek_b38_vocab_005",
+      "kikuyu": "Mĩhere",
+      "english": "methods of giving (telling)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - ways of communication",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #376"
+    },
+    {
+      "id": "ek_b38_vocab_006",
+      "kikuyu": "Mũndũ",
+      "english": "person",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - human being",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #376"
+    },
+    {
+      "id": "ek_b38_vocab_007",
+      "kikuyu": "Ũhoro",
+      "english": "news, information",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - information/matter",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #376"
+    },
+    {
+      "id": "ek_b38_vocab_008",
+      "kikuyu": "ndũnyũ",
+      "english": "market",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place of commerce",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #377"
+    },
+    {
+      "id": "ek_b38_vocab_009",
+      "kikuyu": "thoko",
+      "english": "market",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place of commerce (alternative)",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #377"
+    },
+    {
+      "id": "ek_b38_vocab_010",
+      "kikuyu": "mũrũarũ",
+      "english": "sick",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - ill state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_011",
+      "kikuyu": "mũrathime",
+      "english": "blessed",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - blessed state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_012",
+      "kikuyu": "mũtitie",
+      "english": "injured",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - hurt state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_013",
+      "kikuyu": "mwega",
+      "english": "good",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - positive state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_014",
+      "kikuyu": "andĩkithie",
+      "english": "registered",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Adjective - official status",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_015",
+      "kikuyu": "ahĩnju",
+      "english": "thin",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - physical state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_016",
+      "kikuyu": "mũtungu",
+      "english": "obese",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - physical state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_017",
+      "kikuyu": "anyite",
+      "english": "arrested",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Adjective - legal status",
+      "notes": "Related to the verb kũnyita (to catch/arrest)",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_018",
+      "kikuyu": "borithi",
+      "english": "police",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - law enforcement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #378"
+    },
+    {
+      "id": "ek_b38_vocab_019",
+      "kikuyu": "kĩrĩkanĩro",
+      "english": "promise/agreement",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - covenant/agreement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #379"
+    },
+    {
+      "id": "ek_b38_vocab_020",
+      "kikuyu": "Ndundu",
+      "english": "group with a common agenda",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - united group",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #380"
+    },
+    {
+      "id": "ek_b38_vocab_021",
+      "kikuyu": "Njũgũma",
+      "english": "club or knobkerrie",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - traditional weapon",
+      "notes": "Traditional stick with a knobbed end",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #380"
+    },
+    {
+      "id": "ek_b38_vocab_022",
+      "kikuyu": "mwendia",
+      "english": "seller",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - vendor",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_023",
+      "kikuyu": "Mũgũrĩ",
+      "english": "buyer",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - purchaser",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_024",
+      "kikuyu": "Mũtongoria",
+      "english": "leader",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - guide",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_025",
+      "kikuyu": "Mũcori",
+      "english": "artist",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - creative person",
+      "notes": "General term for one who draws or paints",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_026",
+      "kikuyu": "nyũmba",
+      "english": "house",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - dwelling",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_027",
+      "kikuyu": "atongoria",
+      "english": "leaders",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_028",
+      "kikuyu": "Mũthigari",
+      "english": "police",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - law enforcement",
+      "notes": "Or any uniformed security person",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_029",
+      "kikuyu": "Mbĩrarũ",
+      "english": "military/army",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - armed forces",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #381"
+    },
+    {
+      "id": "ek_b38_vocab_030",
+      "kikuyu": "mũthigiti",
+      "english": "mosque",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - religious building",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #382"
+    },
+    {
+      "id": "ek_b38_vocab_031",
+      "kikuyu": "mathabu",
+      "english": "sums",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - mathematical problems",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #383"
+    },
+    {
+      "id": "ek_b38_vocab_032",
+      "kikuyu": "mũtũngĩnĩ",
+      "english": "container",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - vessel",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #384"
+    },
+    {
+      "id": "ek_b38_vocab_033",
+      "kikuyu": "gĩkombe",
+      "english": "cup",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - drinking vessel",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #384"
+    },
+    {
+      "id": "ek_b38_vocab_034",
+      "kikuyu": "cai",
+      "english": "tea",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - beverage",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #384"
+    },
+    {
+      "id": "ek_b38_vocab_035",
+      "kikuyu": "maĩ",
+      "english": "water",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - liquid",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #384"
+    }
+  ]
+}

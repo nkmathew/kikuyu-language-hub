@@ -1,0 +1,47 @@
+{
+  "batch": 42,
+  "source_files": "415-424",
+  "total_flashcards": 2,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Proverbs"],
+  "difficulty_distribution": {
+    "beginner": 0,
+    "intermediate": 1,
+    "advanced": 1
+  },
+  "flashcards": [
+    {
+      "id": "ek_b42_proverb_001",
+      "kikuyu": "Ĩtarĩ hinya ĩnyuaga munju",
+      "english": "The one who is not strong drinks muddied water",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about strength",
+      "cultural_notes": "Refers to cattle - be strong, stand your ground",
+      "sub_translations": [
+        {"kikuyu": "Ĩtarĩ hinya", "english": "The one who is not strong"},
+        {"kikuyu": "ĩnyuaga munju", "english": "drinks muddied water"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #418"
+    },
+    {
+      "id": "ek_b42_proverb_002",
+      "kikuyu": "Wĩĩgĩĩre ndahũtaga",
+      "english": "He/she who has saved something does not go hungry",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about savings",
+      "cultural_notes": "Savings of any kind are good",
+      "sub_translations": [
+        {"kikuyu": "Wĩĩgĩĩre", "english": "He/she who has saved"},
+        {"kikuyu": "ndahũtaga", "english": "does not go hungry"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #424"
+    }
+  ]
+}
