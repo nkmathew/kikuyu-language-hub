@@ -1,0 +1,223 @@
+{
+  "batch": 37,
+  "source_files": "365-374",
+  "total_flashcards": 20,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Phrases", "Conversation"],
+  "difficulty_distribution": {
+    "beginner": 8,
+    "intermediate": 12,
+    "advanced": 0
+  },
+  "flashcards": [
+    {
+      "id": "ek_b37_phrase_001",
+      "kikuyu": "Nĩndamũgeithia",
+      "english": "I have greeted you (all)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #365"
+    },
+    {
+      "id": "ek_b37_phrase_002",
+      "kikuyu": "Geithĩkai",
+      "english": "Receive greetings (you all)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting response - plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #367"
+    },
+    {
+      "id": "ek_b37_phrase_003",
+      "kikuyu": "(Nĩĩ) Ndĩ injinia",
+      "english": "I am an engineer",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "notes": "Subject pronoun (Nĩĩ) is optional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_phrase_004",
+      "kikuyu": "(Nĩĩ) Ndĩ mũhũrĩ wa mbica",
+      "english": "I am a photographer",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - specialized",
+      "notes": "Mũhũrĩ means striker/hitter, mbica means pictures",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_phrase_005",
+      "kikuyu": "(Wẽẽ) wĩ mũgwĩmi",
+      "english": "You are a hunter",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_phrase_006",
+      "kikuyu": "(Wẽ) nĩ mũrĩĩthia wa mahiũ",
+      "english": "he/she is a herder (of domestic animals)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - specialized",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_phrase_007",
+      "kikuyu": "(Inyuĩ) mwĩ aturi",
+      "english": "You are iron mongers",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_phrase_008",
+      "kikuyu": "(O) nĩ ombi a nyũngũ",
+      "english": "they are potters",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - plural",
+      "notes": "Literally 'molders of pots'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_phrase_009",
+      "kikuyu": "Ũyũ nĩ mugo",
+      "english": "This is a medicine (person)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession statement - demonstrative",
+      "cultural_notes": "Mugo traditionally refers to a medicine man or traditional healer",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #369"
+    },
+    {
+      "id": "ek_b37_phrase_010",
+      "kikuyu": "Kwanyu mũrĩ aigana?",
+      "english": "How many are you (at your home)?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about family size",
+      "notes": "Asking about number of people in household",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_phrase_011",
+      "kikuyu": "Aĩrĩtu nĩ aigana?",
+      "english": "How many girls?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about daughters",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_phrase_012",
+      "kikuyu": "Anake nĩ aigana?",
+      "english": "How many boys?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about sons",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_phrase_013",
+      "kikuyu": "Nũũ mũkũrũrũ?",
+      "english": "Who is eldest?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about family hierarchy",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_phrase_014",
+      "kikuyu": "Mũĩkaraga kũ?",
+      "english": "Where do you stay?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Question about residence",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #370"
+    },
+    {
+      "id": "ek_b37_phrase_015",
+      "kikuyu": "ũmũthĩ nĩ Wakana",
+      "english": "Today is Thursday",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Day identification",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #371"
+    },
+    {
+      "id": "ek_b37_phrase_016",
+      "kikuyu": "Rũciũ nĩ Wagatano",
+      "english": "Tomorrow is Friday",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Future day identification",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #371"
+    },
+    {
+      "id": "ek_b37_phrase_017",
+      "kikuyu": "Kamau nĩ mũtengeri",
+      "english": "Kamau is a runner, athlete",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession/description",
+      "notes": "Implies a fast runner if the root word 'run' is stressed",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_phrase_018",
+      "kikuyu": "Ureciria atĩa rĩu?",
+      "english": "What are you thinking now?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about current thoughts",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_phrase_019",
+      "kikuyu": "Ũgwũka atĩa ũmũthĩ?",
+      "english": "What will you do today?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about plans",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_phrase_020",
+      "kikuyu": "Mũgeithie?",
+      "english": "Greet him/her",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Imperative - command to greet",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #374"
+    }
+  ]
+}
