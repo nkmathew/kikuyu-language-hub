@@ -244,9 +244,9 @@ class EnhancedFlashCardView @JvmOverloads constructor(
         englishView.textSize = 12f
         exampleView.addView(englishView)
 
-        example.context?.let { context ->
+        example.context?.let { contextText ->
             val contextView = TextView(context)
-            contextView.text = context
+            contextView.text = contextText
             contextView.textSize = 10f
             contextView.setTypeface(null, android.graphics.Typeface.ITALIC)
             exampleView.addView(contextView)

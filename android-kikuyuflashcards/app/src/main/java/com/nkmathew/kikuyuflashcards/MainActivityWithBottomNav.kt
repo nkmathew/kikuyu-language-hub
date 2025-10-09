@@ -386,7 +386,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             
             setOnClickListener {
                 soundManager.playButtonSound()
-                startFlashCards()
+                startCategorySelectorFlashCards()
             }
         }
         
@@ -420,7 +420,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setOnClickListener {
                 soundManager.playButtonSound()
                 when (mode.id) {
-                    "flashcards" -> startFlashCards()
+                    "flashcards" -> startCategorySelectorFlashCards()
                     "enhanced_flashcards" -> startEnhancedFlashCards()
                     "quiz" -> startQuiz()
                     "fill_blank" -> startFillBlank()
@@ -594,28 +594,8 @@ class MainActivityWithBottomNav : ComponentActivity() {
     }
     
     // Navigation methods (these launch full activities for learning modes)
-    private fun startFlashCards() {
+    private fun startCategorySelectorFlashCards() {
         val intent = Intent(this, CategorySelectorActivity::class.java)
-        startActivity(intent)
-    }
-    
-    private fun startQuiz() {
-        val intent = Intent(this, QuizActivity::class.java)
-        startActivity(intent)
-    }
-    
-    private fun startFillBlank() {
-        val intent = Intent(this, FillInTheBlankActivity::class.java)
-        startActivity(intent)
-    }
-    
-    private fun startCloze() {
-        val intent = Intent(this, ClozeTestActivity::class.java)
-        startActivity(intent)
-    }
-    
-    private fun startGames() {
-        val intent = Intent(this, MultipleResponseGameActivity::class.java)
         startActivity(intent)
     }
     
