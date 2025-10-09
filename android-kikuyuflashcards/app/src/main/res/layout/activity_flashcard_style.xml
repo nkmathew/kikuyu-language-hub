@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/md_theme_light_background"
+    android:padding="16dp">
+
+    <!-- Progress Display -->
+    <TextView
+        android:id="@+id/progressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/md_theme_light_onSurface"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        tools:text="Progress: 1/20 | Known: 5" />
+
+    <!-- Flash Card Container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="24dp">
+
+        <com.nkmathew.kikuyuflashcards.ui.views.FlashCardStyleView
+            android:id="@+id/flashCardView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp" />
+
+    </FrameLayout>
+
+    <!-- Navigation Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/previousButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="← Previous"
+            android:textSize="14sp"
+            android:backgroundTint="@color/md_theme_light_secondary"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/flipButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginHorizontal="8dp"
+            android:text="Show Kikuyu"
+            android:textSize="16sp"
+            android:backgroundTint="@color/md_theme_light_primary"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Next →"
+            android:textSize="14sp"
+            android:backgroundTint="@color/md_theme_light_secondary"
+            style="@style/Widget.Material3.Button" />
+
+    </LinearLayout>
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/knownButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="✅ Mark as Known"
+            android:textSize="14sp"
+            android:backgroundTint="@color/success_color"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/unknownButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="❌ Mark as Unknown"
+            android:textSize="14sp"
+            android:backgroundTint="@color/warning_color"
+            android:visibility="gone"
+            style="@style/Widget.Material3.Button" />
+
+    </LinearLayout>
+
+    <!-- Utility Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/copyButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="📋 Copy"
+            android:textSize="14sp"
+            android:backgroundTint="@color/secondary_color"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/flagButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="🚩"
+            android:textSize="14sp"
+            android:backgroundTint="@color/warning_color"
+            style="@style/Widget.Material3.Button" />
+
+    </LinearLayout>
+
+</LinearLayout>

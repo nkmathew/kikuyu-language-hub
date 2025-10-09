@@ -178,4 +178,14 @@
     <color name="secondary_color">#757575</color>
     <color name="primary_color">#1976D2</color>
 
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_surface_variant">#2D2D2D</color>
+    <color name="dark_on_surface">#FFFFFF</color>
+    <color name="dark_on_surface_variant">#CCCCCC</color>
+    <color name="dark_primary">#90CAF9</color>
+    <color name="dark_secondary">#A5D6A7</color>
+    <color name="dark_tertiary">#FFCC80</color>
+
 </resources>

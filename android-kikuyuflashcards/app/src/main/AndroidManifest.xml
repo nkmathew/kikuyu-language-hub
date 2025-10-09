@@ -87,5 +87,10 @@
             android:label="Flagged Translations"
             android:parentActivityName=".MainActivityWithBottomNav" />
 
+        <!-- Flash Card Style Activity -->
+        <activity android:name=".FlashCardStyleActivity"
+            android:label="Flash Card Style"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
     </application>
 </manifest>

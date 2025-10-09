@@ -111,8 +111,8 @@ class MainActivityWithBottomNav : ComponentActivity() {
         val navItems = listOf(
             NavItem("🏠", "Home", "home"),
             NavItem("📚", "Learn", "learn"),
+            NavItem("🚩", "Flagged", "flagged"),
             NavItem("📊", "Stats", "stats"),
-            NavItem("🎯", "Practice", "practice"),
             NavItem("⚙️", "Settings", "settings")
         )
         
@@ -144,8 +144,8 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 when (item.id) {
                     "home" -> showHomeContent()
                     "learn" -> showLearnContent()
+                    "flagged" -> startFlaggedTranslations()
                     "stats" -> showStatsContent()
-                    "practice" -> showPracticeContent()
                     "settings" -> showSettingsContent()
                 }
             }
@@ -209,7 +209,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
     }
     
     private fun updateBottomNavIndicators() {
-        val navItems = listOf("home", "learn", "stats", "practice", "settings")
+        val navItems = listOf("home", "learn", "flagged", "stats", "settings")
         val isDarkTheme = ThemeManager.isDarkTheme(this)
         
         navItems.forEach { itemId ->
@@ -289,6 +289,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             LearningMode("🚀 Flash Cards", "Interactive card-based learning", "flashcards"),
             LearningMode("✨ Enhanced Cards", "Rich content with metadata", "enhanced_flashcards"),
             LearningMode("📋 Study List", "Side-by-side learning mode", "study_list"),
+            LearningMode("🎯 Flash Card Style", "Flip-style cards like React Native", "flashcard_style"),
             LearningMode("🚩 Flagged Translations", "Review flagged translations", "flagged_translations"),
             LearningMode("🧠 Quiz Mode", "Test your knowledge", "quiz"),
             LearningMode("✏️ Fill Blanks", "Complete the sentences", "fill_blank"),
@@ -425,6 +426,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
                     "flashcards" -> startCategorySelectorFlashCards()
                     "enhanced_flashcards" -> startEnhancedFlashCards()
                     "study_list" -> startStudyList()
+                    "flashcard_style" -> startFlashCardStyle()
                     "flagged_translations" -> startFlaggedTranslations()
                     "quiz" -> startQuiz()
                     "fill_blank" -> startFillBlank()
@@ -510,60 +512,6 @@ class MainActivityWithBottomNav : ComponentActivity() {
         contentContainer.addView(streakSection)
     }
     
-    private fun showPracticeContent() {
-        contentContainer.removeAllViews()
-        
-        val isDarkTheme = ThemeManager.isDarkTheme(this)
-        
-        val titleText = TextView(this).apply {
-            text = "🎯 Practice Problem Words"
-            textSize = 28f
-            setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
-            setPadding(0, 0, 0, 24)
-            gravity = Gravity.CENTER
-            setTypeface(null, android.graphics.Typeface.BOLD)
-        }
-        
-        val descText = TextView(this).apply {
-            text = "Focus on words you've struggled with in the past"
-            textSize = 16f
-            setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurfaceVariant))
-            setPadding(16, 0, 16, 24)
-            gravity = Gravity.CENTER
-            setLineSpacing(4f, 1.2f)
-        }
-        
-        val practiceButton = Button(this).apply {
-            text = "Start Practice Session"
-            textSize = 18f
-            setPadding(40, 24, 40, 24)
-            setTextColor(Color.WHITE)
-            setTypeface(null, android.graphics.Typeface.BOLD)
-            
-            val buttonBg = GradientDrawable().apply {
-                shape = GradientDrawable.RECTANGLE
-                cornerRadius = 28f
-                setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.warning_orange))
-            }
-            background = buttonBg
-            
-            val layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            )
-            layoutParams.setMargins(0, 0, 0, 16)
-            this.layoutParams = layoutParams
-            
-            setOnClickListener {
-                soundManager.playButtonSound()
-                startActivity(Intent(this@MainActivityWithBottomNav, ProblemWordsPracticeActivity::class.java))
-            }
-        }
-        
-        contentContainer.addView(titleText)
-        contentContainer.addView(descText)
-        contentContainer.addView(practiceButton)
-    }
     
     private fun showSettingsContent() {
         contentContainer.removeAllViews()
@@ -846,6 +794,11 @@ class MainActivityWithBottomNav : ComponentActivity() {
 
     private fun startStudyList() {
         val intent = Intent(this, StudyListActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startFlashCardStyle() {
+        val intent = Intent(this, FlashCardStyleActivity::class.java)
         startActivity(intent)
     }
 

@@ -1,8 +1,14 @@
 package com.nkmathew.kikuyuflashcards
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -12,7 +18,6 @@ import com.nkmathew.kikuyuflashcards.models.Categories
 import com.nkmathew.kikuyuflashcards.models.DifficultyLevels
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.adapters.StudyCardAdapter
-import com.nkmathew.kikuyuflashcards.ui.views.StudyCardView
 
 /**
  * Activity that displays flashcards in list mode similar to Next.js app
@@ -25,6 +30,8 @@ class StudyListActivity : AppCompatActivity() {
     private lateinit var categoryChipGroup: ChipGroup
     private lateinit var difficultyChipGroup: ChipGroup
     private lateinit var progressTextView: TextView
+    private lateinit var exportButton: Button
+    private lateinit var shareButton: Button
     private lateinit var studyCardAdapter: StudyCardAdapter
 
     // Managers
@@ -52,6 +59,8 @@ class StudyListActivity : AppCompatActivity() {
         categoryChipGroup = findViewById(R.id.categoryChipGroup)
         difficultyChipGroup = findViewById(R.id.difficultyChipGroup)
         progressTextView = findViewById(R.id.progressTextView)
+        exportButton = findViewById(R.id.exportButton)
+        shareButton = findViewById(R.id.shareButton)
 
         // Initialize managers
         flashCardManager = FlashCardManagerV2(this)
@@ -65,6 +74,9 @@ class StudyListActivity : AppCompatActivity() {
 
         // Set up difficulty filter chips
         setupDifficultyChips()
+
+        // Set up export buttons
+        setupExportButtons()
 
         // Load initial cards
         loadCards()
@@ -210,6 +222,63 @@ class StudyListActivity : AppCompatActivity() {
         val progressPercentage = if (totalCards > 0) (knownCount * 100) / totalCards else 0
         
         progressTextView.text = "Progress: $knownCount/$totalCards cards known ($progressPercentage%)"
+    }
+
+    /**
+     * Set up export buttons
+     */
+    private fun setupExportButtons() {
+        exportButton.setOnClickListener {
+            copyAllToClipboard()
+        }
+
+        shareButton.setOnClickListener {
+            shareAsEmail()
+        }
+    }
+
+    /**
+     * Copy all cards to clipboard
+     */
+    private fun copyAllToClipboard() {
+        val cards = flashCardManager.getAllEntries()
+        if (cards.isEmpty()) {
+            Toast.makeText(this, "No cards to copy", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        val text = cards.joinToString("\n\n") { card ->
+            "[${card.category}] ${card.id}\n${card.kikuyu} - ${card.english}\nDifficulty: ${card.difficulty}"
+        }
+
+        val clip = ClipData.newPlainText("Kikuyu Flashcards", text)
+        clipboard.setPrimaryClip(clip)
+        Toast.makeText(this, "${cards.size} cards copied to clipboard", Toast.LENGTH_SHORT).show()
+    }
+
+    /**
+     * Share cards as email
+     */
+    private fun shareAsEmail() {
+        val cards = flashCardManager.getAllEntries()
+        if (cards.isEmpty()) {
+            Toast.makeText(this, "No cards to share", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        val emailBody = "Kikuyu Flashcards (${cards.size} items):\n\n" +
+                cards.joinToString("\n") { card ->
+                    "• [${card.category}] ${card.id}\n  ${card.kikuyu} - ${card.english}\n  Difficulty: ${card.difficulty}"
+                }
+
+        val intent = Intent(Intent.ACTION_SEND).apply {
+            type = "text/plain"
+            putExtra(Intent.EXTRA_TEXT, emailBody)
+            putExtra(Intent.EXTRA_SUBJECT, "Kikuyu Flashcards")
+        }
+
+        startActivity(Intent.createChooser(intent, "Share Kikuyu Flashcards"))
     }
 
     /**

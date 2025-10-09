@@ -7,7 +7,8 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardCornerRadius="12dp"
-    app:cardElevation="3dp">
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="?attr/colorSurface">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -77,52 +78,19 @@
                 tools:visibility="visible" />
         </LinearLayout>
 
-        <!-- Main Content: English and Kikuyu Side by Side -->
+        <!-- Main Content: Kikuyu and English Stacked Vertically -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:layout_marginBottom="12dp">
 
-            <!-- English Side -->
+            <!-- Kikuyu Section (First) -->
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:orientation="vertical"
-                android:layout_marginEnd="8dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="English"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:textColor="?attr/colorPrimary"
-                    android:background="@drawable/badge_background"
-                    android:padding="4dp"
-                    android:gravity="center"
-                    android:layout_marginBottom="8dp" />
-
-                <TextView
-                    android:id="@+id/englishTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:background="@color/card_background_light"
-                    android:padding="12dp"
-                    android:gravity="center"
-                    tools:text="Good morning" />
-            </LinearLayout>
-
-            <!-- Kikuyu Side -->
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical"
-                android:layout_marginStart="8dp">
+                android:layout_marginBottom="8dp">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -131,10 +99,10 @@
                     android:textSize="12sp"
                     android:textStyle="bold"
                     android:textColor="@android:color/white"
-                    android:background="@color/card_background_dark"
-                    android:padding="4dp"
+                    android:background="@color/md_theme_dark_primary"
+                    android:padding="6dp"
                     android:gravity="center"
-                    android:layout_marginBottom="8dp" />
+                    android:layout_marginBottom="4dp" />
 
                 <TextView
                     android:id="@+id/kikuyuTextView"
@@ -142,11 +110,42 @@
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="@android:color/white"
-                    android:background="@color/card_background_dark"
-                    android:padding="12dp"
+                    android:textColor="@color/md_theme_dark_onSurface"
+                    android:background="@color/md_theme_dark_surfaceContainer"
+                    android:padding="16dp"
                     android:gravity="center"
                     tools:text="Úhoro wa rúciní" />
+            </LinearLayout>
+
+            <!-- English Section (Second) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="English"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:background="@color/md_theme_light_primary"
+                    android:padding="6dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="4dp" />
+
+                <TextView
+                    android:id="@+id/englishTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/md_theme_light_onSurface"
+                    android:background="@color/md_theme_light_surfaceContainer"
+                    android:padding="16dp"
+                    android:gravity="center"
+                    tools:text="Good morning" />
             </LinearLayout>
         </LinearLayout>
 
@@ -227,7 +226,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Action Buttons -->
+        <!-- Action Buttons - Subtle Icons Only -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -235,50 +234,60 @@
             android:gravity="center"
             android:layout_marginTop="12dp">
 
-            <Button
+            <!-- Known/Unknown Toggle -->
+            <TextView
                 android:id="@+id/knownButton"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginEnd="4dp"
-                android:text="✅ Known"
-                android:textSize="12sp"
-                android:backgroundTint="@color/success_color"
-                style="@style/Widget.Material3.Button" />
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="✅"
+                android:textSize="20sp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="visible" />
 
-            <Button
+            <TextView
                 android:id="@+id/unknownButton"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="❌"
+                android:textSize="20sp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone" />
+
+            <Space
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="4dp"
-                android:text="❌ Unknown"
-                android:textSize="12sp"
-                android:backgroundTint="@color/warning_color"
-                android:visibility="gone"
-                style="@style/Widget.Material3.Button" />
+                android:layout_weight="1" />
 
-            <Button
+            <!-- Copy Button -->
+            <TextView
                 android:id="@+id/copyButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
                 android:text="📋"
-                android:textSize="12sp"
-                android:minWidth="48dp"
-                android:backgroundTint="@color/secondary_color"
-                style="@style/Widget.Material3.Button" />
+                android:textSize="18sp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="8dp" />
 
-            <Button
+            <!-- Flag Button -->
+            <TextView
                 android:id="@+id/flagButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:gravity="center"
                 android:text="🚩"
-                android:textSize="12sp"
-                android:minWidth="48dp"
-                android:backgroundTint="@color/warning_color"
-                style="@style/Widget.Material3.Button" />
+                android:textSize="18sp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true" />
         </LinearLayout>
 
         <!-- Source Information -->
