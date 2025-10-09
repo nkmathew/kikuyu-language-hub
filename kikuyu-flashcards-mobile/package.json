@@ -7,8 +7,10 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "build:preview": "eas build --platform android --profile preview",
-    "build:production": "eas build --platform android --profile production"
+    "build:android:debug": "cd android && ./gradlew assembleDebug",
+    "build:android:release": "cd android && ./gradlew assembleRelease",
+    "build:android:bundle": "cd android && ./gradlew bundleRelease",
+    "clean:android": "cd android && ./gradlew clean"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
@@ -24,7 +26,6 @@
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
-    "eas-cli": "16.20.4",
     "typescript": "~5.9.2"
   },
   "private": true
