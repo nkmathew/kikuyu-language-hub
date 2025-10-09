@@ -1,7 +1,97 @@
 import { CategoryData, Flashcard, CuratedContent, CategoryType } from '../types/flashcard';
 
-// Dynamic require for all data files
-const dataContext = require.context('../assets/data/curated', true, /\.json$/);
+// Import all curated content files explicitly
+// This ensures they are bundled in production builds
+const curatedData = {
+  // Conjugations
+  'conjugations/easy_kikuyu_011_moments_ago.json': require('../assets/data/curated/conjugations/easy_kikuyu_011_moments_ago.json'),
+  'conjugations/easy_kikuyu_012_early_morning.json': require('../assets/data/curated/conjugations/easy_kikuyu_012_early_morning.json'),
+  'conjugations/easy_kikuyu_batch_001_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_001_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_002_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_002_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_004_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_004_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_005_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_005_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_006_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_006_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_007_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_007_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_008_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_008_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_009_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_009_conjugations.json'),
+  'conjugations/easy_kikuyu_batch_010_conjugations.json': require('../assets/data/curated/conjugations/easy_kikuyu_batch_010_conjugations.json'),
+
+  // Cultural
+  'cultural/easy_kikuyu_batch_001_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_001_cultural.json'),
+  'cultural/easy_kikuyu_batch_002_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_002_cultural.json'),
+  'cultural/easy_kikuyu_batch_003_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_003_cultural.json'),
+  'cultural/easy_kikuyu_batch_004_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_004_cultural.json'),
+  'cultural/easy_kikuyu_batch_005_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_005_cultural.json'),
+  'cultural/easy_kikuyu_batch_006_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_006_cultural.json'),
+  'cultural/easy_kikuyu_batch_007_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_007_cultural.json'),
+  'cultural/easy_kikuyu_batch_008_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_008_cultural.json'),
+  'cultural/easy_kikuyu_batch_009_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_009_cultural.json'),
+  'cultural/easy_kikuyu_batch_010_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_010_cultural.json'),
+  'cultural/easy_kikuyu_batch_011_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_011_cultural.json'),
+  'cultural/easy_kikuyu_batch_012_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_012_cultural.json'),
+  'cultural/easy_kikuyu_batch_013_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_013_cultural.json'),
+  'cultural/easy_kikuyu_batch_014_cultural.json': require('../assets/data/curated/cultural/easy_kikuyu_batch_014_cultural.json'),
+
+  // Grammar
+  'grammar/easy_kikuyu_batch_001_grammar.json': require('../assets/data/curated/grammar/easy_kikuyu_batch_001_grammar.json'),
+  'grammar/easy_kikuyu_batch_002_grammar.json': require('../assets/data/curated/grammar/easy_kikuyu_batch_002_grammar.json'),
+  'grammar/easy_kikuyu_batch_003_grammar.json': require('../assets/data/curated/grammar/easy_kikuyu_batch_003_grammar.json'),
+  'grammar/easy_kikuyu_batch_004_grammar.json': require('../assets/data/curated/grammar/easy_kikuyu_batch_004_grammar.json'),
+  'grammar/easy_kikuyu_batch_005_grammar.json': require('../assets/data/curated/grammar/easy_kikuyu_batch_005_grammar.json'),
+  'grammar/easy_kikuyu_batch_006_grammar.json': require('../assets/data/curated/grammar/easy_kikuyu_batch_006_grammar.json'),
+  'grammar/easy_kikuyu_batch_043_grammar.json': require('../assets/data/curated/grammar/easy_kikuyu_batch_043_grammar.json'),
+
+  // Phrases
+  'phrases/easy_kikuyu_batch_002_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_002_phrases.json'),
+  'phrases/easy_kikuyu_batch_003_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_003_phrases.json'),
+  'phrases/easy_kikuyu_batch_004_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_004_phrases.json'),
+  'phrases/easy_kikuyu_batch_005_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_005_phrases.json'),
+  'phrases/easy_kikuyu_batch_006_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_006_phrases.json'),
+  'phrases/easy_kikuyu_batch_007_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_007_phrases.json'),
+  'phrases/easy_kikuyu_batch_008_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_008_phrases.json'),
+  'phrases/easy_kikuyu_batch_009_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_009_phrases.json'),
+  'phrases/easy_kikuyu_batch_010_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_010_phrases.json'),
+  'phrases/easy_kikuyu_batch_011_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_011_phrases.json'),
+  'phrases/easy_kikuyu_batch_012_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_012_phrases.json'),
+  'phrases/easy_kikuyu_batch_013_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_013_phrases.json'),
+  'phrases/easy_kikuyu_batch_014_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_014_phrases.json'),
+  'phrases/easy_kikuyu_batch_015_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_015_phrases.json'),
+  'phrases/easy_kikuyu_batch_016_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_016_phrases.json'),
+  'phrases/easy_kikuyu_batch_017_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_017_phrases.json'),
+  'phrases/easy_kikuyu_batch_018_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_018_phrases.json'),
+  'phrases/easy_kikuyu_batch_019_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_019_phrases.json'),
+  'phrases/easy_kikuyu_batch_020_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_020_phrases.json'),
+  'phrases/easy_kikuyu_batch_021_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_021_phrases.json'),
+  'phrases/easy_kikuyu_batch_022_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_022_phrases.json'),
+  'phrases/easy_kikuyu_batch_023_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_023_phrases.json'),
+  'phrases/easy_kikuyu_batch_024_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_024_phrases.json'),
+  'phrases/easy_kikuyu_batch_025_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_025_phrases.json'),
+  'phrases/easy_kikuyu_batch_026_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_026_phrases.json'),
+  'phrases/easy_kikuyu_batch_027_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_027_phrases.json'),
+  'phrases/easy_kikuyu_batch_028_phrases.json': require('../assets/data/curated/phrases/easy_kikuyu_batch_028_phrases.json'),
+
+  // Proverbs
+  'proverbs/easy_kikuyu_batch_001_proverbs.json': require('../assets/data/curated/proverbs/easy_kikuyu_batch_001_proverbs.json'),
+  'proverbs/easy_kikuyu_batch_002_proverbs.json': require('../assets/data/curated/proverbs/easy_kikuyu_batch_002_proverbs.json'),
+  'proverbs/easy_kikuyu_batch_003_proverbs.json': require('../assets/data/curated/proverbs/easy_kikuyu_batch_003_proverbs.json'),
+  'proverbs/easy_kikuyu_batch_004_proverbs.json': require('../assets/data/curated/proverbs/easy_kikuyu_batch_004_proverbs.json'),
+  'proverbs/easy_kikuyu_batch_005_proverbs.json': require('../assets/data/curated/proverbs/easy_kikuyu_batch_005_proverbs.json'),
+  'proverbs/easy_kikuyu_batch_006_proverbs.json': require('../assets/data/curated/proverbs/easy_kikuyu_batch_006_proverbs.json'),
+
+  // Vocabulary
+  'vocabulary/easy_kikuyu_batch_001_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_001_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_002_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_002_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_003_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_003_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_004_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_004_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_005_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_005_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_006_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_006_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_007_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_007_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_008_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_008_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_009_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_009_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_010_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_010_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_027_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_027_vocab.json'),
+  'vocabulary/easy_kikuyu_batch_050_vocab.json': require('../assets/data/curated/vocabulary/easy_kikuyu_batch_050_vocab.json'),
+};
 
 class DataLoader {
   private cache: Map<string, CategoryData> = new Map();
@@ -12,13 +102,10 @@ class DataLoader {
   }
 
   private loadAllDataFiles() {
-    // Load all JSON files dynamically
-    dataContext.keys().forEach((key) => {
-      if (key.includes('schema.json')) return; // Skip schema file
-
+    // Load all JSON files from explicit imports
+    Object.entries(curatedData).forEach(([key, data]) => {
       try {
-        const data = dataContext(key);
-        this.allData.set(key, data as CuratedContent);
+        this.allData.set(`./${key}`, data as CuratedContent);
       } catch (error) {
         console.error(`Error loading ${key}:`, error);
       }
