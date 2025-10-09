@@ -1,0 +1,173 @@
+<resources>
+    <!-- Legacy Colors -->
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="purple_900">#3700B3</color>
+
+    <!-- Modern Material Design Colors -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_variant">#0D47A1</color>
+    <color name="secondary">#03DAC6</color>
+    <color name="secondary_variant">#018786</color>
+    <color name="background">#F5F5F5</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- App Background Gradient -->
+    <color name="gradient_start">#667eea</color>
+    <color name="gradient_end">#764ba2</color>
+    <color name="background_overlay">#1A1A1A</color>
+
+    <!-- Card Colors - Enhanced -->
+    <color name="english_card_primary">#FF6B6B</color>
+    <color name="english_card_secondary">#FFE66D</color>
+    <color name="kikuyu_card_primary">#4ECDC4</color>
+    <color name="kikuyu_card_secondary">#45B7B8</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_on_dark">#FFFFFF</color>
+    <color name="text_hint">#9E9E9E</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">#667eea</color>
+    <color name="button_secondary">#764ba2</color>
+    <color name="button_disabled">#E0E0E0</color>
+    <color name="button_text">#FFFFFF</color>
+
+    <!-- Shadow Colors -->
+    <color name="shadow_light">#20000000</color>
+    <color name="shadow_medium">#40000000</color>
+    <color name="shadow_dark">#60000000</color>
+
+    <!-- Progress Indicator -->
+    <color name="progress_background">#E0E0E0</color>
+    <color name="progress_foreground">#667eea</color>
+
+    <!-- Legacy card colors (keeping for compatibility) -->
+    <color name="source_card_light_blue">#ADD8E6</color>
+    <color name="source_card_light_green">#90EE90</color>
+    <color name="source_card_light_coral">#F08080</color>
+    <color name="source_card_light_yellow">#FFFFE0</color>
+    <color name="source_card_lavender">#E6E6FA</color>
+
+    <color name="translation_card_light_pink">#FFB6C1</color>
+    <color name="translation_card_light_goldenrod">#FAFAD2</color>
+    <color name="translation_card_light_sea_green">#20B2AA</color>
+    <color name="translation_card_light_salmon">#FFA07A</color>
+    <color name="translation_card_thistle">#D8BFD8</color>
+
+    <!-- Enhanced Material 3 Light Theme Colors with Kikuyu inspiration -->
+    <color name="md_theme_light_primary">#1976D2</color>              <!-- Kikuyu Blue -->
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#E3F2FD</color>     <!-- Light blue container -->
+    <color name="md_theme_light_onPrimaryContainer">#0D47A1</color>
+    <color name="md_theme_light_secondary">#2E7D32</color>            <!-- Kikuyu Green -->
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_secondaryContainer">#E8F5E8</color>   <!-- Light green container -->
+    <color name="md_theme_light_onSecondaryContainer">#1B5E20</color>
+    <color name="md_theme_light_tertiary">#FF8F00</color>             <!-- Kikuyu Gold -->
+    <color name="md_theme_light_onTertiary">#FFFFFF</color>
+    <color name="md_theme_light_tertiaryContainer">#FFE0B2</color>    <!-- Light gold container -->
+    <color name="md_theme_light_onTertiaryContainer">#E65100</color>
+    <color name="md_theme_light_error">#D32F2F</color>                <!-- Kikuyu Red -->
+    <color name="md_theme_light_errorContainer">#FFEBEE</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_onErrorContainer">#B71C1C</color>
+    <color name="md_theme_light_background">#FFFBFE</color>
+    <color name="md_theme_light_onBackground">#1C1B1F</color>
+    <color name="md_theme_light_surface">#FFFBFE</color>
+    <color name="md_theme_light_onSurface">#1C1B1F</color>
+    <color name="md_theme_light_surfaceVariant">#E7E0EC</color>
+    <color name="md_theme_light_onSurfaceVariant">#49454F</color>
+    <color name="md_theme_light_outline">#79747E</color>
+    <color name="md_theme_light_inverseOnSurface">#F4EFF4</color>
+    <color name="md_theme_light_inverseSurface">#313033</color>
+    <color name="md_theme_light_inversePrimary">#90CAF9</color>
+    <color name="md_theme_light_surfaceDim">#DDD8E0</color>
+    <color name="md_theme_light_surfaceBright">#FFFBFE</color>
+    <color name="md_theme_light_surfaceContainerLowest">#FFFFFF</color>
+    <color name="md_theme_light_surfaceContainerLow">#F7F2FA</color>
+    <color name="md_theme_light_surfaceContainer">#F1ECF4</color>
+    <color name="md_theme_light_surfaceContainerHigh">#EBE6EE</color>
+    <color name="md_theme_light_surfaceContainerHighest">#E6E0E9</color>
+
+    <!-- Enhanced Material 3 Dark Theme Colors -->
+    <color name="md_theme_dark_primary">#90CAF9</color>               <!-- Light blue for dark theme -->
+    <color name="md_theme_dark_onPrimary">#003258</color>
+    <color name="md_theme_dark_primaryContainer">#004A77</color>
+    <color name="md_theme_dark_onPrimaryContainer">#D1E4FF</color>
+    <color name="md_theme_dark_secondary">#A5D6A7</color>             <!-- Light green for dark theme -->
+    <color name="md_theme_dark_onSecondary">#00701A</color>
+    <color name="md_theme_dark_secondaryContainer">#00600F</color>
+    <color name="md_theme_dark_onSecondaryContainer">#C8E6C9</color>
+    <color name="md_theme_dark_tertiary">#FFCC80</color>              <!-- Light gold for dark theme -->
+    <color name="md_theme_dark_onTertiary">#8F5000</color>
+    <color name="md_theme_dark_tertiaryContainer">#B26A00</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FFE0B2</color>
+    <color name="md_theme_dark_error">#EF5350</color>                 <!-- Light red for dark theme -->
+    <color name="md_theme_dark_errorContainer">#8C1D18</color>
+    <color name="md_theme_dark_onError">#601410</color>
+    <color name="md_theme_dark_onErrorContainer">#EFDEDE</color>
+    <color name="md_theme_dark_background">#1C1B1F</color>
+    <color name="md_theme_dark_onBackground">#E6E1E5</color>
+    <color name="md_theme_dark_surface">#1C1B1F</color>
+    <color name="md_theme_dark_onSurface">#E6E1E5</color>
+    <color name="md_theme_dark_surfaceVariant">#49454F</color>
+    <color name="md_theme_dark_onSurfaceVariant">#CAC4D0</color>
+    <color name="md_theme_dark_outline">#938F99</color>
+    <color name="md_theme_dark_inverseOnSurface">#1C1B1F</color>
+    <color name="md_theme_dark_inverseSurface">#E6E1E5</color>
+    <color name="md_theme_dark_inversePrimary">#0061A4</color>
+    <color name="md_theme_dark_surfaceDim">#1C1B1F</color>
+    <color name="md_theme_dark_surfaceBright">#383B40</color>
+    <color name="md_theme_dark_surfaceContainerLowest">#0F0D13</color>
+    <color name="md_theme_dark_surfaceContainerLow">#1C1B1F</color>
+    <color name="md_theme_dark_surfaceContainer">#201F23</color>
+    <color name="md_theme_dark_surfaceContainerHigh">#2B2930</color>
+    <color name="md_theme_dark_surfaceContainerHighest">#36343B</color>
+
+    <!-- Flash Card Enhanced Colors -->
+    <color name="english_card_gradient_start">#4FC3F7</color>         <!-- Light blue -->
+    <color name="english_card_gradient_end">#1976D2</color>           <!-- Darker blue -->
+    <color name="kikuyu_card_gradient_start">#81C784</color>          <!-- Light green -->
+    <color name="kikuyu_card_gradient_end">#2E7D32</color>            <!-- Darker green -->
+
+    <!-- Interactive Colors -->
+    <color name="button_hover">#1565C0</color>
+    <color name="button_pressed">#0D47A1</color>
+    <color name="ripple_color">#1A1976D2</color>
+
+    <!-- Achievement and Gamification Colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_orange">#FF9800</color>
+    <color name="info_blue">#2196F3</color>
+    <color name="streak_fire">#FF6F00</color>
+    <color name="achievement_gold">#FFD700</color>
+    <color name="progress_green">#00C853</color>
+    <color name="quiz_purple">#9C27B0</color>
+
+    <!-- Semantic Colors -->
+    <color name="pronunciation_blue">#0277BD</color>
+    <color name="category_teal">#00838F</color>
+    <color name="statistic_indigo">#3F51B5</color>
+
+    <!-- Shadow and Overlay Colors -->
+    <color name="shadow_color">#40000000</color>
+    <color name="overlay_color">#80000000</color>
+    <color name="scrim_color">#99000000</color>
+
+</resources>

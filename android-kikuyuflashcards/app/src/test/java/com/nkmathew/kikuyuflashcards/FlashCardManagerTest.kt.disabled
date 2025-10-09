@@ -1,0 +1,219 @@
+package com.nkmathew.kikuyuflashcards
+
+import android.content.Context
+import android.content.res.AssetManager
+import org.junit.Before
+import org.junit.Test
+import org.junit.Assert.*
+import org.mockito.Mock
+import org.mockito.Mockito.*
+import org.mockito.MockitoAnnotations
+import java.io.ByteArrayInputStream
+import java.io.InputStream
+
+/**
+ * Unit tests for FlashCardManager
+ */
+class FlashCardManagerTest {
+
+    @Mock
+    private lateinit var mockContext: Context
+
+    @Mock
+    private lateinit var mockAssetManager: AssetManager
+
+    private lateinit var flashCardManager: FlashCardManager
+
+    private val testJsonData = """
+        {
+            "phrases": [
+                {
+                    "english": "Hello",
+                    "kikuyu": "Úhoro",
+                    "category": "greetings"
+                },
+                {
+                    "english": "Good morning",
+                    "kikuyu": "Úhoro wa rúciní",
+                    "category": "greetings"
+                },
+                {
+                    "english": "Thank you",
+                    "kikuyu": "Nĩndauga nĩ wega",
+                    "category": "basic_words"
+                },
+                {
+                    "english": "To eat",
+                    "kikuyu": "Korea",
+                    "category": "verbs"
+                }
+            ]
+        }
+    """.trimIndent()
+
+    @Before
+    fun setup() {
+        MockitoAnnotations.openMocks(this)
+        
+        // Mock the asset manager and context
+        `when`(mockContext.assets).thenReturn(mockAssetManager)
+        
+        // Mock the JSON file input stream
+        val inputStream: InputStream = ByteArrayInputStream(testJsonData.toByteArray())
+        `when`(mockAssetManager.open("kikuyu-phrases.json")).thenReturn(inputStream)
+        
+        flashCardManager = FlashCardManager(mockContext)
+    }
+
+    @Test
+    fun `initialization loads phrases correctly`() {
+        assertEquals(4, flashCardManager.getTotalPhrases())
+    }
+
+    @Test
+    fun `getCurrentPhrase returns first phrase initially`() {
+        val currentPhrase = flashCardManager.getCurrentPhrase()
+        
+        assertNotNull(currentPhrase)
+        assertEquals("Hello", currentPhrase?.english)
+        assertEquals("Úhoro", currentPhrase?.kikuyu)
+        assertEquals("greetings", currentPhrase?.category)
+    }
+
+    @Test
+    fun `getCurrentIndex returns 0 initially`() {
+        assertEquals(0, flashCardManager.getCurrentIndex())
+    }
+
+    @Test
+    fun `getNextPhrase advances to next phrase`() {
+        val firstPhrase = flashCardManager.getCurrentPhrase()
+        val nextPhrase = flashCardManager.getNextPhrase()
+        
+        assertNotNull(nextPhrase)
+        assertNotEquals(firstPhrase, nextPhrase)
+        assertEquals("Good morning", nextPhrase?.english)
+        assertEquals(1, flashCardManager.getCurrentIndex())
+    }
+
+    @Test
+    fun `getPreviousPhrase wraps around to last phrase`() {
+        val previousPhrase = flashCardManager.getPreviousPhrase()
+        
+        assertNotNull(previousPhrase)
+        assertEquals("To eat", previousPhrase?.english)
+        assertEquals(3, flashCardManager.getCurrentIndex())
+    }
+
+    @Test
+    fun `getNextPhrase wraps around to first phrase`() {
+        // Navigate to last phrase
+        flashCardManager.setCurrentIndex(3)
+        val nextPhrase = flashCardManager.getNextPhrase()
+        
+        assertNotNull(nextPhrase)
+        assertEquals("Hello", nextPhrase?.english)
+        assertEquals(0, flashCardManager.getCurrentIndex())
+    }
+
+    @Test
+    fun `setCurrentIndex with valid index works`() {
+        val result = flashCardManager.setCurrentIndex(2)
+        
+        assertTrue(result)
+        assertEquals(2, flashCardManager.getCurrentIndex())
+        assertEquals("Thank you", flashCardManager.getCurrentPhrase()?.english)
+    }
+
+    @Test
+    fun `setCurrentIndex with invalid index returns false`() {
+        val result = flashCardManager.setCurrentIndex(10)
+        
+        assertFalse(result)
+        assertEquals(0, flashCardManager.getCurrentIndex()) // Should remain unchanged
+    }
+
+    @Test
+    fun `getRandomPhrase returns valid phrase`() {
+        val randomPhrase = flashCardManager.getRandomPhrase()
+        
+        assertNotNull(randomPhrase)
+        assertTrue(randomPhrase?.english?.isNotEmpty() == true)
+        assertTrue(randomPhrase?.kikuyu?.isNotEmpty() == true)
+    }
+
+    @Test
+    fun `getAvailableCategories returns correct categories`() {
+        val categories = flashCardManager.getAvailableCategories()
+        
+        assertEquals(3, categories.size)
+        assertTrue(categories.contains("greetings"))
+        assertTrue(categories.contains("basic_words"))
+        assertTrue(categories.contains("verbs"))
+    }
+
+    @Test
+    fun `setCategory filters phrases correctly`() {
+        val result = flashCardManager.setCategory("greetings")
+        
+        assertTrue(result)
+        assertEquals(2, flashCardManager.getTotalPhrases())
+        assertEquals("greetings", flashCardManager.getCurrentCategory())
+        assertEquals("Hello", flashCardManager.getCurrentPhrase()?.english)
+    }
+
+    @Test
+    fun `setCategory with null shows all phrases`() {
+        // First filter to greetings
+        flashCardManager.setCategory("greetings")
+        assertEquals(2, flashCardManager.getTotalPhrases())
+        
+        // Then reset to all
+        val result = flashCardManager.setCategory(null)
+        
+        assertTrue(result)
+        assertEquals(4, flashCardManager.getTotalPhrases())
+        assertNull(flashCardManager.getCurrentCategory())
+    }
+
+    @Test
+    fun `setCategory with invalid category returns false`() {
+        val result = flashCardManager.setCategory("invalid_category")
+        
+        assertFalse(result)
+        assertEquals(4, flashCardManager.getTotalPhrases()) // Should remain unchanged
+        assertNull(flashCardManager.getCurrentCategory())
+    }
+
+    @Test
+    fun `getTotalPhrasesInCategory returns correct count`() {
+        assertEquals(2, flashCardManager.getTotalPhrasesInCategory("greetings"))
+        assertEquals(1, flashCardManager.getTotalPhrasesInCategory("basic_words"))
+        assertEquals(1, flashCardManager.getTotalPhrasesInCategory("verbs"))
+        assertEquals(0, flashCardManager.getTotalPhrasesInCategory("invalid"))
+    }
+
+    @Test
+    fun `navigation works correctly after category filtering`() {
+        flashCardManager.setCategory("greetings")
+        
+        assertEquals("Hello", flashCardManager.getCurrentPhrase()?.english)
+        
+        val nextPhrase = flashCardManager.getNextPhrase()
+        assertEquals("Good morning", nextPhrase?.english)
+        
+        val previousPhrase = flashCardManager.getPreviousPhrase()
+        assertEquals("Hello", previousPhrase?.english)
+    }
+
+    @Test
+    fun `shuffle mode flag works correctly`() {
+        assertFalse(flashCardManager.isShuffleMode())
+        
+        flashCardManager.setShuffleMode(true)
+        assertTrue(flashCardManager.isShuffleMode())
+        
+        flashCardManager.setShuffleMode(false)
+        assertFalse(flashCardManager.isShuffleMode())
+    }
+}

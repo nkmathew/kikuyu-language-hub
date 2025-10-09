@@ -1,0 +1,193 @@
+package com.nkmathew.kikuyuflashcards
+
+import android.content.Context
+import android.content.SharedPreferences
+import org.junit.Before
+import org.junit.Test
+import org.junit.Assert.*
+import org.mockito.Mock
+import org.mockito.Mockito.*
+import org.mockito.MockitoAnnotations
+
+/**
+ * Unit tests for ProgressManager
+ */
+class ProgressManagerTest {
+
+    @Mock
+    private lateinit var mockContext: Context
+
+    @Mock
+    private lateinit var mockSharedPreferences: SharedPreferences
+
+    @Mock
+    private lateinit var mockEditor: SharedPreferences.Editor
+
+    private lateinit var progressManager: ProgressManager
+
+    @Before
+    fun setup() {
+        MockitoAnnotations.openMocks(this)
+        
+        // Mock SharedPreferences behavior
+        `when`(mockContext.getSharedPreferences("kikuyu_progress", Context.MODE_PRIVATE))
+            .thenReturn(mockSharedPreferences)
+        `when`(mockSharedPreferences.edit()).thenReturn(mockEditor)
+        `when`(mockEditor.putInt(anyString(), anyInt())).thenReturn(mockEditor)
+        `when`(mockEditor.putLong(anyString(), anyLong())).thenReturn(mockEditor)
+        `when`(mockEditor.apply()).then { }
+        
+        // Initialize with default values
+        `when`(mockSharedPreferences.getInt(anyString(), anyInt())).thenReturn(0)
+        `when`(mockSharedPreferences.getLong(anyString(), anyLong())).thenReturn(0L)
+        
+        progressManager = ProgressManager(mockContext)
+    }
+
+    @Test
+    fun `initial values are zero`() {
+        assertEquals(0, progressManager.getTotalCardsViewed())
+        assertEquals(0, progressManager.getTotalSwipes())
+        assertEquals(0, progressManager.getQuizTotalAnswered())
+        assertEquals(0, progressManager.getQuizCorrectAnswers())
+        assertEquals(0, progressManager.getCurrentStreak())
+        assertEquals(0, progressManager.getBestStreak())
+        assertEquals(0.0f, progressManager.getQuizAccuracy(), 0.01f)
+    }
+
+    @Test
+    fun `incrementCardsViewed increases count`() {
+        progressManager.incrementCardsViewed()
+        
+        verify(mockEditor).putInt("total_cards_viewed", 1)
+        verify(mockEditor).apply()
+    }
+
+    @Test
+    fun `incrementSwipes increases count`() {
+        progressManager.incrementSwipes()
+        
+        verify(mockEditor).putInt("total_swipes", 1)
+        verify(mockEditor).apply()
+    }
+
+    @Test
+    fun `recordQuizAnswer with correct answer updates stats`() {
+        progressManager.recordQuizAnswer(true)
+        
+        verify(mockEditor).putInt("quiz_total_answered", 1)
+        verify(mockEditor).putInt("quiz_correct_answers", 1)
+        verify(mockEditor).putInt("current_streak", 1)
+        verify(mockEditor).putInt("best_streak", 1)
+        verify(mockEditor, atLeast(1)).apply()
+    }
+
+    @Test
+    fun `recordQuizAnswer with wrong answer updates stats`() {
+        progressManager.recordQuizAnswer(false)
+        
+        verify(mockEditor).putInt("quiz_total_answered", 1)
+        verify(mockEditor).putInt("quiz_correct_answers", 0)
+        verify(mockEditor).putInt("current_streak", 0)
+        verify(mockEditor, atLeast(1)).apply()
+    }
+
+    @Test
+    fun `quiz accuracy calculation with no answers`() {
+        assertEquals(0.0f, progressManager.getQuizAccuracy(), 0.01f)
+    }
+
+    @Test
+    fun `quiz accuracy calculation with answers`() {
+        // Mock return values for accuracy calculation
+        `when`(mockSharedPreferences.getInt("quiz_total_answered", 0)).thenReturn(10)
+        `when`(mockSharedPreferences.getInt("quiz_correct_answers", 0)).thenReturn(7)
+        
+        val progressManager2 = ProgressManager(mockContext)
+        assertEquals(70.0f, progressManager2.getQuizAccuracy(), 0.01f)
+    }
+
+    @Test
+    fun `average session time calculation with no sessions`() {
+        assertEquals(0L, progressManager.getAverageSessionTime())
+    }
+
+    @Test
+    fun `average session time calculation with sessions`() {
+        // Mock return values for average calculation
+        `when`(mockSharedPreferences.getInt("session_count", 0)).thenReturn(5)
+        `when`(mockSharedPreferences.getLong("total_session_time", 0)).thenReturn(300L) // 5 minutes
+        
+        val progressManager2 = ProgressManager(mockContext)
+        assertEquals(60L, progressManager2.getAverageSessionTime()) // 1 minute average
+    }
+
+    @Test
+    fun `getProgressStats returns complete data structure`() {
+        // Mock some return values
+        `when`(mockSharedPreferences.getInt("total_cards_viewed", 0)).thenReturn(25)
+        `when`(mockSharedPreferences.getInt("total_swipes", 0)).thenReturn(100)
+        `when`(mockSharedPreferences.getInt("quiz_total_answered", 0)).thenReturn(20)
+        `when`(mockSharedPreferences.getInt("quiz_correct_answers", 0)).thenReturn(15)
+        `when`(mockSharedPreferences.getInt("current_streak", 0)).thenReturn(5)
+        `when`(mockSharedPreferences.getInt("best_streak", 0)).thenReturn(8)
+        `when`(mockSharedPreferences.getInt("session_count", 0)).thenReturn(3)
+        `when`(mockSharedPreferences.getLong("total_session_time", 0)).thenReturn(600L)
+        `when`(mockSharedPreferences.getLong("last_session_date", 0)).thenReturn(1234567890L)
+        
+        val progressManager2 = ProgressManager(mockContext)
+        val stats = progressManager2.getProgressStats()
+        
+        assertEquals(25, stats.totalCardsViewed)
+        assertEquals(100, stats.totalSwipes)
+        assertEquals(20, stats.quizTotalAnswered)
+        assertEquals(15, stats.quizCorrectAnswers)
+        assertEquals(75.0f, stats.quizAccuracy, 0.01f)
+        assertEquals(5, stats.currentStreak)
+        assertEquals(8, stats.bestStreak)
+        assertEquals(3, stats.sessionCount)
+        assertEquals(600L, stats.totalSessionTime)
+        assertEquals(200L, stats.averageSessionTime)
+        assertEquals(1234567890L, stats.lastSessionDate)
+    }
+
+    @Test
+    fun `endSession updates session time`() {
+        // Mock current time for testing
+        val startTime = System.currentTimeMillis()
+        
+        progressManager.endSession()
+        
+        verify(mockEditor).putLong(eq("total_session_time"), anyLong())
+        verify(mockEditor).putLong(eq("last_session_date"), anyLong())
+        verify(mockEditor, atLeast(1)).apply()
+    }
+
+    @Test
+    fun `resetProgress clears all data`() {
+        progressManager.resetProgress()
+        
+        verify(mockSharedPreferences).edit()
+        verify(mockEditor).clear()
+        verify(mockEditor).apply()
+    }
+
+    @Test
+    fun `streak management works correctly`() {
+        // Test correct answer builds streak
+        progressManager.recordQuizAnswer(true)
+        verify(mockEditor).putInt("current_streak", 1)
+        verify(mockEditor).putInt("best_streak", 1)
+        
+        // Test wrong answer resets current streak
+        progressManager.recordQuizAnswer(false)
+        verify(mockEditor).putInt("current_streak", 0)
+    }
+
+    @Test
+    fun `session count increments on initialization`() {
+        // Verify that session count was incremented during setup
+        verify(mockEditor).putInt("session_count", 1)
+        verify(mockEditor).apply()
+    }
+}

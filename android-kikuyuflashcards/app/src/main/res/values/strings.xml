@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Kikuyu Flash Cards</string>
+    <string-array name="kikuyu_phrases">
+        <item>Good evening - Úhoro wa húainí</item>
+        <item>Good morning - Úhoro wa rúciní</item>
+        <item>Good afternoon - Úhoro wa míaraho</item>
+        <item>How are you? - Úhana atía?</item>
+        <item>I am fine - Ndí mwega</item>
+        <item>Hi/Hello - Úhoro</item>
+        <item>Nice to meet you - Níndakena ní gúkuona</item>
+        <item>See you soon - Tuonane ica ikuhí</item>
+        <item>See you later - Tuonane mahinda mangí</item>
+        <item>Have a good day - Gía na múthenya mwega</item>
+        <item>Goodbye - Tigoi na wega</item>
+        <item>I love you - Níngwendete</item>
+        <item>I miss you - Ndíriríirie gúkuona</item>
+        <item>You are beautiful - Wí múthaka</item>
+        <item>My love - Mwendwa wakwa</item>
+        <item>Please - Nĩndakũhoya</item>
+        <item>Thank you - Nĩndauga nĩ wega</item>
+        <item>Sorry - Horera</item>
+        <item>Yes - Ĩĩ</item>
+        <item>No - Aca</item>
+    </string-array>
+</resources>
