@@ -6,31 +6,35 @@
     android:orientation="vertical"
     android:background="@color/card_background_light">
 
-    <!-- Header -->
+    <!-- Action Buttons -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:padding="16dp"
         android:background="@color/primary_color">
 
-        <TextView
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/exportButton"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Flagged Translations"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:textColor="@android:color/white"
-            android:gravity="center" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Review and export flagged items"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="📋 Export"
             android:textSize="14sp"
-            android:textColor="@android:color/white"
-            android:gravity="center"
-            android:layout_marginTop="4dp" />
+            android:backgroundTint="@color/success_color"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/clearAllButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="🗑️ Clear All"
+            android:textSize="14sp"
+            android:backgroundTint="@color/warning_color"
+            style="@style/Widget.Material3.Button" />
 
     </LinearLayout>
 
@@ -53,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:padding="8dp"
+        android:padding="4dp"
         android:clipToPadding="false" />
 
 </LinearLayout>

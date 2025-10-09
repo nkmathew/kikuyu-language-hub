@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="4dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="3dp">
 
@@ -31,7 +31,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Kikuyu Text"
-                    android:textSize="18sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/primary_color" />
 
@@ -40,9 +40,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="English Text"
-                    android:textSize="16sp"
+                    android:textSize="18sp"
                     android:textColor="@color/secondary_color"
-                    android:layout_marginTop="4dp" />
+                    android:layout_marginTop="6dp" />
 
             </LinearLayout>
 

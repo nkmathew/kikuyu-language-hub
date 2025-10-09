@@ -18,49 +18,46 @@
             </intent-filter>
         </activity>
         
-        <!-- Keep old MainActivity for reference -->
-        <activity android:name=".MainActivity"
-            android:label="Old Main Activity" />
 
         <!-- Flash Card Activity -->
         <activity android:name=".FlashCardActivity" 
             android:label="Kikuyu FlashCards"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
         
         <!-- Quiz Activity -->
         <activity android:name=".QuizActivity" 
             android:label="Quiz Mode"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
         
         <!-- Statistics Activity -->
         <activity android:name=".StatisticsActivity" 
             android:label="Learning Statistics"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
         
         <!-- Category Selector Activity -->
         <activity android:name=".CategorySelectorActivity" 
             android:label="Select Category"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
 
         <!-- Fill-in-the-Blank Activity -->
         <activity android:name=".FillInTheBlankActivity" 
             android:label="Fill in the Blank"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
 
         <!-- Cloze Test Activity -->
         <activity android:name=".ClozeTestActivity" 
             android:label="Cloze Test"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
 
         <!-- Multiple Response Game Activity -->
         <activity android:name=".MultipleResponseGameActivity" 
             android:label="Response Games"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
 
         <!-- Problem Words Activity -->
         <activity android:name=".ProblemWordsActivity" 
             android:label="Problem Words"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
 
         <!-- Problem Words Practice Activity -->
         <activity android:name=".ProblemWordsPracticeActivity" 
@@ -70,7 +67,7 @@
         <!-- Settings Activity -->
         <activity android:name=".SettingsActivity"
             android:label="Settings"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName=".MainActivityWithBottomNav" />
 
         <!-- Enhanced Flash Card Activity -->
         <activity android:name=".EnhancedFlashCardActivity"

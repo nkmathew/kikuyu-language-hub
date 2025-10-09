@@ -4,10 +4,8 @@ import android.app.AlertDialog
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
-import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
+import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
@@ -26,6 +24,8 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
     // Views
     private lateinit var recyclerView: RecyclerView
     private lateinit var emptyStateTextView: TextView
+    private lateinit var exportButton: Button
+    private lateinit var clearAllButton: Button
     private lateinit var flaggedCardAdapter: FlaggedCardAdapter
 
     // Services
@@ -40,19 +40,18 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flagged_translations)
 
-        // Set up action bar
-        supportActionBar?.apply {
-            setDisplayHomeAsUpEnabled(true)
-            title = "Flagged Translations"
-        }
-
         // Initialize views
         recyclerView = findViewById(R.id.recyclerView)
         emptyStateTextView = findViewById(R.id.emptyStateTextView)
+        exportButton = findViewById(R.id.exportButton)
+        clearAllButton = findViewById(R.id.clearAllButton)
 
         // Initialize services
         flagStorageService = FlagStorageService(this)
         flashCardManager = FlashCardManagerV2(this)
+
+        // Set up click listeners
+        setupClickListeners()
 
         // Set up RecyclerView
         setupRecyclerView()
@@ -61,26 +60,16 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         loadFlaggedItems()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.flagged_translations_menu, menu)
-        return true
-    }
+    /**
+     * Set up click listeners for buttons
+     */
+    private fun setupClickListeners() {
+        exportButton.setOnClickListener {
+            exportFlaggedItems()
+        }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            android.R.id.home -> {
-                finish()
-                true
-            }
-            R.id.action_export -> {
-                exportFlaggedItems()
-                true
-            }
-            R.id.action_clear_all -> {
-                clearAllFlags()
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
+        clearAllButton.setOnClickListener {
+            clearAllFlags()
         }
     }
 
@@ -132,9 +121,6 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
             emptyStateTextView.visibility = android.view.View.GONE
             flaggedCardAdapter.updateCards(flaggedCards, flagReasons)
         }
-        
-        // Update title with count
-        supportActionBar?.title = "Flagged Translations (${flaggedCards.size})"
     }
 
     /**
