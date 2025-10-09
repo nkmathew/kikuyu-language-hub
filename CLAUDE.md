@@ -481,11 +481,63 @@ python sync-curated-content.py
 
 ### Build & Deployment
 
+#### Native Build System (Expo Prebuild)
+
+**Status**: ✅ Implemented on branch `migration/expo-prebuild`
+
+The mobile app now uses **Expo Prebuild** (hybrid approach) which generates native `android/` and `ios/` directories while maintaining Expo SDK features.
+
+**Migration Overview:**
+```bash
+# Generate native code
+npx expo prebuild --platform android
+
+# Updated package.json scripts
+npm run android              # expo run:android (native)
+npm run ios                  # expo run:ios (native)
+npm start                    # Metro bundler
+```
+
+**Benefits:**
+- Full access to native Android/iOS code
+- Can customize AndroidManifest.xml and Gradle configuration
+- Local APK builds without cloud services (when needed)
+- Still uses Expo SDK features and APIs
+- EAS Build remains available
+- ProGuard rules protect data during minification
+
+**Native Configuration:**
+- **Package**: `com.kikuyulanguagehub.flashcards`
+- **Min SDK**: 24 (Android 7.0)
+- **Target SDK**: 36 (Android 14+)
+- **Release Keystore**: `android/app/kikuyu-flashcards-release.keystore`
+- **ProGuard Rules**: Protects 196 JSON data files from stripping
+
+**Data Bundling Verification:**
+```bash
+# Export bundle to verify data inclusion
+npx expo export --platform android
+
+# Output: Successfully bundled 1038 modules (2.98 MB)
+# Includes all 196 JSON files + React Navigation assets
+```
+
+**Local APK Build (Optional):**
+```bash
+cd android
+./gradlew assembleRelease
+
+# Output: android/app/build/outputs/apk/release/app-release.apk
+```
+
+**Note**: The `android/` directory is gitignored and regenerated via `expo prebuild`. Customizations are preserved through `app.json` configuration and native module linking.
+
 #### Development Testing
 ```bash
 cd kikuyu-flashcards-mobile
-npm start                    # Start Expo dev server
-npm run android             # Test on Android emulator
+npm start                    # Start Metro bundler
+npm run android             # Run on Android (requires device/emulator)
+npm run ios                 # Run on iOS (Mac only, requires device/emulator)
 ```
 
 #### Production APK Build
