@@ -11,11 +11,13 @@ import com.nkmathew.kikuyuflashcards.ui.views.StudyCardView
  * Adapter for displaying study cards in a RecyclerView
  */
 class StudyCardAdapter(
-    private val onCardStatusChanged: (String, Boolean) -> Unit
+    private val onCardStatusChanged: (String, Boolean) -> Unit,
+    private val onCardFlagged: (String) -> Unit
 ) : RecyclerView.Adapter<StudyCardAdapter.StudyCardViewHolder>() {
 
     private var cards = listOf<FlashcardEntry>()
     private val knownCards = mutableSetOf<String>()
+    private val flaggedCards = mutableSetOf<String>()
 
     /**
      * Update the list of cards
@@ -33,6 +35,15 @@ class StudyCardAdapter(
         knownCards.addAll(knownCardIds)
         notifyDataSetChanged()
     }
+    
+    /**
+     * Set flagged cards
+     */
+    fun setFlaggedCards(flaggedCardIds: Set<String>) {
+        flaggedCards.clear()
+        flaggedCards.addAll(flaggedCardIds)
+        notifyDataSetChanged()
+    }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StudyCardViewHolder {
         val studyCardView = StudyCardView(parent.context)
@@ -41,7 +52,7 @@ class StudyCardAdapter(
 
     override fun onBindViewHolder(holder: StudyCardViewHolder, position: Int) {
         val card = cards[position]
-        holder.bind(card, knownCards.contains(card.id))
+        holder.bind(card, knownCards.contains(card.id), flaggedCards.contains(card.id))
     }
 
     override fun getItemCount(): Int = cards.size
@@ -53,9 +64,10 @@ class StudyCardAdapter(
         private val studyCardView: StudyCardView
     ) : RecyclerView.ViewHolder(studyCardView) {
 
-        fun bind(card: FlashcardEntry, isKnown: Boolean) {
+        fun bind(card: FlashcardEntry, isKnown: Boolean, isFlagged: Boolean) {
             studyCardView.setEntry(card)
             studyCardView.setKnown(isKnown)
+            studyCardView.setFlagged(isFlagged)
             
             studyCardView.onMarkKnownListener = {
                 onCardStatusChanged(card.id, true)
@@ -63,6 +75,10 @@ class StudyCardAdapter(
             
             studyCardView.onMarkUnknownListener = {
                 onCardStatusChanged(card.id, false)
+            }
+            
+            studyCardView.onFlagListener = {
+                onCardFlagged(card.id)
             }
         }
     }

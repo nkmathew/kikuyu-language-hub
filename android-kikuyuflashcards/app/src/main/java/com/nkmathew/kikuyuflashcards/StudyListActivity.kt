@@ -10,6 +10,7 @@ import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.nkmathew.kikuyuflashcards.models.Categories
 import com.nkmathew.kikuyuflashcards.models.DifficultyLevels
+import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.adapters.StudyCardAdapter
 import com.nkmathew.kikuyuflashcards.ui.views.StudyCardView
 
@@ -28,9 +29,11 @@ class StudyListActivity : AppCompatActivity() {
 
     // Managers
     private lateinit var flashCardManager: FlashCardManagerV2
+    private lateinit var flagStorageService: FlagStorageService
 
     // State
     private val knownCards = mutableSetOf<String>()
+    private val flaggedCards = mutableSetOf<String>()
     private var totalCards = 0
     private var cardsStudied = 0
 
@@ -50,8 +53,9 @@ class StudyListActivity : AppCompatActivity() {
         difficultyChipGroup = findViewById(R.id.difficultyChipGroup)
         progressTextView = findViewById(R.id.progressTextView)
 
-        // Initialize flash card manager
+        // Initialize managers
         flashCardManager = FlashCardManagerV2(this)
+        flagStorageService = FlagStorageService(this)
 
         // Set up RecyclerView
         setupRecyclerView()
@@ -78,14 +82,28 @@ class StudyListActivity : AppCompatActivity() {
      * Set up RecyclerView with adapter
      */
     private fun setupRecyclerView() {
-        studyCardAdapter = StudyCardAdapter { cardId, isKnown ->
-            if (isKnown) {
-                knownCards.add(cardId)
-            } else {
-                knownCards.remove(cardId)
+        studyCardAdapter = StudyCardAdapter(
+            onCardStatusChanged = { cardId, isKnown ->
+                if (isKnown) {
+                    knownCards.add(cardId)
+                } else {
+                    knownCards.remove(cardId)
+                }
+                updateProgress()
+            },
+            onCardFlagged = { cardId ->
+                if (flaggedCards.contains(cardId)) {
+                    // Unflag the card
+                    flaggedCards.remove(cardId)
+                    flagStorageService.unflagCard(cardId)
+                } else {
+                    // Flag the card
+                    flaggedCards.add(cardId)
+                    flagStorageService.flagCard(cardId)
+                }
+                studyCardAdapter.setFlaggedCards(flaggedCards)
             }
-            updateProgress()
-        }
+        )
 
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = studyCardAdapter
@@ -175,7 +193,12 @@ class StudyListActivity : AppCompatActivity() {
         totalCards = cards.size
         cardsStudied = 0
         
+        // Load flagged cards
+        flaggedCards.clear()
+        flaggedCards.addAll(flagStorageService.getFlaggedItems())
+        
         studyCardAdapter.updateCards(cards)
+        studyCardAdapter.setFlaggedCards(flaggedCards)
         updateProgress()
     }
 

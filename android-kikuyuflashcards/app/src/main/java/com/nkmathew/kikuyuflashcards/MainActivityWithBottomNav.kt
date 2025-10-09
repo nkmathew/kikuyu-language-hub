@@ -289,6 +289,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             LearningMode("🚀 Flash Cards", "Interactive card-based learning", "flashcards"),
             LearningMode("✨ Enhanced Cards", "Rich content with metadata", "enhanced_flashcards"),
             LearningMode("📋 Study List", "Side-by-side learning mode", "study_list"),
+            LearningMode("🚩 Flagged Translations", "Review flagged translations", "flagged_translations"),
             LearningMode("🧠 Quiz Mode", "Test your knowledge", "quiz"),
             LearningMode("✏️ Fill Blanks", "Complete the sentences", "fill_blank"),
             LearningMode("📖 Cloze Test", "Reading comprehension", "cloze"),
@@ -424,6 +425,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
                     "flashcards" -> startCategorySelectorFlashCards()
                     "enhanced_flashcards" -> startEnhancedFlashCards()
                     "study_list" -> startStudyList()
+                    "flagged_translations" -> startFlaggedTranslations()
                     "quiz" -> startQuiz()
                     "fill_blank" -> startFillBlank()
                     "cloze" -> startCloze()
@@ -844,6 +846,11 @@ class MainActivityWithBottomNav : ComponentActivity() {
 
     private fun startStudyList() {
         val intent = Intent(this, StudyListActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startFlaggedTranslations() {
+        val intent = Intent(this, FlaggedTranslationsActivity::class.java)
         startActivity(intent)
     }
 

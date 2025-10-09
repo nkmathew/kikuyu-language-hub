@@ -48,15 +48,18 @@ class StudyCardView @JvmOverloads constructor(
     private val knownButton: TextView
     private val unknownButton: TextView
     private val copyButton: TextView
+    private val flagButton: TextView
 
     // State
     private var currentEntry: FlashcardEntry? = null
     private var isKnown = false
+    private var isFlagged = false
     private var showAdditionalInfo = false
 
     // Callbacks
     var onMarkKnownListener: (() -> Unit)? = null
     var onMarkUnknownListener: (() -> Unit)? = null
+    var onFlagListener: (() -> Unit)? = null
 
     init {
         // Inflate layout
@@ -80,6 +83,7 @@ class StudyCardView @JvmOverloads constructor(
         knownButton = findViewById(R.id.knownButton)
         unknownButton = findViewById(R.id.unknownButton)
         copyButton = findViewById(R.id.copyButton)
+        flagButton = findViewById(R.id.flagButton)
 
         // Set up click listeners
         knownButton.setOnClickListener {
@@ -104,6 +108,10 @@ class StudyCardView @JvmOverloads constructor(
 
         copyButton.setOnClickListener {
             copyCardToClipboard()
+        }
+
+        flagButton.setOnClickListener {
+            onFlagListener?.invoke()
         }
 
         // Toggle additional info on card click
@@ -133,6 +141,19 @@ class StudyCardView @JvmOverloads constructor(
      * Get whether this card is marked as known
      */
     fun isCardKnown(): Boolean = isKnown
+    
+    /**
+     * Set whether this card is flagged
+     */
+    fun setFlagged(flagged: Boolean) {
+        isFlagged = flagged
+        updateFlagState()
+    }
+    
+    /**
+     * Get whether this card is flagged
+     */
+    fun isCardFlagged(): Boolean = isFlagged
 
     /**
      * Update the UI with the current entry
@@ -268,6 +289,19 @@ class StudyCardView @JvmOverloads constructor(
             knownStatusBadge.isVisible = false
             knownButton.text = "✅ Known"
             unknownButton.isVisible = false
+        }
+    }
+    
+    /**
+     * Update the flag state UI
+     */
+    private fun updateFlagState() {
+        if (isFlagged) {
+            flagButton.text = "🚩 Flagged"
+            flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.warning_color))
+        } else {
+            flagButton.text = "🚩"
+            flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.warning_color))
         }
     }
 

@@ -82,5 +82,10 @@
             android:label="Study Mode"
             android:parentActivityName=".MainActivityWithBottomNav" />
 
+        <!-- Flagged Translations Activity -->
+        <activity android:name=".FlaggedTranslationsActivity"
+            android:label="Flagged Translations"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
     </application>
 </manifest>
