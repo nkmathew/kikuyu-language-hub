@@ -200,19 +200,9 @@ class EnhancedFlashCardView @JvmOverloads constructor(
             titleView.setTypeface(null, android.graphics.Typeface.BOLD)
             examplesContainer.addView(titleView)
 
-            // Add up to 2 examples
-            entry.examples.take(2).forEach { example ->
+            // Add all examples
+            entry.examples.forEach { example ->
                 addExampleView(example)
-            }
-
-            // Show "more examples" if there are more than 2
-            if (entry.examples.size > 2) {
-                val moreView = TextView(context)
-                moreView.text = "+${entry.examples.size - 2} more examples"
-                moreView.textSize = 12f
-                moreView.setTextColor(ContextCompat.getColor(context, android.R.color.holo_blue_dark))
-                moreView.gravity = android.view.Gravity.END
-                examplesContainer.addView(moreView)
             }
 
             examplesContainer.isVisible = true
