@@ -14,6 +14,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import kotlin.random.Random
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 
 class QuizActivity : ComponentActivity() {
     companion object {
@@ -21,7 +22,7 @@ class QuizActivity : ComponentActivity() {
         private const val QUIZ_LENGTH = 10
     }
     
-    private lateinit var flashCardManager: FlashCardManager
+    private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var soundManager: SoundManager
     private lateinit var progressManager: ProgressManager
     private lateinit var questionText: TextView
@@ -39,7 +40,7 @@ class QuizActivity : ComponentActivity() {
     private var correctAnswerIndex = -1
     
     data class QuizQuestion(
-        val phrase: Phrase,
+        val phrase: FlashcardEntry,
         val questionText: String,
         val correctAnswer: String,
         val options: List<String>,
@@ -54,11 +55,11 @@ class QuizActivity : ComponentActivity() {
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
         
         try {
-            flashCardManager = FlashCardManager(this)
+            flashCardManager = FlashCardManagerV2(this)
             soundManager = SoundManager(this)
             progressManager = ProgressManager(this)
             
-            if (flashCardManager.getTotalPhrases() < 4) {
+            if (flashCardManager.getTotalEntries() < 4) {
                 Toast.makeText(this, "Need at least 4 phrases for quiz mode", Toast.LENGTH_LONG).show()
                 finish()
                 return
@@ -280,14 +281,14 @@ class QuizActivity : ComponentActivity() {
         }
     }
     
-    private fun generateWrongAnswers(correctPhrase: Phrase, isEnglishToKikuyu: Boolean): List<String> {
+    private fun generateWrongAnswers(correctPhrase: FlashcardEntry, isEnglishToKikuyu: Boolean): List<String> {
         val wrongAnswers = mutableListOf<String>()
-        val allPhrases = mutableListOf<Phrase>()
+        val allPhrases = mutableListOf<FlashcardEntry>()
         
         // Collect all phrases
-        for (i in 0 until flashCardManager.getTotalPhrases()) {
+        for (i in 0 until flashCardManager.getTotalEntries()) {
             flashCardManager.setCurrentIndex(i)
-            val phrase = flashCardManager.getCurrentPhrase()
+            val phrase = flashCardManager.getCurrentEntry()
             if (phrase != null && phrase != correctPhrase) {
                 allPhrases.add(phrase)
             }

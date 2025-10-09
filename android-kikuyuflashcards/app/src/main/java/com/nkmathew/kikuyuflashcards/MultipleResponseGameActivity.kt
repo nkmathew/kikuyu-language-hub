@@ -36,7 +36,7 @@ import kotlin.random.Random
  */
 class MultipleResponseGameActivity : AppCompatActivity() {
     
-    private lateinit var flashCardManager: FlashCardManager
+    private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var soundManager: SoundManager
     private lateinit var progressManager: ProgressManager
     private lateinit var gamePreferences: SharedPreferences
@@ -109,7 +109,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
         
         // Initialize managers and preferences
-        flashCardManager = FlashCardManager(this)
+        flashCardManager = FlashCardManagerV2(this)
         soundManager = SoundManager(this)
         progressManager = ProgressManager(this)
         failureTracker = FailureTracker(this)

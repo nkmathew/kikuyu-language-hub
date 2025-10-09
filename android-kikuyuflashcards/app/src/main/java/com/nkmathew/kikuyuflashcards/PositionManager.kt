@@ -3,6 +3,7 @@ package com.nkmathew.kikuyuflashcards
 import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
+import com.nkmathew.kikuyuflashcards.models.Categories
 
 /**
  * PositionManager handles intelligent position memory across different categories
@@ -242,13 +243,13 @@ class PositionManager(private val context: Context) {
         }
         
         val categoryName = sessionInfo.lastCategory?.let { 
-            Phrase.getCategoryDisplayName(it) 
+            Categories.getCategoryDisplayName(it) 
         } ?: "All Categories"
         
         val totalCards = if (sessionInfo.lastCategory != null) {
-            flashCardManager.getTotalPhrasesInCategory(sessionInfo.lastCategory)
+            flashCardManager.getTotalEntriesInCategory(sessionInfo.lastCategory)
         } else {
-            flashCardManager.getTotalPhrases()
+            flashCardManager.getTotalEntries()
         }
         
         val progressPercent = if (totalCards > 0) {

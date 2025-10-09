@@ -8,6 +8,7 @@ import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import android.util.Log
 import java.util.*
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 
 class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     
@@ -229,7 +230,7 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
         }
     }
     
-    fun speakPhrase(phrase: Phrase, language: String = "both") {
+    fun speakPhrase(phrase: FlashcardEntry, language: String = "both") {
         when (language.lowercase()) {
             "english" -> speakEnglish(phrase.english)
             "kikuyu" -> speakKikuyu(phrase.kikuyu)

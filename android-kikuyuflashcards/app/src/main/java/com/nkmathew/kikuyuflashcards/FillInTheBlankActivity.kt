@@ -38,7 +38,7 @@ import kotlin.random.Random
  */
 class FillInTheBlankActivity : AppCompatActivity() {
     
-    private lateinit var flashCardManager: FlashCardManager
+    private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var soundManager: SoundManager
     private lateinit var progressManager: ProgressManager
     private lateinit var failureTracker: FailureTracker
@@ -78,7 +78,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
         
         // Initialize managers
-        flashCardManager = FlashCardManager(this)
+        flashCardManager = FlashCardManagerV2(this)
         soundManager = SoundManager(this)
         progressManager = ProgressManager(this)
         failureTracker = FailureTracker(this)

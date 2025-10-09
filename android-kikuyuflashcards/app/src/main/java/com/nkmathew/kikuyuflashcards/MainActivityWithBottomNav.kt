@@ -413,7 +413,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
     private fun getCategoryTotals(flashCardManager: FlashCardManagerV2): String {
         val categories = flashCardManager.getAvailableCategories()
         val totals = categories.map { category ->
-            val count = flashCardManager.getTotalPhrasesInCategory(category)
+            val count = flashCardManager.getTotalEntriesInCategory(category)
             val displayName = Categories.getCategoryDisplayName(category)
             "• $displayName: $count"
         }
@@ -495,7 +495,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         
         val isDarkTheme = ThemeManager.isDarkTheme(this)
         val progressManager = ProgressManager(this)
-        val flashCardManager = FlashCardManager(this)
+        val flashCardManager = FlashCardManagerV2(this)
         
         // Title
         val titleText = TextView(this).apply {

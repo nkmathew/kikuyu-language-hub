@@ -265,7 +265,7 @@
                 android:id="@+id/flagButton"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@android:drawable/ic_menu_flag"
+                android:src="@android:drawable/ic_menu_agenda"
                 android:scaleType="centerInside"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"

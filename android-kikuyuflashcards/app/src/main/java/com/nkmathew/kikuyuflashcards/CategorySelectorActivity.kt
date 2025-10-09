@@ -15,10 +15,11 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
+import com.nkmathew.kikuyuflashcards.models.Categories
 
 class CategorySelectorActivity : ComponentActivity() {
     
-    private lateinit var flashCardManager: FlashCardManager
+    private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var soundManager: SoundManager
     private lateinit var progressManager: ProgressManager
     
@@ -29,7 +30,7 @@ class CategorySelectorActivity : ComponentActivity() {
         // Apply dark theme
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
         
-        flashCardManager = FlashCardManager(this)
+        flashCardManager = FlashCardManagerV2(this)
         soundManager = SoundManager(this)
         progressManager = ProgressManager(this)
         
@@ -109,7 +110,7 @@ class CategorySelectorActivity : ComponentActivity() {
                     // Restore the last category and position
                     val sessionInfo = flashCardManager.getPositionManager().getLastSessionInfo()
                     flashCardManager.setCategory(sessionInfo.lastCategory)
-                    startFlashCardsWithMode(sessionInfo.lastCategory?.let { Phrase.getCategoryDisplayName(it) } ?: "All Categories")
+                    startFlashCardsWithMode(sessionInfo.lastCategory?.let { Categories.getCategoryDisplayName(it) } ?: "All Categories")
                 }
                 categoriesLayout.addView(continueButton)
             }
@@ -134,8 +135,8 @@ class CategorySelectorActivity : ComponentActivity() {
         
         // Add enhanced category buttons
         availableCategories.forEach { category ->
-            val displayName = Phrase.getCategoryDisplayName(category)
-            val count = flashCardManager.getTotalPhrasesInCategory(category)
+            val displayName = Categories.getCategoryDisplayName(category)
+            val count = flashCardManager.getTotalEntriesInCategory(category)
             val (icon, title) = extractIconAndTitle(displayName)
             val subtitle = getCategoryDescription(category)
             

@@ -26,7 +26,7 @@ import com.nkmathew.kikuyuflashcards.FailureTracker
 class ProblemWordsPracticeActivity : AppCompatActivity() {
     
     private lateinit var failureTracker: FailureTracker
-    private lateinit var flashCardManager: FlashCardManager
+    private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var soundManager: SoundManager
     
     // UI Components
@@ -61,7 +61,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         
         // Initialize managers
         failureTracker = FailureTracker(this)
-        flashCardManager = FlashCardManager(this)
+        flashCardManager = FlashCardManagerV2(this)
         soundManager = SoundManager(this)
         
         setContentView(createLayout())

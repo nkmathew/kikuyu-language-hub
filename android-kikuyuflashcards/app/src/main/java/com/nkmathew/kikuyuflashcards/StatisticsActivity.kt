@@ -20,7 +20,7 @@ import java.util.*
 class StatisticsActivity : ComponentActivity() {
     
     private lateinit var progressManager: ProgressManager
-    private lateinit var flashCardManager: FlashCardManager
+    private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var soundManager: SoundManager
     
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,7 +31,7 @@ class StatisticsActivity : ComponentActivity() {
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
         
         progressManager = ProgressManager(this)
-        flashCardManager = FlashCardManager(this)
+        flashCardManager = FlashCardManagerV2(this)
         soundManager = SoundManager(this)
         
         createStatsUI()

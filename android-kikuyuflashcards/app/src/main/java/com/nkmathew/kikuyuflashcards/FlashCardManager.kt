@@ -7,14 +7,16 @@ import org.json.JSONException
 import org.json.JSONObject
 import java.io.IOException
 import kotlin.random.Random
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
+import com.nkmathew.kikuyuflashcards.models.SourceInfo
 
 class FlashCardManager(private val context: Context) {
     companion object {
         private const val TAG = "FlashCardManager"
     }
 
-    private val allPhrases: MutableList<Phrase> = mutableListOf()
-    private val filteredPhrases: MutableList<Phrase> = mutableListOf()
+    private val allPhrases: MutableList<FlashcardEntry> = mutableListOf()
+    private val filteredPhrases: MutableList<FlashcardEntry> = mutableListOf()
     private var currentIndex = 0
     private val random = Random.Default
     private var isShuffleMode = false
@@ -32,25 +34,25 @@ class FlashCardManager(private val context: Context) {
         }
     }
 
-    fun getCurrentPhrase(): Phrase? {
+    fun getCurrentPhrase(): FlashcardEntry? {
         return if (filteredPhrases.isEmpty()) null else filteredPhrases[currentIndex]
     }
 
-    fun getNextPhrase(): Phrase? {
+    fun getNextPhrase(): FlashcardEntry? {
         if (filteredPhrases.isEmpty()) return null
         currentIndex = (currentIndex + 1) % filteredPhrases.size
         saveCurrentPosition()
         return getCurrentPhrase()
     }
 
-    fun getPreviousPhrase(): Phrase? {
+    fun getPreviousPhrase(): FlashcardEntry? {
         if (filteredPhrases.isEmpty()) return null
         currentIndex = (currentIndex - 1 + filteredPhrases.size) % filteredPhrases.size
         saveCurrentPosition()
         return getCurrentPhrase()
     }
 
-    fun getRandomPhrase(): Phrase? {
+    fun getRandomPhrase(): FlashcardEntry? {
         if (filteredPhrases.isEmpty()) return null
         currentIndex = random.nextInt(filteredPhrases.size)
         return getCurrentPhrase()
@@ -126,8 +128,8 @@ class FlashCardManager(private val context: Context) {
 
     fun isShuffleMode(): Boolean = isShuffleMode
 
-    private fun loadPhrasesFromJSON(): List<Phrase> {
-        val phrases = mutableListOf<Phrase>()
+    private fun loadPhrasesFromJSON(): List<FlashcardEntry> {
+        val phrases = mutableListOf<FlashcardEntry>()
         
         try {
             context.assets.open("kikuyu-phrases.json").use { inputStream ->
@@ -137,15 +139,22 @@ class FlashCardManager(private val context: Context) {
                 val jsonArray = jsonObject.getJSONArray("phrases")
                 
                 // Pre-allocate list size for better performance
-                val phrasesList = ArrayList<Phrase>(jsonArray.length())
+                val phrasesList = ArrayList<FlashcardEntry>(jsonArray.length())
                 
                 for (i in 0 until jsonArray.length()) {
                     val phraseObject = jsonArray.getJSONObject(i)
                     val english = phraseObject.getString("english")
                     val kikuyu = phraseObject.getString("kikuyu")
-                    val category = phraseObject.optString("category", Phrase.GENERAL)
+                    val category = phraseObject.optString("category", "general")
                     
-                    phrasesList.add(Phrase(english, kikuyu, category))
+                    phrasesList.add(FlashcardEntry(
+                        id = "${english.hashCode()}",
+                        english = english,
+                        kikuyu = kikuyu,
+                        category = category,
+                        difficulty = "medium",
+                        source = SourceInfo(origin = "Legacy JSON")
+                    ))
                 }
                 
                 phrases.addAll(phrasesList)
@@ -213,7 +222,7 @@ class FlashCardManager(private val context: Context) {
     /**
      * Get all phrases for generating multiple choice options
      */
-    fun getAllPhrases(): List<Phrase> {
+    fun getAllPhrases(): List<FlashcardEntry> {
         return if (currentCategory == null) {
             allPhrases
         } else {

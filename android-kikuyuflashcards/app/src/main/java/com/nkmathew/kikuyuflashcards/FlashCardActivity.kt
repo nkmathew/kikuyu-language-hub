@@ -26,10 +26,12 @@ import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import com.nkmathew.kikuyuflashcards.utils.AnimationHelpers
 import com.nkmathew.kikuyuflashcards.FailureTracker
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
+import com.nkmathew.kikuyuflashcards.models.SourceInfo
 
 class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListener {
     
-    private lateinit var flashCardManager: FlashCardManager
+    private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var soundManager: SoundManager
     private lateinit var progressManager: ProgressManager
     private lateinit var failureTracker: FailureTracker
@@ -64,7 +66,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         // Apply dark theme
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
         
-        flashCardManager = FlashCardManager(this)
+        flashCardManager = FlashCardManagerV2(this)
         soundManager = SoundManager(this)
         progressManager = ProgressManager(this)
         failureTracker = FailureTracker(this)
@@ -131,7 +133,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         
         // English phrase card with enhanced Material 3 styling and gradient
         englishText = TextView(this).apply {
-            text = flashCardManager.getCurrentPhrase()?.english ?: "No phrases available"
+            text = flashCardManager.getCurrentEntry()?.english ?: "No phrases available"
             textSize = 24f
             setTextColor(Color.WHITE)
             setPadding(40, 64, 40, 64)
@@ -189,7 +191,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
             
             setOnClickListener { 
                 animateButtonPress(this)
-                val currentPhrase = flashCardManager.getCurrentPhrase()
+                val currentPhrase = flashCardManager.getCurrentEntry()
                 if (currentPhrase != null) {
                     soundManager.speakEnglish(currentPhrase.english)
                 }
@@ -275,7 +277,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
             
             setOnClickListener { 
                 animateButtonPress(this)
-                val currentPhrase = flashCardManager.getCurrentPhrase()
+                val currentPhrase = flashCardManager.getCurrentEntry()
                 if (currentPhrase != null && kikuyuText.text.isNotEmpty()) {
                     soundManager.speakKikuyu(currentPhrase.kikuyu)
                 }
@@ -454,7 +456,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
             
             setOnClickListener { 
                 animateButtonPress(this)
-                val currentPhrase = flashCardManager.getCurrentPhrase()
+                val currentPhrase = flashCardManager.getCurrentEntry()
                 if (currentPhrase != null) {
                     soundManager.speakPhrase(currentPhrase, "both")
                 }
@@ -649,7 +651,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         rotateIn.interpolator = AccelerateDecelerateInterpolator()
         
         // Set Kikuyu text before animation
-        kikuyuText.text = flashCardManager.getCurrentPhrase()?.kikuyu ?: ""
+        kikuyuText.text = flashCardManager.getCurrentEntry()?.kikuyu ?: ""
         
         val animatorSet = AnimatorSet()
         animatorSet.play(hideEnglish).with(rotateOut)
@@ -810,7 +812,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
     
     // Track card interaction for difficulty assessment
     private fun trackCardInteraction() {
-        val currentPhrase = flashCardManager.getCurrentPhrase() ?: return
+        val currentPhrase = flashCardManager.getCurrentEntry() ?: return
         
         // Simple heuristic: if user flips quickly, they might know the word
         // If they take time or flip multiple times, they might be struggling
@@ -852,7 +854,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
     
     // Show type-in recall dialog
     private fun showTypeInRecallDialog() {
-        val currentPhrase = flashCardManager.getCurrentPhrase() ?: return
+        val currentPhrase = flashCardManager.getCurrentEntry() ?: return
         
         // Create dialog for type-in recall
         val builder = android.app.AlertDialog.Builder(this)
@@ -909,7 +911,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
                 cardDifficulty = CardDifficulty.MASTERED
                 
                 // Record success
-                flashCardManager.getCurrentPhrase()?.let { phrase ->
+                flashCardManager.getCurrentEntry()?.let { phrase ->
                     failureTracker.recordSuccess(phrase, FailureTracker.LearningMode.TYPE_IN_RECALL, responseTime)
                 }
             }
@@ -918,9 +920,9 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
                 cardDifficulty = CardDifficulty.LEARNING
                 
                 // Record partial success as spelling error
-                flashCardManager.getCurrentPhrase()?.let { phrase ->
+                flashCardManager.getCurrentEntry()?.let { phrase ->
                     failureTracker.recordFailure(
-                        phrase = phrase,
+                        entry = phrase,
                         failureType = FailureTracker.FailureType.SPELLING_ERROR,
                         learningMode = FailureTracker.LearningMode.TYPE_IN_RECALL,
                         userAnswer = userAnswer,
@@ -935,14 +937,14 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
                 cardDifficulty = CardDifficulty.DIFFICULT
                 
                 // Record failure
-                flashCardManager.getCurrentPhrase()?.let { phrase ->
+                flashCardManager.getCurrentEntry()?.let { phrase ->
                     val failureType = when {
                         userAnswer.isEmpty() -> FailureTracker.FailureType.TIMEOUT_ERROR
                         else -> FailureTracker.FailureType.RECALL_ERROR
                     }
                     
                     failureTracker.recordFailure(
-                        phrase = phrase,
+                        entry = phrase,
                         failureType = failureType,
                         learningMode = FailureTracker.LearningMode.TYPE_IN_RECALL,
                         userAnswer = userAnswer,
@@ -961,7 +963,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
     }
     
     // Show answer dialog with learning options
-    private fun showAnswerDialog(phrase: Phrase) {
+    private fun showAnswerDialog(phrase: FlashcardEntry) {
         val builder = android.app.AlertDialog.Builder(this)
         builder.setTitle("Answer")
         builder.setMessage("English: \"${phrase.english}\"\nKikuyu: \"${phrase.kikuyu}\"")
@@ -982,7 +984,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
             
             // Record as recognition error (user needed to see the answer)
             failureTracker.recordFailure(
-                phrase = phrase,
+                entry = phrase,
                 failureType = FailureTracker.FailureType.RECOGNITION_ERROR,
                 learningMode = FailureTracker.LearningMode.FLASHCARD,
                 userAnswer = "[NEEDED TO SEE ANSWER]",
@@ -1000,7 +1002,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
             
             // Record as recall error (user found it difficult)
             failureTracker.recordFailure(
-                phrase = phrase,
+                entry = phrase,
                 failureType = FailureTracker.FailureType.RECALL_ERROR,
                 learningMode = FailureTracker.LearningMode.FLASHCARD,
                 userAnswer = "[DIFFICULT]",
