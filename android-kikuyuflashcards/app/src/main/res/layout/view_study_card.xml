@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Card Status and Badges -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="12dp">
+
+            <!-- Known Status Badge -->
+            <TextView
+                android:id="@+id/knownStatusBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge_background"
+                android:padding="6dp"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                tools:text="✓ Known"
+                tools:visibility="visible" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <!-- Category Badge -->
+            <TextView
+                android:id="@+id/categoryBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge_background"
+                android:padding="6dp"
+                android:textSize="12sp"
+                android:layout_marginEnd="4dp"
+                tools:text="📚 Vocabulary" />
+
+            <!-- Difficulty Badge -->
+            <TextView
+                android:id="@+id/difficultyBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge_background"
+                android:padding="6dp"
+                android:textSize="12sp"
+                android:layout_marginEnd="4dp"
+                tools:text="🟢 Beginner" />
+
+            <!-- Quality Badge -->
+            <TextView
+                android:id="@+id/qualityBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/quality_badge_background"
+                android:padding="4dp"
+                android:textSize="10sp"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                tools:text="★ 4.5"
+                tools:visibility="visible" />
+        </LinearLayout>
+
+        <!-- Main Content: English and Kikuyu Side by Side -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp">
+
+            <!-- English Side -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginEnd="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="English"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="?attr/colorPrimary"
+                    android:background="@drawable/badge_background"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/englishTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:background="@color/card_background_light"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    tools:text="Good morning" />
+            </LinearLayout>
+
+            <!-- Kikuyu Side -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_marginStart="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kikuyu"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:background="@color/card_background_dark"
+                    android:padding="4dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:id="@+id/kikuyuTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:background="@color/card_background_dark"
+                    android:padding="12dp"
+                    android:gravity="center"
+                    tools:text="Úhoro wa rúciní" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Additional Information -->
+        <LinearLayout
+            android:id="@+id/additionalInfoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <!-- Context -->
+            <LinearLayout
+                android:id="@+id/contextContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="4dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:tint="?attr/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/contextTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="14sp"
+                    tools:text="Common greeting used in the morning" />
+            </LinearLayout>
+
+            <!-- Cultural Notes -->
+            <LinearLayout
+                android:id="@+id/culturalNotesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginVertical="4dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:tint="?attr/colorPrimary" />
+
+                <TextView
+                    android:id="@+id/culturalNotesTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:textSize="14sp"
+                    tools:text="Kikuyu greetings vary by time of day" />
+            </LinearLayout>
+
+            <!-- Examples -->
+            <LinearLayout
+                android:id="@+id/examplesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginVertical="4dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Examples:"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="4dp" />
+
+                <!-- Example items will be added dynamically -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="12dp">
+
+            <Button
+                android:id="@+id/knownButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="✅ Known"
+                android:textSize="12sp"
+                android:backgroundTint="@color/success_color"
+                style="@style/Widget.Material3.Button" />
+
+            <Button
+                android:id="@+id/unknownButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="❌ Unknown"
+                android:textSize="12sp"
+                android:backgroundTint="@color/warning_color"
+                android:visibility="gone"
+                style="@style/Widget.Material3.Button" />
+
+            <Button
+                android:id="@+id/copyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="📋"
+                android:textSize="12sp"
+                android:minWidth="48dp"
+                android:backgroundTint="@color/secondary_color"
+                style="@style/Widget.Material3.Button" />
+        </LinearLayout>
+
+        <!-- Source Information -->
+        <TextView
+            android:id="@+id/sourceInfoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="10sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:layout_marginTop="8dp"
+            tools:text="Source: Easy Kikuyu Lessons" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

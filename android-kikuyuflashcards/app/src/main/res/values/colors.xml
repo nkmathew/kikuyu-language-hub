@@ -170,4 +170,11 @@
     <color name="overlay_color">#80000000</color>
     <color name="scrim_color">#99000000</color>
 
+    <!-- Study Card Colors -->
+    <color name="card_background_light">#F5F5F5</color>
+    <color name="card_background_dark">#424242</color>
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="secondary_color">#757575</color>
+
 </resources>

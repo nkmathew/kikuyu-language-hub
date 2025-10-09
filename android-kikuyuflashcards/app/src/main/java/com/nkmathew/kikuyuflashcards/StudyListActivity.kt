@@ -1,49 +1,60 @@
 package com.nkmathew.kikuyuflashcards
 
-import android.content.Intent
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.nkmathew.kikuyuflashcards.models.Categories
 import com.nkmathew.kikuyuflashcards.models.DifficultyLevels
-import com.nkmathew.kikuyuflashcards.ui.views.EnhancedFlashCardView
+import com.nkmathew.kikuyuflashcards.ui.adapters.StudyCardAdapter
+import com.nkmathew.kikuyuflashcards.ui.views.StudyCardView
 
 /**
- * Activity that displays enhanced flashcards with filtering capabilities
+ * Activity that displays flashcards in list mode similar to Next.js app
+ * Shows all cards with English and Kikuyu side by side
  */
-class EnhancedFlashCardActivity : AppCompatActivity() {
+class StudyListActivity : AppCompatActivity() {
 
     // Views
-    private lateinit var enhancedFlashCardView: EnhancedFlashCardView
+    private lateinit var recyclerView: RecyclerView
     private lateinit var categoryChipGroup: ChipGroup
     private lateinit var difficultyChipGroup: ChipGroup
-    private lateinit var positionTextView: TextView
+    private lateinit var progressTextView: TextView
+    private lateinit var studyCardAdapter: StudyCardAdapter
 
     // Managers
     private lateinit var flashCardManager: FlashCardManagerV2
 
+    // State
+    private val knownCards = mutableSetOf<String>()
+    private var totalCards = 0
+    private var cardsStudied = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_enhanced_flashcard)
+        setContentView(R.layout.activity_study_list)
 
         // Set up action bar
         supportActionBar?.apply {
             setDisplayHomeAsUpEnabled(true)
-            title = "Enhanced Flashcards"
+            title = "Study Mode"
         }
 
         // Initialize views
-        enhancedFlashCardView = findViewById(R.id.enhancedFlashCardView)
+        recyclerView = findViewById(R.id.recyclerView)
         categoryChipGroup = findViewById(R.id.categoryChipGroup)
         difficultyChipGroup = findViewById(R.id.difficultyChipGroup)
-        positionTextView = findViewById(R.id.positionTextView)
+        progressTextView = findViewById(R.id.progressTextView)
 
         // Initialize flash card manager
         flashCardManager = FlashCardManagerV2(this)
+
+        // Set up RecyclerView
+        setupRecyclerView()
 
         // Set up category filter chips
         setupCategoryChips()
@@ -51,32 +62,33 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
         // Set up difficulty filter chips
         setupDifficultyChips()
 
-        // Set up flashcard listeners
-        setupFlashcardListeners()
-
-        // Show initial card
-        updateCurrentCard()
-    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.enhanced_flashcard_menu, menu)
-        return true
+        // Load initial cards
+        loadCards()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            android.R.id.home -> {
-                finish()
-                true
-            }
-            R.id.action_list_mode -> {
-                // Switch to list mode
-                val intent = Intent(this, StudyListActivity::class.java)
-                startActivity(intent)
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
+        if (item.itemId == android.R.id.home) {
+            finish()
+            return true
         }
+        return super.onOptionsItemSelected(item)
+    }
+
+    /**
+     * Set up RecyclerView with adapter
+     */
+    private fun setupRecyclerView() {
+        studyCardAdapter = StudyCardAdapter { cardId, isKnown ->
+            if (isKnown) {
+                knownCards.add(cardId)
+            } else {
+                knownCards.remove(cardId)
+            }
+            updateProgress()
+        }
+
+        recyclerView.layoutManager = LinearLayoutManager(this)
+        recyclerView.adapter = studyCardAdapter
     }
 
     /**
@@ -112,8 +124,8 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
             // Apply category filter
             flashCardManager.setCategory(category)
 
-            // Update card
-            updateCurrentCard()
+            // Reload cards
+            loadCards()
         }
     }
 
@@ -150,26 +162,31 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
             // Apply difficulty filter
             flashCardManager.setDifficulty(difficulty)
 
-            // Update card
-            updateCurrentCard()
+            // Reload cards
+            loadCards()
         }
     }
 
     /**
-     * Set up flashcard listeners
+     * Load cards and update the adapter
      */
-    private fun setupFlashcardListeners() {
-        // Set up next button
-        enhancedFlashCardView.onNextListener = {
-            flashCardManager.getNextEntry()
-            updateCurrentCard()
-        }
+    private fun loadCards() {
+        val cards = flashCardManager.getAllEntries()
+        totalCards = cards.size
+        cardsStudied = 0
+        
+        studyCardAdapter.updateCards(cards)
+        updateProgress()
+    }
 
-        // Set up previous button
-        enhancedFlashCardView.onPreviousListener = {
-            flashCardManager.getPreviousEntry()
-            updateCurrentCard()
-        }
+    /**
+     * Update progress display
+     */
+    private fun updateProgress() {
+        val knownCount = knownCards.size
+        val progressPercentage = if (totalCards > 0) (knownCount * 100) / totalCards else 0
+        
+        progressTextView.text = "Progress: $knownCount/$totalCards cards known ($progressPercentage%)"
     }
 
     /**
@@ -188,24 +205,5 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
             this.isChecked = isChecked
         }
         chipGroup.addView(chip)
-    }
-
-    /**
-     * Update the UI with the current card
-     */
-    private fun updateCurrentCard() {
-        // Get current entry
-        val currentEntry = flashCardManager.getCurrentEntry()
-
-        // Update position text
-        val currentIndex = flashCardManager.getCurrentIndex() + 1
-        val totalEntries = flashCardManager.getTotalEntries()
-        positionTextView.text = "Card $currentIndex of $totalEntries"
-
-        // Update flash card view
-        currentEntry?.let {
-            enhancedFlashCardView.setEntry(it)
-            enhancedFlashCardView.resetToFront()
-        }
     }
 }

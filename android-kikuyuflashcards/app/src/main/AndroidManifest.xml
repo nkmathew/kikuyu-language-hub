@@ -77,5 +77,10 @@
             android:label="Enhanced Flashcards"
             android:parentActivityName=".MainActivityWithBottomNav" />
 
+        <!-- Study List Activity -->
+        <activity android:name=".StudyListActivity"
+            android:label="Study Mode"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
     </application>
 </manifest>
