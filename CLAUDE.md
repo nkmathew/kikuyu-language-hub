@@ -109,6 +109,35 @@ kikuyu-language-hub/
 │   ├── next.config.js       # Next.js configuration (port 7000)
 │   ├── tailwind.config.ts   # Tailwind customization
 │   └── package.json         # Dependencies and scripts
+├── kikuyu-flashcards-mobile/  # PRODUCTION: React Native mobile app
+│   ├── src/
+│   │   ├── screens/          # Screen components
+│   │   │   ├── HomeScreen.tsx        # Category selection
+│   │   │   ├── CategoryScreen.tsx    # Difficulty selection
+│   │   │   ├── StudyScreen.tsx       # Flashcard study mode
+│   │   │   ├── StudyListScreen.tsx   # List view with flag/copy
+│   │   │   └── FlaggedTranslationsScreen.tsx  # Flagged items management
+│   │   ├── components/       # Reusable components
+│   │   │   ├── FlashCard.tsx         # Flip card component
+│   │   │   ├── LoadingSpinner.tsx    # Loading indicator
+│   │   │   └── LoadingOverlay.tsx    # Full-screen loading
+│   │   ├── navigation/       # Navigation setup
+│   │   │   └── AppNavigator.tsx      # Tab navigation
+│   │   ├── lib/              # Utilities
+│   │   │   └── dataLoader.ts         # Explicit require() for all JSON files
+│   │   ├── assets/           # Static assets
+│   │   │   └── data/curated/ # Synced curated flashcards (196 files)
+│   │   │       ├── conjugations/     # 38 files
+│   │   │       ├── cultural/         # 14 files
+│   │   │       ├── grammar/          # 27 files
+│   │   │       ├── phrases/          # 40 files
+│   │   │       ├── proverbs/         # 18 files
+│   │   │       └── vocabulary/       # 59 files
+│   │   └── types/            # TypeScript interfaces
+│   │       └── flashcard.ts          # Shared types
+│   ├── app.json              # Expo configuration
+│   ├── eas.json              # EAS Build configuration
+│   └── package.json          # Dependencies and scripts
 ├── backend/                    # DEVELOPMENT: FastAPI backend
 │   ├── app/
 │   │   ├── api/routes/        # HTTP endpoints (auth, contributions, export, analytics, webhooks)
@@ -214,6 +243,27 @@ npm start                             # Start production server locally
 git push origin main                  # Triggers automatic deployment
 ```
 
+### Mobile App Commands (Production)
+```bash
+cd kikuyu-flashcards-mobile
+
+# Development
+npm install                            # Install dependencies
+npm start                             # Start Expo dev server
+npm run android                       # Run on Android emulator
+npm run ios                           # Run on iOS simulator
+
+# EAS Build (Production APK)
+npx eas login                         # Login to Expo account
+npx eas build:configure               # Configure EAS (first time only)
+npm run build:preview                 # Build preview APK for testing
+npm run build:production              # Build production APK
+
+# Data Sync (from backend curated content)
+cd ..                                 # Go to project root
+python sync-curated-content.py        # Sync curated content to mobile app
+```
+
 ### Translation Platform Frontend Commands (Development)
 ```bash
 cd frontend
@@ -244,10 +294,229 @@ docker compose -f infra/docker-compose.yml up backend -d
 docker compose -f infra/docker-compose.yml logs -f frontend
 ```
 
-## 3b. Flashcards App - Production Features & Implementation
+## 3b. Mobile App - Production Features & Implementation
 
 ### Overview
-The Flashcards App is a fully static Next.js application deployed on Netlify, featuring 100+ curated flashcards from authentic native speaker content (Emmanuel Kariuki's Easy Kikuyu lessons).
+The Kikuyu Flashcards Mobile App is a React Native application built with Expo, featuring 196 curated flashcard files synced from the backend. Designed for offline-first learning with flashcard study, list view, and flagged translations management.
+
+### Key Features
+
+#### 1. Study Modes
+- **Flashcard Mode**: Swipe-based flip cards for interactive learning
+- **List Mode**: Scrollable study list with all translations visible
+- **Sort Options**: Difficulty, Recent, A-Z, Length
+- **Position Indicator**: Shows current viewing position (e.g., "📍 1-10 of 150")
+
+#### 2. Content Organization
+- **6 Categories**: Vocabulary, Proverbs, Grammar, Conjugations, Phrases, General (all content)
+- **Difficulty Filtering**: Beginner, Intermediate, Advanced, All Levels
+- **Category Stats**: Real-time card counts per category and difficulty
+- **Offline-First**: All 196 JSON files bundled in APK for offline access
+
+#### 3. Flagged Translations
+- **Flag Button**: Mark translations for review (🏳️ → 🚩)
+- **Persistent Storage**: AsyncStorage saves flagged items across sessions
+- **Add Reasons**: Attach notes explaining why translations were flagged
+- **Export Options**: Copy, Share (email), Save (JSON)
+- **Batch Management**: View all flagged items, clear individual or all flags
+- **Auto-Refresh**: useFocusEffect ensures list updates when screen gains focus
+
+#### 4. Study Tools
+- **Copy to Clipboard**: One-tap copy of Kikuyu-English pairs
+- **Progress Tracking**: Mark cards as known/unknown (planned)
+- **Dark Theme**: Professional dark mode default
+- **Relative Timestamps**: Shows when content was last updated
+
+#### 5. Technical Features
+- **Tab Navigation**: Home, Study, Flagged Translations
+- **AsyncStorage**: Persistent flagged items and user preferences
+- **Explicit Data Loading**: All 196 JSON files explicitly required for production builds
+- **EAS Build**: Cloud-based APK generation with Expo Application Services
+- **APK Package**: `com.kikuyulanguagehub.flashcards`
+
+### Technical Implementation
+
+#### Data Loading Pattern
+Location: `kikuyu-flashcards-mobile/src/lib/dataLoader.ts`
+
+**Critical Production Build Fix:**
+```typescript
+// Import all curated content files explicitly
+// This ensures they are bundled in production builds
+const curatedData = {
+  // Conjugations (11 files)
+  'conjugations/easy_kikuyu_011_moments_ago.json': require('../assets/data/curated/conjugations/easy_kikuyu_011_moments_ago.json'),
+  // ... 185 more explicit requires
+};
+
+class DataLoader {
+  private loadAllDataFiles() {
+    // Load all JSON files from explicit imports
+    Object.entries(curatedData).forEach(([key, data]) => {
+      this.allData.set(`./${key}`, data as CuratedContent);
+    });
+  }
+}
+```
+
+**Why This Works:**
+- `require.context()` is webpack-only and doesn't work in React Native production builds
+- Explicit `require()` statements ensure Metro bundler includes all files
+- All 196 JSON files are bundled into the APK
+- Works in both development (Expo) and production (APK)
+
+#### Flagged Translations Pattern
+Location: `kikuyu-flashcards-mobile/src/screens/FlaggedTranslationsScreen.tsx`
+
+```typescript
+// Auto-refresh when screen comes into focus
+useFocusEffect(
+  useCallback(() => {
+    loadFlaggedItems();
+  }, [])
+);
+
+const loadFlaggedItems = async () => {
+  const storedFlagged = await AsyncStorage.getItem('flaggedItems');
+  const storedReasons = await AsyncStorage.getItem('flagReasons');
+
+  if (storedFlagged) {
+    const flaggedIds = JSON.parse(storedFlagged);
+    const categoryData = await dataLoader.loadCategory('general');
+    const allCards = dataLoader.getCardsByDifficulty(categoryData, ['beginner', 'intermediate', 'advanced']);
+
+    // Filter to only flagged items
+    const flaggedMap = new Map<string, Flashcard>();
+    allCards.forEach(card => {
+      if (flaggedIds.includes(card.id) && !flaggedMap.has(card.id)) {
+        flaggedMap.set(card.id, card);
+      }
+    });
+
+    setFlaggedItems(Array.from(flaggedMap.values()));
+  }
+};
+```
+
+#### Toggle Flag Pattern
+Location: `kikuyu-flashcards-mobile/src/screens/StudyListScreen.tsx`
+
+```typescript
+const toggleFlag = async (id: string) => {
+  setFlaggedItems(prev => {
+    const newSet = new Set(prev);
+    if (newSet.has(id)) {
+      newSet.delete(id);
+    } else {
+      newSet.add(id);
+    }
+
+    // Persist to storage
+    AsyncStorage.setItem('flaggedItems', JSON.stringify([...newSet]));
+
+    return newSet;
+  });
+};
+```
+
+#### EAS Build Configuration
+Location: `kikuyu-flashcards-mobile/eas.json`
+
+```json
+{
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  }
+}
+```
+
+#### App Configuration
+Location: `kikuyu-flashcards-mobile/app.json`
+
+```json
+{
+  "expo": {
+    "name": "Kikuyu Flashcards",
+    "slug": "kikuyu-flashcards-mobile",
+    "android": {
+      "package": "com.kikuyulanguagehub.flashcards",
+      "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "216b2110-0a85-4247-a122-c910b7add7ab"
+      }
+    }
+  }
+}
+```
+
+### Data Sync Process
+
+The mobile app receives curated content from the backend via `sync-curated-content.py`:
+
+```bash
+python sync-curated-content.py
+```
+
+**Synced Content:**
+- 38 Conjugation files
+- 14 Cultural files
+- 27 Grammar files (including corrected batch 043 with 23 cards)
+- 40 Phrase files (including split batches 015, 017, 020-026)
+- 18 Proverb files
+- 59 Vocabulary files (including corrected batch 050 with 59 cards)
+
+**Total: 196 files** synced to `kikuyu-flashcards-mobile/src/assets/data/curated/`
+
+### Build & Deployment
+
+#### Development Testing
+```bash
+cd kikuyu-flashcards-mobile
+npm start                    # Start Expo dev server
+npm run android             # Test on Android emulator
+```
+
+#### Production APK Build
+```bash
+npx eas login               # Login to Expo account
+npx eas build:configure     # First time setup
+npm run build:preview       # Build preview APK
+npm run build:production    # Build production APK
+```
+
+**Build Process:**
+1. Code uploaded to Expo servers
+2. Cloud build runs (5-15 minutes)
+3. Download link provided for APK
+4. APK installable directly on Android devices
+
+### Known Issues & Solutions
+
+#### Issue: Flagged items not appearing
+**Solution:** Added `useFocusEffect` to auto-reload flagged items when screen gains focus
+
+#### Issue: Data not included in APK build
+**Solution:** Replaced `require.context()` with explicit `require()` statements for all 196 JSON files
+
+#### Issue: Theme hydration flash
+**Solution:** Inline script in layout sets theme before React hydrates (web app only)
+
+## 3c. Flashcards App (Web) - Production Features & Implementation
+
+### Overview
+The Web Flashcards App is a fully static Next.js application deployed on Netlify, featuring 100+ curated flashcards from authentic native speaker content (Emmanuel Kariuki's Easy Kikuyu lessons).
 
 ### Key Features
 

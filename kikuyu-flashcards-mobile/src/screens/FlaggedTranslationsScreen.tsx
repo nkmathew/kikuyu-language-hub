@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import {
   View,
   Text,
@@ -13,6 +13,8 @@ import {
   TextInput,
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useNavigation } from '@react-navigation/native';
+import { useFocusEffect } from '@react-navigation/native';
 import { Flashcard } from '../types/flashcard';
 import { dataLoader } from '../lib/dataLoader';
 import LoadingSpinner from '../components/LoadingSpinner';
@@ -31,9 +33,12 @@ export default function FlaggedTranslationsScreen() {
   const colorScheme = useColorScheme();
   const isDark = colorScheme === 'dark' || true;
 
-  useEffect(() => {
-    loadFlaggedItems();
-  }, []);
+  // Reload flagged items every time the screen comes into focus
+  useFocusEffect(
+    useCallback(() => {
+      loadFlaggedItems();
+    }, [])
+  );
 
   const loadFlaggedItems = async () => {
     try {
