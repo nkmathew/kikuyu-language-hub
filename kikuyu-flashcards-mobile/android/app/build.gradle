@@ -42,6 +42,8 @@ android {
 
     kotlinOptions {
         jvmTarget = '1.8'
+        // Skip Kotlin metadata version checks to allow React Native 0.81.4 to work with older Kotlin
+        freeCompilerArgs += ['-Xskip-metadata-version-check']
     }
 
     compileOptions {
