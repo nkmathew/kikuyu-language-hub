@@ -10,7 +10,7 @@ import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.nkmathew.kikuyuflashcards.models.Categories
 import com.nkmathew.kikuyuflashcards.models.DifficultyLevels
-import com.nkmathew.kikuyuflashcards.ui.views.EnhancedFlashCardView
+import com.nkmathew.kikuyuflashcards.ui.views.StudyCardView
 
 /**
  * Activity that displays enhanced flashcards with filtering capabilities
@@ -18,7 +18,7 @@ import com.nkmathew.kikuyuflashcards.ui.views.EnhancedFlashCardView
 class EnhancedFlashCardActivity : AppCompatActivity() {
 
     // Views
-    private lateinit var enhancedFlashCardView: EnhancedFlashCardView
+    private lateinit var studyCardView: StudyCardView
     private lateinit var categoryChipGroup: ChipGroup
     private lateinit var difficultyChipGroup: ChipGroup
     private lateinit var positionTextView: TextView
@@ -40,7 +40,7 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
         }
 
         // Initialize views
-        enhancedFlashCardView = findViewById(R.id.enhancedFlashCardView)
+        studyCardView = findViewById(R.id.studyCardView)
         categoryChipGroup = findViewById(R.id.categoryChipGroup)
         difficultyChipGroup = findViewById(R.id.difficultyChipGroup)
         positionTextView = findViewById(R.id.positionTextView)
@@ -163,13 +163,13 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
      */
     private fun setupFlashcardListeners() {
         // Set up next button
-        enhancedFlashCardView.onNextListener = {
+        studyCardView.onMarkKnownListener = {
             flashCardManager.getNextEntry()
             updateCurrentCard()
         }
 
         // Set up previous button
-        enhancedFlashCardView.onPreviousListener = {
+        studyCardView.onMarkUnknownListener = {
             flashCardManager.getPreviousEntry()
             updateCurrentCard()
         }
@@ -207,8 +207,7 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
 
         // Update flash card view
         currentEntry?.let {
-            enhancedFlashCardView.setEntry(it)
-            enhancedFlashCardView.resetToFront()
+            studyCardView.setEntry(it)
         }
     }
 }

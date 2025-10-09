@@ -289,7 +289,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         
         // Learning mode cards
         val learningModes = listOf(
-            LearningMode("🚀 Flash Cards", "Interactive card-based learning", "flashcards"),
+                LearningMode("🚀 Flash Cards", "Interactive learning", "flashcards"),
             LearningMode("✨ Enhanced Cards", "Rich content with metadata", "enhanced_flashcards"),
             LearningMode("📋 Study List", "Side-by-side learning mode", "study_list"),
             LearningMode("🎯 Flash Card Style", "Flip-style cards like React Native", "flashcard_style"),

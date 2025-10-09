@@ -283,11 +283,13 @@ class StudyCardView @JvmOverloads constructor(
     private fun updateKnownState() {
         if (isKnown) {
             knownStatusBadge.isVisible = true
-            knownButton.text = "❌ Unknown"
+            knownButton.text = "☑"
+            knownButton.setTextColor(ContextCompat.getColor(context, R.color.success_color))
             unknownButton.isVisible = false
         } else {
             knownStatusBadge.isVisible = false
-            knownButton.text = "✅ Known"
+            knownButton.text = "☐"
+            knownButton.setTextColor(ContextCompat.getColor(context, R.color.md_theme_light_onSurfaceVariant))
             unknownButton.isVisible = false
         }
     }

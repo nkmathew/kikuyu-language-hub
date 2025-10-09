@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/md_theme_light_background">
+    android:background="@color/dark_background">
 
     <!-- Action Buttons -->
     <LinearLayout
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="16dp"
-        android:background="@color/md_theme_light_surface">
+        android:background="@color/dark_surface">
 
         <Button
             android:id="@+id/exportButton"
@@ -58,7 +58,7 @@
         android:gravity="center"
         android:text="No flagged translations found.\nFlag translations in the study list to see them here."
         android:textSize="16sp"
-        android:textColor="@color/md_theme_light_onSurfaceVariant"
+        android:textColor="@color/dark_on_surface_variant"
         android:padding="32dp"
         android:visibility="gone" />
 

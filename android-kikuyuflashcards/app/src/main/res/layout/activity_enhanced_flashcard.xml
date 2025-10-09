@@ -102,8 +102,8 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/filterCard">
 
-        <com.nkmathew.kikuyuflashcards.ui.views.EnhancedFlashCardView
-            android:id="@+id/enhancedFlashCardView"
+        <com.nkmathew.kikuyuflashcards.ui.views.StudyCardView
+            android:id="@+id/studyCardView"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
