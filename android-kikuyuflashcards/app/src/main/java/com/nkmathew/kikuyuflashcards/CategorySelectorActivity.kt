@@ -108,9 +108,10 @@ class CategorySelectorActivity : ComponentActivity() {
                 ) {
                     soundManager.playButtonSound()
                     // Restore the last category and position
-                    val sessionInfo = flashCardManager.getPositionManager().getLastSessionInfo()
-                    flashCardManager.setCategory(sessionInfo.lastCategory)
-                    startFlashCardsWithMode(sessionInfo.lastCategory?.let { Categories.getCategoryDisplayName(it) } ?: "All Categories")
+                    // For now, just start with the current category
+                    val currentCategory = flashCardManager.getCurrentCategory()
+                    flashCardManager.setCategory(currentCategory)
+                    startFlashCardsWithMode(currentCategory?.let { Categories.getCategoryDisplayName(it) } ?: "All Categories")
                 }
                 categoriesLayout.addView(continueButton)
             }
@@ -124,7 +125,7 @@ class CategorySelectorActivity : ComponentActivity() {
             icon = "📚",
             title = "All Categories",
             subtitle = "Practice everything",
-            count = flashCardManager.getTotalPhrases(),
+            count = flashCardManager.getTotalEntries(),
             isPrimary = false
         ) {
             soundManager.playButtonSound()

@@ -181,7 +181,7 @@ class StatisticsActivity : ComponentActivity() {
         return createStatsCard("🎯 Learning Overview", listOf(
             "Total Activities" to "$totalActivities",
             "Learning Efficiency" to "$learningEfficiency%",
-            "Available Phrases" to "${flashCardManager.getTotalPhrases()}",
+            "Available Phrases" to "${flashCardManager.getTotalEntries()}",
             "Categories" to "${flashCardManager.getAvailableCategories().size}"
         ))
     }
@@ -195,7 +195,7 @@ class StatisticsActivity : ComponentActivity() {
             "Cards Viewed" to "${stats.totalCardsViewed}",
             "Total Swipes" to "${stats.totalSwipes}",
             "Avg Swipes/Card" to averageSwipesPerCard,
-            "Completion" to "${(stats.totalCardsViewed * 100 / flashCardManager.getTotalPhrases().coerceAtLeast(1))}%"
+            "Completion" to "${(stats.totalCardsViewed * 100 / flashCardManager.getTotalEntries().coerceAtLeast(1))}%"
         ))
     }
     

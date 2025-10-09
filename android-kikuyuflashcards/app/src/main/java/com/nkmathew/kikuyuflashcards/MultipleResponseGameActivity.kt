@@ -752,7 +752,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
                     val failureType = determineFailureType(selectedAnswer, phrase.kikuyu)
                     
                     failureTracker.recordFailure(
-                        phrase = phrase,
+                        entry = currentPhrase!!,
                         failureType = failureType,
                         learningMode = learningMode,
                         userAnswer = selectedAnswer,
@@ -807,7 +807,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
                 if (correctOptions.contains(phrase.kikuyu) && !selectedAnswers.contains(phrase.kikuyu)) {
                     // Failed to select a correct option
                     failureTracker.recordFailure(
-                        phrase = phrase,
+                        entry = currentPhrase!!,
                         failureType = FailureTracker.FailureType.MULTIPLE_CHOICE_ERROR,
                         learningMode = learningMode,
                         userAnswer = "[NOT SELECTED]",
@@ -818,7 +818,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
                 } else if (!correctOptions.contains(phrase.kikuyu) && selectedAnswers.contains(phrase.kikuyu)) {
                     // Selected an incorrect option
                     failureTracker.recordFailure(
-                        phrase = phrase,
+                        entry = currentPhrase!!,
                         failureType = FailureTracker.FailureType.MULTIPLE_CHOICE_ERROR,
                         learningMode = learningMode,
                         userAnswer = phrase.kikuyu,

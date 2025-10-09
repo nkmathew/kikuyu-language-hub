@@ -233,7 +233,7 @@ class QuizActivity : ComponentActivity() {
             return
         }
         
-        val questionPhrase = flashCardManager.getRandomPhrase()
+        val questionPhrase = flashCardManager.getRandomEntry()
         if (questionPhrase == null) {
             questionText.text = "No questions available"
             return

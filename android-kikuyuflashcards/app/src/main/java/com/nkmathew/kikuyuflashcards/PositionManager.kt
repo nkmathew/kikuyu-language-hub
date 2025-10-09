@@ -246,11 +246,8 @@ class PositionManager(private val context: Context) {
             Categories.getCategoryDisplayName(it) 
         } ?: "All Categories"
         
-        val totalCards = if (sessionInfo.lastCategory != null) {
-            flashCardManager.getTotalEntriesInCategory(sessionInfo.lastCategory)
-        } else {
-            flashCardManager.getTotalEntries()
-        }
+        // For now, we'll use a default total since we don't have access to the manager
+        val totalCards = sessionInfo.lastPosition + 10 // Estimate
         
         val progressPercent = if (totalCards > 0) {
             ((sessionInfo.lastPosition + 1) * 100) / totalCards

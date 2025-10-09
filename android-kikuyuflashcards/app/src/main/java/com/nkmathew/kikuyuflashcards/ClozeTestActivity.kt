@@ -516,7 +516,7 @@ class ClozeTestActivity : AppCompatActivity() {
         
         for (i in 0 until phraseCount) {
             val entry = flashCardManager.getRandomEntry()
-            phrase?.let { 
+            entry?.let { 
                 storyPhrases.add(it)
                 // Add some blanks for comprehension
                 if (Random.nextBoolean() || i == phraseCount - 1) {
@@ -701,10 +701,10 @@ class ClozeTestActivity : AppCompatActivity() {
                     else -> FailureTracker.FailureType.CLOZE_ERROR
                 }
                 
-                currentPhrases.forEach { phrase ->
-                    if (phrase.kikuyu.equals(blank.correctAnswer, ignoreCase = true)) {
+                currentPhrases.forEach { entry ->
+                    if (entry.kikuyu.equals(blank.correctAnswer, ignoreCase = true)) {
                         failureTracker.recordFailure(
-                            phrase = phrase,
+                            entry = entry,
                             failureType = failureType,
                             learningMode = FailureTracker.LearningMode.CLOZE_TEST,
                             userAnswer = blank.userInput,

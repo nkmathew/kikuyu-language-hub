@@ -113,7 +113,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         
         // Enhanced progress indicator with better styling
         progressText = TextView(this).apply {
-            text = "📊 1 / ${flashCardManager.getTotalPhrases()}"
+            text = "📊 1 / ${flashCardManager.getTotalEntries()}"
             textSize = 16f
             setTextColor(ContextCompat.getColor(this@FlashCardActivity, R.color.md_theme_light_primary))
             setPadding(16, 8, 16, 20)
@@ -500,20 +500,20 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
     
     private fun onPreviousClicked() {
         animateCardTransition("right")
-        flashCardManager.getPreviousPhrase()
+        flashCardManager.getPreviousEntry()
         updateUIWithAnimation()
     }
     
     private fun onNextClicked() {
         animateCardTransition("left") 
-        flashCardManager.getNextPhrase()
+        flashCardManager.getNextEntry()
         updateUIWithAnimation()
     }
     
     private fun updateUI() {
         try {
-            val currentPhrase = flashCardManager.getCurrentPhrase()
-            val totalPhrases = flashCardManager.getTotalPhrases()
+            val currentPhrase = flashCardManager.getCurrentEntry()
+            val totalPhrases = flashCardManager.getTotalEntries()
             val currentIndex = flashCardManager.getCurrentIndex()
             
             if (currentPhrase != null && totalPhrases > 0) {
@@ -565,7 +565,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         animateSwipeFeedback("left", englishText)
         animateCardTransition("left")
         
-        flashCardManager.getNextPhrase()
+        flashCardManager.getNextEntry()
         updateUIWithAnimation()
         Toast.makeText(this, "Next phrase →", Toast.LENGTH_SHORT).show()
     }
@@ -578,7 +578,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         animateSwipeFeedback("right", englishText)
         animateCardTransition("right")
         
-        flashCardManager.getPreviousPhrase()
+        flashCardManager.getPreviousEntry()
         updateUIWithAnimation()
         Toast.makeText(this, "Previous phrase ←", Toast.LENGTH_SHORT).show()
     }
@@ -591,7 +591,7 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         
         animateSwipeFeedback("up", englishText)
         
-        flashCardManager.getRandomPhrase()
+        flashCardManager.getRandomEntry()
         updateUIWithAnimation()
         Toast.makeText(this, "Random phrase ↑", Toast.LENGTH_SHORT).show()
     }

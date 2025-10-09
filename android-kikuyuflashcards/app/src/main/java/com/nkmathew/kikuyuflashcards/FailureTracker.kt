@@ -143,7 +143,7 @@ class FailureTracker(private val context: Context) {
         failureRecords.add(failureRecord)
         
         // Update difficulty word tracking
-        updateDifficultyWord(phrase, failureType, responseTime)
+        updateDifficultyWord(entry, failureType, responseTime)
         
         // Update session stats
         updateSessionStats(failureRecord)
@@ -155,7 +155,7 @@ class FailureTracker(private val context: Context) {
         
         saveData()
         
-        Log.d(TAG, "Recorded failure: ${phrase.english} - $failureType in $learningMode")
+        Log.d(TAG, "Recorded failure: ${entry.english} - $failureType in $learningMode")
     }
     
     /**
@@ -182,7 +182,7 @@ class FailureTracker(private val context: Context) {
             saveData()
         }
         
-        Log.d(TAG, "Recorded success: ${phrase.english}")
+        Log.d(TAG, "Recorded success: ${entry.english}")
     }
     
     /**
@@ -322,9 +322,9 @@ class FailureTracker(private val context: Context) {
         } else {
             DifficultyWord(
                 phraseId = phraseId,
-                englishText = phrase.english,
-                kikuyuText = phrase.kikuyu,
-                category = phrase.category,
+                englishText = entry.english,
+                kikuyuText = entry.kikuyu,
+                category = entry.category,
                 failureCount = 1,
                 lastFailure = System.currentTimeMillis(),
                 failureTypes = setOf(failureType),

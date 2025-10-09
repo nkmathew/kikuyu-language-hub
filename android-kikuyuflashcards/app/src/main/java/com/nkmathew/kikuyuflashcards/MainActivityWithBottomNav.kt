@@ -588,7 +588,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
     }
     
     // Helper methods for embedded content
-    private fun createStatsOverviewSection(stats: ProgressManager.ProgressStats, flashCardManager: FlashCardManager, isDarkTheme: Boolean): LinearLayout {
+    private fun createStatsOverviewSection(stats: ProgressManager.ProgressStats, flashCardManager: FlashCardManagerV2, isDarkTheme: Boolean): LinearLayout {
         val totalActivities = stats.totalCardsViewed + stats.quizTotalAnswered
         val learningEfficiency = if (totalActivities > 0) {
             ((stats.quizCorrectAnswers.toFloat() / totalActivities) * 100).toInt()
@@ -597,12 +597,12 @@ class MainActivityWithBottomNav : ComponentActivity() {
         return createStatsCard("🎯 Learning Overview", listOf(
             "Total Activities" to "$totalActivities",
             "Learning Efficiency" to "$learningEfficiency%",
-            "Available Phrases" to "${flashCardManager.getTotalPhrases()}",
+            "Available Phrases" to "${flashCardManager.getTotalEntries()}",
             "Categories" to "${flashCardManager.getAvailableCategories().size}"
         ), isDarkTheme)
     }
     
-    private fun createStatsFlashCardSection(stats: ProgressManager.ProgressStats, flashCardManager: FlashCardManager, isDarkTheme: Boolean): LinearLayout {
+    private fun createStatsFlashCardSection(stats: ProgressManager.ProgressStats, flashCardManager: FlashCardManagerV2, isDarkTheme: Boolean): LinearLayout {
         val averageSwipesPerCard = if (stats.totalCardsViewed > 0) {
             "%.1f".format(stats.totalSwipes.toFloat() / stats.totalCardsViewed)
         } else "0.0"
@@ -611,7 +611,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             "Cards Viewed" to "${stats.totalCardsViewed}",
             "Total Swipes" to "${stats.totalSwipes}",
             "Avg Swipes/Card" to averageSwipesPerCard,
-            "Completion" to "${(stats.totalCardsViewed * 100 / flashCardManager.getTotalPhrases().coerceAtLeast(1))}%"
+            "Completion" to "${(stats.totalCardsViewed * 100 / flashCardManager.getTotalEntries().coerceAtLeast(1))}%"
         ), isDarkTheme)
     }
     

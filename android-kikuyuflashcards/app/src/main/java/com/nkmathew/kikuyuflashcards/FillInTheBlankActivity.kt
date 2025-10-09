@@ -526,7 +526,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
             }
             
             failureTracker.recordFailure(
-                phrase = phrase,
+                entry = currentPhrase!!,
                 failureType = failureType,
                 learningMode = FailureTracker.LearningMode.FILL_BLANK,
                 userAnswer = userAnswer,
