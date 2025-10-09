@@ -43,7 +43,7 @@ data class FlashcardEntry(
     val context: String? = null,
     @SerializedName("cultural_notes")
     val culturalNotes: String? = null,
-    val examples: List<ExampleSentence> = emptyList(),
+    val examples: List<ExampleSentence>? = null,
     @SerializedName("grammatical_info")
     val grammaticalInfo: GrammaticalInfo? = null,
     val tags: List<String> = emptyList(),

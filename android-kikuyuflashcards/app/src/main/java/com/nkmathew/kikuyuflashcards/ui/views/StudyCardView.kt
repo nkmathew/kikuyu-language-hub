@@ -214,12 +214,12 @@ class StudyCardView @JvmOverloads constructor(
         }
 
         // Examples
-        if (entry.examples.isNotEmpty()) {
+        if (!entry.examples.isNullOrEmpty()) {
             // Clear existing examples
             examplesContainer.removeAllViews()
 
             // Add all examples
-            entry.examples.forEach { example ->
+            entry.examples!!.forEach { example ->
                 addExampleView(example)
             }
 
@@ -324,8 +324,8 @@ class StudyCardView @JvmOverloads constructor(
             entry.culturalNotes?.let { copyText += "\nCultural Note: $it" }
             
             // Add examples if available
-            if (entry.examples.isNotEmpty()) {
-                val firstExample = entry.examples[0]
+            if (!entry.examples.isNullOrEmpty()) {
+                val firstExample = entry.examples!![0]
                 copyText += "\nExample Source: ${firstExample.english}\nExample Translation: ${firstExample.kikuyu}"
             }
             

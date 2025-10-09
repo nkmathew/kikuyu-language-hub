@@ -189,7 +189,7 @@ class EnhancedFlashCardView @JvmOverloads constructor(
         }
 
         // Examples
-        if (entry.examples.isNotEmpty()) {
+        if (!entry.examples.isNullOrEmpty()) {
             // Clear existing examples
             examplesContainer.removeAllViews()
 
@@ -201,7 +201,7 @@ class EnhancedFlashCardView @JvmOverloads constructor(
             examplesContainer.addView(titleView)
 
             // Add all examples
-            entry.examples.forEach { example ->
+            entry.examples!!.forEach { example ->
                 addExampleView(example)
             }
 
