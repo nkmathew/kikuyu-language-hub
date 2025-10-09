@@ -287,6 +287,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         // Learning mode cards
         val learningModes = listOf(
             LearningMode("🚀 Flash Cards", "Interactive card-based learning", "flashcards"),
+            LearningMode("✨ Enhanced Cards", "Rich content with metadata", "enhanced_flashcards"),
             LearningMode("🧠 Quiz Mode", "Test your knowledge", "quiz"),
             LearningMode("✏️ Fill Blanks", "Complete the sentences", "fill_blank"),
             LearningMode("📖 Cloze Test", "Reading comprehension", "cloze"),
@@ -420,6 +421,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 soundManager.playButtonSound()
                 when (mode.id) {
                     "flashcards" -> startFlashCards()
+                    "enhanced_flashcards" -> startEnhancedFlashCards()
                     "quiz" -> startQuiz()
                     "fill_blank" -> startFillBlank()
                     "cloze" -> startCloze()
@@ -846,7 +848,38 @@ class MainActivityWithBottomNav : ComponentActivity() {
             else -> "Max Achieved!"
         }
     }
-    
+
+    // Activity Launchers
+    private fun startFlashCards() {
+        val intent = Intent(this, FlashCardActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startEnhancedFlashCards() {
+        val intent = Intent(this, EnhancedFlashCardActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startQuiz() {
+        val intent = Intent(this, QuizActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startFillBlank() {
+        val intent = Intent(this, FillInTheBlankActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startCloze() {
+        val intent = Intent(this, ClozeTestActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startGames() {
+        val intent = Intent(this, MultipleResponseGameActivity::class.java)
+        startActivity(intent)
+    }
+
     // Data classes
     data class NavItem(val icon: String, val label: String, val id: String)
     data class LearningMode(val title: String, val description: String, val id: String)

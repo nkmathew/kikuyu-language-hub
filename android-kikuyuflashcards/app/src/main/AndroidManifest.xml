@@ -68,9 +68,14 @@
             android:parentActivityName=".ProblemWordsActivity" />
 
         <!-- Settings Activity -->
-        <activity android:name=".SettingsActivity" 
+        <activity android:name=".SettingsActivity"
             android:label="Settings"
             android:parentActivityName=".MainActivity" />
+
+        <!-- Enhanced Flash Card Activity -->
+        <activity android:name=".EnhancedFlashCardActivity"
+            android:label="Enhanced Flashcards"
+            android:parentActivityName=".MainActivityWithBottomNav" />
 
     </application>
 </manifest>
