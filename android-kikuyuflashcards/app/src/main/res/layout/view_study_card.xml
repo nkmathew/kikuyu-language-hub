@@ -5,17 +5,17 @@
     android:id="@+id/cardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="12dp"
-    app:cardCornerRadius="16dp"
-    app:cardElevation="4dp"
-    app:cardBackgroundColor="?attr/colorSurface"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:cardBackgroundColor="?attr/colorPrimaryContainer"
     android:foreground="?attr/selectableItemBackground">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="8dp">
 
         <!-- Card Status and Badges -->
         <LinearLayout
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
-            android:layout_marginBottom="12dp">
+            android:layout_marginBottom="8dp">
 
             <!-- Known Status Badge -->
             <TextView
@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginBottom="12dp">
+            android:layout_marginBottom="8dp">
 
             <!-- Kikuyu Section (First) -->
             <androidx.cardview.widget.CardView
@@ -102,7 +102,7 @@
                     android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="?attr/colorOnPrimaryContainer"
-                    android:padding="16dp"
+                    android:padding="12dp"
                     android:gravity="start"
                     tools:text="Úhoro wa rúciní" />
 
@@ -123,7 +123,7 @@
                     android:textSize="18sp"
                     android:textStyle="bold"
                     android:textColor="?attr/colorOnSecondaryContainer"
-                    android:padding="16dp"
+                    android:padding="12dp"
                     android:gravity="start"
                     tools:text="Good morning" />
 
@@ -136,7 +136,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:visibility="gone">
+            android:visibility="visible">
 
             <!-- Context -->
             <LinearLayout
@@ -145,7 +145,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginVertical="4dp"
-                android:visibility="gone">
+                android:visibility="visible">
 
                 <ImageView
                     android:layout_width="16dp"
@@ -169,7 +169,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginVertical="4dp"
-                android:visibility="gone">
+                android:visibility="visible">
 
                 <ImageView
                     android:layout_width="16dp"
@@ -193,7 +193,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
                 android:layout_marginVertical="4dp"
-                android:visibility="gone">
+                android:visibility="visible">
 
                 <TextView
                     android:layout_width="match_parent"
