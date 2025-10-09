@@ -22,7 +22,7 @@ import androidx.core.view.updatePadding
 import com.nkmathew.kikuyuflashcards.FlashCardManager
 import com.nkmathew.kikuyuflashcards.ProgressManager
 import com.nkmathew.kikuyuflashcards.SoundManager
-import com.nkmathew.kikuyuflashcards.Phrase
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.FailureTracker
 import kotlin.random.Random
 
@@ -55,7 +55,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
     private lateinit var backButton: Button
     
     // Game state
-    private var currentPhrase: Phrase? = null
+    private var currentPhrase: FlashcardEntry? = null
     private var blankWord = ""
     private var fullPhrase = ""
     private var displayPhrase = ""
@@ -135,7 +135,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         
         // Progress indicator
         progressText = TextView(this).apply {
-            text = "Question 1 of ${flashCardManager.getTotalPhrases()}"
+            text = "Question 1 of ${flashCardManager.getTotalEntries()}"
             textSize = 14f
             setTextColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.text_secondary))
             setPadding(0, 0, 0, 32)
@@ -299,7 +299,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
     
     private fun startNewQuestion() {
         // Get a random phrase
-        currentPhrase = flashCardManager.getRandomPhrase()
+        currentPhrase = flashCardManager.getRandomEntry()
         if (currentPhrase == null) {
             Toast.makeText(this, "No phrases available", Toast.LENGTH_SHORT).show()
             finish()
@@ -322,7 +322,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         
         // Update progress
         val currentIndex = flashCardManager.getCurrentIndex()
-        val totalPhrases = flashCardManager.getTotalPhrases()
+        val totalPhrases = flashCardManager.getTotalEntries()
         progressText.text = "Question ${currentIndex + 1} of $totalPhrases"
         
         // Update hint button
@@ -439,7 +439,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         options.add(blankWord) // Correct answer
         
         // Get other words from the phrase set for distractors
-        val allPhrases = flashCardManager.getAllPhrases()
+        val allPhrases = flashCardManager.getAllEntries()
         val allWords = allPhrases
             .flatMap { it.kikuyu.split(" ") }
             .filter { it.isNotEmpty() && it != blankWord }

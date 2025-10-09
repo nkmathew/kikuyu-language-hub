@@ -8,6 +8,7 @@ import android.util.AttributeSet
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.FrameLayout
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
@@ -47,8 +48,8 @@ class StudyCardView @JvmOverloads constructor(
     private val sourceInfoContainer: TextView
     private val knownButton: TextView
     private val unknownButton: TextView
-    private val copyButton: TextView
-    private val flagButton: TextView
+    private val copyButton: ImageView
+    private val flagButton: ImageView
 
     // State
     private var currentEntry: FlashcardEntry? = null
@@ -299,12 +300,10 @@ class StudyCardView @JvmOverloads constructor(
      */
     private fun updateFlagState() {
         if (isFlagged) {
-            flagButton.text = "🚩"
-            flagButton.setTextColor(Color.WHITE)
+            flagButton.setColorFilter(ContextCompat.getColor(context, R.color.warning_color))
             flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.warning_color))
         } else {
-            flagButton.text = "🚩"
-            flagButton.setTextColor(Color.parseColor("#888888"))
+            flagButton.setColorFilter(Color.parseColor("#888888"))
             flagButton.setBackgroundColor(Color.TRANSPARENT)
         }
     }

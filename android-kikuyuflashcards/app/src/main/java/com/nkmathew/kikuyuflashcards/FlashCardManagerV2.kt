@@ -7,7 +7,7 @@ import kotlin.random.Random
 
 /**
  * Enhanced FlashCardManager that uses the new CuratedContentManager
- * to load and manage content from both legacy and curated sources
+ * to load and manage content from curated sources
  */
 class FlashCardManagerV2(private val context: Context) {
     companion object {
@@ -21,8 +21,6 @@ class FlashCardManagerV2(private val context: Context) {
     // Data state
     private val allEntries = mutableListOf<FlashcardEntry>()
     private val filteredEntries = mutableListOf<FlashcardEntry>()
-    private val allPhrases = mutableListOf<Phrase>() // For backward compatibility
-    private val filteredPhrases = mutableListOf<Phrase>() // For backward compatibility
     private val random = Random.Default
 
     // Filtering state
@@ -38,12 +36,8 @@ class FlashCardManagerV2(private val context: Context) {
             // Load all entries from the CuratedContentManager
             allEntries.addAll(curatedContentManager.allEntries)
 
-            // Convert to phrases for backward compatibility
-            allPhrases.addAll(curatedContentManager.toPhraseList(allEntries))
-
             // Initialize filtered collections with all content
             filteredEntries.addAll(allEntries)
-            filteredPhrases.addAll(allPhrases)
 
             Log.d(TAG, "FlashCardManagerV2: Loaded ${allEntries.size} entries")
         } catch (e: Exception) {
@@ -60,12 +54,6 @@ class FlashCardManagerV2(private val context: Context) {
         return if (filteredEntries.isEmpty()) null else filteredEntries[currentIndex]
     }
 
-    /**
-     * Get the current phrase (for backward compatibility)
-     */
-    fun getCurrentPhrase(): Phrase? {
-        return if (filteredPhrases.isEmpty()) null else filteredPhrases[currentIndex]
-    }
 
     /**
      * Move to and return the next entry
@@ -77,15 +65,6 @@ class FlashCardManagerV2(private val context: Context) {
         return getCurrentEntry()
     }
 
-    /**
-     * Move to and return the next phrase (for backward compatibility)
-     */
-    fun getNextPhrase(): Phrase? {
-        if (filteredPhrases.isEmpty()) return null
-        currentIndex = (currentIndex + 1) % filteredPhrases.size
-        saveCurrentPosition()
-        return getCurrentPhrase()
-    }
 
     /**
      * Move to and return the previous entry
@@ -97,15 +76,6 @@ class FlashCardManagerV2(private val context: Context) {
         return getCurrentEntry()
     }
 
-    /**
-     * Move to and return the previous phrase (for backward compatibility)
-     */
-    fun getPreviousPhrase(): Phrase? {
-        if (filteredPhrases.isEmpty()) return null
-        currentIndex = (currentIndex - 1 + filteredPhrases.size) % filteredPhrases.size
-        saveCurrentPosition()
-        return getCurrentPhrase()
-    }
 
     /**
      * Move to and return a random entry
@@ -116,14 +86,6 @@ class FlashCardManagerV2(private val context: Context) {
         return getCurrentEntry()
     }
 
-    /**
-     * Move to and return a random phrase (for backward compatibility)
-     */
-    fun getRandomPhrase(): Phrase? {
-        if (filteredPhrases.isEmpty()) return null
-        currentIndex = random.nextInt(filteredPhrases.size)
-        return getCurrentPhrase()
-    }
 
     // Position management
 
@@ -155,11 +117,6 @@ class FlashCardManagerV2(private val context: Context) {
      */
     fun getTotalEntries(): Int = filteredEntries.size
 
-    /**
-     * Get the total number of phrases after filtering (for backward compatibility)
-     */
-    fun getTotalPhrases(): Int = filteredPhrases.size
-
     // Category management
 
     /**
@@ -169,12 +126,6 @@ class FlashCardManagerV2(private val context: Context) {
         return allEntries.count { it.category == category }
     }
 
-    /**
-     * Get the count of phrases in a specific category (for backward compatibility)
-     */
-    fun getTotalPhrasesInCategory(category: String): Int {
-        return allPhrases.count { it.category == category }
-    }
 
     /**
      * Get all available categories from the loaded content
@@ -254,7 +205,6 @@ class FlashCardManagerV2(private val context: Context) {
     private fun applyFilters() {
         // Clear filtered collections
         filteredEntries.clear()
-        filteredPhrases.clear()
 
         // Create a copy of all entries to work with
         val baseEntries = allEntries.toList()
@@ -273,7 +223,6 @@ class FlashCardManagerV2(private val context: Context) {
 
         // Update filtered collections
         filteredEntries.addAll(filtered)
-        filteredPhrases.addAll(curatedContentManager.toPhraseList(filtered))
 
         // Reset index if needed
         if (currentIndex >= filteredEntries.size) {
@@ -394,12 +343,6 @@ class FlashCardManagerV2(private val context: Context) {
         }
     }
 
-    /**
-     * Get all phrases for generating options (for backward compatibility)
-     */
-    fun getAllPhrases(): List<Phrase> {
-        return curatedContentManager.toPhraseList(getAllEntries())
-    }
 
     // Helper methods for display
 

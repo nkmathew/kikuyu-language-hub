@@ -4,7 +4,6 @@ import android.content.Context
 import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
-import com.google.gson.JsonSyntaxException
 import com.nkmathew.kikuyuflashcards.models.*
 import java.io.IOException
 
@@ -14,7 +13,6 @@ import java.io.IOException
 class CuratedContentManager(private val context: Context) {
     companion object {
         private const val TAG = "CuratedContentManager"
-        private const val LEGACY_FILE_PATH = "kikuyu-phrases.json"
         private const val CURATED_CONTENT_DIR = "curated-content"
     }
 
@@ -39,55 +37,15 @@ class CuratedContentManager(private val context: Context) {
         get() = _allEntries.map { it.difficulty }.distinct().sorted()
 
     /**
-     * Initialize and load all content from both legacy and curated files
+     * Initialize and load all content from curated files
      */
     init {
         try {
             Log.d(TAG, "Initializing CuratedContentManager")
-            loadAllContent()
-            Log.d(TAG, "Successfully loaded ${_allEntries.size} entries from all sources")
+            loadCuratedContent()
+            Log.d(TAG, "Successfully loaded ${_allEntries.size} entries from curated content")
         } catch (e: Exception) {
             Log.e(TAG, "Error during initialization", e)
-        }
-    }
-
-    /**
-     * Load all content from both legacy and curated files
-     */
-    private fun loadAllContent() {
-        // First try to load legacy content
-        loadLegacyContent()
-
-        // Then load curated content
-        loadCuratedContent()
-
-        Log.d(TAG, "Loaded ${_allEntries.size} total entries")
-    }
-
-    /**
-     * Load legacy content from kikuyu-phrases.json
-     */
-    private fun loadLegacyContent() {
-        try {
-            context.assets.open(LEGACY_FILE_PATH).use { inputStream ->
-                val json = inputStream.bufferedReader().use { it.readText() }
-
-                try {
-                    // Try parsing legacy format
-                    val legacyData = gson.fromJson(json, LegacyPhraseData::class.java)
-                    val legacyEntries = legacyData.phrases.map { PhraseAdapter.toFlashcardEntry(it) }
-
-                    _allEntries.addAll(legacyEntries)
-                    Log.d(TAG, "Loaded ${legacyEntries.size} entries from legacy file $LEGACY_FILE_PATH")
-                } catch (e: JsonSyntaxException) {
-                    Log.e(TAG, "Error parsing legacy JSON file: ${e.message}")
-                }
-            }
-        } catch (e: IOException) {
-            // This is expected if we've migrated to curated format only
-            Log.d(TAG, "Legacy file not found: $LEGACY_FILE_PATH")
-        } catch (e: Exception) {
-            Log.e(TAG, "Unexpected error loading legacy content: ${e.message}")
         }
     }
 
@@ -171,7 +129,7 @@ class CuratedContentManager(private val context: Context) {
                     _allEntries.addAll(curatedContent.entries)
 
                     Log.d(TAG, "Loaded ${curatedContent.entries.size} entries from $filePath")
-                } catch (e: JsonSyntaxException) {
+                } catch (e: com.google.gson.JsonSyntaxException) {
                     Log.e(TAG, "Error parsing curated JSON file $filePath: ${e.message}")
                 }
             }
@@ -217,15 +175,4 @@ class CuratedContentManager(private val context: Context) {
         return _metadata.toMap()
     }
 
-    /**
-     * Convert FlashcardEntry to Phrase for backward compatibility
-     */
-    fun toPhraseList(entries: List<FlashcardEntry>): List<Phrase> {
-        return entries.map { PhraseAdapter.toPhraseModel(it) }
-    }
-
-    /**
-     * Data class for parsing the legacy JSON format
-     */
-    private data class LegacyPhraseData(val phrases: List<Phrase>)
 }

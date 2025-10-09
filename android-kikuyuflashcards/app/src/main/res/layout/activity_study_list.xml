@@ -53,8 +53,9 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginEnd="4dp"
-                    android:text="📋 Copy All"
+                    android:text="Copy All"
                     android:textSize="12sp"
+                    android:drawableStart="@android:drawable/ic_menu_edit"
                     android:backgroundTint="@color/md_theme_light_primary"
                     style="@style/Widget.Material3.Button" />
 
@@ -64,21 +65,29 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginHorizontal="4dp"
-                    android:text="📧 Share"
+                    android:text="Share"
                     android:textSize="12sp"
+                    android:drawableStart="@android:drawable/ic_menu_share"
                     android:backgroundTint="@color/success_color"
                     style="@style/Widget.Material3.Button" />
 
-                <Button
-                    android:id="@+id/sortButton"
+                <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="4dp"
-                    android:text="🔀 Sort"
-                    android:textSize="12sp"
-                    android:backgroundTint="@color/secondary_color"
-                    style="@style/Widget.Material3.Button" />
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sortDropdown"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:focusable="false"
+                        android:text="Default"
+                        android:textSize="12sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
             <!-- Category Filter -->
@@ -90,21 +99,21 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <HorizontalScrollView
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scrollbars="none">
+                android:layout_marginVertical="4dp"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
 
-                <com.google.android.material.chip.ChipGroup
-                    android:id="@+id/categoryChipGroup"
-                    android:layout_width="wrap_content"
+                <AutoCompleteTextView
+                    android:id="@+id/categoryDropdown"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginVertical="4dp"
-                    app:singleSelection="true">
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:text="All Categories" />
 
-                    <!-- Chips will be added programmatically -->
-                </com.google.android.material.chip.ChipGroup>
-            </HorizontalScrollView>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Difficulty Filter -->
             <TextView
@@ -115,21 +124,21 @@
                 android:textSize="14sp"
                 android:textStyle="bold" />
 
-            <HorizontalScrollView
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:scrollbars="none">
+                android:layout_marginVertical="4dp"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
 
-                <com.google.android.material.chip.ChipGroup
-                    android:id="@+id/difficultyChipGroup"
-                    android:layout_width="wrap_content"
+                <AutoCompleteTextView
+                    android:id="@+id/difficultyDropdown"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginVertical="4dp"
-                    app:singleSelection="true">
+                    android:inputType="none"
+                    android:focusable="false"
+                    android:text="All Levels" />
 
-                    <!-- Chips will be added programmatically -->
-                </com.google.android.material.chip.ChipGroup>
-            </HorizontalScrollView>
+            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

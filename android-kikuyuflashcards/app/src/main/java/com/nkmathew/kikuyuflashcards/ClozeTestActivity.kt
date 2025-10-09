@@ -22,7 +22,7 @@ import androidx.core.view.updatePadding
 import com.nkmathew.kikuyuflashcards.FlashCardManager
 import com.nkmathew.kikuyuflashcards.ProgressManager
 import com.nkmathew.kikuyuflashcards.SoundManager
-import com.nkmathew.kikuyuflashcards.Phrase
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.FailureTracker
 import kotlin.random.Random
 
@@ -56,7 +56,7 @@ class ClozeTestActivity : AppCompatActivity() {
     private lateinit var backButton: Button
     
     // Game state
-    private var currentPhrases: List<Phrase> = emptyList()
+    private var currentPhrases: List<FlashcardEntry> = emptyList()
     private var blanks: MutableList<ClozeBlank> = mutableListOf()
     private var wordBank: MutableList<String> = mutableListOf()
     private var score = 0
@@ -384,10 +384,10 @@ class ClozeTestActivity : AppCompatActivity() {
             else -> 3
         }
         
-        currentPhrases = mutableListOf<Phrase>().apply {
+        currentPhrases = mutableListOf<FlashcardEntry>().apply {
             for (i in 0 until phraseCount) {
-                val phrase = flashCardManager.getRandomPhrase()
-                phrase?.let { add(it) }
+                val entry = flashCardManager.getRandomEntry()
+                entry?.let { add(it) }
             }
         }
         
@@ -439,7 +439,7 @@ class ClozeTestActivity : AppCompatActivity() {
         wordBank.addAll(blanks.map { it.correctAnswer })
         
         // Add distractors from other phrases
-        val allPhrases = flashCardManager.getAllPhrases()
+        val allPhrases = flashCardManager.getAllEntries()
         val distractors = allPhrases
             .flatMap { it.kikuyu.split(" ") }
             .filter { it !in wordBank && it.length > 2 }
@@ -463,10 +463,10 @@ class ClozeTestActivity : AppCompatActivity() {
             else -> 4
         }
         
-        currentPhrases = mutableListOf<Phrase>().apply {
+        currentPhrases = mutableListOf<FlashcardEntry>().apply {
             for (i in 0 until phraseCount) {
-                val phrase = flashCardManager.getRandomPhrase()
-                phrase?.let { add(it) }
+                val entry = flashCardManager.getRandomEntry()
+                entry?.let { add(it) }
             }
         }
         
@@ -491,7 +491,7 @@ class ClozeTestActivity : AppCompatActivity() {
         wordBank.addAll(currentPhrases.map { it.kikuyu })
         
         // Add distractors
-        val allPhrases = flashCardManager.getAllPhrases()
+        val allPhrases = flashCardManager.getAllEntries()
         val distractors = allPhrases
             .filter { it !in currentPhrases }
             .map { it.kikuyu }
@@ -506,7 +506,7 @@ class ClozeTestActivity : AppCompatActivity() {
     
     private fun generateComprehensionTest() {
         // Create a short story or dialogue
-        val storyPhrases = mutableListOf<Phrase>()
+        val storyPhrases = mutableListOf<FlashcardEntry>()
         val phraseCount = when (difficulty) {
             "easy" -> 3
             "medium" -> 4
@@ -515,7 +515,7 @@ class ClozeTestActivity : AppCompatActivity() {
         }
         
         for (i in 0 until phraseCount) {
-            val phrase = flashCardManager.getRandomPhrase()
+            val entry = flashCardManager.getRandomEntry()
             phrase?.let { 
                 storyPhrases.add(it)
                 // Add some blanks for comprehension

@@ -15,7 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.nkmathew.kikuyuflashcards.FlashCardManager
 import com.nkmathew.kikuyuflashcards.SoundManager
-import com.nkmathew.kikuyuflashcards.Phrase
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.FailureTracker
 
 /**

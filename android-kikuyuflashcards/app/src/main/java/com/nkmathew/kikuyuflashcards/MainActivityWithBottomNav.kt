@@ -13,6 +13,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
+import com.nkmathew.kikuyuflashcards.models.Categories
 
 class MainActivityWithBottomNav : ComponentActivity() {
     
@@ -337,8 +338,12 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setPadding(0, 0, 0, 12)
         }
         
+        // Get category totals from FlashCardManager
+        val flashCardManager = FlashCardManagerV2(this)
+        val categoryTotals = getCategoryTotals(flashCardManager)
+        
         val statsText = TextView(this).apply {
-            text = "• Words learned: 127\n• Accuracy: 78%\n• Current streak: 5 days"
+            text = "• Words learned: 127\n• Accuracy: 78%\n• Current streak: 5 days\n\n📚 Category Totals:\n$categoryTotals"
             textSize = 14f
             setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else Color.parseColor("#666666"))
             setLineSpacing(4f, 1.3f)
@@ -400,6 +405,19 @@ class MainActivityWithBottomNav : ComponentActivity() {
         cardLayout.addView(actionButton)
         
         return cardLayout
+    }
+    
+    /**
+     * Get category totals for display in stats
+     */
+    private fun getCategoryTotals(flashCardManager: FlashCardManagerV2): String {
+        val categories = flashCardManager.getAvailableCategories()
+        val totals = categories.map { category ->
+            val count = flashCardManager.getTotalPhrasesInCategory(category)
+            val displayName = Categories.getCategoryDisplayName(category)
+            "• $displayName: $count"
+        }
+        return totals.joinToString("\n")
     }
     
     private fun createLearningModeCard(mode: LearningMode, isDarkTheme: Boolean): LinearLayout {

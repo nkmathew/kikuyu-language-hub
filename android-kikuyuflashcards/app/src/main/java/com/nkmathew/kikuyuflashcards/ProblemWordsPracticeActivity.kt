@@ -16,7 +16,8 @@ import androidx.core.content.ContextCompat
 import android.view.ViewGroup
 import com.nkmathew.kikuyuflashcards.FlashCardManager
 import com.nkmathew.kikuyuflashcards.SoundManager
-import com.nkmathew.kikuyuflashcards.Phrase
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
+import com.nkmathew.kikuyuflashcards.models.SourceInfo
 import com.nkmathew.kikuyuflashcards.FailureTracker
 
 /**
@@ -371,24 +372,30 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             score += 10
             
             // Record success with failure tracker
-            val phrase = Phrase(
+            val entry = FlashcardEntry(
+                id = word.phraseId,
                 english = word.englishText,
                 kikuyu = word.kikuyuText,
-                category = word.category
+                category = word.category,
+                difficulty = "medium",
+                source = SourceInfo(origin = "Problem Words")
             )
-            failureTracker.recordSuccess(phrase, FailureTracker.LearningMode.FLASHCARD, responseTime)
+            failureTracker.recordSuccess(entry, FailureTracker.LearningMode.FLASHCARD, responseTime)
             
             showCorrectFeedback()
         } else {
             // Record failure with failure tracker
-            val phrase = Phrase(
+            val entry = FlashcardEntry(
+                id = word.phraseId,
                 english = word.englishText,
                 kikuyu = word.kikuyuText,
-                category = word.category
+                category = word.category,
+                difficulty = "medium",
+                source = SourceInfo(origin = "Problem Words")
             )
             
             failureTracker.recordFailure(
-                phrase = phrase,
+                entry = entry,
                 failureType = FailureTracker.FailureType.RECALL_ERROR,
                 learningMode = FailureTracker.LearningMode.FLASHCARD,
                 userAnswer = userAnswer,

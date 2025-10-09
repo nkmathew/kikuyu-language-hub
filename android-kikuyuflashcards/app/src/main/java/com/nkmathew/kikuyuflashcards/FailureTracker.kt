@@ -5,7 +5,7 @@ import android.content.SharedPreferences
 import android.util.Log
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.nkmathew.kikuyuflashcards.Phrase
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import java.util.*
 
 /**
@@ -117,7 +117,7 @@ class FailureTracker(private val context: Context) {
      * Record a failure for analytics and tracking
      */
     fun recordFailure(
-        phrase: Phrase,
+        entry: FlashcardEntry,
         failureType: FailureType,
         learningMode: LearningMode,
         userAnswer: String = "",
@@ -126,10 +126,10 @@ class FailureTracker(private val context: Context) {
         responseTime: Long = 0L
     ) {
         val failureRecord = FailureRecord(
-            phraseId = phrase.english.hashCode().toString(),
-            englishText = phrase.english,
-            kikuyuText = phrase.kikuyu,
-            category = phrase.category,
+            phraseId = entry.id,
+            englishText = entry.english,
+            kikuyuText = entry.kikuyu,
+            category = entry.category,
             failureType = failureType,
             learningMode = learningMode,
             timestamp = System.currentTimeMillis(),
@@ -161,8 +161,8 @@ class FailureTracker(private val context: Context) {
     /**
      * Record a successful answer for improvement tracking
      */
-    fun recordSuccess(phrase: Phrase, learningMode: LearningMode, responseTime: Long = 0L) {
-        val phraseId = phrase.english.hashCode().toString()
+    fun recordSuccess(entry: FlashcardEntry, learningMode: LearningMode, responseTime: Long = 0L) {
+        val phraseId = entry.id
         
         difficultyWords[phraseId]?.let { difficultyWord ->
             // Update improvement streak
@@ -306,8 +306,8 @@ class FailureTracker(private val context: Context) {
     
     // Private helper methods
     
-    private fun updateDifficultyWord(phrase: Phrase, failureType: FailureType, responseTime: Long) {
-        val phraseId = phrase.english.hashCode().toString()
+    private fun updateDifficultyWord(entry: FlashcardEntry, failureType: FailureType, responseTime: Long) {
+        val phraseId = entry.id
         
         val existingWord = difficultyWords[phraseId]
         val updatedWord = if (existingWord != null) {

@@ -6,14 +6,14 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.ArrayAdapter
+import android.widget.AutoCompleteTextView
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.material.chip.Chip
-import com.google.android.material.chip.ChipGroup
 import com.nkmathew.kikuyuflashcards.models.Categories
 import com.nkmathew.kikuyuflashcards.models.DifficultyLevels
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
@@ -27,12 +27,12 @@ class StudyListActivity : AppCompatActivity() {
 
     // Views
     private lateinit var recyclerView: RecyclerView
-    private lateinit var categoryChipGroup: ChipGroup
-    private lateinit var difficultyChipGroup: ChipGroup
+    private lateinit var categoryDropdown: AutoCompleteTextView
+    private lateinit var difficultyDropdown: AutoCompleteTextView
     private lateinit var progressTextView: TextView
     private lateinit var exportButton: Button
     private lateinit var shareButton: Button
-    private lateinit var sortButton: Button
+    private lateinit var sortDropdown: AutoCompleteTextView
     private lateinit var studyCardAdapter: StudyCardAdapter
 
     // Managers
@@ -61,12 +61,12 @@ class StudyListActivity : AppCompatActivity() {
 
         // Initialize views
         recyclerView = findViewById(R.id.recyclerView)
-        categoryChipGroup = findViewById(R.id.categoryChipGroup)
-        difficultyChipGroup = findViewById(R.id.difficultyChipGroup)
+        categoryDropdown = findViewById(R.id.categoryDropdown)
+        difficultyDropdown = findViewById(R.id.difficultyDropdown)
         progressTextView = findViewById(R.id.progressTextView)
         exportButton = findViewById(R.id.exportButton)
         shareButton = findViewById(R.id.shareButton)
-        sortButton = findViewById(R.id.sortButton)
+        sortDropdown = findViewById(R.id.sortDropdown)
 
         // Initialize managers
         flashCardManager = FlashCardManagerV2(this)
@@ -75,17 +75,17 @@ class StudyListActivity : AppCompatActivity() {
         // Set up RecyclerView
         setupRecyclerView()
 
-        // Set up category filter chips
-        setupCategoryChips()
+        // Set up category filter dropdown
+        setupCategoryDropdown()
 
-        // Set up difficulty filter chips
-        setupDifficultyChips()
+        // Set up difficulty filter dropdown
+        setupDifficultyDropdown()
 
         // Set up export buttons
         setupExportButtons()
 
-        // Set up sort button
-        setupSortButton()
+        // Set up sort dropdown
+        setupSortDropdown()
 
         // Load initial cards
         loadCards()
@@ -131,76 +131,60 @@ class StudyListActivity : AppCompatActivity() {
     }
 
     /**
-     * Set up category filter chips
+     * Set up category filter dropdown
      */
-    private fun setupCategoryChips() {
-        // Add "All Categories" chip
-        addChipToGroup(
-            categoryChipGroup,
-            "All Categories",
-            null,
-            true
-        )
-
-        // Add a chip for each available category
+    private fun setupCategoryDropdown() {
+        val categories = mutableListOf("All Categories")
+        val categoryMap = mutableMapOf<String, String?>()
+        categoryMap["All Categories"] = null
+        
         flashCardManager.getAvailableCategories().forEach { category ->
-            addChipToGroup(
-                categoryChipGroup,
-                Categories.getCategoryDisplayName(category),
-                category,
-                false
-            )
+            val displayName = Categories.getCategoryDisplayName(category)
+            categories.add(displayName)
+            categoryMap[displayName] = category
         }
 
-        // Set listener for category chip selection
-        categoryChipGroup.setOnCheckedStateChangeListener { _, checkedIds ->
-            if (checkedIds.isEmpty()) return@setOnCheckedStateChangeListener
+        val adapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, categories)
+        categoryDropdown.setAdapter(adapter)
+        categoryDropdown.setText("All Categories", false)
 
-            // Get the selected chip
-            val chip = findViewById<Chip>(checkedIds[0])
-            val category = chip.tag as String?
-
+        categoryDropdown.setOnItemClickListener { _, _, position, _ ->
+            val selectedCategory = categories[position]
+            val category = categoryMap[selectedCategory]
+            
             // Apply category filter
             flashCardManager.setCategory(category)
-
+            
             // Reload cards
             loadCards()
         }
     }
 
     /**
-     * Set up difficulty filter chips
+     * Set up difficulty filter dropdown
      */
-    private fun setupDifficultyChips() {
-        // Add "All Levels" chip
-        addChipToGroup(
-            difficultyChipGroup,
-            "All Levels",
-            null,
-            true
-        )
-
-        // Add a chip for each difficulty level
+    private fun setupDifficultyDropdown() {
+        val difficulties = mutableListOf("All Levels")
+        val difficultyMap = mutableMapOf<String, String?>()
+        difficultyMap["All Levels"] = null
+        
         flashCardManager.getAvailableDifficulties().forEach { difficulty ->
-            addChipToGroup(
-                difficultyChipGroup,
-                DifficultyLevels.getDifficultyDisplayName(difficulty),
-                difficulty,
-                false
-            )
+            val displayName = DifficultyLevels.getDifficultyDisplayName(difficulty)
+            difficulties.add(displayName)
+            difficultyMap[displayName] = difficulty
         }
 
-        // Set listener for difficulty chip selection
-        difficultyChipGroup.setOnCheckedStateChangeListener { _, checkedIds ->
-            if (checkedIds.isEmpty()) return@setOnCheckedStateChangeListener
+        val adapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, difficulties)
+        difficultyDropdown.setAdapter(adapter)
+        difficultyDropdown.setText("All Levels", false)
 
-            // Get the selected chip
-            val chip = findViewById<Chip>(checkedIds[0])
-            val difficulty = chip.tag as String?
-
+        difficultyDropdown.setOnItemClickListener { _, _, position, _ ->
+            val selectedDifficulty = difficulties[position]
+            val difficulty = difficultyMap[selectedDifficulty]
+            
             // Apply difficulty filter
             flashCardManager.setDifficulty(difficulty)
-
+            
             // Reload cards
             loadCards()
         }
@@ -255,38 +239,24 @@ class StudyListActivity : AppCompatActivity() {
     }
 
     /**
-     * Set up sort button
+     * Set up sort dropdown
      */
-    private fun setupSortButton() {
-        sortButton.setOnClickListener {
-            cycleSortMode()
-        }
-    }
+    private fun setupSortDropdown() {
+        val sortOptions = listOf("Default", "Short First", "Long First")
+        val sortMap = mapOf(
+            "Default" to "default",
+            "Short First" to "short_first", 
+            "Long First" to "long_first"
+        )
 
-    /**
-     * Cycle through sort modes
-     */
-    private fun cycleSortMode() {
-        currentSortMode = when (currentSortMode) {
-            "default" -> "short_first"
-            "short_first" -> "long_first"
-            "long_first" -> "default"
-            else -> "default"
-        }
-        
-        updateSortButtonText()
-        loadCards() // Reload cards with new sort
-    }
+        val adapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, sortOptions)
+        sortDropdown.setAdapter(adapter)
+        sortDropdown.setText("Default", false)
 
-    /**
-     * Update sort button text based on current mode
-     */
-    private fun updateSortButtonText() {
-        sortButton.text = when (currentSortMode) {
-            "default" -> "🔀 Sort"
-            "short_first" -> "📏 Short First"
-            "long_first" -> "📏 Long First"
-            else -> "🔀 Sort"
+        sortDropdown.setOnItemClickListener { _, _, position, _ ->
+            val selectedSort = sortOptions[position]
+            currentSortMode = sortMap[selectedSort] ?: "default"
+            loadCards() // Reload cards with new sort
         }
     }
 
@@ -334,21 +304,4 @@ class StudyListActivity : AppCompatActivity() {
         startActivity(Intent.createChooser(intent, "Share Kikuyu Flashcards"))
     }
 
-    /**
-     * Helper to add a chip to a ChipGroup
-     */
-    private fun addChipToGroup(
-        chipGroup: ChipGroup,
-        text: String,
-        tag: String?,
-        isChecked: Boolean
-    ) {
-        val chip = Chip(this).apply {
-            this.text = text
-            this.tag = tag
-            this.isCheckable = true
-            this.isChecked = isChecked
-        }
-        chipGroup.addView(chip)
-    }
 }

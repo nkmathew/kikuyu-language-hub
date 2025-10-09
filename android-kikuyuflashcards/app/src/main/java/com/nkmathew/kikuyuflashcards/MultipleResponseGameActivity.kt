@@ -20,7 +20,7 @@ import androidx.core.content.ContextCompat
 import com.nkmathew.kikuyuflashcards.FlashCardManager
 import com.nkmathew.kikuyuflashcards.ProgressManager
 import com.nkmathew.kikuyuflashcards.SoundManager
-import com.nkmathew.kikuyuflashcards.Phrase
+import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.FailureTracker
 import kotlin.random.Random
 
@@ -79,7 +79,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
     private var timerRunnable: Runnable? = null
     
     // Current question data
-    private var currentPhrase: Phrase? = null
+    private var currentPhrase: FlashcardEntry? = null
     private var correctOptions: MutableList<String> = mutableListOf()
     private var allOptions: MutableList<String> = mutableListOf()
     private var selectedAnswers: MutableSet<String> = mutableSetOf()
@@ -468,7 +468,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
             return
         }
         
-        currentPhrase = flashCardManager.getRandomPhrase()
+        currentPhrase = flashCardManager.getRandomEntry()
         if (currentPhrase == null) {
             Toast.makeText(this, "No phrases available!", Toast.LENGTH_SHORT).show()
             endGame()
@@ -505,7 +505,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
         allOptions.add(phrase.kikuyu)
         
         // Add 3 distractors
-        val allPhrases = flashCardManager.getAllPhrases()
+        val allPhrases = flashCardManager.getAllEntries()
         val distractors = allPhrases
             .filter { it.kikuyu != phrase.kikuyu }
             .map { it.kikuyu }
@@ -530,7 +530,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
         allOptions.add(phrase.kikuyu)
         
         // Add related correct answers (variations, synonyms)
-        val allPhrases = flashCardManager.getAllPhrases()
+        val allPhrases = flashCardManager.getAllEntries()
         val relatedAnswers = allPhrases
             .filter { it.english.lowercase().contains(phrase.english.lowercase().substring(0, 3)) }
             .map { it.kikuyu }
@@ -565,7 +565,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
         allOptions.add(phrase.kikuyu)
         
         // Add related words (same category, similar meaning)
-        val allPhrases = flashCardManager.getAllPhrases()
+        val allPhrases = flashCardManager.getAllEntries()
         val relatedWords = allPhrases
             .filter { it.category == phrase.category && it.kikuyu != phrase.kikuyu }
             .map { it.kikuyu }
@@ -604,7 +604,7 @@ class MultipleResponseGameActivity : AppCompatActivity() {
                 correctOptions.add(phrase.english)
                 allOptions.add(phrase.english)
                 
-                val allPhrases = flashCardManager.getAllPhrases()
+                val allPhrases = flashCardManager.getAllEntries()
                 val distractors = allPhrases
                     .filter { it.english != phrase.english }
                     .map { it.english }
