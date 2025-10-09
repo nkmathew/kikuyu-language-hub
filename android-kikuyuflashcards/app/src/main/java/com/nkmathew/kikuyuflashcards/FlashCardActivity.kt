@@ -61,6 +61,9 @@ class FlashCardActivity : ComponentActivity(), SwipeGestureDetector.SwipeListene
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
+        
         flashCardManager = FlashCardManager(this)
         soundManager = SoundManager(this)
         progressManager = ProgressManager(this)

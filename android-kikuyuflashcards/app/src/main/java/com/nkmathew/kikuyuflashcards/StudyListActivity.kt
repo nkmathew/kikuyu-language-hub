@@ -32,6 +32,7 @@ class StudyListActivity : AppCompatActivity() {
     private lateinit var progressTextView: TextView
     private lateinit var exportButton: Button
     private lateinit var shareButton: Button
+    private lateinit var sortButton: Button
     private lateinit var studyCardAdapter: StudyCardAdapter
 
     // Managers
@@ -43,10 +44,14 @@ class StudyListActivity : AppCompatActivity() {
     private val flaggedCards = mutableSetOf<String>()
     private var totalCards = 0
     private var cardsStudied = 0
+    private var currentSortMode = "default" // default, short_first, long_first
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_study_list)
+
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
 
         // Set up action bar
         supportActionBar?.apply {
@@ -61,6 +66,7 @@ class StudyListActivity : AppCompatActivity() {
         progressTextView = findViewById(R.id.progressTextView)
         exportButton = findViewById(R.id.exportButton)
         shareButton = findViewById(R.id.shareButton)
+        sortButton = findViewById(R.id.sortButton)
 
         // Initialize managers
         flashCardManager = FlashCardManagerV2(this)
@@ -77,6 +83,9 @@ class StudyListActivity : AppCompatActivity() {
 
         // Set up export buttons
         setupExportButtons()
+
+        // Set up sort button
+        setupSortButton()
 
         // Load initial cards
         loadCards()
@@ -201,7 +210,15 @@ class StudyListActivity : AppCompatActivity() {
      * Load cards and update the adapter
      */
     private fun loadCards() {
-        val cards = flashCardManager.getAllEntries()
+        var cards = flashCardManager.getAllEntries()
+        
+        // Apply sorting based on current sort mode
+        cards = when (currentSortMode) {
+            "short_first" -> cards.sortedBy { it.kikuyu.length + it.english.length }
+            "long_first" -> cards.sortedByDescending { it.kikuyu.length + it.english.length }
+            else -> cards // default order
+        }
+        
         totalCards = cards.size
         cardsStudied = 0
         
@@ -234,6 +251,42 @@ class StudyListActivity : AppCompatActivity() {
 
         shareButton.setOnClickListener {
             shareAsEmail()
+        }
+    }
+
+    /**
+     * Set up sort button
+     */
+    private fun setupSortButton() {
+        sortButton.setOnClickListener {
+            cycleSortMode()
+        }
+    }
+
+    /**
+     * Cycle through sort modes
+     */
+    private fun cycleSortMode() {
+        currentSortMode = when (currentSortMode) {
+            "default" -> "short_first"
+            "short_first" -> "long_first"
+            "long_first" -> "default"
+            else -> "default"
+        }
+        
+        updateSortButtonText()
+        loadCards() // Reload cards with new sort
+    }
+
+    /**
+     * Update sort button text based on current mode
+     */
+    private fun updateSortButtonText() {
+        sortButton.text = when (currentSortMode) {
+            "default" -> "🔀 Sort"
+            "short_first" -> "📏 Short First"
+            "long_first" -> "📏 Long First"
+            else -> "🔀 Sort"
         }
     }
 

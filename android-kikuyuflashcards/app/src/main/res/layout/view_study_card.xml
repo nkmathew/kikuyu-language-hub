@@ -5,7 +5,7 @@
     android:id="@+id/cardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="4dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="3dp"
     app:cardBackgroundColor="?attr/colorSurface">
@@ -86,67 +86,31 @@
             android:layout_marginBottom="12dp">
 
             <!-- Kikuyu Section (First) -->
-            <LinearLayout
+            <TextView
+                android:id="@+id/kikuyuTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginBottom="8dp">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Kikuyu"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/white"
-                    android:background="@color/md_theme_dark_primary"
-                    android:padding="6dp"
-                    android:gravity="center"
-                    android:layout_marginBottom="4dp" />
-
-                <TextView
-                    android:id="@+id/kikuyuTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/md_theme_dark_onSurface"
-                    android:background="@color/md_theme_dark_surfaceContainer"
-                    android:padding="16dp"
-                    android:gravity="center"
-                    tools:text="Úhoro wa rúciní" />
-            </LinearLayout>
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface"
+                android:background="?attr/colorSurfaceVariant"
+                android:padding="16dp"
+                android:gravity="center"
+                android:layout_marginBottom="8dp"
+                tools:text="Úhoro wa rúciní" />
 
             <!-- English Section (Second) -->
-            <LinearLayout
+            <TextView
+                android:id="@+id/englishTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="English"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:textColor="@android:color/white"
-                    android:background="@color/md_theme_light_primary"
-                    android:padding="6dp"
-                    android:gravity="center"
-                    android:layout_marginBottom="4dp" />
-
-                <TextView
-                    android:id="@+id/englishTextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/md_theme_light_onSurface"
-                    android:background="@color/md_theme_light_surfaceContainer"
-                    android:padding="16dp"
-                    android:gravity="center"
-                    tools:text="Good morning" />
-            </LinearLayout>
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorOnSurface"
+                android:background="?attr/colorSurfaceVariant"
+                android:padding="16dp"
+                android:gravity="center"
+                tools:text="Good morning" />
         </LinearLayout>
 
         <!-- Additional Information -->

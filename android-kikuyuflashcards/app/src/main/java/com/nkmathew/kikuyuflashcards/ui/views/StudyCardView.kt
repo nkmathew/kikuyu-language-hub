@@ -297,11 +297,13 @@ class StudyCardView @JvmOverloads constructor(
      */
     private fun updateFlagState() {
         if (isFlagged) {
-            flagButton.text = "🚩 Flagged"
+            flagButton.text = "🚩"
+            flagButton.setTextColor(Color.WHITE)
             flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.warning_color))
         } else {
             flagButton.text = "🚩"
-            flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.warning_color))
+            flagButton.setTextColor(Color.parseColor("#888888"))
+            flagButton.setBackgroundColor(Color.TRANSPARENT)
         }
     }
 

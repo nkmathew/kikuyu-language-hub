@@ -4,6 +4,7 @@ import android.app.AlertDialog
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -15,6 +16,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.adapters.FlaggedCardAdapter
+import java.io.File
+import java.io.FileWriter
 
 /**
  * Activity that displays flagged translations for review and export
@@ -25,6 +28,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
     private lateinit var recyclerView: RecyclerView
     private lateinit var emptyStateTextView: TextView
     private lateinit var exportButton: Button
+    private lateinit var shareButton: Button
     private lateinit var clearAllButton: Button
     private lateinit var flaggedCardAdapter: FlaggedCardAdapter
 
@@ -40,10 +44,14 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flagged_translations)
 
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
+
         // Initialize views
         recyclerView = findViewById(R.id.recyclerView)
         emptyStateTextView = findViewById(R.id.emptyStateTextView)
         exportButton = findViewById(R.id.exportButton)
+        shareButton = findViewById(R.id.shareButton)
         clearAllButton = findViewById(R.id.clearAllButton)
 
         // Initialize services
@@ -66,6 +74,10 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
     private fun setupClickListeners() {
         exportButton.setOnClickListener {
             exportFlaggedItems()
+        }
+
+        shareButton.setOnClickListener {
+            shareFlaggedItems()
         }
 
         clearAllButton.setOnClickListener {
@@ -202,6 +214,90 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         clipboard.setPrimaryClip(clip)
         
         Toast.makeText(this, "Flagged translations copied to clipboard", Toast.LENGTH_LONG).show()
+    }
+
+    /**
+     * Share flagged items
+     */
+    private fun shareFlaggedItems() {
+        if (flaggedCards.isEmpty()) {
+            Toast.makeText(this, "No flagged items to share", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        val shareText = buildString {
+            appendLine("Flagged Kikuyu Translations (${flaggedCards.size} items):")
+            appendLine()
+            
+            flaggedCards.forEach { card ->
+                appendLine("• ${card.id}")
+                appendLine("  ${card.kikuyu} - ${card.english}")
+                appendLine("  Difficulty: ${card.difficulty} | Category: ${card.category}")
+                if (card.culturalNotes?.isNotEmpty() == true) {
+                    appendLine("  Notes: ${card.culturalNotes}")
+                }
+                if (card.source?.origin?.isNotEmpty() == true) {
+                    appendLine("  Source: ${card.source.origin}")
+                }
+                flagReasons[card.id]?.let { reason ->
+                    appendLine("  ⚠️ Flag Reason: $reason")
+                }
+                appendLine()
+            }
+        }
+
+        val intent = Intent(Intent.ACTION_SEND).apply {
+            type = "text/plain"
+            putExtra(Intent.EXTRA_TEXT, shareText)
+            putExtra(Intent.EXTRA_SUBJECT, "Flagged Kikuyu Translations")
+        }
+
+        startActivity(Intent.createChooser(intent, "Share Flagged Translations"))
+    }
+
+    /**
+     * Export flagged items to file
+     */
+    private fun exportToFile() {
+        if (flaggedCards.isEmpty()) {
+            Toast.makeText(this, "No flagged items to export", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        try {
+            val exportText = buildString {
+                appendLine("Flagged Kikuyu Translations (${flaggedCards.size} items):")
+                appendLine("Exported on: ${java.text.SimpleDateFormat("yyyy-MM-dd HH:mm:ss", java.util.Locale.getDefault()).format(java.util.Date())}")
+                appendLine()
+                
+                flaggedCards.forEach { card ->
+                    appendLine("• ${card.id}")
+                    appendLine("  ${card.kikuyu} - ${card.english}")
+                    appendLine("  Difficulty: ${card.difficulty} | Category: ${card.category}")
+                    if (card.culturalNotes?.isNotEmpty() == true) {
+                        appendLine("  Notes: ${card.culturalNotes}")
+                    }
+                    if (card.source?.origin?.isNotEmpty() == true) {
+                        appendLine("  Source: ${card.source.origin}")
+                    }
+                    flagReasons[card.id]?.let { reason ->
+                        appendLine("  ⚠️ Flag Reason: $reason")
+                    }
+                    appendLine()
+                }
+            }
+
+            val fileName = "flagged_translations_${System.currentTimeMillis()}.txt"
+            val file = File(getExternalFilesDir(null), fileName)
+            
+            FileWriter(file).use { writer ->
+                writer.write(exportText)
+            }
+            
+            Toast.makeText(this, "Exported to: ${file.absolutePath}", Toast.LENGTH_LONG).show()
+        } catch (e: Exception) {
+            Toast.makeText(this, "Export failed: ${e.message}", Toast.LENGTH_SHORT).show()
+        }
     }
 
     /**

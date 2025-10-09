@@ -25,6 +25,9 @@ class MainActivityWithBottomNav : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
+        
         soundManager = SoundManager(this)
         
         createBottomNavigationUI()

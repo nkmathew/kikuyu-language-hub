@@ -63,10 +63,21 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:layout_marginStart="4dp"
+                    android:layout_marginHorizontal="4dp"
                     android:text="📧 Share"
                     android:textSize="12sp"
                     android:backgroundTint="@color/success_color"
+                    style="@style/Widget.Material3.Button" />
+
+                <Button
+                    android:id="@+id/sortButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp"
+                    android:text="🔀 Sort"
+                    android:textSize="12sp"
+                    android:backgroundTint="@color/secondary_color"
                     style="@style/Widget.Material3.Button" />
             </LinearLayout>
 

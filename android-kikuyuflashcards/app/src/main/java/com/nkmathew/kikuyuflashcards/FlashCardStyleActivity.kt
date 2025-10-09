@@ -42,6 +42,9 @@ class FlashCardStyleActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_flashcard_style)
 
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
+
         // Set up action bar
         supportActionBar?.apply {
             setDisplayHomeAsUpEnabled(true)

@@ -52,6 +52,9 @@ class SettingsActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
+        
         sharedPreferences = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
         soundManager = SoundManager(this)
         

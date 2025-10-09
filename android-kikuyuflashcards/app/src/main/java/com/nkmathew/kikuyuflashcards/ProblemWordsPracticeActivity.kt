@@ -55,6 +55,9 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
+        
         // Initialize managers
         failureTracker = FailureTracker(this)
         flashCardManager = FlashCardManager(this)

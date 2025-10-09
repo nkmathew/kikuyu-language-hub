@@ -50,6 +50,9 @@ class QuizActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         
+        // Apply dark theme
+        ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
+        
         try {
             flashCardManager = FlashCardManager(this)
             soundManager = SoundManager(this)
