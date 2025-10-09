@@ -1,0 +1,1297 @@
+{
+  "batch": 34,
+  "source_files": "335-344",
+  "total_flashcards": 114,
+  "created_date": "2025-10-08",
+  "last_updated": "2025-10-08T19:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary", "Phrases", "Proverbs"],
+  "difficulty_distribution": {
+    "beginner": 83,
+    "intermediate": 25,
+    "advanced": 6
+  },
+  "flashcards": [
+    {
+      "id": "ek_b34_001",
+      "kikuyu": "mũtwe",
+      "english": "head",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_002",
+      "kikuyu": "Matũ",
+      "english": "ears",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_003",
+      "kikuyu": "Gũtũ",
+      "english": "ear",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_004",
+      "kikuyu": "Njuĩrĩ",
+      "english": "hair",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_005",
+      "kikuyu": "Macuĩrĩ",
+      "english": "a lot of hair, especially untidy hair",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - augmented form",
+      "notes": "Implies quantity and untidiness",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_006",
+      "kikuyu": "Iniũrũ",
+      "english": "nose",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_007",
+      "kikuyu": "Maniũrũ",
+      "english": "noses",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_008",
+      "kikuyu": "Kanua",
+      "english": "mouth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "notes": "Already starts with 'Ka' denoting small",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_009",
+      "kikuyu": "Tũnua",
+      "english": "mouths (small mouths)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "notes": "Plural of kanua; small mouths because singular already starts with 'Ka'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_010",
+      "kikuyu": "Igego",
+      "english": "tooth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_011",
+      "kikuyu": "magego",
+      "english": "teeth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_012",
+      "kikuyu": "Rurĩmĩ",
+      "english": "tongue",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_013",
+      "kikuyu": "Kĩrĩmĩ",
+      "english": "epiglottis",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Body part - anatomical",
+      "notes": "Amazingly, smaller than tongue (Rûrĩmĩ) yet name starts with 'Kî' denoting big thing",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_014",
+      "kikuyu": "Ikamburu",
+      "english": "molar",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - tooth type",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_015",
+      "kikuyu": "makamburu",
+      "english": "molars",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_016",
+      "kikuyu": "Kĩreru",
+      "english": "chin",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_017",
+      "kikuyu": "Ikai",
+      "english": "cheek",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_018",
+      "kikuyu": "Makai",
+      "english": "cheeks",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_019",
+      "kikuyu": "nderu",
+      "english": "beard",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_020",
+      "kikuyu": "materu",
+      "english": "beards",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_021",
+      "kikuyu": "riitho",
+      "english": "eye",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_022",
+      "kikuyu": "maitho",
+      "english": "eyes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_023",
+      "kikuyu": "butu",
+      "english": "eyelashes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_024",
+      "kikuyu": "Rukobe",
+      "english": "eye lash",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_025",
+      "kikuyu": "Ndarĩ rũkobe",
+      "english": "He/she has no eyelash",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Idiom meaning 'no shame'",
+      "cultural_notes": "Traditional saying: lacking eyelashes means having no shame",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_026",
+      "kikuyu": "ngingo",
+      "english": "neck",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_027",
+      "kikuyu": "kĩande",
+      "english": "shoulder",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_028",
+      "kikuyu": "ciande",
+      "english": "shoulders",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_029",
+      "kikuyu": "guoko",
+      "english": "hand",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_030",
+      "kikuyu": "moko",
+      "english": "hands",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_031",
+      "kikuyu": "Kuguru",
+      "english": "leg",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_032",
+      "kikuyu": "magûrû",
+      "english": "legs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_033",
+      "kikuyu": "Iru",
+      "english": "knee",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_034",
+      "kikuyu": "Maru",
+      "english": "knees",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_035",
+      "kikuyu": "Kaara",
+      "english": "finger",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_036",
+      "kikuyu": "tũara",
+      "english": "fingers",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural (with tone change means 'deliver')",
+      "notes": "Tûara with tone change also means deliver something somewhere",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_037",
+      "kikuyu": "igokora",
+      "english": "elbow",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_038",
+      "kikuyu": "Nda",
+      "english": "stomach",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_039",
+      "kikuyu": "Gĩthũri",
+      "english": "chest",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_040",
+      "kikuyu": "Mũkonyo",
+      "english": "Belly button",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_041",
+      "kikuyu": "Njohero",
+      "english": "Waist",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_042",
+      "kikuyu": "Kĩero",
+      "english": "thigh",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_043",
+      "kikuyu": "ciero",
+      "english": "thighs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Body part - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #335"
+    },
+    {
+      "id": "ek_b34_044",
+      "kikuyu": "Mwaki",
+      "english": "Fire",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_045",
+      "kikuyu": "Miaki",
+      "english": "fires",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_046",
+      "kikuyu": "Ndũhoragio",
+      "english": "is not put off",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Negative passive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_047",
+      "kikuyu": "Nĩũhoragio",
+      "english": "it is put off",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Positive passive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_048",
+      "kikuyu": "Kũhoria",
+      "english": "to put off / to switch off",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - extinguish/deactivate",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_049",
+      "kikuyu": "Horia",
+      "english": "put off / switch off",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Imperative form",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_050",
+      "kikuyu": "Horia thitima",
+      "english": "switch off the light (electric)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command - electricity",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_051",
+      "kikuyu": "Ndũkahorie thitima",
+      "english": "do not switch off the light",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Negative command",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_052",
+      "kikuyu": "Horia mwaki ũcio",
+      "english": "put off that fire",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command with demonstrative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_053",
+      "kikuyu": "Akia",
+      "english": "light (verb) / switch on",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - ignite/activate",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_054",
+      "kikuyu": "Akia mwaki",
+      "english": "light the fire",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_055",
+      "kikuyu": "Akia thitima",
+      "english": "switch on the light (electric)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command - electricity",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_056",
+      "kikuyu": "Akia tawa",
+      "english": "light the lamp / switch on the car light",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command - dual meaning",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_057",
+      "kikuyu": "Akia matawa",
+      "english": "light the lamps / switch on the car lights",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_058",
+      "kikuyu": "Akia toci",
+      "english": "switch on the torch",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_059",
+      "kikuyu": "akia ngaari",
+      "english": "switch on the car",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_060",
+      "kikuyu": "Akia macini",
+      "english": "Switch on the machine",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_061",
+      "kikuyu": "Wona kweha, mũtikahorie mwaki na mwaki",
+      "english": "if the situation worsens, do not put off fire with fire",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about conflict",
+      "cultural_notes": "Don't fight fire with fire - escalation warning",
+      "sub_translations": [
+        {"kikuyu": "Wona kweha", "english": "if the situation worsens"},
+        {"kikuyu": "mũtikahorie", "english": "do not put off (plural)"},
+        {"kikuyu": "mwaki na mwaki", "english": "fire with fire"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_062",
+      "kikuyu": "Wona",
+      "english": "if",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Conditional particle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_063",
+      "kikuyu": "Kweha",
+      "english": "the situation worsens",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - deterioration",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_064",
+      "kikuyu": "Kwĩha",
+      "english": "to worsen / to erupt trouble",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - escalation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_065",
+      "kikuyu": "Mũtikahorie",
+      "english": "do not put off (plural)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Negative command to multiple people",
+      "notes": "'Mũ' prefix signifies telling more than one person",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_066",
+      "kikuyu": "Hĩ!",
+      "english": "Exclamation to show surprise",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Interjection",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_067",
+      "kikuyu": "Nĩ Kweha!",
+      "english": "Trouble has erupted",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Exclamation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_068",
+      "kikuyu": "Hĩ! Nĩ kweha!",
+      "english": "trouble has erupted (with a lot of emphasis)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Strong exclamation",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_069",
+      "kikuyu": "No gũtikwĩha",
+      "english": "But trouble will not erupt",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Reassurance phrase",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_070",
+      "kikuyu": "Mũtikamake gũtikwĩha",
+      "english": "do not worry (all of you), there will be no trouble",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Reassurance command - plural",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_071",
+      "kikuyu": "Kũmaka",
+      "english": "to worry",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - anxiety",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #336"
+    },
+    {
+      "id": "ek_b34_072",
+      "kikuyu": "Mũrĩoho?",
+      "english": "are you all there?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Attendance check - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #337"
+    },
+    {
+      "id": "ek_b34_073",
+      "kikuyu": "Nũũ wĩ na kĩũria?",
+      "english": "who has a question?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Classroom question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #337"
+    },
+    {
+      "id": "ek_b34_074",
+      "kikuyu": "Mûrîega mûrîega mûthenya ûyû wa jumatatû",
+      "english": "Are you all well this day of monday?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Formal greeting with day",
+      "sub_translations": [
+        {"kikuyu": "Mûrîega", "english": "are you (plural) well"},
+        {"kikuyu": "mûthenya ûyû", "english": "this day"},
+        {"kikuyu": "wa jumatatû", "english": "of Monday"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #338"
+    },
+    {
+      "id": "ek_b34_075",
+      "kikuyu": "Nîkîî ùrona mbicainî îno",
+      "english": "what do you see in this picture?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Question about image",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #339"
+    },
+    {
+      "id": "ek_b34_076",
+      "kikuyu": "Mûthigari",
+      "english": "policeman",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #339"
+    },
+    {
+      "id": "ek_b34_077",
+      "kikuyu": "Rĩa",
+      "english": "eat",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - singular command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_078",
+      "kikuyu": "Rĩai",
+      "english": "Eat! (to many)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Plural command - add 'i'",
+      "notes": "Plural imperative formed by adding 'i'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_079",
+      "kikuyu": "Thii",
+      "english": "go",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - singular command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_080",
+      "kikuyu": "Thiii",
+      "english": "Go! (to many)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Plural command - add 'i'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_081",
+      "kikuyu": "Koma",
+      "english": "Sleep",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - singular command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_082",
+      "kikuyu": "Komai",
+      "english": "Sleep! (to many)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Plural command - add 'i'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_083",
+      "kikuyu": "Andĩka",
+      "english": "write",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - singular command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_084",
+      "kikuyu": "Andĩkai",
+      "english": "Write! (to many)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Plural command - add 'i'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_085",
+      "kikuyu": "Toro ti gĩkuo",
+      "english": "Sleep is not death",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about rest",
+      "cultural_notes": "Used to reassure someone who has been asleep for long time or suggest temporary rest/setback isn't the end",
+      "quality": 4.9,
+      "source": "Easy Kikuyu #340"
+    },
+    {
+      "id": "ek_b34_086",
+      "kikuyu": "Kûhûna ta kabûbûî",
+      "english": "to be very full (after eating) like a spider",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Idiom about being stuffed",
+      "cultural_notes": "Traditional comparison - fullness like a spider",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #341"
+    },
+    {
+      "id": "ek_b34_087",
+      "kikuyu": "Mbûmbûî",
+      "english": "spider",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Insect",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #341"
+    },
+    {
+      "id": "ek_b34_088",
+      "kikuyu": "kabûbûî",
+      "english": "small spider",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Insect - diminutive",
+      "notes": "'ka' prefix indicates small",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #341"
+    },
+    {
+      "id": "ek_b34_089",
+      "kikuyu": "Hûnîte ta kabûbûî",
+      "english": "I am full like a spider",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Expression of fullness",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #341"
+    },
+    {
+      "id": "ek_b34_090",
+      "kikuyu": "Wĩmwega",
+      "english": "Are you good? (to one person)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting - singular",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_091",
+      "kikuyu": "Mũrĩega",
+      "english": "Are you good? (to several persons)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting - plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_092",
+      "kikuyu": "Ndĩmwega",
+      "english": "I am good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting response - singular",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_093",
+      "kikuyu": "Turĩega",
+      "english": "We are good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting response - plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_094",
+      "kikuyu": "Nĩ atĩa",
+      "english": "How is it",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_095",
+      "kikuyu": "Nĩ kwega",
+      "english": "It is good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting response",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_096",
+      "kikuyu": "Ũhoro waku?",
+      "english": "News from you? (singular)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_097",
+      "kikuyu": "Ũhoro wanyu?",
+      "english": "News from you? (plural)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_098",
+      "kikuyu": "Nĩ mwega",
+      "english": "It is good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting response",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_099",
+      "kikuyu": "Gũtirĩ na ũrũ",
+      "english": "There's nothing wrong",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Greeting response",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #342"
+    },
+    {
+      "id": "ek_b34_100",
+      "kikuyu": "Îî",
+      "english": "yes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Affirmative (like 'A' in Any)",
+      "notes": "Pronunciation: like 'A' in Any",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_101",
+      "kikuyu": "Aca",
+      "english": "no",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Negative (ca like 'sh' in shame)",
+      "notes": "A like 'A' in About; ca like 'sh' in shame",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_102",
+      "kikuyu": "Rehe",
+      "english": "bring",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_103",
+      "kikuyu": "Ke",
+      "english": "take",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - command",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_104",
+      "kikuyu": "Ûka",
+      "english": "come",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - command (Û like 'O' in Own)",
+      "notes": "Û pronounced like 'O' in Own",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_105",
+      "kikuyu": "Wathiî kû?",
+      "english": "where are you going?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Question about direction",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_106",
+      "kikuyu": "Uma kû?",
+      "english": "where have you come from?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Question about origin",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_107",
+      "kikuyu": "Kwanyu nî kû",
+      "english": "where is your home (general)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Question about home - plural/general",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_108",
+      "kikuyu": "Gwaku nî kû",
+      "english": "where is your home (personal)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Question about home - personal",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_109",
+      "kikuyu": "Gwitû nî mûranga",
+      "english": "our homeland is Mûranga",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Statement about homeland",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_110",
+      "kikuyu": "Gwakwa ni Rongai",
+      "english": "my home is in Rongai",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Statement about personal home",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_111",
+      "kikuyu": "Mûciî",
+      "english": "home / village / town that one lives in",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - residence",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_112",
+      "kikuyu": "Ndîrathie muciî",
+      "english": "going home",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Progressive action",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_113",
+      "kikuyu": "Nyonia",
+      "english": "show me",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Command with object",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_114",
+      "kikuyu": "Ndwara",
+      "english": "take me (to a place)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Command with object",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_115",
+      "kikuyu": "Njîra",
+      "english": "tell me",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Command with object",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_116",
+      "kikuyu": "Ûka ngwonie",
+      "english": "come I show you",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Sequential action",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_117",
+      "kikuyu": "Ûka ngûtware",
+      "english": "come I take you (to a place)",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Sequential action",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_118",
+      "kikuyu": "Uka ngwîre",
+      "english": "come I tell you",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Sequential action",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_119",
+      "kikuyu": "Sori",
+      "english": "am sorry",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Apology - borrowed word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_120",
+      "kikuyu": "Nî ndahera",
+      "english": "am sorry",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Apology - Kikuyu form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_121",
+      "kikuyu": "Njohera",
+      "english": "forgive me",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Request for forgiveness",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #343"
+    },
+    {
+      "id": "ek_b34_122",
+      "kikuyu": "Kahora karĩ indo",
+      "english": "Patience (steadiness) has (brings) wealth",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about patience",
+      "cultural_notes": "Taking things slowly and maintaining steady effort will eventually lead to prosperity",
+      "sub_translations": [
+        {"kikuyu": "Kahora", "english": "slow, steady"},
+        {"kikuyu": "Indo", "english": "things, wealth"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #344"
+    },
+    {
+      "id": "ek_b34_123",
+      "kikuyu": "Kahora",
+      "english": "slow, steady",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - pace",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #344"
+    },
+    {
+      "id": "ek_b34_124",
+      "kikuyu": "Indo",
+      "english": "things, wealth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - possessions",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #344"
+    },
+    {
+      "id": "ek_b34_125",
+      "kikuyu": "Kĩndũ",
+      "english": "something",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - indefinite thing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #344"
+    }
+  ]
+}

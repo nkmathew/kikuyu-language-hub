@@ -1,0 +1,717 @@
+{
+  "batch": 52,
+  "source_files": "515-524",
+  "total_flashcards": 70,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 40,
+    "intermediate": 25,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b52_vocab_001",
+      "kikuyu": "gĩcigo",
+      "english": "area",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_002",
+      "kikuyu": "igego",
+      "english": "tooth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_003",
+      "kikuyu": "iyego",
+      "english": "a village in Murang'a",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_004",
+      "kikuyu": "kiugo",
+      "english": "word",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - language",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_005",
+      "kikuyu": "mbogo",
+      "english": "buffalo",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_006",
+      "kikuyu": "mũgogo",
+      "english": "log",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_007",
+      "kikuyu": "mũndũ mũgo",
+      "english": "diviner / traditional healer",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - profession",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_008",
+      "kikuyu": "mũrigo",
+      "english": "luggage",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_009",
+      "kikuyu": "mũtego",
+      "english": "trap",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_010",
+      "kikuyu": "mũtugo",
+      "english": "habit",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - behavior",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_011",
+      "kikuyu": "ndoogo",
+      "english": "smoke",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - substance",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #515"
+    },
+    {
+      "id": "ek_b52_vocab_012",
+      "kikuyu": "maitũguo",
+      "english": "your mother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_013",
+      "kikuyu": "arutaga",
+      "english": "does work",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_014",
+      "kikuyu": "wĩra",
+      "english": "work",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - activity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_015",
+      "kikuyu": "ũrĩkũ",
+      "english": "what",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_016",
+      "kikuyu": "thoguo",
+      "english": "your father",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_017",
+      "kikuyu": "nake",
+      "english": "and",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Conjunction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_018",
+      "kikuyu": "mũrũ wa nyũkwa",
+      "english": "your brother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_019",
+      "kikuyu": "ekaga",
+      "english": "does",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_020",
+      "kikuyu": "atĩa",
+      "english": "what",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_021",
+      "kikuyu": "mwarĩ wa nyũkwa",
+      "english": "your sister",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_022",
+      "kikuyu": "mũhiku",
+      "english": "married",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - status",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_023",
+      "kikuyu": "mũrĩ",
+      "english": "how many",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_024",
+      "kikuyu": "aigana",
+      "english": "are you",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_025",
+      "kikuyu": "kwanyu",
+      "english": "at your home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun phrase - location",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_026",
+      "kikuyu": "nũũ",
+      "english": "who",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_027",
+      "kikuyu": "mũkũrũ",
+      "english": "eldest",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - age",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #516"
+    },
+    {
+      "id": "ek_b52_vocab_028",
+      "kikuyu": "menya",
+      "english": "know",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_029",
+      "kikuyu": "kũmenya",
+      "english": "to know",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_030",
+      "kikuyu": "ũngĩ",
+      "english": "if you",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Conditional marker",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_031",
+      "kikuyu": "ingĩ",
+      "english": "if I",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Conditional marker",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_032",
+      "kikuyu": "ingĩmenya",
+      "english": "if I know/find out/learn",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_033",
+      "kikuyu": "ũngĩmenya",
+      "english": "if you know/find out/learn",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_034",
+      "kikuyu": "ingĩka",
+      "english": "what would I do",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_035",
+      "kikuyu": "ũngĩka",
+      "english": "what would you do",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_036",
+      "kikuyu": "angĩmenya",
+      "english": "if he/she knows/finds out/learns",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_037",
+      "kikuyu": "angĩka",
+      "english": "what would he/she do",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_038",
+      "kikuyu": "mũngĩmenya",
+      "english": "if you know/find out/learn",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_039",
+      "kikuyu": "mangĩmenya",
+      "english": "if they know/find out/learn",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_040",
+      "kikuyu": "tũngĩmenya",
+      "english": "if we find out",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_041",
+      "kikuyu": "kwaria",
+      "english": "speak",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_042",
+      "kikuyu": "gĩkũyũ",
+      "english": "Kikuyu",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - language",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_043",
+      "kikuyu": "njarie",
+      "english": "I would speak",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_044",
+      "kikuyu": "ũngĩhota",
+      "english": "if you could",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional ability",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_045",
+      "kikuyu": "gũtwarithia",
+      "english": "fly",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_046",
+      "kikuyu": "ndege",
+      "english": "aircraft",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_047",
+      "kikuyu": "ũngĩmĩtwara",
+      "english": "where would you take it",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_048",
+      "kikuyu": "kũ",
+      "english": "where",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #517"
+    },
+    {
+      "id": "ek_b52_vocab_049",
+      "kikuyu": "mũtahikanĩtie",
+      "english": "those who are not married",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Noun phrase - people",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #518"
+    },
+    {
+      "id": "ek_b52_vocab_050",
+      "kikuyu": "thimo",
+      "english": "proverb",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - wisdom",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_051",
+      "kikuyu": "mũũria",
+      "english": "one who asks/demands",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_052",
+      "kikuyu": "ngime",
+      "english": "mashed food",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_053",
+      "kikuyu": "mũkĩmo",
+      "english": "mashed food (painstakingly prepared)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_054",
+      "kikuyu": "gũkĩma",
+      "english": "to mash",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_055",
+      "kikuyu": "irio ngime",
+      "english": "any mashed food",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun phrase - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_056",
+      "kikuyu": "mũkĩmĩrĩ",
+      "english": "someone to mash food for you",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - person",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_057",
+      "kikuyu": "ũria",
+      "english": "ask",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #519"
+    },
+    {
+      "id": "ek_b52_vocab_058",
+      "kikuyu": "wendo",
+      "english": "love",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - emotion",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_059",
+      "kikuyu": "nîngwendete",
+      "english": "I love you",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_060",
+      "kikuyu": "ningûmicîte",
+      "english": "am missing you",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_061",
+      "kikuyu": "mūthaka",
+      "english": "beautiful",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_062",
+      "kikuyu": "tuhīkanie",
+      "english": "we marry",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_063",
+      "kikuyu": "toro",
+      "english": "let's go to sleep",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_064",
+      "kikuyu": "kanitha",
+      "english": "church",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_065",
+      "kikuyu": "tûinûke",
+      "english": "let's go home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_066",
+      "kikuyu": "twaranîrie",
+      "english": "let's talk",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_067",
+      "kikuyu": "atia",
+      "english": "how",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_068",
+      "kikuyu": "kûû",
+      "english": "where",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_069",
+      "kikuyu": "mūrata",
+      "english": "friend",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    },
+    {
+      "id": "ek_b52_vocab_070",
+      "kikuyu": "mahoya",
+      "english": "prayers",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - religious",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #521"
+    }
+  ]
+}

@@ -1,0 +1,767 @@
+{
+  "batch": 53,
+  "source_files": "525-534",
+  "total_flashcards": 75,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 40,
+    "intermediate": 30,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b53_vocab_001",
+      "kikuyu": "carĩai",
+      "english": "search for (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_002",
+      "kikuyu": "mũtĩgacarĩe",
+      "english": "don't search for (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_003",
+      "kikuyu": "etererai",
+      "english": "wait (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_004",
+      "kikuyu": "mũtĩgetere",
+      "english": "don't wait (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_005",
+      "kikuyu": "gerĩai",
+      "english": "try (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_006",
+      "kikuyu": "mũtĩgagerĩe",
+      "english": "don't try (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_007",
+      "kikuyu": "hingũrai",
+      "english": "open (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_008",
+      "kikuyu": "mũtĩkahingũre",
+      "english": "don't open (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_009",
+      "kikuyu": "hũrai",
+      "english": "beat (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_010",
+      "kikuyu": "mũtĩkahũre",
+      "english": "don't beat (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_011",
+      "kikuyu": "ĩkai naihenya",
+      "english": "do fast (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_012",
+      "kikuyu": "mũtĩgeke naihenya",
+      "english": "don't do it fast (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_013",
+      "kikuyu": "kinyai kĩracĩ",
+      "english": "step on the clutch (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_014",
+      "kikuyu": "mũtĩgakinye",
+      "english": "don't step on (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_015",
+      "kikuyu": "nyitai",
+      "english": "hold (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_016",
+      "kikuyu": "mũtĩkanyĩte",
+      "english": "don't hold (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_017",
+      "kikuyu": "rũgamai",
+      "english": "stop/stand (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_018",
+      "kikuyu": "mũtĩkarũgame",
+      "english": "don't stop/stand (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_019",
+      "kikuyu": "rũmĩrĩrai",
+      "english": "follow (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_020",
+      "kikuyu": "mũtĩkarũmĩrĩre",
+      "english": "don't follow (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_021",
+      "kikuyu": "tĩnĩai",
+      "english": "cut (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_022",
+      "kikuyu": "mũtĩgatĩnie",
+      "english": "don't cut (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_023",
+      "kikuyu": "gũrai",
+      "english": "buy (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_024",
+      "kikuyu": "mũtĩkagũre",
+      "english": "don't buy (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_025",
+      "kikuyu": "hingũrĩrai",
+      "english": "open for me (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_026",
+      "kikuyu": "mũtĩkahingũrĩre",
+      "english": "don't open for me (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_027",
+      "kikuyu": "thomai",
+      "english": "read (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #525"
+    },
+    {
+      "id": "ek_b53_vocab_028",
+      "kikuyu": "ica",
+      "english": "a period",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #526"
+    },
+    {
+      "id": "ek_b53_vocab_029",
+      "kikuyu": "ica ikuhî",
+      "english": "a short period",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun phrase - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #526"
+    },
+    {
+      "id": "ek_b53_vocab_030",
+      "kikuyu": "macica",
+      "english": "the waste products after getting juice or beer from cane, barley etc",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - food processing",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #526"
+    },
+    {
+      "id": "ek_b53_vocab_031",
+      "kikuyu": "ndirica",
+      "english": "window",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - building part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #526"
+    },
+    {
+      "id": "ek_b53_vocab_032",
+      "kikuyu": "ũthĩaga",
+      "english": "you go",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_033",
+      "kikuyu": "wĩra",
+      "english": "work",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - activity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_034",
+      "kikuyu": "kũ",
+      "english": "where",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_035",
+      "kikuyu": "ũkuuagwo",
+      "english": "you are transported",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - passive present",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_036",
+      "kikuyu": "nũ",
+      "english": "by",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Preposition",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_037",
+      "kikuyu": "mbaathĩ",
+      "english": "bus",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_038",
+      "kikuyu": "mũgithi",
+      "english": "train",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_039",
+      "kikuyu": "bikibiki",
+      "english": "motorbike",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_040",
+      "kikuyu": "rĩmwe na rĩmwe",
+      "english": "sometimes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_041",
+      "kikuyu": "magũrũ",
+      "english": "legs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #527"
+    },
+    {
+      "id": "ek_b53_vocab_042",
+      "kikuyu": "gũthua",
+      "english": "to limp",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_vocab_043",
+      "kikuyu": "kũgũrũ",
+      "english": "leg",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_vocab_044",
+      "kikuyu": "ngoro",
+      "english": "heart",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_vocab_045",
+      "kikuyu": "ti",
+      "english": "it is not",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - negative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_vocab_046",
+      "kikuyu": "gathua",
+      "english": "man's name",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - name",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_vocab_047",
+      "kikuyu": "rũciũ",
+      "english": "tomorrow",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_048",
+      "kikuyu": "mũthenya",
+      "english": "day",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_049",
+      "kikuyu": "mũthia",
+      "english": "last",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_050",
+      "kikuyu": "gũcenjania",
+      "english": "exchanging",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - gerund",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_051",
+      "kikuyu": "noti",
+      "english": "notes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - money",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_052",
+      "kikuyu": "tene",
+      "english": "old",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_053",
+      "kikuyu": "njerũ",
+      "english": "new",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_054",
+      "kikuyu": "kũrĩrĩkana",
+      "english": "it is said that",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - passive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_055",
+      "kikuyu": "ngũrũ",
+      "english": "old",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_056",
+      "kikuyu": "ciagĩrĩirwo",
+      "english": "they should be",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - passive obligation",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_057",
+      "kikuyu": "gũkorwo",
+      "english": "to be",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_058",
+      "kikuyu": "baribarĩ",
+      "english": "loose notes",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - money",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_059",
+      "kikuyu": "mirioni",
+      "english": "million",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_060",
+      "kikuyu": "magana",
+      "english": "hundred",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_061",
+      "kikuyu": "ikumi",
+      "english": "ten",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_062",
+      "kikuyu": "mũgwanja",
+      "english": "seven",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_063",
+      "kikuyu": "kinyanagia",
+      "english": "up to",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Preposition - time",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_064",
+      "kikuyu": "ũmũthĩ",
+      "english": "today",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_065",
+      "kikuyu": "cĩcoketio",
+      "english": "have been returned",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - passive perfect",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_066",
+      "kikuyu": "makĩrĩa",
+      "english": "more than",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Preposition - comparison",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_067",
+      "kikuyu": "nuthu",
+      "english": "half",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - fraction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_068",
+      "kikuyu": "cĩĩkũ",
+      "english": "where are",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_069",
+      "kikuyu": "cĩcokieĩ",
+      "english": "return them",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_070",
+      "kikuyu": "bengĩ",
+      "english": "bank",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_071",
+      "kikuyu": "hakuhi",
+      "english": "near",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - location",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_072",
+      "kikuyu": "ririkaniai",
+      "english": "remind (you all)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - 2nd person plural imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_073",
+      "kikuyu": "cúcũ",
+      "english": "grandmother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_074",
+      "kikuyu": "guka",
+      "english": "grandfather",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    },
+    {
+      "id": "ek_b53_vocab_075",
+      "kikuyu": "marataathĩ",
+      "english": "paper",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - material",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #529"
+    }
+  ]
+}

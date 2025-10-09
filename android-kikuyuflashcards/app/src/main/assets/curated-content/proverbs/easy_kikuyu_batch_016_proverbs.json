@@ -1,0 +1,26 @@
+{
+  "batch_info": {
+    "batch_number": "016",
+    "total_cards": 1,
+    "category": "proverbs",
+    "source_files": ["159.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T10:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "proverb-016-001",
+      "kikuyu": "Mũtĩ ũrũngagwo ũrĩ mũnini",
+      "english": "A tree is straightened when young (Good manners and discipline should be instilled in children when they are young)",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "notes": "Child-rearing wisdom: Do not wait till your kids are adults. Vocabulary: Mũtĩ (tree), Kũrũnga (to correct/make straight), Mũnini (small/young), Taara (give advice). Context example: Ndegwa nĩ anyitwo nĩ borithi (Ndegwa has been arrested by police) - Nĩ kĩĩ eka? (What has he done?) - Nĩ kũĩya mbeca (It's stealing money) - Mũtĩ ũrũngagwo ũrĩ mũnini (A tree is straightened when young)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 159",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    }
+  ]
+}

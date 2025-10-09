@@ -1,0 +1,167 @@
+{
+  "batch": 47,
+  "source_files": "465-474",
+  "total_flashcards": 15,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "Conditional_Tense", "Past_Tenses"],
+  "difficulty_distribution": {
+    "beginner": 5,
+    "intermediate": 8,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b47_conj_001",
+      "kikuyu": "ũngĩ + menya",
+      "english": "If you know (find out)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Conditional tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_conj_002",
+      "kikuyu": "ingĩ + menya",
+      "english": "If I know (find out)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Conditional tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_conj_003",
+      "kikuyu": "ũngĩmenya",
+      "english": "If you knew",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Conditional tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_conj_004",
+      "kikuyu": "ingĩmenya",
+      "english": "If I knew",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Conditional tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_conj_005",
+      "kikuyu": "ũngĩka",
+      "english": "what would you do",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Conditional question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_conj_006",
+      "kikuyu": "nĩ aciara",
+      "english": "she has given birth",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Present perfect",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_conj_007",
+      "kikuyu": "nĩ aciarire",
+      "english": "she gave birth (early today)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Past tense - today",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_conj_008",
+      "kikuyu": "nĩ araciarire",
+      "english": "she gave birth (yesterday)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Past tense - yesterday",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_conj_009",
+      "kikuyu": "nĩ aciarire",
+      "english": "She gave birth (long ago)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Past tense - distant",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_conj_010",
+      "kikuyu": "gũaka",
+      "english": "to build",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #474"
+    },
+    {
+      "id": "ek_b47_conj_011",
+      "kikuyu": "gũaka nyũmba",
+      "english": "to build a house",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive with object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #474"
+    },
+    {
+      "id": "ek_b47_conj_012",
+      "kikuyu": "mwakore nyũmba",
+      "english": "build for him/her",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - imperative with object",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #474"
+    },
+    {
+      "id": "ek_b47_conj_013",
+      "kikuyu": "aka",
+      "english": "build",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #474"
+    },
+    {
+      "id": "ek_b47_conj_014",
+      "kikuyu": "akai",
+      "english": "Build (you all)",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - imperative plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #474"
+    },
+    {
+      "id": "ek_b47_conj_015",
+      "kikuyu": "mwako",
+      "english": "a building",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Noun - result of action",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #474"
+    }
+  ]
+}

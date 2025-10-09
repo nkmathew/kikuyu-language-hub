@@ -1,0 +1,317 @@
+{
+  "batch": 39,
+  "source_files": "385-394",
+  "total_flashcards": 30,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 18,
+    "intermediate": 10,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b39_vocab_001",
+      "kikuyu": "njohi",
+      "english": "beer",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - alcoholic beverage",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #385"
+    },
+    {
+      "id": "ek_b39_vocab_002",
+      "kikuyu": "mũno",
+      "english": "much/very",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - intensity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #385"
+    },
+    {
+      "id": "ek_b39_vocab_003",
+      "kikuyu": "mũtikanyue",
+      "english": "do not drink",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Negative imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #385"
+    },
+    {
+      "id": "ek_b39_vocab_004",
+      "kikuyu": "mũtigane",
+      "english": "stop it/leave it alone",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Imperative - cessation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #385"
+    },
+    {
+      "id": "ek_b39_vocab_005",
+      "kikuyu": "wĩra",
+      "english": "work",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - employment",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_vocab_006",
+      "kikuyu": "mbaathi",
+      "english": "bus",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_vocab_007",
+      "kikuyu": "mũgithi",
+      "english": "train",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_vocab_008",
+      "kikuyu": "bikibiki",
+      "english": "motorbike",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - vehicle",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_vocab_009",
+      "kikuyu": "magũrũ",
+      "english": "feet",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_vocab_010",
+      "kikuyu": "rĩmwe na rĩmwe",
+      "english": "sometimes",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Adverb - frequency",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #386"
+    },
+    {
+      "id": "ek_b39_vocab_011",
+      "kikuyu": "ngari",
+      "english": "leopard",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #387"
+    },
+    {
+      "id": "ek_b39_vocab_012",
+      "kikuyu": "mwana",
+      "english": "baby/child",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - young one",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #387"
+    },
+    {
+      "id": "ek_b39_vocab_013",
+      "kikuyu": "akunyaga",
+      "english": "pinches/scratches",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - aggressive action",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #387"
+    },
+    {
+      "id": "ek_b39_vocab_014",
+      "kikuyu": "nyina",
+      "english": "mother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - parent",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #387"
+    },
+    {
+      "id": "ek_b39_vocab_015",
+      "kikuyu": "kiumia",
+      "english": "week",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time period",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #388"
+    },
+    {
+      "id": "ek_b39_vocab_016",
+      "kikuyu": "mũtĩ",
+      "english": "tree",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - plant",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_vocab_017",
+      "kikuyu": "ihiga",
+      "english": "stone",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - mineral",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_vocab_018",
+      "kikuyu": "maĩ",
+      "english": "water",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - liquid",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_vocab_019",
+      "kikuyu": "mbeca",
+      "english": "money",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - currency",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_vocab_020",
+      "kikuyu": "kahĩũ",
+      "english": "small knife",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - tool",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_vocab_021",
+      "kikuyu": "mũndũ",
+      "english": "person",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - human being",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #389"
+    },
+    {
+      "id": "ek_b39_vocab_022",
+      "kikuyu": "mũũru",
+      "english": "bad",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - negative quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #390"
+    },
+    {
+      "id": "ek_b39_vocab_023",
+      "kikuyu": "mũgeni",
+      "english": "visitor",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - guest",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #391"
+    },
+    {
+      "id": "ek_b39_vocab_024",
+      "kikuyu": "thukuru",
+      "english": "school",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - educational institution",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_vocab_025",
+      "kikuyu": "mwarimũ",
+      "english": "teacher",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Profession - educator",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_vocab_026",
+      "kikuyu": "gĩthomo",
+      "english": "subject",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - academic discipline",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_vocab_027",
+      "kikuyu": "mũratagwo",
+      "english": "friend",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - companion",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_vocab_028",
+      "kikuyu": "mũthako",
+      "english": "game",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - recreational activity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_vocab_029",
+      "kikuyu": "nguo",
+      "english": "clothes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #392"
+    },
+    {
+      "id": "ek_b39_vocab_030",
+      "kikuyu": "mahoya",
+      "english": "prayers",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - religious practice",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #394"
+    }
+  ]
+}

@@ -1,0 +1,561 @@
+{
+  "batch": 28,
+  "source_files": "275-284",
+  "total_flashcards": 45,
+  "categories": ["vocabulary", "phrases", "conjugations"],
+  "difficulty_levels": ["beginner", "intermediate", "advanced"],
+  "cultural_context": "Includes COVID-19 vocabulary, professions, storytelling traditions, and everyday expressions",
+  "created_date": "2025-10-08",
+  "last_updated": "2025-10-08T16:00:00Z",
+  "flashcards": [
+    {
+      "id": "ek_b28_001",
+      "kikuyu": "Cookia kĩũria gĩkĩ",
+      "english": "Answer this question",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Command phrase for classroom or conversation",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #275"
+    },
+    {
+      "id": "ek_b28_002",
+      "kikuyu": "cookia",
+      "english": "answer (imperative)",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "From verb kũcookia - to answer, respond",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #275"
+    },
+    {
+      "id": "ek_b28_003",
+      "kikuyu": "kĩũria",
+      "english": "question",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "notes": "Noun class",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #275"
+    },
+    {
+      "id": "ek_b28_004",
+      "kikuyu": "Wathuura bũrũri ũcio nĩkĩ?",
+      "english": "Why did you choose that country?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Question asking about country selection",
+      "sub_translations": [
+        {"kikuyu": "wathuura", "english": "you chose"},
+        {"kikuyu": "bũrũri", "english": "country"},
+        {"kikuyu": "ũcio", "english": "that"},
+        {"kikuyu": "nĩkĩ", "english": "why?"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #275"
+    },
+    {
+      "id": "ek_b28_005",
+      "kikuyu": "thuura",
+      "english": "choose",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - to choose, select",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #275"
+    },
+    {
+      "id": "ek_b28_006",
+      "kikuyu": "bũrũri",
+      "english": "country",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "notes": "Singular noun",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #275"
+    },
+    {
+      "id": "ek_b28_007",
+      "kikuyu": "nĩkĩ?",
+      "english": "why?",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #275"
+    },
+    {
+      "id": "ek_b28_008",
+      "kikuyu": "Ugai ûrîa mûreka kûu",
+      "english": "Say what you are doing there",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Command asking someone to explain their actions",
+      "sub_translations": [
+        {"kikuyu": "ugai", "english": "say (command)"},
+        {"kikuyu": "ûrîa", "english": "what"},
+        {"kikuyu": "mûreka", "english": "you are doing"},
+        {"kikuyu": "kûu", "english": "there"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #276"
+    },
+    {
+      "id": "ek_b28_009",
+      "kikuyu": "Andĩka ciugo nyingĩ",
+      "english": "Write many words",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Educational instruction",
+      "sub_translations": [
+        {"kikuyu": "andĩka", "english": "write (command)"},
+        {"kikuyu": "ciugo", "english": "words"},
+        {"kikuyu": "nyingĩ", "english": "many"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #277"
+    },
+    {
+      "id": "ek_b28_010",
+      "kikuyu": "tha",
+      "english": "mercy",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Religious and spiritual vocabulary",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #277"
+    },
+    {
+      "id": "ek_b28_011",
+      "kikuyu": "Ngai tũiguĩre tha",
+      "english": "God have mercy (on us)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Prayer phrase",
+      "sub_translations": [
+        {"kikuyu": "Ngai", "english": "God"},
+        {"kikuyu": "tũiguĩre", "english": "have mercy on us"},
+        {"kikuyu": "tha", "english": "mercy"}
+      ],
+      "cultural_notes": "Traditional Kikuyu prayer expression",
+      "quality": 4.9,
+      "source": "Easy Kikuyu #277"
+    },
+    {
+      "id": "ek_b28_012",
+      "kikuyu": "Njuma",
+      "english": "Saturday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Days of the week",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_013",
+      "kikuyu": "Mawira",
+      "english": "Jobs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "notes": "Plural form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_014",
+      "kikuyu": "(Nĩĩ) Ndĩ bundi",
+      "english": "I am a handyman (carpenter, plumber etc.)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession introduction",
+      "sub_translations": [
+        {"kikuyu": "Nĩĩ", "english": "I (emphatic, optional)"},
+        {"kikuyu": "Ndĩ", "english": "I am"},
+        {"kikuyu": "bundi", "english": "handyman, craftsman"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_015",
+      "kikuyu": "(Nĩĩ) Ndĩ bundi wa mbao",
+      "english": "I am a carpenter",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Specific profession",
+      "sub_translations": [
+        {"kikuyu": "bundi", "english": "craftsman"},
+        {"kikuyu": "wa mbao", "english": "of wood"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_016",
+      "kikuyu": "Mbao",
+      "english": "wood, timber",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Materials",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_017",
+      "kikuyu": "Cuuma",
+      "english": "metal",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Materials",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_018",
+      "kikuyu": "(Wee) wĩ mũrĩmi",
+      "english": "You are a farmer",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession description",
+      "sub_translations": [
+        {"kikuyu": "Wee", "english": "you (emphatic, optional)"},
+        {"kikuyu": "wĩ", "english": "you are"},
+        {"kikuyu": "mũrĩmi", "english": "farmer"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_019",
+      "kikuyu": "(We) nĩ ndereva",
+      "english": "He/she is a driver",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Third person profession",
+      "sub_translations": [
+        {"kikuyu": "We", "english": "he/she"},
+        {"kikuyu": "nĩ", "english": "is"},
+        {"kikuyu": "ndereva", "english": "driver"}
+      ],
+      "notes": "ndereva borrowed from English 'driver'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_020",
+      "kikuyu": "(Inyuĩ) mwĩ atongoria",
+      "english": "You (plural) are leaders",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Plural profession",
+      "sub_translations": [
+        {"kikuyu": "Inyuĩ", "english": "you (plural, optional)"},
+        {"kikuyu": "mwĩ", "english": "you are (plural)"},
+        {"kikuyu": "atongoria", "english": "leaders"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_021",
+      "kikuyu": "(O) nĩ borithi",
+      "english": "They are police (men/women)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Plural third person profession",
+      "notes": "borithi from Swahili 'polisi'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_022",
+      "kikuyu": "Ũyũ nĩ mũbĩa",
+      "english": "This is a priest (Catholic)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession with demonstrative",
+      "sub_translations": [
+        {"kikuyu": "Ũyũ", "english": "this (person)"},
+        {"kikuyu": "nĩ", "english": "is"},
+        {"kikuyu": "mũbĩa", "english": "priest"}
+      ],
+      "cultural_notes": "Specifically Catholic priest",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #278"
+    },
+    {
+      "id": "ek_b28_023",
+      "kikuyu": "Mathiki",
+      "english": "mask",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "COVID-19 vocabulary",
+      "notes": "From English 'mask'",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #279"
+    },
+    {
+      "id": "ek_b28_024",
+      "kikuyu": "Karembeko",
+      "english": "mask (also used for bandage)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Alternative word for mask",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #279"
+    },
+    {
+      "id": "ek_b28_025",
+      "kikuyu": "Mbarakoa",
+      "english": "mask",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "COVID-19 vocabulary",
+      "notes": "From Swahili 'Barakoa'",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #279"
+    },
+    {
+      "id": "ek_b28_026",
+      "kikuyu": "Kiugo",
+      "english": "a word, a statement",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "notes": "Singular; plural: Ciugo",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #280"
+    },
+    {
+      "id": "ek_b28_027",
+      "kikuyu": "mathekania",
+      "english": "funny things, comedy",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Entertainment vocabulary",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #280"
+    },
+    {
+      "id": "ek_b28_028",
+      "kikuyu": "Churchill nĩ mũndũ wa mathekania",
+      "english": "Churchill is a comedian",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession description",
+      "sub_translations": [
+        {"kikuyu": "mũndũ", "english": "person"},
+        {"kikuyu": "wa mathekania", "english": "of comedy/funny things"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #280"
+    },
+    {
+      "id": "ek_b28_029",
+      "kikuyu": "Theka",
+      "english": "laugh",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - to laugh",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #280"
+    },
+    {
+      "id": "ek_b28_030",
+      "kikuyu": "Nĩ tũtheke hamwe",
+      "english": "Let us laugh together",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Social invitation",
+      "sub_translations": [
+        {"kikuyu": "Nĩ", "english": "let (hortative)"},
+        {"kikuyu": "tũtheke", "english": "we laugh"},
+        {"kikuyu": "hamwe", "english": "together"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #280"
+    },
+    {
+      "id": "ek_b28_031",
+      "kikuyu": "Gũkinya",
+      "english": "to arrive",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - said with monotone",
+      "notes": "Tone distinguishes from 'to step on'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #280"
+    },
+    {
+      "id": "ek_b28_032",
+      "kikuyu": "GũkiNYA",
+      "english": "to step on",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - said with rising tone on 'NYA'",
+      "notes": "Same spelling, different tone and meaning",
+      "cultural_notes": "Important tonal distinction in Kikuyu",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #280"
+    },
+    {
+      "id": "ek_b28_033",
+      "kikuyu": "Tene tene rĩ",
+      "english": "A long time ago",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Traditional storytelling opening",
+      "notes": "Listener should respond with 'ĩ'",
+      "cultural_notes": "Classic opening for traditional stories",
+      "quality": 4.9,
+      "source": "Easy Kikuyu #281"
+    },
+    {
+      "id": "ek_b28_034",
+      "kikuyu": "kwarĩ na mũtongoria",
+      "english": "there was a leader",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Storytelling phrase",
+      "sub_translations": [
+        {"kikuyu": "kwarĩ", "english": "there was"},
+        {"kikuyu": "na", "english": "with/and"},
+        {"kikuyu": "mũtongoria", "english": "leader"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #281"
+    },
+    {
+      "id": "ek_b28_035",
+      "kikuyu": "bũrũriinĩ wa Kũraya",
+      "english": "in a far away country (anywhere, even in Africa)",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Geographic expression",
+      "notes": "Different from 'wa Rũraya' (outside Africa)",
+      "cultural_notes": "Distinguishes distant but African vs non-African locations",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #281"
+    },
+    {
+      "id": "ek_b28_036",
+      "kikuyu": "Kũhahuka",
+      "english": "To jump or freeze in fear, with an increase in heartbeat",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Emotional state verb",
+      "cultural_notes": "Specific fear response vocabulary",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #281"
+    },
+    {
+      "id": "ek_b28_037",
+      "kikuyu": "Kũhaya",
+      "english": "to cough",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Health/body functions",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #281"
+    },
+    {
+      "id": "ek_b28_038",
+      "kikuyu": "Gwathimũra",
+      "english": "to sneeze",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Health/body functions",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #281"
+    },
+    {
+      "id": "ek_b28_039",
+      "kikuyu": "magwatĩtio Kobidi-19",
+      "english": "infected with COVID-19",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Health/pandemic vocabulary",
+      "sub_translations": [
+        {"kikuyu": "magwatĩtio", "english": "were caught/infected"},
+        {"kikuyu": "Kobidi-19", "english": "COVID-19"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #282"
+    },
+    {
+      "id": "ek_b28_040",
+      "kikuyu": "mĩrongo ĩtano na kenda",
+      "english": "fifty nine (59)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Numbers",
+      "sub_translations": [
+        {"kikuyu": "mĩrongo ĩtano", "english": "fifty (5 tens)"},
+        {"kikuyu": "na kenda", "english": "and nine"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #282"
+    },
+    {
+      "id": "ek_b28_041",
+      "kikuyu": "Tũtingĩtũũra nyũmba tũgĩtigĩra kobidi",
+      "english": "We cannot remain indoors indefinitely fearing COVID",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Pandemic discussion",
+      "sub_translations": [
+        {"kikuyu": "Tũtingĩtũũra", "english": "we cannot remain"},
+        {"kikuyu": "nyũmba", "english": "indoors/house"},
+        {"kikuyu": "tũgĩtigĩra", "english": "fearing"},
+        {"kikuyu": "kobidi", "english": "COVID"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #283"
+    },
+    {
+      "id": "ek_b28_042",
+      "kikuyu": "twĩthambage moko kaingĩ",
+      "english": "wash hands often",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Health advice",
+      "sub_translations": [
+        {"kikuyu": "twĩthambage", "english": "let us wash"},
+        {"kikuyu": "moko", "english": "hands"},
+        {"kikuyu": "kaingĩ", "english": "often, frequently"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #283"
+    },
+    {
+      "id": "ek_b28_043",
+      "kikuyu": "Wagatano",
+      "english": "Friday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Days of the week",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #284"
+    },
+    {
+      "id": "ek_b28_044",
+      "kikuyu": "Hota",
+      "english": "able",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Capability",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #284"
+    },
+    {
+      "id": "ek_b28_045",
+      "kikuyu": "Kũhota",
+      "english": "to be able / to succeed",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - capability or success",
+      "notes": "Has dual meaning",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #284"
+    }
+  ]
+}

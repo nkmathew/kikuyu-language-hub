@@ -1,0 +1,467 @@
+{
+  "batch": 47,
+  "source_files": "465-474",
+  "total_flashcards": 45,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 20,
+    "intermediate": 20,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b47_vocab_001",
+      "kikuyu": "menya",
+      "english": "know",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_vocab_002",
+      "kikuyu": "kũmenya",
+      "english": "to know",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_vocab_003",
+      "kikuyu": "kwanyu",
+      "english": "your home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - location with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #466"
+    },
+    {
+      "id": "ek_b47_vocab_004",
+      "kikuyu": "gwitũ",
+      "english": "our home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - location with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #466"
+    },
+    {
+      "id": "ek_b47_vocab_005",
+      "kikuyu": "mũciĩ",
+      "english": "home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - location",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #466"
+    },
+    {
+      "id": "ek_b47_vocab_006",
+      "kikuyu": "nyũmba",
+      "english": "house",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - building",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #466"
+    },
+    {
+      "id": "ek_b47_vocab_007",
+      "kikuyu": "mwaka",
+      "english": "year",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_008",
+      "kikuyu": "ngwĩhoka",
+      "english": "I hope",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_009",
+      "kikuyu": "mwĩhoko",
+      "english": "hope",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - emotion",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_010",
+      "kikuyu": "mũrarũgire",
+      "english": "you jumped (plural)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_011",
+      "kikuyu": "ũrarũgire",
+      "english": "you jumped (singular)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_012",
+      "kikuyu": "ndĩrarũgire",
+      "english": "I jumped",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_013",
+      "kikuyu": "wega",
+      "english": "good",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_014",
+      "kikuyu": "hinya wa ngai",
+      "english": "power of God",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - religious",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_015",
+      "kikuyu": "twarie",
+      "english": "let's speak",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - imperative plural",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_vocab_016",
+      "kikuyu": "ndũnyũ",
+      "english": "market",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_017",
+      "kikuyu": "thoko",
+      "english": "market (borrowed from Swahili - Soko)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_018",
+      "kikuyu": "ndoka",
+      "english": "I have come",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present perfect",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_019",
+      "kikuyu": "maitũ",
+      "english": "mother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_020",
+      "kikuyu": "ngwenderie",
+      "english": "I sell to you",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_021",
+      "kikuyu": "ndĩrenda",
+      "english": "I want",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_022",
+      "kikuyu": "ngwenda",
+      "english": "I want",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_023",
+      "kikuyu": "mboga",
+      "english": "cabbage",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_024",
+      "kikuyu": "waru",
+      "english": "potatoes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_025",
+      "kikuyu": "karati",
+      "english": "carrots",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_026",
+      "kikuyu": "nyanya",
+      "english": "tomatoes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_027",
+      "kikuyu": "ngũriganĩĩrwo",
+      "english": "I had forgotten",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - past perfect",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_028",
+      "kikuyu": "gĩtĩngũrũ",
+      "english": "onions",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_029",
+      "kikuyu": "marenge",
+      "english": "pumpkins",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_030",
+      "kikuyu": "mega",
+      "english": "good",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_031",
+      "kikuyu": "rĩmwe",
+      "english": "one",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_032",
+      "kikuyu": "reke",
+      "english": "let me",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_vocab_033",
+      "kikuyu": "ũhoro",
+      "english": "information",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - communication",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #470"
+    },
+    {
+      "id": "ek_b47_vocab_034",
+      "kikuyu": "gũciara",
+      "english": "to give birth",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_vocab_035",
+      "kikuyu": "mũciari",
+      "english": "a parent (one who gives birth)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_vocab_036",
+      "kikuyu": "aciara",
+      "english": "she has given birth",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present perfect",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_vocab_037",
+      "kikuyu": "aciarire",
+      "english": "she gave birth (early today)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_vocab_038",
+      "kikuyu": "araciarire",
+      "english": "she gave birth (yesterday)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #471"
+    },
+    {
+      "id": "ek_b47_vocab_039",
+      "kikuyu": "kanyanya",
+      "english": "a friend (bosom buddy); a small tomato",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person/food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #472"
+    },
+    {
+      "id": "ek_b47_vocab_040",
+      "kikuyu": "thoguo",
+      "english": "your father",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_vocab_041",
+      "kikuyu": "maitũgwo",
+      "english": "your mother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_vocab_042",
+      "kikuyu": "mwarĩ wa nyũkwa",
+      "english": "your sister",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - family",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_vocab_043",
+      "kikuyu": "mũrũ wa nyũkwa",
+      "english": "your brother",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - family",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_vocab_044",
+      "kikuyu": "mwarĩ wa thoguo",
+      "english": "your half sister",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - family",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_vocab_045",
+      "kikuyu": "mũrũ wa thoguo",
+      "english": "your half brother",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - family",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #473"
+    }
+  ]
+}

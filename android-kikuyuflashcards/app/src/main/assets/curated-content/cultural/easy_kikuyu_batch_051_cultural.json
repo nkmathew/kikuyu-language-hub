@@ -1,0 +1,367 @@
+{
+  "batch": 51,
+  "source_files": "505-514",
+  "total_flashcards": 35,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Cultural", "Story", "Body_Parts", "Monosyllables"],
+  "difficulty_distribution": {
+    "beginner": 20,
+    "intermediate": 12,
+    "advanced": 3
+  },
+  "flashcards": [
+    {
+      "id": "ek_b51_cultural_001",
+      "kikuyu": "karũgano ka wambũi mĩcore na njogu",
+      "english": "story of zebra and elephant",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional story title",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_cultural_002",
+      "kikuyu": "wambũi mĩcore",
+      "english": "zebra",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal in traditional story",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_cultural_003",
+      "kikuyu": "njogu",
+      "english": "elephant",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal in traditional story",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_cultural_004",
+      "kikuyu": "hĩtĩ",
+      "english": "hyena",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal in traditional story",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_cultural_005",
+      "kikuyu": "mĩkarara",
+      "english": "stripes",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Physical characteristic",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_cultural_006",
+      "kikuyu": "rũracio",
+      "english": "dowry",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional marriage practice",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_cultural_007",
+      "kikuyu": "mũcemanio",
+      "english": "meeting",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Social gathering",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_cultural_008",
+      "kikuyu": "mĩarĩo",
+      "english": "speech(es)",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Communication",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_cultural_009",
+      "kikuyu": "kĩgeranĩo",
+      "english": "exam/test",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Education",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_cultural_010",
+      "kikuyu": "mwambĩrĩrĩo",
+      "english": "Monday/beginning",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Time concept",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_cultural_011",
+      "kikuyu": "kĩero",
+      "english": "thigh",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_012",
+      "kikuyu": "cĩerĩo",
+      "english": "thighs",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_013",
+      "kikuyu": "ngero",
+      "english": "crime",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Social concept",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_014",
+      "kikuyu": "ikenĩrĩo",
+      "english": "paradise",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Religious concept",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_015",
+      "kikuyu": "ĩhoerĩo",
+      "english": "prayer house",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Religious place",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_016",
+      "kikuyu": "rĩoherĩo",
+      "english": "forgiveness",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Religious concept",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_017",
+      "kikuyu": "mũherĩo",
+      "english": "breath",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body function",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_018",
+      "kikuyu": "gĩkero",
+      "english": "loud speaker/megaphone",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Technology",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_019",
+      "kikuyu": "kĩng'eerõ",
+      "english": "slaughterhouse",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Place",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_020",
+      "kikuyu": "mũtĩero",
+      "english": "type of a tree (Brown Olive)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Nature",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_021",
+      "kikuyu": "gĩtĩoero",
+      "english": "stew",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_022",
+      "kikuyu": "njohĩero",
+      "english": "waist",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_023",
+      "kikuyu": "mũmerĩo",
+      "english": "throat",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_024",
+      "kikuyu": "ĩhererĩo",
+      "english": "place of confession/repentance",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Religious place",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_025",
+      "kikuyu": "ĩnoorĩo",
+      "english": "place for sharpening",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Workshop",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #511"
+    },
+    {
+      "id": "ek_b51_cultural_026",
+      "kikuyu": "kanua",
+      "english": "mouth",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_027",
+      "kikuyu": "rũrĩmi",
+      "english": "tongue",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_028",
+      "kikuyu": "mũmero",
+      "english": "throat",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_029",
+      "kikuyu": "ĩgego",
+      "english": "tooth",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_030",
+      "kikuyu": "magego",
+      "english": "teeth",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_031",
+      "kikuyu": "mata",
+      "english": "saliva",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body fluid",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_032",
+      "kikuyu": "nda",
+      "english": "stomach",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_033",
+      "kikuyu": "nyongo",
+      "english": "gall bladder",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_034",
+      "kikuyu": "ini",
+      "english": "liver",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    },
+    {
+      "id": "ek_b51_cultural_035",
+      "kikuyu": "mara",
+      "english": "intestines",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #512"
+    }
+  ]
+}

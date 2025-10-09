@@ -1,0 +1,68 @@
+{
+  "batch_info": {
+    "batch_number": "014",
+    "total_cards": 4,
+    "category": "vocabulary",
+    "source_files": ["135.txt", "138.txt", "139.txt", "141.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T09:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-014-001",
+      "kikuyu": "Kikuyu Pronunciation Guide",
+      "english": "Vowels: a (Africa), e (Estuary), i (India), o (office), u (ooze), ĩ (Ate/Gate), ũ (Owner). Consonants: B (soft bilabial fricative like soft V/W), C (sh/ch sound)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Nĩtwĩrĩririkanie (Let us remember). 7 cardinal vowels with tilde marking different openness degrees. B is NOT hard English B but soft like mahaBharat. C is between sh/ch sounds",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 135",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-014-002",
+      "kikuyu": "Digestive System (Ciĩga cia njĩra ya irio)",
+      "english": "Inĩ (liver), Nyongo (gallbladder), Nda (stomach), Rwarĩũngũ (pancreas), Mara (small intestine), Mũtũra (large intestine), Gataathĩra (appendix), Mũkwa (rectum), Itina (anus - impolite)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Ciĩga cia njĩra ya irio = 'parts of the path of food' (digestive system). Itina is impolite to use in public. Complete anatomical vocabulary",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 138",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-014-003",
+      "kikuyu": "Homophones & Minimal Pairs",
+      "english": "Rĩũ (now), Mũrĩũ (drunk person), Hĩũ (cooked/ready to eat), Kĩũ (that big one). Verbs: Ĩra (tell), Rĩra (cry), Rarĩra (sleep without supper), Ĩkĩrĩra (put in container for someone)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "notes": "Illustrates importance of correct tone/length/prefix. Examples: Rĩũ ngũrĩa kĩĩ? (What will I eat now?), Rĩra hanini (Cry a little), Rarĩra ũkarĩa rũciũ (Sleep without eating and eat tomorrow)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 139",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-014-004",
+      "kikuyu": "Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)",
+      "english": "Gĩtĩ/Itĩ (chair/chairs), Gĩkombe/Ikombe (cup/cups), Kĩrĩma/Ciĩma (mountain/mountains), Kĩratũ/Cĩratũ (shoe/shoes), Gĩtonga/Itonga (tycoon/tycoons), Kĩhĩĩ/Cĩhĩĩ (youth/youths), Kĩng'angĩ/Ciũng'angĩ (crocodile/crocodiles)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Class 4: Kĩ-/Gĩ- (singular) → Ci-/I- (plural). Demonstratives: Gĩkĩ/Kĩkĩ (this) → Ici/Cici (these). Numbers: Kĩmwe (one) → Igĩrĩ (two). Abstract nouns: Kĩeha (sadness), Gĩkeno (happiness)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 141",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      }
+    }
+  ]
+}

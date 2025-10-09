@@ -1,0 +1,667 @@
+{
+  "batch": 51,
+  "source_files": "505-514",
+  "total_flashcards": 65,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 35,
+    "intermediate": 25,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b51_vocab_001",
+      "kikuyu": "karũgano",
+      "english": "story",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - literature",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_002",
+      "kikuyu": "wambũi mĩcore",
+      "english": "zebra",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_003",
+      "kikuyu": "njogu",
+      "english": "elephant",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_004",
+      "kikuyu": "ĩmwe",
+      "english": "one",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_005",
+      "kikuyu": "nyamũ",
+      "english": "animal",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - living thing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_006",
+      "kikuyu": "thaka",
+      "english": "beautiful",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_007",
+      "kikuyu": "bũrũriinĩ",
+      "english": "in the country",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - location",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_008",
+      "kikuyu": "rũũa",
+      "english": "hide/skin",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_009",
+      "kikuyu": "mĩkarara",
+      "english": "stripes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - pattern",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_010",
+      "kikuyu": "mĩerũ",
+      "english": "black",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - color",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_011",
+      "kikuyu": "mĩirũ",
+      "english": "white",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - color",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_012",
+      "kikuyu": "ciamĩroragĩra",
+      "english": "looked at in awe",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_013",
+      "kikuyu": "ĩgegete",
+      "english": "in awe",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Adverb - manner",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_014",
+      "kikuyu": "mathekania",
+      "english": "funny",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_015",
+      "kikuyu": "matheke",
+      "english": "laugh",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - action",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_016",
+      "kikuyu": "mbaru",
+      "english": "ribs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_017",
+      "kikuyu": "mamĩũragia",
+      "english": "they used to ask it",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - past continuous",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_018",
+      "kikuyu": "mĩcore",
+      "english": "striped one",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_019",
+      "kikuyu": "ũhũraga",
+      "english": "you fight",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_020",
+      "kikuyu": "thũ",
+      "english": "enemies",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - people",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_021",
+      "kikuyu": "yarũgamaga",
+      "english": "would stand",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past habitual",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_022",
+      "kikuyu": "magũrũ",
+      "english": "legs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_023",
+      "kikuyu": "mbere",
+      "english": "front",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - direction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_024",
+      "kikuyu": "ĩgaikĩia",
+      "english": "kicked",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_025",
+      "kikuyu": "mateke",
+      "english": "kicks",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - action",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_026",
+      "kikuyu": "thutha",
+      "english": "behind",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - direction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_027",
+      "kikuyu": "cĩagũagĩa",
+      "english": "fell down",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_028",
+      "kikuyu": "mũtheko",
+      "english": "laughter",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - action",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_029",
+      "kikuyu": "hĩtĩ",
+      "english": "hyena",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_030",
+      "kikuyu": "mũgambo",
+      "english": "voice",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_031",
+      "kikuyu": "mũnene",
+      "english": "loud",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_032",
+      "kikuyu": "gũkĩra",
+      "english": "than",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Preposition - comparison",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_033",
+      "kikuyu": "ũmũthĩ",
+      "english": "today",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_034",
+      "kikuyu": "yarĩrikana",
+      "english": "remembers",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_035",
+      "kikuyu": "ĩrũaga",
+      "english": "fights",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_036",
+      "kikuyu": "ĩthekaga",
+      "english": "laughs",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_037",
+      "kikuyu": "ĩkĩ",
+      "english": "alone",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - manner",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_038",
+      "kikuyu": "ũtuko",
+      "english": "night",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #505"
+    },
+    {
+      "id": "ek_b51_vocab_039",
+      "kikuyu": "kaingangio",
+      "english": "gizzard",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_040",
+      "kikuyu": "rũracio",
+      "english": "dowry",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - cultural practice",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_041",
+      "kikuyu": "icio",
+      "english": "those ones",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Demonstrative pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_042",
+      "kikuyu": "ũcio",
+      "english": "that one",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Demonstrative pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_043",
+      "kikuyu": "gũkirio",
+      "english": "to be made quiet",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - passive infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_044",
+      "kikuyu": "kũmundio",
+      "english": "to be lit (fire)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - passive infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_045",
+      "kikuyu": "kũgio",
+      "english": "to be bothered (by someone)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - passive infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_046",
+      "kikuyu": "gũikio",
+      "english": "to be thrown/pushed (by someone)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - passive infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_vocab_047",
+      "kikuyu": "bundi",
+      "english": "handyman",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_048",
+      "kikuyu": "mbaũ",
+      "english": "wood, timber",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - material",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_049",
+      "kikuyu": "cũma",
+      "english": "metal",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - material",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_050",
+      "kikuyu": "mũrĩmi",
+      "english": "farmer",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_051",
+      "kikuyu": "ndereba",
+      "english": "driver",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_052",
+      "kikuyu": "atongoria",
+      "english": "leaders",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_053",
+      "kikuyu": "borithi",
+      "english": "police (men/women)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_054",
+      "kikuyu": "mũbĩa",
+      "english": "priest (catholic)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - profession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #507"
+    },
+    {
+      "id": "ek_b51_vocab_055",
+      "kikuyu": "mũcemanio",
+      "english": "meeting",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - event",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_056",
+      "kikuyu": "mĩarĩo",
+      "english": "speech(es)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - communication",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_057",
+      "kikuyu": "irio",
+      "english": "food",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - sustenance",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_058",
+      "kikuyu": "kĩgeranĩo",
+      "english": "exam/test",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - education",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_059",
+      "kikuyu": "umĩthĩo",
+      "english": "benefit/profit",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - abstract",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_060",
+      "kikuyu": "gĩcĩcĩo",
+      "english": "mirror",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_061",
+      "kikuyu": "cĩũgĩo",
+      "english": "swing",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_062",
+      "kikuyu": "kĩhonĩo",
+      "english": "remedy",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - medicine",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_063",
+      "kikuyu": "mwambĩrĩrĩo",
+      "english": "Monday/beginning",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #508"
+    },
+    {
+      "id": "ek_b51_vocab_064",
+      "kikuyu": "kwenda",
+      "english": "to want, to love",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_vocab_065",
+      "kikuyu": "ngwendete",
+      "english": "I love you",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    }
+  ]
+}
