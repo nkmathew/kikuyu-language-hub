@@ -1,0 +1,52 @@
+{
+  "batch_info": {
+    "batch_number": "018",
+    "total_cards": 2,
+    "category": "grammar",
+    "source_files": ["176.txt", "180.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T11:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "grammar-018-001",
+      "kikuyu": "Future Tenses - Near vs Distant",
+      "english": "Near Future (-kũ-) = later today: Atumia nĩ mekũ-uga mbu (Women will make distress sound), Wee nĩ ũkũ-huha mĩruri (You will whistle). Distant Future (-ka-) = tomorrow/later: Atumia nĩ makã-uga mbu, Wee nĩ ũka-huha mĩruri",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "notes": "Two future tense markers: -kũ- (near future/later today) vs -ka- (distant future/tomorrow or later). Pattern applies to all verbs. Examples: ikũ-gamba → ika-gamba (will crow), tũkũ-ina → tũka-ina (will sing)",
+      "quality_score": 4.8,
+      "examples": [
+        {
+          "kikuyu": "Ngengere nĩ ikũ-gamba",
+          "english": "The rooster will crow (later today)",
+          "notes": "Near future with -kũ-"
+        },
+        {
+          "kikuyu": "Tũka-ina karwĩmbo kega",
+          "english": "We will sing a nice song (tomorrow)",
+          "notes": "Distant future with -ka-"
+        }
+      ],
+      "source": {
+        "origin": "Easy Kikuyu Lesson 176",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:00:00Z"
+      }
+    },
+    {
+      "id": "grammar-018-002",
+      "kikuyu": "Kaĩ Question Particle & Emphatic Marker",
+      "english": "Kaĩ = question prefix. Adding 'ĩ' at end = emphatic statement. Examples: Kwĩna heho (It is cold) → Kaĩ kwĩna heho? (Is it cold?) → Kaĩ kwĩna heho-ĩ! (It is really cold!)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "notes": "Kaĩ prefix turns statements into questions. Adding final 'ĩ' cancels the question back to emphatic statement. Pattern: Statement → Kaĩ + statement? (question) → Kaĩ + statement + ĩ! (emphatic)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 180",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:00:00Z"
+      }
+    }
+  ]
+}

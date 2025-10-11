@@ -1,0 +1,217 @@
+{
+  "batch": 44,
+  "source_files": "435-444",
+  "total_flashcards": 20,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Phrases", "Conversation", "News", "Love"],
+  "difficulty_distribution": {
+    "beginner": 8,
+    "intermediate": 10,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b44_phrase_001",
+      "kikuyu": "Wagatatũ arĩ mũthũngũ",
+      "english": "The third one was a white man",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story description",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_phrase_002",
+      "kikuyu": "Mamenyanĩĩre 'Facebook'",
+      "english": "They knew each other through 'Facebook'",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "Social media reference",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_phrase_003",
+      "kikuyu": "Mũndũ agĩkuua kairĩtũ gaitũ",
+      "english": "The man took away our girl",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story action",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_phrase_004",
+      "kikuyu": "Agĩthĩĩ nako Njeremani",
+      "english": "He went with her to Germany",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story action",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_phrase_005",
+      "kikuyu": "Ndĩraigua rĩu",
+      "english": "Now I hear",
+      "difficulty": "beginner",
+      "category": "News",
+      "context": "News story comment",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_phrase_006",
+      "kikuyu": "Kairĩtũ gaitũ karutaga wĩra mũkawainĩ",
+      "english": "Our girl does work in a hotel",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story description",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_phrase_007",
+      "kikuyu": "Mũ-Njeremani ndakahikiririe",
+      "english": "The German did not marry her",
+      "difficulty": "advanced",
+      "category": "News",
+      "context": "News story outcome",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_phrase_008",
+      "kikuyu": "Kairĩtũ gaitũ gakĩambĩrĩĩria gũcaria mwanake ũtarĩ mũ-Kenya",
+      "english": "Our young girl started to look for a young man who is not Kenyan",
+      "difficulty": "advanced",
+      "category": "News",
+      "context": "News story description",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_phrase_009",
+      "kikuyu": "Mwanake wa mbere arĩ Mũ-Nainjeria",
+      "english": "The first young man was Nigerian",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story description",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_phrase_010",
+      "kikuyu": "Matanendana mũno rĩ akĩingatwo nĩ thirikari",
+      "english": "Before they had loved each other for long, he was deported by government",
+      "difficulty": "advanced",
+      "category": "News",
+      "context": "News story sequence",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_phrase_011",
+      "kikuyu": "Atĩ nĩ endagia ndawa",
+      "english": "Because of drugs",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story reason",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_phrase_012",
+      "kikuyu": "Wakerĩ arĩ mũ-Tanganyika",
+      "english": "The second one was Tanzanian",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story description",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_phrase_013",
+      "kikuyu": "Mendana hanini akĩĩnuka kwao",
+      "english": "After loving for a short time, he went back home",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News story sequence",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_phrase_014",
+      "kikuyu": "Tũge arĩ na mũtumia!",
+      "english": "So he had a wife!",
+      "difficulty": "beginner",
+      "category": "News",
+      "context": "News story revelation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_phrase_015",
+      "kikuyu": "Thomai kuma haha muikũrũkĩte",
+      "english": "Read from here going down",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Instruction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #438"
+    },
+    {
+      "id": "ek_b44_phrase_016",
+      "kikuyu": "Kwa mwendwo gũtirĩ irĩma",
+      "english": "There are no hills to a lover's home",
+      "difficulty": "intermediate",
+      "category": "Love",
+      "context": "Traditional saying about love",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #439"
+    },
+    {
+      "id": "ek_b44_phrase_017",
+      "kikuyu": "Kwa Mwendwo",
+      "english": "To a lover's (place/home)",
+      "difficulty": "beginner",
+      "category": "Love",
+      "context": "Love expression",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #439"
+    },
+    {
+      "id": "ek_b44_phrase_018",
+      "kikuyu": "Gũtirĩ irĩma",
+      "english": "There isn't mountains",
+      "difficulty": "beginner",
+      "category": "Love",
+      "context": "Love expression",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #439"
+    },
+    {
+      "id": "ek_b44_phrase_019",
+      "kikuyu": "Ngwendete mũno",
+      "english": "I love you very much",
+      "difficulty": "beginner",
+      "category": "Love",
+      "context": "Love expression",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #442"
+    },
+    {
+      "id": "ek_b44_phrase_020",
+      "kikuyu": "We nĩ ũnyendete?",
+      "english": "Do you love me?",
+      "difficulty": "beginner",
+      "category": "Love",
+      "context": "Love question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #442"
+    }
+  ]
+}

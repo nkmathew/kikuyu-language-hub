@@ -1,0 +1,167 @@
+{
+  "batch": 51,
+  "source_files": "505-514",
+  "total_flashcards": 15,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "Love_Verbs", "Passive_Verbs"],
+  "difficulty_distribution": {
+    "beginner": 8,
+    "intermediate": 5,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b51_conj_001",
+      "kikuyu": "kwenda",
+      "english": "to want, to love",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_002",
+      "kikuyu": "ngwendete",
+      "english": "I love you",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_003",
+      "kikuyu": "ũnyendete",
+      "english": "you love me",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_004",
+      "kikuyu": "mendanĩte",
+      "english": "they love each other",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - present perfect",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_005",
+      "kikuyu": "kwendana",
+      "english": "to love each other",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive reciprocal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_006",
+      "kikuyu": "endanaĩ",
+      "english": "love one another",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - imperative reciprocal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_007",
+      "kikuyu": "endagwo",
+      "english": "is loved",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - passive present",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_008",
+      "kikuyu": "ndingĩendana",
+      "english": "I cannot fall in love",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - negative ability",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_009",
+      "kikuyu": "matĩũĩ",
+      "english": "they do not know",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - negative present",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_010",
+      "kikuyu": "mendana",
+      "english": "they have loved",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - present perfect",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #509"
+    },
+    {
+      "id": "ek_b51_conj_011",
+      "kikuyu": "níendete",
+      "english": "he loves",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #510"
+    },
+    {
+      "id": "ek_b51_conj_012",
+      "kikuyu": "ní nyendete",
+      "english": "I love",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #510"
+    },
+    {
+      "id": "ek_b51_conj_013",
+      "kikuyu": "gũkirio",
+      "english": "to be made quiet",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - passive infinitive",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_conj_014",
+      "kikuyu": "kũmundio",
+      "english": "to be lit (fire)",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - passive infinitive",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #506"
+    },
+    {
+      "id": "ek_b51_conj_015",
+      "kikuyu": "gũikio",
+      "english": "to be thrown/pushed (by someone)",
+      "difficulty": "advanced",
+      "category": "Conjugations",
+      "context": "Verb - passive infinitive",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #506"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "batch_info": {
+    "batch_number": "007",
+    "total_cards": 1,
+    "category": "grammar",
+    "source_files": ["068.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T05:05:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "gram-007-001",
+      "kikuyu": "Hûthîra ciugo ici gûtunga ûhoro wa maûndû megwîkîka",
+      "english": "Write these words in future tenses (practice exercise)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "notes": "Exercise: Write verbs in two future forms - (1) A few moments later/anytime today, (2) Tomorrow or later. Example given: Rîa (eat) → 1. Ngûrîa, 2. Ngarîa",
+      "examples": [
+        "Verbs to practice: Teng'era (run), Ikara (stay), Koma (sleep), Ona (see), Igua (hear)",
+        "More verbs: Îkîra (put), Ruga (cook), Aka (make/construct), Rîma (dig), Rûgama (stand)",
+        "Additional: Toonya (enter), Tuma (sew), Rora (look), Thikîrîrîa (listen)"
+      ],
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 068",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      }
+    }
+  ]
+}

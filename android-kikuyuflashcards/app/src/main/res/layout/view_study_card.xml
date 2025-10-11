@@ -25,6 +25,19 @@
             android:gravity="center_vertical"
             android:layout_marginBottom="8dp">
 
+            <!-- Flagged Status Badge -->
+            <TextView
+                android:id="@+id/flaggedStatusBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/badge_background"
+                android:padding="6dp"
+                android:textSize="12sp"
+                android:textColor="@android:color/white"
+                android:visibility="gone"
+                android:text="🚩 Flagged for review"
+                tools:visibility="visible" />
+
             <!-- Known Status Badge -->
             <TextView
                 android:id="@+id/knownStatusBadge"
@@ -35,6 +48,7 @@
                 android:textSize="12sp"
                 android:textColor="@android:color/white"
                 android:visibility="gone"
+                android:layout_marginStart="8dp"
                 tools:text="✓ Known"
                 tools:visibility="visible" />
 
@@ -270,7 +284,8 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"
                 android:focusable="true"
-                android:contentDescription="Flag" />
+                android:contentDescription="Flag"
+                android:padding="8dp" />
         </LinearLayout>
 
         <!-- Source Information -->

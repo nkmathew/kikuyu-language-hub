@@ -1,0 +1,306 @@
+{
+  "batch_info": {
+    "batch_number": "017",
+    "total_cards": 21,
+    "category": "phrases",
+    "source_files": ["166.txt", "170.txt", "174.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-09T13:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "phrase-017-001",
+      "kikuyu": "Ũyũ nĩ baba",
+      "english": "This is father",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Family introduction. 'Ũyũ' means 'this one'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-002",
+      "kikuyu": "Ũyũ ũngĩ nĩ maitũ",
+      "english": "This other one is mother",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Family introduction. 'ũngĩ' means 'other/another'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-003",
+      "kikuyu": "Tũrũgamĩte na mwarĩ wa maitũ",
+      "english": "We are standing with my sister",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Description of family photo. Literally 'daughter of my mother'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-004",
+      "kikuyu": "Ũcio mũraihu nĩ mama",
+      "english": "The tall one is my uncle",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Family description. 'Mama' = maternal uncle, 'mũraihu' = tall person",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-005",
+      "kikuyu": "Baba arahũra mbica",
+      "english": "Father is taking photographs",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Action description. 'arahũra' = is taking/making",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-006",
+      "kikuyu": "Ndĩ mũrwaru",
+      "english": "I am sick",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Health status expression. 'mũrwaru' = sick person/patient",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-007",
+      "kikuyu": "Ndiraiguia wega",
+      "english": "I'm not feeling well",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Health complaint. Negative form of 'to feel'",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-008",
+      "kikuyu": "Thĩĩ thibitarĩ",
+      "english": "Go to hospital",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Medical advice command. 'thibitarĩ' = hospital",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-009",
+      "kikuyu": "Ũraatũũrwo nĩ kũ?",
+      "english": "Where are you hurting?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Medical inquiry. Literally 'You are being hurt by where?'",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-010",
+      "kikuyu": "Ndiraatũũrwo nĩ mũtwee",
+      "english": "I have a headache",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Pain description. Literally 'I am being hurt by head'",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-011",
+      "kikuyu": "Nĩ ũraatũũrwo nĩ nda?",
+      "english": "Do you have a stomachache?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Medical question. 'nda' = stomach/belly",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-012",
+      "kikuyu": "O na igego nĩ rĩraatũũra",
+      "english": "I also have a toothache",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Additional pain. 'igego' = tooth, 'o na' = also",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-013",
+      "kikuyu": "Thĩĩ wone ndagĩtarĩ wa magego",
+      "english": "Go see a dentist",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Medical referral. 'ndagĩtarĩ wa magego' = doctor of teeth",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-014",
+      "kikuyu": "Ko ko ko",
+      "english": "Knock knock knock (knocking sound)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Onomatopoeia for knocking on door",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-015",
+      "kikuyu": "Nũũ?",
+      "english": "Who is it?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Response to knock. Short for 'who is that?'",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-016",
+      "kikuyu": "Nĩ nĩĩ",
+      "english": "It is me",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Visitor's response when knocking",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-017",
+      "kikuyu": "Njeri wa ũ?",
+      "english": "Whose Njeri? / Who is your father?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Traditional lineage inquiry. Cultural practice of identifying by father's name",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-018",
+      "kikuyu": "Wee wĩ mũgeni",
+      "english": "You are a visitor",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Visitor identification. 'mũgeni' = visitor/guest",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-019",
+      "kikuyu": "Ingĩra",
+      "english": "Enter",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Command inviting someone in",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-020",
+      "kikuyu": "Nyua cai",
+      "english": "Take tea / Have tea",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Traditional Kikuyu hospitality offering",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    },
+    {
+      "id": "phrase-017-021",
+      "kikuyu": "Thĩĩ na wega",
+      "english": "Go in peace",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Farewell blessing. 'wega' = goodness/peace",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      }
+    }
+  ]
+}

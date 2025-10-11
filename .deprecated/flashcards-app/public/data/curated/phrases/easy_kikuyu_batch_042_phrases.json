@@ -1,0 +1,217 @@
+{
+  "batch": 42,
+  "source_files": "415-424",
+  "total_flashcards": 20,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Phrases", "Conversation", "News"],
+  "difficulty_distribution": {
+    "beginner": 8,
+    "intermediate": 10,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b42_phrase_001",
+      "kikuyu": "Ngeithi nyingĩ mũno",
+      "english": "A lot of greetings",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Social expression",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #415"
+    },
+    {
+      "id": "ek_b42_phrase_002",
+      "kikuyu": "Nĩwehotera ciringi milioni ikũmi",
+      "english": "You have won ten million shillings",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Lottery announcement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #416"
+    },
+    {
+      "id": "ek_b42_phrase_003",
+      "kikuyu": "Ũgwĩkatĩa na mbeca icio ciothe?",
+      "english": "What will you do with all that money?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Question about money usage",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #416"
+    },
+    {
+      "id": "ek_b42_phrase_004",
+      "kikuyu": "Ngũcoka thukuru",
+      "english": "I will go back to school",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Future plan",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #416"
+    },
+    {
+      "id": "ek_b42_phrase_005",
+      "kikuyu": "Ngũgũra mũgũnda",
+      "english": "I will buy land (a farm)",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Future plan",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #416"
+    },
+    {
+      "id": "ek_b42_phrase_006",
+      "kikuyu": "Ngũthĩĩ na andũ akwa rũraya",
+      "english": "I will go with my family abroad",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Future plan",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #416"
+    },
+    {
+      "id": "ek_b42_phrase_007",
+      "kikuyu": "Ngũgũrĩĩra mwendwa wakwa ngari",
+      "english": "I will buy my lover a car",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Future plan",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #416"
+    },
+    {
+      "id": "ek_b42_phrase_008",
+      "kikuyu": "Ĩ ũngĩheo?",
+      "english": "Suppose you are given?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Hypothetical question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #419"
+    },
+    {
+      "id": "ek_b42_phrase_009",
+      "kikuyu": "Kaî nî wamenya 'facebook' tene mwana ûyû!",
+      "english": "You have learned (to use) facebook very early you child!",
+      "difficulty": "advanced",
+      "category": "Conversation",
+      "context": "Social media comment",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #420"
+    },
+    {
+      "id": "ek_b42_phrase_010",
+      "kikuyu": "Ũtaũri wa mohoro ma ira",
+      "english": "Translation of yesterday's news",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "News reference",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_011",
+      "kikuyu": "Andũ aingĩ nĩ maĩ",
+      "english": "Many persons by water",
+      "difficulty": "beginner",
+      "category": "News",
+      "context": "News description",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_012",
+      "kikuyu": "Mbura nĩ ĩkoretwo ĩkiura kwa ũingĩ",
+      "english": "Rain has been pouring in abundance",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "Weather report",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_013",
+      "kikuyu": "kũndũ kũingĩ bũrũriinĩ wa Kenya",
+      "english": "In many places in the country of Kenya",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "Geographic reference",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_014",
+      "kikuyu": "Njũĩ nyingĩ nĩ njĩũrũ",
+      "english": "Many rivers are full",
+      "difficulty": "beginner",
+      "category": "News",
+      "context": "Weather report",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_015",
+      "kikuyu": "na imwe ikoina",
+      "english": "And some have broken (banks)",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "Flood report",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_016",
+      "kikuyu": "Mwena wa Kilifi na Garissa",
+      "english": "In Kilifi area and Garissa",
+      "difficulty": "beginner",
+      "category": "News",
+      "context": "Geographic reference",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_017",
+      "kikuyu": "andũ aingĩ nĩ marahohikĩrio nĩ thigari cia njeshi",
+      "english": "Many people were saved by soldiers (of the army)",
+      "difficulty": "advanced",
+      "category": "News",
+      "context": "Rescue report",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_018",
+      "kikuyu": "na kĩama kĩa mũtharaba mũtune",
+      "english": "And the society of red cross",
+      "difficulty": "intermediate",
+      "category": "News",
+      "context": "Organization reference",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #421"
+    },
+    {
+      "id": "ek_b42_phrase_019",
+      "kikuyu": "Nũũ wĩ Kĩrathiinĩ?",
+      "english": "Who is in class?",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Classroom question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #422"
+    },
+    {
+      "id": "ek_b42_phrase_020",
+      "kikuyu": "Mũrĩega mũthenya ũyũ gatano?",
+      "english": "Are you (all) okay on this fifth day (Friday)?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Friday greeting",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #423"
+    }
+  ]
+}

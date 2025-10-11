@@ -1,0 +1,517 @@
+{
+  "batch": 48,
+  "source_files": "475-484",
+  "total_flashcards": 50,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 25,
+    "intermediate": 20,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b48_vocab_001",
+      "kikuyu": "tataguo",
+      "english": "your aunt",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_vocab_002",
+      "kikuyu": "mamaguo",
+      "english": "your uncle",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - family with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_vocab_003",
+      "kikuyu": "aigana",
+      "english": "how many",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_vocab_004",
+      "kikuyu": "baba mũkũrũ",
+      "english": "big father (father's older brother)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - family",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_vocab_005",
+      "kikuyu": "baba mũnini",
+      "english": "small father (father's younger brother)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - family",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_vocab_006",
+      "kikuyu": "rega",
+      "english": "refuse",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #476"
+    },
+    {
+      "id": "ek_b48_vocab_007",
+      "kikuyu": "kũrega",
+      "english": "to refuse",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #476"
+    },
+    {
+      "id": "ek_b48_vocab_008",
+      "kikuyu": "regai",
+      "english": "refuse (all of you)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #476"
+    },
+    {
+      "id": "ek_b48_vocab_009",
+      "kikuyu": "ĩtĩkĩra",
+      "english": "agree (opposite of 'rega')",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - opposite meaning",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #476"
+    },
+    {
+      "id": "ek_b48_vocab_010",
+      "kikuyu": "iregi",
+      "english": "group that has refused",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - collective",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #476"
+    },
+    {
+      "id": "ek_b48_vocab_011",
+      "kikuyu": "mweri",
+      "english": "month",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_012",
+      "kikuyu": "inyanya",
+      "english": "eighteen",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_013",
+      "kikuyu": "ĩtatũ",
+      "english": "third",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Ordinal number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_014",
+      "kikuyu": "karamu",
+      "english": "pen",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_015",
+      "kikuyu": "tũramũ",
+      "english": "pens",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_016",
+      "kikuyu": "thĩna",
+      "english": "problems",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - abstract",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_017",
+      "kikuyu": "ngĩrathĩ",
+      "english": "glass",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_018",
+      "kikuyu": "ngĩrathĩ yakwa",
+      "english": "my glass",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun phrase - possession",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_019",
+      "kikuyu": "ngĩrathĩ ciakwa",
+      "english": "my glasses",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun phrase - possession plural",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_020",
+      "kikuyu": "mwarimũ",
+      "english": "teacher",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_021",
+      "kikuyu": "mwarimũ ũngĩ",
+      "english": "another teacher",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - person",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_vocab_022",
+      "kikuyu": "ngeithi",
+      "english": "greetings",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - communication",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_023",
+      "kikuyu": "nyingĩ",
+      "english": "much/many",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quantity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_024",
+      "kikuyu": "mbica",
+      "english": "picture",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_025",
+      "kikuyu": "yahũrĩirwo",
+      "english": "was taken",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past passive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_026",
+      "kikuyu": "Abirika ya ithũĩro",
+      "english": "West Africa",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - location",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_027",
+      "kikuyu": "hihi",
+      "english": "perhaps, possibility, could be",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Adverb - uncertainty",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_028",
+      "kikuyu": "nyamũ",
+      "english": "animal",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - living thing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_029",
+      "kikuyu": "ihĩu",
+      "english": "liver",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_030",
+      "kikuyu": "mũrwaru",
+      "english": "sick",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - health",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_vocab_031",
+      "kikuyu": "mĩrore",
+      "english": "look at it",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #479"
+    },
+    {
+      "id": "ek_b48_vocab_032",
+      "kikuyu": "wega",
+      "english": "properly/well",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - manner",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #479"
+    },
+    {
+      "id": "ek_b48_vocab_033",
+      "kikuyu": "ĩtahana",
+      "english": "it is not like",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - comparison",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #479"
+    },
+    {
+      "id": "ek_b48_vocab_034",
+      "kikuyu": "mũhuko",
+      "english": "bag",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #480"
+    },
+    {
+      "id": "ek_b48_vocab_035",
+      "kikuyu": "mũgate",
+      "english": "bread",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #480"
+    },
+    {
+      "id": "ek_b48_vocab_036",
+      "kikuyu": "mũcaina",
+      "english": "chinese person",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nationality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_037",
+      "kikuyu": "wĩtagwo",
+      "english": "called/named",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - passive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_038",
+      "kikuyu": "arakũria",
+      "english": "is growing",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present continuous",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_039",
+      "kikuyu": "mĩtĩ",
+      "english": "trees",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nature",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_040",
+      "kikuyu": "moringa",
+      "english": "moringa",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - plant",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_041",
+      "kikuyu": "ngiri",
+      "english": "hundred",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_042",
+      "kikuyu": "magana",
+      "english": "thousand",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_043",
+      "kikuyu": "mwena",
+      "english": "area/side",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - location",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_044",
+      "kikuyu": "aikari",
+      "english": "residents",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - people",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_045",
+      "kikuyu": "kĩruma",
+      "english": "aloes",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - plant",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_046",
+      "kikuyu": "mbegũ",
+      "english": "seeds",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nature",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_047",
+      "kikuyu": "mbarĩkĩ",
+      "english": "castor plant",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - plant",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_048",
+      "kikuyu": "citongie",
+      "english": "can enrich",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - ability",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_049",
+      "kikuyu": "bũrũri",
+      "english": "nation",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_vocab_050",
+      "kikuyu": "mbura",
+      "english": "rain",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - weather",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    }
+  ]
+}

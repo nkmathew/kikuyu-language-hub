@@ -33,6 +33,7 @@ class StudyCardView @JvmOverloads constructor(
 
     // UI Components
     private val cardView: CardView
+    private val flaggedStatusBadge: TextView
     private val knownStatusBadge: TextView
     private val categoryBadge: TextView
     private val difficultyBadge: TextView
@@ -68,6 +69,7 @@ class StudyCardView @JvmOverloads constructor(
 
         // Find views
         cardView = findViewById(R.id.cardView)
+        flaggedStatusBadge = findViewById(R.id.flaggedStatusBadge)
         knownStatusBadge = findViewById(R.id.knownStatusBadge)
         categoryBadge = findViewById(R.id.categoryBadge)
         difficultyBadge = findViewById(R.id.difficultyBadge)
@@ -290,11 +292,27 @@ class StudyCardView @JvmOverloads constructor(
      */
     private fun updateFlagState() {
         if (isFlagged) {
+            // Show flagged status badge
+            flaggedStatusBadge.isVisible = true
+            
+            // Red flag when flagged
             flagButton.setColorFilter(ContextCompat.getColor(context, R.color.warning_color))
-            flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.warning_color))
+            flagButton.setBackgroundColor(Color.parseColor("#fef2f2"))
+            flagButton.setImageResource(android.R.drawable.ic_menu_agenda) // Use flag-like icon
+            
+            // Add red background to card when flagged
+            cardView.setCardBackgroundColor(Color.parseColor("#fef2f2"))
         } else {
+            // Hide flagged status badge
+            flaggedStatusBadge.isVisible = false
+            
+            // Gray flag when not flagged
             flagButton.setColorFilter(Color.parseColor("#888888"))
             flagButton.setBackgroundColor(Color.TRANSPARENT)
+            flagButton.setImageResource(android.R.drawable.ic_menu_agenda) // Use flag-like icon
+            
+            // Reset card appearance
+            cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.md_theme_light_primaryContainer))
         }
     }
 
