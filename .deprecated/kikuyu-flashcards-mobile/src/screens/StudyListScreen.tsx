@@ -88,12 +88,15 @@ export default function StudyListScreen({ route }: Props) {
   };
 
   const toggleFlag = async (id: string) => {
+    console.log('Flag toggled for item:', id);
     setFlaggedItems(prev => {
       const newSet = new Set(prev);
       if (newSet.has(id)) {
         newSet.delete(id);
+        console.log('Item unflagged:', id);
       } else {
         newSet.add(id);
+        console.log('Item flagged:', id);
       }
       
       // Persist to storage
@@ -452,11 +455,15 @@ const styles = StyleSheet.create({
     color: '#fca5a5',
   },
   flagButton: {
-    padding: 6,
-    borderRadius: 6,
+    padding: 8,
+    borderRadius: 8,
     backgroundColor: '#f3f4f6',
-    borderWidth: 1,
+    borderWidth: 2,
     borderColor: '#d1d5db',
+    minWidth: 40,
+    minHeight: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   flagButtonActive: {
     backgroundColor: '#fef2f2',
@@ -467,10 +474,11 @@ const styles = StyleSheet.create({
     borderColor: '#4b5563',
   },
   flagIcon: {
-    fontSize: 16,
+    fontSize: 20,
+    fontWeight: 'bold',
   },
   flagIconActive: {
-    fontSize: 18,
+    fontSize: 22,
   },
   cardContainer: {
     flexDirection: 'column',
