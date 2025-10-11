@@ -5,6 +5,8 @@ const STORAGE_KEYS = {
   SESSIONS: 'kikuyu_flashcards_sessions',
   PREFERENCES: 'kikuyu_flashcards_preferences',
   KNOWN_CARDS: 'kikuyu_flashcards_known',
+  FLAGGED_CARDS: 'kikuyu_flashcards_flagged',
+  FLAG_REASONS: 'kikuyu_flashcards_flag_reasons',
 } as const;
 
 class LocalStorageManager {
@@ -132,6 +134,98 @@ class LocalStorageManager {
       localStorage.setItem(STORAGE_KEYS.KNOWN_CARDS, JSON.stringify(Array.from(knownCards)));
     } catch (error) {
       console.error('Error marking card as unknown:', error);
+    }
+  }
+
+  // Flagged cards tracking
+  getFlaggedCards(): Set<string> {
+    if (typeof window === 'undefined') return new Set();
+
+    try {
+      const stored = localStorage.getItem(STORAGE_KEYS.FLAGGED_CARDS);
+      return stored ? new Set(JSON.parse(stored)) : new Set();
+    } catch (error) {
+      console.error('Error loading flagged cards:', error);
+      return new Set();
+    }
+  }
+
+  flagCard(cardId: string): void {
+    if (typeof window === 'undefined') return;
+
+    try {
+      const flaggedCards = this.getFlaggedCards();
+      flaggedCards.add(cardId);
+      localStorage.setItem(STORAGE_KEYS.FLAGGED_CARDS, JSON.stringify(Array.from(flaggedCards)));
+    } catch (error) {
+      console.error('Error flagging card:', error);
+    }
+  }
+
+  unflagCard(cardId: string): void {
+    if (typeof window === 'undefined') return;
+
+    try {
+      const flaggedCards = this.getFlaggedCards();
+      flaggedCards.delete(cardId);
+      localStorage.setItem(STORAGE_KEYS.FLAGGED_CARDS, JSON.stringify(Array.from(flaggedCards)));
+    } catch (error) {
+      console.error('Error unflagging card:', error);
+    }
+  }
+
+  toggleFlag(cardId: string): boolean {
+    if (typeof window === 'undefined') return false;
+
+    try {
+      const flaggedCards = this.getFlaggedCards();
+      if (flaggedCards.has(cardId)) {
+        this.unflagCard(cardId);
+        return false;
+      } else {
+        this.flagCard(cardId);
+        return true;
+      }
+    } catch (error) {
+      console.error('Error toggling flag:', error);
+      return false;
+    }
+  }
+
+  // Flag reasons tracking
+  getFlagReasons(): Record<string, string> {
+    if (typeof window === 'undefined') return {};
+
+    try {
+      const stored = localStorage.getItem(STORAGE_KEYS.FLAG_REASONS);
+      return stored ? JSON.parse(stored) : {};
+    } catch (error) {
+      console.error('Error loading flag reasons:', error);
+      return {};
+    }
+  }
+
+  setFlagReason(cardId: string, reason: string): void {
+    if (typeof window === 'undefined') return;
+
+    try {
+      const reasons = this.getFlagReasons();
+      reasons[cardId] = reason;
+      localStorage.setItem(STORAGE_KEYS.FLAG_REASONS, JSON.stringify(reasons));
+    } catch (error) {
+      console.error('Error setting flag reason:', error);
+    }
+  }
+
+  removeFlagReason(cardId: string): void {
+    if (typeof window === 'undefined') return;
+
+    try {
+      const reasons = this.getFlagReasons();
+      delete reasons[cardId];
+      localStorage.setItem(STORAGE_KEYS.FLAG_REASONS, JSON.stringify(reasons));
+    } catch (error) {
+      console.error('Error removing flag reason:', error);
     }
   }
   

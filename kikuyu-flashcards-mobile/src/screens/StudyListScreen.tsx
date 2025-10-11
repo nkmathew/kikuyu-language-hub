@@ -142,7 +142,16 @@ export default function StudyListScreen({ route }: Props) {
     const lastUpdated = item.source?.last_updated || item.source?.created_date;
     
     return (
-      <View style={[styles.row, isDark && styles.darkRow, isFlagged && styles.flaggedRow]}>
+      <View style={[styles.row, isDark && styles.darkRow, isFlagged && styles.flaggedRow, isFlagged && isDark && styles.darkFlaggedRow]}>
+        {/* Flagged for review banner */}
+        {isFlagged && (
+          <View style={[styles.flaggedBanner, isDark && styles.darkFlaggedBanner]}>
+            <Text style={[styles.flaggedBannerText, isDark && styles.darkFlaggedBannerText]}>
+              🚩 Flagged for review
+            </Text>
+          </View>
+        )}
+        
         <View style={styles.cardContainer}>
           {/* Kikuyu Card */}
           <View style={[styles.miniCard, styles.kikuyuCard, isDark && styles.darkMiniCard]}>
@@ -150,10 +159,12 @@ export default function StudyListScreen({ route }: Props) {
               <Text style={[styles.miniCardLabel, isDark && styles.darkTextSecondary]}>Kikuyu</Text>
               <View style={styles.actionButtons}>
                 <TouchableOpacity
-                  style={[styles.iconButton, isDark && styles.darkIconButton]}
+                  style={[styles.flagButton, isFlagged && styles.flagButtonActive, isDark && styles.darkFlagButton]}
                   onPress={() => toggleFlag(item.id)}
                 >
-                  <Text style={styles.iconText}>{isFlagged ? '🚩' : '🏳️'}</Text>
+                  <Text style={[styles.flagIcon, isFlagged && styles.flagIconActive]}>
+                    {isFlagged ? '🚩' : '🏳️'}
+                  </Text>
                 </TouchableOpacity>
                 <TouchableOpacity
                   style={[styles.iconButton, isDark && styles.darkIconButton]}
@@ -413,6 +424,53 @@ const styles = StyleSheet.create({
   flaggedRow: {
     borderLeftWidth: 4,
     borderLeftColor: '#ef4444',
+    backgroundColor: '#fef2f2', // Not-intense red background
+  },
+  darkFlaggedRow: {
+    backgroundColor: '#7f1d1d', // Dark mode flagged background
+  },
+  flaggedBanner: {
+    backgroundColor: '#fef2f2',
+    borderBottomWidth: 1,
+    borderBottomColor: '#fecaca',
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    marginBottom: 8,
+    borderRadius: 6,
+  },
+  darkFlaggedBanner: {
+    backgroundColor: '#7f1d1d',
+    borderBottomColor: '#dc2626',
+  },
+  flaggedBannerText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#dc2626',
+    textAlign: 'center',
+  },
+  darkFlaggedBannerText: {
+    color: '#fca5a5',
+  },
+  flagButton: {
+    padding: 6,
+    borderRadius: 6,
+    backgroundColor: '#f3f4f6',
+    borderWidth: 1,
+    borderColor: '#d1d5db',
+  },
+  flagButtonActive: {
+    backgroundColor: '#fef2f2',
+    borderColor: '#fecaca',
+  },
+  darkFlagButton: {
+    backgroundColor: '#374151',
+    borderColor: '#4b5563',
+  },
+  flagIcon: {
+    fontSize: 16,
+  },
+  flagIconActive: {
+    fontSize: 18,
   },
   cardContainer: {
     flexDirection: 'column',
