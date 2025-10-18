@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "023",
+    "total_cards": 2,
+    "category": "conjugations",
+    "source_files": ["227.txt", "228.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T13:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-023-001",
+      "kikuyu": "Past Tense - Two Types (Moments Ago & Early Today)",
+      "english": "Moments Ago (kũra=to start): 1st: Ndokĩra/Twokĩra, 2nd: Wokĩra/Mwokĩra, 3rd: Okĩra/Mokĩra. Example: Ndokĩra dagĩka ikũmi ciathira (I started ten minutes ago). Early Today (kwĩthamba=to shower): 1st: Ndĩthambire/Twĩthambire, 2nd: Wĩthambire/Mwĩthambire, 3rd: Ethambire/Methambire. Example: Ndĩthambire na maĩ mahoro (I showered with warm water)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Two distinct past tense systems. Moments ago uses -o- prefix pattern (Do-/Two-, Wo-/Mwo-, O-/Mo-). Early today uses different prefixes (Ndi-/Twi-, Wi-/Mwi-, E-/Me-) with -ire perfect ending",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 227",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:30:00Z"
+      }
+    },
+    {
+      "id": "conj-023-002",
+      "kikuyu": "Conditional Tense (Kũmenya - to know)",
+      "english": "1st Singular: Ĩngĩmenya ingĩka atĩa? (if I knew, what would I do?), 1st Plural: Tũngĩmenya tũngĩka atĩa? (if we knew...), 2nd Singular: Ũngĩmenya ũngĩka atĩa? (if you knew...), 2nd Plural: Mũngĩmenya mũngĩka atĩa? (if you all knew...), 3rd Singular: Angĩmenya angĩka atĩa? (if he/she knew...), 3rd Plural: Mangĩmenya mangĩka atĩa? (if they knew...)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Conditional tense pattern: Subject + ngĩ + verb. Examples: Ĩngĩmenya kwaria Gĩkũyũ, no njare Gĩkũyũ (if I could speak Kikuyu, I would speak...), Ũngĩhota gũtwarithia ndege, ũngĩmĩtwara kũ? (if you could fly an aircraft, where would you take it?)",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 228",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:30:00Z"
+      }
+    }
+  ]
+}

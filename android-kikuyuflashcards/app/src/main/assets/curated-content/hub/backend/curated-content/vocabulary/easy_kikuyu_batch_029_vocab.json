@@ -1,0 +1,847 @@
+{
+  "batch": 29,
+  "source_files": "285-294",
+  "total_flashcards": 68,
+  "categories": ["vocabulary", "phrases", "conjugations", "cultural"],
+  "difficulty_levels": ["beginner", "intermediate", "advanced"],
+  "cultural_context": "Traditional storytelling, family vocabulary, health states, more professions, directional terms, COVID-19 safety, cooking vocabulary",
+  "created_date": "2025-10-08",
+  "last_updated": "2025-10-08T16:30:00Z",
+  "flashcards": [
+    {
+      "id": "ek_b29_001",
+      "kikuyu": "Wakerĩ",
+      "english": "Tuesday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Days of the week",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #285"
+    },
+    {
+      "id": "ek_b29_002",
+      "kikuyu": "Karũgano",
+      "english": "short story",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Literature vocabulary",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #285"
+    },
+    {
+      "id": "ek_b29_003",
+      "kikuyu": "Tene tene rĩ, kwarĩ na Njogu bũrũriinĩ wa nyamũ",
+      "english": "A long time ago, there was an elephant in animal country",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Traditional story opening",
+      "sub_translations": [
+        {"kikuyu": "Tene tene rĩ", "english": "a long time ago"},
+        {"kikuyu": "kwarĩ na", "english": "there was"},
+        {"kikuyu": "Njogu", "english": "elephant"},
+        {"kikuyu": "bũrũriinĩ wa nyamũ", "english": "in animal country"}
+      ],
+      "cultural_notes": "Classic folktale beginning",
+      "quality": 4.9,
+      "source": "Easy Kikuyu #285"
+    },
+    {
+      "id": "ek_b29_004",
+      "kikuyu": "Njogu",
+      "english": "elephant",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Wild animals",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #285"
+    },
+    {
+      "id": "ek_b29_005",
+      "kikuyu": "nyamũ",
+      "english": "animal(s)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "General animal term",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #285"
+    },
+    {
+      "id": "ek_b29_006",
+      "kikuyu": "Yakenaga mũno yona ũria itigĩrĩtwo",
+      "english": "It was very happy to see how it was feared",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Storytelling narrative",
+      "sub_translations": [
+        {"kikuyu": "Yakenaga", "english": "it was happy"},
+        {"kikuyu": "mũno", "english": "very much"},
+        {"kikuyu": "yona", "english": "to see"},
+        {"kikuyu": "ũria itigĩrĩtwo", "english": "how it was feared"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #285"
+    },
+    {
+      "id": "ek_b29_007",
+      "kikuyu": "no kũũra cioraga",
+      "english": "they ran away",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Action description",
+      "sub_translations": [
+        {"kikuyu": "no", "english": "then/so"},
+        {"kikuyu": "kũũra", "english": "to run"},
+        {"kikuyu": "cioraga", "english": "they were running"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #285"
+    },
+    {
+      "id": "ek_b29_008",
+      "kikuyu": "Juma",
+      "english": "Saturday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Days of the week",
+      "notes": "From Swahili Jumamosi",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_009",
+      "kikuyu": "Kũigua",
+      "english": "to feel / to hear",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Sensory verb with dual meaning",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_010",
+      "kikuyu": "Ũraigua atĩa?",
+      "english": "How do you feel?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Common greeting/health check",
+      "sub_translations": [
+        {"kikuyu": "Ũraigua", "english": "you feel/hear"},
+        {"kikuyu": "atĩa", "english": "how"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_011",
+      "kikuyu": "(Nĩĩ) Ndĩ mũrũarũ",
+      "english": "I am sick",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Health state",
+      "sub_translations": [
+        {"kikuyu": "Ndĩ", "english": "I am"},
+        {"kikuyu": "mũrũarũ", "english": "sick person"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_012",
+      "kikuyu": "(Nĩĩ) Ndĩ mũrathime",
+      "english": "I am blessed",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Spiritual/religious state",
+      "sub_translations": [
+        {"kikuyu": "Ndĩ", "english": "I am"},
+        {"kikuyu": "mũrathime", "english": "blessed person"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_013",
+      "kikuyu": "(Wee) wĩ mũtihie",
+      "english": "You have been injured",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Health/injury state",
+      "sub_translations": [
+        {"kikuyu": "wĩ", "english": "you are"},
+        {"kikuyu": "mũtihie", "english": "injured person"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_014",
+      "kikuyu": "(We) nĩ mwega",
+      "english": "He/she is good",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "State of being",
+      "sub_translations": [
+        {"kikuyu": "We", "english": "he/she"},
+        {"kikuyu": "nĩ", "english": "is"},
+        {"kikuyu": "mwega", "english": "good person"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_015",
+      "kikuyu": "(Inyũĩ) mwĩ andĩkithie",
+      "english": "You (plural) have been registered",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Administrative state",
+      "sub_translations": [
+        {"kikuyu": "mwĩ", "english": "you are (plural)"},
+        {"kikuyu": "andĩkithie", "english": "registered people"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_016",
+      "kikuyu": "(O) nĩ ahĩnju",
+      "english": "They are thin",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Physical description",
+      "sub_translations": [
+        {"kikuyu": "O", "english": "they"},
+        {"kikuyu": "nĩ", "english": "are"},
+        {"kikuyu": "ahĩnju", "english": "thin people"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_017",
+      "kikuyu": "Ũyũ nĩ mũtungu",
+      "english": "This one is obese",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Physical description",
+      "sub_translations": [
+        {"kikuyu": "Ũyũ", "english": "this one"},
+        {"kikuyu": "nĩ", "english": "is"},
+        {"kikuyu": "mũtungu", "english": "obese person"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_018",
+      "kikuyu": "Oothe nĩ anyite nĩ borithi",
+      "english": "All have been arrested by police",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Legal situation",
+      "sub_translations": [
+        {"kikuyu": "Oothe", "english": "all"},
+        {"kikuyu": "nĩ anyite", "english": "have been caught/arrested"},
+        {"kikuyu": "nĩ borithi", "english": "by police"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #286"
+    },
+    {
+      "id": "ek_b29_019",
+      "kikuyu": "(Nĩĩ) Ndĩ injinia",
+      "english": "I am an engineer",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Profession",
+      "notes": "injinia from English 'engineer'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_020",
+      "kikuyu": "(Nĩĩ) Ndĩ mũhũri wa mbica",
+      "english": "I am a photographer",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession",
+      "sub_translations": [
+        {"kikuyu": "mũhũri", "english": "shooter, one who shoots"},
+        {"kikuyu": "wa mbica", "english": "of pictures"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_021",
+      "kikuyu": "(Wee) wĩ mũgĩĩmi",
+      "english": "You are a hunter",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_022",
+      "kikuyu": "(We) nĩ mũrĩĩthia wa mahiũ",
+      "english": "He/she is a herder (of domestic animals)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession",
+      "sub_translations": [
+        {"kikuyu": "mũrĩĩthia", "english": "herder, one who tends"},
+        {"kikuyu": "wa mahiũ", "english": "of domestic animals"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_023",
+      "kikuyu": "Mahiũ",
+      "english": "domestic animals",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Farm/livestock",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_024",
+      "kikuyu": "(Inyũĩ) mwĩ aturi",
+      "english": "You (plural) are iron mongers",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Profession",
+      "sub_translations": [
+        {"kikuyu": "aturi", "english": "blacksmiths, iron workers"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_025",
+      "kikuyu": "(O) nĩ ombi a nyũngũ",
+      "english": "They are potters (literally: molders of pots)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Traditional craft profession",
+      "sub_translations": [
+        {"kikuyu": "ombi", "english": "molders, shapers"},
+        {"kikuyu": "a nyũngũ", "english": "of pots"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_026",
+      "kikuyu": "Ũyũ nĩ mugo",
+      "english": "This is a medicine (person)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Traditional healer",
+      "cultural_notes": "Traditional medicine practitioner",
+      "quality": 4.9,
+      "source": "Easy Kikuyu #287"
+    },
+    {
+      "id": "ek_b29_027",
+      "kikuyu": "Tũrathomera mũciĩ",
+      "english": "We are learning from home",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Education during COVID",
+      "sub_translations": [
+        {"kikuyu": "Tũrathomera", "english": "we are learning/studying"},
+        {"kikuyu": "mũciĩ", "english": "at home"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #288"
+    },
+    {
+      "id": "ek_b29_028",
+      "kikuyu": "Cookia ciũria ici",
+      "english": "Answer these questions",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Classroom instruction",
+      "sub_translations": [
+        {"kikuyu": "Cookia", "english": "answer (command)"},
+        {"kikuyu": "ciũria", "english": "questions"},
+        {"kikuyu": "ici", "english": "these"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #288"
+    },
+    {
+      "id": "ek_b29_029",
+      "kikuyu": "Kahĩĩ ke mwena ũrĩkũ?",
+      "english": "On which side is the boy?",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Positional question",
+      "sub_translations": [
+        {"kikuyu": "Kahĩĩ", "english": "small boy"},
+        {"kikuyu": "ke mwena ũrĩkũ", "english": "is on which side"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #288"
+    },
+    {
+      "id": "ek_b29_030",
+      "kikuyu": "Wa Kiumia",
+      "english": "Sunday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Days of the week",
+      "notes": "Literally 'day of coming out/stopping work'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_031",
+      "kikuyu": "Ũmotho",
+      "english": "left (side)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Directional vocabulary",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_032",
+      "kikuyu": "Gatagatĩ",
+      "english": "centre, middle",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Directional vocabulary",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_033",
+      "kikuyu": "Ũrĩo",
+      "english": "right (side)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Directional vocabulary",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_034",
+      "kikuyu": "Mwana wa kahiĩ",
+      "english": "boy child",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Family/children vocabulary",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_035",
+      "kikuyu": "Mwana wa kairĩtu",
+      "english": "girl child",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Family/children vocabulary",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_036",
+      "kikuyu": "Aciari",
+      "english": "parents",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Family vocabulary",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_037",
+      "kikuyu": "Nyina wa ciana",
+      "english": "mother of children",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Family relationships",
+      "sub_translations": [
+        {"kikuyu": "Nyina", "english": "mother"},
+        {"kikuyu": "wa ciana", "english": "of children"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_038",
+      "kikuyu": "Ithe wa ciana",
+      "english": "father of children",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Family relationships",
+      "sub_translations": [
+        {"kikuyu": "Ithe", "english": "father"},
+        {"kikuyu": "wa ciana", "english": "of children"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_039",
+      "kikuyu": "Baba",
+      "english": "father",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Family term (informal/affectionate)",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_040",
+      "kikuyu": "Maitũ",
+      "english": "mother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Family term (respectful)",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #289"
+    },
+    {
+      "id": "ek_b29_041",
+      "kikuyu": "Wĩthambe moko",
+      "english": "Wash your hands",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "COVID-19 safety instruction",
+      "sub_translations": [
+        {"kikuyu": "Wĩthambe", "english": "wash yourself (command)"},
+        {"kikuyu": "moko", "english": "hands"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #290"
+    },
+    {
+      "id": "ek_b29_042",
+      "kikuyu": "Ikara haraihu",
+      "english": "Keep a distance (from others)",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "COVID-19 social distancing",
+      "sub_translations": [
+        {"kikuyu": "Ikara", "english": "stay, remain"},
+        {"kikuyu": "haraihu", "english": "far away"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #290"
+    },
+    {
+      "id": "ek_b29_043",
+      "kikuyu": "Ikara mũciĩ",
+      "english": "Stay home",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "COVID-19 stay-at-home order",
+      "sub_translations": [
+        {"kikuyu": "Ikara", "english": "stay, remain"},
+        {"kikuyu": "mũciĩ", "english": "at home"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #290"
+    },
+    {
+      "id": "ek_b29_044",
+      "kikuyu": "Mũrimũ ũyũ nĩ mũũru",
+      "english": "This disease is bad",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "COVID-19 description",
+      "sub_translations": [
+        {"kikuyu": "Mũrimũ", "english": "disease"},
+        {"kikuyu": "ũyũ", "english": "this"},
+        {"kikuyu": "nĩ mũũru", "english": "is bad"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #290"
+    },
+    {
+      "id": "ek_b29_045",
+      "kikuyu": "Mũthenya Wakana",
+      "english": "Thursday",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Days of the week",
+      "notes": "Literally 'the fourth day'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #291"
+    },
+    {
+      "id": "ek_b29_046",
+      "kikuyu": "Tũirĩtu tũna",
+      "english": "Four (small) girls",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Counting children",
+      "notes": "Uses diminutive prefix for small children",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #291"
+    },
+    {
+      "id": "ek_b29_047",
+      "kikuyu": "Aĩrĩtu ana",
+      "english": "Four girls",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Counting",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #291"
+    },
+    {
+      "id": "ek_b29_048",
+      "kikuyu": "Mũirĩtu ũmwe nĩ akĩndĩtwo njuĩrĩ",
+      "english": "One of the girls has plaited hair",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Physical description",
+      "sub_translations": [
+        {"kikuyu": "Mũirĩtu ũmwe", "english": "one girl"},
+        {"kikuyu": "nĩ akĩndĩtwo", "english": "has plaited"},
+        {"kikuyu": "njuĩrĩ", "english": "hair"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #291"
+    },
+    {
+      "id": "ek_b29_049",
+      "kikuyu": "Aĩrĩtu aya nĩ maratheka",
+      "english": "These girls are laughing",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Action description",
+      "sub_translations": [
+        {"kikuyu": "Aĩrĩtu aya", "english": "these girls"},
+        {"kikuyu": "nĩ maratheka", "english": "are laughing"}
+      ],
+      "quality": 4.6,
+      "source": "Easy Kikuyu #291"
+    },
+    {
+      "id": "ek_b29_050",
+      "kikuyu": "Kairĩtu kamwe kena kĩng'ũru",
+      "english": "One of the girls has bare gums (teeth removed)",
+      "difficulty": "advanced",
+      "category": "Phrases",
+      "context": "Physical description",
+      "sub_translations": [
+        {"kikuyu": "Kairĩtu kamwe", "english": "one small girl"},
+        {"kikuyu": "kena", "english": "has"},
+        {"kikuyu": "kĩng'ũru", "english": "bare gums"}
+      ],
+      "cultural_notes": "Traditional practice of removing teeth",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #291"
+    },
+    {
+      "id": "ek_b29_051",
+      "kikuyu": "Theka",
+      "english": "laugh",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #292"
+    },
+    {
+      "id": "ek_b29_052",
+      "kikuyu": "Thika",
+      "english": "bury",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb",
+      "notes": "Similar to Swahili 'zika'",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #292"
+    },
+    {
+      "id": "ek_b29_053",
+      "kikuyu": "anĩka",
+      "english": "put out to dry",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - domestic activity",
+      "notes": "Similar to Swahili 'anika'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #292"
+    },
+    {
+      "id": "ek_b29_054",
+      "kikuyu": "Egeeka",
+      "english": "tickle",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - playful action",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #292"
+    },
+    {
+      "id": "ek_b29_055",
+      "kikuyu": "Thamaka",
+      "english": "rule, govern",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - leadership",
+      "notes": "Related to Mũthamaki (ruler)",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #292"
+    },
+    {
+      "id": "ek_b29_056",
+      "kikuyu": "Mwana wakwa nĩ aronga",
+      "english": "My child is suckling",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Infant care",
+      "sub_translations": [
+        {"kikuyu": "Mwana wakwa", "english": "my child"},
+        {"kikuyu": "nĩ aronga", "english": "is suckling"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #293"
+    },
+    {
+      "id": "ek_b29_057",
+      "kikuyu": "Mwana witũ nĩ arongithio",
+      "english": "Our child is being suckled",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Passive form - infant care",
+      "sub_translations": [
+        {"kikuyu": "Mwana witũ", "english": "our child"},
+        {"kikuyu": "nĩ arongithio", "english": "is being suckled (passive)"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #293"
+    },
+    {
+      "id": "ek_b29_058",
+      "kikuyu": "Kaana gaka nĩ gakenge",
+      "english": "This (small) child is an infant",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Age description",
+      "sub_translations": [
+        {"kikuyu": "Kaana gaka", "english": "this small child"},
+        {"kikuyu": "nĩ gakenge", "english": "is an infant"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #293"
+    },
+    {
+      "id": "ek_b29_059",
+      "kikuyu": "Ũyu nĩ mwana wa rũkenge",
+      "english": "This child is an infant",
+      "difficulty": "intermediate",
+      "category": "Phrases",
+      "context": "Age description",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #293"
+    },
+    {
+      "id": "ek_b29_060",
+      "kikuyu": "Mwana ũyũ nĩ wa kahiĩ kana kairĩtu?",
+      "english": "Is this child a boy or a girl?",
+      "difficulty": "beginner",
+      "category": "Phrases",
+      "context": "Gender question",
+      "sub_translations": [
+        {"kikuyu": "Mwana ũyũ", "english": "this child"},
+        {"kikuyu": "nĩ wa kahiĩ", "english": "is a boy"},
+        {"kikuyu": "kana", "english": "or"},
+        {"kikuyu": "kairĩtu", "english": "girl"}
+      ],
+      "quality": 4.7,
+      "source": "Easy Kikuyu #293"
+    },
+    {
+      "id": "ek_b29_061",
+      "kikuyu": "Thaburia",
+      "english": "metal pot",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Cooking utensils",
+      "notes": "From Swahili 'Sufuria'",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #294"
+    },
+    {
+      "id": "ek_b29_062",
+      "kikuyu": "Gĩkombe",
+      "english": "cup",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Eating/drinking utensils",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #294"
+    },
+    {
+      "id": "ek_b29_063",
+      "kikuyu": "Thaani",
+      "english": "plate",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Eating utensils",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #294"
+    },
+    {
+      "id": "ek_b29_064",
+      "kikuyu": "Rũgĩo",
+      "english": "frying pan",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Cooking utensils",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #294"
+    },
+    {
+      "id": "ek_b29_065",
+      "kikuyu": "Gũkima",
+      "english": "to mash food",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Cooking method",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #294"
+    },
+    {
+      "id": "ek_b29_066",
+      "kikuyu": "Gũkaranga",
+      "english": "to fry",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Cooking method",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #294"
+    },
+    {
+      "id": "ek_b29_067",
+      "kikuyu": "Gũtherũkia",
+      "english": "to boil (water or food)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Cooking method - transitive",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #294"
+    },
+    {
+      "id": "ek_b29_068",
+      "kikuyu": "Gũtherũka",
+      "english": "to boil (intransitive)",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Cooking method - water boiling on its own",
+      "notes": "Intransitive form of boiling",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #294"
+    }
+  ]
+}

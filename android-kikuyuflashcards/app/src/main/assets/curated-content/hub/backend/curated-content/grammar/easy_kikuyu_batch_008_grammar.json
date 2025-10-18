@@ -1,0 +1,56 @@
+{
+  "batch_info": {
+    "batch_number": "008",
+    "total_cards": 2,
+    "category": "grammar",
+    "source_files": ["083.txt", "084.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T05:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "gram-008-001",
+      "kikuyu": "No (particle)",
+      "english": "Monosyllable 'No' - versatile modifier meaning but/just/can/may/only",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "notes": "The particle 'No' modifies words and phrases in multiple ways - changes meaning drastically. Compare: mûhaka (boundary) vs No mûhaka (it is a must)",
+      "examples": [
+        "No mûhaka (It is a must) - without NO: mûhaka = boundary",
+        "No mûûre (You can get lost)",
+        "No mîtoka (It is just cars)",
+        "No kwarî na maûndû (There were still issues)",
+        "No ûgerie (You may try)",
+        "No nguo yake yarî ndaihu (But her dress was long)",
+        "Korwo no ûrîrîkane (If you could remember)",
+        "No ndîmûteithie (I can help you)",
+        "Ûria mendaga no kwona nyina wao (They only wanted to see their mother)"
+      ],
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 083",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      }
+    },
+    {
+      "id": "gram-008-002",
+      "kikuyu": "No + present tense",
+      "english": "'No' with present tense = still/yet (ongoing action)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "notes": "Using 'No' with present tense verbs to indicate continuation - 'you are still...'",
+      "examples": [
+        "No rwimbo? (You are still listening to music?)",
+        "No kúría? (You are still eating?)",
+        "No ndore úraringa? (You are still jumping?)"
+      ],
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 084",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      }
+    }
+  ]
+}

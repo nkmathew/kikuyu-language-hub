@@ -1,0 +1,26 @@
+{
+  "batch_info": {
+    "batch_number": "010",
+    "total_cards": 1,
+    "category": "phrases",
+    "source_files": ["103.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T06:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "phrase-010-001",
+      "kikuyu": "Morning Conversation",
+      "english": "Rūci-inī (morning). Wīmwega rūci-inī? (Are you well this morning?). Ndīmwega mūno (I am very well). Wathiī kū? (Where are you going?). Ndathiī wīra (I am going to work). Ūrutaga wīra ūrīkū? (Which work do you do?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Complete morning greeting conversation including pleasantries and work discussion. Natural flow of typical morning encounter",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 103",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:30:00Z"
+      }
+    }
+  ]
+}

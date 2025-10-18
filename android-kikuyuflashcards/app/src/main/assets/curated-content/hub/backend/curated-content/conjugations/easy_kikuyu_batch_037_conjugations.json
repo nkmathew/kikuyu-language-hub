@@ -1,0 +1,97 @@
+{
+  "batch": 37,
+  "source_files": "365-374",
+  "total_flashcards": 8,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Conjugations", "Verb_Derivations"],
+  "difficulty_distribution": {
+    "beginner": 2,
+    "intermediate": 6,
+    "advanced": 0
+  },
+  "flashcards": [
+    {
+      "id": "ek_b37_conj_001",
+      "kikuyu": "Teng'era",
+      "english": "run",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - base form",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_conj_002",
+      "kikuyu": "Gũtengera",
+      "english": "to run",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_conj_003",
+      "kikuyu": "Teng'erithia",
+      "english": "cause to run",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - causative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_conj_004",
+      "kikuyu": "Teng'eria",
+      "english": "run after another (chase)",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - applicative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_conj_005",
+      "kikuyu": "Teng'erania",
+      "english": "chase others about",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Verb - reciprocal/associative form",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #373"
+    },
+    {
+      "id": "ek_b37_conj_006",
+      "kikuyu": "Wĩra ũrĩkũ?",
+      "english": "Which work?",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Question about work/task",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_conj_007",
+      "kikuyu": "Mwena ũrĩkũ?",
+      "english": "Which side?",
+      "difficulty": "beginner",
+      "category": "Conjugations",
+      "context": "Question about direction",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #374"
+    },
+    {
+      "id": "ek_b37_conj_008",
+      "kikuyu": "Mwĩna ũ?",
+      "english": "With whom are you?",
+      "difficulty": "intermediate",
+      "category": "Conjugations",
+      "context": "Question about companions",
+      "quality": 4.7,
+      "source": "Easy Kikuyu #374"
+    }
+  ]
+}

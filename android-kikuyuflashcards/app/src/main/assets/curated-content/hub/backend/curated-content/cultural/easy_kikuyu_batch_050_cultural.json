@@ -1,0 +1,317 @@
+{
+  "batch": 50,
+  "source_files": "495-504",
+  "total_flashcards": 30,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Cultural", "Proverbs", "Clothing", "Monosyllables"],
+  "difficulty_distribution": {
+    "beginner": 15,
+    "intermediate": 10,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b50_cultural_001",
+      "kikuyu": "mũhenania arĩ matukũ",
+      "english": "a liar has days (...days are numbered)",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Traditional proverb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #498"
+    },
+    {
+      "id": "ek_b50_cultural_002",
+      "kikuyu": "andũ marĩ mũoyo matihurũkaga",
+      "english": "people who are alive do not rest",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Traditional proverb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_cultural_003",
+      "kikuyu": "thimo",
+      "english": "proverb",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional wisdom",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #498"
+    },
+    {
+      "id": "ek_b50_cultural_004",
+      "kikuyu": "mbarathi",
+      "english": "horse",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_005",
+      "kikuyu": "ndigiri",
+      "english": "donkey",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_006",
+      "kikuyu": "ng'ondu",
+      "english": "sheep",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_007",
+      "kikuyu": "thenge",
+      "english": "goat (male goat)",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_008",
+      "kikuyu": "ng'ombe",
+      "english": "cow/cattle",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_009",
+      "kikuyu": "ngurũe",
+      "english": "pig",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_010",
+      "kikuyu": "ngũi",
+      "english": "dog",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_011",
+      "kikuyu": "nyau",
+      "english": "cat",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_cultural_012",
+      "kikuyu": "thuruaĩ ngũhĩ",
+      "english": "shorts",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_013",
+      "kikuyu": "thuruaĩ ndaihu",
+      "english": "trousers",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_014",
+      "kikuyu": "mũthurũ (thigatĩ)",
+      "english": "skirt",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_015",
+      "kikuyu": "caatĩ (nguo ya ngoro)",
+      "english": "shirt",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_016",
+      "kikuyu": "mburãũthĩ, (nguo ya ngoro)",
+      "english": "blouse",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_017",
+      "kikuyu": "nguo ya thĩinĩ",
+      "english": "underwear",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_018",
+      "kikuyu": "gĩtambaya kĩa mũtwe",
+      "english": "head scarf",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_019",
+      "kikuyu": "gĩtambaya gĩa kĩmira",
+      "english": "handkerchief",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_020",
+      "kikuyu": "thogithĩ",
+      "english": "socks",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_021",
+      "kikuyu": "kĩratũ",
+      "english": "shoe (pair of shoes)",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_022",
+      "kikuyu": "kĩratũ gĩa kobo",
+      "english": "gum boots",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_023",
+      "kikuyu": "kĩratũ gĩa taritari",
+      "english": "slippers",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_024",
+      "kikuyu": "kĩratũ kĩa mũtheece",
+      "english": "high heels (shoe)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Clothing",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #504"
+    },
+    {
+      "id": "ek_b50_cultural_025",
+      "kikuyu": "mūkūrū",
+      "english": "old",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Monosyllable",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #502"
+    },
+    {
+      "id": "ek_b50_cultural_026",
+      "kikuyu": "mūtwe",
+      "english": "head",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Monosyllable",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #502"
+    },
+    {
+      "id": "ek_b50_cultural_027",
+      "kikuyu": "mūbūto",
+      "english": "trousers",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Monosyllable",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #502"
+    },
+    {
+      "id": "ek_b50_cultural_028",
+      "kikuyu": "mūgathī",
+      "english": "necklace",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Monosyllable",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #502"
+    },
+    {
+      "id": "ek_b50_cultural_029",
+      "kikuyu": "mūgwanja",
+      "english": "seven",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Monosyllable",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #502"
+    },
+    {
+      "id": "ek_b50_cultural_030",
+      "kikuyu": "muega",
+      "english": "good",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Monosyllable",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #502"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-07T00:00:00Z",
+    "last_updated": "2025-10-07T00:00:00Z",
+    "curator": "Claude (Manual Curation)",
+    "source_files": ["035.txt", "037.txt", "041.txt", "043.txt"],
+    "total_entries": 4,
+    "description": "Vocabulary from Easy Kikuyu Facebook lessons - Batch 004 (verbs, consonants, vowels, castor oil)"
+  },
+  "entries": [
+    {
+      "id": "ek_vocab_batch004_001",
+      "english": "to sleep",
+      "kikuyu": "gũkoma",
+      "category": "vocabulary",
+      "subcategory": "verbs_daily",
+      "difficulty": "beginner",
+      "context": "Essential daily verb with common imperative forms",
+      "cultural_notes": "Word of the day feature, one of the most basic verbs",
+      "examples": [
+        {"english": "go to sleep", "kikuyu": "thĩĩ ũkome", "context": "imperative singular"},
+        {"english": "let us sleep", "kikuyu": "nĩ tũkome", "context": "hortative plural"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "gũkoma"
+      },
+      "tags": ["vocabulary", "verbs", "sleep", "daily life", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 035",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T18:00:00Z",
+        "last_updated": "2025-10-07T18:00:00Z"
+      }
+    },
+    {
+      "id": "ek_vocab_batch004_002",
+      "english": "simple sentences with consonants t, th, ny",
+      "kikuyu": "ciugo cia ndaĩ na t, th, ny",
+      "category": "vocabulary",
+      "subcategory": "pronunciation",
+      "difficulty": "intermediate",
+      "context": "Practice sentences demonstrating consonant sounds t, th, and ny",
+      "cultural_notes": "Phonetic practice with authentic example sentences",
+      "examples": [
+        {"english": "forever and ever", "kikuyu": "o na tene na tene", "context": "t sound"},
+        {"english": "cut the fabric five times", "kikuyu": "tinia taama maita matano", "context": "t sound"},
+        {"english": "count the money", "kikuyu": "tara mbeca", "context": "t sound"},
+        {"english": "compose a song", "kikuyu": "tunga karwĩmbo", "context": "t sound"},
+        {"english": "this plate is clean", "kikuyu": "thaani ĩno nĩ theru", "context": "th sound"},
+        {"english": "read without joking", "kikuyu": "thooma ũtarĩ na itherũ", "context": "th sound"},
+        {"english": "move away from here", "kikuyu": "thenga haha (ehera haha)", "context": "th sound"},
+        {"english": "behind the house", "kikuyu": "thutha wa nyumba", "context": "th sound"},
+        {"english": "read your book", "kikuyu": "thooma ibuku rĩaku", "context": "th sound"},
+        {"english": "cook tomatoes and greens", "kikuyu": "ruga nyanya na nyeni", "context": "ny sound"},
+        {"english": "Mũrarũ is a snake", "kikuyu": "mũrarũ nĩ nyoka", "context": "ny sound"},
+        {"english": "wild animals", "kikuyu": "nyamũ cia gĩthaka", "context": "ny sound"},
+        {"english": "vegetables are good", "kikuyu": "nyeni nĩ njega", "context": "ny sound"},
+        {"english": "a cockroach is dirty", "kikuyu": "nyenje ĩ gĩko", "context": "ny sound"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "sentences",
+        "focus": "consonant pronunciation"
+      },
+      "tags": ["pronunciation", "consonants", "practice", "sentences", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 037",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T18:00:00Z",
+        "last_updated": "2025-10-07T18:00:00Z"
+      }
+    },
+    {
+      "id": "ek_vocab_batch004_003",
+      "english": "castor oil",
+      "kikuyu": "mbarĩki",
+      "category": "vocabulary",
+      "subcategory": "traditional_medicine",
+      "difficulty": "intermediate",
+      "context": "Traditional oil used medicinally, with related phrases",
+      "cultural_notes": "Part of traditional Kikuyu medicine and cooking practices",
+      "examples": [
+        {"english": "when castor oil seeds are cooking", "kikuyu": "mbarĩki ikĩhĩa", "context": "temporal clause"},
+        {"english": "I was not wise enough to know", "kikuyu": "ndiarĩ mũgi wa kũmenya", "context": "negative past"},
+        {"english": "It is Kenyatta who told me", "kikuyu": "nĩ Kĩnyatta wanjĩrire", "context": "cleft sentence"},
+        {"english": "they are fried on a frying pan", "kikuyu": "ikarangagwo na rũgĩo", "context": "passive cooking"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun"
+      },
+      "tags": ["vocabulary", "medicine", "traditional", "cooking", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 041",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T18:00:00Z",
+        "last_updated": "2025-10-07T18:00:00Z"
+      }
+    },
+    {
+      "id": "ek_vocab_batch004_004",
+      "english": "Kikuyu vowels with pronunciation guide",
+      "kikuyu": "tũheere twa Gĩkũyũ",
+      "category": "vocabulary",
+      "subcategory": "pronunciation",
+      "difficulty": "beginner",
+      "context": "Complete guide to 7 Kikuyu vowels with English pronunciation comparisons",
+      "cultural_notes": "Kikuyu has 7 vowels including long vowels. Understanding these is fundamental to correct pronunciation",
+      "examples": [
+        {"english": "a - like 'hut, Abraham'", "kikuyu": "aca (no), athiĩ (gone), arĩa (eaten), athamaki (kings)", "context": "vowel a"},
+        {"english": "e - like 'hen, pen'", "kikuyu": "eha? (where?), kena (be happy), ndehere (bring to me)", "context": "vowel e"},
+        {"english": "ĩ - like 'ate, hate, late'", "kikuyu": "ĩkĩra (put), thĩna (problems), mĩtĩ (trees)", "context": "vowel ĩ"},
+        {"english": "i - like 'bee' (long vowel)", "kikuyu": "ihi (no), hihi (maybe), iho (they're there), ngima (ugali)", "context": "vowel i"},
+        {"english": "o - like 'author' or 'only'", "kikuyu": "ona (see), okoka (come closer), koma (sleep), tonya (come in)", "context": "vowel o"},
+        {"english": "ũ - like 'good' or 'oh dear'", "kikuyu": "ũka (come), tũma (send), mũndũ (person)", "context": "vowel ũ"},
+        {"english": "u - like 'who'", "kikuyu": "guka (grandfather), ruta (remove), uma (come out), muma (oath)", "context": "vowel u"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phonology",
+        "vowel_system": "7 vowels (a, e, ĩ, i, o, ũ, u)"
+      },
+      "tags": ["pronunciation", "vowels", "phonetics", "beginner", "fundamentals"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 043",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T18:00:00Z",
+        "last_updated": "2025-10-07T18:00:00Z"
+      }
+    }
+  ]
+}

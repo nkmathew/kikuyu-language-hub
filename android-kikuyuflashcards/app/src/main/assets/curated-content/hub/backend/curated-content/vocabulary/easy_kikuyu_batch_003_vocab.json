@@ -1,0 +1,160 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-07T00:00:00Z",
+    "last_updated": "2025-10-07T00:00:00Z",
+    "curator": "Claude (Manual Curation)",
+    "source_files": ["030.txt", "032.txt", "033.txt", "034.txt"],
+    "total_entries": 4,
+    "description": "Vocabulary from Easy Kikuyu Facebook lessons - Batch 003 (numbers, locomotion, word patterns)"
+  },
+  "entries": [
+    {
+      "id": "ek_vocab_batch003_001",
+      "english": "words ending in 'thĩ'",
+      "kikuyu": "ciugo irĩkĩtie na 'thĩ'",
+      "category": "vocabulary",
+      "subcategory": "word_patterns",
+      "difficulty": "beginner",
+      "context": "Common word pattern and vocabulary building exercise",
+      "cultural_notes": "Pattern recognition helps learners identify word families and common endings",
+      "examples": [
+        {"english": "ticklish", "kikuyu": "thithĩ", "context": "sensory adjective"},
+        {"english": "clean", "kikuyu": "karatathĩ", "context": "adjective (as in clean towel - ngacibũ ya karatathĩ)"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "pattern",
+        "pattern_type": "suffix_ending"
+      },
+      "tags": ["vocabulary", "patterns", "word formation", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.3,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 030",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T17:00:00Z",
+        "last_updated": "2025-10-07T17:00:00Z"
+      }
+    },
+    {
+      "id": "ek_vocab_batch003_002",
+      "english": "numbers from 11 to 1 million",
+      "kikuyu": "mĩigana kuuma 11 kũmagana million",
+      "category": "vocabulary",
+      "subcategory": "numbers",
+      "difficulty": "intermediate",
+      "context": "Complete number system from eleven to one million",
+      "cultural_notes": "Uses archaic term 'mũrongo' (ten) from twenty onwards. Million is borrowed from English",
+      "examples": [
+        {"english": "eleven", "kikuyu": "ĩkũmi na ĩmwe", "context": "10 + 1"},
+        {"english": "twelve", "kikuyu": "ĩkũmi na ĩgĩrĩ", "context": "10 + 2"},
+        {"english": "thirteen", "kikuyu": "ĩkũmi na ĩthatũ", "context": "10 + 3"},
+        {"english": "twenty", "kikuyu": "mĩrongo ĩrĩĩ", "context": "literally two tens"},
+        {"english": "twenty-one", "kikuyu": "mĩrongo ĩrĩĩ na ĩmwe", "context": "20 + 1"},
+        {"english": "thirty", "kikuyu": "mĩrongo ĩtatũ", "context": "three tens"},
+        {"english": "ninety-nine", "kikuyu": "mĩrongo kenda na kenda", "context": "9 tens + 9"},
+        {"english": "one hundred", "kikuyu": "igana rĩmwe", "context": "hundred"},
+        {"english": "one hundred and one", "kikuyu": "igana rĩmwe na ĩmwe", "context": "100 + 1"},
+        {"english": "one hundred and twenty", "kikuyu": "igana rĩmwe rĩa mĩrongo ĩrĩĩ", "context": "100 of 20"},
+        {"english": "one hundred and forty-one", "kikuyu": "igana rĩmwe rĩa mĩrongo ĩna na ĩmwe", "context": "100 of 40 + 1"},
+        {"english": "one thousand", "kikuyu": "ngiri ĩmwe", "context": "thousand"},
+        {"english": "one million", "kikuyu": "mirioni ĩmwe", "context": "English borrowing"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "notes": "mũrongo (archaic for ten) used from 20 onwards"
+      },
+      "tags": ["numbers", "counting", "vocabulary", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 032",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T17:00:00Z",
+        "last_updated": "2025-10-07T17:00:00Z"
+      }
+    },
+    {
+      "id": "ek_vocab_batch003_003",
+      "english": "locomotion (movement verbs - set 1)",
+      "kikuyu": "mĩthĩĩre",
+      "category": "vocabulary",
+      "subcategory": "verbs_movement",
+      "difficulty": "intermediate",
+      "context": "Verbs describing different ways of moving and traveling",
+      "cultural_notes": "Essential action verbs for describing daily movement and transportation",
+      "examples": [
+        {"english": "to run", "kikuyu": "gũteng'era", "context": "fast movement"},
+        {"english": "to walk", "kikuyu": "gũthĩĩ na magũrũ", "context": "literally: to go with feet"},
+        {"english": "walking with long strides", "kikuyu": "gũtacũka", "context": "specific walking style"},
+        {"english": "riding a bike", "kikuyu": "gũtwarithia maithikiri", "context": "bicycle"},
+        {"english": "driving a car", "kikuyu": "gũtwarithia ngari", "context": "vehicle"},
+        {"english": "swimming", "kikuyu": "gũtũbĩra", "context": "water movement"},
+        {"english": "floating", "kikuyu": "kũrera", "context": "on water"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "verb_class": "infinitive_forms"
+      },
+      "tags": ["verbs", "movement", "locomotion", "transportation", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 033",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T17:00:00Z",
+        "last_updated": "2025-10-07T17:00:00Z"
+      }
+    },
+    {
+      "id": "ek_vocab_batch003_004",
+      "english": "locomotion (movement verbs - set 2)",
+      "kikuyu": "mĩthĩĩre",
+      "category": "vocabulary",
+      "subcategory": "verbs_movement",
+      "difficulty": "intermediate",
+      "context": "More verbs describing specific types of body movements",
+      "cultural_notes": "Detailed vocabulary for describing physical movements and disabilities",
+      "examples": [
+        {"english": "to crawl", "kikuyu": "gũkuruma", "context": "on hands and knees"},
+        {"english": "dragging oneself on the ground", "kikuyu": "gũkĩrita", "context": "low movement"},
+        {"english": "to limp", "kikuyu": "gũthũa", "context": "walking with difficulty"},
+        {"english": "to jump", "kikuyu": "kũrũga", "context": "upward movement"},
+        {"english": "to do a headstand", "kikuyu": "gũturia nyĩĩ", "context": "acrobatic position"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "verb_class": "infinitive_forms"
+      },
+      "tags": ["verbs", "movement", "locomotion", "body", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 034",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T17:00:00Z",
+        "last_updated": "2025-10-07T17:00:00Z"
+      }
+    }
+  ]
+}

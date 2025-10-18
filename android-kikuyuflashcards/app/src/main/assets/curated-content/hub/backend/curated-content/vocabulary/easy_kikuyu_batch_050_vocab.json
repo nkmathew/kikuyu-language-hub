@@ -1,0 +1,607 @@
+{
+  "batch": 50,
+  "source_files": "495-504",
+  "total_flashcards": 59,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 34,
+    "intermediate": 20,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b50_vocab_001",
+      "kikuyu": "ĩhũwa",
+      "english": "flower",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nature",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_002",
+      "kikuyu": "rĩo",
+      "english": "that one",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Demonstrative pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_003",
+      "kikuyu": "rĩakwa",
+      "english": "mine",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Possessive pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_004",
+      "kikuyu": "mũicĩ",
+      "english": "thief",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_005",
+      "kikuyu": "woya",
+      "english": "have taken",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_006",
+      "kikuyu": "metha",
+      "english": "table",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - furniture",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_007",
+      "kikuyu": "yo",
+      "english": "that one (feminine)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Demonstrative pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_008",
+      "kikuyu": "yakwa",
+      "english": "mine (feminine)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Possessive pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_009",
+      "kikuyu": "moka",
+      "english": "have come",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_011",
+      "kikuyu": "mwataha",
+      "english": "have fetched",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_012",
+      "kikuyu": "ithuĩ",
+      "english": "us",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_013",
+      "kikuyu": "ko",
+      "english": "that one (neuter)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Demonstrative pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_014",
+      "kikuyu": "kerũ",
+      "english": "new",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_015",
+      "kikuyu": "ĩembe",
+      "english": "mango",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_016",
+      "kikuyu": "rĩaku",
+      "english": "yours (neuter)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Possessive pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #495"
+    },
+    {
+      "id": "ek_b50_vocab_017",
+      "kikuyu": "mbarathi",
+      "english": "horse",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_018",
+      "kikuyu": "ndigiri",
+      "english": "donkey",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_019",
+      "kikuyu": "ng'ondu",
+      "english": "sheep",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_020",
+      "kikuyu": "thenge",
+      "english": "goat (male goat)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_021",
+      "kikuyu": "ng'ombe",
+      "english": "cow/cattle",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_022",
+      "kikuyu": "ngurũe",
+      "english": "pig",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_023",
+      "kikuyu": "ngũi",
+      "english": "dog",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_024",
+      "kikuyu": "nyau",
+      "english": "cat",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - animal",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #496"
+    },
+    {
+      "id": "ek_b50_vocab_025",
+      "kikuyu": "kĩrathi",
+      "english": "class",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - education",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_026",
+      "kikuyu": "oyai",
+      "english": "lift up",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_027",
+      "kikuyu": "moko",
+      "english": "hands",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - body part",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_028",
+      "kikuyu": "igũrũ",
+      "english": "up",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - direction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_029",
+      "kikuyu": "oige",
+      "english": "to say",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_030",
+      "kikuyu": "rĩtwa",
+      "english": "name",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - identity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_031",
+      "kikuyu": "rĩake",
+      "english": "his/her",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Possessive pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_032",
+      "kikuyu": "mwĩrutei",
+      "english": "learn",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_033",
+      "kikuyu": "thimo",
+      "english": "proverb",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - wisdom",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_034",
+      "kikuyu": "mũcoke",
+      "english": "then",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_035",
+      "kikuyu": "mũtũmũre",
+      "english": "use",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_036",
+      "kikuyu": "ciugo",
+      "english": "words",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - language",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_037",
+      "kikuyu": "icio",
+      "english": "those",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Demonstrative pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_038",
+      "kikuyu": "gũtamũka",
+      "english": "to make",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_039",
+      "kikuyu": "maũndũ",
+      "english": "sentences/things",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - abstract",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_040",
+      "kikuyu": "mangĩ",
+      "english": "other",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #497"
+    },
+    {
+      "id": "ek_b50_vocab_041",
+      "kikuyu": "maheni",
+      "english": "lies",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - abstract",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #498"
+    },
+    {
+      "id": "ek_b50_vocab_042",
+      "kikuyu": "mũhenania",
+      "english": "liar",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #498"
+    },
+    {
+      "id": "ek_b50_vocab_043",
+      "kikuyu": "matukũ",
+      "english": "days",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #498"
+    },
+    {
+      "id": "ek_b50_vocab_044",
+      "kikuyu": "arĩ",
+      "english": "he/she has",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #498"
+    },
+    {
+      "id": "ek_b50_vocab_045",
+      "kikuyu": "mũoyo",
+      "english": "soul, spirit",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - abstract",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_vocab_046",
+      "kikuyu": "hurũka",
+      "english": "rest",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_vocab_047",
+      "kikuyu": "kũhurũka",
+      "english": "to rest",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_vocab_048",
+      "kikuyu": "kũhurũkaga",
+      "english": "to be resting",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - continuous",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_vocab_049",
+      "kikuyu": "matihurũkaga",
+      "english": "they do not rest (continuous tense)",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - negative continuous",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #499"
+    },
+    {
+      "id": "ek_b50_vocab_050",
+      "kikuyu": "bũrũri",
+      "english": "country",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - place",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #500"
+    },
+    {
+      "id": "ek_b50_vocab_051",
+      "kikuyu": "ũrĩkũ",
+      "english": "which",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Question word",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #500"
+    },
+    {
+      "id": "ek_b50_vocab_052",
+      "kikuyu": "ũgacooka",
+      "english": "will you come back",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - future tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #500"
+    },
+    {
+      "id": "ek_b50_vocab_053",
+      "kikuyu": "cookiai",
+      "english": "answer",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #500"
+    },
+    {
+      "id": "ek_b50_vocab_054",
+      "kikuyu": "ciũria",
+      "english": "questions",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - communication",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #500"
+    },
+    {
+      "id": "ek_b50_vocab_055",
+      "kikuyu": "ciothe",
+      "english": "all",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adjective - quantity",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #500"
+    },
+    {
+      "id": "ek_b50_vocab_056",
+      "kikuyu": "mūtī",
+      "english": "tree",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nature",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #501"
+    },
+    {
+      "id": "ek_b50_vocab_057",
+      "kikuyu": "mūrigo",
+      "english": "luggage",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - object",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #501"
+    },
+    {
+      "id": "ek_b50_vocab_058",
+      "kikuyu": "ngarīīnī",
+      "english": "inside the vehicle",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun phrase - location",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #501"
+    },
+    {
+      "id": "ek_b50_vocab_059",
+      "kikuyu": "haica",
+      "english": "climb",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #503"
+    },
+    {
+      "id": "ek_b50_vocab_060",
+      "kikuyu": "haicia",
+      "english": "raise, move something up",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - imperative",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #503"
+    }
+  ]
+}

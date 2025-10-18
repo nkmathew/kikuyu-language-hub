@@ -1,0 +1,217 @@
+{
+  "batch": 47,
+  "source_files": "465-474",
+  "total_flashcards": 20,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Phrases", "Conversation", "Questions", "Greetings"],
+  "difficulty_distribution": {
+    "beginner": 8,
+    "intermediate": 10,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b47_phrase_001",
+      "kikuyu": "Ũngĩmenya ũngĩka atĩa?",
+      "english": "If you knew, what would you do?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Conditional question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_phrase_002",
+      "kikuyu": "Ingĩmenya no thĩĩ gwitũ",
+      "english": "If I know (found out) I would go home",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Conditional response",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #465"
+    },
+    {
+      "id": "ek_b47_phrase_003",
+      "kikuyu": "Kwanyu nĩkũ?",
+      "english": "Where is your home?",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Location question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #466"
+    },
+    {
+      "id": "ek_b47_phrase_004",
+      "kikuyu": "Ngwĩhoka nĩ mũrarũgire mwaka wega",
+      "english": "I hope you jumped (crossed over) the year well",
+      "difficulty": "intermediate",
+      "category": "Greetings",
+      "context": "New Year greeting",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_phrase_005",
+      "kikuyu": "Ĩĩ, kwa hinya wa ngai",
+      "english": "Yes, with the power of God",
+      "difficulty": "beginner",
+      "category": "Greetings",
+      "context": "Religious response",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_phrase_006",
+      "kikuyu": "Mwaka ũyũ nĩtwarie gĩkũyũ mũno",
+      "english": "This year let's speak Kikuyu much",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Language resolution",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #467"
+    },
+    {
+      "id": "ek_b47_phrase_007",
+      "kikuyu": "Nĩwoka ndũnyũ?",
+      "english": "You have come to the market?",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Market greeting",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_008",
+      "kikuyu": "Ĩĩ nĩndoka maitũ",
+      "english": "Yes I have come mother",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Market response",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_009",
+      "kikuyu": "Ũkwenda ngwenderie kĩĩ?",
+      "english": "What do you want me to sell to you?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Market question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_010",
+      "kikuyu": "Ndĩrenda mboga, waru na karati",
+      "english": "I want cabbage, potatoes and carrots",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Shopping request",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_011",
+      "kikuyu": "Ndũkũgũra nyanya?",
+      "english": "Will you not buy tomatoes?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Market question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_012",
+      "kikuyu": "Nĩngũriganĩĩrwo nĩ nyanya na gĩtĩngũrũ",
+      "english": "I had forgotten tomatoes and onions",
+      "difficulty": "advanced",
+      "category": "Conversation",
+      "context": "Shopping response",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_013",
+      "kikuyu": "Ndĩna marenge mega mũno. Nĩũkũgũra rĩmwe?",
+      "english": "I have very good pumpkins. Will you buy one?",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Market offer",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_014",
+      "kikuyu": "Aca reke ngagũra rũciũ",
+      "english": "No let me buy tomorrow",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Shopping response",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #468"
+    },
+    {
+      "id": "ek_b47_phrase_015",
+      "kikuyu": "ũmũthĩ nĩ tũthiĩ ndũnyũ",
+      "english": "Today let's go to the market",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Market invitation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #469"
+    },
+    {
+      "id": "ek_b47_phrase_016",
+      "kikuyu": "Tũhei ũhoro wa kwanyu",
+      "english": "Give us information from your place",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Information request",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #470"
+    },
+    {
+      "id": "ek_b47_phrase_017",
+      "kikuyu": "Thoguo etagwo atĩa?",
+      "english": "What is your father's name?",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Family question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_phrase_018",
+      "kikuyu": "Maitũgwo etagwo atĩa?",
+      "english": "What is your mother's name?",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Family question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_phrase_019",
+      "kikuyu": "Tata",
+      "english": "Auntie",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Family title",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #473"
+    },
+    {
+      "id": "ek_b47_phrase_020",
+      "kikuyu": "Mama",
+      "english": "Uncle (mother's brother only)",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Family title",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #473"
+    }
+  ]
+}

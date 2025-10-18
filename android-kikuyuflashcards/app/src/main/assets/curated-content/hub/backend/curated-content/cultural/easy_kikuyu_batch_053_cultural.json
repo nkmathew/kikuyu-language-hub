@@ -1,0 +1,267 @@
+{
+  "batch": 53,
+  "source_files": "525-534",
+  "total_flashcards": 25,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Cultural", "Proverbs", "Colors", "Traditional_Stories"],
+  "difficulty_distribution": {
+    "beginner": 12,
+    "intermediate": 10,
+    "advanced": 3
+  },
+  "flashcards": [
+    {
+      "id": "ek_b53_cultural_001",
+      "kikuyu": "mũthua ngoro",
+      "english": "person with lame heart",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Traditional proverb concept",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_cultural_002",
+      "kikuyu": "mũthua kũgũrũ",
+      "english": "person with lame leg",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional proverb concept",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #528"
+    },
+    {
+      "id": "ek_b53_cultural_003",
+      "kikuyu": "mũtĩ ũrũngagwo ũrĩ mũnini",
+      "english": "a tree is straightened when young",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Traditional proverb",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #532"
+    },
+    {
+      "id": "ek_b53_cultural_004",
+      "kikuyu": "kũrũnga",
+      "english": "to correct, make straight",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional proverb vocabulary",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #532"
+    },
+    {
+      "id": "ek_b53_cultural_005",
+      "kikuyu": "mũnini",
+      "english": "small, young",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional proverb vocabulary",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #532"
+    },
+    {
+      "id": "ek_b53_cultural_006",
+      "kikuyu": "taara",
+      "english": "give advice",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional proverb vocabulary",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #532"
+    },
+    {
+      "id": "ek_b53_cultural_007",
+      "kikuyu": "wambũi mĩcore",
+      "english": "zebra",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story character",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_cultural_008",
+      "kikuyu": "thiia",
+      "english": "antelope",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story character",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_cultural_009",
+      "kikuyu": "kĩeha",
+      "english": "sadness",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story emotion",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_cultural_010",
+      "kikuyu": "ndwarĩ",
+      "english": "illness",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story concept",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_cultural_011",
+      "kikuyu": "bũrũriĩnĩ",
+      "english": "throughout the country",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional story location",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_cultural_012",
+      "kikuyu": "mũhaka",
+      "english": "must",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story obligation",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #533"
+    },
+    {
+      "id": "ek_b53_cultural_013",
+      "kikuyu": "mũrĩmũ",
+      "english": "illness",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story concept",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_014",
+      "kikuyu": "ndawa",
+      "english": "medicine",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story concept",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_015",
+      "kikuyu": "ũhona",
+      "english": "get cured",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story concept",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_016",
+      "kikuyu": "ũtuko",
+      "english": "night",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_017",
+      "kikuyu": "thayo",
+      "english": "peacefully",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story manner",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_018",
+      "kikuyu": "gwakĩa",
+      "english": "day break",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_019",
+      "kikuyu": "nyeki",
+      "english": "grass",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story food",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_020",
+      "kikuyu": "maĩ",
+      "english": "water",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Traditional story drink",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_021",
+      "kikuyu": "ĩriainĩ",
+      "english": "at the lake/pond",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional story location",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_022",
+      "kikuyu": "ngwatanĩro",
+      "english": "cooperation",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional story concept",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #534"
+    },
+    {
+      "id": "ek_b53_cultural_023",
+      "kikuyu": "kĩmuhu",
+      "english": "grey",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Color",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #531"
+    },
+    {
+      "id": "ek_b53_cultural_024",
+      "kikuyu": "mbirũirũ",
+      "english": "blue",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Color",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #531"
+    },
+    {
+      "id": "ek_b53_cultural_025",
+      "kikuyu": "ngoikoni",
+      "english": "orange",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Color",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #531"
+    }
+  ]
+}

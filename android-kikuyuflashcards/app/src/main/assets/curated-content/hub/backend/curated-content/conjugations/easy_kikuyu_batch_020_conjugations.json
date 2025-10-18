@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "020",
+    "total_cards": 2,
+    "category": "conjugations",
+    "source_files": ["198.txt", "203.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T12:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-020-001",
+      "kikuyu": "Present Habitual - 'Aria' (speak) Conjugation",
+      "english": "Singular: Njaragia (I speak), Waragia (you speak), Aragia (he/she speaks). Plural: Twaragia (we speak), Mwaragia (you speak), Maragia (they speak)",
+      "category": "conjugations",
+      "difficulty": "beginner",
+      "notes": "Present habitual conjugation for 'aria' (to speak). Pattern shows all persons in singular and plural. Example usage: Nĩ waragia gĩkũyũ? (do you speak Kikuyu?), Aria na nĩĩ (speak to me)",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    },
+    {
+      "id": "conj-020-002",
+      "kikuyu": "Simple Present Tense - 1st Person (Habitual)",
+      "english": "Singular: Nĩĩ njũkaga (I come), Nĩĩ nđĩraga (I cry), Nĩĩ nđĩaga (I eat), Nĩĩ njaragia (I speak), Nĩĩ ngenaga (I'm usually happy), Nĩĩ thekaga (I laugh), Nĩĩ thiaga (I go), Nĩĩ thomaga (I read). Plural: Nĩĩ tũkaga (we come), Nĩĩ tũrĩraga (we cry), Nĩĩ tũrĩaga (we eat), Nĩĩ twaragia (we speak), Nĩĩ tũkenaga (we're happy), Nĩĩ tũthekaga (we laugh), Nĩĩ tũthiaga (we go), Nĩĩ tũthomaga (we read), Nĩĩ tũanđĩkaga (we write)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Habitual present tense (I do habitually) for 1st person singular and plural. Questions/answers: Nĩ ũrĩraga? (do you cry?) → Ĩĩ nĩ nđĩraga (yes I cry). Practice pattern extends to all verbs shown",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 203",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      }
+    }
+  ]
+}

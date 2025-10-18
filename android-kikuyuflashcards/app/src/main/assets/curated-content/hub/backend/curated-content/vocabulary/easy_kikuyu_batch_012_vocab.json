@@ -1,0 +1,68 @@
+{
+  "batch_info": {
+    "batch_number": "012",
+    "total_cards": 4,
+    "category": "vocabulary",
+    "source_files": ["115.txt", "116.txt", "118.txt", "124.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T07:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-012-001",
+      "kikuyu": "Mbura ya mbembe",
+      "english": "Hailstones (literally: rain of hailstones)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Weather phenomenon - frozen rain pellets. Mbura (rain) + mbembe (hailstones)",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 115",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T07:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-012-002",
+      "kikuyu": "More Wild Animals & Colors",
+      "english": "Kîmbu (ground squirrel), Ngajathĩ (tree squirrel), Nyoka (snake), King'ang'î (weasel), Kîîra (badger), Gaturu (ground squirrel), Wakaharĩ (tree squirrel), Ngîrî (warthog), Mbogo (buffalo), Thîia (antelope), Ngarî (anteater)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Colors: Rangî mûîrû/njîrû (black), mwerû/njerû (white), mûtune/ndune (red). Adjectives: Nene (big), ninî (small), njega (good), njûrû (ugly). Ndîramaka (surprise/shock)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 116",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T07:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-012-003",
+      "kikuyu": "Occupations - Singular/Plural",
+      "english": "Mwarimũ/Arimũ (teacher/teachers), Mũthigari/Athigari (police/police), Mũrĩmi/Arĩmi (farmer/farmers)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Shows Class 1 noun pattern: Mũ- (singular) → A- (plural). Example: Mwarimũ (one teacher) vs Arimũ (teachers)",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 118",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T07:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-012-004",
+      "kikuyu": "Nyama ya Mbũri",
+      "english": "Goat meat (this is goat meat)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Question: Nĩ nyamũ irĩkũ ingĩ irĩagwo? (Which other animals are eaten?). Cultural context about meat consumption",
+      "quality_score": 4.3,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 124",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T07:30:00Z"
+      }
+    }
+  ]
+}
