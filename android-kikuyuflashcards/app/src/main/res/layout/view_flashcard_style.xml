@@ -13,7 +13,7 @@
         android:layout_margin="8dp"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        app:cardBackgroundColor="@color/md_theme_light_surface">
+        app:cardBackgroundColor="?attr/colorSurfaceVariant">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -62,7 +62,7 @@
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:textStyle="bold"
-                android:textColor="@color/md_theme_light_onSurface"
+                android:textColor="?attr/colorOnSurface"
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:lineSpacingExtra="4dp"
@@ -74,7 +74,7 @@
                 android:layout_height="wrap_content"
                 android:text="Tap to reveal Kikuyu"
                 android:textSize="14sp"
-                android:textColor="@color/md_theme_light_onSurfaceVariant"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:gravity="center"
                 android:layout_marginTop="16dp" />
 
@@ -91,7 +91,7 @@
         android:visibility="gone"
         app:cardCornerRadius="16dp"
         app:cardElevation="8dp"
-        app:cardBackgroundColor="@color/md_theme_light_surface">
+        app:cardBackgroundColor="?attr/colorSurfaceVariant">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -140,7 +140,7 @@
                 android:layout_weight="1"
                 android:textSize="28sp"
                 android:textStyle="bold"
-                android:textColor="@color/md_theme_light_onSurface"
+                android:textColor="?attr/colorOnSurface"
                 android:gravity="center"
                 android:layout_gravity="center"
                 android:lineSpacingExtra="4dp"
@@ -152,7 +152,7 @@
                 android:layout_height="wrap_content"
                 android:text="Tap to show English"
                 android:textSize="14sp"
-                android:textColor="@color/md_theme_light_onSurfaceVariant"
+                android:textColor="?attr/colorOnSurfaceVariant"
                 android:gravity="center"
                 android:layout_marginTop="16dp" />
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/md_theme_light_background"
+    android:background="?attr/colorSurface"
     android:padding="16dp">
 
     <!-- Progress Display -->
@@ -14,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
-        android:textColor="@color/md_theme_light_onSurface"
+        android:textColor="?attr/colorOnSurface"
         android:gravity="center"
         android:layout_marginBottom="16dp"
         tools:text="Progress: 1/20 | Known: 5" />
@@ -42,42 +42,54 @@
         android:gravity="center"
         android:layout_marginBottom="16dp">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/previousButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_marginEnd="8dp"
-            android:text="← Previous"
-            android:textSize="14sp"
-            android:backgroundTint="@color/md_theme_light_secondary"
-            style="@style/Widget.Material3.Button" />
+            app:icon="@android:drawable/ic_media_previous"
+            app:iconTint="?attr/colorOnTertiary"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            android:backgroundTint="?attr/colorTertiary"
+            app:cornerRadius="24dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            style="@style/Widget.Material3.Button.IconButton.Filled" />
 
         <Button
             android:id="@+id/flipButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:layout_marginHorizontal="8dp"
-            android:text="Show Kikuyu"
+            android:text="Flip Card"
             android:textSize="16sp"
-            android:backgroundTint="@color/md_theme_light_primary"
+            android:backgroundTint="?attr/colorPrimary"
             style="@style/Widget.Material3.Button" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/nextButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_marginStart="8dp"
-            android:text="Next →"
-            android:textSize="14sp"
-            android:backgroundTint="@color/md_theme_light_secondary"
-            style="@style/Widget.Material3.Button" />
+            app:icon="@android:drawable/ic_media_next"
+            app:iconTint="?attr/colorOnTertiary"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            android:backgroundTint="?attr/colorTertiary"
+            app:cornerRadius="24dp"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            style="@style/Widget.Material3.Button.IconButton.Filled" />
 
     </LinearLayout>
 
-    <!-- Action Buttons -->
+    <!-- All Action Buttons in one row -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -85,32 +97,61 @@
         android:gravity="center"
         android:layout_marginBottom="16dp">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/knownButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginEnd="4dp"
-            android:text="✅ Mark as Known"
-            android:textSize="14sp"
-            android:backgroundTint="@color/success_color"
-            style="@style/Widget.Material3.Button" />
+            app:icon="@android:drawable/checkbox_on_background"
+            android:text="Known"
+            android:textSize="12sp"
+            android:backgroundTint="?attr/colorSecondary"
+            app:iconTint="?attr/colorOnSecondary"
+            style="@style/Widget.Material3.Button.Icon" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/unknownButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginStart="4dp"
-            android:text="❌ Mark as Unknown"
-            android:textSize="14sp"
-            android:backgroundTint="@color/warning_color"
+            android:layout_marginHorizontal="4dp"
+            app:icon="@android:drawable/ic_delete"
+            android:text="Unknown"
+            android:textSize="12sp"
+            android:backgroundTint="?attr/colorError"
             android:visibility="gone"
-            style="@style/Widget.Material3.Button" />
+            style="@style/Widget.Material3.Button.Icon" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/copyButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            app:icon="@android:drawable/ic_menu_edit"
+            android:text="Copy"
+            android:textSize="12sp"
+            android:backgroundTint="?attr/colorPrimaryContainer"
+            app:iconTint="?attr/colorOnPrimaryContainer"
+            style="@style/Widget.Material3.Button.Icon" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/flagButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            app:icon="@android:drawable/ic_menu_agenda"
+            android:text="Flag"
+            android:textSize="12sp"
+            android:backgroundTint="?attr/colorTertiary"
+            app:iconTint="?attr/colorOnTertiary"
+            style="@style/Widget.Material3.Button.Icon" />
 
     </LinearLayout>
 
-    <!-- Utility Buttons -->
+    <!-- Slideshow Controls -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -118,26 +159,14 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/copyButton"
+            android:id="@+id/slideshowButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_marginEnd="4dp"
-            android:text="📋 Copy"
+            android:text="▶ Start Slideshow"
             android:textSize="14sp"
-            android:backgroundTint="@color/secondary_color"
-            style="@style/Widget.Material3.Button" />
-
-        <Button
-            android:id="@+id/flagButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginStart="4dp"
-            android:text="🚩"
-            android:textSize="14sp"
-            android:backgroundTint="@color/warning_color"
-            style="@style/Widget.Material3.Button" />
+            android:backgroundTint="?attr/colorSecondary"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
 
     </LinearLayout>
 

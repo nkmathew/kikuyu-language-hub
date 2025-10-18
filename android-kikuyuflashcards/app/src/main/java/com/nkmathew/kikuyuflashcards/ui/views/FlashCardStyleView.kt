@@ -13,6 +13,7 @@ import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.nkmathew.kikuyuflashcards.R
+import com.nkmathew.kikuyuflashcards.ThemeManager
 import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 
 /**
@@ -137,8 +138,10 @@ class FlashCardStyleView @JvmOverloads constructor(
             val difficultyColor = when (card.difficulty.lowercase()) {
                 "beginner" -> ContextCompat.getColor(context, R.color.success_color)
                 "intermediate" -> ContextCompat.getColor(context, R.color.warning_color)
-                "advanced" -> ContextCompat.getColor(context, R.color.md_theme_light_error)
-                else -> ContextCompat.getColor(context, R.color.secondary_color)
+                "advanced" -> ContextCompat.getColor(context,
+                    if (ThemeManager.isDarkTheme(context)) R.color.md_theme_dark_error else R.color.md_theme_light_error)
+                else -> ContextCompat.getColor(context,
+                    if (ThemeManager.isDarkTheme(context)) R.color.md_theme_dark_tertiary else R.color.secondary_color)
             }
 
             frontDifficulty.setTextColor(difficultyColor)

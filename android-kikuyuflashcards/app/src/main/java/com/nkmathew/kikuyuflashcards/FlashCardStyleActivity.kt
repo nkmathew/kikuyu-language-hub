@@ -29,6 +29,15 @@ class FlashCardStyleActivity : AppCompatActivity() {
     private lateinit var flagButton: Button
     private lateinit var previousButton: Button
     private lateinit var nextButton: Button
+    private lateinit var slideshowButton: Button
+
+    // For slideshow mode
+    private var isSlideshowRunning = false
+    private val slideshowHandler = android.os.Handler(android.os.Looper.getMainLooper())
+    private val slideshowFlipRunnable = Runnable { autoFlipInSlideshow() }
+    private val slideshowAdvanceRunnable = Runnable { autoAdvanceInSlideshow() }
+    private val FLIP_DELAY_MS = 2000L // 2 seconds before flipping
+    private val ADVANCE_DELAY_MS = 4000L // 4 seconds before next card
 
     private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var flagStorageService: FlagStorageService
@@ -67,6 +76,7 @@ class FlashCardStyleActivity : AppCompatActivity() {
         flagButton = findViewById(R.id.flagButton)
         previousButton = findViewById(R.id.previousButton)
         nextButton = findViewById(R.id.nextButton)
+        slideshowButton = findViewById(R.id.slideshowButton)
     }
 
     private fun initializeManagers() {
@@ -96,11 +106,17 @@ class FlashCardStyleActivity : AppCompatActivity() {
         }
 
         previousButton.setOnClickListener {
+            stopSlideshow()
             showPreviousCard()
         }
 
         nextButton.setOnClickListener {
+            stopSlideshow()
             showNextCard()
+        }
+
+        slideshowButton.setOnClickListener {
+            toggleSlideshow()
         }
     }
 
@@ -121,6 +137,7 @@ class FlashCardStyleActivity : AppCompatActivity() {
             val card = cards[currentCardIndex]
             flashCardView.setCard(card)
             updateButtonStates()
+            updateProgress() // Update position indicator when showing a new card
         }
     }
 
@@ -188,6 +205,7 @@ class FlashCardStyleActivity : AppCompatActivity() {
         if (currentCardIndex > 0) {
             currentCardIndex--
             showCurrentCard()
+            updateProgress() // Update position indicator
         }
     }
 
@@ -195,6 +213,7 @@ class FlashCardStyleActivity : AppCompatActivity() {
         if (currentCardIndex < cards.size - 1) {
             currentCardIndex++
             showCurrentCard()
+            updateProgress() // Update position indicator
         }
     }
 
@@ -207,6 +226,83 @@ class FlashCardStyleActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         finish()
         return true
+    }
+
+    // Slideshow functionality
+    private fun toggleSlideshow() {
+        if (isSlideshowRunning) {
+            stopSlideshow()
+        } else {
+            startSlideshow()
+        }
+    }
+
+    private fun startSlideshow() {
+        isSlideshowRunning = true
+        slideshowButton.text = "■ Stop Slideshow"
+        slideshowButton.setBackgroundColor(ContextCompat.getColor(this, R.color.warning_color))
+
+        // Disable navigation buttons during slideshow
+        previousButton.isEnabled = false
+        nextButton.isEnabled = false
+
+        // Start with front side showing
+        if (flashCardView.isCardFlipped()) {
+            flashCardView.flipCard()
+            slideshowHandler.postDelayed(slideshowFlipRunnable, FLIP_DELAY_MS * 2) // Longer pause before starting
+        } else {
+            // Start the slideshow cycle
+            slideshowHandler.postDelayed(slideshowFlipRunnable, FLIP_DELAY_MS)
+        }
+    }
+
+    private fun stopSlideshow() {
+        if (isSlideshowRunning) {
+            isSlideshowRunning = false
+            slideshowButton.text = "▶ Start Slideshow"
+            slideshowButton.setBackgroundColor(ContextCompat.getColor(this,
+                if (ThemeManager.isDarkTheme(this))
+                    R.color.md_theme_dark_secondary
+                else
+                    R.color.md_theme_light_secondary))
+
+            // Remove pending callbacks
+            slideshowHandler.removeCallbacks(slideshowFlipRunnable)
+            slideshowHandler.removeCallbacks(slideshowAdvanceRunnable)
+
+            // Re-enable buttons based on position
+            updateButtonStates()
+        }
+    }
+
+    private fun autoFlipInSlideshow() {
+        if (isSlideshowRunning) {
+            flashCardView.flipCard()
+            // Schedule advancement to next card
+            slideshowHandler.postDelayed(slideshowAdvanceRunnable, ADVANCE_DELAY_MS)
+        }
+    }
+
+    private fun autoAdvanceInSlideshow() {
+        if (isSlideshowRunning) {
+            // Check if we can move to the next card
+            if (currentCardIndex < cards.size - 1) {
+                currentCardIndex++
+                showCurrentCard()
+                updateProgress() // Update position indicator
+                // Schedule flip for the next card
+                slideshowHandler.postDelayed(slideshowFlipRunnable, FLIP_DELAY_MS)
+            } else {
+                // We've reached the end, stop slideshow
+                Toast.makeText(this, "Slideshow completed", Toast.LENGTH_SHORT).show()
+                stopSlideshow()
+            }
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        stopSlideshow()
     }
 }
 
