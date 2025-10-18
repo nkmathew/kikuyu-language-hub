@@ -331,20 +331,45 @@ class StudyCardView @JvmOverloads constructor(
             flaggedStatusBadge.isVisible = true
 
             // Red flag when flagged
-            flagButton.setColorFilter(ContextCompat.getColor(context, R.color.warning_color))
-            flagButton.setBackgroundColor(Color.parseColor("#fef2f2"))
-            flagButton.setImageResource(android.R.drawable.ic_menu_agenda) // Use flag-like icon
+            flagButton.setColorFilter(ContextCompat.getColor(context, R.color.md_theme_dark_error))
+            flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.md_theme_dark_error))
+            flagButton.setAlpha(200) // Slightly transparent
+            flagButton.setImageResource(android.R.drawable.btn_star_big_on) // Use star icon as flag
 
-            // Add red background to card when flagged - works for both light and dark modes
-            cardView.setCardBackgroundColor(Color.parseColor("#fef2f2"))
+            // Dark themed flagged card with red border in dark mode, light red background in light mode
+            if (ThemeManager.isDarkTheme(context)) {
+                // Dark background with red tint for dark theme
+                cardView.setCardBackgroundColor(Color.parseColor("#4D2D1B1B")) // Dark background with slight red tint
+                cardView.radius = 12f
+
+                // Ensure text colors remain readable in dark mode when flagged
+                englishTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_dark_onSurface))
+                kikuyuTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_dark_onPrimary))
+            } else {
+                // Light red background for light theme
+                cardView.setCardBackgroundColor(Color.parseColor("#fef2f2"))
+
+                // Ensure text colors remain readable in light mode when flagged
+                englishTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_light_onSurface))
+                kikuyuTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_light_onPrimary))
+            }
         } else {
             // Hide flagged status badge
             flaggedStatusBadge.isVisible = false
 
             // Gray flag when not flagged
-            flagButton.setColorFilter(Color.parseColor("#888888"))
-            flagButton.setBackgroundColor(Color.TRANSPARENT)
-            flagButton.setImageResource(android.R.drawable.ic_menu_agenda) // Use flag-like icon
+            flagButton.setColorFilter(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_onSurface
+                else
+                    R.color.md_theme_light_onSurface))
+            flagButton.setBackgroundColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_surfaceVariant
+                else
+                    R.color.md_theme_light_surfaceVariant))
+            flagButton.setAlpha(180) // Slightly transparent
+            flagButton.setImageResource(android.R.drawable.btn_star_big_on) // Use star icon as flag
 
             // Reset card appearance - use theme attributes that adapt to dark/light mode
             cardView.setCardBackgroundColor(ContextCompat.getColor(context,
@@ -352,6 +377,18 @@ class StudyCardView @JvmOverloads constructor(
                     R.color.md_theme_dark_surfaceContainerHighest
                 else
                     R.color.md_theme_light_surface))
+
+            // Reset text colors to theme defaults when not flagged
+            englishTextView.setTextColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_onSecondary
+                else
+                    R.color.md_theme_light_onSecondary))
+            kikuyuTextView.setTextColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_onPrimary
+                else
+                    R.color.md_theme_light_onPrimary))
         }
     }
 

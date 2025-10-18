@@ -16,7 +16,9 @@ class CuratedContentManager(private val context: Context) {
         private const val CURATED_CONTENT_DIR = "curated-content"
     }
 
-    private val gson: Gson = GsonBuilder().create()
+    private val gson: Gson = GsonBuilder()
+        .setLenient() // Allow lenient parsing to handle minor JSON format issues
+        .create()
     private val _allEntries = mutableListOf<FlashcardEntry>()
     private var _metadata = mutableMapOf<String, Metadata>()
 
@@ -131,6 +133,10 @@ class CuratedContentManager(private val context: Context) {
                     Log.d(TAG, "Loaded ${curatedContent.entries.size} entries from $filePath")
                 } catch (e: com.google.gson.JsonSyntaxException) {
                     Log.e(TAG, "Error parsing curated JSON file $filePath: ${e.message}")
+                    // Continue with other files even if this one fails
+                } catch (e: Exception) {
+                    Log.e(TAG, "Unexpected error parsing curated JSON file $filePath: ${e.message}")
+                    // Continue with other files even if this one fails
                 }
             }
         } catch (e: IOException) {
