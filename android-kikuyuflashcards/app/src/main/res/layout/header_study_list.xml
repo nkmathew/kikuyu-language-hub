@@ -7,7 +7,7 @@
     android:layout_margin="4dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="2dp"
-    app:cardBackgroundColor="?attr/colorSecondaryContainer">
+    app:cardBackgroundColor="?attr/colorSurfaceVariant">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +20,8 @@
             android:layout_height="wrap_content"
             android:text="Study Mode - List View"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnSurfaceVariant" />
 
         <!-- Progress Display -->
         <TextView
@@ -49,7 +50,7 @@
                 android:text="Copy All"
                 android:textSize="12sp"
                 android:drawableStart="@android:drawable/ic_menu_edit"
-                android:backgroundTint="@color/md_theme_light_primary"
+                android:backgroundTint="?attr/colorPrimary"
                 style="@style/Widget.Material3.Button" />
 
             <Button
@@ -61,7 +62,7 @@
                 android:text="Share"
                 android:textSize="12sp"
                 android:drawableStart="@android:drawable/ic_menu_share"
-                android:backgroundTint="@color/success_color"
+                android:backgroundTint="?attr/colorSecondary"
                 style="@style/Widget.Material3.Button" />
 
             <com.google.android.material.textfield.TextInputLayout

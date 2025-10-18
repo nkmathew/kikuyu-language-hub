@@ -16,6 +16,7 @@ import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import com.nkmathew.kikuyuflashcards.R
+import com.nkmathew.kikuyuflashcards.ThemeManager
 import com.nkmathew.kikuyuflashcards.models.Categories
 import com.nkmathew.kikuyuflashcards.models.DifficultyLevels
 import com.nkmathew.kikuyuflashcards.models.ExampleSentence
@@ -238,17 +239,39 @@ class StudyCardView @JvmOverloads constructor(
         val exampleView = LinearLayout(context)
         exampleView.orientation = LinearLayout.VERTICAL
         exampleView.setPadding(8, 8, 8, 8)
-        exampleView.setBackgroundColor(Color.parseColor("#10000000")) // Light gray
+
+        // Set different background based on theme to ensure contrast in dark mode
+        if (ThemeManager.isDarkTheme(context)) {
+            // Semi-transparent white for dark mode
+            exampleView.setBackgroundColor(Color.parseColor("#22FFFFFF"))
+        } else {
+            // Semi-transparent black for light mode
+            exampleView.setBackgroundColor(Color.parseColor("#10000000"))
+        }
 
         val kikuyuView = TextView(context)
         kikuyuView.text = example.kikuyu
         kikuyuView.textSize = 14f
         kikuyuView.setTypeface(null, android.graphics.Typeface.BOLD)
+        // Set text color based on theme for better readability
+        kikuyuView.setTextColor(
+            ContextCompat.getColor(
+                context,
+                if (ThemeManager.isDarkTheme(context)) R.color.md_theme_dark_onSurface else R.color.md_theme_light_onSurface
+            )
+        )
         exampleView.addView(kikuyuView)
 
         val englishView = TextView(context)
         englishView.text = example.english
         englishView.textSize = 12f
+        // Set text color based on theme for better readability
+        englishView.setTextColor(
+            ContextCompat.getColor(
+                context,
+                if (ThemeManager.isDarkTheme(context)) R.color.md_theme_dark_onSurfaceVariant else R.color.md_theme_light_onSurfaceVariant
+            )
+        )
         exampleView.addView(englishView)
 
         example.context?.let { contextText ->
@@ -256,6 +279,13 @@ class StudyCardView @JvmOverloads constructor(
             contextView.text = contextText
             contextView.textSize = 10f
             contextView.setTypeface(null, android.graphics.Typeface.ITALIC)
+            // Set text color based on theme for better readability
+            contextView.setTextColor(
+                ContextCompat.getColor(
+                    context,
+                    if (ThemeManager.isDarkTheme(context)) R.color.md_theme_dark_outline else R.color.md_theme_light_outline
+                )
+            )
             exampleView.addView(contextView)
         }
 
@@ -282,7 +312,12 @@ class StudyCardView @JvmOverloads constructor(
         } else {
             knownStatusBadge.isVisible = false
             knownButton.text = "☐"
-            knownButton.setTextColor(ContextCompat.getColor(context, R.color.md_theme_light_onSurfaceVariant))
+            // Use appropriate color based on theme
+            knownButton.setTextColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_onSurfaceVariant
+                else
+                    R.color.md_theme_light_onSurfaceVariant))
             unknownButton.isVisible = false
         }
     }
@@ -294,25 +329,29 @@ class StudyCardView @JvmOverloads constructor(
         if (isFlagged) {
             // Show flagged status badge
             flaggedStatusBadge.isVisible = true
-            
+
             // Red flag when flagged
             flagButton.setColorFilter(ContextCompat.getColor(context, R.color.warning_color))
             flagButton.setBackgroundColor(Color.parseColor("#fef2f2"))
             flagButton.setImageResource(android.R.drawable.ic_menu_agenda) // Use flag-like icon
-            
-            // Add red background to card when flagged
+
+            // Add red background to card when flagged - works for both light and dark modes
             cardView.setCardBackgroundColor(Color.parseColor("#fef2f2"))
         } else {
             // Hide flagged status badge
             flaggedStatusBadge.isVisible = false
-            
+
             // Gray flag when not flagged
             flagButton.setColorFilter(Color.parseColor("#888888"))
             flagButton.setBackgroundColor(Color.TRANSPARENT)
             flagButton.setImageResource(android.R.drawable.ic_menu_agenda) // Use flag-like icon
-            
-            // Reset card appearance
-            cardView.setCardBackgroundColor(ContextCompat.getColor(context, R.color.md_theme_light_primaryContainer))
+
+            // Reset card appearance - use theme attributes that adapt to dark/light mode
+            cardView.setCardBackgroundColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_surfaceContainerHighest
+                else
+                    R.color.md_theme_light_surface))
         }
     }
 

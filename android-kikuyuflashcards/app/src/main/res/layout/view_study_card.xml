@@ -8,7 +8,7 @@
     android:layout_margin="4dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="2dp"
-    app:cardBackgroundColor="?attr/colorPrimaryContainer"
+    app:cardBackgroundColor="?attr/colorSurfaceVariant"
     android:foreground="?attr/selectableItemBackground">
 
     <LinearLayout
@@ -106,8 +106,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="8dp"
                 app:cardCornerRadius="12dp"
-                app:cardElevation="2dp"
-                app:cardBackgroundColor="?attr/colorPrimaryContainer">
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorPrimary">
 
                 <TextView
                     android:id="@+id/kikuyuTextView"
@@ -115,7 +115,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/colorOnPrimaryContainer"
+                    android:textColor="?attr/colorOnPrimary"
                     android:padding="12dp"
                     android:gravity="start"
                     tools:text="Úhoro wa rúciní" />
@@ -127,8 +127,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:cardCornerRadius="12dp"
-                app:cardElevation="2dp"
-                app:cardBackgroundColor="?attr/colorSecondaryContainer">
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="?attr/colorSecondary">
 
                 <TextView
                     android:id="@+id/englishTextView"
@@ -136,7 +136,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="18sp"
                     android:textStyle="bold"
-                    android:textColor="?attr/colorOnSecondaryContainer"
+                    android:textColor="?attr/colorOnSecondary"
                     android:padding="12dp"
                     android:gravity="start"
                     tools:text="Good morning" />
@@ -173,6 +173,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurfaceVariant"
                     tools:text="Common greeting used in the morning" />
             </LinearLayout>
 
@@ -197,6 +198,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurfaceVariant"
                     tools:text="Kikuyu greetings vary by time of day" />
             </LinearLayout>
 
@@ -215,6 +217,7 @@
                     android:text="Examples:"
                     android:textStyle="bold"
                     android:textSize="14sp"
+                    android:textColor="?attr/colorOnSurfaceVariant"
                     android:layout_marginBottom="4dp" />
 
                 <!-- Example items will be added dynamically -->
@@ -295,7 +298,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:textSize="10sp"
-            android:textColor="?android:attr/textColorSecondary"
+            android:textColor="?attr/colorOnSurfaceVariant"
             android:layout_marginTop="8dp"
             tools:text="Source: Easy Kikuyu Lessons" />
 
