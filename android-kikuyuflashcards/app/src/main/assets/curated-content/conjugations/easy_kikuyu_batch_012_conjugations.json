@@ -1,7 +1,7 @@
 {
   "batch_info": {
     "batch_number": "012",
-    "total_cards": 2,
+    "total_cards": 8,
     "category": "conjugations",
     "source_files": ["117.txt", "121.txt"],
     "created_date": "2025-01-08",
@@ -10,11 +10,11 @@
   "flashcards": [
     {
       "id": "conj-012-001",
-      "kikuyu": "Past Tense - Sound Making Verbs",
-      "english": "Kuuga mbu (humming sound), Kûhuha mîruri (whistle), Kûgamba (crow like rooster), Kûnegena (chirp), Kwarîia (bark), Gûkaya (meow), Kûina (bellow like bull)",
+      "english": "I made a distress sound",
+      "kikuyu": "Nguuga mbu",
       "category": "conjugations",
       "difficulty": "intermediate",
-      "notes": "Practice conjugating these 7 sound-making verbs in past tense. Each verb represents a specific animal or natural sound in Kikuyu",
+      "notes": "Past tense of 'kuuga mbu' (to make a distress sound). Sound-making verb practice.",
       "quality_score": 4.5,
       "source": {
         "origin": "Easy Kikuyu Lesson 117",
@@ -24,6 +24,90 @@
     },
     {
       "id": "conj-012-002",
+      "english": "I whistled",
+      "kikuyu": "Nwahuha mîruri",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Past tense of 'kûhuha mîruri' (to whistle). Sound-making verb practice.",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      }
+    },
+    {
+      "id": "conj-012-003",
+      "english": "I made a sound",
+      "kikuyu": "Ngamba",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Past tense of 'kûgamba' (to make a sound like a rooster crowing). Sound-making verb practice.",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      }
+    },
+    {
+      "id": "conj-012-004",
+      "english": "I made noise",
+      "kikuyu": "Nwanegenia",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Past tense of 'kûnegena' (to make noise/chirp). Sound-making verb practice.",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      }
+    },
+    {
+      "id": "conj-012-005",
+      "english": "I spoke",
+      "kikuyu": "Narîa",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Past tense of 'kwarîa' (to speak/bark). Sound-making verb practice.",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      }
+    },
+    {
+      "id": "conj-012-006",
+      "english": "I yelled",
+      "kikuyu": "Ngiaya",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Past tense of 'gûkaya' (to yell due to pain/meow). Sound-making verb practice.",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      }
+    },
+    {
+      "id": "conj-012-007",
+      "english": "I sang",
+      "kikuyu": "Noina",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Past tense of 'kûina' (to sing/bellow like bull). Sound-making verb practice.",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      }
+    },
+    {
+      "id": "conj-012-008",
       "kikuyu": "Present Tense Location - 'Ndĩ gûkũ' Pattern",
       "english": "I am here (Ndĩ gûkũ), You are here (Wĩ gûkũ), He/She is here (E gûkũ / Arĩ gûkũ), We are here (Twĩ gûkũ), You all are here (Mwĩ gûkũ), They are here (Me gûkũ / Marĩ gûkũ)",
       "category": "conjugations",

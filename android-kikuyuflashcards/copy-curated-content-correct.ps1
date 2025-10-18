@@ -1,5 +1,5 @@
 # PowerShell script to copy curated content from backend to Android assets
-# This script copies all JSON files from backend/curated-content to android-kikuyuflashcards/app/src/main/assets/curated-content
+# This script correctly flattens the directory structure for Android app compatibility
 
 Write-Host "Copying curated content files to Android assets..." -ForegroundColor Green
 
@@ -21,31 +21,46 @@ if (-not (Test-Path $targetDir)) {
     Write-Host "Created target directory: $targetDir" -ForegroundColor Yellow
 }
 
-# Function to copy files recursively with proper structure
+# Function to copy files with CORRECT flattened structure
 function Copy-CuratedFiles {
     param(
         [string]$SourcePath,
         [string]$TargetPath
     )
-    
+
     $items = Get-ChildItem -Path $SourcePath -Recurse -File -Filter "*.json"
-    
+
     foreach ($item in $items) {
         # Get relative path from source directory
         $relativePath = $item.FullName.Substring($SourcePath.Length + 1)
-        
-        # Create target file path (directly in curated-content, not in subdirectories)
-        $targetFilePath = Join-Path $TargetPath $relativePath
-        
+
+        # CRITICAL FIX: Extract only the immediate directory and filename
+        # Input: "conjugations/easy_kikuyu_batch_002_conjugations.json"
+        # Output: "conjugations/easy_kikuyu_batch_002_conjugations.json"
+        # Input: "hub/backend/curated-content/conjugations/file.json" (wrong structure)
+        # Output: "conjugations/file.json" (correct structure)
+
+        $pathParts = $relativePath -split '[\\/]'
+        $filename = $pathParts[-1]
+        $category = $pathParts[-2]  # The immediate parent directory (conjugations, vocabulary, etc.)
+
+        # Create the correct target path
+        if ($category -and @('conjugations', 'vocabulary', 'grammar', 'proverbs', 'cultural', 'phrases') -contains $category) {
+            $targetFilePath = Join-Path $TargetPath "$category\$filename"
+        } else {
+            # If no recognizable category, put directly in target
+            $targetFilePath = Join-Path $TargetPath $filename
+        }
+
         # Create target directory if it doesn't exist
         $targetFileDir = Split-Path $targetFilePath -Parent
         if (-not (Test-Path $targetFileDir)) {
             New-Item -ItemType Directory -Path $targetFileDir -Force | Out-Null
         }
-        
+
         # Copy the file
         Copy-Item -Path $item.FullName -Destination $targetFilePath -Force
-        Write-Host "Copied: $relativePath" -ForegroundColor Cyan
+        Write-Host "Copied: $(Split-Path $targetFilePath -Leaf) → $category" -ForegroundColor Cyan
     }
 }
 
