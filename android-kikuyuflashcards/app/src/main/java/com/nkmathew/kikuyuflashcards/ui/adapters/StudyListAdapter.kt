@@ -191,10 +191,11 @@ class StudyListAdapter(
                 onCardStatusChanged(card.id, !isKnown)
             }
             
-            // Set up flag button click
-            studyCardView.setOnLongClickListener {
+            // Set up flag button click listener
+            studyCardView.onFlagListener = {
                 onCardFlagged(card.id)
-                true
+                // Update the UI immediately to show flag state change
+                studyCardView.setFlagged(flaggedCards.contains(card.id))
             }
         }
     }

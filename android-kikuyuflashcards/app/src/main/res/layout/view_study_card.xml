@@ -118,6 +118,7 @@
                     android:textColor="?attr/colorOnPrimary"
                     android:padding="12dp"
                     android:gravity="start"
+                    android:minHeight="48dp"
                     tools:text="Úhoro wa rúciní" />
 
             </androidx.cardview.widget.CardView>
@@ -139,6 +140,7 @@
                     android:textColor="?attr/colorOnSecondary"
                     android:padding="12dp"
                     android:gravity="start"
+                    android:minHeight="48dp"
                     tools:text="Good morning" />
 
             </androidx.cardview.widget.CardView>

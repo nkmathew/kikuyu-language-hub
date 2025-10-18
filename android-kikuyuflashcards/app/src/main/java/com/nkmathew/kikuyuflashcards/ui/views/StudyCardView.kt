@@ -15,6 +15,7 @@ import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
+import androidx.recyclerview.widget.RecyclerView
 import com.nkmathew.kikuyuflashcards.R
 import com.nkmathew.kikuyuflashcards.ThemeManager
 import com.nkmathew.kikuyuflashcards.models.Categories
@@ -65,6 +66,12 @@ class StudyCardView @JvmOverloads constructor(
     var onFlagListener: (() -> Unit)? = null
 
     init {
+        // Ensure this view spans full width in RecyclerView
+        layoutParams = RecyclerView.LayoutParams(
+            RecyclerView.LayoutParams.MATCH_PARENT,
+            RecyclerView.LayoutParams.WRAP_CONTENT
+        )
+
         // Inflate layout
         LayoutInflater.from(context).inflate(R.layout.view_study_card, this, true)
 
