@@ -15,10 +15,43 @@ if (-not (Test-Path $sourceDir)) {
     exit 1
 }
 
-# Create target directory if it doesn't exist
-if (-not (Test-Path $targetDir)) {
+# Clean up existing curated content first
+Write-Host "Cleaning up existing curated content..." -ForegroundColor Yellow
+if (Test-Path $targetDir) {
+    # Get all JSON files in target directory and subdirectories
+    $existingFiles = Get-ChildItem -Path $targetDir -Recurse -File -Filter "*.json"
+
+    if ($existingFiles.Count -gt 0) {
+        Write-Host "Found $($existingFiles.Count) existing files to clean up:" -ForegroundColor Yellow
+        foreach ($file in $existingFiles) {
+            $relativePath = $file.FullName.Substring((Resolve-Path $targetDir).Path.Length + 1)
+            Write-Host "  Removing: $relativePath" -ForegroundColor Gray
+            Remove-Item -Path $file.FullName -Force
+        }
+        Write-Host "Cleanup completed!" -ForegroundColor Green
+    } else {
+        Write-Host "No existing curated content files found." -ForegroundColor Gray
+    }
+
+    # Keep the directory structure but ensure it exists
+    $categories = @('conjugations', 'vocabulary', 'grammar', 'proverbs', 'cultural', 'phrases')
+    foreach ($category in $categories) {
+        $categoryDir = Join-Path $targetDir $category
+        if (-not (Test-Path $categoryDir)) {
+            New-Item -ItemType Directory -Path $categoryDir -Force | Out-Null
+        }
+    }
+} else {
+    # Create target directory if it doesn't exist
     New-Item -ItemType Directory -Path $targetDir -Force
     Write-Host "Created target directory: $targetDir" -ForegroundColor Yellow
+
+    # Create category subdirectories
+    $categories = @('conjugations', 'vocabulary', 'grammar', 'proverbs', 'cultural', 'phrases')
+    foreach ($category in $categories) {
+        $categoryDir = Join-Path $targetDir $category
+        New-Item -ItemType Directory -Path $categoryDir -Force | Out-Null
+    }
 }
 
 # Function to copy files with CORRECT flattened structure
