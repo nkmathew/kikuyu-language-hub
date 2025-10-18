@@ -5,7 +5,7 @@
     android:id="@+id/cardView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="4dp"
+    android:layout_margin="6dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="2dp"
     app:cardBackgroundColor="?attr/colorSurfaceVariant"
@@ -267,30 +267,33 @@
                 android:layout_weight="1" />
 
             <!-- Copy Button -->
-            <ImageView
+            <TextView
                 android:id="@+id/copyButton"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@android:drawable/ic_menu_edit"
-                android:scaleType="centerInside"
+                android:text="📋"
+                android:textSize="20sp"
+                android:gravity="center"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"
                 android:focusable="true"
                 android:layout_marginEnd="8dp"
-                android:contentDescription="Copy" />
+                android:contentDescription="Copy"
+                android:textColor="?attr/colorOnSurfaceVariant" />
 
             <!-- Flag Button -->
-            <ImageView
+            <TextView
                 android:id="@+id/flagButton"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@android:drawable/ic_menu_agenda"
-                android:scaleType="centerInside"
+                android:text="🚩"
+                android:textSize="20sp"
+                android:gravity="center"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:clickable="true"
                 android:focusable="true"
                 android:contentDescription="Flag"
-                android:padding="8dp" />
+                android:textColor="?attr/colorOnSurfaceVariant" />
         </LinearLayout>
 
         <!-- Source Information -->

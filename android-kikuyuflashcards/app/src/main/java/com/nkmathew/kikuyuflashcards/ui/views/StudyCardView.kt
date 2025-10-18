@@ -51,8 +51,8 @@ class StudyCardView @JvmOverloads constructor(
     private val sourceInfoContainer: TextView
     private val knownButton: TextView
     private val unknownButton: TextView
-    private val copyButton: ImageView
-    private val flagButton: ImageView
+    private val copyButton: TextView
+    private val flagButton: TextView
 
     // State
     private var currentEntry: FlashcardEntry? = null
@@ -338,47 +338,44 @@ class StudyCardView @JvmOverloads constructor(
             flaggedStatusBadge.isVisible = true
 
             // Red flag when flagged
-            flagButton.setColorFilter(ContextCompat.getColor(context, R.color.md_theme_dark_error))
-            flagButton.setBackgroundColor(ContextCompat.getColor(context, R.color.md_theme_dark_error))
-            flagButton.setAlpha(200) // Slightly transparent
-            flagButton.setImageResource(android.R.drawable.btn_star_big_on) // Use star icon as flag
+            flagButton.setTextColor(ContextCompat.getColor(context, R.color.md_theme_dark_error))
+            flagButton.setBackgroundColor(ContextCompat.getColor(context, android.R.color.transparent))
+            flagButton.setAlpha(1.0f) // Fully opaque
 
-            // Dark themed flagged card with red border in dark mode, light red background in light mode
-            if (ThemeManager.isDarkTheme(context)) {
-                // Dark background with red tint for dark theme
-                cardView.setCardBackgroundColor(Color.parseColor("#4D2D1B1B")) // Dark background with slight red tint
-                cardView.radius = 12f
+            // Red border for flagged cards - use drawable background
+            cardView.setBackgroundResource(R.drawable.card_border_background)
+            cardView.setCardBackgroundColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_surfaceContainerHighest
+                else
+                    R.color.md_theme_light_surface))
 
-                // Ensure text colors remain readable in dark mode when flagged
-                englishTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_dark_onSurface))
-                kikuyuTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_dark_onPrimary))
-            } else {
-                // Light red background for light theme
-                cardView.setCardBackgroundColor(Color.parseColor("#fef2f2"))
-
-                // Ensure text colors remain readable in light mode when flagged
-                englishTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_light_onSurface))
-                kikuyuTextView.setTextColor(ContextCompat.getColor(context, R.color.md_theme_light_onPrimary))
-            }
+            // Ensure text colors remain readable and consistent
+            englishTextView.setTextColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_onSurface
+                else
+                    R.color.md_theme_light_onSurface))
+            kikuyuTextView.setTextColor(ContextCompat.getColor(context,
+                if (ThemeManager.isDarkTheme(context))
+                    R.color.md_theme_dark_onPrimary
+                else
+                    R.color.md_theme_light_onPrimary))
         } else {
             // Hide flagged status badge
             flaggedStatusBadge.isVisible = false
 
             // Gray flag when not flagged
-            flagButton.setColorFilter(ContextCompat.getColor(context,
+            flagButton.setTextColor(ContextCompat.getColor(context,
                 if (ThemeManager.isDarkTheme(context))
-                    R.color.md_theme_dark_onSurface
+                    R.color.md_theme_dark_onSurfaceVariant
                 else
-                    R.color.md_theme_light_onSurface))
-            flagButton.setBackgroundColor(ContextCompat.getColor(context,
-                if (ThemeManager.isDarkTheme(context))
-                    R.color.md_theme_dark_surfaceVariant
-                else
-                    R.color.md_theme_light_surfaceVariant))
-            flagButton.setAlpha(180) // Slightly transparent
-            flagButton.setImageResource(android.R.drawable.btn_star_big_on) // Use star icon as flag
+                    R.color.md_theme_light_onSurfaceVariant))
+            flagButton.setBackgroundColor(ContextCompat.getColor(context, android.R.color.transparent))
+            flagButton.setAlpha(0.7f) // Slightly transparent
 
-            // Reset card appearance - use theme attributes that adapt to dark/light mode
+            // Reset background when not flagged
+            cardView.setBackgroundResource(android.R.color.transparent)
             cardView.setCardBackgroundColor(ContextCompat.getColor(context,
                 if (ThemeManager.isDarkTheme(context))
                     R.color.md_theme_dark_surfaceContainerHighest
@@ -397,6 +394,13 @@ class StudyCardView @JvmOverloads constructor(
                 else
                     R.color.md_theme_light_onPrimary))
         }
+    }
+
+    /**
+     * Convert dp to pixels
+     */
+    private fun Int.dpToPx(): Float {
+        return this * context.resources.displayMetrics.density
     }
 
     /**
