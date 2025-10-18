@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design dimensions -->
+    <dimen name="material_emphasis_high">4dp</dimen>
+    <dimen name="material_emphasis_medium">2dp</dimen>
+    <dimen name="material_emphasis_low">1dp</dimen>
+
+    <!-- App-specific dimensions -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="icon_button_size">48dp</dimen>
+    <dimen name="content_padding">16dp</dimen>
+</resources>

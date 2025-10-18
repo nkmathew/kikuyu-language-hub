@@ -8,16 +8,34 @@
     android:background="?attr/colorSurface"
     android:padding="16dp">
 
-    <!-- Progress Display -->
-    <TextView
-        android:id="@+id/progressTextView"
+    <!-- Progress and Timer Display -->
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:textColor="?attr/colorOnSurface"
-        android:gravity="center"
-        android:layout_marginBottom="16dp"
-        tools:text="Progress: 1/20 | Known: 5" />
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/progressTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnSurface"
+            android:gravity="start"
+            tools:text="Progress: 1/20 | Known: 5" />
+
+        <TextView
+            android:id="@+id/timerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="?attr/colorSecondary"
+            android:text="00:00"
+            android:gravity="end"
+            android:visibility="gone"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
 
     <!-- Flash Card Container -->
     <FrameLayout
@@ -48,16 +66,16 @@
             android:layout_height="48dp"
             android:layout_marginEnd="8dp"
             app:icon="@android:drawable/ic_media_previous"
-            app:iconTint="?attr/colorOnTertiary"
+            app:iconTint="?attr/colorOnPrimary"
             app:iconGravity="textStart"
             app:iconPadding="0dp"
-            android:backgroundTint="?attr/colorTertiary"
+            android:backgroundTint="?attr/colorPrimary"
             app:cornerRadius="24dp"
             android:insetLeft="0dp"
             android:insetTop="0dp"
             android:insetRight="0dp"
             android:insetBottom="0dp"
-            style="@style/Widget.Material3.Button.IconButton.Filled" />
+            style="@style/Widget.Material3.Button.IconButton.Filled.Tonal" />
 
         <Button
             android:id="@+id/flipButton"
@@ -76,16 +94,16 @@
             android:layout_height="48dp"
             android:layout_marginStart="8dp"
             app:icon="@android:drawable/ic_media_next"
-            app:iconTint="?attr/colorOnTertiary"
+            app:iconTint="?attr/colorOnPrimary"
             app:iconGravity="textStart"
             app:iconPadding="0dp"
-            android:backgroundTint="?attr/colorTertiary"
+            android:backgroundTint="?attr/colorPrimary"
             app:cornerRadius="24dp"
             android:insetLeft="0dp"
             android:insetTop="0dp"
             android:insetRight="0dp"
             android:insetBottom="0dp"
-            style="@style/Widget.Material3.Button.IconButton.Filled" />
+            style="@style/Widget.Material3.Button.IconButton.Filled.Tonal" />
 
     </LinearLayout>
 
@@ -108,7 +126,8 @@
             android:textSize="12sp"
             android:backgroundTint="?attr/colorSecondary"
             app:iconTint="?attr/colorOnSecondary"
-            style="@style/Widget.Material3.Button.Icon" />
+            android:textColor="?attr/colorOnSecondary"
+            style="@style/Widget.Material3.Button.TonalButton" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/unknownButton"
@@ -120,8 +139,10 @@
             android:text="Unknown"
             android:textSize="12sp"
             android:backgroundTint="?attr/colorError"
+            android:textColor="?attr/colorOnError"
+            app:iconTint="?attr/colorOnError"
             android:visibility="gone"
-            style="@style/Widget.Material3.Button.Icon" />
+            style="@style/Widget.Material3.Button.TonalButton" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/copyButton"
@@ -132,22 +153,27 @@
             app:icon="@android:drawable/ic_menu_edit"
             android:text="Copy"
             android:textSize="12sp"
-            android:backgroundTint="?attr/colorPrimaryContainer"
-            app:iconTint="?attr/colorOnPrimaryContainer"
-            style="@style/Widget.Material3.Button.Icon" />
+            android:backgroundTint="?attr/colorSurfaceVariant"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            app:iconTint="?attr/colorOnSurfaceVariant"
+            style="@style/Widget.Material3.Button.TonalButton" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/flagButton"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:layout_marginStart="4dp"
             app:icon="@android:drawable/ic_menu_agenda"
-            android:text="Flag"
-            android:textSize="12sp"
-            android:backgroundTint="?attr/colorTertiary"
-            app:iconTint="?attr/colorOnTertiary"
-            style="@style/Widget.Material3.Button.Icon" />
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:iconTint="?attr/colorPrimary"
+            app:cornerRadius="24dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="?attr/colorPrimary"
+            android:backgroundTint="@android:color/transparent"
+            style="@style/Widget.Material3.Button.OutlinedButton" />
 
     </LinearLayout>
 
@@ -162,11 +188,21 @@
             android:id="@+id/slideshowButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_weight="3"
             android:text="▶ Start Slideshow"
             android:textSize="14sp"
             android:backgroundTint="?attr/colorSecondary"
             style="@style/Widget.Material3.Button.OutlinedButton" />
+
+        <ImageButton
+            android:id="@+id/timerSettingButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:src="@android:drawable/ic_menu_recent_history"
+            android:contentDescription="Timer Settings"
+            android:backgroundTint="?attr/colorSurfaceVariant"
+            style="@style/Widget.Material3.Button.IconButton" />
 
     </LinearLayout>
 

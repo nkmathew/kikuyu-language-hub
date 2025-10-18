@@ -28,6 +28,7 @@ class FlashCardStyleView @JvmOverloads constructor(
 
     private var isFlipped = false
     private var currentCard: FlashcardEntry? = null
+    private var currentPosition: Int = 0 // Track card position for alternating backgrounds
 
     // Views
     private lateinit var frontView: View
@@ -62,11 +63,43 @@ class FlashCardStyleView @JvmOverloads constructor(
         }
     }
 
-    fun setCard(card: FlashcardEntry) {
+    /**
+     * Set the card and its position for display
+     * @param card The flashcard to display
+     * @param position The position in the card list (used for alternating backgrounds)
+     */
+    fun setCard(card: FlashcardEntry, position: Int = 0) {
         currentCard = card
+        currentPosition = position
         isFlipped = false
         updateCardContent()
+        applyAlternatingBackgrounds()
         showFront()
+    }
+
+    /**
+     * Apply alternating background colors based on the position (odd/even)
+     */
+    private fun applyAlternatingBackgrounds() {
+        val isEvenPosition = currentPosition % 2 == 0
+        val isDarkTheme = ThemeManager.isDarkTheme(context)
+
+        // Front view (English) background
+        val frontBgColor = if (isEvenPosition) {
+            if (isDarkTheme) Color.parseColor("#1F2937") else Color.parseColor("#F1F5F9")
+        } else {
+            if (isDarkTheme) Color.parseColor("#18212F") else Color.parseColor("#E2E8F0")
+        }
+
+        // Back view (Kikuyu) background - different from the front view
+        val backBgColor = if (isEvenPosition) {
+            if (isDarkTheme) Color.parseColor("#0F172A") else Color.parseColor("#EEF2FF")
+        } else {
+            if (isDarkTheme) Color.parseColor("#0F1A2A") else Color.parseColor("#E0E7FF")
+        }
+
+        frontView.setBackgroundColor(frontBgColor)
+        backView.setBackgroundColor(backBgColor)
     }
 
     fun flipCard() {
