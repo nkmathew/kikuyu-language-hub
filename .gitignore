@@ -50,3 +50,5 @@ android/**/captures/
 *.iml
 *.keystore
 android/app/debug.keystore
+
+.schema-types/
