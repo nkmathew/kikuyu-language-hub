@@ -137,4 +137,25 @@ class FlagStorageService(private val context: Context) {
     fun getFlaggedCount(): Int {
         return getFlaggedItems().size
     }
+
+    /**
+     * Get most frequent reasons (top 3)
+     * Used for quick selection in the UI
+     */
+    fun getPopularReasons(limit: Int = 3): List<String> {
+        val reasons = getFlagReasons().values.toList()
+
+        // Count occurrences of each reason
+        val reasonCounts = mutableMapOf<String, Int>()
+        reasons.forEach { reason ->
+            reasonCounts[reason] = (reasonCounts[reason] ?: 0) + 1
+        }
+
+        // Sort by count (descending) and take the top 'limit' items
+        return reasonCounts.entries
+            .sortedByDescending { it.value }
+            .take(limit)
+            .map { it.key }
+            .filter { it.isNotBlank() } // Filter out blank reasons
+    }
 }

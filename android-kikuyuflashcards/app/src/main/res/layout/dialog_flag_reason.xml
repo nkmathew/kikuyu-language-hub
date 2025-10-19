@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Edit Text for entering reason -->
+    <EditText
+        android:id="@+id/reasonEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:maxLines="5"
+        android:hint="Enter reason for flagging this translation..."
+        android:inputType="textMultiLine" />
+
+    <!-- Quick Select Section -->
+    <TextView
+        android:id="@+id/quickReasonsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text="Quick Select (Previous Reasons):"
+        android:textStyle="bold"
+        android:textSize="14sp" />
+
+    <!-- Container for quick-select buttons -->
+    <LinearLayout
+        android:id="@+id/quickReasonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+</LinearLayout>

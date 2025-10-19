@@ -6,8 +6,10 @@ import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -155,17 +157,52 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
      * Show dialog to add/edit flag reason
      */
     private fun showReasonDialog(cardId: String) {
-        val editText = EditText(this).apply {
-            setText(flagReasons[cardId] ?: "")
-            hint = "Enter reason for flagging this translation..."
-            minLines = 3
-            maxLines = 5
+        // Get popular reasons for quick selection
+        val popularReasons = flagStorageService.getPopularReasons(3)
+
+        // Create custom dialog view with EditText and quick select buttons
+        val dialogView = layoutInflater.inflate(R.layout.dialog_flag_reason, null)
+        val editText = dialogView.findViewById<EditText>(R.id.reasonEditText)
+        val quickReasonsLayout = dialogView.findViewById<LinearLayout>(R.id.quickReasonsLayout)
+
+        // Set existing reason if available
+        editText.setText(flagReasons[cardId] ?: "")
+
+        // If we have popular reasons, show them as quick select buttons
+        if (popularReasons.isNotEmpty()) {
+            popularReasons.forEach { reason ->
+                val button = Button(this).apply {
+                    text = reason
+                    textSize = 12f
+                    setBackgroundColor(getColor(R.color.md_theme_light_surfaceVariant))
+                    setTextColor(getColor(R.color.md_theme_light_onSurfaceVariant))
+
+                    // Set click listener to fill the EditText with this reason
+                    setOnClickListener {
+                        editText.setText(reason)
+                    }
+
+                    // Set layout params
+                    layoutParams = LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT
+                    ).apply {
+                        bottomMargin = 8.dpToPx()
+                    }
+                }
+                quickReasonsLayout.addView(button)
+            }
+        } else {
+            // Hide the quick reasons section if no popular reasons
+            dialogView.findViewById<TextView>(R.id.quickReasonsTitle).visibility = View.GONE
+            quickReasonsLayout.visibility = View.GONE
         }
 
+        // Create a dialog to ask for the reason
         AlertDialog.Builder(this)
             .setTitle("Flag Reason")
             .setMessage("Why is this translation flagged?")
-            .setView(editText)
+            .setView(dialogView)
             .setPositiveButton("Save") { _, _ ->
                 val reason = editText.text.toString().trim()
                 if (reason.isNotEmpty()) {
@@ -219,6 +256,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
     /**
      * Share flagged items via email to developer
      * Includes a JSON format of the flagged translations
+     * Requires a reason for each flagged card
      */
     private fun shareFlaggedItems() {
         if (flaggedCards.isEmpty()) {
@@ -226,6 +264,127 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
             return
         }
 
+        // Check if all flagged cards have reasons
+        val cardsWithoutReasons = flaggedCards.filter { card ->
+            flagReasons[card.id].isNullOrBlank()
+        }
+
+        if (cardsWithoutReasons.isNotEmpty()) {
+            // Some cards are missing reasons, prompt user to add them
+            promptForMissingReasons(cardsWithoutReasons)
+            return
+        }
+
+        // All cards have reasons, proceed with email
+        sendFlaggedItemsEmail()
+    }
+
+    /**
+     * Prompt user to add reasons for flagged cards that don't have them
+     */
+    private fun promptForMissingReasons(cardsWithoutReasons: List<FlashcardEntry>) {
+        // Get the first card without a reason
+        val card = cardsWithoutReasons.first()
+
+        // Get popular reasons for quick selection
+        val popularReasons = flagStorageService.getPopularReasons(3)
+
+        // Create custom dialog view with EditText and quick select buttons
+        val dialogView = layoutInflater.inflate(R.layout.dialog_flag_reason, null)
+        val editText = dialogView.findViewById<EditText>(R.id.reasonEditText)
+        val quickReasonsLayout = dialogView.findViewById<LinearLayout>(R.id.quickReasonsLayout)
+
+        // If we have popular reasons, show them as quick select buttons
+        if (popularReasons.isNotEmpty()) {
+            popularReasons.forEach { reason ->
+                val button = Button(this).apply {
+                    text = reason
+                    textSize = 12f
+                    setBackgroundColor(getColor(R.color.md_theme_light_surfaceVariant))
+                    setTextColor(getColor(R.color.md_theme_light_onSurfaceVariant))
+
+                    // Set click listener to fill the EditText with this reason
+                    setOnClickListener {
+                        editText.setText(reason)
+                    }
+
+                    // Set layout params
+                    layoutParams = LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT,
+                        LinearLayout.LayoutParams.WRAP_CONTENT
+                    ).apply {
+                        bottomMargin = 8.dpToPx()
+                    }
+                }
+                quickReasonsLayout.addView(button)
+            }
+        } else {
+            // Hide the quick reasons section if no popular reasons
+            dialogView.findViewById<TextView>(R.id.quickReasonsTitle).visibility = View.GONE
+            quickReasonsLayout.visibility = View.GONE
+        }
+
+        // Create a dialog to ask for the reason
+        val dialog = AlertDialog.Builder(this)
+            .setTitle("Reason Required")
+            .setMessage("Please provide a reason for flagging:\n\n${card.kikuyu} - ${card.english}")
+            .setView(dialogView)
+            .setCancelable(false) // User must take action
+            .setPositiveButton("Save", null) // Set to null initially, will override below
+            .setNegativeButton("Cancel Email") { _, _ ->
+                // User canceled, don't send email
+                Toast.makeText(this, "Email canceled", Toast.LENGTH_SHORT).show()
+            }
+            .create()
+
+        // Show the dialog
+        dialog.show()
+
+        // Override the positive button to prevent dialog dismiss when reason is empty
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
+            val reason = editText.text.toString().trim()
+            if (reason.isNotEmpty()) {
+                // Save the reason
+                flagStorageService.setFlagReason(card.id, reason)
+                flagReasons[card.id] = reason
+                flaggedCardAdapter.updateCards(flaggedCards, flagReasons)
+                Toast.makeText(this, "Reason saved", Toast.LENGTH_SHORT).show()
+
+                // Dismiss this dialog
+                dialog.dismiss()
+
+                // Check if there are more cards without reasons
+                val remainingCardsWithoutReasons = flaggedCards.filter {
+                    flagReasons[it.id].isNullOrBlank()
+                }
+
+                if (remainingCardsWithoutReasons.isNotEmpty()) {
+                    // Prompt for the next card's reason
+                    promptForMissingReasons(remainingCardsWithoutReasons)
+                } else {
+                    // All cards now have reasons, send email
+                    sendFlaggedItemsEmail()
+                }
+            } else {
+                // User didn't provide a reason, show error
+                Toast.makeText(this, "A reason is required", Toast.LENGTH_SHORT).show()
+                // Don't dismiss the dialog
+            }
+        }
+    }
+
+    /**
+     * Extension function to convert dp to pixels
+     */
+    private fun Int.dpToPx(): Int {
+        val scale = resources.displayMetrics.density
+        return (this * scale + 0.5f).toInt()
+    }
+
+    /**
+     * Send email with all flagged items that now have reasons
+     */
+    private fun sendFlaggedItemsEmail() {
         // Create human-readable summary
         val shareText = buildString {
             appendLine("Flagged Kikuyu Translations (${flaggedCards.size} items):")
@@ -241,9 +400,9 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
                 if (card.source?.origin?.isNotEmpty() == true) {
                     appendLine("  Source: ${card.source.origin}")
                 }
-                flagReasons[card.id]?.let { reason ->
-                    appendLine("  ⚠️ Flag Reason: $reason")
-                }
+                // All cards should have reasons at this point
+                val reason = flagReasons[card.id] ?: "No reason provided"
+                appendLine("  ⚠️ Flag Reason: $reason")
                 appendLine()
             }
 
