@@ -55,12 +55,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Flagged Translations: 0/554"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        android:textColor="@color/dark_on_surface"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/dark_on_surface_variant"
         android:background="@color/dark_surface_variant"
-        android:paddingVertical="12dp"
+        android:paddingVertical="8dp"
         android:paddingHorizontal="16dp"
+        android:gravity="center"
         android:visibility="visible" />
 
     <!-- Empty State -->

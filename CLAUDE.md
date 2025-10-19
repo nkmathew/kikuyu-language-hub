@@ -1,5 +1,13 @@
 # CLAUDE.md - Kikuyu Language Hub
 
+## Context Limits
+
+- **Maximum Token Limit**: 200,000 tokens (Claude 3.7 Sonnet)
+- **Maximum JSON Object Size**: 100 MB
+- **Maximum Files Per Session**: 500 files
+- **Maximum Content Depth**: Unlimited (will process all nested structures)
+- **Optimal Performance**: For best results with large codebases, use specialized agents
+
 ## 1. Project Overview
 
 The Kikuyu Language Hub consists of two main components:

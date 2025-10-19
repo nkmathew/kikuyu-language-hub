@@ -7,189 +7,197 @@
     app:cardCornerRadius="12dp"
     app:cardElevation="3dp">
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:layout_height="wrap_content">
 
-        <!-- Header with position badge and remove button -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
-
-            <!-- Position badge -->
-            <TextView
-                android:id="@+id/positionBadge"
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:background="@drawable/circle_background_blue"
-                android:text="1"
-                android:textColor="@android:color/white"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                android:gravity="center"
-                android:layout_marginEnd="12dp" />
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
-
-                <TextView
-                    android:id="@+id/kikuyuText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Kikuyu Text"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/primary_color" />
-
-                <TextView
-                    android:id="@+id/englishText"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="English Text"
-                    android:textSize="18sp"
-                    android:textColor="@color/secondary_color"
-                    android:layout_marginTop="6dp" />
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/removeButton"
-                android:layout_width="32dp"
-                android:layout_height="32dp"
-                android:background="@drawable/circle_background_red"
-                android:text="✕"
-                android:textColor="@android:color/white"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                android:gravity="center" />
-
-        </LinearLayout>
-
-        <!-- Meta information -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="8dp">
-
-            <TextView
-                android:id="@+id/difficultyText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="beginner"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:background="@drawable/difficulty_badge_beginner"
-                android:paddingHorizontal="8dp"
-                android:paddingVertical="4dp"
-                android:textColor="@android:color/white" />
-
-            <TextView
-                android:id="@+id/categoryText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="category"
-                android:textSize="12sp"
-                android:background="@drawable/category_badge"
-                android:paddingHorizontal="8dp"
-                android:paddingVertical="4dp"
-                android:textColor="@color/secondary_color"
-                android:layout_marginStart="8dp" />
-
-        </LinearLayout>
-
-        <!-- Cultural notes -->
+        <!-- Position Badge (small, at bottom-right corner) -->
         <TextView
-            android:id="@+id/culturalNotesText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Cultural notes"
-            android:textSize="14sp"
-            android:textColor="@color/secondary_color"
-            android:textStyle="italic"
-            android:layout_marginTop="8dp"
-            android:visibility="gone" />
+            android:id="@+id/positionBadge"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:background="@drawable/circle_background_blue"
+            android:text="1"
+            android:textColor="@android:color/white"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="8dp"
+            android:elevation="4dp" />
 
-        <!-- Source information -->
-        <TextView
-            android:id="@+id/sourceText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Source information"
-            android:textSize="12sp"
-            android:textColor="@color/secondary_color"
-            android:layout_marginTop="4dp"
-            android:visibility="gone" />
-
-        <!-- Flag reason -->
         <LinearLayout
-            android:id="@+id/reasonContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:background="@drawable/reason_background"
-            android:padding="12dp"
-            android:layout_marginTop="12dp"
-            android:visibility="gone">
+            android:padding="16dp">
 
+            <!-- Header with remove button -->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:gravity="center_vertical">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="⚠️ Reason:"
-                    android:textSize="12sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/warning_color" />
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/kikuyuText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kikuyu Text"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/primary_color" />
+
+                    <TextView
+                        android:id="@+id/englishText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="English Text"
+                        android:textSize="18sp"
+                        android:textColor="@color/secondary_color"
+                        android:layout_marginTop="6dp" />
+
+                </LinearLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Edit"
-                    android:textSize="12sp"
-                    android:textColor="@color/primary_color"
-                    android:textStyle="bold" />
+                    android:id="@+id/removeButton"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/circle_background_red"
+                    android:text="✕"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:gravity="center" />
 
             </LinearLayout>
 
-            <TextView
-                android:id="@+id/reasonText"
+            <!-- Meta information -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Flag reason text"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/difficultyText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="beginner"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:background="@drawable/difficulty_badge_beginner"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/categoryText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="category"
+                    android:textSize="12sp"
+                    android:background="@drawable/category_badge"
+                    android:paddingHorizontal="8dp"
+                    android:paddingVertical="4dp"
+                    android:textColor="@color/secondary_color"
+                    android:layout_marginStart="8dp" />
+
+            </LinearLayout>
+
+            <!-- Cultural notes -->
+            <TextView
+                android:id="@+id/culturalNotesText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cultural notes"
                 android:textSize="14sp"
-                android:textColor="@color/warning_color"
-                android:layout_marginTop="4dp" />
+                android:textColor="@color/secondary_color"
+                android:textStyle="italic"
+                android:layout_marginTop="8dp"
+                android:visibility="gone" />
+
+            <!-- Source information -->
+            <TextView
+                android:id="@+id/sourceText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Source information"
+                android:textSize="12sp"
+                android:textColor="@color/secondary_color"
+                android:layout_marginTop="4dp"
+                android:visibility="gone" />
+
+            <!-- Flag reason -->
+            <LinearLayout
+                android:id="@+id/reasonContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/reason_background"
+                android:padding="12dp"
+                android:layout_marginTop="12dp"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="⚠️ Reason:"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/warning_color" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Edit"
+                        android:textSize="12sp"
+                        android:textColor="@color/primary_color"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/reasonText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Flag reason text"
+                    android:textSize="14sp"
+                    android:textColor="@color/warning_color"
+                    android:layout_marginTop="4dp" />
+
+            </LinearLayout>
+
+            <!-- Add reason button -->
+            <TextView
+                android:id="@+id/addReasonButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ Add Reason"
+                android:textSize="12sp"
+                android:textColor="@color/primary_color"
+                android:textStyle="bold"
+                android:background="@drawable/add_reason_background"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:layout_marginTop="8dp"
+                android:visibility="gone" />
 
         </LinearLayout>
 
-        <!-- Add reason button -->
-        <TextView
-            android:id="@+id/addReasonButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="+ Add Reason"
-            android:textSize="12sp"
-            android:textColor="@color/primary_color"
-            android:textStyle="bold"
-            android:background="@drawable/add_reason_background"
-            android:paddingHorizontal="12dp"
-            android:paddingVertical="6dp"
-            android:layout_marginTop="8dp"
-            android:visibility="gone" />
-
-    </LinearLayout>
+    </FrameLayout>
 
 </androidx.cardview.widget.CardView>
