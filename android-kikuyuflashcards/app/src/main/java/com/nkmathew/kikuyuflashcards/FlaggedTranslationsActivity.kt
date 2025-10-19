@@ -217,7 +217,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
     }
 
     /**
-     * Share flagged items
+     * Share flagged items via email to developer
      */
     private fun shareFlaggedItems() {
         if (flaggedCards.isEmpty()) {
@@ -228,7 +228,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         val shareText = buildString {
             appendLine("Flagged Kikuyu Translations (${flaggedCards.size} items):")
             appendLine()
-            
+
             flaggedCards.forEach { card ->
                 appendLine("• ${card.id}")
                 appendLine("  ${card.kikuyu} - ${card.english}")
@@ -246,13 +246,18 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
             }
         }
 
-        val intent = Intent(Intent.ACTION_SEND).apply {
-            type = "text/plain"
+        // Create email intent specifically for the developer
+        val intent = Intent(Intent.ACTION_SENDTO).apply {
+            data = android.net.Uri.parse("mailto:kipkoechmathew+kikuyuflashards@gmail.com")
+            putExtra(Intent.EXTRA_SUBJECT, "Flagged Kikuyu Translations (${flaggedCards.size} items)")
             putExtra(Intent.EXTRA_TEXT, shareText)
-            putExtra(Intent.EXTRA_SUBJECT, "Flagged Kikuyu Translations")
         }
 
-        startActivity(Intent.createChooser(intent, "Share Flagged Translations"))
+        try {
+            startActivity(intent)
+        } catch (e: Exception) {
+            Toast.makeText(this, "No email app found. Please install an email app to share.", Toast.LENGTH_SHORT).show()
+        }
     }
 
     /**

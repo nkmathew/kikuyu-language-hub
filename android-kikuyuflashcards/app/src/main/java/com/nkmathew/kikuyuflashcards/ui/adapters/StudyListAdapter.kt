@@ -94,8 +94,10 @@ class StudyListAdapter(
         when (holder) {
             is HeaderViewHolder -> holder.bind()
             is CardViewHolder -> {
-                val card = cards[position - 1] // Subtract 1 for header
-                holder.bind(card)
+                val cardPosition = position - 1 // Subtract 1 for header
+                val card = cards[cardPosition]
+                // Pass the position (1-based) and total count to the card
+                holder.bind(card, cardPosition + 1, cards.size)
             }
         }
     }
@@ -180,17 +182,18 @@ class StudyListAdapter(
     }
 
     inner class CardViewHolder(private val studyCardView: StudyCardView) : RecyclerView.ViewHolder(studyCardView) {
-        fun bind(card: FlashcardEntry) {
+        fun bind(card: FlashcardEntry, position: Int, totalCount: Int) {
             studyCardView.setEntry(card)
             studyCardView.setKnown(knownCards.contains(card.id))
             studyCardView.setFlagged(flaggedCards.contains(card.id))
-            
+            studyCardView.setPosition(position, totalCount)
+
             // Set up click listeners
             studyCardView.setOnClickListener {
                 val isKnown = knownCards.contains(card.id)
                 onCardStatusChanged(card.id, !isKnown)
             }
-            
+
             // Set up flag button click listener
             studyCardView.onFlagListener = {
                 onCardFlagged(card.id)

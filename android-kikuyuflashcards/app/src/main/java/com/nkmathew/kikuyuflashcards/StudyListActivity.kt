@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.adapters.StudyListAdapter
+import com.nkmathew.kikuyuflashcards.ui.decorations.VerticalMarginItemDecoration
 
 /**
  * Activity that displays flashcards in list mode similar to Next.js app
@@ -116,6 +117,12 @@ class StudyListActivity : AppCompatActivity() {
 
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = studyListAdapter
+
+        // Add vertical margin decoration between items (12dp)
+        recyclerView.addItemDecoration(VerticalMarginItemDecoration(this, 12))
+
+        // Add subtle divider between items
+        recyclerView.addItemDecoration(SimpleDividerItemDecoration(this))
     }
 
     /**

@@ -188,4 +188,7 @@
     <color name="dark_secondary">#A5D6A7</color>
     <color name="dark_tertiary">#FFCC80</color>
 
+    <!-- Divider -->
+    <color name="divider_color">#1FFFFFFF</color> <!-- Semi-transparent white -->
+
 </resources>

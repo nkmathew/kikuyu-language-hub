@@ -42,6 +42,7 @@ class StudyCardView @JvmOverloads constructor(
     private val qualityBadge: TextView
     private val englishTextView: TextView
     private val kikuyuTextView: TextView
+    private val positionIndicator: TextView
     private val additionalInfoContainer: LinearLayout
     private val contextContainer: LinearLayout
     private val contextTextView: TextView
@@ -59,6 +60,8 @@ class StudyCardView @JvmOverloads constructor(
     private var isKnown = false
     private var isFlagged = false
     private var showAdditionalInfo = false
+    private var position: Int = -1
+    private var totalCards: Int = -1
 
     // Callbacks
     var onMarkKnownListener: (() -> Unit)? = null
@@ -84,6 +87,7 @@ class StudyCardView @JvmOverloads constructor(
         qualityBadge = findViewById(R.id.qualityBadge)
         englishTextView = findViewById(R.id.englishTextView)
         kikuyuTextView = findViewById(R.id.kikuyuTextView)
+        positionIndicator = findViewById(R.id.positionIndicator)
         additionalInfoContainer = findViewById(R.id.additionalInfoContainer)
         contextContainer = findViewById(R.id.contextContainer)
         contextTextView = findViewById(R.id.contextTextView)
@@ -138,6 +142,17 @@ class StudyCardView @JvmOverloads constructor(
     fun setEntry(entry: FlashcardEntry) {
         currentEntry = entry
         updateUI()
+    }
+
+    /**
+     * Set the position of this card in the list
+     * @param pos Current position (1-based)
+     * @param total Total number of cards
+     */
+    fun setPosition(pos: Int, total: Int) {
+        position = pos
+        totalCards = total
+        positionIndicator.text = "$position/$totalCards"
     }
 
     /**
