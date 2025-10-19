@@ -15,6 +15,8 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.button.MaterialButton
+import com.google.android.material.textfield.TextInputEditText
 import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.adapters.FlaggedCardAdapter
@@ -181,25 +183,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         // If we have popular reasons, show them as quick select buttons
         if (popularReasons.isNotEmpty()) {
             popularReasons.forEach { reason ->
-                val button = Button(this).apply {
-                    text = reason
-                    textSize = 12f
-                    setBackgroundColor(getColor(R.color.md_theme_light_surfaceVariant))
-                    setTextColor(getColor(R.color.md_theme_light_onSurfaceVariant))
-
-                    // Set click listener to fill the EditText with this reason
-                    setOnClickListener {
-                        editText.setText(reason)
-                    }
-
-                    // Set layout params
-                    layoutParams = LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT
-                    ).apply {
-                        bottomMargin = 8.dpToPx()
-                    }
-                }
+                val button = createReasonButton(reason, editText)
                 quickReasonsLayout.addView(button)
             }
         } else {
@@ -307,25 +291,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         // If we have popular reasons, show them as quick select buttons
         if (popularReasons.isNotEmpty()) {
             popularReasons.forEach { reason ->
-                val button = Button(this).apply {
-                    text = reason
-                    textSize = 12f
-                    setBackgroundColor(getColor(R.color.md_theme_light_surfaceVariant))
-                    setTextColor(getColor(R.color.md_theme_light_onSurfaceVariant))
-
-                    // Set click listener to fill the EditText with this reason
-                    setOnClickListener {
-                        editText.setText(reason)
-                    }
-
-                    // Set layout params
-                    layoutParams = LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.MATCH_PARENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT
-                    ).apply {
-                        bottomMargin = 8.dpToPx()
-                    }
-                }
+                val button = createReasonButton(reason, editText)
                 quickReasonsLayout.addView(button)
             }
         } else {
@@ -389,6 +355,40 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
     private fun Int.dpToPx(): Int {
         val scale = resources.displayMetrics.density
         return (this * scale + 0.5f).toInt()
+    }
+
+    /**
+     * Helper function to create a modern Material Design button for reason selection
+     */
+    private fun createReasonButton(reason: String, editText: EditText): MaterialButton {
+        return MaterialButton(
+            this, null, com.google.android.material.R.attr.materialButtonOutlinedStyle
+        ).apply {
+            text = reason
+            textSize = 12f
+            // Left-align the text (no center alignment)
+            textAlignment = View.TEXT_ALIGNMENT_VIEW_START
+            gravity = android.view.Gravity.START or android.view.Gravity.CENTER_VERTICAL
+            // Material chip-like appearance
+            cornerRadius = 8.dpToPx()
+            strokeWidth = 1.dpToPx()
+            setStrokeColorResource(R.color.md_theme_dark_primary)
+            setBackgroundColor(getColor(android.R.color.transparent))
+            setTextColor(getColor(R.color.md_theme_dark_onSurfaceVariant))
+
+            // Set click listener to fill the EditText with this reason
+            setOnClickListener {
+                editText.setText(reason)
+            }
+
+            // Set layout params
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                bottomMargin = 8.dpToPx()
+            }
+        }
     }
 
     /**
