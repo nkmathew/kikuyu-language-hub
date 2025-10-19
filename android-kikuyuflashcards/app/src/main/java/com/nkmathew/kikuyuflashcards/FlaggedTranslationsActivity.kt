@@ -385,31 +385,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
      * Send email with all flagged items that now have reasons
      */
     private fun sendFlaggedItemsEmail() {
-        // Create human-readable summary
-        val shareText = buildString {
-            appendLine("Flagged Kikuyu Translations (${flaggedCards.size} items):")
-            appendLine()
-
-            flaggedCards.forEach { card ->
-                appendLine("• ${card.id}")
-                appendLine("  ${card.kikuyu} - ${card.english}")
-                appendLine("  Difficulty: ${card.difficulty} | Category: ${card.category}")
-                if (card.culturalNotes?.isNotEmpty() == true) {
-                    appendLine("  Notes: ${card.culturalNotes}")
-                }
-                if (card.source?.origin?.isNotEmpty() == true) {
-                    appendLine("  Source: ${card.source.origin}")
-                }
-                // All cards should have reasons at this point
-                val reason = flagReasons[card.id] ?: "No reason provided"
-                appendLine("  ⚠️ Flag Reason: $reason")
-                appendLine()
-            }
-
-            appendLine("\n----------\nJSON DATA BELOW:\n----------\n")
-        }
-
-        // Create JSON data array
+        // Create JSON data array - only include the JSON data in the email
         val jsonData = buildJsonData()
 
         // Create email intent specifically for the developer
@@ -417,7 +393,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
             data = android.net.Uri.parse("mailto:kipkoechmathew+kikuyuflashards@gmail.com")
             putExtra(Intent.EXTRA_SUBJECT, "Flagged Kikuyu Translations (${flaggedCards.size} items)")
-            putExtra(Intent.EXTRA_TEXT, shareText + jsonData)
+            putExtra(Intent.EXTRA_TEXT, jsonData)
         }
 
         // Fallback to ACTION_SEND (will show more apps but always includes subject/body)
@@ -425,7 +401,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
             type = "message/rfc822" // MIME type for email
             putExtra(Intent.EXTRA_EMAIL, arrayOf("kipkoechmathew+kikuyuflashards@gmail.com"))
             putExtra(Intent.EXTRA_SUBJECT, "Flagged Kikuyu Translations (${flaggedCards.size} items)")
-            putExtra(Intent.EXTRA_TEXT, shareText + jsonData)
+            putExtra(Intent.EXTRA_TEXT, jsonData)
         }
 
         // Try to find apps that can handle the intent

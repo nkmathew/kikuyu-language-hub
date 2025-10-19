@@ -133,14 +133,51 @@
     },
     {
       "id": "conj-012-008",
-      "english": "I am here (Ndĩ gûkũ), You are here (Wĩ gûkũ), He/She is here (E gûkũ / Arĩ gûkũ), We are here (Twĩ gûkũ), You all are here (Mwĩ gûkũ), They are here (Me gûkũ / Marĩ gûkũ)",
-      "kikuyu": "Present Tense Location - 'Ndĩ gûkũ' Pattern",
+      "english": "Present location - to be here (all persons)",
+      "kikuyu": "Gũkorwo haha (andũ othe)",
       "category": "conjugations",
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 121",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "I am here",
+          "kikuyu": "Ndĩ gûkũ",
+          "context": "1st person singular"
+        },
+        {
+          "english": "You are here",
+          "kikuyu": "Wĩ gûkũ",
+          "context": "2nd person singular"
+        },
+        {
+          "english": "He/She is here",
+          "kikuyu": "E gûkũ / Arĩ gûkũ",
+          "context": "3rd person singular"
+        },
+        {
+          "english": "We are here",
+          "kikuyu": "Twĩ gûkũ",
+          "context": "1st person plural"
+        },
+        {
+          "english": "You all are here",
+          "kikuyu": "Mwĩ gûkũ",
+          "context": "2nd person plural"
+        },
+        {
+          "english": "They are here",
+          "kikuyu": "Me gûkũ / Marĩ gûkũ",
+          "context": "3rd person plural"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "present",
+        "pattern": "subject_marker + location"
       },
       "quality": {
         "verified": false,

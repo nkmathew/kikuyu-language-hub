@@ -17,14 +17,46 @@
   "entries": [
     {
       "id": "conj-013-001",
-      "english": "Nĩ ndĩragucia (I am pulling), Nĩ ngucagia (I normally pull), Nĩ ngucirie (I pulled today), Nĩ ndĩragucirie (I pulled yesterday), Nĩ ndagucirie (I pulled long ago)",
-      "kikuyu": "Gucia (pull) - All Tenses",
+      "english": "To pull (verb in all tenses)",
+      "kikuyu": "Gucia (mĩthemba yothe)",
       "category": "conjugations",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 126",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T08:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I am pulling",
+          "kikuyu": "Nĩ ndĩragucia",
+          "context": "present progressive"
+        },
+        {
+          "english": "I normally pull",
+          "kikuyu": "Nĩ ngucagia",
+          "context": "habitual present"
+        },
+        {
+          "english": "I pulled today",
+          "kikuyu": "Nĩ ngucirie",
+          "context": "recent past (today)"
+        },
+        {
+          "english": "I pulled yesterday",
+          "kikuyu": "Nĩ ndĩragucirie",
+          "context": "near past (yesterday)"
+        },
+        {
+          "english": "I pulled long ago",
+          "kikuyu": "Nĩ ndagucirie",
+          "context": "distant past"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "root": "gucia",
+        "meaning": "to pull"
       },
       "quality": {
         "verified": false,
@@ -34,14 +66,47 @@
     },
     {
       "id": "conj-013-002",
-      "english": "Nĩ tũrãtĩndĩka (We are pushing), Nĩ tũtĩndĩkaga (We normally push), Nĩ tũtĩndĩkire (We pushed today), Nĩ tũrãtĩndĩkire (We pushed yesterday), Nĩ tũdatĩndĩkire (We pushed long ago)",
-      "kikuyu": "Gũtĩndĩka (push) - 'We' Conjugations",
+      "english": "To push (we form in all tenses)",
+      "kikuyu": "Gũtĩndĩka (ithuĩ)",
       "category": "conjugations",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 127",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T08:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "We are pushing",
+          "kikuyu": "Nĩ tũrãtĩndĩka",
+          "context": "present progressive"
+        },
+        {
+          "english": "We normally push",
+          "kikuyu": "Nĩ tũtĩndĩkaga",
+          "context": "habitual present"
+        },
+        {
+          "english": "We pushed today",
+          "kikuyu": "Nĩ tũtĩndĩkire",
+          "context": "recent past (today)"
+        },
+        {
+          "english": "We pushed yesterday",
+          "kikuyu": "Nĩ tũrãtĩndĩkire",
+          "context": "near past (yesterday)"
+        },
+        {
+          "english": "We pushed long ago",
+          "kikuyu": "Nĩ tũdatĩndĩkire",
+          "context": "distant past"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "root": "gũtĩndĩka",
+        "meaning": "to push",
+        "person": "first plural"
       },
       "quality": {
         "verified": false,
@@ -51,14 +116,52 @@
     },
     {
       "id": "conj-013-003",
-      "english": "Ndĩthambire (I washed), Twĩthambire (We washed), Wĩthambire (You washed), Mwĩthambire (You all washed), Ethambire (He/She washed), Methambire (They washed)",
-      "kikuyu": "Gũthamba (wash/bathe) - All Persons (Near Past)",
+      "english": "To wash/bathe (near past - all persons)",
+      "kikuyu": "Gũthamba (ihinda rĩa hakuhĩ - andũ othe)",
       "category": "conjugations",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 131",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T08:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I washed",
+          "kikuyu": "Ndĩthambire",
+          "context": "1st person singular"
+        },
+        {
+          "english": "We washed",
+          "kikuyu": "Twĩthambire",
+          "context": "1st person plural"
+        },
+        {
+          "english": "You washed",
+          "kikuyu": "Wĩthambire",
+          "context": "2nd person singular"
+        },
+        {
+          "english": "You all washed",
+          "kikuyu": "Mwĩthambire",
+          "context": "2nd person plural"
+        },
+        {
+          "english": "He/She washed",
+          "kikuyu": "Ethambire",
+          "context": "3rd person singular"
+        },
+        {
+          "english": "They washed",
+          "kikuyu": "Methambire",
+          "context": "3rd person plural"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "root": "gũthamba",
+        "meaning": "to wash/bathe",
+        "tense": "near past"
       },
       "quality": {
         "verified": false,
@@ -68,14 +171,38 @@
     },
     {
       "id": "conj-013-004",
-      "english": "ũmũthĩ Ndĩthambire na maĩ mahoro (Today I bathed with cold water), Ira ndĩrethambire na maĩ mahoro (Yesterday I bathed...), Iyo ndethambire na maĩ mahoro (Day before yesterday I bathed...)",
-      "kikuyu": "Gũthamba (wash/bathe) - Time Distinctions (1st Person)",
+      "english": "To wash/bathe (different time periods - 1st person)",
+      "kikuyu": "Gũthamba (matukũ marĩ ngʼanya - nĩĩ)",
       "category": "conjugations",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 132",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T08:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "Today I bathed with cold water",
+          "kikuyu": "ũmũthĩ Ndĩthambire na maĩ mahoro",
+          "context": "today (recent past)"
+        },
+        {
+          "english": "Yesterday I bathed with cold water",
+          "kikuyu": "Ira ndĩrethambire na maĩ mahoro",
+          "context": "yesterday (near past)"
+        },
+        {
+          "english": "Day before yesterday I bathed with cold water",
+          "kikuyu": "Iyo ndethambire na maĩ mahoro",
+          "context": "day before yesterday (distant past)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "root": "gũthamba",
+        "meaning": "to wash/bathe",
+        "person": "first singular",
+        "tense": "multiple past tenses"
       },
       "quality": {
         "verified": false,
@@ -85,14 +212,32 @@
     },
     {
       "id": "conj-013-005",
-      "english": "Ndīrarī na mbeca (yesterday I had money), Ndarī na mbeca (long ago I had money)",
-      "kikuyu": "Past Tense 'Have' (na) - Time Distinctions",
+      "english": "To have (past time distinctions)",
+      "kikuyu": "Kũgĩa na (ihinda rĩa tene - ngʼanya)",
       "category": "conjugations",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 133",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T08:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "Yesterday I had money",
+          "kikuyu": "Ndīrarī na mbeca",
+          "context": "near past (yesterday)"
+        },
+        {
+          "english": "Long ago I had money",
+          "kikuyu": "Ndarī na mbeca",
+          "context": "distant past"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb phrase",
+        "construction": "subject prefix + past marker + na + object",
+        "meaning": "to have (in past tense)",
+        "person": "first singular"
       },
       "quality": {
         "verified": false,

@@ -52,3 +52,5 @@ android/**/captures/
 android/app/debug.keystore
 
 .schema-types/
+*.stackdump
+bash.exe.stackdump
