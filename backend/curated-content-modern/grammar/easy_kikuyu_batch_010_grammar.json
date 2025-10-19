@@ -9,19 +9,51 @@
     ],
     "total_entries": 2,
     "description": "Converted from easy_kikuyu_batch_010_grammar.json",
-    "last_updated": "2025-01-08T06:30:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "gram-010-001",
-      "english": "Noun form unchanged in plural. Demonstratives: ino (this), ici (these)",
+      "english": "Class III Nouns - Invariant Plural",
       "kikuyu": "Class III Nouns - Invariant Plural",
       "category": "grammar",
       "difficulty": "advanced",
       "source": {
         "origin": "Easy Kikuyu Lesson 101",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T06:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "this (singular demonstrative for Class III nouns)",
+          "kikuyu": "ino",
+          "notes": "used with singular nouns"
+        },
+        {
+          "english": "these (plural demonstrative for Class III nouns)",
+          "kikuyu": "ici",
+          "notes": "used with plural nouns"
+        },
+        {
+          "english": "this table",
+          "kikuyu": "metha ino",
+          "notes": "singular example - Class III noun with singular demonstrative"
+        },
+        {
+          "english": "these tables",
+          "kikuyu": "metha ici",
+          "notes": "plural example - Class III noun with plural demonstrative (noun form unchanged)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "noun class",
+        "structure": {
+          "singular": "noun + ino",
+          "plural": "noun + ici",
+          "note": "The noun form itself remains unchanged between singular and plural"
+        },
+        "notes": "Class III nouns in Kikuyu have the unique feature that the noun form itself does not change between singular and plural. The number distinction is shown only through agreement patterns like demonstratives."
       },
       "quality": {
         "verified": false,
@@ -31,14 +63,84 @@
     },
     {
       "id": "gram-010-002",
-      "english": "Îmwe (1), Igîrî (2), Ithathû (3), Inya (4), Ithano (5), Ithathatû (6), Mûgwanja (7), Inyanya (8), Kenda (9), Ikûmi (10), Ikûmi na îmwe (11)",
+      "english": "Numbers 1-11 with Noun Agreement",
       "kikuyu": "Numbers 1-11 with Noun Agreement",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 102",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T06:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "one",
+          "kikuyu": "Îmwe",
+          "notes": "cardinal number 1"
+        },
+        {
+          "english": "two",
+          "kikuyu": "Igîrî",
+          "notes": "cardinal number 2"
+        },
+        {
+          "english": "three",
+          "kikuyu": "Ithathû",
+          "notes": "cardinal number 3"
+        },
+        {
+          "english": "four",
+          "kikuyu": "Inya",
+          "notes": "cardinal number 4"
+        },
+        {
+          "english": "five",
+          "kikuyu": "Ithano",
+          "notes": "cardinal number 5"
+        },
+        {
+          "english": "six",
+          "kikuyu": "Ithathatû",
+          "notes": "cardinal number 6"
+        },
+        {
+          "english": "seven",
+          "kikuyu": "Mûgwanja",
+          "notes": "cardinal number 7"
+        },
+        {
+          "english": "eight",
+          "kikuyu": "Inyanya",
+          "notes": "cardinal number 8"
+        },
+        {
+          "english": "nine",
+          "kikuyu": "Kenda",
+          "notes": "cardinal number 9"
+        },
+        {
+          "english": "ten",
+          "kikuyu": "Ikûmi",
+          "notes": "cardinal number 10"
+        },
+        {
+          "english": "eleven",
+          "kikuyu": "Ikûmi na îmwe",
+          "notes": "cardinal number 11 (literally 'ten and one')"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "numeral",
+        "grammatical_feature": "cardinal numbers",
+        "structure": {
+          "1-6": "I- prefix pattern (Îmwe, Igîrî, Ithathû, Inya, Ithano, Ithathatû)",
+          "7": "Mû- prefix (Mûgwanja)",
+          "8": "I- prefix (Inyanya)",
+          "9": "No prefix (Kenda)",
+          "10": "I- prefix (Ikûmi)",
+          "11+": "Compound structure (Ikûmi na îmwe)"
+        },
+        "notes": "Kikuyu numbers typically show noun class agreement with the nouns they modify. Most numbers 1-10 take the I- prefix in their citation form."
       },
       "quality": {
         "verified": false,

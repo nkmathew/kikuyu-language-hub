@@ -8,19 +8,71 @@
     ],
     "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_024_grammar.json",
-    "last_updated": "2025-01-08T14:00:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-024-001",
-      "english": "G (g): Gũka gũcia guoko gwaakwa (grandfather, pull my hand), Gĩra gĩkombe gĩkĩ (come for this cup). H (h): Haha hena heho (this place is cold), Hũha mwaki wahota (blow the fire if you can), Hoho nĩ ya hoha (the capsicum has shriveled). K (k): Kaĩrĩtu kena karamu (the girl has a pen), Kahĩĩ nĩ karatha kanyoni (the boy has shot the bird), Kana kona kora kora (the child saw a frog and ran away)",
+      "english": "Consonant Pronunciation Practice - G, H, K",
       "kikuyu": "Consonant Pronunciation Practice - G, H, K",
       "category": "grammar",
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 237",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "grandfather, pull my hand",
+          "kikuyu": "Gũka gũcia guoko gwaakwa",
+          "notes": "G sound practice with alliteration"
+        },
+        {
+          "english": "come for this cup",
+          "kikuyu": "Gĩra gĩkombe gĩkĩ",
+          "notes": "G sound practice with alliteration"
+        },
+        {
+          "english": "this place is cold",
+          "kikuyu": "Haha hena heho",
+          "notes": "H sound practice with alliteration"
+        },
+        {
+          "english": "blow the fire if you can",
+          "kikuyu": "Hũha mwaki wahota",
+          "notes": "H sound practice"
+        },
+        {
+          "english": "the capsicum has shriveled",
+          "kikuyu": "Hoho nĩ ya hoha",
+          "notes": "H sound practice with alliteration"
+        },
+        {
+          "english": "the girl has a pen",
+          "kikuyu": "Kaĩrĩtu kena karamu",
+          "notes": "K sound practice with alliteration"
+        },
+        {
+          "english": "the boy has shot the bird",
+          "kikuyu": "Kahĩĩ nĩ karatha kanyoni",
+          "notes": "K sound practice with alliteration"
+        },
+        {
+          "english": "the child saw a frog and ran away",
+          "kikuyu": "Kana kona kora kora",
+          "notes": "K sound practice with alliteration"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "G sounds": "Voiced velar stop /g/",
+          "H sounds": "Voiceless glottal fricative /h/",
+          "K sounds": "Voiceless velar stop /k/"
+        },
+        "notes": "These practice sentences use alliteration (multiple words with the same initial sound) to help learners master the distinct pronunciation of the G, H, and K consonants in Kikuyu. The contrast between voiced G and voiceless K is particularly important."
       },
       "quality": {
         "verified": false,

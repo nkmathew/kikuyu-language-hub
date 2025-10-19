@@ -10,19 +10,50 @@
     ],
     "total_entries": 3,
     "description": "Converted from easy_kikuyu_batch_014_grammar.json",
-    "last_updated": "2025-01-08T09:00:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-014-001",
-      "english": "Mũirĩtu arĩ naũ? (Who is with the girl?) → Ndĩ nake (I am with her). Rũhiũ rũrĩ naũ? (Who has the big knife?) → Ndĩ na ruo (I have it)",
+      "english": "Object Concords with 'na' - Simple Examples",
       "kikuyu": "Object Concords with 'na' - Simple Examples",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 136",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "Who is with the girl?",
+          "kikuyu": "Mũirĩtu arĩ naũ?",
+          "notes": "Question asking about accompaniment"
+        },
+        {
+          "english": "I am with her",
+          "kikuyu": "Ndĩ nake",
+          "notes": "Answer using object concord -ke (Class 1 singular)"
+        },
+        {
+          "english": "Who has the big knife?",
+          "kikuyu": "Rũhiũ rũrĩ naũ?",
+          "notes": "Question asking about possession"
+        },
+        {
+          "english": "I have it",
+          "kikuyu": "Ndĩ na ruo",
+          "notes": "Answer using object concord -ruo (Class 6 singular)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "pronoun",
+        "grammatical_feature": "object concord",
+        "structure": {
+          "question": "Noun + arĩ/rũrĩ + naũ?",
+          "answer": "Subject + na + object concord"
+        },
+        "notes": "Kikuyu uses specific object concords with the preposition 'na' to refer back to previously mentioned nouns. These concords vary by noun class."
       },
       "quality": {
         "verified": false,
@@ -32,27 +63,93 @@
     },
     {
       "id": "grammar-014-002",
-      "english": "Class 1: nake (sg) / nao (pl), Class 2: naguo (sg) / nayo (pl), Class 3: nayo (sg) / nacio (pl), Class 4: nakĩo (sg) / nacio (pl), Class 5: narĩo (sg) / namo (pl), Class 6: naruo (sg) / nacio (pl)",
+      "english": "Complete Object Concord System by Noun Class",
       "kikuyu": "Complete Object Concord System by Noun Class",
       "category": "grammar",
       "difficulty": "advanced",
       "source": {
         "origin": "Easy Kikuyu Lesson 137",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
       },
       "examples": [
         {
-          "kikuyu": "Mũĩrĩtu e na ũ? → Ndĩ nake",
-          "english": "Who is with the girl? → I am with her",
-          "notes": "Class 1 singular"
+          "english": "with him/her (singular)",
+          "kikuyu": "nake",
+          "notes": "Class 1 singular object concord"
         },
         {
-          "kikuyu": "Rũhĩũ rwĩ na ũ? → Ndĩ naruo",
-          "english": "Who has the knife? → I have it",
-          "notes": "Class 6 singular"
+          "english": "with them (plural)",
+          "kikuyu": "nao",
+          "notes": "Class 1 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "naguo",
+          "notes": "Class 2 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nayo",
+          "notes": "Class 2 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "nayo",
+          "notes": "Class 3 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nacio",
+          "notes": "Class 3 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "nakĩo",
+          "notes": "Class 4 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nacio",
+          "notes": "Class 4 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "narĩo",
+          "notes": "Class 5 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "namo",
+          "notes": "Class 5 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "naruo",
+          "notes": "Class 6 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nacio",
+          "notes": "Class 6 plural object concord"
         }
       ],
+      "grammatical_info": {
+        "part_of_speech": "pronoun",
+        "grammatical_feature": "object concord system",
+        "structure": {
+          "formation": "na + object concord specific to noun class and number"
+        },
+        "class_mapping": {
+          "Class 1": "-ke (sg) / -o (pl)",
+          "Class 2": "-guo (sg) / -yo (pl)",
+          "Class 3": "-yo (sg) / -cio (pl)",
+          "Class 4": "-kĩo (sg) / -cio (pl)",
+          "Class 5": "-rĩo (sg) / -mo (pl)",
+          "Class 6": "-ruo (sg) / -cio (pl)"
+        },
+        "notes": "The object concord system in Kikuyu provides specific forms for each noun class and number combination, allowing precise reference to previously mentioned nouns."
+      },
       "quality": {
         "verified": false,
         "confidence_score": 4.0,
@@ -61,14 +158,39 @@
     },
     {
       "id": "grammar-014-003",
-      "english": "Class 1: Mwana ũyũ wakwa nĩ mwega (This my child is good) - ũyũ = this one. Class 4: Gĩtĩ gĩkĩ gĩakwa nĩ kĩega (This my chair is good) - gĩkĩ = this one",
+      "english": "Demonstrative Agreement - Class 1 & 4",
       "kikuyu": "Demonstrative Agreement - Class 1 & 4",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 140",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "This my child is good",
+          "kikuyu": "Mwana ũyũ wakwa nĩ mwega",
+          "notes": "Class 1 demonstrative agreement (ũyũ)"
+        },
+        {
+          "english": "This my chair is good",
+          "kikuyu": "Gĩtĩ gĩkĩ gĩakwa nĩ kĩega",
+          "notes": "Class 4 demonstrative agreement (gĩkĩ)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "demonstrative",
+        "grammatical_feature": "noun class agreement",
+        "structure": {
+          "Class 1 pattern": "Noun + ũyũ + possessive + nĩ + adjective",
+          "Class 4 pattern": "Noun + gĩkĩ + possessive + nĩ + adjective"
+        },
+        "demonstratives": {
+          "Class 1": "ũyũ (this one)",
+          "Class 4": "gĩkĩ (this one)"
+        },
+        "notes": "In Kikuyu, demonstratives must agree with the noun class of the noun they modify. Different noun classes use different demonstrative forms."
       },
       "quality": {
         "verified": false,

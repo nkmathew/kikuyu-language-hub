@@ -8,32 +8,65 @@
     ],
     "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_013_grammar.json",
-    "last_updated": "2025-01-08T08:30:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-013-001",
-      "english": "Ndĩ na karamũ (I have a pen), Wĩ na tũramũ (You have pens), Mwĩ na thĩna (You all have problems), E na ngĩrathĩ yakwa (He/she has my glass), Me na ngĩrathĩ ciakwa (They have my glasses), Twĩ na mwarimũ ũngĩ (We have another teacher)",
+      "english": "Auxiliary Verb 'Na' (to have) - All Persons",
       "kikuyu": "Auxiliary Verb 'Na' (to have) - All Persons",
       "category": "grammar",
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 134",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T08:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
       },
       "examples": [
         {
-          "kikuyu": "Ndĩ na karamũ",
           "english": "I have a pen",
+          "kikuyu": "Ndĩ na karamũ",
           "notes": "1st person singular with singular noun"
         },
         {
-          "kikuyu": "Me na ngĩrathĩ ciakwa",
+          "english": "You have pens",
+          "kikuyu": "Wĩ na tũramũ",
+          "notes": "2nd person singular with plural noun"
+        },
+        {
+          "english": "You all have problems",
+          "kikuyu": "Mwĩ na thĩna",
+          "notes": "2nd person plural with noun"
+        },
+        {
+          "english": "He/she has my glass",
+          "kikuyu": "E na ngĩrathĩ yakwa",
+          "notes": "3rd person singular with singular possessive (yakwa)"
+        },
+        {
           "english": "They have my glasses",
+          "kikuyu": "Me na ngĩrathĩ ciakwa",
           "notes": "3rd person plural with plural possessive (ciakwa)"
+        },
+        {
+          "english": "We have another teacher",
+          "kikuyu": "Twĩ na mwarimũ ũngĩ",
+          "notes": "1st person plural with modifier (ũngĩ = another)"
         }
       ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "auxiliary verb - possession",
+        "structure": {
+          "1st person singular": "Ndĩ na + noun",
+          "2nd person singular": "Wĩ na + noun",
+          "3rd person singular": "E na + noun",
+          "1st person plural": "Twĩ na + noun",
+          "2nd person plural": "Mwĩ na + noun",
+          "3rd person plural": "Me na + noun"
+        },
+        "notes": "The possession construction in Kikuyu uses the auxiliary verb 'na' (to have) preceded by the appropriate subject form. This construction follows the pattern: subject + na + possessed noun."
+      },
       "quality": {
         "verified": false,
         "confidence_score": 4.0,
