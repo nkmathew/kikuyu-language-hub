@@ -10,32 +10,73 @@
     ],
     "total_entries": 3,
     "description": "Converted from easy_kikuyu_batch_017_grammar.json",
-    "last_updated": "2025-01-08T10:30:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-017-001",
-      "english": "Class 4 (Kĩ-/Gĩ- → Ci-/Ĩ-): Gĩkombe gĩkĩ kĩnene (this big cup) → Ĩkombe ĩcĩ nene (these big cups). Diminutive (Ka-/Ga- → tũ-): Gakombe gaka kega (this nice small cup) → tũkombe tũtũ twega (these nice small cups)",
+      "english": "Noun Class 4 & Diminutive Class",
       "kikuyu": "Noun Class 4 & Diminutive Class",
       "category": "grammar",
       "difficulty": "advanced",
       "source": {
         "origin": "Easy Kikuyu Lesson 172",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T10:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
       },
       "examples": [
         {
-          "kikuyu": "Gĩtarũrũ gĩkĩ kĩnene → Ĩtarũrũ ĩcĩ nene",
-          "english": "This big woven tray → These big woven trays",
-          "notes": "Class 4 example"
+          "english": "this big cup",
+          "kikuyu": "Gĩkombe gĩkĩ kĩnene",
+          "notes": "Class 4 singular with demonstrative and adjective"
         },
         {
-          "kikuyu": "Gatarũrũ gaka karĩĩ → tũtarũrũ tũtũ twarĩĩ",
-          "english": "This wide small woven tray → These wide small woven trays",
-          "notes": "Diminutive example"
+          "english": "these big cups",
+          "kikuyu": "Ĩkombe ĩcĩ nene",
+          "notes": "Class 4 plural with demonstrative and adjective"
+        },
+        {
+          "english": "this nice small cup",
+          "kikuyu": "Gakombe gaka kega",
+          "notes": "Diminutive singular with demonstrative and adjective"
+        },
+        {
+          "english": "these nice small cups",
+          "kikuyu": "tũkombe tũtũ twega",
+          "notes": "Diminutive plural with demonstrative and adjective"
+        },
+        {
+          "english": "This big woven tray",
+          "kikuyu": "Gĩtarũrũ gĩkĩ kĩnene",
+          "notes": "Class 4 singular example"
+        },
+        {
+          "english": "These big woven trays",
+          "kikuyu": "Ĩtarũrũ ĩcĩ nene",
+          "notes": "Class 4 plural example"
+        },
+        {
+          "english": "This wide small woven tray",
+          "kikuyu": "Gatarũrũ gaka karĩĩ",
+          "notes": "Diminutive singular example"
+        },
+        {
+          "english": "These wide small woven trays",
+          "kikuyu": "tũtarũrũ tũtũ twarĩĩ",
+          "notes": "Diminutive plural example"
         }
       ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "noun classes",
+        "structure": {
+          "Class 4 singular": "Prefix: Kĩ-/Gĩ-, Agreement: gĩ-/kĩ-",
+          "Class 4 plural": "Prefix: Ci-/Ĩ-, Agreement: ĩ-/ci-",
+          "Diminutive singular": "Prefix: Ka-/Ga-, Agreement: ka-/ga-",
+          "Diminutive plural": "Prefix: tũ-, Agreement: tũ-/tw-"
+        },
+        "notes": "Class 4 nouns typically denote artifacts and tools. The diminutive class is used to indicate small size and sometimes has affectionate connotations. Both classes show strict agreement patterns with demonstratives and adjectives."
+      },
       "quality": {
         "verified": false,
         "confidence_score": 4.0,
@@ -44,14 +85,54 @@
     },
     {
       "id": "grammar-017-002",
-      "english": "G: Guka gucia guoko gakwa (Grandfather, pull my hand), Gĩra gĩkombe gĩkĩ (Come for this cup). H: Haha hena heho (This place is cold), Huha mwaki wahota (Blow the fire if you can). K: Kairĩtu kena karamu (The girl has a pen), Kana kona kora kora (The child saw a frog and ran away)",
+      "english": "Consonant Examples (g, h, k)",
       "kikuyu": "Consonant Examples (g, h, k)",
       "category": "grammar",
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 173",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T10:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "Grandfather, pull my hand",
+          "kikuyu": "Guka gucia guoko gakwa",
+          "notes": "Sentence practicing 'g' sound"
+        },
+        {
+          "english": "Come for this cup",
+          "kikuyu": "Gĩra gĩkombe gĩkĩ",
+          "notes": "Sentence practicing 'g' sound"
+        },
+        {
+          "english": "This place is cold",
+          "kikuyu": "Haha hena heho",
+          "notes": "Sentence practicing 'h' sound"
+        },
+        {
+          "english": "Blow the fire if you can",
+          "kikuyu": "Huha mwaki wahota",
+          "notes": "Sentence practicing 'h' sound"
+        },
+        {
+          "english": "The girl has a pen",
+          "kikuyu": "Kairĩtu kena karamu",
+          "notes": "Sentence practicing 'k' sound"
+        },
+        {
+          "english": "The child saw a frog and ran away",
+          "kikuyu": "Kana kona kora kora",
+          "notes": "Sentence practicing 'k' sound"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "pattern": "Sentences with multiple occurrences of the same consonant"
+        },
+        "notes": "These practice sentences use consonant alliteration to help learners master the pronunciation of specific Kikuyu consonants. The 'g', 'h', and 'k' sounds are distinctive in Kikuyu and important for correct pronunciation."
       },
       "quality": {
         "verified": false,
@@ -61,22 +142,70 @@
     },
     {
       "id": "grammar-017-003",
-      "english": "Na (and/nor), No (but), Kana (or), Thutha wa (after), Ona gũtũĩka (although), Tondũ wa/niamu (because), Kinya rĩrĩa (till)",
+      "english": "Conjunctions - Complete System",
       "kikuyu": "Conjunctions - Complete System",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 174",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T10:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
       },
       "examples": [
         {
-          "kikuyu": "Matirĩaga ngũrũwe na matinyuaga njohi",
+          "english": "and/nor",
+          "kikuyu": "Na",
+          "notes": "coordinating conjunction"
+        },
+        {
+          "english": "but",
+          "kikuyu": "No",
+          "notes": "adversative conjunction"
+        },
+        {
+          "english": "or",
+          "kikuyu": "Kana",
+          "notes": "disjunctive conjunction"
+        },
+        {
+          "english": "after",
+          "kikuyu": "Thutha wa",
+          "notes": "temporal conjunction"
+        },
+        {
+          "english": "although",
+          "kikuyu": "Ona gũtũĩka",
+          "notes": "concessive conjunction"
+        },
+        {
+          "english": "because",
+          "kikuyu": "Tondũ wa/niamu",
+          "notes": "causal conjunction (two forms)"
+        },
+        {
+          "english": "till/until",
+          "kikuyu": "Kinya rĩrĩa",
+          "notes": "temporal conjunction"
+        },
+        {
           "english": "They neither eat pork nor do they drink beer",
+          "kikuyu": "Matirĩaga ngũrũwe na matinyuaga njohi",
           "notes": "Na used for 'nor' in negative context"
         }
       ],
+      "grammatical_info": {
+        "part_of_speech": "conjunction",
+        "grammatical_feature": "connectors",
+        "categories": {
+          "coordinating": "Na (and/nor)",
+          "adversative": "No (but)",
+          "disjunctive": "Kana (or)",
+          "temporal": "Thutha wa (after), Kinya rĩrĩa (till/until)",
+          "concessive": "Ona gũtũĩka (although)",
+          "causal": "Tondũ wa/niamu (because)"
+        },
+        "notes": "Kikuyu conjunctions connect clauses and phrases to express various logical relationships. Some are single words while others are phrases."
+      },
       "quality": {
         "verified": false,
         "confidence_score": 4.0,

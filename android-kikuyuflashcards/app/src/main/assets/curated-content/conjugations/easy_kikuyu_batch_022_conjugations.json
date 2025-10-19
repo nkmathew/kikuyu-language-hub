@@ -7,38 +7,95 @@
       "216.txt",
       "224.txt"
     ],
-    "total_entries": 2,
+    "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_022_conjugations.json",
-    "last_updated": "2025-01-08T13:00:00Z"
+    "last_updated": "2025-10-19T12:00:00Z"
   },
   "entries": [
     {
-      "id": "conj-022-001",
-      "english": "NJ prefix (a,e,c,u,o verbs): ĩta→Njĩtagwo, aria→Njaragia, eterera→Njetereraga, ceera→Njeraga, ũga→Njũgaga. NG prefix (g,ng,k verbs): kena→Ngenaga, kora→Ngoraga, koma→Ngomaga. NY prefix (o,e,ny,um,un,en verbs): anđĩka→Nyanđĩkaga, ũma→Nyũmaga, ona→Nyõnaga, enja→Nyenjaga, nyua→Nyũaga. MB prefix (b verbs): batara→Mbataraga. Irregular: rĩma→Nĩmaga (reason unclear). R-verbs without N: rota→nđotaga, ruga→nđugaga",
-      "kikuyu": "1st Person Habitual - Prefix Variation Rules",
-      "category": "conjugations",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 216",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
       "id": "conj-022-002",
-      "english": "2nd Singular: ũgũ-ũka (you will come), ũkũ-rĩa (you will eat), ũgũ-theka (you will laugh). 2nd Plural: Mũgũ-ũka (you will come), Mũkũ-rĩa (you will eat), Mũgũ-theka (you will laugh). 3rd Singular: egũka (he/she will come), ekũrĩa (he/she will eat), agũthooma (he/she will read). 3rd Plural: megũka (they will come), mekũrĩa (they will eat), magũthooma (they will read)",
+      "english": "Future Tense - Later Today (2nd & 3rd Person)",
       "kikuyu": "Future Tense - Later Today (2nd & 3rd Person)",
       "category": "conjugations",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 224",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:00:00Z"
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "You will come",
+          "kikuyu": "ũgũ-ũka",
+          "notes": "2nd person singular future tense (later today)"
+        },
+        {
+          "english": "You will eat",
+          "kikuyu": "ũkũ-rĩa",
+          "notes": "2nd person singular future tense (later today)"
+        },
+        {
+          "english": "You will laugh",
+          "kikuyu": "ũgũ-theka",
+          "notes": "2nd person singular future tense (later today)"
+        },
+        {
+          "english": "You all will come",
+          "kikuyu": "Mũgũ-ũka",
+          "notes": "2nd person plural future tense (later today)"
+        },
+        {
+          "english": "You all will eat",
+          "kikuyu": "Mũkũ-rĩa",
+          "notes": "2nd person plural future tense (later today)"
+        },
+        {
+          "english": "You all will laugh",
+          "kikuyu": "Mũgũ-theka",
+          "notes": "2nd person plural future tense (later today)"
+        },
+        {
+          "english": "He/She will come",
+          "kikuyu": "egũka",
+          "notes": "3rd person singular future tense (later today)"
+        },
+        {
+          "english": "He/She will eat",
+          "kikuyu": "ekũrĩa",
+          "notes": "3rd person singular future tense (later today)"
+        },
+        {
+          "english": "He/She will read",
+          "kikuyu": "agũthooma",
+          "notes": "3rd person singular future tense (later today)"
+        },
+        {
+          "english": "They will come",
+          "kikuyu": "megũka",
+          "notes": "3rd person plural future tense (later today)"
+        },
+        {
+          "english": "They will eat",
+          "kikuyu": "mekũrĩa",
+          "notes": "3rd person plural future tense (later today)"
+        },
+        {
+          "english": "They will read",
+          "kikuyu": "magũthooma",
+          "notes": "3rd person plural future tense (later today)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "future - later today",
+        "persons": ["2nd person singular", "2nd person plural", "3rd person singular", "3rd person plural"],
+        "pattern": {
+          "2nd person singular": "ũgũ-/ũkũ- + verb stem",
+          "2nd person plural": "Mũgũ-/Mũkũ- + verb stem",
+          "3rd person singular": "e-/a- + gũ-/kũ- + verb stem",
+          "3rd person plural": "me-/ma- + gũ-/kũ- + verb stem"
+        },
+        "notes": "The gũ-/kũ- alternation follows Dahl's Law where kũ- is used before stems starting with certain consonants"
       },
       "quality": {
         "verified": false,

@@ -9,32 +9,65 @@
     ],
     "total_entries": 2,
     "description": "Converted from easy_kikuyu_batch_018_grammar.json",
-    "last_updated": "2025-01-08T11:00:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-018-001",
-      "english": "Near Future (-kũ-) = later today: Atumia nĩ mekũ-uga mbu (Women will make distress sound), Wee nĩ ũkũ-huha mĩruri (You will whistle). Distant Future (-ka-) = tomorrow/later: Atumia nĩ makã-uga mbu, Wee nĩ ũka-huha mĩruri",
+      "english": "Future Tenses - Near vs Distant",
       "kikuyu": "Future Tenses - Near vs Distant",
       "category": "grammar",
       "difficulty": "advanced",
       "source": {
         "origin": "Easy Kikuyu Lesson 176",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T11:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
       },
       "examples": [
         {
-          "kikuyu": "Ngengere nĩ ikũ-gamba",
-          "english": "The rooster will crow (later today)",
-          "notes": "Near future with -kũ-"
+          "english": "Women will make distress sound (later today)",
+          "kikuyu": "Atumia nĩ mekũ-uga mbu",
+          "notes": "Near future with -kũ- marker (3rd person plural)"
         },
         {
-          "kikuyu": "Tũka-ina karwĩmbo kega",
+          "english": "You will whistle (later today)",
+          "kikuyu": "Wee nĩ ũkũ-huha mĩruri",
+          "notes": "Near future with -kũ- marker (2nd person singular)"
+        },
+        {
+          "english": "Women will make distress sound (tomorrow/later)",
+          "kikuyu": "Atumia nĩ makã-uga mbu",
+          "notes": "Distant future with -ka- marker (3rd person plural)"
+        },
+        {
+          "english": "You will whistle (tomorrow/later)",
+          "kikuyu": "Wee nĩ ũka-huha mĩruri",
+          "notes": "Distant future with -ka- marker (2nd person singular)"
+        },
+        {
+          "english": "The rooster will crow (later today)",
+          "kikuyu": "Ngengere nĩ ikũ-gamba",
+          "notes": "Near future with -kũ- marker"
+        },
+        {
           "english": "We will sing a nice song (tomorrow)",
-          "notes": "Distant future with -ka-"
+          "kikuyu": "Tũka-ina karwĩmbo kega",
+          "notes": "Distant future with -ka- marker"
         }
       ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "tense markers",
+        "structure": {
+          "near future": "Subject + nĩ + subject agreement prefix + -kũ- + verb stem",
+          "distant future": "Subject + nĩ + subject agreement prefix + -ka- + verb stem"
+        },
+        "time_reference": {
+          "-kũ-": "Later today, near future (same day)",
+          "-ka-": "Tomorrow or beyond, distant future (different day)"
+        },
+        "notes": "Kikuyu makes a temporal distinction between actions that will occur later on the same day (-kũ-) versus actions that will occur on a future day (-ka-). This precise time marking is a characteristic feature of Bantu languages."
+      },
       "quality": {
         "verified": false,
         "confidence_score": 4.0,
@@ -43,14 +76,40 @@
     },
     {
       "id": "grammar-018-002",
-      "english": "Kaĩ = question prefix. Adding 'ĩ' at end = emphatic statement. Examples: Kwĩna heho (It is cold) → Kaĩ kwĩna heho? (Is it cold?) → Kaĩ kwĩna heho-ĩ! (It is really cold!)",
+      "english": "Kaĩ Question Particle & Emphatic Marker",
       "kikuyu": "Kaĩ Question Particle & Emphatic Marker",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 180",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T11:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "It is cold",
+          "kikuyu": "Kwĩna heho",
+          "notes": "Basic statement without particles"
+        },
+        {
+          "english": "Is it cold?",
+          "kikuyu": "Kaĩ kwĩna heho?",
+          "notes": "Question with Kaĩ prefix"
+        },
+        {
+          "english": "It is really cold!",
+          "kikuyu": "Kaĩ kwĩna heho-ĩ!",
+          "notes": "Emphatic statement with Kaĩ prefix and -ĩ suffix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "particle",
+        "grammatical_feature": "interrogative/emphatic markers",
+        "structure": {
+          "question": "Kaĩ + statement",
+          "emphatic": "Kaĩ + statement + -ĩ"
+        },
+        "notes": "The particle 'Kaĩ' serves dual functions in Kikuyu. As a prefix to a statement, it transforms it into a yes/no question. When combined with the suffix '-ĩ' at the end of the statement, it creates an emphatic exclamation. This demonstrates how modal particles can completely change the pragmatic function of an utterance."
       },
       "quality": {
         "verified": false,

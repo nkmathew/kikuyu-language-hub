@@ -9,19 +9,48 @@
     ],
     "total_entries": 2,
     "description": "Converted from easy_kikuyu_batch_020_grammar.json",
-    "last_updated": "2025-01-08T12:00:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-020-001",
-      "english": "Ĩkĩĩra = put/pour for someone: Ĩkĩĩra Njeri cai (pour tea for Njeri). Gũthooma (to read) → Thomera = read to/for someone: Thoomera mwana ibuku (read a book to the child). Gũtwara (to deliver) → Twarĩĩra = deliver to/for somebody: Twarĩĩra maina irio (take food to Maina)",
+      "english": "Benefactive Suffix -ĩra/-era",
       "kikuyu": "Benefactive Suffix -ĩra/-era",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 197",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "pour tea for Njeri",
+          "kikuyu": "Ĩkĩĩra Njeri cai",
+          "notes": "benefactive form of verb 'to put/pour'"
+        },
+        {
+          "english": "read a book to the child",
+          "kikuyu": "Thoomera mwana ibuku",
+          "notes": "benefactive form of 'gũthooma' (to read)"
+        },
+        {
+          "english": "take food to Maina",
+          "kikuyu": "Twarĩĩra maina irio",
+          "notes": "benefactive form of 'gũtwara' (to deliver)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "benefactive suffix",
+        "structure": {
+          "formation": "Verb stem + -ĩra/-era suffix",
+          "examples": [
+            "gũthooma (to read) → thoomera (read for/to someone)",
+            "gũtwara (to deliver) → twarĩĩra (deliver for/to someone)"
+          ]
+        },
+        "notes": "The benefactive suffix -ĩra/-era is added to verb stems to indicate that the action is performed for the benefit of someone else. It creates what would be expressed with 'for' or 'to' in English. The choice between -ĩra and -era depends on vowel harmony with the verb stem."
       },
       "quality": {
         "verified": false,
@@ -31,14 +60,36 @@
     },
     {
       "id": "grammar-020-002",
-      "english": "Class III nouns do not change form in plural. Singular: uses ĩno (this). Plural: uses ici (these). Example: Metha ĩno ĩmwe (this one table) vs Metha ici igĩrĩ (these two tables) - 'metha' stays the same",
+      "english": "Class III Noun Plural Invariance",
       "kikuyu": "Class III Noun Plural Invariance",
       "category": "grammar",
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 200",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "this one table",
+          "kikuyu": "Metha ĩno ĩmwe",
+          "notes": "class III noun with singular demonstrative and numeral"
+        },
+        {
+          "english": "these two tables",
+          "kikuyu": "Metha ici igĩrĩ",
+          "notes": "same class III noun with plural demonstrative and numeral"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "noun class",
+        "structure": {
+          "singular": "Noun + ĩno (this) + singular agreement",
+          "plural": "Noun + ici (these) + plural agreement",
+          "invariance": "The noun form itself does not change between singular and plural"
+        },
+        "notes": "Class III nouns in Kikuyu have the unique characteristic that the noun form itself remains unchanged between singular and plural. The number distinction is shown only through agreement patterns on demonstratives, numerals, and other modifiers."
       },
       "quality": {
         "verified": false,

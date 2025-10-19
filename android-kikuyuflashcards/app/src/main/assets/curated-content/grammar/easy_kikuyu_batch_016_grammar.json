@@ -8,37 +8,91 @@
     ],
     "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_016_grammar.json",
-    "last_updated": "2025-01-08T10:00:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-016-001",
-      "english": "Hĩndĩ cĩothe (always), Kaĩngĩ kaĩngĩ (constantly), Hakuhi hĩndĩ cĩothe (nearly every day), Nĩ ta hĩndĩ cĩothe (almost every day), Kaĩngĩ (often), Rĩmwe na rĩmwe (sometimes/once in a while), Tĩ kaĩngĩ (rarely), O na rĩ (never)",
+      "english": "Frequency Adverbs",
       "kikuyu": "Frequency Adverbs",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 158",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T10:00:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
       },
       "examples": [
         {
-          "kikuyu": "Rĩaga irio cĩĩ na mboga hakuhi hĩndĩ cĩothe",
+          "english": "always",
+          "kikuyu": "Hĩndĩ cĩothe",
+          "notes": "highest frequency"
+        },
+        {
+          "english": "constantly",
+          "kikuyu": "Kaĩngĩ kaĩngĩ",
+          "notes": "very high frequency (repeated form)"
+        },
+        {
+          "english": "nearly every day",
+          "kikuyu": "Hakuhi hĩndĩ cĩothe",
+          "notes": "high frequency with qualifier hakuhi (near)"
+        },
+        {
+          "english": "almost every day",
+          "kikuyu": "Nĩ ta hĩndĩ cĩothe",
+          "notes": "high frequency with qualifier nĩ ta (it is like)"
+        },
+        {
+          "english": "often",
+          "kikuyu": "Kaĩngĩ",
+          "notes": "medium-high frequency"
+        },
+        {
+          "english": "sometimes/once in a while",
+          "kikuyu": "Rĩmwe na rĩmwe",
+          "notes": "medium-low frequency, literally 'one and one'"
+        },
+        {
+          "english": "rarely",
+          "kikuyu": "Tĩ kaĩngĩ",
+          "notes": "low frequency, literally 'not often'"
+        },
+        {
+          "english": "never",
+          "kikuyu": "O na rĩ",
+          "notes": "zero frequency"
+        },
+        {
           "english": "Eat food with vegetables nearly every day",
+          "kikuyu": "Rĩaga irio cĩĩ na mboga hakuhi hĩndĩ cĩothe",
           "notes": "Habitual action with frequency adverb"
         },
         {
-          "kikuyu": "Nĩ athiaga Thika rĩmwe na rĩmwe",
           "english": "He goes to Thika once in a while",
+          "kikuyu": "Nĩ athiaga Thika rĩmwe na rĩmwe",
           "notes": "Occasional action"
         },
         {
-          "kikuyu": "Tĩ kaĩngĩ okaga",
           "english": "He/she rarely comes",
+          "kikuyu": "Tĩ kaĩngĩ okaga",
           "notes": "Infrequent action"
         }
       ],
+      "grammatical_info": {
+        "part_of_speech": "adverb",
+        "grammatical_feature": "frequency",
+        "structure": {
+          "patterns": [
+            "Time expressions: Hĩndĩ cĩothe (all time)",
+            "Quantifier expressions: Kaĩngĩ (often)",
+            "Negative expressions: Tĩ kaĩngĩ (not often)",
+            "Modifier expressions: Hakuhi hĩndĩ cĩothe (near all time)",
+            "Reduplication: Kaĩngĩ kaĩngĩ (often often = constantly)"
+          ]
+        },
+        "notes": "Kikuyu frequency adverbs generally follow the verb and can be modified by qualifiers to express more nuanced frequencies. They often combine with the habitual aspect of verbs (-aga suffix)."
+      },
       "quality": {
         "verified": false,
         "confidence_score": 4.0,

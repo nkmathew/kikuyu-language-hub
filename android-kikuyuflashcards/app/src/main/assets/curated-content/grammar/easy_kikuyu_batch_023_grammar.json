@@ -9,19 +9,60 @@
     ],
     "total_entries": 2,
     "description": "Converted from easy_kikuyu_batch_023_grammar.json",
-    "last_updated": "2025-01-08T13:30:00Z"
+    "last_updated": "2025-10-19T12:30:00Z"
   },
   "entries": [
     {
       "id": "grammar-023-001",
-      "english": "Africans start the day at 7am = thaa îmwe cia rũciũ-inĩ (hour 1, not 7), ending at 6pm = thaa ikũmi na igĩrĩ/thinacara (hour 12, not 6). Night starts at 7pm = thaa îmwe cia hũaĩ-inĩ (hour 1 of night, not 7)",
+      "english": "Time System - African vs Western Hours",
       "kikuyu": "Time System - African vs Western Hours",
       "category": "grammar",
       "difficulty": "intermediate",
       "source": {
         "origin": "Easy Kikuyu Lesson 225",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "7am (hour 1 of the day)",
+          "kikuyu": "thaa îmwe cia rũciũ-inĩ",
+          "notes": "daytime hour count starts at 7am in traditional system"
+        },
+        {
+          "english": "6pm (hour 12 of the day)",
+          "kikuyu": "thaa ikũmi na igĩrĩ / thinacara",
+          "notes": "daytime ends at 6pm, which is hour 12 in traditional system"
+        },
+        {
+          "english": "7pm (hour 1 of the night)",
+          "kikuyu": "thaa îmwe cia hũaĩ-inĩ",
+          "notes": "nighttime hour count starts at 7pm in traditional system"
+        },
+        {
+          "english": "12pm (hour 6 of the day)",
+          "kikuyu": "thaa ithathatû cia mûthenya",
+          "notes": "noon is hour 6 in traditional system"
+        },
+        {
+          "english": "12am (hour 6 of the night)",
+          "kikuyu": "thaa ithathatû cia ûtukû",
+          "notes": "midnight is hour 6 in traditional system"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "time expression",
+        "grammatical_feature": "time system",
+        "structure": {
+          "format": "thaa [number] cia [time of day]",
+          "time of day terms": {
+            "rũciũ-inĩ": "morning/day (7am-6pm)",
+            "hũaĩ-inĩ": "evening/night (7pm-6am)",
+            "mûthenya": "daytime",
+            "ûtukû": "nighttime"
+          }
+        },
+        "notes": "The traditional Kikuyu/African time system counts hours differently from the Western system. Day hours start at 7am (hour 1) and end at 6pm (hour 12), while night hours start at 7pm (hour 1) and end at 6am (hour 12). This means there's a 6-hour difference between African and Western hour numbering."
       },
       "quality": {
         "verified": false,
@@ -31,14 +72,76 @@
     },
     {
       "id": "grammar-023-002",
-      "english": "Future negative pattern: Ndi-/Tũtĩ-/Ndũ-/Mũtĩ-/Nda-/Matĩ- + verb. Examples: Ndigũkwĩra (I will not tell you), Tũtĩkwaria (we will not speak), Ndũkwaria (you will not speak), Mũtĩkwaria (you all will not speak), Moiga matĩkwaria (they said they will not speak). Present negative: Ndiaragia (I don't speak), Ndaragia (he/she doesn't speak), Tũtĩaragia (we don't speak)",
+      "english": "Negative Sentences - Future & Present",
       "kikuyu": "Negative Sentences - Future & Present",
       "category": "grammar",
       "difficulty": "advanced",
       "source": {
         "origin": "Easy Kikuyu Lesson 232",
         "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:30:00Z"
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I will not tell you",
+          "kikuyu": "Ndigũkwĩra",
+          "notes": "1st person singular future negative"
+        },
+        {
+          "english": "We will not speak",
+          "kikuyu": "Tũtĩkwaria",
+          "notes": "1st person plural future negative"
+        },
+        {
+          "english": "You will not speak",
+          "kikuyu": "Ndũkwaria",
+          "notes": "2nd person singular future negative"
+        },
+        {
+          "english": "You all will not speak",
+          "kikuyu": "Mũtĩkwaria",
+          "notes": "2nd person plural future negative"
+        },
+        {
+          "english": "They said they will not speak",
+          "kikuyu": "Moiga matĩkwaria",
+          "notes": "3rd person plural future negative in reported speech"
+        },
+        {
+          "english": "I don't speak",
+          "kikuyu": "Ndiaragia",
+          "notes": "1st person singular present negative"
+        },
+        {
+          "english": "He/she doesn't speak",
+          "kikuyu": "Ndaragia",
+          "notes": "3rd person singular present negative"
+        },
+        {
+          "english": "We don't speak",
+          "kikuyu": "Tũtĩaragia",
+          "notes": "1st person plural present negative"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "negation",
+        "structure": {
+          "future negative": {
+            "1st person singular": "Ndi- + verb",
+            "1st person plural": "Tũtĩ- + verb",
+            "2nd person singular": "Ndũ- + verb",
+            "2nd person plural": "Mũtĩ- + verb",
+            "3rd person singular": "Nda- + verb",
+            "3rd person plural": "Matĩ- + verb"
+          },
+          "present negative": {
+            "1st person singular": "Ndi- + -ra- + verb",
+            "3rd person singular": "Nda- + -ra- + verb",
+            "1st person plural": "Tũtĩ- + -ra- + verb"
+          }
+        },
+        "notes": "Kikuyu negation uses specific negative prefixes for each person and number. These prefixes replace the positive subject markers. In the present tense, the negative marker is followed by the progressive marker -ra-."
       },
       "quality": {
         "verified": false,
