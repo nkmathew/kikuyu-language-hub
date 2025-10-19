@@ -13,12 +13,25 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Header with remove button -->
+        <!-- Header with position badge and remove button -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical">
+
+            <!-- Position badge -->
+            <TextView
+                android:id="@+id/positionBadge"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/circle_background_blue"
+                android:text="1"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginEnd="12dp" />
 
             <LinearLayout
                 android:layout_width="0dp"

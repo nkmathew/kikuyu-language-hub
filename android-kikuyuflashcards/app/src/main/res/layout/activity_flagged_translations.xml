@@ -49,6 +49,20 @@
 
     </LinearLayout>
 
+    <!-- Flagged Count Header -->
+    <TextView
+        android:id="@+id/flaggedCountHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flagged Translations: 0/554"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_on_surface"
+        android:background="@color/dark_surface_variant"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="16dp"
+        android:visibility="visible" />
+
     <!-- Empty State -->
     <TextView
         android:id="@+id/emptyStateTextView"

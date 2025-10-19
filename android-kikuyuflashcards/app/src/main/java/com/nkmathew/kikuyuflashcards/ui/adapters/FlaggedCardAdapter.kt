@@ -37,7 +37,7 @@ class FlaggedCardAdapter(
     override fun onBindViewHolder(holder: FlaggedCardViewHolder, position: Int) {
         val card = cards[position]
         val reason = flagReasons[card.id]
-        holder.bind(card, reason)
+        holder.bind(card, reason, position + 1, cards.size)
     }
 
     override fun getItemCount(): Int = cards.size
@@ -56,13 +56,17 @@ class FlaggedCardAdapter(
         private val reasonText: TextView = itemView.findViewById(R.id.reasonText)
         private val addReasonButton: TextView = itemView.findViewById(R.id.addReasonButton)
         private val removeButton: TextView = itemView.findViewById(R.id.removeButton)
+        private val positionBadge: TextView = itemView.findViewById(R.id.positionBadge)
 
-        fun bind(card: FlashcardEntry, reason: String?) {
+        fun bind(card: FlashcardEntry, reason: String?, position: Int, total: Int) {
             kikuyuText.text = card.kikuyu
             englishText.text = card.english
             difficultyText.text = card.difficulty
             categoryText.text = card.category
-            
+
+            // Set position badge
+            positionBadge.text = position.toString()
+
             // Show cultural notes if available
             if (card.culturalNotes?.isNotEmpty() == true) {
                 culturalNotesText.text = card.culturalNotes
@@ -70,7 +74,7 @@ class FlaggedCardAdapter(
             } else {
                 culturalNotesText.visibility = View.GONE
             }
-            
+
             // Show source if available
             if (card.source?.origin?.isNotEmpty() == true) {
                 sourceText.text = "Source: ${card.source.origin}"
@@ -78,7 +82,7 @@ class FlaggedCardAdapter(
             } else {
                 sourceText.visibility = View.GONE
             }
-            
+
             // Show reason if available
             if (reason?.isNotEmpty() == true) {
                 reasonText.text = reason
@@ -88,16 +92,16 @@ class FlaggedCardAdapter(
                 reasonContainer.visibility = View.GONE
                 addReasonButton.visibility = View.VISIBLE
             }
-            
+
             // Set up click listeners
             addReasonButton.setOnClickListener {
                 onAddReason(card.id)
             }
-            
+
             reasonContainer.setOnClickListener {
                 onAddReason(card.id)
             }
-            
+
             removeButton.setOnClickListener {
                 onRemoveFlag(card.id)
             }

@@ -13,8 +13,8 @@
   "entries": [
     {
       "id": "conj-014-001",
-      "english": "Nīwahingūra? (Have you opened?) → Ndinahingūra (I have not opened) / Nīngūhingūrīte kabere (I opened earlier). Nī wethamba? (Have you bathed?) → Ndinethamba (I have not bathed) / Nīngwīthambīte kabere (I bathed earlier). Nīūrugire cai? (Have you made tea?) → Ndinaruga cai (I have not made tea) / Nīndugire cai hau kabere (I made tea earlier)",
-      "kikuyu": "Perfect Tense Questions & Negatives",
+      "english": "Perfect tense questions and answers",
+      "kikuyu": "Ciũria na macokio ma ihinda rĩrathira",
       "category": "conjugations",
       "difficulty": "intermediate",
       "source": {
@@ -23,6 +23,21 @@
         "last_updated": "2025-01-08T09:00:00Z"
       },
       "examples": [
+        {
+          "kikuyu": "Nīwahingūra?",
+          "english": "Have you opened?",
+          "notes": "Perfect tense question"
+        },
+        {
+          "kikuyu": "Ndinahingūra",
+          "english": "I have not opened",
+          "notes": "Perfect negative form"
+        },
+        {
+          "kikuyu": "Nīngūhingūrīte kabere",
+          "english": "I opened earlier",
+          "notes": "Affirmative past perfect with kabere"
+        },
         {
           "kikuyu": "Nī wethamba?",
           "english": "Have you bathed?",
@@ -36,9 +51,33 @@
         {
           "kikuyu": "Nīngwīthambīte kabere",
           "english": "I bathed earlier",
-          "notes": "Past perfect with kabere (earlier)"
+          "notes": "Affirmative past perfect with kabere"
+        },
+        {
+          "kikuyu": "Nīūrugire cai?",
+          "english": "Have you made tea?",
+          "notes": "Perfect tense question"
+        },
+        {
+          "kikuyu": "Ndinaruga cai",
+          "english": "I have not made tea",
+          "notes": "Perfect negative form"
+        },
+        {
+          "kikuyu": "Nīndugire cai hau kabere",
+          "english": "I made tea earlier",
+          "notes": "Affirmative past perfect with location and time"
         }
       ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "perfect",
+        "constructions": [
+          "Nī + subject prefix + verb stem + ?",
+          "Ndina + verb stem",
+          "Nī + subject prefix + verb stem + ite + kabere"
+        ]
+      },
       "quality": {
         "verified": false,
         "confidence_score": 4.0,

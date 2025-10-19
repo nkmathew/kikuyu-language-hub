@@ -29,6 +29,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
     // Views
     private lateinit var recyclerView: RecyclerView
     private lateinit var emptyStateTextView: TextView
+    private lateinit var flaggedCountHeader: TextView
     private lateinit var exportButton: Button
     private lateinit var shareButton: Button
     private lateinit var clearAllButton: Button
@@ -52,6 +53,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         // Initialize views
         recyclerView = findViewById(R.id.recyclerView)
         emptyStateTextView = findViewById(R.id.emptyStateTextView)
+        flaggedCountHeader = findViewById(R.id.flaggedCountHeader)
         exportButton = findViewById(R.id.exportButton)
         shareButton = findViewById(R.id.shareButton)
         clearAllButton = findViewById(R.id.clearAllButton)
@@ -126,13 +128,21 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
      * Update UI based on current state
      */
     private fun updateUI() {
+        // Get total count of all flashcards
+        val totalFlashcards = flashCardManager.getAllEntries().size
+
+        // Update header count
+        flaggedCountHeader.text = "Flagged Translations: ${flaggedCards.size}/$totalFlashcards"
+
         if (flaggedCards.isEmpty()) {
             recyclerView.visibility = android.view.View.GONE
             emptyStateTextView.visibility = android.view.View.VISIBLE
+            flaggedCountHeader.visibility = android.view.View.GONE
             emptyStateTextView.text = "No flagged translations found.\nFlag translations in the study list to see them here."
         } else {
             recyclerView.visibility = android.view.View.VISIBLE
             emptyStateTextView.visibility = android.view.View.GONE
+            flaggedCountHeader.visibility = android.view.View.VISIBLE
             flaggedCardAdapter.updateCards(flaggedCards, flagReasons)
         }
     }
