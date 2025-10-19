@@ -1,15 +1,19 @@
 package com.nkmathew.kikuyuflashcards
 
+import android.app.AlertDialog
 import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.adapters.StudyListAdapter
 import com.nkmathew.kikuyuflashcards.ui.decorations.SimpleDividerItemDecoration
@@ -24,6 +28,7 @@ class StudyListActivity : AppCompatActivity() {
     // Views
     private lateinit var recyclerView: RecyclerView
     private lateinit var studyListAdapter: StudyListAdapter
+    private lateinit var jumpToCardFab: FloatingActionButton
 
     // Managers
     private lateinit var flashCardManager: FlashCardManagerV2
@@ -51,6 +56,7 @@ class StudyListActivity : AppCompatActivity() {
 
         // Initialize views
         recyclerView = findViewById(R.id.recyclerView)
+        jumpToCardFab = findViewById(R.id.jumpToCardFab)
 
         // Initialize managers
         flashCardManager = FlashCardManagerV2(this)
@@ -58,6 +64,9 @@ class StudyListActivity : AppCompatActivity() {
 
         // Set up RecyclerView
         setupRecyclerView()
+
+        // Set up FAB
+        setupJumpToCardFab()
 
         // Load initial cards
         loadCards()
@@ -124,6 +133,79 @@ class StudyListActivity : AppCompatActivity() {
 
         // Add subtle divider between items
         recyclerView.addItemDecoration(SimpleDividerItemDecoration(this))
+
+        // Add scroll listener to show/hide FAB
+        recyclerView.addOnScrollListener(object : RecyclerView.OnScrollListener() {
+            override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
+                // Show FAB when scrolling up, hide when scrolling down
+                if (dy < 0 && jumpToCardFab.visibility != View.VISIBLE) {
+                    jumpToCardFab.show()
+                } else if (dy > 0 && jumpToCardFab.visibility == View.VISIBLE) {
+                    jumpToCardFab.hide()
+                }
+            }
+        })
+    }
+
+    /**
+     * Set up the Jump To Card FAB
+     */
+    private fun setupJumpToCardFab() {
+        jumpToCardFab.setOnClickListener {
+            showJumpToCardDialog()
+        }
+    }
+
+    /**
+     * Show dialog to enter card number
+     */
+    private fun showJumpToCardDialog() {
+        val dialogView = layoutInflater.inflate(R.layout.dialog_jump_to_card, null)
+        val cardNumberEditText = dialogView.findViewById<EditText>(R.id.cardNumberEditText)
+
+        AlertDialog.Builder(this)
+            .setTitle("Jump to Card")
+            .setMessage("Enter a card number (1-${totalCards})")
+            .setView(dialogView)
+            .setPositiveButton("Jump") { _, _ ->
+                val cardNumberText = cardNumberEditText.text.toString()
+                if (cardNumberText.isNotEmpty()) {
+                    try {
+                        val cardNumber = cardNumberText.toInt()
+                        jumpToCard(cardNumber)
+                    } catch (e: NumberFormatException) {
+                        Toast.makeText(this, "Please enter a valid number", Toast.LENGTH_SHORT).show()
+                    }
+                }
+            }
+            .setNegativeButton("Cancel", null)
+            .show()
+    }
+
+    /**
+     * Jump to a specific card position
+     */
+    private fun jumpToCard(cardNumber: Int) {
+        if (cardNumber in 1..totalCards) {
+            // Account for header position (position 0)
+            // In the adapter: position 0 is header, position 1 is first card (card #1)
+            // So we need to add the header offset to go from card number to adapter position
+            val positionInAdapter = cardNumber // Card number is already 1-based, matching adapter position with header
+            (recyclerView.layoutManager as LinearLayoutManager).scrollToPositionWithOffset(positionInAdapter, 0)
+
+            // Briefly highlight the card by scrolling slightly past it and then back
+            recyclerView.postDelayed({
+                // Smooth scroll to make it clear which card we jumped to
+                recyclerView.smoothScrollBy(0, 20)
+                recyclerView.postDelayed({
+                    recyclerView.smoothScrollBy(0, -20)
+                }, 100)
+            }, 100)
+
+            Toast.makeText(this, "Jumped to card $cardNumber", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(this, "Card number out of range", Toast.LENGTH_SHORT).show()
+        }
     }
 
     /**
@@ -131,21 +213,21 @@ class StudyListActivity : AppCompatActivity() {
      */
     private fun loadCards() {
         var cards = flashCardManager.getAllEntries()
-        
+
         // Apply sorting based on current sort mode
         cards = when (currentSortMode) {
             "short_first" -> cards.sortedBy { it.kikuyu.length + it.english.length }
             "long_first" -> cards.sortedByDescending { it.kikuyu.length + it.english.length }
             else -> cards // default order
         }
-        
+
         totalCards = cards.size
         cardsStudied = 0
-        
+
         // Load flagged cards
         flaggedCards.clear()
         flaggedCards.addAll(flagStorageService.getFlaggedItems())
-        
+
         studyListAdapter.updateCards(cards)
         studyListAdapter.setFlaggedCards(flaggedCards)
         studyListAdapter.updateProgress(totalCards, cardsStudied)
@@ -172,10 +254,10 @@ class StudyListActivity : AppCompatActivity() {
         val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         val cardTexts = cards.map { "${it.kikuyu} - ${it.english}" }
         val fullText = cardTexts.joinToString("\n")
-        
+
         val clip = ClipData.newPlainText("Kikuyu Flashcards", fullText)
         clipboard.setPrimaryClip(clip)
-        
+
         Toast.makeText(this, "All cards copied to clipboard", Toast.LENGTH_SHORT).show()
     }
 
@@ -191,14 +273,14 @@ class StudyListActivity : AppCompatActivity() {
 
         val cardTexts = cards.map { "${it.kikuyu} - ${it.english}" }
         val fullText = cardTexts.joinToString("\n")
-        
+
         val shareIntent = Intent().apply {
             action = Intent.ACTION_SEND
             type = "text/plain"
             putExtra(Intent.EXTRA_TEXT, fullText)
             putExtra(Intent.EXTRA_SUBJECT, "Kikuyu Flashcards")
         }
-        
+
         startActivity(Intent.createChooser(shareIntent, "Share flashcards"))
     }
 }
