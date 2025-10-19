@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.adapters.StudyListAdapter
+import com.nkmathew.kikuyuflashcards.ui.decorations.SimpleDividerItemDecoration
 import com.nkmathew.kikuyuflashcards.ui.decorations.VerticalMarginItemDecoration
 
 /**

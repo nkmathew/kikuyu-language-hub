@@ -218,6 +218,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
 
     /**
      * Share flagged items via email to developer
+     * Includes a JSON format of the flagged translations
      */
     private fun shareFlaggedItems() {
         if (flaggedCards.isEmpty()) {
@@ -225,6 +226,7 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
             return
         }
 
+        // Create human-readable summary
         val shareText = buildString {
             appendLine("Flagged Kikuyu Translations (${flaggedCards.size} items):")
             appendLine()
@@ -244,21 +246,104 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
                 }
                 appendLine()
             }
+
+            appendLine("\n----------\nJSON DATA BELOW:\n----------\n")
         }
+
+        // Create JSON data array
+        val jsonData = buildJsonData()
 
         // Create email intent specifically for the developer
-        val intent = Intent(Intent.ACTION_SENDTO).apply {
+        // First try with ACTION_SENDTO (more secure but sometimes loses subject/body)
+        val emailIntent = Intent(Intent.ACTION_SENDTO).apply {
             data = android.net.Uri.parse("mailto:kipkoechmathew+kikuyuflashards@gmail.com")
             putExtra(Intent.EXTRA_SUBJECT, "Flagged Kikuyu Translations (${flaggedCards.size} items)")
-            putExtra(Intent.EXTRA_TEXT, shareText)
+            putExtra(Intent.EXTRA_TEXT, shareText + jsonData)
         }
 
+        // Fallback to ACTION_SEND (will show more apps but always includes subject/body)
+        val fallbackIntent = Intent(Intent.ACTION_SEND).apply {
+            type = "message/rfc822" // MIME type for email
+            putExtra(Intent.EXTRA_EMAIL, arrayOf("kipkoechmathew+kikuyuflashards@gmail.com"))
+            putExtra(Intent.EXTRA_SUBJECT, "Flagged Kikuyu Translations (${flaggedCards.size} items)")
+            putExtra(Intent.EXTRA_TEXT, shareText + jsonData)
+        }
+
+        // Try to find apps that can handle the intent
         try {
-            startActivity(intent)
+            // First try the primary intent
+            if (emailIntent.resolveActivity(packageManager) != null) {
+                startActivity(Intent.createChooser(emailIntent, "Send email using..."))
+            } else {
+                // If no app is found for ACTION_SENDTO, try the fallback
+                startActivity(Intent.createChooser(fallbackIntent, "Send email using..."))
+            }
         } catch (e: Exception) {
             Toast.makeText(this, "No email app found. Please install an email app to share.", Toast.LENGTH_SHORT).show()
+            // Log the error for debugging
+            android.util.Log.e("FlaggedTranslations", "Error sending email: ${e.message}")
         }
     }
+
+    /**
+     * Build JSON data format for flagged translations
+     */
+    private fun buildJsonData(): String {
+        val jsonBuilder = StringBuilder()
+        jsonBuilder.append("{\n")
+        jsonBuilder.append("  \"flagged_translations\": [\n")
+
+        flaggedCards.forEachIndexed { index, card ->
+            jsonBuilder.append("    {\n")
+            jsonBuilder.append("      \"id\": \"${escapeJson(card.id)}\",\n")
+            jsonBuilder.append("      \"kikuyu\": \"${escapeJson(card.kikuyu)}\",\n")
+            jsonBuilder.append("      \"english\": \"${escapeJson(card.english)}\",\n")
+            jsonBuilder.append("      \"category\": \"${escapeJson(card.category)}\",\n")
+            jsonBuilder.append("      \"difficulty\": \"${escapeJson(card.difficulty)}\",\n")
+
+            // Add reason if available
+            flagReasons[card.id]?.let { reason ->
+                jsonBuilder.append("      \"flag_reason\": \"${escapeJson(reason)}\",\n")
+            }
+
+            // Add optional fields
+            card.culturalNotes?.let {
+                if (it.isNotEmpty()) {
+                    jsonBuilder.append("      \"cultural_notes\": \"${escapeJson(it)}\",\n")
+                }
+            }
+
+            // Add source info
+            jsonBuilder.append("      \"source\": {\n")
+            jsonBuilder.append("        \"origin\": \"${escapeJson(card.source?.origin ?: "Unknown")}\"\n")
+            jsonBuilder.append("      }\n")
+
+            // Add comma for all items except the last one
+            if (index < flaggedCards.size - 1) {
+                jsonBuilder.append("    },\n")
+            } else {
+                jsonBuilder.append("    }\n")
+            }
+        }
+
+        jsonBuilder.append("  ]\n")
+        jsonBuilder.append("}\n")
+
+        return jsonBuilder.toString()
+    }
+
+    /**
+     * Helper method to escape JSON string values properly
+     */
+    private fun escapeJson(text: String): String {
+        return text.replace("\\", "\\\\")
+                .replace("\"", "\\\"")
+                .replace("\b", "\\b")
+                .replace("\n", "\\n")
+                .replace("\r", "\\r")
+                .replace("\t", "\\t")
+    }
+
 
     /**
      * Export flagged items to file

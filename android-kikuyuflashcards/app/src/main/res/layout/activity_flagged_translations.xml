@@ -31,9 +31,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginHorizontal="4dp"
-            android:text="📧 Share"
+            android:text="📧 Email"
             android:textSize="12sp"
-            android:backgroundTint="@color/success_color"
+            android:backgroundTint="@color/info_blue"
             style="@style/Widget.Material3.Button" />
 
         <Button
