@@ -17,9 +17,11 @@ class FlashCardManagerV2(private val context: Context) {
     // Core managers
     private val curatedContentManager = CuratedContentManager(context)
     private val positionManager = PositionManagerV2(context)
+    private val flashcardExpander = FlashcardExpanderManager(context)
 
     // Data state
     private val allEntries = mutableListOf<FlashcardEntry>()
+    private val expandedEntries = mutableListOf<FlashcardEntry>()
     private val filteredEntries = mutableListOf<FlashcardEntry>()
     private val random = Random.Default
 
@@ -28,6 +30,9 @@ class FlashCardManagerV2(private val context: Context) {
     private var currentCategory: String? = null
     private var currentDifficulty: String? = null
     private var isShuffleMode = false
+
+    // Mode state
+    private var isFlashcardMode = false
 
     init {
         try {
@@ -44,6 +49,36 @@ class FlashCardManagerV2(private val context: Context) {
             Log.e(TAG, "FlashCardManagerV2: Error during initialization", e)
         }
     }
+
+    /**
+     * Set the mode: study list or flashcard
+     */
+    fun setFlashcardMode(flashcardMode: Boolean) {
+        if (isFlashcardMode == flashcardMode) {
+            return // No change needed
+        }
+
+        isFlashcardMode = flashcardMode
+
+        // If switching to flashcard mode, expand entries with examples
+        if (isFlashcardMode) {
+            Log.d(TAG, "Switching to flashcard mode")
+            expandedEntries.clear()
+            expandedEntries.addAll(flashcardExpander.expandEntriesToFlashcards(allEntries))
+
+            // Re-apply filters to the expanded list
+            applyFilters()
+        } else {
+            Log.d(TAG, "Switching to study mode")
+            // In study mode, just use the original entries
+            applyFilters()
+        }
+    }
+
+    /**
+     * Check if we're in flashcard mode
+     */
+    fun isInFlashcardMode(): Boolean = isFlashcardMode
 
     // Navigation methods
 
@@ -206,11 +241,18 @@ class FlashCardManagerV2(private val context: Context) {
         // Clear filtered collections
         filteredEntries.clear()
 
-        // Create a copy of all entries to work with
-        val baseEntries = allEntries.toList()
+        // Get the appropriate source list based on mode
+        val sourceEntries = if (isFlashcardMode) {
+            if (expandedEntries.isEmpty()) {
+                expandedEntries.addAll(flashcardExpander.expandEntriesToFlashcards(allEntries))
+            }
+            expandedEntries
+        } else {
+            allEntries
+        }
 
         // Apply filters
-        val filtered = baseEntries.filter { entry ->
+        val filtered = sourceEntries.filter { entry ->
             // Apply category filter if set
             val categoryMatch = currentCategory?.let { entry.category == it } ?: true
 
@@ -228,6 +270,9 @@ class FlashCardManagerV2(private val context: Context) {
         if (currentIndex >= filteredEntries.size) {
             currentIndex = 0
         }
+
+        Log.d(TAG, "Applied filters. Source: ${if (isFlashcardMode) "flashcard" else "study"} mode. " +
+                "Filtered ${sourceEntries.size} entries to ${filteredEntries.size} entries.")
     }
 
     /**
@@ -269,7 +314,8 @@ class FlashCardManagerV2(private val context: Context) {
     private fun buildPositionKey(): String {
         val categoryPart = currentCategory ?: "all"
         val difficultyPart = currentDifficulty ?: "all"
-        return "$categoryPart:$difficultyPart"
+        val modePart = if (isFlashcardMode) "flashcard" else "study"
+        return "$categoryPart:$difficultyPart:$modePart"
     }
 
     /**
@@ -306,8 +352,9 @@ class FlashCardManagerV2(private val context: Context) {
 
         val categoryDisplay = currentCategory?.let { getCategoryDisplayName(it) } ?: "All Categories"
         val difficultyDisplay = currentDifficulty?.let { getDifficultyDisplayName(it) } ?: "All Levels"
+        val modeDisplay = if (isFlashcardMode) "flashcards" else "study cards"
 
-        return "Continue learning $categoryDisplay ($difficultyDisplay) from card ${lastPosition + 1}/$totalCount"
+        return "Continue learning $categoryDisplay ($difficultyDisplay) from $modeDisplay ${lastPosition + 1}/$totalCount"
     }
 
     /**
@@ -328,11 +375,18 @@ class FlashCardManagerV2(private val context: Context) {
      * Get all entries for generating options, respecting current filters
      */
     fun getAllEntries(): List<FlashcardEntry> {
-        // Apply current category filter if set
-        val categoryFiltered = if (currentCategory != null) {
-            allEntries.filter { it.category == currentCategory }
+        // Get the appropriate source list based on mode
+        val sourceEntries = if (isFlashcardMode && expandedEntries.isNotEmpty()) {
+            expandedEntries
         } else {
             allEntries
+        }
+
+        // Apply current category filter if set
+        val categoryFiltered = if (currentCategory != null) {
+            sourceEntries.filter { it.category == currentCategory }
+        } else {
+            sourceEntries
         }
 
         // Apply current difficulty filter if set

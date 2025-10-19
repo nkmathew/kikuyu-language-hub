@@ -58,8 +58,10 @@ class StudyListActivity : AppCompatActivity() {
         recyclerView = findViewById(R.id.recyclerView)
         jumpToCardFab = findViewById(R.id.jumpToCardFab)
 
-        // Initialize managers
+        // Initialize managers - explicitly set study mode (not flashcard mode)
         flashCardManager = FlashCardManagerV2(this)
+        flashCardManager.setFlashcardMode(false)
+        android.util.Log.d("StudyListActivity", "Setting flashcard mode: false (study mode)")
         flagStorageService = FlagStorageService(this)
 
         // Set up RecyclerView
@@ -231,6 +233,8 @@ class StudyListActivity : AppCompatActivity() {
         studyListAdapter.updateCards(cards)
         studyListAdapter.setFlaggedCards(flaggedCards)
         studyListAdapter.updateProgress(totalCards, cardsStudied)
+
+        android.util.Log.d("StudyListActivity", "Loaded ${cards.size} study cards (in study mode, not expanding examples)")
     }
 
     /**

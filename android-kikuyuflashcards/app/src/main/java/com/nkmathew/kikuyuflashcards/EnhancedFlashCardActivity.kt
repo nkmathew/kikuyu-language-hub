@@ -2,6 +2,7 @@ package com.nkmathew.kikuyuflashcards
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.TextView
@@ -16,6 +17,9 @@ import com.nkmathew.kikuyuflashcards.ui.views.StudyCardView
  * Activity that displays enhanced flashcards with filtering capabilities
  */
 class EnhancedFlashCardActivity : AppCompatActivity() {
+    companion object {
+        private const val TAG = "EnhancedFlashCardAct"
+    }
 
     // Views
     private lateinit var studyCardView: StudyCardView
@@ -45,8 +49,10 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
         difficultyChipGroup = findViewById(R.id.difficultyChipGroup)
         positionTextView = findViewById(R.id.positionTextView)
 
-        // Initialize flash card manager
+        // Initialize flash card manager in flashcard mode
         flashCardManager = FlashCardManagerV2(this)
+        flashCardManager.setFlashcardMode(true)
+        Log.d(TAG, "Setting flashcard mode: true")
 
         // Set up category filter chips
         setupCategoryChips()
@@ -200,10 +206,10 @@ class EnhancedFlashCardActivity : AppCompatActivity() {
         // Get current entry
         val currentEntry = flashCardManager.getCurrentEntry()
 
-        // Update position text
+        // Update position text - show "Flashcard" instead of "Card" to indicate mode
         val currentIndex = flashCardManager.getCurrentIndex() + 1
         val totalEntries = flashCardManager.getTotalEntries()
-        positionTextView.text = "Card $currentIndex of $totalEntries"
+        positionTextView.text = "Flashcard $currentIndex of $totalEntries"
 
         // Update flash card view
         currentEntry?.let {
