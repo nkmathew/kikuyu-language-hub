@@ -1,0 +1,252 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.164135+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "209.txt",
+      "213.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_021_conjugations.json",
+    "last_updated": "2025-01-08T12:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-021-001",
+      "english": "Third person present progressive (he/she/they)",
+      "kikuyu": "Mĩario ya We/O (arĩa marathiĩ)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 209",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "He/She is coming",
+          "kikuyu": "Nĩ aroka",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is crying",
+          "kikuyu": "Nĩ ararĩra",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is eating",
+          "kikuyu": "Nĩ ararĩa",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is speaking",
+          "kikuyu": "Nĩ arararia",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is happy",
+          "kikuyu": "Nĩ arakena",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is laughing",
+          "kikuyu": "Nĩ aratheka",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is going",
+          "kikuyu": "Nĩ arathĩĩ",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is reading",
+          "kikuyu": "Nĩ arathooma",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "He/She is writing",
+          "kikuyu": "Nĩ aranđĩka",
+          "notes": "3rd person singular present progressive"
+        },
+        {
+          "english": "They are coming",
+          "kikuyu": "Nĩ maroka",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are crying",
+          "kikuyu": "Nĩ mararĩra",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are eating",
+          "kikuyu": "Nĩ mararĩa",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are speaking",
+          "kikuyu": "Nĩ marararia",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are happy",
+          "kikuyu": "Nĩ marakena",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are laughing",
+          "kikuyu": "Nĩ maratheka",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are going",
+          "kikuyu": "Nĩ marathĩĩ",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are reading",
+          "kikuyu": "Nĩ marathooma",
+          "notes": "3rd person plural present progressive"
+        },
+        {
+          "english": "They are writing",
+          "kikuyu": "Nĩ maranđĩka",
+          "notes": "3rd person plural present progressive"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "present progressive",
+        "persons": ["3rd person singular", "3rd person plural"],
+        "pattern": {
+          "singular": "Nĩ + a + ra + verb stem",
+          "plural": "Nĩ + ma + ra + verb stem"
+        }
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-021-002",
+      "english": "Second person present progressive (you singular/plural)",
+      "kikuyu": "Mĩario ya Wee/Inyuĩ (arĩa marathiĩ)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 213",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "You are coming",
+          "kikuyu": "Nĩ ũroka",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are crying",
+          "kikuyu": "Nĩ ũrarĩra",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are eating",
+          "kikuyu": "Nĩ ũrarĩa",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are speaking",
+          "kikuyu": "Nĩ ũrararia",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are happy",
+          "kikuyu": "Nĩ ũrakena",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are laughing",
+          "kikuyu": "Nĩ ũratheka",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are going",
+          "kikuyu": "Nĩ ũrathĩĩ",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are reading",
+          "kikuyu": "Nĩ ũrathooma",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You are writing",
+          "kikuyu": "Nĩ ũranđĩka",
+          "notes": "2nd person singular present progressive"
+        },
+        {
+          "english": "You all are coming",
+          "kikuyu": "Nĩ mũroka",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are crying",
+          "kikuyu": "Nĩ mũrarĩra",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are eating",
+          "kikuyu": "Nĩ mũrarĩa",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are speaking",
+          "kikuyu": "Nĩ mũrararia",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are happy",
+          "kikuyu": "Nĩ mũrakena",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are laughing",
+          "kikuyu": "Nĩ mũratheka",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are going",
+          "kikuyu": "Nĩ mũrathĩĩ",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are reading",
+          "kikuyu": "Nĩ mũrathooma",
+          "notes": "2nd person plural present progressive"
+        },
+        {
+          "english": "You all are writing",
+          "kikuyu": "Nĩ mũranđĩka",
+          "notes": "2nd person plural present progressive"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "present progressive",
+        "persons": ["2nd person singular", "2nd person plural"],
+        "pattern": {
+          "singular": "Nĩ + ũ + ra + verb stem",
+          "plural": "Nĩ + mũ + ra + verb stem"
+        }
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

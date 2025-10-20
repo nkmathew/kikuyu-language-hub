@@ -1,0 +1,5197 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T20:30:00.000000+00:00",
+    "curator": "Consolidated Entries Script",
+    "source_files": [
+      "all_files"
+    ],
+    "total_entries": 318,
+    "description": "Consolidated entries for phrases"
+  },
+  "entries": [
+    {
+      "id": "phrase_greeting_001",
+      "english": "How are you?",
+      "kikuyu": "Wĩ mwega?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard greeting",
+        "license": "educational_use"
+      },
+      "subcategory": "greetings",
+      "context": "Common greeting to ask about someone's well-being",
+      "cultural_notes": "This is the most common way to greet someone in Kikuyu. Literal meaning is 'Are you well?'",
+      "examples": [
+        {
+          "english": "I am well",
+          "kikuyu": "Ndĩ mwega",
+          "context": "Standard response to greeting"
+        },
+        {
+          "english": "I am not well",
+          "kikuyu": "Ndirĩ mwega",
+          "context": "When you're not feeling well"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "wĩ (you are), mwega (well/good)"
+      },
+      "tags": [
+        "greeting",
+        "common",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_greeting_002",
+      "english": "Good morning",
+      "kikuyu": "Wĩhoro",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard greeting",
+        "license": "educational_use"
+      },
+      "subcategory": "greetings",
+      "context": "Morning greeting",
+      "cultural_notes": "Used from dawn until around 10-11 AM",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase"
+      },
+      "tags": [
+        "greeting",
+        "morning",
+        "beginner",
+        "time-specific"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_thankyou_001",
+      "english": "Thank you",
+      "kikuyu": "Nĩ wega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard courtesy expression",
+        "license": "educational_use"
+      },
+      "subcategory": "courtesy",
+      "context": "Expression of gratitude",
+      "cultural_notes": "Literal meaning is 'it is good/well'. Very common polite expression.",
+      "examples": [
+        {
+          "english": "Thank you very much",
+          "kikuyu": "Nĩ wega mũno",
+          "context": "Emphatic gratitude"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "nĩ (it is), wega (good/well), mũno (very much)"
+      },
+      "tags": [
+        "gratitude",
+        "courtesy",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_question_001",
+      "english": "What is your name?",
+      "kikuyu": "Wĩtagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard introduction phrase",
+        "license": "educational_use"
+      },
+      "subcategory": "introductions",
+      "context": "Asking someone's name",
+      "cultural_notes": "Common phrase when meeting someone new. Literal: 'You are called what?'",
+      "examples": [
+        {
+          "english": "My name is...",
+          "kikuyu": "Ndetagwo...",
+          "context": "Introducing yourself"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "wĩtagwo (you are called), atĩa (what)"
+      },
+      "tags": [
+        "introduction",
+        "question",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_courtesy_001",
+      "english": "Please",
+      "kikuyu": "Ndagũthaitha",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard courtesy expression",
+        "license": "educational_use"
+      },
+      "subcategory": "courtesy",
+      "context": "Polite request",
+      "cultural_notes": "Literally means 'I beg you'. Essential for polite conversation.",
+      "examples": [
+        {
+          "english": "Please help me",
+          "kikuyu": "Ndagũthaitha ũndeithie",
+          "context": "Polite request for assistance"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "From gũthaitha (to beg/plead)"
+      },
+      "tags": [
+        "courtesy",
+        "request",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch002_001",
+      "english": "I don't have a farm",
+      "kikuyu": "Ndire na mũgũnda",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 016",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "possession",
+      "context": "Expressing lack of possession",
+      "cultural_notes": "Common expression. 'Ndire' means 'I don't have', 'mũgũnda' means farm/field",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "negative_possession"
+      },
+      "tags": [
+        "possession",
+        "negative",
+        "farming",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch002_002",
+      "english": "Sell what you like, even land",
+      "kikuyu": "Endia kĩrĩa ukwenda, ona mũgũnda",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 017",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "proverb_like",
+      "context": "Expression about freedom of choice in selling",
+      "cultural_notes": "Proverbial expression emphasizing personal freedom in business decisions",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "verbs": "endia (sell), ukwenda (you want)"
+      },
+      "tags": [
+        "selling",
+        "choice",
+        "freedom",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch002_003",
+      "english": "What do you have to sell?",
+      "kikuyu": "Nĩ kĩĩ wĩ na kĩo gĩa kwendia?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 018",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "questions",
+      "context": "Market/shopping question asking what someone is selling",
+      "cultural_notes": "Common marketplace question. Shows interrogative structure",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "interrogative",
+        "question_word": "nĩ kĩĩ (what)"
+      },
+      "tags": [
+        "question",
+        "selling",
+        "market",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch002_004",
+      "english": "Today is Friday",
+      "kikuyu": "Ũmũthĩ nĩ wagatano",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 024",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "time_expressions",
+      "context": "Stating what day it is today",
+      "cultural_notes": "Common daily expression. wagatano = Friday (the fifth day)",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "ũmũthĩ (today) + nĩ (is) + day_name"
+      },
+      "tags": [
+        "time",
+        "days",
+        "statement",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch003_001",
+      "english": "Today is Wednesday",
+      "kikuyu": "Ũmũthĩ nĩ wagatatũ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 025",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "time_expressions",
+      "context": "Stating what day of the week it is",
+      "cultural_notes": "Common daily expression using day names. Wagatatũ means 'the third day'",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "ũmũthĩ (today) + nĩ (is) + day_name"
+      },
+      "tags": [
+        "time",
+        "days",
+        "week",
+        "statement",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch003_002",
+      "english": "Write down there (in the comments) and state what your words mean",
+      "kikuyu": "Andĩka hau thĩ na uuge ũrĩa ciugo ciaku citaũragwo",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 028",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "instructions",
+      "context": "Educational instruction encouraging learner participation",
+      "cultural_notes": "Common phrase used by teachers to encourage student engagement and writing practice",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "imperative_commands"
+      },
+      "tags": [
+        "instruction",
+        "education",
+        "writing",
+        "practice",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch003_003",
+      "english": "Wash your hands (6-step instructions)",
+      "kikuyu": "Withambe moko",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 031",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "health_hygiene",
+      "context": "Complete hand washing procedure with detailed steps",
+      "cultural_notes": "Health education content, especially relevant during public health campaigns. Uses imperative verb forms",
+      "examples": [
+        {
+          "english": "1. Wet your hands",
+          "kikuyu": "Wĩtĩrĩrie maĩ",
+          "context": "step 1"
+        },
+        {
+          "english": "2. Apply soap",
+          "kikuyu": "Wĩhake thabuni",
+          "context": "step 2"
+        },
+        {
+          "english": "3. Wash your hands for 20 seconds",
+          "kikuyu": "Wĩthambe moko thekondi mĩrongo ĩrĩ",
+          "context": "step 3"
+        },
+        {
+          "english": "4. Rinse",
+          "kikuyu": "Wĩkamũre",
+          "context": "step 4"
+        },
+        {
+          "english": "5. Dry with a clean towel",
+          "kikuyu": "Wĩhuure na ngacibũ ya karatathĩ",
+          "context": "step 5"
+        },
+        {
+          "english": "6. Use the paper towel to turn off the tap",
+          "kikuyu": "Hũthĩra ngacibũ ya karatathĩ kũhĩnga mũberethi",
+          "context": "step 6"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "verb_forms": "imperative (wĩ- reflexive prefix)",
+        "notes": "Uses reflexive verbs (wĩ-) for personal hygiene actions"
+      },
+      "tags": [
+        "health",
+        "hygiene",
+        "instructions",
+        "procedures",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch004_001",
+      "english": "one bigish big house",
+      "kikuyu": "kĩnyũmba kĩmwe kinene",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 038",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "descriptions",
+      "context": "Demonstrating size adjective with noun class agreement",
+      "cultural_notes": "Shows diminutive kĩ- class usage and adjective agreement pattern",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "noun_class": "kĩ- (class 4 diminutive)",
+        "structure": "noun + number + adjective"
+      },
+      "tags": [
+        "phrases",
+        "descriptions",
+        "size",
+        "adjectives",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.4,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch004_002",
+      "english": "greetings and welcome phrases",
+      "kikuyu": "ũhoro na kũnyita ũgeni",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 042",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "greetings",
+      "context": "Essential greeting exchanges and welcome expressions",
+      "cultural_notes": "Fundamental phrases for social interaction and hospitality",
+      "examples": [
+        {
+          "english": "Are you well? (plural)",
+          "kikuyu": "mũrĩega?",
+          "context": "greeting question"
+        },
+        {
+          "english": "We are well (plural response)",
+          "kikuyu": "tũrĩega",
+          "context": "greeting response"
+        },
+        {
+          "english": "Are you well? (singular)",
+          "kikuyu": "wĩmwega?",
+          "context": "greeting question"
+        },
+        {
+          "english": "I am well (singular response)",
+          "kikuyu": "ndĩmwega",
+          "context": "greeting response"
+        },
+        {
+          "english": "I welcome you (plural)",
+          "kikuyu": "nĩ ndamũnyita ũgeni",
+          "context": "formal welcome"
+        },
+        {
+          "english": "I welcome you (singular)",
+          "kikuyu": "nĩ ndakũnyita ũgeni",
+          "context": "formal welcome"
+        },
+        {
+          "english": "We will start at the beginning",
+          "kikuyu": "tũkwambĩrĩria kĩambĩrĩria",
+          "context": "educational phrase"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "function": "social_interaction"
+      },
+      "tags": [
+        "greetings",
+        "welcome",
+        "hospitality",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch004_003",
+      "english": "you alone",
+      "kikuyu": "wĩ wika, wĩ nyika",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 044",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "expressions",
+      "context": "Idiomatic expression emphasizing singularity or solitude",
+      "cultural_notes": "Two variant forms of the same meaning, showing linguistic flexibility",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "variants": "wĩ wika / wĩ nyika"
+      },
+      "tags": [
+        "phrases",
+        "idioms",
+        "expressions",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.3,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch005_001",
+      "english": "this month let's get to know crawling insects",
+      "kikuyu": "mweri ũyũ nĩ tũmenye tũnyamũ tũrĩa tũtambaga",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 054",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "educational",
+      "context": "Thematic introduction for monthly study topic - insects",
+      "cultural_notes": "Educational phrase showing how thematic learning is structured - monthly themes for vocabulary building",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "mweri ũyũ (this month) + nĩ (is/let's) + tũmenye (we know) + topic",
+        "mood": "hortative (let's...)"
+      },
+      "tags": [
+        "phrases",
+        "education",
+        "learning",
+        "insects",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch006_001",
+      "english": "have you ever entered a timber house?",
+      "kikuyu": "nî ûrî waingîra nyûmba ya mbaû?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 056",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "questions_experience",
+      "context": "Question about past experience with specific house type",
+      "cultural_notes": "Pattern for asking about past experiences",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "pattern": "nî ûrî wa- + verb + object",
+        "question_type": "past_experience"
+      },
+      "tags": [
+        "phrases",
+        "questions",
+        "experience",
+        "housing",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch006_002",
+      "english": "have you ever slept in a house with a tiled roof?",
+      "kikuyu": "nî ûrî wakoma nyûmba îgîtîtwo na maturubarî?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 056",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "questions_experience",
+      "context": "Question about sleeping in specific house type",
+      "cultural_notes": "Shows verb 'koma' (to sleep) in past experience context",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "pattern": "nî ûrî wa- + koma + location",
+        "question_type": "past_experience"
+      },
+      "tags": [
+        "phrases",
+        "questions",
+        "experience",
+        "housing",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch006_003",
+      "english": "this timber house is raised like a granary",
+      "kikuyu": "nyũmba ĩno ya mbaũ yoetwo igũrũ ta ikũmbĩ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 057",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "descriptions",
+      "context": "Describing elevated house construction similar to traditional granaries",
+      "cultural_notes": "Compares modern raised houses to traditional grain storage structures",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "noun + description + ta (like) + comparison"
+      },
+      "tags": [
+        "phrases",
+        "descriptions",
+        "housing",
+        "comparisons",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch006_004",
+      "english": "have you ever seen a mud hut?",
+      "kikuyu": "nî ûrî wona nyûmba ya ndooro?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 059",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "questions_experience",
+      "context": "Question about experience with traditional housing",
+      "cultural_notes": "References traditional mud houses, important in Kikuyu cultural heritage",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "pattern": "nî ûrî wa- + ona (see) + object",
+        "question_type": "past_experience"
+      },
+      "tags": [
+        "phrases",
+        "questions",
+        "experience",
+        "traditional",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase-008-001",
+      "english": "My son has his spear in his stomach (Riddle: Bee)",
+      "kikuyu": "Mwanake wakwa arî itimû nda",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 080 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-002",
+      "english": "The goats have gone ahead leaving redness behind (Riddle: Dust)",
+      "kikuyu": "Mbûrî ciathîî mbere ciatiga gîtune thutha",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 080 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-003",
+      "english": "Your farm has been ploughed without your consent (Riddle: Flash flood)",
+      "kikuyu": "Warîmîrwo mûgûnda ûtatûmanîte",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 082 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-004",
+      "english": "You have walked with a person who does not ask to rest (Riddle: Shadow)",
+      "kikuyu": "Mwatheîi na mûndû ûtegûkwîra hurûka",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 082 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-005",
+      "english": "We pray to you to save us from animals called humans",
+      "kikuyu": "Twakûhoya ûtûhonokie harî nyamû cîîtagwo andû",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 081",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-009-001",
+      "english": "Where have you put it?",
+      "kikuyu": "Wamĩiga ha?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 091",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-009-002",
+      "english": "Who danced these dances, and how were they danced?",
+      "kikuyu": "Nũũ wainaga ndaci ici, na ciainagwo atia?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 093",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-010-001_01",
+      "kikuyu": "Rūci-inī",
+      "english": "morning",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_02",
+      "kikuyu": "Wīmwega rūci-inī?",
+      "english": "Are you well this morning?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_03",
+      "kikuyu": "Ndīmwega mūno",
+      "english": "I am very well",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_04",
+      "kikuyu": "Wathiī kū?",
+      "english": "Where are you going?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_05",
+      "kikuyu": "Ndathiī wīra",
+      "english": "I am going to work",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_06",
+      "kikuyu": "Ūrutaga wīra ūrīkū?",
+      "english": "Which work do you do?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-001",
+      "english": "Tell us the work you do",
+      "kikuyu": "Twīre wīra ūrīa ūrutaga",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 105",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T07:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-011-002_01",
+      "kikuyu": "Wîtagwo atĩa?",
+      "english": "What's your name?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_02",
+      "kikuyu": "Njitagwo [name]",
+      "english": "My name is...",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_03",
+      "kikuyu": "Wî mwega?",
+      "english": "How are you?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_04",
+      "kikuyu": "Ndî mwega mûno",
+      "english": "I'm very fine",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_05",
+      "kikuyu": "Eha [name]?",
+      "english": "Where is...?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_06",
+      "kikuyu": "Ûyû haha",
+      "english": "Here he/she is",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-015-001",
+      "english": "This is the city of Nairobi",
+      "kikuyu": "Ũyũ nĩ mũciĩ mũnene wa Nairobi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-002",
+      "english": "The big town of Nairobi",
+      "kikuyu": "Taũni nene ya Nairobi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-003",
+      "english": "Gaudencia is in Ol-jororok",
+      "kikuyu": "Gaũdencia e Ol-jororok",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-004",
+      "english": "Where are you?",
+      "kikuyu": "We wĩkũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-005",
+      "english": "How is your place?",
+      "kikuyu": "Kwanyu kũhana atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-006",
+      "english": "Is it cold or rainy?",
+      "kikuyu": "Kwĩna heho kana mbura?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-007",
+      "english": "Or is it sunny?",
+      "kikuyu": "Kana kwĩna riũwa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-008",
+      "english": "Our place is windy",
+      "kikuyu": "Gwitũ kũrĩ na rũhuho",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-009",
+      "english": "What time is it?",
+      "kikuyu": "Nĩ thaa cĩgana?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-010",
+      "english": "It is 8:30 (half past eight)",
+      "kikuyu": "Nĩ thaa igĩrĩ na nuthu",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-011",
+      "english": "It is 9:45 (quarter to 10)",
+      "kikuyu": "Nĩ thaa ĩthatũ itigarĩtie ndagĩka ikũmi na ithano",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-001",
+      "english": "This is father",
+      "kikuyu": "Ũyũ nĩ baba",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-002",
+      "english": "This other one is mother",
+      "kikuyu": "Ũyũ ũngĩ nĩ maitũ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-003",
+      "english": "We are standing with my sister",
+      "kikuyu": "Tũrũgamĩte na mwarĩ wa maitũ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-004",
+      "english": "The tall one is my uncle",
+      "kikuyu": "Ũcio mũraihu nĩ mama",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-005",
+      "english": "Father is taking photographs",
+      "kikuyu": "Baba arahũra mbica",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-006",
+      "english": "I am sick",
+      "kikuyu": "Ndĩ mũrwaru",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-007",
+      "english": "I'm not feeling well",
+      "kikuyu": "Ndiraiguia wega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-008",
+      "english": "Go to hospital",
+      "kikuyu": "Thĩĩ thibitarĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-009",
+      "english": "Where are you hurting?",
+      "kikuyu": "Ũraatũũrwo nĩ kũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-010",
+      "english": "I have a headache",
+      "kikuyu": "Ndiraatũũrwo nĩ mũtwee",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-011",
+      "english": "Do you have a stomachache?",
+      "kikuyu": "Nĩ ũraatũũrwo nĩ nda?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-012",
+      "english": "I also have a toothache",
+      "kikuyu": "O na igego nĩ rĩraatũũra",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-013",
+      "english": "Go see a dentist",
+      "kikuyu": "Thĩĩ wone ndagĩtarĩ wa magego",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-014",
+      "english": "Knock knock knock (knocking sound)",
+      "kikuyu": "Ko ko ko",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-015",
+      "english": "Who is it?",
+      "kikuyu": "Nũũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-016",
+      "english": "It is me",
+      "kikuyu": "Nĩ nĩĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-017",
+      "english": "Whose Njeri? / Who is your father?",
+      "kikuyu": "Njeri wa ũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-018",
+      "english": "You are a visitor",
+      "kikuyu": "Wee wĩ mũgeni",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-019",
+      "english": "Enter",
+      "kikuyu": "Ingĩra",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-020",
+      "english": "Take tea / Have tea",
+      "kikuyu": "Nyua cai",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-021",
+      "english": "Go in peace",
+      "kikuyu": "Thĩĩ na wega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-018-001",
+      "english": "Have a good weekend",
+      "kikuyu": "Korwoi na wikendi njega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 175",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-018-002_01",
+      "kikuyu": "Hĩ! Kaĩ kwĩna heho-ĩ!",
+      "english": "Lo! It is very cold!",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_02",
+      "kikuyu": "Kaĩ wĩ mũrũaru?",
+      "english": "Are you sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_03",
+      "kikuyu": "Wanjũrĩa ũguo nĩkĩ?",
+      "english": "Why do you ask me that?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_04",
+      "kikuyu": "Tondũ gũtirĩ na heho",
+      "english": "Because it is not cold",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_05",
+      "kikuyu": "We! Ta ĩkĩra burana",
+      "english": "You! Just put on a cardigan",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_06",
+      "kikuyu": "Kwĩna ũrugarĩ",
+      "english": "It is hot/warm",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_07",
+      "kikuyu": "Urenda kũrũarara?",
+      "english": "Do you want to fall sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_08",
+      "kikuyu": "Ngwĩhũmba burana na kabuti",
+      "english": "I will wear a cardigan and an overcoat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-019-002",
+      "english": "I am happy with this lesson",
+      "kikuyu": "Nī ndīrakena na gīthūmū gīkī",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 194",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-019-001_01",
+      "kikuyu": "Rũgama na mwena",
+      "english": "Stand on the side",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_02",
+      "kikuyu": "Gũrĩra mũgate na iria",
+      "english": "Buy me bread",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_03",
+      "kikuyu": "Aria na arata aku",
+      "english": "Speak to your friends",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_04",
+      "kikuyu": "Hinga mũrango tuthĩĩ",
+      "english": "Close the door and let us go",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_05",
+      "kikuyu": "Hingũra ibuku tuthoome",
+      "english": "Open the book we read",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-020-001",
+      "english": "Njeri daughter of Njoroge",
+      "kikuyu": "Njeri wa Njoroge",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 195",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-002",
+      "english": "I am off home / I'm leaving now",
+      "kikuyu": "Nĩĩ ndainuka",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 195",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-003",
+      "english": "This girl",
+      "kikuyu": "Mũirĩtu ũyũ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-004",
+      "english": "These girls",
+      "kikuyu": "Aĩrĩtu aya",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-005",
+      "english": "Who is this?",
+      "kikuyu": "Ũyũ nũũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-006",
+      "english": "Who are these?",
+      "kikuyu": "Aya nĩ a?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-007",
+      "english": "What is his/her name?",
+      "kikuyu": "Etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-008",
+      "english": "Do you speak Kikuyu?",
+      "kikuyu": "Nĩ waragia gĩkũyũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-009",
+      "english": "Speak to me / Talk with me",
+      "kikuyu": "Aria na nĩĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-010",
+      "english": "Let's meet",
+      "kikuyu": "Nĩĩtũcemanie",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-011",
+      "english": "Where do you want us to meet?",
+      "kikuyu": "Ũkwenda tũcemanie kũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-012",
+      "english": "Let us meet at a hotel",
+      "kikuyu": "Nĩ tũcemanie mũkawainĩ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-013",
+      "english": "Which hotel?",
+      "kikuyu": "Mũkawa ũrikũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-014",
+      "english": "I don't know it",
+      "kikuyu": "Ndiũĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-015",
+      "english": "Board a matatu to town",
+      "kikuyu": "Haica matatu ya taũnĩ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-016",
+      "english": "When you arrive call me by phone",
+      "kikuyu": "Wakinĩya ũhũrĩre thimũ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-017",
+      "english": "The town is large",
+      "kikuyu": "Taũnĩ nĩ nene",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-018",
+      "english": "Where do I disembark?",
+      "kikuyu": "Ngumĩra kũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-019",
+      "english": "Disembark at Posta / Post office",
+      "kikuyu": "Ũmĩra bothita",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-001",
+      "english": "What is your name?",
+      "kikuyu": "Wĩtagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-002",
+      "english": "Where do you stay?",
+      "kikuyu": "Ũĩkaraga kũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-003",
+      "english": "How old are you?",
+      "kikuyu": "Wĩ na mĩaka ĩĩgana?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-004",
+      "english": "What food do you like?",
+      "kikuyu": "Wendete irio irĩkũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-005",
+      "english": "What is the name of your school?",
+      "kikuyu": "Thukuru yanyu ĩtagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-006",
+      "english": "What is your friend's name?",
+      "kikuyu": "Mũrata waku etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-007",
+      "english": "What is your country called?",
+      "kikuyu": "Bũrũri wanyu wĩtagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-008",
+      "english": "Our country is called Kenya",
+      "kikuyu": "Bũrũri witũ wĩtagwo Kenya",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-009",
+      "english": "What is your language called?",
+      "kikuyu": "Rũthiomi rwaku rwĩtagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-010",
+      "english": "My language is called Gikuyu",
+      "kikuyu": "Rũthiomi rwakwa rwĩtagwo Gĩkũyũ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 205",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-011",
+      "english": "Wet your hands",
+      "kikuyu": "Wĩtĩrĩrie mai",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-012",
+      "english": "Apply soap",
+      "kikuyu": "Wĩhake thabuni",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-013",
+      "english": "Wash your hands for 20 seconds",
+      "kikuyu": "Wĩthambe moko thekondi mirongo îrî",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-014",
+      "english": "Rinse",
+      "kikuyu": "Wĩkamũre",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-015",
+      "english": "Dry with a clean paper towel",
+      "kikuyu": "Wĩhuure na ngacibũ ya karatathi",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-016",
+      "english": "Use the paper towel to turn off the tap",
+      "kikuyu": "Hũthĩra ngacibũ ya karatathi kũhinga mũberethi",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 208",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-017",
+      "english": "You, come here",
+      "kikuyu": "Wee, ũka haha",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-018",
+      "english": "Should I come? / I come?",
+      "kikuyu": "Njũke?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-019",
+      "english": "My name is Mwangi",
+      "kikuyu": "Njĩtagwo Mwangi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-020",
+      "english": "Where is your home?",
+      "kikuyu": "Kwanyu nĩ kũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-021",
+      "english": "Our home is in Mũrang'a",
+      "kikuyu": "Gwitũ nĩ Mũrang'a",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-022",
+      "english": "Your place is called Mũrang'a?",
+      "kikuyu": "Kwanyu gwĩtagwo Mũrang'a?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-023",
+      "english": "Do you go to school?",
+      "kikuyu": "Nĩ ũthiaga thukuru?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-024",
+      "english": "Yes I go to school",
+      "kikuyu": "Ĩĩ nĩ thiaga thukuru",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-025",
+      "english": "It is called Mũgumo-inĩ",
+      "kikuyu": "Ĩtagwo Mũgumo-inĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-021-026",
+      "english": "Our teacher's name is Kariuki",
+      "kikuyu": "Mwarimũ witũ etagwo Kariuki",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 212",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-001",
+      "english": "Are you fine Karanja?",
+      "kikuyu": "Wĩmwe ga Karanja",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-002",
+      "english": "I am fine Njeri",
+      "kikuyu": "Nđĩmwe ga Njeri",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-003",
+      "english": "How are you Mwangi / Your news Mwangi",
+      "kikuyu": "Ũhoro waku Mwangi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-004",
+      "english": "It is very good",
+      "kikuyu": "Nĩ mwega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-005",
+      "english": "Greetings to you (singular)",
+      "kikuyu": "Nĩ nđakũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-006",
+      "english": "I have received greetings",
+      "kikuyu": "Nĩ nđageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-007",
+      "english": "Greetings you all",
+      "kikuyu": "Nĩ nđamũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-008",
+      "english": "We have received greetings",
+      "kikuyu": "Nĩ twageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-009",
+      "english": "Are you all fine?",
+      "kikuyu": "Mũrĩega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-010",
+      "english": "Yes, we are very fine",
+      "kikuyu": "Ĩĩ tũrĩega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-011",
+      "english": "To be angry, making sounds with mouth (when angry)",
+      "kikuyu": "Kũringa kanua",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-012",
+      "english": "To mumble",
+      "kikuyu": "Kũbogotha",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-013",
+      "english": "To speak with an accent",
+      "kikuyu": "Gũthĩoma",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-014",
+      "english": "To groan",
+      "kikuyu": "Kũhaya",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-015",
+      "english": "To snort",
+      "kikuyu": "Gũkorora",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-016",
+      "english": "To sneeze",
+      "kikuyu": "Gũathĩmũra",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-017",
+      "english": "Fast sounds made by someone crying",
+      "kikuyu": "Kũnũhanũha",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-018",
+      "english": "To have a sad posture (e.g. when mourning)",
+      "kikuyu": "Gũĩthĩkĩra",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-023-001_01",
+      "kikuyu": "Njĩĩra thogora wa cai",
+      "english": "tell me the price of tea",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_02",
+      "kikuyu": "Wendagia atĩa?",
+      "english": "how much do you sell?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_03",
+      "kikuyu": "Nĩ ũrendia goro",
+      "english": "you are selling expensively",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_04",
+      "kikuyu": "Nyenderia thubu",
+      "english": "sell to me soup",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_05",
+      "kikuyu": "Ngwĩnderie maĩ ma macungwa?",
+      "english": "may I sell to you orange juice?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_06",
+      "kikuyu": "Iria igagatu rĩna goro",
+      "english": "sour milk is expensive",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_09",
+      "kikuyu": "Thota nĩ ciringi mĩrongo ĩtatũ",
+      "english": "soda is 30 shillings",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_10",
+      "kikuyu": "Tĩ gĩkombe kĩa ũcũrũ?",
+      "english": "what about a cup of porridge?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-002_01",
+      "kikuyu": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe",
+      "english": "will you buy chicken? → buy chicken so we eat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_02",
+      "kikuyu": "Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe",
+      "english": "will you shut that door? → close all doors",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_03",
+      "kikuyu": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "english": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_04",
+      "kikuyu": "you will manage)",
+      "english": "you will manage)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_05",
+      "kikuyu": "Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha",
+      "english": "will you put money in bank? → put those eggs here",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_06",
+      "kikuyu": "Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya",
+      "english": "will you hit the ball? → hit the ball hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-001_07",
+      "kikuyu": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)",
+      "english": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-023-001_08",
+      "kikuyu": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)",
+      "english": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-024-001",
+      "english": "Are you fine Karanja?",
+      "kikuyu": "Wĩmwega Karanja",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-002",
+      "english": "I am fine Njeri",
+      "kikuyu": "Ndĩmwega Njeri",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-003",
+      "english": "How are you Mwangi / Your news Mwangi",
+      "kikuyu": "Ũhoro waku Mwangi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-004",
+      "english": "It is very good",
+      "kikuyu": "Nĩ mwega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-005",
+      "english": "Greetings to you (singular) / I greet you",
+      "kikuyu": "Nĩ ndakũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-006",
+      "english": "I have received greetings",
+      "kikuyu": "Nĩ ndageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-007",
+      "english": "Greetings you all / I greet you all",
+      "kikuyu": "Nĩ ndamũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-008",
+      "english": "We have received greetings",
+      "kikuyu": "Nĩ twageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-009",
+      "english": "Are you all fine?",
+      "kikuyu": "Mũrĩega?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-010",
+      "english": "Yes, we are very fine",
+      "kikuyu": "Tĩ tũrĩega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-001",
+      "english": "What is the name of your teacher?",
+      "kikuyu": "Mwarimũ waku etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-002",
+      "english": "Do you like reading?",
+      "kikuyu": "Nĩ wendete gũthooma?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-003",
+      "english": "Tell me the name of one book",
+      "kikuyu": "Njĩĩra rĩtwa rĩa ibuku rĩmwe",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-004",
+      "english": "Do you play games?",
+      "kikuyu": "Nĩ ũthakaga mĩthako?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-005",
+      "english": "Which game do you like?",
+      "kikuyu": "Wendete mĩthako ũrĩkũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-006",
+      "english": "What is your brother's name?",
+      "kikuyu": "Mũrũ wa nyũkwa etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-007",
+      "english": "What is your sister's name?",
+      "kikuyu": "Mwarĩ wa nyũkwa etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-008",
+      "english": "Where are you going?",
+      "kikuyu": "Wathĩĩ kũ mũthĩĩ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-009",
+      "english": "I am going to Kariobangi",
+      "kikuyu": "Ndathĩĩ Karĩũbang'i",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-010",
+      "english": "Take that vehicle",
+      "kikuyu": "Haica ngarĩ ĩrĩa",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-011",
+      "english": "This one goes to Mathare",
+      "kikuyu": "Ĩno nĩ ya Mathare",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-012",
+      "english": "Thanks",
+      "kikuyu": "Nĩ ngatho",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-013",
+      "english": "Is this one to Kariobangi?",
+      "kikuyu": "Ĩno nĩ ya Karĩũbang'i?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-014",
+      "english": "Yes it is, get in quickly mother",
+      "kikuyu": "Ĩĩ nĩ yo ingĩra naihenya, mĩtũkĩ mĩtũkĩ maitũ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-015",
+      "english": "Hold my hand so I don't fall",
+      "kikuyu": "Nyita guoko ndikagwe",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-016",
+      "english": "Sit on this seat and bring the money",
+      "kikuyu": "Ĩkarĩra gĩtĩ gĩkĩ na ũrehe mbeca",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-017",
+      "english": "How much?",
+      "kikuyu": "Nĩ cigana?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-018",
+      "english": "Fifty shillings",
+      "kikuyu": "Ciringi mĩrongo ĩtano",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-019",
+      "english": "My! How expensive?",
+      "kikuyu": "Hĩ! Karĩ goro atĩa?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-020",
+      "english": "It's not expensive mum, that's what we charge",
+      "kikuyu": "Tĩ goro maitũ nĩguo tũrĩhagia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-021",
+      "english": "Take this 100 shillings and give back 50",
+      "kikuyu": "Ke igana rĩmwe ũnjokerie mĩrongo ĩtano",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-001",
+      "english": "Sit down!",
+      "kikuyu": "Ĩkaara thĩ!",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-002",
+      "english": "Come quickly!",
+      "kikuyu": "Ũka naĩhenya!",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-003",
+      "english": "Eat at the table",
+      "kikuyu": "Rĩĩra methaini",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-004",
+      "english": "Close the door",
+      "kikuyu": "Hinga mũrango",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-005",
+      "english": "Open the window (for someone)",
+      "kikuyu": "Hingũrĩra ndĩrica",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-006",
+      "english": "Write that news/matter",
+      "kikuyu": "Andĩka ũhoro ũcio",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-007",
+      "english": "Return that chair",
+      "kikuyu": "Cookia gĩtĩ kĩu",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-008",
+      "english": "Go to the cupboard",
+      "kikuyu": "Thĩĩ kabati",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-009",
+      "english": "Remove that chair",
+      "kikuyu": "Ruta gĩtĩ kĩu",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-010",
+      "english": "Good greetings! / Hello!",
+      "kikuyu": "Ngeithi njega!",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 259",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-011",
+      "english": "Are you fine Karanja?",
+      "kikuyu": "Wĩmwega Karanja",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-012",
+      "english": "I am fine Njeri",
+      "kikuyu": "Ndimwega Njerĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-013",
+      "english": "How are you Mwangi? (lit. your news)",
+      "kikuyu": "Ũhoro waku Mwangĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-014",
+      "english": "It is very good",
+      "kikuyu": "Nĩ mwega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-015",
+      "english": "Greetings to you (singular, formal)",
+      "kikuyu": "Nĩĩ ndakũgeĩthia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-016",
+      "english": "Greetings to you all (plural, formal)",
+      "kikuyu": "Nĩĩ ndamũgeĩthia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-017",
+      "english": "Are you all fine?",
+      "kikuyu": "Mũrĩega?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-018",
+      "english": "Yes, we are very fine",
+      "kikuyu": "Ĩĩ tũrĩega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-019",
+      "english": "Where are you going traveller?",
+      "kikuyu": "Wathĩĩ kũ mũthĩĩ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-020",
+      "english": "I am going to Kariobangi",
+      "kikuyu": "Ndathĩĩ Karĩũbang'ĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-021",
+      "english": "Take that vehicle. How much?",
+      "kikuyu": "Haica ngarĩ ĩrĩa. Nĩ cigana?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-022",
+      "english": "Fifty shillings. Thanks",
+      "kikuyu": "Ciringi mĩrongo ĩtano. Nĩ ngatho",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-023",
+      "english": "Do you go to school?",
+      "kikuyu": "Nĩ ũthĩĩaga thukuru?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-024",
+      "english": "What is the name of your school?",
+      "kikuyu": "Thukuru yanyu ĩtagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-025",
+      "english": "We are eating rice and meat now",
+      "kikuyu": "Tũrarĩa mũcère na nyama rĩu",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 262",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-026",
+      "english": "Come here",
+      "kikuyu": "Ũka haha",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 263",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-027",
+      "english": "Cry for water",
+      "kikuyu": "Rĩra maĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 263",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-028",
+      "english": "Speak with the young man",
+      "kikuyu": "Aria na mwanake",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 263",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-029",
+      "english": "The girl is doing work",
+      "kikuyu": "Mũirĩtu aruta wĩra",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 263",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-026-030",
+      "english": "The man is eating food",
+      "kikuyu": "Mũthũuri arĩa irio",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 263",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-027-001_01",
+      "kikuyu": "Mweri mwerũ wa mũgwanja - a new seventh month",
+      "english": "July",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_02",
+      "kikuyu": "Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri",
+      "english": "moon/month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_03",
+      "kikuyu": "Mweri mwerũ",
+      "english": "new month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_04",
+      "kikuyu": "Rathimwo",
+      "english": "be blessed",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-010-001_01",
+      "kikuyu": "Rūci-inī",
+      "english": "morning",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_02",
+      "kikuyu": "Wīmwega rūci-inī?",
+      "english": "Are you well this morning?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_03",
+      "kikuyu": "Ndīmwega mūno",
+      "english": "I am very well",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_04",
+      "kikuyu": "Wathiī kū?",
+      "english": "Where are you going?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_05",
+      "kikuyu": "Ndathiī wīra",
+      "english": "I am going to work",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_06",
+      "kikuyu": "Ūrutaga wīra ūrīkū?",
+      "english": "Which work do you do?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_01",
+      "kikuyu": "Wîtagwo atĩa?",
+      "english": "What's your name?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_02",
+      "kikuyu": "Njitagwo [name]",
+      "english": "My name is...",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_03",
+      "kikuyu": "Wî mwega?",
+      "english": "How are you?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_04",
+      "kikuyu": "Ndî mwega mûno",
+      "english": "I'm very fine",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_05",
+      "kikuyu": "Eha [name]?",
+      "english": "Where is...?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_06",
+      "kikuyu": "Ûyû haha",
+      "english": "Here he/she is",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-018-002_01",
+      "kikuyu": "Hĩ! Kaĩ kwĩna heho-ĩ!",
+      "english": "Lo! It is very cold!",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_02",
+      "kikuyu": "Kaĩ wĩ mũrũaru?",
+      "english": "Are you sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_03",
+      "kikuyu": "Wanjũrĩa ũguo nĩkĩ?",
+      "english": "Why do you ask me that?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_04",
+      "kikuyu": "Tondũ gũtirĩ na heho",
+      "english": "Because it is not cold",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_05",
+      "kikuyu": "We! Ta ĩkĩra burana",
+      "english": "You! Just put on a cardigan",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_06",
+      "kikuyu": "Kwĩna ũrugarĩ",
+      "english": "It is hot/warm",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_07",
+      "kikuyu": "Urenda kũrũarara?",
+      "english": "Do you want to fall sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_08",
+      "kikuyu": "Ngwĩhũmba burana na kabuti",
+      "english": "I will wear a cardigan and an overcoat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-019-001_01",
+      "kikuyu": "Rũgama na mwena",
+      "english": "Stand on the side",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_02",
+      "kikuyu": "Gũrĩra mũgate na iria",
+      "english": "Buy me bread",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_03",
+      "kikuyu": "Aria na arata aku",
+      "english": "Speak to your friends",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_04",
+      "kikuyu": "Hinga mũrango tuthĩĩ",
+      "english": "Close the door and let us go",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_05",
+      "kikuyu": "Hingũra ibuku tuthoome",
+      "english": "Open the book we read",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-023-001_01",
+      "kikuyu": "Njĩĩra thogora wa cai",
+      "english": "tell me the price of tea",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_02",
+      "kikuyu": "Wendagia atĩa?",
+      "english": "how much do you sell?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_03",
+      "kikuyu": "Nĩ ũrendia goro",
+      "english": "you are selling expensively",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_04",
+      "kikuyu": "Nyenderia thubu",
+      "english": "sell to me soup",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_05",
+      "kikuyu": "Ngwĩnderie maĩ ma macungwa?",
+      "english": "may I sell to you orange juice?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_06",
+      "kikuyu": "Iria igagatu rĩna goro",
+      "english": "sour milk is expensive",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_09",
+      "kikuyu": "Thota nĩ ciringi mĩrongo ĩtatũ",
+      "english": "soda is 30 shillings",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_10",
+      "kikuyu": "Tĩ gĩkombe kĩa ũcũrũ?",
+      "english": "what about a cup of porridge?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-002_01",
+      "kikuyu": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe",
+      "english": "will you buy chicken? → buy chicken so we eat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_02",
+      "kikuyu": "Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe",
+      "english": "will you shut that door? → close all doors",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_03",
+      "kikuyu": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "english": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_04",
+      "kikuyu": "you will manage)",
+      "english": "you will manage)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_05",
+      "kikuyu": "Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha",
+      "english": "will you put money in bank? → put those eggs here",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_06",
+      "kikuyu": "Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya",
+      "english": "will you hit the ball? → hit the ball hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-027-001_01",
+      "kikuyu": "Mweri mwerũ wa mũgwanja - a new seventh month",
+      "english": "July",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_02",
+      "kikuyu": "Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri",
+      "english": "moon/month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_03",
+      "kikuyu": "Mweri mwerũ",
+      "english": "new month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_04",
+      "kikuyu": "Rathimwo",
+      "english": "be blessed",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-010-001_01",
+      "kikuyu": "Rūci-inī (morning)",
+      "english": "Rūci-inī (morning)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_02",
+      "kikuyu": "Wīmwega rūci-inī? (Are you well this morning?)",
+      "english": "Wīmwega rūci-inī? (Are you well this morning?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_03",
+      "kikuyu": "Ndīmwega mūno (I am very well)",
+      "english": "Ndīmwega mūno (I am very well)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_04",
+      "kikuyu": "Wathiī kū? (Where are you going?)",
+      "english": "Wathiī kū? (Where are you going?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_05",
+      "kikuyu": "Ndathiī wīra (I am going to work)",
+      "english": "Ndathiī wīra (I am going to work)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_06",
+      "kikuyu": "Ūrutaga wīra ūrīkū? (Which work do you do?)",
+      "english": "Ūrutaga wīra ūrīkū? (Which work do you do?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_01",
+      "kikuyu": "Wîtagwo atĩa? (What's your name?)",
+      "english": "Wîtagwo atĩa? (What's your name?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_02",
+      "kikuyu": ", Njitagwo [name] (My name is...)",
+      "english": ", Njitagwo [name] (My name is...)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_03",
+      "kikuyu": ", Wî mwega? (How are you?)",
+      "english": ", Wî mwega? (How are you?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_04",
+      "kikuyu": ", Ndî mwega mûno (I'm very fine)",
+      "english": ", Ndî mwega mûno (I'm very fine)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_05",
+      "kikuyu": ", Eha [name]? (Where is...?)",
+      "english": ", Eha [name]? (Where is...?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_06",
+      "kikuyu": ", Ûyû haha (Here he/she is)",
+      "english": ", Ûyû haha (Here he/she is)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-018-002_01",
+      "kikuyu": "Hĩ! Kaĩ kwĩna heho-ĩ! (Lo! It is very cold!)",
+      "english": "Hĩ! Kaĩ kwĩna heho-ĩ! (Lo! It is very cold!)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_02",
+      "kikuyu": ", Kaĩ wĩ mũrũaru? (Are you sick?)",
+      "english": ", Kaĩ wĩ mũrũaru? (Are you sick?)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_03",
+      "kikuyu": ", Wanjũrĩa ũguo nĩkĩ? (Why do you ask me that?)",
+      "english": ", Wanjũrĩa ũguo nĩkĩ? (Why do you ask me that?)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_04",
+      "kikuyu": ", Tondũ gũtirĩ na heho (Because it is not cold)",
+      "english": ", Tondũ gũtirĩ na heho (Because it is not cold)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_05",
+      "kikuyu": ", We! Ta ĩkĩra burana (You! Just put on a cardigan)",
+      "english": ", We! Ta ĩkĩra burana (You! Just put on a cardigan)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_06",
+      "kikuyu": ", Kwĩna ũrugarĩ (It is hot/warm)",
+      "english": ", Kwĩna ũrugarĩ (It is hot/warm)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_07",
+      "kikuyu": ", Urenda kũrũarara? (Do you want to fall sick?)",
+      "english": ", Urenda kũrũarara? (Do you want to fall sick?)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_08",
+      "kikuyu": ", Ngwĩhũmba burana na kabuti (I will wear a cardigan and an overcoat)",
+      "english": ", Ngwĩhũmba burana na kabuti (I will wear a cardigan and an overcoat)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-019-001_01",
+      "kikuyu": "Command Sentences - Practice - 1/5",
+      "english": "Rũgama na mwena (Stand on the side)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-019-001_02",
+      "kikuyu": "Command Sentences - Practice - 2/5",
+      "english": "Gũrĩra mũgate na iria (Buy me bread)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-019-001_03",
+      "kikuyu": "Command Sentences - Practice - 3/5",
+      "english": "Aria na arata aku (Speak to your friends)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-019-001_04",
+      "kikuyu": "Command Sentences - Practice - 4/5",
+      "english": "Hinga mũrango tuthĩĩ (Close the door and let us go)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-019-001_05",
+      "kikuyu": "Command Sentences - Practice - 5/5",
+      "english": "Hingũra ibuku tuthoome (Open the book we read)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-023-001_01",
+      "kikuyu": "Njĩĩra thogora wa cai (tell me the price of tea)",
+      "english": "Njĩĩra thogora wa cai (tell me the price of tea)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_02",
+      "kikuyu": ", Wendagia atĩa? (how much do you sell?)",
+      "english": ", Wendagia atĩa? (how much do you sell?)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_03",
+      "kikuyu": ", Nĩ ũrendia goro (you are selling expensively)",
+      "english": ", Nĩ ũrendia goro (you are selling expensively)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_04",
+      "kikuyu": ", Nyenderia thubu (sell to me soup)",
+      "english": ", Nyenderia thubu (sell to me soup)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_05",
+      "kikuyu": ", Ngwĩnderie maĩ ma macungwa? (may I sell to you orange juice?)",
+      "english": ", Ngwĩnderie maĩ ma macungwa? (may I sell to you orange juice?)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_06",
+      "kikuyu": ", Iria igagatu rĩna goro (sour milk is expensive)",
+      "english": ", Iria igagatu rĩna goro (sour milk is expensive)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_07",
+      "kikuyu": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)",
+      "english": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-023-001_08",
+      "kikuyu": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)",
+      "english": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_09",
+      "kikuyu": ", Tĩ gĩkombe kĩa ũcũrũ? (what about a cup of porridge?)",
+      "english": ", Tĩ gĩkombe kĩa ũcũrũ? (what about a cup of porridge?)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-002_01",
+      "kikuyu": "Asking & Giving Instructions (10 Examples) - 1/6",
+      "english": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe (will you buy chicken? → buy chicken so we eat)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-023-002_02",
+      "kikuyu": "Asking & Giving Instructions (10 Examples) - 2/6",
+      "english": "Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe (will you shut that door? → close all doors)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-023-002_03",
+      "kikuyu": "Asking & Giving Instructions (10 Examples) - 3/6",
+      "english": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-023-002_04",
+      "kikuyu": "Asking & Giving Instructions (10 Examples) - 4/6",
+      "english": "you will manage)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-023-002_05",
+      "kikuyu": "Asking & Giving Instructions (10 Examples) - 5/6",
+      "english": "Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha (will you put money in bank? → put those eggs here)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-023-002_06",
+      "kikuyu": "Asking & Giving Instructions (10 Examples) - 6/6",
+      "english": "Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya (will you hit the ball? → hit the ball hard)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-027-001_01",
+      "kikuyu": "New Month Blessing - July - 1/4",
+      "english": "Mweri mwerũ wa mũgwanja - a new seventh month (July)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-027-001_02",
+      "kikuyu": "New Month Blessing - July - 2/4",
+      "english": "Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri (moon/month)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-027-001_03",
+      "kikuyu": "New Month Blessing - July - 3/4",
+      "english": "Mweri mwerũ (new month)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    },
+    {
+      "id": "phrase-027-001_04",
+      "kikuyu": "New Month Blessing - July - 4/4",
+      "english": "Rathimwo (be blessed)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.128180+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "039.txt"
+    ],
+    "total_entries": 1,
+    "description": "Conjugation patterns from Easy Kikuyu - Batch 004 (1st person present progressive)",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_conj_batch004_001",
+      "english": "I am/We are (present progressive action)",
+      "kikuyu": "Ndĩra-/Tũra- (present action markers)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 039",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "present_progressive",
+      "context": "Complete paradigm of first person singular and plural present progressive tense",
+      "cultural_notes": "Week 1-3 lesson material. Foundation for understanding Kikuyu verb conjugation system",
+      "examples": [
+        {
+          "english": "I (singular)",
+          "kikuyu": "nĩĩ",
+          "context": "1st person singular pronoun"
+        },
+        {
+          "english": "I am coming",
+          "kikuyu": "nĩ ndĩroka",
+          "context": "singular"
+        },
+        {
+          "english": "I am crying",
+          "kikuyu": "nĩ ndĩrarĩra",
+          "context": "singular"
+        },
+        {
+          "english": "I am eating",
+          "kikuyu": "nĩ ndĩrarĩa",
+          "context": "singular"
+        },
+        {
+          "english": "I am speaking",
+          "kikuyu": "nĩ ndĩrararia",
+          "context": "singular"
+        },
+        {
+          "english": "I am happy",
+          "kikuyu": "nĩ ndĩrakena",
+          "context": "singular"
+        },
+        {
+          "english": "I am laughing",
+          "kikuyu": "nĩ ndĩratheka",
+          "context": "singular"
+        },
+        {
+          "english": "I am going",
+          "kikuyu": "nĩ ndĩrathĩĩ",
+          "context": "singular"
+        },
+        {
+          "english": "I am reading",
+          "kikuyu": "nĩ ndĩrathooma",
+          "context": "singular"
+        },
+        {
+          "english": "I am writing",
+          "kikuyu": "nĩ ndĩrandĩka",
+          "context": "singular"
+        },
+        {
+          "english": "We (plural)",
+          "kikuyu": "ithuĩ",
+          "context": "1st person plural pronoun"
+        },
+        {
+          "english": "We are coming",
+          "kikuyu": "nĩ tũroka",
+          "context": "plural"
+        },
+        {
+          "english": "We are crying",
+          "kikuyu": "nĩ tũrarĩra",
+          "context": "plural"
+        },
+        {
+          "english": "We are eating",
+          "kikuyu": "nĩ tũrarĩa",
+          "context": "plural"
+        },
+        {
+          "english": "We are speaking",
+          "kikuyu": "nĩ tũrararia",
+          "context": "plural"
+        },
+        {
+          "english": "We are happy",
+          "kikuyu": "nĩ tũrakena",
+          "context": "plural"
+        },
+        {
+          "english": "We are laughing",
+          "kikuyu": "nĩ tũratheka",
+          "context": "plural"
+        },
+        {
+          "english": "We are going",
+          "kikuyu": "nĩ tũrathĩĩ",
+          "context": "plural"
+        },
+        {
+          "english": "We are reading",
+          "kikuyu": "nĩ tũrathooma",
+          "context": "plural"
+        },
+        {
+          "english": "We are writing",
+          "kikuyu": "nĩ tũrandĩka",
+          "context": "plural"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "present_progressive",
+        "subject_markers": "ndĩra- (1sg), tũra- (1pl)",
+        "pattern": "nĩ + subject_marker + verb_stem"
+      },
+      "tags": [
+        "conjugations",
+        "present progressive",
+        "first person",
+        "verbs",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

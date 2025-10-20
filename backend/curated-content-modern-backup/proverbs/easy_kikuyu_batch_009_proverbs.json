@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.417272+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "085.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_009_proverbs.json",
+    "last_updated": "2025-01-08T06:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "prov-009-001",
+      "english": "God continues to love him/her",
+      "kikuyu": "O akiendagwo ni Ngai",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 085",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "prov-009-002",
+      "english": "Every person makes up his own bed",
+      "kikuyu": "O mũndũ athondekaga ũrĩrĩ wake",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 085",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

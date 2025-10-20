@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.320337+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "080.txt",
+      "081.txt",
+      "082.txt"
+    ],
+    "total_entries": 5,
+    "description": "Converted from easy_kikuyu_batch_008_phrases.json",
+    "last_updated": "2025-01-08T05:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase-008-001",
+      "english": "My son has his spear in his stomach (Riddle: Bee)",
+      "kikuyu": "Mwanake wakwa arî itimû nda",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 080 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-002",
+      "english": "The goats have gone ahead leaving redness behind (Riddle: Dust)",
+      "kikuyu": "Mbûrî ciathîî mbere ciatiga gîtune thutha",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 080 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-003",
+      "english": "Your farm has been ploughed without your consent (Riddle: Flash flood)",
+      "kikuyu": "Warîmîrwo mûgûnda ûtatûmanîte",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 082 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-004",
+      "english": "You have walked with a person who does not ask to rest (Riddle: Shadow)",
+      "kikuyu": "Mwatheîi na mûndû ûtegûkwîra hurûka",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 082 - Std. IV Reader 1935",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-008-005",
+      "english": "We pray to you to save us from animals called humans",
+      "kikuyu": "Twakûhoya ûtûhonokie harî nyamû cîîtagwo andû",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 081",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

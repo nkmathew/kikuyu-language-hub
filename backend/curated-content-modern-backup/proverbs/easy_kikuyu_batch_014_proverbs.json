@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.419932+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "143.txt",
+      "144.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_014_proverbs.json",
+    "last_updated": "2025-01-08T09:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "proverb-014-001",
+      "english": "Too many buffaloes do not have meat (Deal with one thing at a time)",
+      "kikuyu": "Mbogo Nyingĩ itirĩ Nyama",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 143",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-014-002",
+      "english": "Paying rent on time is not a good reason to increase the amount of rent",
+      "kikuyu": "Kūrīha nyūmba ūtegūcererwo tigītūmikīega gīa kuongerera nyūmba",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 144",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

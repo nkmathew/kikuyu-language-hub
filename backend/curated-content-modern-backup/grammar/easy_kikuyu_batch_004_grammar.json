@@ -1,0 +1,102 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.229552+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "036.txt"
+    ],
+    "total_entries": 1,
+    "description": "Grammar rules from Easy Kikuyu - Batch 004 (adjective structure and roots)",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_grammar_batch004_001",
+      "english": "Kikuyu adjective structure - adjectives follow nouns",
+      "kikuyu": "mathimo marumagĩrĩra marĩĩtwa",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 036",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "word_order",
+      "context": "In English 'a good boy', in Kikuyu 'boy good' - adjectives come after the noun they modify",
+      "cultural_notes": "Fundamental difference from English word order. Complete list of common adjective roots provided",
+      "examples": [
+        {
+          "english": "adjective root: good",
+          "kikuyu": "__ega",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: bad",
+          "kikuyu": "__ũrũ",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: big",
+          "kikuyu": "__nene",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: small",
+          "kikuyu": "__nini",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: tall/long",
+          "kikuyu": "__raya",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: white (light colour)",
+          "kikuyu": "__erũ",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: black (dark colour)",
+          "kikuyu": "__irũ",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: bitter",
+          "kikuyu": "__rũrũ",
+          "context": "R dropped with 'nd' prefix: ndongu ndũrũ (bitter sodom apple)"
+        },
+        {
+          "english": "this good girl is yours",
+          "kikuyu": "mũĩrĩtu ũyũ mwega nĩ wanyu",
+          "context": "noun + adjective structure"
+        },
+        {
+          "english": "these good girls are theirs",
+          "kikuyu": "aĩrĩtu aya ega nĩ ao",
+          "context": "plural agreement"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "word_order",
+        "pattern": "NOUN + ADJECTIVE (opposite of English)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "word order",
+        "syntax",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

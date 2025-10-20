@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.492557+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "066.txt",
+      "069.txt",
+      "071.txt",
+      "073.txt"
+    ],
+    "total_entries": 4,
+    "description": "Converted from easy_kikuyu_batch_007_vocab.json",
+    "last_updated": "2025-01-08T05:05:00Z"
+  },
+  "entries": [
+    {
+      "id": "vocab-007-001",
+      "english": "Hartlaub's Turaco (bird)",
+      "kikuyu": "Ngũgũ",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 066",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-007-002",
+      "english": "Hamerkop (bird)",
+      "kikuyu": "Karogi / Ngunû",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 069",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-007-003",
+      "english": "Mouse bird / Speckled Mousebird",
+      "kikuyu": "Mũthũ",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 071",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-007-004",
+      "english": "Cape Robin-Chat (bird)",
+      "kikuyu": "Nyamĩndigi",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 073",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

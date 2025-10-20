@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.161040+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "198.txt",
+      "203.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_020_conjugations.json",
+    "last_updated": "2025-01-08T12:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-020-001",
+      "english": "To speak (aria) - all persons habitual form",
+      "kikuyu": "Kũaria - andũ othe (mũtugo)",
+      "category": "conjugations",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "I speak",
+          "kikuyu": "Njaragia",
+          "notes": "1st person singular"
+        },
+        {
+          "english": "You speak",
+          "kikuyu": "Waragia",
+          "notes": "2nd person singular"
+        },
+        {
+          "english": "He/She speaks",
+          "kikuyu": "Aragia",
+          "notes": "3rd person singular"
+        },
+        {
+          "english": "We speak",
+          "kikuyu": "Twaragia",
+          "notes": "1st person plural"
+        },
+        {
+          "english": "You speak",
+          "kikuyu": "Mwaragia",
+          "notes": "2nd person plural"
+        },
+        {
+          "english": "They speak",
+          "kikuyu": "Maragia",
+          "notes": "3rd person plural"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "root": "aria (to speak)",
+        "tense": "habitual present",
+        "suffix": "-agia"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-020-002",
+      "english": "First person present habitual with pronouns",
+      "kikuyu": "Nĩĩ/Ithuĩ na mĩtugo ya rĩu",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 203",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "I come",
+          "kikuyu": "Nĩĩ njũkaga",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "I cry",
+          "kikuyu": "Nĩĩ nđĩraga",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "I eat",
+          "kikuyu": "Nĩĩ nđĩaga",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "I speak",
+          "kikuyu": "Nĩĩ njaragia",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "I'm usually happy",
+          "kikuyu": "Nĩĩ ngenaga",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "I laugh",
+          "kikuyu": "Nĩĩ thekaga",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "I go",
+          "kikuyu": "Nĩĩ thiaga",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "I read",
+          "kikuyu": "Nĩĩ thomaga",
+          "notes": "1st person singular with pronoun"
+        },
+        {
+          "english": "We come",
+          "kikuyu": "Nĩĩ tũkaga",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We cry",
+          "kikuyu": "Nĩĩ tũrĩraga",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We eat",
+          "kikuyu": "Nĩĩ tũrĩaga",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We speak",
+          "kikuyu": "Nĩĩ twaragia",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We're happy",
+          "kikuyu": "Nĩĩ tũkenaga",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We laugh",
+          "kikuyu": "Nĩĩ tũthekaga",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We go",
+          "kikuyu": "Nĩĩ tũthiaga",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We read",
+          "kikuyu": "Nĩĩ tũthomaga",
+          "notes": "1st person plural with pronoun"
+        },
+        {
+          "english": "We write",
+          "kikuyu": "Nĩĩ tũanđĩkaga",
+          "notes": "1st person plural with pronoun"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "present habitual",
+        "pattern": "pronoun + verb form with -ga/-agia suffix",
+        "persons": ["1st person singular", "1st person plural"]
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

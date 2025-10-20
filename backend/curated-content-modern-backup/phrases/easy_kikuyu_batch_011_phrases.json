@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.330838+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "105.txt",
+      "107.txt"
+    ],
+    "total_entries": 7,
+    "description": "Converted from easy_kikuyu_batch_011_phrases.json (Integrated split entries)",
+    "last_updated": "2025-10-20T22:37:41.919706"
+  },
+  "entries": [
+    {
+      "id": "phrase-011-001",
+      "english": "Tell us the work you do",
+      "kikuyu": "Twīre wīra ūrīa ūrutaga",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 105",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T07:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-011-002_01",
+      "kikuyu": "Wîtagwo atĩa?",
+      "english": "What's your name?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_02",
+      "kikuyu": "Njitagwo [name]",
+      "english": "My name is...",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_03",
+      "kikuyu": "Wî mwega?",
+      "english": "How are you?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_04",
+      "kikuyu": "Ndî mwega mûno",
+      "english": "I'm very fine",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_05",
+      "kikuyu": "Eha [name]?",
+      "english": "Where is...?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_06",
+      "kikuyu": "Ûyû haha",
+      "english": "Here he/she is",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    }
+  ]
+}

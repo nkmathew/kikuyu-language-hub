@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.235571+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "068.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_007_grammar.json",
+    "last_updated": "2025-01-08T05:05:00Z"
+  },
+  "entries": [
+    {
+      "id": "gram-007-001",
+      "english": "Write these words in future tenses (practice exercise)",
+      "kikuyu": "Hûthîra ciugo ici gûtunga ûhoro wa maûndû megwîkîka",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 068",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "examples": [
+        "Verbs to practice: Teng'era (run), Ikara (stay), Koma (sleep), Ona (see), Igua (hear)",
+        "More verbs: Îkîra (put), Ruga (cook), Aka (make/construct), Rîma (dig), Rûgama (stand)",
+        "Additional: Toonya (enter), Tuma (sew), Rora (look), Thikîrîrîa (listen)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}
