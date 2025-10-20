@@ -1,0 +1,884 @@
+{
+  "flagged_translations": [
+    {
+      "id": "phrase-010-001",
+      "kikuyu": "Morning Conversation",
+      "english": "Rūci-inī (morning). Wīmwega rūci-inī? (Are you well this morning?). Ndīmwega mūno (I am very well). Wathiī kū? (Where are you going?). Ndathiī wīra (I am going to work). Ūrutaga wīra ūrīkū? (Which work do you do?)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 103"
+      }
+    },
+    {
+      "id": "phrase-011-002",
+      "kikuyu": "Introduction Conversation",
+      "english": "Wîtagwo atĩa? (What's your name?), Njitagwo [name] (My name is...), Wî mwega? (How are you?), Ndî mwega mûno (I'm very fine), Eha [name]? (Where is...?), Ûyû haha (Here he/she is)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 107"
+      }
+    },
+    {
+      "id": "phrase-018-002",
+      "kikuyu": "Cold Weather Conversation",
+      "english": "Hĩ! Kaĩ kwĩna heho-ĩ! (Lo! It is very cold!), Kaĩ wĩ mũrũaru? (Are you sick?), Wanjũrĩa ũguo nĩkĩ? (Why do you ask me that?), Tondũ gũtirĩ na heho (Because it is not cold), We! Ta ĩkĩra burana (You! Just put on a cardigan), Kwĩna ũrugarĩ (It is hot/warm), Urenda kũrũarara? (Do you want to fall sick?), Ngwĩhũmba burana na kabuti (I will wear a cardigan and an overcoat)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 180"
+      }
+    },
+    {
+      "id": "phrase-019-001",
+      "kikuyu": "Command Sentences - Practice",
+      "english": "Rũgama na mwena (Stand on the side), Gũrĩra mũgate na iria (Buy me bread), Aria na arata aku (Speak to your friends), Hinga mũrango tuthĩĩ (Close the door and let us go), Hingũra ibuku tuthoome (Open the book we read)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 191"
+      }
+    },
+    {
+      "id": "phrase-023-001",
+      "kikuyu": "Buying & Selling Conversation",
+      "english": "Njĩĩra thogora wa cai (tell me the price of tea), Wendagia atĩa? (how much do you sell?), Nĩ ũrendia goro (you are selling expensively), Nyenderia thubu (sell to me soup), Ngwĩnderie maĩ ma macungwa? (may I sell to you orange juice?), Iria igagatu rĩna goro (sour milk is expensive), Tĩ goro! Nĩ raithi (it's not expensive, it is cheap), Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings), Tĩ gĩkombe kĩa ũcũrũ? (what about a cup of porridge?)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 233"
+      }
+    },
+    {
+      "id": "phrase-023-002",
+      "kikuyu": "Asking & Giving Instructions (10 Examples)",
+      "english": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe (will you buy chicken? → buy chicken so we eat), Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe (will you shut that door? → close all doors), Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard, you will manage), Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha (will you put money in bank? → put those eggs here), Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya (will you hit the ball? → hit the ball hard)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 234"
+      }
+    },
+    {
+      "id": "phrase-027-001",
+      "kikuyu": "New Month Blessing - July",
+      "english": "Mweri mwerũ wa mũgwanja - a new seventh month (July), Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri (moon/month), Mweri mwerũ (new month), Rathimwo (be blessed)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 273"
+      }
+    },
+    {
+      "id": "vocab-009-004",
+      "kikuyu": "Ndaci (Traditional Kikuyu Dances)",
+      "english": "8 Traditional Dances: Gĩtiiro, Nguchu, Nduumo, Mũgoiyo, Gĩchukia, Mwomboko, Kĩbaata, Mũthũngũci",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "cultural context, not translation",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 092"
+      }
+    },
+    {
+      "id": "vocab-010-001",
+      "kikuyu": "Noun Class 7 - Abstract Nouns",
+      "english": "Wendo (love), Ûrûme (bravery), Ûtukû (night), Ûrîmû (foolishness), Watho (law), Ûtihû (face), Ûîru (jealousy), Ûthamaki (kingdom), Ûgeni (visit), Ûgo (magic), Ûrogi (witchcraft)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 095"
+      }
+    },
+    {
+      "id": "vocab-010-002",
+      "kikuyu": "Matonyo (Clothing)",
+      "english": "Thuruarĩ nguhĩ (shorts), Thuruarĩ ndaihu (trousers), Mûthurũ (skirt), Caatĩ (shirt), Mburauthĩ (blouse), Nguo ya thĩinĩ (underwear), Gĩtambaya kĩa mûtwe (headscarf), Thogithĩ (socks), Kĩratũ (shoe)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 097"
+      }
+    },
+    {
+      "id": "vocab-010-003",
+      "kikuyu": "Types of Ants",
+      "english": "Mûthûa (termites), Thigiriri (small black ants), Thuraku (soldier ants in line), Mûgagaca (tiny brown ants in groups)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 098"
+      }
+    },
+    {
+      "id": "vocab-010-004",
+      "kikuyu": "Swahili-Kikuyu Basic Words",
+      "english": "Wee (you), Niĩ (me), Mbere (before/first), Heho (cold), Mwaki (fire), We (he/she), Mũrĩmi (farmer), Ndingĩhota (I cannot)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 099"
+      }
+    },
+    {
+      "id": "vocab-010-005",
+      "kikuyu": "Nyamû cia gîthaka (Wild Animals)",
+      "english": "Ndûiga (giraffe), Njogu (elephant), Wambûi mîcore/Njagî (zebra), Nyaga (ostrich), Huria (rhino), Mûrûthî (lion), Ngatata (wildebeest), Nyûtû (cheetah), Hiti (hyena), Nguuo (hippo), Ngarî (leopard), Thakwe (chimpanzee)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 100"
+      }
+    },
+    {
+      "id": "vocab-010-006",
+      "kikuyu": "Swahili-Kikuyu Possessives & Time",
+      "english": "Mūrathimi (the one who blesses), Rīu rī (now - at statement beginning), Wakwa (mine - depending on noun class), Ciakwa (mine - plural)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 104"
+      }
+    },
+    {
+      "id": "vocab-011-001",
+      "kikuyu": "Nuanced Animal & Object Terms",
+      "english": "Mbogo (buffalo), Huria/Munyi (rhinoceros), Methūka vs Enyūka (crack small vs large), Mīago (leisure), Ikeno (happiness), Mūcang'ang'a (gossip), Mūthīgi (elder's staff), Rūthanju (herding stick), Mūtino (accident-unpredictable), Ūgwati (extreme danger-predictable)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 108"
+      }
+    },
+    {
+      "id": "vocab-011-002",
+      "kikuyu": "Giving & Physical States",
+      "english": "Kũheane (give away), Gũtanaha (give generously/selflessly), Kũhĩnja/Kũmoca (be thin/lose weight), Kũhana mũnyuko (extremely thin/skeletal), Kwĩhotora/Kwĩharĩria (prepare for action), Makore (husks), Muura (maize pollen/sawdust), Mbaco/Mbogoro (bow legs), Mbegũ (seeds), Mbeũ (selected seeds/youth)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 109"
+      }
+    },
+    {
+      "id": "vocab-011-003",
+      "kikuyu": "Weather & Body Application",
+      "english": "Gwĩthirima (spread oil with palms), Kwĩhaka (apply substance with tool), Heho (cold weather), Mbaa (extremely cold with fog), Kĩbii (mist/fog), Kĩnundu (fog), Kũgwata (grasp with both hands/rape/kidnap), Kũnyita (grasp one or both hands), Kũhahũra (scare/shock), Kũmakia (frighten)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 110"
+      }
+    },
+    {
+      "id": "vocab-011-004",
+      "kikuyu": "Movement & Action Verbs",
+      "english": "Bacania (drop noisily), Gũithania (drop carelessly), Gĩthayo/Kīgūūta (lazy person), Gocogoco (unnecessary verbal trouble), Ngarari (arguments), Gũkunga (bend to avoid), Gũcema (bend to hide), Gũtherema (spread/increase area), Kũingĩha (increase), Gũthetha (wish ill verbally), Kũroga (cause harm via poison/witchcraft), Gũtirūka (lose footing), Kũhĩngwo (trip on object), Gũtuma (sew), Kũrata (mend/patch)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 111"
+      }
+    },
+    {
+      "id": "vocab-012-002",
+      "kikuyu": "More Wild Animals & Colors",
+      "english": "Kîmbu (ground squirrel), Ngajathĩ (tree squirrel), Nyoka (snake), King'ang'î (weasel), Kîîra (badger), Gaturu (ground squirrel), Wakaharĩ (tree squirrel), Ngîrî (warthog), Mbogo (buffalo), Thîia (antelope), Ngarî (anteater)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 116"
+      }
+    },
+    {
+      "id": "vocab-012-003",
+      "kikuyu": "Occupations - Singular/Plural",
+      "english": "Mwarimũ/Arimũ (teacher/teachers), Mũthigari/Athigari (police/police), Mũrĩmi/Arĩmi (farmer/farmers)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 118"
+      }
+    },
+    {
+      "id": "vocab-013-002",
+      "kikuyu": "Numbers - Large Values",
+      "english": "Igana rĩmwe (100), Mirioni ĩmwe (1,000,000)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 128-130"
+      }
+    },
+    {
+      "id": "vocab-014-001",
+      "kikuyu": "Kikuyu Pronunciation Guide",
+      "english": "Vowels: a (Africa), e (Estuary), i (India), o (office), u (ooze), ĩ (Ate/Gate), ũ (Owner). Consonants: B (soft bilabial fricative like soft V/W), C (sh/ch sound)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 135"
+      }
+    },
+    {
+      "id": "vocab-014-002",
+      "kikuyu": "Digestive System (Ciĩga cia njĩra ya irio)",
+      "english": "Inĩ (liver), Nyongo (gallbladder), Nda (stomach), Rwarĩũngũ (pancreas), Mara (small intestine), Mũtũra (large intestine), Gataathĩra (appendix), Mũkwa (rectum), Itina (anus - impolite)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 138"
+      }
+    },
+    {
+      "id": "vocab-014-003",
+      "kikuyu": "Homophones & Minimal Pairs",
+      "english": "Rĩũ (now), Mũrĩũ (drunk person), Hĩũ (cooked/ready to eat), Kĩũ (that big one). Verbs: Ĩra (tell), Rĩra (cry), Rarĩra (sleep without supper), Ĩkĩrĩra (put in container for someone)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 139"
+      }
+    },
+    {
+      "id": "vocab-014-004",
+      "kikuyu": "Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)",
+      "english": "Gĩtĩ/Itĩ (chair/chairs), Gĩkombe/Ikombe (cup/cups), Kĩrĩma/Ciĩma (mountain/mountains), Kĩratũ/Cĩratũ (shoe/shoes), Gĩtonga/Itonga (tycoon/tycoons), Kĩhĩĩ/Cĩhĩĩ (youth/youths), Kĩng'angĩ/Ciũng'angĩ (crocodile/crocodiles)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 141"
+      }
+    },
+    {
+      "id": "vocab-015-001",
+      "kikuyu": "Sleep Vocabulary & Phrases",
+      "english": "Gũcũnga (doze), Gũkoma (sleep), Gũkoma na nda (sleep face down), Gũkoma na ngara/mũgongo (sleep on back), Gũkoma na mwena (sleep on side), Kũrara (spend the night), Hinga maitho ũkome (shut eyes and sleep), Koma na wega/thayũ (sleep well), Gĩa na ũtuko mwega (have a good night)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 146"
+      }
+    },
+    {
+      "id": "vocab-015-002",
+      "kikuyu": "Sacred Trees",
+      "english": "Mũembe (mango tree), Mũcungwa (orange tree), Mũkũyũ (ficus sycamora), Mũgumo (ficus natalensis/thoningii), Mũtamaiyũ (African olive tree)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 148"
+      }
+    },
+    {
+      "id": "vocab-015-003",
+      "kikuyu": "Nasal Consonants Practice (m, ng, ng')",
+      "english": "M: Maitũ (mother), mama (uncle), mara (intestines), moko (hands), mata (saliva). Ng: Ngaari (car), Nganga (guinea fowl), Ngobia (hat), ngoroba (floor/storey). Ng': Ng'ang'a (name/medicine man), Mũrãng'a (place), ng'aragu (hunger), ng'ethia (be idle)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 149"
+      }
+    },
+    {
+      "id": "vocab-015-005",
+      "kikuyu": "Time Vocabulary",
+      "english": "Heho (cold), Mĩaraho (midday/around and soon after midday)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 154"
+      }
+    },
+    {
+      "id": "vocab-016-001",
+      "kikuyu": "Primates",
+      "english": "Nguuyū (Colobus monkey), Nūgū (Baboon), Ngĩma (Sykes monkey), Thakwe (Chimpanzee)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 155-157"
+      }
+    },
+    {
+      "id": "vocab-016-002",
+      "kikuyu": "Wild Animals (Nyamũ cĩa gĩthaka)",
+      "english": "Ndũiga (giraffe), Njogu (elephant), Wambũĩ mĩcore/njagĩ (zebra), Nyaga (ostrich), Huria (rhinoceros), Mũrũthĩ (lion), Ngatata (wildebeest), Nyũtũ (cheetah), Hiti (hyena), Nguuo (hippo), Ngarĩ (leopard)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 160"
+      }
+    },
+    {
+      "id": "vocab-016-003",
+      "kikuyu": "Household Items - Traditional & Modern",
+      "english": "Kĩbũyũ (flask), Ndigithũ (water pot), Thitobu (stove), Tuuba (file), Burinji (fridge), Tawa (lamp), Toci (torch), Ngwatĩra (tin lamp), Ũrĩrĩ (bed/woman's bed), Gĩtanda (bed), Thagĩri (charcoal stove), Makara/ikara (charcoal), Thoo (saw), Rũgĩo (hot pan/griddle), Mũindũri (wooden ladle)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 161"
+      }
+    },
+    {
+      "id": "vocab-016-004",
+      "kikuyu": "Household Items - Kitchen & Dining (Indo cia nyũmba)",
+      "english": "Riiko/Mariiko (stove/cooker), Metha (table), Gĩtĩ/Ĩtĩ (chair), Mwaburi/Mĩaburi (umbrella), Nyũngũ (traditional cooking pot), Thaani (plates), Kahĩũ/Tũhĩũ (knife), Njagĩ (jug), Hũma (fork), Gĩcĩko/Ĩcĩko (spoon), Mbakũrĩ (bowl), Mũcuba/Mĩcuba (bottle), Mbũthũ (decorated gourd), Thaburia (saucepan), Ngĩrathĩ (glass), Kĩĩhũrĩ/ciĩhũrĩ (plain gourd/calabash)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 162"
+      }
+    },
+    {
+      "id": "vocab-016-005",
+      "kikuyu": "Reptiles & Amphibians",
+      "english": "Kĩmbu (chameleon), Njagathi (skink/lizard), Nyoka (snake), Kĩng'ang'i (crocodile), Kĩũra (frog)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 163-164"
+      }
+    },
+    {
+      "id": "vocab-016-006",
+      "kikuyu": "Body Parts (Cĩuga cia mwĩrĩ)",
+      "english": "Mũtwee/Mîtwe (head), Njũrĩrĩ/Njũîrĩ (hair), Rũbutu/Mbutu (eyebrow), Riitho/Maitho (eye), Gũtũ/Matũ (ear), Inĩũrũ/Manĩũrũ (nose), Igego/Magego (teeth), Kîromo/Iromo (lips), Kĩreru/Ireru (chin), Ngingo (neck), Gîthũri/Îthũri (chest), Kĩande/Ciande (shoulder), Guoko/Moko (arm), Nda (stomach), Rũhĩ/Hĩ (hand), Njohero (waist), Îru/Maru (knee), Kĩara/Twara (fingers/toes), Kũgũrũ/Magũrũ (leg), Ikĩnya/Makĩnya (foot), Kanua/Tũnua (mouth)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 164"
+      }
+    },
+    {
+      "id": "vocab-017-001",
+      "kikuyu": "Snake Species",
+      "english": "Gītahuha (puff adder), Mūrarū (green grass snake), Gīīko (cobra)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 165"
+      }
+    },
+    {
+      "id": "vocab-017-002",
+      "kikuyu": "Diseases & Health",
+      "english": "Njooma (common cold), Kīhuti (cold sores around mouth)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 167"
+      }
+    },
+    {
+      "id": "vocab-017-003",
+      "kikuyu": "Fish Vocabulary",
+      "english": "Kĩũngũyũ / thamaki (fish - singular), Ciũngũyũ / thamaki (several fish - plural)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 169"
+      }
+    },
+    {
+      "id": "vocab-017-004",
+      "kikuyu": "Ants & Insects",
+      "english": "Thigiriri (tiny common black ants), Thūraita (large black ants), Mūgagaca (tiny brown ants), Thuraku (soldier ants), Mūthūa (termites), Igi (wasp)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 171"
+      }
+    },
+    {
+      "id": "vocab-017-005",
+      "kikuyu": "Numbers with People (Andũ)",
+      "english": "Mũndũ ũmwe (1 person), Andũ erĩ (2 people), atatũ (3), ana (4), atano (5), atandatũ (6), mũgwanja (7), anana (8), kenda (9), ikũmi (10), ikũmi na ũmwe (11)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 168"
+      }
+    },
+    {
+      "id": "vocab-017-006",
+      "kikuyu": "Light & Darkness Sources",
+      "english": "Ũtheri (light), Nduma (darkness). Light sources: Ũtheri wa rĩũa (sunlight), wa mweri na njata (moonlight & stars), wa thitima (electric light), wa mũcũmaa (candle), wa toci (torch), wa mwaki wa ngũ (firewood fire)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174"
+      }
+    },
+    {
+      "id": "vocab-018-002",
+      "kikuyu": "Jobs & Professions - Complete Set",
+      "english": "Mũndĩ/bundi (handyman - carpenter/plumber), Mũrĩmi (farmer), Ndereba (driver), Atongoria (leaders), Borithi (police), Mũũbĩa (priest-catholic), Mũhũrĩri wa mbica (photographer), Mũgwĩmi (hunter), Mũrĩithia wa mahiũ (herder), Aturi (iron mongers), Ombi a nyũngũ (potters), Mũgo (medicine person)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 176-177-179"
+      }
+    },
+    {
+      "id": "vocab-018-003",
+      "kikuyu": "Gĩkũyũ & Mũũmbi Origin Story Vocabulary",
+      "english": "Aciari (parents), Rũrĩrĩ (community/tribe speaking one language), Ciana (children), Kenda mũiyũrũ (the full nine/ten), Tũhĩĩ (boys), Tũirĩtu (girls), Nyũmba (house/woman's hut), Thingira (men's hut), Ikũmbĩ (granary), Mũgũnda (garden/farm), Gĩcagi (village)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 178"
+      }
+    },
+    {
+      "id": "vocab-018-004",
+      "kikuyu": "Cold Weather Vocabulary",
+      "english": "Heho (cold), Ũrugarĩ (heat/warmth), Mwaki (fire), Gĩchĩnga (smoldering stick with fire), Burana (cardigan/sweater), Ĩgooti (coat), Kabuti (overcoat), Mũrĩngĩti (blanket), Ĩkĩra (put/put on/wear), Kwĩhũmba (to wear), Mũno (very much)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 180"
+      }
+    },
+    {
+      "id": "vocab-018-005",
+      "kikuyu": "Extended Family Terms",
+      "english": "Guka/Wagui (Grandfather - Muranga/Kiambu vs Nyeri), Cũcũ (Grandmother), Tata (Aunt), Mama (Uncle-mother's side), Baba mũnini (Uncle-father's younger brother), Baba mũkũrũ (Uncle-father's older brother), Mũrũ wa tata (Cousin-aunt's son), Mũrũ wa mama (Cousin-uncle's son), Mũrũ wa maitũ (Brother), Mwarĩ wa maitũ (Sister), Mũrũ wa baba (Half Brother), Mwarĩ wa baba (Half Sister)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 181"
+      }
+    },
+    {
+      "id": "vocab-018-006",
+      "kikuyu": "Homophones with 'ny' Sound",
+      "english": "Ikinya (foot/step), Ihenya (race), Kĩnya (gourd), Kinya (arrive/step on/up to), Hinya (strength), Menya (know), Kunya (pinch), Nyanya (tomato), Munya (uproot), Hihinya (squeeze/press)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 182"
+      }
+    },
+    {
+      "id": "vocab-018-007",
+      "kikuyu": "Poultry & Snake Euphemism",
+      "english": "Mbata (duck), Ngũkũ ya mwera (hen), Gacui (chick), Ngũkũ ya njamba (cock), Nyamũ ya thĩ (snake - polite/euphemistic)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 183-184"
+      }
+    },
+    {
+      "id": "vocab-019-001",
+      "kikuyu": "Caria - Search/Look for",
+      "english": "Caria Mwangi (look for Mwangi), Caria mbeca (look for money), Caria mahĩtia (look for errors/mistakes)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 185"
+      }
+    },
+    {
+      "id": "vocab-019-002",
+      "kikuyu": "Essential Verbs - Complete Set",
+      "english": "Gũcaria (to search), Gũcoka (to return/come back-person), Gũcokia (to return-object), Gũĩka (to do), Gũikara (to stay), Gũikara thĩ (to sit down), Gũikena (to be happy), Gũkinya (to arrive/step on), Gũthambia (to wash), Gũthĩĩ rũgendo (to go on journey), Gũthũkia (to damage/spoil), Gũtigara (to remain), Gũtinia (to cut), Gweterera (to wait), Gwĩcĩrĩria (to think/reason), Kũgeria (to try)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 186"
+      }
+    },
+    {
+      "id": "vocab-019-003",
+      "kikuyu": "Bird Parts (Cĩĩga cia nyoni)",
+      "english": "Ritho/Maitho (eye/eyes), Mũtwe/Mĩtwe (head/heads), Mũkangi/Mĩkangi (beak/beaks), Ngingo (neck), Ĩthagu/Mathagu (wings), Ruoya/Njoya (feather/feathers), Mwĩrĩ/Mĩrĩ (body/bodies), Njoya cia Kĩngũĩ (tail feathers), Kũgũrũ/Magũrũ (leg/legs)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 189"
+      }
+    },
+    {
+      "id": "vocab-020-001",
+      "kikuyu": "Verb to Noun Formation (Agent Pattern)",
+      "english": "Gũthĩĩ (to go) → Mũthĩĩ (traveller), Kũruga (to cook) → Mũrugi (cook), Gũciara (to give birth) → Mũciari (parent), Kũrigita (to nurse) → Mũrigiti/Mũrigitani (nurse), Kũrĩma (to farm) → Mũrĩmi (farmer), Kũũmba (to mold with clay) → Mũmbi (potter), Kwenda (to want/love) → Mwendwa (lover), Kũrwara (to be sick) → Mũrwaru (sick person), Kũiya (to steal) → Mũici (thief)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 196"
+      }
+    },
+    {
+      "id": "vocab-020-002",
+      "kikuyu": "Hospital Vocabulary",
+      "english": "Thibitarĩ (hospital), Mũrwaru (patient), Nđagĩtarĩ (doctor), Mũrigitani (nurse), Dagĩtarĩ wa magego (dentist), Mĩthaiga/Nđawa (medicine), Nđawa ya mbũrũgũtũ (tablet)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 199"
+      }
+    },
+    {
+      "id": "vocab-020-003",
+      "kikuyu": "Class III Household & Animals",
+      "english": "Metha (table), Mbica (picture/photo), Nyũngũ (cooking pot), Ngĩrathi (glass), Thaani (plate), Baathi (iron for clothes), Terebiceni (television), Thaburia (saucepan), Mbirika (kettle), Kuburi (padlock), Cabi (keys), Ng'ombe (cow), Thenge (he-goat), Ngũkũ (chicken/hen), Mbata (duck), Ngigĩ (grasshopper)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 200"
+      }
+    },
+    {
+      "id": "vocab-020-004",
+      "kikuyu": "Essential Verbs Set 2",
+      "english": "Kũgũra (to buy), Kũgwa (to fall), Kũhinga (to close), Kũhingũra (to open), Kũhota (to manage/be able to do), Kũiga (to keep/place), Kũmenya (to know), Kũnyita (to catch/hold/understand), Kũrehe (to bring), Kũringa (to hit), Kũrũga (to cook), Kũrũgama (to stand), Kũrũmĩrĩra (to follow), Kuuga (to say), Kwenda (to want/love), Kwendia (to sell), Kwohera (to forgive/tie for someone)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 202"
+      }
+    },
+    {
+      "id": "vocab-021-001",
+      "kikuyu": "Sleep-Related Vocabulary",
+      "english": "Gũcũnga (to doze), Gũkoma (to sleep), Gũkoma na nda (sleep on stomach/face down), Gũkoma na ngara/mũgongo (sleep on back), Gũkoma na mwena (sleep on one side), Kũrara (to spend the night), Hinga maitho ũkome (shut your eyes and sleep), Rara nĩ gwatuka (sleep-over, darkness has fallen), Koma ũkĩre (sleep and wake up), Koma na wega/thayũ (sleep well), Gĩa/Korwo na ũtuko mwega (have a good night)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 207"
+      }
+    },
+    {
+      "id": "vocab-021-002",
+      "kikuyu": "Domestic & Wild Animals",
+      "english": "Ngũi (dog), Nyau (cat), Gathuku (parrot), Mbĩa (rat)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 209"
+      }
+    },
+    {
+      "id": "vocab-021-003",
+      "kikuyu": "Simple Vocabulary with Consonants G, H, K",
+      "english": "Gĩkombe (cup), Karamu (pen), Kiura (frog), Kora (small frog)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 210"
+      }
+    },
+    {
+      "id": "vocab-021-004",
+      "kikuyu": "Everyday Objects with Singular/Plural",
+      "english": "Mwaburi/Mĩaburi (umbrella sing/plur), Mũbĩra/Mĩbĩra (ball sing/plur), Kĩratũ/Iratũ (shoe sing/plur), Ngaari (car)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 213"
+      }
+    },
+    {
+      "id": "vocab-021-005",
+      "kikuyu": "Essential Verbs Set 3",
+      "english": "Ĩta (call), Aria (speak), Eterera (wait), Ceera (visit), Uga (say), Andĩka (write), Ona (see), Enja (shave/dig a hole), Nyua (drink), Uma (get out), Kena (be happy), Kora (find), Koma (sleep), Batara (need), Rĩma (dig in a farm), Rota (dream), Ruga (cook)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 214"
+      }
+    },
+    {
+      "id": "vocab-022-001",
+      "kikuyu": "Sitting Room Furniture",
+      "english": "Mũrango (door), Kabati (cupboard), Metha (table), Nđirica (window), Gĩtĩ (chair), Gaturwa/Njĩngwa (stool)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217"
+      }
+    },
+    {
+      "id": "vocab-022-002",
+      "kikuyu": "Professions & Jobs",
+      "english": "Bundi (handyman/carpenter/plumber), Mũrĩmi (farmer), Nđereba (driver), Atongoria (leaders), Borithi (police), Mũũbĩa (priest/catholic), Mũhũrĩri wa mbica (photographer), Mũgwĩmi (hunter), Mũrĩithia wa mahiũ (herder of domestic animals), Aturi (iron mongers), Ombi a nyũngũ (potters), Mũgo (medicine person/traditional healer)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 219"
+      }
+    },
+    {
+      "id": "vocab-022-003",
+      "kikuyu": "Emotions & Feelings",
+      "english": "Guoya (scared), Gikeno (happy), Kĩeha (sad), Marakara (angry), Ndũhĩo (excited), Kĩmako (worried), Kũhahũka (surprised), Ũrĩmũ (silly), Kwaga kũiganĩra (frustrated), Kũigua kĩnyiria (to be disgusted), Kũnyĩra (to express disgust)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223"
+      }
+    },
+    {
+      "id": "vocab-023-001",
+      "kikuyu": "Opposites - Antonym Pairs (37 Pairs)",
+      "english": "Gũcambia/gũgooca (criticize/praise), Gũtaara/kũhĩtithia (guide/mislead), Gũtherema/gũkũndera (accept/reject), Gũthĩnia/gũteithia (bother/help), Gũtonga/gũthĩna (be rich/be poor), Gwaka/gũtharia (build/demolish), Kũgetha/kũhanda (harvest/plant), Kũhũnyũka/kũrura (be fast/be slow), Kũhũta/kũhũna (be hungry/be full), Kũrĩra/gũtheka (cry/laugh), Kwĩhĩka/kwĩgũucia (feel shy/be proud), Mũnyuko/noru (thin/fat), Ndũma/ũtheri (darkness/light), Ngũĩ/ndũhĩo (anger/excitement), Njamba/kĩguoya (hero/coward), Thayũ/mbaara (peace/war)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 226"
+      }
+    },
+    {
+      "id": "vocab-023-002",
+      "kikuyu": "Household Items (Indo cia nyũmba)",
+      "english": "Riiko/Marĩiko (stove/cooker sing/plur), Metha (table), Mwaburi/Mĩaburi (umbrella), Thaani (plate), Gĩtĩ/Itĩ (chair), Nyũgũ (clay pot), Kahiũ/Tũhĩũ (knife), Hũma (fork), Gĩciko/Iciko (spoon), Mbakũri (serving bowl), Mũcuba/Mĩcuba (bottle), Njagĩ (water pitcher/jug), Thaburia (cooking pot), Ngirathi (glass), Kĩĩhũri/Cĩihũri (gourd/calabash), Mbũthũ (decorated calabash)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 229"
+      }
+    },
+    {
+      "id": "vocab-023-003",
+      "kikuyu": "Drinks Vocabulary",
+      "english": "Iria (milk), Thota (soda), Ũcũrũ (porridge), Thubu (soup), Cai (tea), Kahũwa (coffee), Iria igagatu (sour milk), Maĩ (water), Maĩ ma macungwa (orange juice), Maĩ ma ndimũ (lemon juice), Maĩ ma matunda (fruit juice)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 233"
+      }
+    },
+    {
+      "id": "vocab-023-004",
+      "kikuyu": "Ordinal Numbers (1st-10th)",
+      "english": "Wa/ya/rĩa/gĩa mbere (first), wa/ya/rĩa/gĩa keerĩ (second), wa/ya/rĩa/gĩa gatatũ (third), wa/ya/rĩa/gĩa kana (fourth), wa/ya/rĩa/gĩa gatano (fifth), wa/ya/rĩa/gĩa gatandatũ (sixth), wa/ya/rĩa/gĩa mũgwanja (seventh), wa/ya/rĩa/gĩa kanana (eighth), wa/ya/rĩa/gĩa kenda (ninth), wa/ya/rĩa/gĩa ikũmi (tenth)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 231"
+      }
+    },
+    {
+      "id": "vocab-024-001",
+      "kikuyu": "Body Parts - Additional",
+      "english": "Iru (knee), Ikai (cheek), Rũhi (palm)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 235"
+      }
+    },
+    {
+      "id": "vocab-024-002",
+      "kikuyu": "Size Descriptors with Noun Class Agreement",
+      "english": "Mũtĩ mũceke/mwarĩĩ (thin tree/large tree), Gĩkabu gĩceke/kĩarĩĩ (small basket/large basket), Kĩmũbira/Mũbira/Kamũbira (very large ball/ball/small ball - augmentative/normal/diminutive), Ng'ombe noru/hũnju (fat cow/thin cow), Mũndũ mũkũhĩ/mũraihu/mũceke/mũtungu (short person/tall person/thin person/fat person)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 243"
+      }
+    },
+    {
+      "id": "vocab-024-003",
+      "kikuyu": "Sitting Room Furniture Items",
+      "english": "Mũrango (door), Kabatĩ (cupboard/cabinet/wardrobe), Metha (table), Gĩtĩ (chair), Gaturwa/Njĩgĩwa (stool/small table), Ndirica (window)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240"
+      }
+    },
+    {
+      "id": "vocab-025-002",
+      "kikuyu": "Food & Drinks - Beginner 2",
+      "english": "Drinks: Njoohi (beer), Maai (water), Maai ma macungwa (orange juice), Iria (milk), Iria igagatu (fermented milk), Ũcũrũ mũgagatu (fermented porridge), Thoota (soda). Foods: Mũkimo (mashed food), Cabaci (chapattis), Mũgate (bread), Mũcere (rice), Mboco (beans), Nyama (meat), Thamaki/Kĩũngũyũ (fish), Mũtura (traditional sausage). Cooking verbs: Gũkaranga (to fry), Gũtherukia (to boil), Kũhĩhia (to roast), Gũkanda mũtu (to make dough)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 248"
+      }
+    },
+    {
+      "id": "vocab-025-003",
+      "kikuyu": "Safari Animals",
+      "english": "Wambũi mĩcore (zebra), Mũrũthi (lion), Ndũiga (giraffe), Huria (rhinoceros), Njogu (elephant), Mbogo (buffalo)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 249"
+      }
+    },
+    {
+      "id": "vocab-025-004",
+      "kikuyu": "Health & Illness Vocabulary",
+      "english": "Gũtũnda (to have a rash), Ndĩ mũtũndu guoko (I have a rash on my arm), Thundo (pimple/s), Ndĩna thundo ũthiũ (I have a pimple on my face), Kĩronda (a wound), E na kironda iru (he/she has a wound on his knee), Kũrwara (to be sick), Ndĩ mũrwaru nda (I am sick in the stomach), Gũturwo (to have pain)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 251"
+      }
+    },
+    {
+      "id": "vocab-025-005",
+      "kikuyu": "Body Parts - Hair & Elbow",
+      "english": "Igokora/Kĩgokora (elbow - variant pronunciations), Rucuĩrĩ (single hair strand), Njuĩrĩ (hair - collective, no matter how many strands)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 252"
+      }
+    },
+    {
+      "id": "vocab-025-006",
+      "kikuyu": "Body Parts - Complete with Sing/Plur",
+      "english": "Kĩongo/Ciongo (head), Njuĩrĩ/Njuĩrĩ (hair - invariant), Gũtũ/Matũ (ear), Ũthĩĩ/Maũthĩĩ (face), Inĩũrũ/Manĩũrũ (nose), Rũrĩmĩ/Nĩmĩ (tongue), Rĩĩtho/Maĩtho (eye), Guoko/Moko (hand), Kĩara/Ciara (finger), Igokora/Magokora (elbow), Kũgũrũ/Magũrũ (leg), Iru/Maru (knee)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 253"
+      }
+    },
+    {
+      "id": "vocab-026-001",
+      "kikuyu": "Traditional Professions - Extended",
+      "english": "Mũhũri wa mbica (photographer - lit. hitter of pictures), Mũgĩmwĩa (hunter), Mũrĩithia wa mahĩũ (herder of domestic animals), Mũtũri (iron monger/blacksmith), Mũũmbi wa nyũngũ (potter - lit. molder of pots), Mũgo (medicine person/traditional healer), Bundi (handyman/carpenter), Mũrĩmĩ (farmer), Ndereba (driver), Mũtongoria (leader), Borithi (police), Mũbĩa (priest - Catholic)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 256"
+      }
+    },
+    {
+      "id": "vocab-026-002",
+      "kikuyu": "Sitting Room Items - Week 2",
+      "english": "Mũrango (door), Kabati (cupboard/cabinet), Metha (table), Ndĩrica (window), Gĩtĩ (seat/chair), Gaturwa/Njĩngwa (stool)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 260"
+      }
+    },
+    {
+      "id": "vocab-026-003",
+      "kikuyu": "Basic Verbs & Nouns - Week 1:2",
+      "english": "Verbs: Ũka (come), Andĩka (write), Rĩra (cry), Theka (laugh), Rĩa (eat), Aria (speak), Thĩĩ (go), Thooma (read), Kira (keep quiet), Ruga (cook), Ruta wĩra (do work), Ruta (remove). Nouns: Haha (here), Irio (food), Wĩra (work), Mũirĩtu (girl), Mwanake (young man), Mũtumia (woman), Mũthũuri (man), Maĩ (water), Marũa (letter), Ũcũrũ (porridge)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 264"
+      }
+    },
+    {
+      "id": "vocab-027-001",
+      "kikuyu": "Kinship Terms - Family System",
+      "english": "Nuclear family: Baba (father), Maitũ (mother), Mũrũ wa maitũ (brother), Mwarĩ wa maitũ (sister), Murũ wa baba (half brother), Mwarĩ wa baba (half sister). Extended family: Guka/Wagũi (grandfather - Muranga/Kiambu vs Nyeri), Cũcũ (grandmother), Tata (aunt), Mama (uncle - mother's side), Baba mũnini (uncle - father's younger brother), Baba mũkũrũ (uncle - father's older brother), Mũrũ wa tata (cousin), Mũrũ wa mama (cousin). Note: All your father's brothers' wives are addressed as 'mother'",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 266"
+      }
+    },
+    {
+      "id": "vocab-027-002",
+      "kikuyu": "Consonants - Foundation Class B",
+      "english": "b/mb (mbarĩki - castor oil), ß/b (baba - father, like Bh in Mahabharat), c (cũcũ - grandmother, like sh in Shilling), ɖ/nd (ndoro - mud), ɣ/g (guka - grandfather), h (haha - here), k (karamu - pen), m (maitũ - mother), n/ng (ngaari - car), Ŋ/ng' (Murang'a - county), dʒ/nj (njeri - woman's name), t (tene - long ago), ð/th (thaani - plate), ɲ/ny (Nyanya - tomato), Y (Yakwa - mine), W (Wanjiku - girl's name)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 267"
+      }
+    },
+    {
+      "id": "vocab-027-021",
+      "kikuyu": "Kũhũra - Versatile Verb Meanings",
+      "english": "Kũhũra (to beat/wash/make/iron/thrash/play): Kũhũra nguo (to wash clothes), Kũhũra thimũ (to make a call), Kũhũra baathi (to iron clothes), Kũhũra mboco (to thrash dry beans from pods), Kũhũra mbembe (to thrash maize), Kũhũra mũbira (to play football), Kũhũra kanua (to make clicking noise - expressing annoyance). Related: Kũrũa (to fight), Kũrũa mbaara (to fight a war), Kũhũrana (to beat each other), Mbaara (war/fight). Questions: Nũũ wahũra mwana? (who has beaten the child?), Nũũ wakũhũra? (who has beaten you?). Command: Tigai kũrũa (stop fighting)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "flag_reason": "split into subtranslations",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 271"
+      }
+    }
+  ]
+}
