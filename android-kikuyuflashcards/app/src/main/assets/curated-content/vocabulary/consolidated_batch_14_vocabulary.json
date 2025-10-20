@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.632398",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 31,
+    "description": "Consolidated entries for vocabulary batch 14 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.232807"
+  },
+  "entries": [
+    {
+      "id": "vocab-014-001_01",
+      "kikuyu": "Africa",
+      "english": "Vowels: a",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-001_02",
+      "kikuyu": "Estuary",
+      "english": "e",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-001_03",
+      "kikuyu": "India",
+      "english": "i",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-001_04",
+      "kikuyu": "office",
+      "english": "o",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-001_05",
+      "kikuyu": "ooze",
+      "english": "u",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-001_06",
+      "kikuyu": "ĩ",
+      "english": "Ate/Gate",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-001_07",
+      "kikuyu": "ũ",
+      "english": "Owner",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-001_08",
+      "kikuyu": "sh/ch sound",
+      "english": "C",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Kikuyu Pronunciation Guide"
+    },
+    {
+      "id": "vocab-014-002_01",
+      "kikuyu": "Inĩ",
+      "english": "liver",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_02",
+      "kikuyu": "Nyongo",
+      "english": "gallbladder",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_03",
+      "kikuyu": "Nda",
+      "english": "stomach",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_04",
+      "kikuyu": "Rwarĩũngũ",
+      "english": "pancreas",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_05",
+      "kikuyu": "Mara",
+      "english": "small intestine",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_06",
+      "kikuyu": "Mũtũra",
+      "english": "large intestine",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_07",
+      "kikuyu": "Gataathĩra",
+      "english": "appendix",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_08",
+      "kikuyu": "Mũkwa",
+      "english": "rectum",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-002_09",
+      "kikuyu": "Itina",
+      "english": "anus - impolite",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Digestive System (Ciĩga cia njĩra ya irio)"
+    },
+    {
+      "id": "vocab-014-003_01",
+      "kikuyu": "Rĩũ",
+      "english": "now",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Homophones & Minimal Pairs"
+    },
+    {
+      "id": "vocab-014-003_02",
+      "kikuyu": "Mũrĩũ",
+      "english": "drunk person",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Homophones & Minimal Pairs"
+    },
+    {
+      "id": "vocab-014-003_03",
+      "kikuyu": "Hĩũ",
+      "english": "cooked/ready to eat",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Homophones & Minimal Pairs"
+    },
+    {
+      "id": "vocab-014-003_04",
+      "kikuyu": "Kĩũ",
+      "english": "that big one",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Homophones & Minimal Pairs"
+    },
+    {
+      "id": "vocab-014-003_05",
+      "kikuyu": "Rĩra",
+      "english": "cry",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Homophones & Minimal Pairs"
+    },
+    {
+      "id": "vocab-014-003_06",
+      "kikuyu": "Rarĩra",
+      "english": "sleep without supper",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Homophones & Minimal Pairs"
+    },
+    {
+      "id": "vocab-014-003_07",
+      "kikuyu": "Ĩkĩrĩra",
+      "english": "put in container for someone",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Homophones & Minimal Pairs"
+    },
+    {
+      "id": "vocab-014-004_01",
+      "kikuyu": "Gĩtĩ/Itĩ",
+      "english": "chair/chairs",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)"
+    },
+    {
+      "id": "vocab-014-004_02",
+      "kikuyu": "Gĩkombe/Ikombe",
+      "english": "cup/cups",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)"
+    },
+    {
+      "id": "vocab-014-004_03",
+      "kikuyu": "Kĩrĩma/Ciĩma",
+      "english": "mountain/mountains",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)"
+    },
+    {
+      "id": "vocab-014-004_04",
+      "kikuyu": "Kĩratũ/Cĩratũ",
+      "english": "shoe/shoes",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)"
+    },
+    {
+      "id": "vocab-014-004_05",
+      "kikuyu": "Gĩtonga/Itonga",
+      "english": "tycoon/tycoons",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)"
+    },
+    {
+      "id": "vocab-014-004_06",
+      "kikuyu": "Kĩhĩĩ/Cĩhĩĩ",
+      "english": "youth/youths",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)"
+    },
+    {
+      "id": "vocab-014-004_07",
+      "kikuyu": "Kĩng'angĩ/Ciũng'angĩ",
+      "english": "crocodile/crocodiles",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)"
+    }
+  ]
+}

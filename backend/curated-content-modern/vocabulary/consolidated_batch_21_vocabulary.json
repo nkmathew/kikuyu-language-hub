@@ -1,0 +1,507 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.693000",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 41,
+    "description": "Consolidated entries for vocabulary batch 21 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.423194"
+  },
+  "entries": [
+    {
+      "id": "vocab-021-001_01",
+      "kikuyu": "Gũcũnga",
+      "english": "to doze",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_02",
+      "kikuyu": "Gũkoma",
+      "english": "to sleep",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_03",
+      "kikuyu": "Gũkoma na nda",
+      "english": "sleep on stomach/face down",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_04",
+      "kikuyu": "Gũkoma na ngara/mũgongo",
+      "english": "sleep on back",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_05",
+      "kikuyu": "Gũkoma na mwena",
+      "english": "sleep on one side",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_06",
+      "kikuyu": "Kũrara",
+      "english": "to spend the night",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_07",
+      "kikuyu": "Hinga maitho ũkome",
+      "english": "shut your eyes and sleep",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_08",
+      "kikuyu": "Rara nĩ gwatuka (sleep-over",
+      "english": "Rara nĩ gwatuka (sleep-over",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_09",
+      "kikuyu": "darkness has fallen)",
+      "english": "darkness has fallen)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_10",
+      "kikuyu": "Koma ũkĩre",
+      "english": "sleep and wake up",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_11",
+      "kikuyu": "Koma na wega/thayũ",
+      "english": "sleep well",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-001_12",
+      "kikuyu": "Gĩa/Korwo na ũtuko mwega",
+      "english": "have a good night",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep-Related Vocabulary"
+    },
+    {
+      "id": "vocab-021-002_01",
+      "kikuyu": "Ngũi",
+      "english": "dog",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Domestic & Wild Animals"
+    },
+    {
+      "id": "vocab-021-002_02",
+      "kikuyu": "cat",
+      "english": "Nyau",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Domestic & Wild Animals"
+    },
+    {
+      "id": "vocab-021-002_03",
+      "kikuyu": "parrot",
+      "english": "Gathuku",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Domestic & Wild Animals"
+    },
+    {
+      "id": "vocab-021-002_04",
+      "kikuyu": "Mbĩa",
+      "english": "rat",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Domestic & Wild Animals"
+    },
+    {
+      "id": "vocab-021-003_01",
+      "kikuyu": "Gĩkombe",
+      "english": "cup",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Simple Vocabulary with Consonants G, H, K"
+    },
+    {
+      "id": "vocab-021-003_02",
+      "kikuyu": "pen",
+      "english": "Karamu",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Simple Vocabulary with Consonants G, H, K"
+    },
+    {
+      "id": "vocab-021-003_03",
+      "kikuyu": "frog",
+      "english": "Kiura",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Simple Vocabulary with Consonants G, H, K"
+    },
+    {
+      "id": "vocab-021-003_04",
+      "kikuyu": "small frog",
+      "english": "Kora",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Simple Vocabulary with Consonants G, H, K"
+    },
+    {
+      "id": "vocab-021-004_01",
+      "kikuyu": "Mwaburi/Mĩaburi",
+      "english": "umbrella sing/plur",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Everyday Objects with Singular/Plural"
+    },
+    {
+      "id": "vocab-021-004_02",
+      "kikuyu": "Mũbĩra/Mĩbĩra",
+      "english": "ball sing/plur",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Everyday Objects with Singular/Plural"
+    },
+    {
+      "id": "vocab-021-004_03",
+      "kikuyu": "Kĩratũ/Iratũ",
+      "english": "shoe sing/plur",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Everyday Objects with Singular/Plural"
+    },
+    {
+      "id": "vocab-021-004_04",
+      "kikuyu": "car",
+      "english": "Ngaari",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Everyday Objects with Singular/Plural"
+    },
+    {
+      "id": "vocab-021-005_01",
+      "kikuyu": "call",
+      "english": "Ĩta",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_02",
+      "kikuyu": "speak",
+      "english": "Aria",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_03",
+      "kikuyu": "wait",
+      "english": "Eterera",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_04",
+      "kikuyu": "visit",
+      "english": "Ceera",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_05",
+      "kikuyu": "say",
+      "english": "Uga",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_06",
+      "kikuyu": "Andĩka",
+      "english": "write",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_07",
+      "kikuyu": "see",
+      "english": "Ona",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_08",
+      "kikuyu": "shave/dig a hole",
+      "english": "Enja",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_09",
+      "kikuyu": "drink",
+      "english": "Nyua",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_10",
+      "kikuyu": "get out",
+      "english": "Uma",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_11",
+      "kikuyu": "be happy",
+      "english": "Kena",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_12",
+      "kikuyu": "find",
+      "english": "Kora",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_13",
+      "kikuyu": "sleep",
+      "english": "Koma",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_14",
+      "kikuyu": "need",
+      "english": "Batara",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_15",
+      "kikuyu": "Rĩma",
+      "english": "dig in a farm",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_16",
+      "kikuyu": "dream",
+      "english": "Rota",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    },
+    {
+      "id": "vocab-021-005_17",
+      "kikuyu": "cook",
+      "english": "Ruga",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 3"
+    }
+  ]
+}

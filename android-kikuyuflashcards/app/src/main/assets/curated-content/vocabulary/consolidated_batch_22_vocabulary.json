@@ -1,0 +1,363 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.701617",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 29,
+    "description": "Consolidated entries for vocabulary batch 22 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.449631"
+  },
+  "entries": [
+    {
+      "id": "vocab-022-001_01",
+      "kikuyu": "Mũrango",
+      "english": "door",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sitting Room Furniture"
+    },
+    {
+      "id": "vocab-022-001_02",
+      "kikuyu": "cupboard",
+      "english": "Kabati",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sitting Room Furniture"
+    },
+    {
+      "id": "vocab-022-001_03",
+      "kikuyu": "table",
+      "english": "Metha",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sitting Room Furniture"
+    },
+    {
+      "id": "vocab-022-001_04",
+      "kikuyu": "window",
+      "english": "Nđirica",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sitting Room Furniture"
+    },
+    {
+      "id": "vocab-022-001_05",
+      "kikuyu": "Gĩtĩ",
+      "english": "chair",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sitting Room Furniture"
+    },
+    {
+      "id": "vocab-022-001_06",
+      "kikuyu": "Gaturwa/Njĩngwa",
+      "english": "stool",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sitting Room Furniture"
+    },
+    {
+      "id": "vocab-022-002_01",
+      "kikuyu": "handyman/carpenter/plumber",
+      "english": "Bundi",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_02",
+      "kikuyu": "Mũrĩmi",
+      "english": "farmer",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_03",
+      "kikuyu": "driver",
+      "english": "Nđereba",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_04",
+      "kikuyu": "leaders",
+      "english": "Atongoria",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_05",
+      "kikuyu": "police",
+      "english": "Borithi",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_06",
+      "kikuyu": "Mũũbĩa",
+      "english": "priest/catholic",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_07",
+      "kikuyu": "Mũhũrĩri wa mbica",
+      "english": "photographer",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_08",
+      "kikuyu": "Mũgwĩmi",
+      "english": "hunter",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_09",
+      "kikuyu": "Mũrĩithia wa mahiũ",
+      "english": "herder of domestic animals",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_10",
+      "kikuyu": "iron mongers",
+      "english": "Aturi",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_11",
+      "kikuyu": "Ombi a nyũngũ",
+      "english": "potters",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-002_12",
+      "kikuyu": "Mũgo",
+      "english": "medicine person/traditional healer",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Professions & Jobs"
+    },
+    {
+      "id": "vocab-022-003_01",
+      "kikuyu": "scared",
+      "english": "Guoya",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_02",
+      "kikuyu": "happy",
+      "english": "Gikeno",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_03",
+      "kikuyu": "Kĩeha",
+      "english": "sad",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_04",
+      "kikuyu": "angry",
+      "english": "Marakara",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_05",
+      "kikuyu": "Ndũhĩo",
+      "english": "excited",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_06",
+      "kikuyu": "Kĩmako",
+      "english": "worried",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_07",
+      "kikuyu": "Kũhahũka",
+      "english": "surprised",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_08",
+      "kikuyu": "Ũrĩmũ",
+      "english": "silly",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_09",
+      "kikuyu": "Kwaga kũiganĩra",
+      "english": "frustrated",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_10",
+      "kikuyu": "Kũigua kĩnyiria",
+      "english": "to be disgusted",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    },
+    {
+      "id": "vocab-022-003_11",
+      "kikuyu": "Kũnyĩra",
+      "english": "to express disgust",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Emotions & Feelings"
+    }
+  ]
+}

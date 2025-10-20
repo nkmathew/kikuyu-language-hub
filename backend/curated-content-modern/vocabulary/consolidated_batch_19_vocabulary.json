@@ -1,0 +1,351 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.676038",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 28,
+    "description": "Consolidated entries for vocabulary batch 19 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.376582"
+  },
+  "entries": [
+    {
+      "id": "vocab-019-001_01",
+      "kikuyu": "look for Mwangi",
+      "english": "Caria Mwangi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Caria - Search/Look for"
+    },
+    {
+      "id": "vocab-019-001_02",
+      "kikuyu": "look for money",
+      "english": "Caria mbeca",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Caria - Search/Look for"
+    },
+    {
+      "id": "vocab-019-001_03",
+      "kikuyu": "Caria mahĩtia",
+      "english": "look for errors/mistakes",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Caria - Search/Look for"
+    },
+    {
+      "id": "vocab-019-002_01",
+      "kikuyu": "Gũcaria",
+      "english": "to search",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_02",
+      "kikuyu": "Gũcoka",
+      "english": "to return/come back-person",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_03",
+      "kikuyu": "Gũcokia",
+      "english": "to return-object",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_04",
+      "kikuyu": "Gũĩka",
+      "english": "to do",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_05",
+      "kikuyu": "Gũikara",
+      "english": "to stay",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_06",
+      "kikuyu": "Gũikara thĩ",
+      "english": "to sit down",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_07",
+      "kikuyu": "Gũikena",
+      "english": "to be happy",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_08",
+      "kikuyu": "Gũkinya",
+      "english": "to arrive/step on",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_09",
+      "kikuyu": "Gũthambia",
+      "english": "to wash",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_10",
+      "kikuyu": "Gũthĩĩ rũgendo",
+      "english": "to go on journey",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_11",
+      "kikuyu": "Gũthũkia",
+      "english": "to damage/spoil",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_12",
+      "kikuyu": "Gũtigara",
+      "english": "to remain",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_13",
+      "kikuyu": "Gũtinia",
+      "english": "to cut",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_14",
+      "kikuyu": "to wait",
+      "english": "Gweterera",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_15",
+      "kikuyu": "Gwĩcĩrĩria",
+      "english": "to think/reason",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-002_16",
+      "kikuyu": "Kũgeria",
+      "english": "to try",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs - Complete Set"
+    },
+    {
+      "id": "vocab-019-003_01",
+      "kikuyu": "Ritho/Maitho",
+      "english": "eye/eyes",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_02",
+      "kikuyu": "Mũtwe/Mĩtwe",
+      "english": "head/heads",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_03",
+      "kikuyu": "Mũkangi/Mĩkangi",
+      "english": "beak/beaks",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_04",
+      "kikuyu": "Ngingo",
+      "english": "neck",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_05",
+      "kikuyu": "Ĩthagu/Mathagu",
+      "english": "wings",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_06",
+      "kikuyu": "Ruoya/Njoya",
+      "english": "feather/feathers",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_07",
+      "kikuyu": "Mwĩrĩ/Mĩrĩ",
+      "english": "body/bodies",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_08",
+      "kikuyu": "Njoya cia Kĩngũĩ",
+      "english": "tail feathers",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    },
+    {
+      "id": "vocab-019-003_09",
+      "kikuyu": "Kũgũrũ/Magũrũ",
+      "english": "leg/legs",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Bird Parts (Cĩĩga cia nyoni)"
+    }
+  ]
+}

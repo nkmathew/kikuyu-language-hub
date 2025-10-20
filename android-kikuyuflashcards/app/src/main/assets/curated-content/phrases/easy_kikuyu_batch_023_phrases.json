@@ -7,9 +7,202 @@
       "233.txt",
       "234.txt"
     ],
-    "total_entries": 0,
-    "description": "Converted from easy_kikuyu_batch_023_phrases.json",
-    "last_updated": "2025-01-08T13:30:00Z"
+    "total_entries": 16,
+    "description": "Converted from easy_kikuyu_batch_023_phrases.json (Integrated split entries)",
+    "last_updated": "2025-10-20T22:37:41.926727"
   },
-  "entries": []
+  "entries": [
+    {
+      "id": "phrase-023-001_01",
+      "kikuyu": "Njĩĩra thogora wa cai",
+      "english": "tell me the price of tea",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_02",
+      "kikuyu": "Wendagia atĩa?",
+      "english": "how much do you sell?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_03",
+      "kikuyu": "Nĩ ũrendia goro",
+      "english": "you are selling expensively",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_04",
+      "kikuyu": "Nyenderia thubu",
+      "english": "sell to me soup",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_05",
+      "kikuyu": "Ngwĩnderie maĩ ma macungwa?",
+      "english": "may I sell to you orange juice?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_06",
+      "kikuyu": "Iria igagatu rĩna goro",
+      "english": "sour milk is expensive",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_09",
+      "kikuyu": "Thota nĩ ciringi mĩrongo ĩtatũ",
+      "english": "soda is 30 shillings",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_10",
+      "kikuyu": "Tĩ gĩkombe kĩa ũcũrũ?",
+      "english": "what about a cup of porridge?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-002_01",
+      "kikuyu": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe",
+      "english": "will you buy chicken? → buy chicken so we eat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_02",
+      "kikuyu": "Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe",
+      "english": "will you shut that door? → close all doors",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_03",
+      "kikuyu": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "english": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_04",
+      "kikuyu": "you will manage)",
+      "english": "you will manage)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_05",
+      "kikuyu": "Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha",
+      "english": "will you put money in bank? → put those eggs here",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_06",
+      "kikuyu": "Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya",
+      "english": "will you hit the ball? → hit the ball hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-001_07",
+      "kikuyu": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)",
+      "english": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-023-001_08",
+      "kikuyu": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)",
+      "english": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    }
+  ]
 }

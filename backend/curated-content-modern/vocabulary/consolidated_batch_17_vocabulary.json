@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.657191",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 31,
+    "description": "Consolidated entries for vocabulary batch 17 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.323292"
+  },
+  "entries": [
+    {
+      "id": "vocab-017-001_01",
+      "kikuyu": "Gītahuha",
+      "english": "puff adder",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Snake Species"
+    },
+    {
+      "id": "vocab-017-001_02",
+      "kikuyu": "Mūrarū",
+      "english": "green grass snake",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Snake Species"
+    },
+    {
+      "id": "vocab-017-001_03",
+      "kikuyu": "Gīīko",
+      "english": "cobra",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Snake Species"
+    },
+    {
+      "id": "vocab-017-002_01",
+      "kikuyu": "common cold",
+      "english": "Njooma",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Diseases & Health"
+    },
+    {
+      "id": "vocab-017-002_02",
+      "kikuyu": "Kīhuti",
+      "english": "cold sores around mouth",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Diseases & Health"
+    },
+    {
+      "id": "vocab-017-003_01",
+      "kikuyu": "Kĩũngũyũ / thamaki",
+      "english": "fish - singular",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Fish Vocabulary"
+    },
+    {
+      "id": "vocab-017-003_02",
+      "kikuyu": "Ciũngũyũ / thamaki",
+      "english": "several fish - plural",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Fish Vocabulary"
+    },
+    {
+      "id": "vocab-017-004_01",
+      "kikuyu": "tiny common black ants",
+      "english": "Thigiriri",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Ants & Insects"
+    },
+    {
+      "id": "vocab-017-004_02",
+      "kikuyu": "Thūraita",
+      "english": "large black ants",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Ants & Insects"
+    },
+    {
+      "id": "vocab-017-004_03",
+      "kikuyu": "Mūgagaca",
+      "english": "tiny brown ants",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Ants & Insects"
+    },
+    {
+      "id": "vocab-017-004_04",
+      "kikuyu": "soldier ants",
+      "english": "Thuraku",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Ants & Insects"
+    },
+    {
+      "id": "vocab-017-004_05",
+      "kikuyu": "Mūthūa",
+      "english": "termites",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Ants & Insects"
+    },
+    {
+      "id": "vocab-017-004_06",
+      "kikuyu": "wasp",
+      "english": "Igi",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Ants & Insects"
+    },
+    {
+      "id": "vocab-017-005_01",
+      "kikuyu": "Mũndũ ũmwe",
+      "english": "1 person",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_02",
+      "kikuyu": "Andũ erĩ",
+      "english": "2 people",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_03",
+      "kikuyu": "atatũ",
+      "english": "3",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_04",
+      "kikuyu": "ana",
+      "english": "4",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_05",
+      "kikuyu": "atano",
+      "english": "5",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_06",
+      "kikuyu": "atandatũ",
+      "english": "6",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_07",
+      "kikuyu": "mũgwanja",
+      "english": "7",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_08",
+      "kikuyu": "anana",
+      "english": "8",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_09",
+      "kikuyu": "kenda",
+      "english": "9",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_10",
+      "kikuyu": "ikũmi",
+      "english": "10",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-005_11",
+      "kikuyu": "ikũmi na ũmwe",
+      "english": "11",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers with People (Andũ)"
+    },
+    {
+      "id": "vocab-017-006_01",
+      "kikuyu": "light",
+      "english": "Ũtheri",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Light & Darkness Sources"
+    },
+    {
+      "id": "vocab-017-006_02",
+      "kikuyu": "darkness",
+      "english": "Nduma",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Light & Darkness Sources"
+    },
+    {
+      "id": "vocab-017-006_03",
+      "kikuyu": "moonlight & stars",
+      "english": "wa mweri na njata",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Light & Darkness Sources"
+    },
+    {
+      "id": "vocab-017-006_04",
+      "kikuyu": "electric light",
+      "english": "wa thitima",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Light & Darkness Sources"
+    },
+    {
+      "id": "vocab-017-006_05",
+      "kikuyu": "wa mũcũmaa",
+      "english": "candle",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Light & Darkness Sources"
+    },
+    {
+      "id": "vocab-017-006_06",
+      "kikuyu": "torch",
+      "english": "wa toci",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Light & Darkness Sources"
+    },
+    {
+      "id": "vocab-017-006_07",
+      "kikuyu": "wa mwaki wa ngũ",
+      "english": "firewood fire",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Light & Darkness Sources"
+    }
+  ]
+}

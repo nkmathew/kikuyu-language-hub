@@ -6,9 +6,82 @@
     "source_files": [
       "103.txt"
     ],
-    "total_entries": 0,
-    "description": "Converted from easy_kikuyu_batch_010_phrases.json",
-    "last_updated": "2025-01-08T06:30:00Z"
+    "total_entries": 6,
+    "description": "Converted from easy_kikuyu_batch_010_phrases.json (Integrated split entries)",
+    "last_updated": "2025-10-20T22:37:41.917379"
   },
-  "entries": []
+  "entries": [
+    {
+      "id": "phrase-010-001_01",
+      "kikuyu": "Rūci-inī",
+      "english": "morning",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_02",
+      "kikuyu": "Wīmwega rūci-inī?",
+      "english": "Are you well this morning?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_03",
+      "kikuyu": "Ndīmwega mūno",
+      "english": "I am very well",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_04",
+      "kikuyu": "Wathiī kū?",
+      "english": "Where are you going?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_05",
+      "kikuyu": "Ndathiī wīra",
+      "english": "I am going to work",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_06",
+      "kikuyu": "Ūrutaga wīra ūrīkū?",
+      "english": "Which work do you do?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    }
+  ]
 }

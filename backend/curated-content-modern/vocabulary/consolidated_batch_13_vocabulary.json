@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.630670",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 2,
+    "description": "Consolidated entries for vocabulary batch 13 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.208481"
+  },
+  "entries": [
+    {
+      "id": "vocab-013-002_01",
+      "kikuyu": "Igana rĩmwe",
+      "english": "100",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers - Large Values"
+    },
+    {
+      "id": "vocab-013-002_02",
+      "kikuyu": "Mirioni ĩmwe",
+      "english": "1,000,000",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Numbers - Large Values"
+    }
+  ]
+}

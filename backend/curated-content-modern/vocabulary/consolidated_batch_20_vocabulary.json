@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.683021",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 49,
+    "description": "Consolidated entries for vocabulary batch 20 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.400967"
+  },
+  "entries": [
+    {
+      "id": "vocab-020-001_01",
+      "kikuyu": "Gũthĩĩ",
+      "english": "to go",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_02",
+      "kikuyu": "Kũruga",
+      "english": "to cook",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_03",
+      "kikuyu": "Gũciara",
+      "english": "to give birth",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_04",
+      "kikuyu": "Kũrigita",
+      "english": "to nurse",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_05",
+      "kikuyu": "Kũrĩma",
+      "english": "to farm",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_06",
+      "kikuyu": "Kũũmba",
+      "english": "to mold with clay",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_07",
+      "kikuyu": "to want/love",
+      "english": "Kwenda",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_08",
+      "kikuyu": "Kũrwara",
+      "english": "to be sick",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-001_09",
+      "kikuyu": "Kũiya",
+      "english": "to steal",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Verb to Noun Formation (Agent Pattern)"
+    },
+    {
+      "id": "vocab-020-002_01",
+      "kikuyu": "Thibitarĩ",
+      "english": "hospital",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Hospital Vocabulary"
+    },
+    {
+      "id": "vocab-020-002_02",
+      "kikuyu": "Mũrwaru",
+      "english": "patient",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Hospital Vocabulary"
+    },
+    {
+      "id": "vocab-020-002_03",
+      "kikuyu": "Nđagĩtarĩ",
+      "english": "doctor",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Hospital Vocabulary"
+    },
+    {
+      "id": "vocab-020-002_04",
+      "kikuyu": "Mũrigitani",
+      "english": "nurse",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Hospital Vocabulary"
+    },
+    {
+      "id": "vocab-020-002_05",
+      "kikuyu": "Dagĩtarĩ wa magego",
+      "english": "dentist",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Hospital Vocabulary"
+    },
+    {
+      "id": "vocab-020-002_06",
+      "kikuyu": "Mĩthaiga/Nđawa",
+      "english": "medicine",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Hospital Vocabulary"
+    },
+    {
+      "id": "vocab-020-002_07",
+      "kikuyu": "Nđawa ya mbũrũgũtũ",
+      "english": "tablet",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Hospital Vocabulary"
+    },
+    {
+      "id": "vocab-020-003_01",
+      "kikuyu": "table",
+      "english": "Metha",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_02",
+      "kikuyu": "picture/photo",
+      "english": "Mbica",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_03",
+      "kikuyu": "Nyũngũ",
+      "english": "cooking pot",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_04",
+      "kikuyu": "Ngĩrathi",
+      "english": "glass",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_05",
+      "kikuyu": "plate",
+      "english": "Thaani",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_06",
+      "kikuyu": "iron for clothes",
+      "english": "Baathi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_07",
+      "kikuyu": "television",
+      "english": "Terebiceni",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_08",
+      "kikuyu": "saucepan",
+      "english": "Thaburia",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_09",
+      "kikuyu": "kettle",
+      "english": "Mbirika",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_10",
+      "kikuyu": "padlock",
+      "english": "Kuburi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_11",
+      "kikuyu": "keys",
+      "english": "Cabi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_12",
+      "kikuyu": "cow",
+      "english": "Ng'ombe",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_13",
+      "kikuyu": "he-goat",
+      "english": "Thenge",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_14",
+      "kikuyu": "Ngũkũ",
+      "english": "chicken/hen",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_15",
+      "kikuyu": "duck",
+      "english": "Mbata",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-003_16",
+      "kikuyu": "Ngigĩ",
+      "english": "grasshopper",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Class III Household & Animals"
+    },
+    {
+      "id": "vocab-020-004_01",
+      "kikuyu": "Kũgũra",
+      "english": "to buy",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_02",
+      "kikuyu": "Kũgwa",
+      "english": "to fall",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_03",
+      "kikuyu": "Kũhinga",
+      "english": "to close",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_04",
+      "kikuyu": "Kũhingũra",
+      "english": "to open",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_05",
+      "kikuyu": "Kũhota",
+      "english": "to manage/be able to do",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_06",
+      "kikuyu": "Kũiga",
+      "english": "to keep/place",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_07",
+      "kikuyu": "Kũmenya",
+      "english": "to know",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_08",
+      "kikuyu": "Kũnyita",
+      "english": "to catch/hold/understand",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_09",
+      "kikuyu": "Kũrehe",
+      "english": "to bring",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_10",
+      "kikuyu": "Kũringa",
+      "english": "to hit",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_11",
+      "kikuyu": "Kũrũga",
+      "english": "to cook",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_12",
+      "kikuyu": "Kũrũgama",
+      "english": "to stand",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_13",
+      "kikuyu": "Kũrũmĩrĩra",
+      "english": "to follow",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_14",
+      "kikuyu": "to say",
+      "english": "Kuuga",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_15",
+      "kikuyu": "to want/love",
+      "english": "Kwenda",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_16",
+      "kikuyu": "to sell",
+      "english": "Kwendia",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    },
+    {
+      "id": "vocab-020-004_17",
+      "kikuyu": "to forgive/tie for someone",
+      "english": "Kwohera",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Essential Verbs Set 2"
+    }
+  ]
+}
