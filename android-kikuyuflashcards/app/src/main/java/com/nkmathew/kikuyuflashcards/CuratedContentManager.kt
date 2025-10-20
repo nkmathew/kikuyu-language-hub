@@ -63,12 +63,19 @@ class CuratedContentManager(private val context: Context) {
                 return
             }
 
-            Log.d(TAG, "Found ${curatedFiles.size} curated content files")
+            Log.d(TAG, "🔍 DEBUG: Found ${curatedFiles.size} curated content files")
+            for ((index, filePath) in curatedFiles.withIndex()) {
+                Log.d(TAG, "🔍 DEBUG: File ${index + 1}: $filePath")
+            }
 
             // Load each curated file
-            for (filePath in curatedFiles) {
+            for ((index, filePath) in curatedFiles.withIndex()) {
+                Log.d(TAG, "🔍 DEBUG: Loading file ${index + 1}/${curatedFiles.size}: $filePath")
                 loadCuratedFile(filePath)
+                Log.d(TAG, "🔍 DEBUG: After loading $filePath, total entries: ${_allEntries.size}")
             }
+
+            Log.d(TAG, "🔍 DEBUG: FINAL TOTAL ENTRIES LOADED: ${_allEntries.size}")
 
         } catch (e: IOException) {
             Log.e(TAG, "Error accessing curated content directory: ${e.message}")
@@ -121,8 +128,13 @@ class CuratedContentManager(private val context: Context) {
                 val json = inputStream.bufferedReader().use { it.readText() }
 
                 try {
+                    Log.d(TAG, "🔍 DEBUG: Attempting to parse $filePath (JSON length: ${json.length})")
+
                     // Parse curated content
                     val curatedContent = gson.fromJson(json, CuratedContent::class.java)
+
+                    Log.d(TAG, "🔍 DEBUG: Successfully parsed $filePath")
+                    Log.d(TAG, "🔍 DEBUG: Entries count in $filePath: ${curatedContent.entries.size}")
 
                     // Store metadata with file path as key
                     _metadata[filePath] = curatedContent.metadata
@@ -130,12 +142,14 @@ class CuratedContentManager(private val context: Context) {
                     // Add entries to the master list
                     _allEntries.addAll(curatedContent.entries)
 
+                    Log.d(TAG, "🔍 DEBUG: After adding ${curatedContent.entries.size} entries from $filePath, total is now: ${_allEntries.size}")
                     Log.d(TAG, "Loaded ${curatedContent.entries.size} entries from $filePath")
                 } catch (e: com.google.gson.JsonSyntaxException) {
-                    Log.e(TAG, "Error parsing curated JSON file $filePath: ${e.message}")
+                    Log.e(TAG, "🔍 DEBUG: JSON Syntax Error parsing curated JSON file $filePath: ${e.message}")
                     // Continue with other files even if this one fails
                 } catch (e: Exception) {
-                    Log.e(TAG, "Unexpected error parsing curated JSON file $filePath: ${e.message}")
+                    Log.e(TAG, "🔍 DEBUG: Unexpected error parsing curated JSON file $filePath: ${e.message}")
+                    Log.e(TAG, "🔍 DEBUG: Error type: ${e.javaClass.simpleName}")
                     // Continue with other files even if this one fails
                 }
             }

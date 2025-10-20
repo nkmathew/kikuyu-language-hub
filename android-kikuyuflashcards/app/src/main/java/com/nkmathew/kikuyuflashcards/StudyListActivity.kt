@@ -214,7 +214,10 @@ class StudyListActivity : AppCompatActivity() {
      * Load cards and update the adapter
      */
     private fun loadCards() {
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Starting loadCards()")
+
         var cards = flashCardManager.getAllEntries()
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: flashCardManager.getAllEntries() returned ${cards.size} cards")
 
         // Apply sorting based on current sort mode
         cards = when (currentSortMode) {
@@ -226,14 +229,18 @@ class StudyListActivity : AppCompatActivity() {
         totalCards = cards.size
         cardsStudied = 0
 
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: After sorting and setting totalCards = $totalCards")
+
         // Load flagged cards
         flaggedCards.clear()
         flaggedCards.addAll(flagStorageService.getFlaggedItems())
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Loaded ${flaggedCards.size} flagged cards")
 
         studyListAdapter.updateCards(cards)
         studyListAdapter.setFlaggedCards(flaggedCards)
         studyListAdapter.updateProgress(totalCards, cardsStudied)
 
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Updated adapter with ${cards.size} cards")
         android.util.Log.d("StudyListActivity", "Loaded ${cards.size} study cards (in study mode, not expanding examples)")
     }
 
