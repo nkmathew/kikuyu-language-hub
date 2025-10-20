@@ -1,0 +1,743 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T20:30:00.000000+00:00",
+    "curator": "Consolidated Entries Script",
+    "source_files": [
+      "all_files"
+    ],
+    "total_entries": 24,
+    "description": "Consolidated entries for proverbs"
+  },
+  "entries": [
+    {
+      "id": "unknown-90034849",
+      "english": "the person in need is not ashamed",
+      "kikuyu": "Ũbataire ndaconokaga",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Traditional proverb teaching that those in need should not feel ashamed to ask for help",
+      "cultural_notes": "This proverb emphasizes Kikuyu cultural values of community support and removing stigma from asking for assistance",
+      "examples": [
+        {
+          "kikuyu": "Nĩ ũrabatara?",
+          "english": "Do you need?",
+          "context": "Also: Nĩ ũbataire?"
+        },
+        {
+          "kikuyu": "Kaĩ ũtangiconoka?",
+          "english": "Are you not ashamed?",
+          "context": "Kaĩ implies pity or regret"
+        }
+      ],
+      "grammatical_info": {
+        "related_verbs": [
+          {
+            "infinitive": "kũbatara",
+            "meaning": "to need",
+            "noun_form": "bata (need)"
+          },
+          {
+            "infinitive": "gũconoka",
+            "meaning": "to be ashamed"
+          },
+          {
+            "infinitive": "gũconora",
+            "meaning": "to shame (someone)"
+          }
+        ]
+      },
+      "tags": [
+        "community",
+        "support",
+        "shame",
+        "traditional values"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "unknown-04565065",
+      "english": "Cleverness is greater than strength",
+      "kikuyu": "Ũgĩ wakĩra hinya",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Traditional proverb emphasizing the value of intelligence over physical strength",
+      "cultural_notes": "This proverb teaches to rely more on brain power than brute force, a key value in Kikuyu wisdom tradition",
+      "grammatical_info": {
+        "related_terms": [
+          {
+            "term": "mũndũ mũgĩ",
+            "meaning": "clever person",
+            "part_of_speech": "noun phrase"
+          },
+          {
+            "term": "gũkĩra",
+            "meaning": "to surpass, to cross",
+            "part_of_speech": "verb"
+          }
+        ]
+      },
+      "tags": [
+        "wisdom",
+        "intelligence",
+        "strength",
+        "values",
+        "monday proverb"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "ek_proverb_batch001_001",
+      "english": "the person in need is not ashamed",
+      "kikuyu": "Ũbataire ndaconokaga",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 01",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "cultural_wisdom",
+      "context": "Traditional proverb teaching that those in need should not feel ashamed to ask for help",
+      "cultural_notes": "This proverb emphasizes Kikuyu cultural values of community support and removing stigma from asking for assistance",
+      "examples": [
+        {
+          "english": "Do you need?",
+          "kikuyu": "Nĩ ũrabatara?",
+          "context": "Also: Nĩ ũbataire?"
+        },
+        {
+          "english": "Are you not ashamed?",
+          "kikuyu": "Kaĩ ũtangiconoka?",
+          "context": "Kaĩ implies pity or regret"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "proverb",
+        "related_words": "kũbatara (to need), gũconoka (to be ashamed), gũconora (to shame)"
+      },
+      "tags": [
+        "community",
+        "support",
+        "shame",
+        "traditional values",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_batch001_002",
+      "english": "Cleverness is greater than strength",
+      "kikuyu": "Ũgĩ wakĩra hinya",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 014",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "wisdom_teaching",
+      "context": "Traditional proverb emphasizing the value of intelligence over physical strength. Monday proverb (Njumatatũ)",
+      "cultural_notes": "This proverb teaches to rely more on brain power than brute force, a key value in Kikuyu wisdom tradition",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "proverb",
+        "related_words": "ũgĩ (cleverness/wisdom), mũndũ mũgĩ (clever person), gũkĩra (to surpass), hinya (strength)"
+      },
+      "tags": [
+        "wisdom",
+        "intelligence",
+        "strength",
+        "values",
+        "monday proverb",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "prov-009-001",
+      "english": "God continues to love him/her",
+      "kikuyu": "O akiendagwo ni Ngai",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 085",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "prov-009-002",
+      "english": "Every person makes up his own bed",
+      "kikuyu": "O mũndũ athondekaga ũrĩrĩ wake",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 085",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-014-001",
+      "english": "Too many buffaloes do not have meat (Deal with one thing at a time)",
+      "kikuyu": "Mbogo Nyingĩ itirĩ Nyama",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 143",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-014-002",
+      "english": "Paying rent on time is not a good reason to increase the amount of rent",
+      "kikuyu": "Kūrīha nyūmba ūtegūcererwo tigītūmikīega gīa kuongerera nyūmba",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 144",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-015-001",
+      "english": "People who are alive do not rest (There is always work to be done in life)",
+      "kikuyu": "Andũ marĩ mũoyo matĩhurũkaga",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 153",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-015-002",
+      "english": "The one being chased and the one chasing, both get tired (Effort is expended by all parties in a strenuous endeavor)",
+      "kikuyu": "Mũingatwo na mũingatani, gũtirĩ ũtahũmaga",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 153",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-016-001",
+      "english": "A tree is straightened when young (Good manners and discipline should be instilled in children when they are young)",
+      "kikuyu": "Mũtĩ ũrũngagwo ũrĩ mũnini",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 159",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-017-001",
+      "english": "He/she that has saved something does not starve (Make a habit of saving for hard times)",
+      "kikuyu": "Wĩĩgĩire ndahũtaga",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 173",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-018-001",
+      "english": "Person with lame heart is not same as person with lame leg (It is not easy to know one with ill mind)",
+      "kikuyu": "Mũthua ngoro ti Mũthua Kũgũrũ",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 176",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-022-001",
+      "english": "People who are alive do not rest (People with life/spirit must keep working)",
+      "kikuyu": "Anđũ marĩ mũoyo matihurũkaga",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 220",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-022-002",
+      "english": "The one being chased and the one chasing, both get tired (In any conflict, both parties suffer)",
+      "kikuyu": "Mũingatwo na mũingatani, gũtirĩ ũtahũmaga",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 220",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "proverb-024-001",
+      "english": "The one who eats alone dies alone (Share what you have)",
+      "kikuyu": "Mũrĩa wiki, akuaga e wiki",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 238",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "ek_proverb_001",
+      "english": "the person in need is not ashamed (to ask for help)",
+      "kikuyu": "Ũbataire ndaconokaga",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Traditional Kikuyu wisdom",
+        "license": "educational_use"
+      },
+      "subcategory": "community_wisdom",
+      "context": "Central teaching about community support and asking for help",
+      "cultural_notes": "This profound proverb teaches that there is no shame in asking for help when genuinely in need. It emphasizes the importance of community support and mutual aid in Kikuyu culture. The proverb encourages humility and recognizes that everyone may face times of need.",
+      "examples": [
+        {
+          "english": "When someone asks for food, remember: the person in need is not ashamed",
+          "kikuyu": "Rĩrĩa mũndũ akwĩra irio, ririkana: ũbataire ndaconokaga",
+          "context": "Teaching compassion and community responsibility"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "proverb",
+        "key_verbs": [
+          "ũbataire (to be in need)",
+          "ndaconokaga (does not feel ashamed)"
+        ]
+      },
+      "tags": [
+        "community",
+        "help",
+        "shame",
+        "mutual_aid",
+        "wisdom",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_002",
+      "english": "Learn Kikuyu",
+      "kikuyu": "Wĩrute Gĩkũyũ",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Language preservation motto",
+        "license": "educational_use"
+      },
+      "subcategory": "educational_encouragement",
+      "context": "Educational encouragement for language learning",
+      "cultural_notes": "More than just a phrase, this represents the cultural movement to preserve and revitalize the Kikuyu language among younger generations. It emphasizes the importance of maintaining cultural identity through language.",
+      "examples": [
+        {
+          "english": "To the youth: Learn Kikuyu to connect with your heritage",
+          "kikuyu": "Kũrĩ aanake: Wĩrute Gĩkũyũ nĩguo wĩnyiitanĩre na ũrĩa ũrĩ waku",
+          "context": "Cultural preservation message"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "imperative_phrase",
+        "key_verbs": [
+          "wĩrute: learn (imperative form)"
+        ]
+      },
+      "tags": [
+        "education",
+        "language_learning",
+        "cultural_preservation",
+        "identity",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_003",
+      "english": "Do you need? / Are you in need?",
+      "kikuyu": "Nĩ ũrabatara?",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Traditional courtesy phrases",
+        "license": "educational_use"
+      },
+      "subcategory": "polite_inquiries",
+      "context": "Polite inquiry about someone's needs showing care and concern",
+      "cultural_notes": "This phrase embodies the Kikuyu value of checking on community members' wellbeing. It's a way of offering help without being intrusive, allowing the person to accept or decline assistance gracefully.",
+      "examples": [
+        {
+          "english": "When visiting neighbors: 'Are you in need of anything?'",
+          "kikuyu": "Rĩrĩa wathiĩte gwa andũ a itũũra: 'Nĩ ũrabatara kĩndũ?'",
+          "context": "Community care and neighborly concern"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "interrogative_phrase",
+        "key_verbs": [
+          "ũrabatara: you are in need (present tense)"
+        ]
+      },
+      "tags": [
+        "politeness",
+        "community_care",
+        "inquiry",
+        "compassion",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_004",
+      "english": "Are you not ashamed?",
+      "kikuyu": "Kaĩ ũtangiconoka?",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Traditional social expressions",
+        "license": "educational_use"
+      },
+      "subcategory": "social_correction",
+      "context": "Rhetorical question expressing surprise or disappointment at someone's behavior",
+      "cultural_notes": "This phrase is used when someone acts inappropriately or without proper consideration for others. It appeals to the person's sense of shame and social responsibility rather than directly confronting them.",
+      "examples": [
+        {
+          "english": "When someone acts selfishly: 'Are you not ashamed of such behavior?'",
+          "kikuyu": "Rĩrĩa mũndũ eka ũndũ wa kwĩenda: 'Kaĩ ũtangiconoka nĩ ũndũ ta ũcio?'",
+          "context": "Social correction through rhetorical questioning"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "rhetorical_question",
+        "key_verbs": [
+          "ũtangiconoka: you would not be ashamed"
+        ]
+      },
+      "tags": [
+        "shame",
+        "social_correction",
+        "behavior",
+        "community_standards",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_005",
+      "english": "Praise be to God, Lord of all the worlds",
+      "kikuyu": "Nĩ agathwo, mwathani wa thĩ ciothe",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Spiritual translations",
+        "license": "educational_use"
+      },
+      "subcategory": "spiritual_expressions",
+      "context": "Expression of divine praise in Kikuyu spiritual tradition",
+      "cultural_notes": "This phrase shows how Islamic and Christian concepts have been integrated into Kikuyu spiritual expression while maintaining the traditional understanding of Ngai (God) as the supreme being.",
+      "examples": [
+        {
+          "english": "At the beginning of prayer: 'Praise be to God, Lord of all the worlds'",
+          "kikuyu": "Rĩrĩa tũkwambĩrĩria gũhoya: 'Nĩ agathwo, mwathani wa thĩ ciothe'",
+          "context": "Opening of spiritual devotion"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "devotional_phrase",
+        "key_terms": [
+          "agathwo: praised/blessed",
+          "mwathani: lord/master"
+        ]
+      },
+      "tags": [
+        "spirituality",
+        "praise",
+        "divine",
+        "worship",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_006",
+      "english": "You alone we worship, and You alone we ask for help",
+      "kikuyu": "Nĩ wee wĩkĩ tũhoyaga na nĩ wee wĩkĩ twĩhokaga",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Spiritual translations",
+        "license": "educational_use"
+      },
+      "subcategory": "spiritual_expressions",
+      "context": "Expression of devotion in Kikuyu spiritual practice",
+      "cultural_notes": "This phrase emphasizes monotheistic devotion adapted to Kikuyu spiritual understanding. It combines worship (hoya) and seeking refuge (wehoka) in traditional Kikuyu religious concepts.",
+      "examples": [
+        {
+          "english": "In times of difficulty: 'You alone we worship, and You alone we ask for help'",
+          "kikuyu": "Ihinda-inĩ rĩa thĩĩna: 'Nĩ wee wĩkĩ tũhoyaga na nĩ wee wĩkĩ twĩhokaga'",
+          "context": "Seeking divine assistance during hardship"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "devotional_declaration",
+        "key_verbs": [
+          "tũhoyaga: we worship/pray to",
+          "twĩhokaga: we seek refuge in"
+        ]
+      },
+      "tags": [
+        "devotion",
+        "worship",
+        "help",
+        "monotheism",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_007",
+      "english": "Guide us on the Straight Path",
+      "kikuyu": "Tũtongorie njĩra-inĩ nyoroku",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Spiritual translations",
+        "license": "educational_use"
+      },
+      "subcategory": "spiritual_expressions",
+      "context": "Request for guidance in Kikuyu spiritual context",
+      "cultural_notes": "This prayer for guidance reflects the Kikuyu value of seeking wisdom and direction. The concept of the 'straight path' (njĩra nyoroku) aligns with traditional Kikuyu ethics of righteousness and proper conduct.",
+      "examples": [
+        {
+          "english": "When facing difficult decisions: 'Guide us on the Straight Path'",
+          "kikuyu": "Rĩrĩa tũgũthuurana ũhoro wa bata: 'Tũtongorie njĩra-inĩ nyoroku'",
+          "context": "Seeking divine guidance for moral decisions"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "prayer_request",
+        "key_verbs": [
+          "tũtongorie: guide us (imperative)"
+        ]
+      },
+      "tags": [
+        "guidance",
+        "righteousness",
+        "prayer",
+        "moral_direction",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_proverb_008",
+      "english": "Correct or add here (invitation for input)",
+      "kikuyu": "Rũngai kana mwongerere haha",
+      "category": "proverbs",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Collaborative learning phrases",
+        "license": "educational_use"
+      },
+      "subcategory": "collaborative_learning",
+      "context": "Invitation for correction or additional input in educational settings",
+      "cultural_notes": "This phrase embodies the Kikuyu tradition of collective learning and knowledge sharing. It shows humility in teaching and invites community participation in preserving and correcting cultural knowledge.",
+      "examples": [
+        {
+          "english": "After sharing a story: 'Please correct or add anything here'",
+          "kikuyu": "Thuutha wa kũhe rũgano: 'Rũngai kana mwongerere haha'",
+          "context": "Community knowledge verification and enhancement"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "invitation_phrase",
+        "key_verbs": [
+          "rũngai: correct (imperative)",
+          "mwongerere: add to (imperative)"
+        ]
+      },
+      "tags": [
+        "collaboration",
+        "learning",
+        "correction",
+        "community_input",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

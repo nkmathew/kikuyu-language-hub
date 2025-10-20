@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T20:30:00.000000+00:00",
+    "curator": "Consolidated Entries Script",
+    "source_files": [
+      "all_files"
+    ],
+    "total_entries": 2,
+    "description": "Consolidated entries for cultural"
+  },
+  "entries": [
+    {
+      "id": "unknown-94518682",
+      "english": "Surah Al-Fatiha - The Opening",
+      "kikuyu": "Surah Fatiha - Kĩambĩrĩria",
+      "category": "cultural",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Translation of the first chapter of the Quran into Kikuyu, demonstrating religious and spiritual vocabulary",
+      "cultural_notes": "This translation shows the integration of Islamic faith within Kikuyu-speaking communities and demonstrates advanced religious vocabulary",
+      "examples": [
+        {
+          "kikuyu": "Ngai",
+          "english": "God",
+          "context": "Supreme being"
+        },
+        {
+          "kikuyu": "mwathani",
+          "english": "master/lord",
+          "context": "Title of authority"
+        },
+        {
+          "kikuyu": "tha",
+          "english": "mercy",
+          "context": "Divine attribute"
+        },
+        {
+          "kikuyu": "gũtua ciira",
+          "english": "to judge",
+          "context": "Legal/judicial terminology"
+        },
+        {
+          "kikuyu": "njĩra nyoroku",
+          "english": "straight path",
+          "context": "Metaphor for righteousness"
+        }
+      ],
+      "tags": [
+        "religion",
+        "Islam",
+        "spiritual",
+        "Quran",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "ek_cultural_batch001_001",
+      "english": "In the name of God, the Most Gracious, the Most Merciful",
+      "kikuyu": "Na rĩtwa rĩa Ngai, mũtana, ũrĩ tha nyingĩ",
+      "category": "cultural",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 010",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons (Quran Fatiha translation)",
+        "license": "educational_use",
+        "original_language": "Arabic"
+      },
+      "subcategory": "religious_vocabulary",
+      "context": "Translation of the opening verse (Bismillah) from Surah Al-Fatiha, the first chapter of the Quran",
+      "cultural_notes": "This translation shows the integration of Islamic faith within Kikuyu-speaking communities and demonstrates advanced religious vocabulary. The complete Fatiha translation demonstrates how Arabic religious concepts are expressed in Kikuyu.",
+      "examples": [
+        {
+          "english": "Master of the Day of Judgment",
+          "kikuyu": "Mwathani wa mũthenya wa gũtua ciira",
+          "context": "Verse 4 of Fatiha - eschatological reference"
+        },
+        {
+          "english": "Guide us on the Straight Path",
+          "kikuyu": "Tũtongorie njĩra-inĩ nyoroku",
+          "context": "Verse 6 of Fatiha - supplication for guidance"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "religious_terms": "Ngai (God), mwathani (master/lord), tha (mercy), gũtua ciira (to judge), njĩra nyoroku (straight path)"
+      },
+      "tags": [
+        "religion",
+        "Islam",
+        "spiritual",
+        "Quran",
+        "advanced",
+        "religious vocabulary"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}
