@@ -1,0 +1,4654 @@
+[
+  {
+    "kikuyu": "Ndanyua cai na ndarĩa mũgate",
+    "english": "I drank tea and ate bread"
+  },
+  {
+    "kikuyu": "Nyuire cai na ndĩrĩre mũgate",
+    "english": "I drank tea and ate bread"
+  },
+  {
+    "kikuyu": "Ndanyua cai na ndarĩa mũgate",
+    "english": "I drank tea and ate bread"
+  },
+  {
+    "kikuyu": "Nyuire cai na ndĩrĩre mũgate",
+    "english": "I drank tea and ate bread"
+  },
+  {
+    "kikuyu": "Ndokĩra dagĩka ikũmi ciathira",
+    "english": "I woke up ten minutes ago"
+  },
+  {
+    "kikuyu": "Akia - Ndakia | Njakirĩrie",
+    "english": "To light - I lit - I lit earlier today"
+  },
+  {
+    "kikuyu": "Ndĩra-/Tũra- (present action markers)",
+    "english": "I am/We are (present progressive action)"
+  },
+  {
+    "kikuyu": "Ihinda rĩrĩa rĩgooka (future time)",
+    "english": "The future time (tomorrow or any future time)"
+  },
+  {
+    "kikuyu": "Ûgû/Ûgwî/Ûkwî/Ûkû (today future) vs Ûgo/Ûge/Ûke/Ûga (tomorrow future)",
+    "english": "Second person future tense - today vs tomorrow/beyond"
+  },
+  {
+    "kikuyu": "Ngo/Nga/Nge (first person tomorrow future)",
+    "english": "First person future tense - tomorrow and beyond"
+  },
+  {
+    "kikuyu": "Ngû/Ngwî (first person today future)",
+    "english": "First person future tense - moments later or anytime today"
+  },
+  {
+    "kikuyu": "Ndî/Wî/E/Me/Twî/Mwî + na",
+    "english": "Auxiliary verb 'to have' - all persons"
+  },
+  {
+    "kikuyu": "Hûra (beat/strike) → Hûrîra (beat for)",
+    "english": "Verb 'Hûra' - multiple meanings: beat, iron, wash, start, call"
+  },
+  {
+    "kikuyu": "Nguuga mbu",
+    "english": "I made a distress sound"
+  },
+  {
+    "kikuyu": "Nwahuha mîruri",
+    "english": "I whistled"
+  },
+  {
+    "kikuyu": "Ngamba",
+    "english": "I made a sound"
+  },
+  {
+    "kikuyu": "Nwanegenia",
+    "english": "I made noise"
+  },
+  {
+    "kikuyu": "Narîa",
+    "english": "I spoke"
+  },
+  {
+    "kikuyu": "Ngiaya",
+    "english": "I yelled"
+  },
+  {
+    "kikuyu": "Noina",
+    "english": "I sang"
+  },
+  {
+    "kikuyu": "Gũkorwo haha (andũ othe)",
+    "english": "Present location - to be here (all persons)"
+  },
+  {
+    "kikuyu": "Gucia (mĩthemba yothe)",
+    "english": "To pull (verb in all tenses)"
+  },
+  {
+    "kikuyu": "Gũtĩndĩka (ithuĩ)",
+    "english": "To push (we form in all tenses)"
+  },
+  {
+    "kikuyu": "Gũthamba (ihinda rĩa hakuhĩ - andũ othe)",
+    "english": "To wash/bathe (near past - all persons)"
+  },
+  {
+    "kikuyu": "Gũthamba (matukũ marĩ ngʼanya - nĩĩ)",
+    "english": "To wash/bathe (different time periods - 1st person)"
+  },
+  {
+    "kikuyu": "Kũgĩa na (ihinda rĩa tene - ngʼanya)",
+    "english": "To have (past time distinctions)"
+  },
+  {
+    "kikuyu": "Ciũria na macokio ma ihinda rĩrathira",
+    "english": "Perfect tense questions and answers"
+  },
+  {
+    "kikuyu": "Kugarũra mĩario ya andũ arĩa matiarĩa na arĩa marĩa",
+    "english": "Conjugation conversions between persons"
+  },
+  {
+    "kikuyu": "Ciĩko cia nĩĩ na ithuĩ (mũtugo)",
+    "english": "First person habitual actions (I/we forms)"
+  },
+  {
+    "kikuyu": "Kũrĩa andũ marĩ: rĩu na tene ũmũthĩ",
+    "english": "Location expressions: now vs earlier today"
+  },
+  {
+    "kikuyu": "Ciũria cia menyerero ya nyamũ cia gĩthaka",
+    "english": "Experience questions about wildlife"
+  },
+  {
+    "kikuyu": "Kũaria - andũ othe (mũtugo)",
+    "english": "To speak (aria) - all persons habitual form"
+  },
+  {
+    "kikuyu": "Nĩĩ/Ithuĩ na mĩtugo ya rĩu",
+    "english": "First person present habitual with pronouns"
+  },
+  {
+    "kikuyu": "Mĩario ya We/O (arĩa marathiĩ)",
+    "english": "Third person present progressive (he/she/they)"
+  },
+  {
+    "kikuyu": "Mĩario ya Wee/Inyuĩ (arĩa marathiĩ)",
+    "english": "Second person present progressive (you singular/plural)"
+  },
+  {
+    "kikuyu": "Future Tense - Later Today (2nd & 3rd Person)",
+    "english": "Future Tense - Later Today (2nd & 3rd Person)"
+  },
+  {
+    "kikuyu": "Past Tense - Two Types (Moments Ago & Early Today)",
+    "english": "Past Tense - Two Types (Moments Ago & Early Today)"
+  },
+  {
+    "kikuyu": "Conditional Tense (Kũmenya - to know)",
+    "english": "Conditional Tense (Kũmenya - to know)"
+  },
+  {
+    "kikuyu": "1st Person Future Tense - Later Today (with Dahl's Law)",
+    "english": "1st Person Future Tense - Later Today (with Dahl's Law)"
+  },
+  {
+    "kikuyu": "Sound & Feeling Verbs - Past & Future Conjugation",
+    "english": "Sound & Feeling Verbs - Past & Future Conjugation"
+  },
+  {
+    "kikuyu": "Conditional Tense 2 - Gũthoma (to read/learn)",
+    "english": "Conditional Tense 2 - Gũthoma (to read/learn)"
+  },
+  {
+    "kikuyu": "3rd Person Present Progressive - Complete",
+    "english": "3rd Person Present Progressive - Complete"
+  },
+  {
+    "kikuyu": "1st & 2nd Person Present Progressive",
+    "english": "1st & 2nd Person Present Progressive"
+  },
+  {
+    "kikuyu": "andĩka",
+    "english": "write"
+  },
+  {
+    "kikuyu": "enda",
+    "english": "go"
+  },
+  {
+    "kikuyu": "enda",
+    "english": "want/like"
+  },
+  {
+    "kikuyu": "gũra",
+    "english": "buy"
+  },
+  {
+    "kikuyu": "gwata",
+    "english": "catch/hold"
+  },
+  {
+    "kikuyu": "hitha",
+    "english": "think"
+  },
+  {
+    "kikuyu": "hota",
+    "english": "be able/can"
+  },
+  {
+    "kikuyu": "hoya",
+    "english": "ask/request"
+  },
+  {
+    "kikuyu": "iga",
+    "english": "learn"
+  },
+  {
+    "kikuyu": "igua",
+    "english": "hear/feel"
+  },
+  {
+    "kikuyu": "ĩka",
+    "english": "do/make"
+  },
+  {
+    "kikuyu": "geria",
+    "english": "try"
+  },
+  {
+    "kikuyu": "enja",
+    "english": "dig"
+  },
+  {
+    "kikuyu": "Surah Fatiha - Kĩambĩrĩria",
+    "english": "Surah Al-Fatiha - The Opening"
+  },
+  {
+    "kikuyu": "Na rĩtwa rĩa Ngai, mũtana, ũrĩ tha nyingĩ",
+    "english": "In the name of God, the Most Gracious, the Most Merciful"
+  },
+  {
+    "kikuyu": "Gũtara kũringana na ĩ-rĩa-mĩ-kĩ",
+    "english": "Counting in Noun Classes"
+  },
+  {
+    "kikuyu": "Ciugo cia kũnyiitithania",
+    "english": "Conjunctions (connecting words)"
+  },
+  {
+    "kikuyu": "Kũringana kwa mathimo na ĩ-rĩa-mĩ-kĩ",
+    "english": "Adjective agreement with noun classes"
+  },
+  {
+    "kikuyu": "Kũringana kwa mathimo ma ũhoro",
+    "english": "Adjective agreement - descriptive adjectives"
+  },
+  {
+    "kikuyu": "Rũthĩ rwa 'ũru'",
+    "english": "Adjective stem for 'bad' - ũru"
+  },
+  {
+    "kikuyu": "Kũringana kwa mathimo ma rangi na ũnene",
+    "english": "Adjective agreement - color and size adjectives"
+  },
+  {
+    "kikuyu": "mathimo marumagĩrĩra marĩĩtwa",
+    "english": "Kikuyu adjective structure - adjectives follow nouns"
+  },
+  {
+    "kikuyu": "kiugo kĩa gũteithia 'kũgĩa na'",
+    "english": "auxiliary verb 'to have' - all persons"
+  },
+  {
+    "kikuyu": "macio ma gũonia andũ marĩ gĩtĩĩo",
+    "english": "demonstratives for respected persons"
+  },
+  {
+    "kikuyu": "Hûthîra ciugo ici gûtunga ûhoro wa maûndû megwîkîka",
+    "english": "Write these words in future tenses (practice exercise)"
+  },
+  {
+    "kikuyu": "No (particle)",
+    "english": "Monosyllable 'No' - versatile modifier meaning but/just/can/may/only"
+  },
+  {
+    "kikuyu": "No + present tense",
+    "english": "'No' with present tense = still/yet (ongoing action)"
+  },
+  {
+    "kikuyu": "O (particle)",
+    "english": "Monosyllable 'O' - them/any/even/whenever modifier"
+  },
+  {
+    "kikuyu": "Monosyllable words: Ha, He, Ke, Ma, Nda, Nja, No, O, Ta",
+    "english": "Nine essential monosyllables with distinct meanings"
+  },
+  {
+    "kikuyu": "Class III Nouns - Invariant Plural",
+    "english": "Class III Nouns - Invariant Plural"
+  },
+  {
+    "kikuyu": "Numbers 1-11 with Noun Agreement",
+    "english": "Numbers 1-11 with Noun Agreement"
+  },
+  {
+    "kikuyu": "Reversible Action Verb Pairs (Do and Undo)",
+    "english": "Reversible Action Verb Pairs (Do and Undo)"
+  },
+  {
+    "kikuyu": "Conjunctions - Temporal and Logical Connectors",
+    "english": "Conjunctions - Temporal and Logical Connectors"
+  },
+  {
+    "kikuyu": "Auxiliary Verb 'Na' (to have) - All Persons",
+    "english": "Auxiliary Verb 'Na' (to have) - All Persons"
+  },
+  {
+    "kikuyu": "Object Concords with 'na' - Simple Examples",
+    "english": "Object Concords with 'na' - Simple Examples"
+  },
+  {
+    "kikuyu": "Complete Object Concord System by Noun Class",
+    "english": "Complete Object Concord System by Noun Class"
+  },
+  {
+    "kikuyu": "Demonstrative Agreement - Class 1 & 4",
+    "english": "Demonstrative Agreement - Class 1 & 4"
+  },
+  {
+    "kikuyu": "Frequency Adverbs",
+    "english": "Frequency Adverbs"
+  },
+  {
+    "kikuyu": "Noun Class 4 & Diminutive Class",
+    "english": "Noun Class 4 & Diminutive Class"
+  },
+  {
+    "kikuyu": "Consonant Examples (g, h, k)",
+    "english": "Consonant Examples (g, h, k)"
+  },
+  {
+    "kikuyu": "Conjunctions - Complete System",
+    "english": "Conjunctions - Complete System"
+  },
+  {
+    "kikuyu": "Future Tenses - Near vs Distant",
+    "english": "Future Tenses - Near vs Distant"
+  },
+  {
+    "kikuyu": "Kaĩ Question Particle & Emphatic Marker",
+    "english": "Kaĩ Question Particle & Emphatic Marker"
+  },
+  {
+    "kikuyu": "Agent/Patient Noun Formation (Review)",
+    "english": "Agent/Patient Noun Formation (Review)"
+  },
+  {
+    "kikuyu": "Imperative Forms (Commands)",
+    "english": "Imperative Forms (Commands)"
+  },
+  {
+    "kikuyu": "Benefactive Suffix -ĩra/-era",
+    "english": "Benefactive Suffix -ĩra/-era"
+  },
+  {
+    "kikuyu": "Class III Noun Plural Invariance",
+    "english": "Class III Noun Plural Invariance"
+  },
+  {
+    "kikuyu": "Consonant Practice Sentences - T, Th, Ny",
+    "english": "Consonant Practice Sentences - T, Th, Ny"
+  },
+  {
+    "kikuyu": "Large Numbers System (11-1,000,000)",
+    "english": "Large Numbers System (11-1,000,000)"
+  },
+  {
+    "kikuyu": "Consonant Practice - B, C, Nđ (D)",
+    "english": "Consonant Practice - B, C, Nđ (D)"
+  },
+  {
+    "kikuyu": "Sequential Actions - 'Before' Construction (Tana)",
+    "english": "Sequential Actions - 'Before' Construction (Tana)"
+  },
+  {
+    "kikuyu": "Time System - African vs Western Hours",
+    "english": "Time System - African vs Western Hours"
+  },
+  {
+    "kikuyu": "Negative Sentences - Future & Present",
+    "english": "Negative Sentences - Future & Present"
+  },
+  {
+    "kikuyu": "Consonant Pronunciation Practice - G, H, K",
+    "english": "Consonant Pronunciation Practice - G, H, K"
+  },
+  {
+    "kikuyu": "Personal Pronouns - Complete System",
+    "english": "Personal Pronouns - Complete System"
+  },
+  {
+    "kikuyu": "Verb -ruta - Multiple Meanings & Extensions",
+    "english": "Verb -ruta - Multiple Meanings & Extensions"
+  },
+  {
+    "kikuyu": "Passive Voice & Reflexive - Advanced Grammar",
+    "english": "Passive Voice & Reflexive - Advanced Grammar"
+  },
+  {
+    "kikuyu": "Wĩ mwega?",
+    "english": "How are you?"
+  },
+  {
+    "kikuyu": "Wĩhoro",
+    "english": "Good morning"
+  },
+  {
+    "kikuyu": "Nĩ wega",
+    "english": "Thank you"
+  },
+  {
+    "kikuyu": "Wĩtagwo atĩa?",
+    "english": "What is your name?"
+  },
+  {
+    "kikuyu": "Ndagũthaitha",
+    "english": "Please"
+  },
+  {
+    "kikuyu": "Ndire na mũgũnda",
+    "english": "I don't have a farm"
+  },
+  {
+    "kikuyu": "Endia kĩrĩa ukwenda, ona mũgũnda",
+    "english": "Sell what you like, even land"
+  },
+  {
+    "kikuyu": "Nĩ kĩĩ wĩ na kĩo gĩa kwendia?",
+    "english": "What do you have to sell?"
+  },
+  {
+    "kikuyu": "Ũmũthĩ nĩ wagatano",
+    "english": "Today is Friday"
+  },
+  {
+    "kikuyu": "Ũmũthĩ nĩ wagatatũ",
+    "english": "Today is Wednesday"
+  },
+  {
+    "kikuyu": "Andĩka hau thĩ na uuge ũrĩa ciugo ciaku citaũragwo",
+    "english": "Write down there (in the comments) and state what your words mean"
+  },
+  {
+    "kikuyu": "Withambe moko",
+    "english": "Wash your hands (6-step instructions)"
+  },
+  {
+    "kikuyu": "kĩnyũmba kĩmwe kinene",
+    "english": "one bigish big house"
+  },
+  {
+    "kikuyu": "ũhoro na kũnyita ũgeni",
+    "english": "greetings and welcome phrases"
+  },
+  {
+    "kikuyu": "wĩ wika, wĩ nyika",
+    "english": "you alone"
+  },
+  {
+    "kikuyu": "mweri ũyũ nĩ tũmenye tũnyamũ tũrĩa tũtambaga",
+    "english": "this month let's get to know crawling insects"
+  },
+  {
+    "kikuyu": "nî ûrî waingîra nyûmba ya mbaû?",
+    "english": "have you ever entered a timber house?"
+  },
+  {
+    "kikuyu": "nî ûrî wakoma nyûmba îgîtîtwo na maturubarî?",
+    "english": "have you ever slept in a house with a tiled roof?"
+  },
+  {
+    "kikuyu": "nyũmba ĩno ya mbaũ yoetwo igũrũ ta ikũmbĩ",
+    "english": "this timber house is raised like a granary"
+  },
+  {
+    "kikuyu": "nî ûrî wona nyûmba ya ndooro?",
+    "english": "have you ever seen a mud hut?"
+  },
+  {
+    "kikuyu": "Mwanake wakwa arî itimû nda",
+    "english": "My son has his spear in his stomach (Riddle: Bee)"
+  },
+  {
+    "kikuyu": "Mbûrî ciathîî mbere ciatiga gîtune thutha",
+    "english": "The goats have gone ahead leaving redness behind (Riddle: Dust)"
+  },
+  {
+    "kikuyu": "Warîmîrwo mûgûnda ûtatûmanîte",
+    "english": "Your farm has been ploughed without your consent (Riddle: Flash flood)"
+  },
+  {
+    "kikuyu": "Mwatheîi na mûndû ûtegûkwîra hurûka",
+    "english": "You have walked with a person who does not ask to rest (Riddle: Shadow)"
+  },
+  {
+    "kikuyu": "Twakûhoya ûtûhonokie harî nyamû cîîtagwo andû",
+    "english": "We pray to you to save us from animals called humans"
+  },
+  {
+    "kikuyu": "Wamĩiga ha?",
+    "english": "Where have you put it?"
+  },
+  {
+    "kikuyu": "Nũũ wainaga ndaci ici, na ciainagwo atia?",
+    "english": "Who danced these dances, and how were they danced?"
+  },
+  {
+    "kikuyu": "Rūci-inī",
+    "english": "morning"
+  },
+  {
+    "kikuyu": "Wīmwega rūci-inī?",
+    "english": "Are you well this morning?"
+  },
+  {
+    "kikuyu": "Ndīmwega mūno",
+    "english": "I am very well"
+  },
+  {
+    "kikuyu": "Wathiī kū?",
+    "english": "Where are you going?"
+  },
+  {
+    "kikuyu": "Ndathiī wīra",
+    "english": "I am going to work"
+  },
+  {
+    "kikuyu": "Ūrutaga wīra ūrīkū?",
+    "english": "Which work do you do?"
+  },
+  {
+    "kikuyu": "Twīre wīra ūrīa ūrutaga",
+    "english": "Tell us the work you do"
+  },
+  {
+    "kikuyu": "Wîtagwo atĩa?",
+    "english": "What's your name?"
+  },
+  {
+    "kikuyu": "Njitagwo [name]",
+    "english": "My name is..."
+  },
+  {
+    "kikuyu": "Wî mwega?",
+    "english": "How are you?"
+  },
+  {
+    "kikuyu": "Ndî mwega mûno",
+    "english": "I'm very fine"
+  },
+  {
+    "kikuyu": "Eha [name]?",
+    "english": "Where is...?"
+  },
+  {
+    "kikuyu": "Ûyû haha",
+    "english": "Here he/she is"
+  },
+  {
+    "kikuyu": "Ũyũ nĩ mũciĩ mũnene wa Nairobi",
+    "english": "This is the city of Nairobi"
+  },
+  {
+    "kikuyu": "Taũni nene ya Nairobi",
+    "english": "The big town of Nairobi"
+  },
+  {
+    "kikuyu": "Gaũdencia e Ol-jororok",
+    "english": "Gaudencia is in Ol-jororok"
+  },
+  {
+    "kikuyu": "We wĩkũ?",
+    "english": "Where are you?"
+  },
+  {
+    "kikuyu": "Kwanyu kũhana atĩa?",
+    "english": "How is your place?"
+  },
+  {
+    "kikuyu": "Kwĩna heho kana mbura?",
+    "english": "Is it cold or rainy?"
+  },
+  {
+    "kikuyu": "Kana kwĩna riũwa?",
+    "english": "Or is it sunny?"
+  },
+  {
+    "kikuyu": "Gwitũ kũrĩ na rũhuho",
+    "english": "Our place is windy"
+  },
+  {
+    "kikuyu": "Nĩ thaa cĩgana?",
+    "english": "What time is it?"
+  },
+  {
+    "kikuyu": "Nĩ thaa igĩrĩ na nuthu",
+    "english": "It is 8:30 (half past eight)"
+  },
+  {
+    "kikuyu": "Nĩ thaa ĩthatũ itigarĩtie ndagĩka ikũmi na ithano",
+    "english": "It is 9:45 (quarter to 10)"
+  },
+  {
+    "kikuyu": "Ũyũ nĩ baba",
+    "english": "This is father"
+  },
+  {
+    "kikuyu": "Ũyũ ũngĩ nĩ maitũ",
+    "english": "This other one is mother"
+  },
+  {
+    "kikuyu": "Tũrũgamĩte na mwarĩ wa maitũ",
+    "english": "We are standing with my sister"
+  },
+  {
+    "kikuyu": "Ũcio mũraihu nĩ mama",
+    "english": "The tall one is my uncle"
+  },
+  {
+    "kikuyu": "Baba arahũra mbica",
+    "english": "Father is taking photographs"
+  },
+  {
+    "kikuyu": "Ndĩ mũrwaru",
+    "english": "I am sick"
+  },
+  {
+    "kikuyu": "Ndiraiguia wega",
+    "english": "I'm not feeling well"
+  },
+  {
+    "kikuyu": "Thĩĩ thibitarĩ",
+    "english": "Go to hospital"
+  },
+  {
+    "kikuyu": "Ũraatũũrwo nĩ kũ?",
+    "english": "Where are you hurting?"
+  },
+  {
+    "kikuyu": "Ndiraatũũrwo nĩ mũtwee",
+    "english": "I have a headache"
+  },
+  {
+    "kikuyu": "Nĩ ũraatũũrwo nĩ nda?",
+    "english": "Do you have a stomachache?"
+  },
+  {
+    "kikuyu": "O na igego nĩ rĩraatũũra",
+    "english": "I also have a toothache"
+  },
+  {
+    "kikuyu": "Thĩĩ wone ndagĩtarĩ wa magego",
+    "english": "Go see a dentist"
+  },
+  {
+    "kikuyu": "Ko ko ko",
+    "english": "Knock knock knock (knocking sound)"
+  },
+  {
+    "kikuyu": "Nũũ?",
+    "english": "Who is it?"
+  },
+  {
+    "kikuyu": "Nĩ nĩĩ",
+    "english": "It is me"
+  },
+  {
+    "kikuyu": "Njeri wa ũ?",
+    "english": "Whose Njeri? / Who is your father?"
+  },
+  {
+    "kikuyu": "Wee wĩ mũgeni",
+    "english": "You are a visitor"
+  },
+  {
+    "kikuyu": "Ingĩra",
+    "english": "Enter"
+  },
+  {
+    "kikuyu": "Nyua cai",
+    "english": "Take tea / Have tea"
+  },
+  {
+    "kikuyu": "Thĩĩ na wega",
+    "english": "Go in peace"
+  },
+  {
+    "kikuyu": "Korwoi na wikendi njega",
+    "english": "Have a good weekend"
+  },
+  {
+    "kikuyu": "Hĩ! Kaĩ kwĩna heho-ĩ!",
+    "english": "Lo! It is very cold!"
+  },
+  {
+    "kikuyu": "Kaĩ wĩ mũrũaru?",
+    "english": "Are you sick?"
+  },
+  {
+    "kikuyu": "Wanjũrĩa ũguo nĩkĩ?",
+    "english": "Why do you ask me that?"
+  },
+  {
+    "kikuyu": "Tondũ gũtirĩ na heho",
+    "english": "Because it is not cold"
+  },
+  {
+    "kikuyu": "We! Ta ĩkĩra burana",
+    "english": "You! Just put on a cardigan"
+  },
+  {
+    "kikuyu": "Kwĩna ũrugarĩ",
+    "english": "It is hot/warm"
+  },
+  {
+    "kikuyu": "Urenda kũrũarara?",
+    "english": "Do you want to fall sick?"
+  },
+  {
+    "kikuyu": "Ngwĩhũmba burana na kabuti",
+    "english": "I will wear a cardigan and an overcoat"
+  },
+  {
+    "kikuyu": "Nī ndīrakena na gīthūmū gīkī",
+    "english": "I am happy with this lesson"
+  },
+  {
+    "kikuyu": "Rũgama na mwena",
+    "english": "Stand on the side"
+  },
+  {
+    "kikuyu": "Gũrĩra mũgate na iria",
+    "english": "Buy me bread"
+  },
+  {
+    "kikuyu": "Aria na arata aku",
+    "english": "Speak to your friends"
+  },
+  {
+    "kikuyu": "Hinga mũrango tuthĩĩ",
+    "english": "Close the door and let us go"
+  },
+  {
+    "kikuyu": "Hingũra ibuku tuthoome",
+    "english": "Open the book we read"
+  },
+  {
+    "kikuyu": "Njeri wa Njoroge",
+    "english": "Njeri daughter of Njoroge"
+  },
+  {
+    "kikuyu": "Nĩĩ ndainuka",
+    "english": "I am off home / I'm leaving now"
+  },
+  {
+    "kikuyu": "Mũirĩtu ũyũ",
+    "english": "This girl"
+  },
+  {
+    "kikuyu": "Aĩrĩtu aya",
+    "english": "These girls"
+  },
+  {
+    "kikuyu": "Ũyũ nũũ?",
+    "english": "Who is this?"
+  },
+  {
+    "kikuyu": "Aya nĩ a?",
+    "english": "Who are these?"
+  },
+  {
+    "kikuyu": "Etagwo atĩa?",
+    "english": "What is his/her name?"
+  },
+  {
+    "kikuyu": "Nĩ waragia gĩkũyũ?",
+    "english": "Do you speak Kikuyu?"
+  },
+  {
+    "kikuyu": "Aria na nĩĩ",
+    "english": "Speak to me / Talk with me"
+  },
+  {
+    "kikuyu": "Nĩĩtũcemanie",
+    "english": "Let's meet"
+  },
+  {
+    "kikuyu": "Ũkwenda tũcemanie kũ?",
+    "english": "Where do you want us to meet?"
+  },
+  {
+    "kikuyu": "Nĩ tũcemanie mũkawainĩ",
+    "english": "Let us meet at a hotel"
+  },
+  {
+    "kikuyu": "Mũkawa ũrikũ?",
+    "english": "Which hotel?"
+  },
+  {
+    "kikuyu": "Ndiũĩ",
+    "english": "I don't know it"
+  },
+  {
+    "kikuyu": "Haica matatu ya taũnĩ",
+    "english": "Board a matatu to town"
+  },
+  {
+    "kikuyu": "Wakinĩya ũhũrĩre thimũ",
+    "english": "When you arrive call me by phone"
+  },
+  {
+    "kikuyu": "Taũnĩ nĩ nene",
+    "english": "The town is large"
+  },
+  {
+    "kikuyu": "Ngumĩra kũ?",
+    "english": "Where do I disembark?"
+  },
+  {
+    "kikuyu": "Ũmĩra bothita",
+    "english": "Disembark at Posta / Post office"
+  },
+  {
+    "kikuyu": "Wĩtagwo atĩa?",
+    "english": "What is your name?"
+  },
+  {
+    "kikuyu": "Ũĩkaraga kũ?",
+    "english": "Where do you stay?"
+  },
+  {
+    "kikuyu": "Wĩ na mĩaka ĩĩgana?",
+    "english": "How old are you?"
+  },
+  {
+    "kikuyu": "Wendete irio irĩkũ?",
+    "english": "What food do you like?"
+  },
+  {
+    "kikuyu": "Thukuru yanyu ĩtagwo atĩa?",
+    "english": "What is the name of your school?"
+  },
+  {
+    "kikuyu": "Mũrata waku etagwo atĩa?",
+    "english": "What is your friend's name?"
+  },
+  {
+    "kikuyu": "Bũrũri wanyu wĩtagwo atĩa?",
+    "english": "What is your country called?"
+  },
+  {
+    "kikuyu": "Bũrũri witũ wĩtagwo Kenya",
+    "english": "Our country is called Kenya"
+  },
+  {
+    "kikuyu": "Rũthiomi rwaku rwĩtagwo atĩa?",
+    "english": "What is your language called?"
+  },
+  {
+    "kikuyu": "Rũthiomi rwakwa rwĩtagwo Gĩkũyũ",
+    "english": "My language is called Gikuyu"
+  },
+  {
+    "kikuyu": "Wĩtĩrĩrie mai",
+    "english": "Wet your hands"
+  },
+  {
+    "kikuyu": "Wĩhake thabuni",
+    "english": "Apply soap"
+  },
+  {
+    "kikuyu": "Wĩthambe moko thekondi mirongo îrî",
+    "english": "Wash your hands for 20 seconds"
+  },
+  {
+    "kikuyu": "Wĩkamũre",
+    "english": "Rinse"
+  },
+  {
+    "kikuyu": "Wĩhuure na ngacibũ ya karatathi",
+    "english": "Dry with a clean paper towel"
+  },
+  {
+    "kikuyu": "Hũthĩra ngacibũ ya karatathi kũhinga mũberethi",
+    "english": "Use the paper towel to turn off the tap"
+  },
+  {
+    "kikuyu": "Wee, ũka haha",
+    "english": "You, come here"
+  },
+  {
+    "kikuyu": "Njũke?",
+    "english": "Should I come? / I come?"
+  },
+  {
+    "kikuyu": "Njĩtagwo Mwangi",
+    "english": "My name is Mwangi"
+  },
+  {
+    "kikuyu": "Kwanyu nĩ kũ?",
+    "english": "Where is your home?"
+  },
+  {
+    "kikuyu": "Gwitũ nĩ Mũrang'a",
+    "english": "Our home is in Mũrang'a"
+  },
+  {
+    "kikuyu": "Kwanyu gwĩtagwo Mũrang'a?",
+    "english": "Your place is called Mũrang'a?"
+  },
+  {
+    "kikuyu": "Nĩ ũthiaga thukuru?",
+    "english": "Do you go to school?"
+  },
+  {
+    "kikuyu": "Ĩĩ nĩ thiaga thukuru",
+    "english": "Yes I go to school"
+  },
+  {
+    "kikuyu": "Ĩtagwo Mũgumo-inĩ",
+    "english": "It is called Mũgumo-inĩ"
+  },
+  {
+    "kikuyu": "Mwarimũ witũ etagwo Kariuki",
+    "english": "Our teacher's name is Kariuki"
+  },
+  {
+    "kikuyu": "Wĩmwe ga Karanja",
+    "english": "Are you fine Karanja?"
+  },
+  {
+    "kikuyu": "Nđĩmwe ga Njeri",
+    "english": "I am fine Njeri"
+  },
+  {
+    "kikuyu": "Ũhoro waku Mwangi",
+    "english": "How are you Mwangi / Your news Mwangi"
+  },
+  {
+    "kikuyu": "Nĩ mwega mũno",
+    "english": "It is very good"
+  },
+  {
+    "kikuyu": "Nĩ nđakũgeithia",
+    "english": "Greetings to you (singular)"
+  },
+  {
+    "kikuyu": "Nĩ nđageithĩka",
+    "english": "I have received greetings"
+  },
+  {
+    "kikuyu": "Nĩ nđamũgeithia",
+    "english": "Greetings you all"
+  },
+  {
+    "kikuyu": "Nĩ twageithĩka",
+    "english": "We have received greetings"
+  },
+  {
+    "kikuyu": "Mũrĩega",
+    "english": "Are you all fine?"
+  },
+  {
+    "kikuyu": "Ĩĩ tũrĩega mũno",
+    "english": "Yes, we are very fine"
+  },
+  {
+    "kikuyu": "Kũringa kanua",
+    "english": "To be angry, making sounds with mouth (when angry)"
+  },
+  {
+    "kikuyu": "Kũbogotha",
+    "english": "To mumble"
+  },
+  {
+    "kikuyu": "Gũthĩoma",
+    "english": "To speak with an accent"
+  },
+  {
+    "kikuyu": "Kũhaya",
+    "english": "To groan"
+  },
+  {
+    "kikuyu": "Gũkorora",
+    "english": "To snort"
+  },
+  {
+    "kikuyu": "Gũathĩmũra",
+    "english": "To sneeze"
+  },
+  {
+    "kikuyu": "Kũnũhanũha",
+    "english": "Fast sounds made by someone crying"
+  },
+  {
+    "kikuyu": "Gũĩthĩkĩra",
+    "english": "To have a sad posture (e.g. when mourning)"
+  },
+  {
+    "kikuyu": "Njĩĩra thogora wa cai",
+    "english": "tell me the price of tea"
+  },
+  {
+    "kikuyu": "Wendagia atĩa?",
+    "english": "how much do you sell?"
+  },
+  {
+    "kikuyu": "Nĩ ũrendia goro",
+    "english": "you are selling expensively"
+  },
+  {
+    "kikuyu": "Nyenderia thubu",
+    "english": "sell to me soup"
+  },
+  {
+    "kikuyu": "Ngwĩnderie maĩ ma macungwa?",
+    "english": "may I sell to you orange juice?"
+  },
+  {
+    "kikuyu": "Iria igagatu rĩna goro",
+    "english": "sour milk is expensive"
+  },
+  {
+    "kikuyu": "Thota nĩ ciringi mĩrongo ĩtatũ",
+    "english": "soda is 30 shillings"
+  },
+  {
+    "kikuyu": "Tĩ gĩkombe kĩa ũcũrũ?",
+    "english": "what about a cup of porridge?"
+  },
+  {
+    "kikuyu": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe",
+    "english": "will you buy chicken? → buy chicken so we eat"
+  },
+  {
+    "kikuyu": "Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe",
+    "english": "will you shut that door? → close all doors"
+  },
+  {
+    "kikuyu": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+    "english": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard"
+  },
+  {
+    "kikuyu": "you will manage)",
+    "english": "you will manage)"
+  },
+  {
+    "kikuyu": "Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha",
+    "english": "will you put money in bank? → put those eggs here"
+  },
+  {
+    "kikuyu": "Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya",
+    "english": "will you hit the ball? → hit the ball hard"
+  },
+  {
+    "kikuyu": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)",
+    "english": ", Tĩ goro! Nĩ raithi (it's not expensive, it is cheap)"
+  },
+  {
+    "kikuyu": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)",
+    "english": ", Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings)"
+  },
+  {
+    "kikuyu": "Wĩmwega Karanja",
+    "english": "Are you fine Karanja?"
+  },
+  {
+    "kikuyu": "Ndĩmwega Njeri",
+    "english": "I am fine Njeri"
+  },
+  {
+    "kikuyu": "Ũhoro waku Mwangi",
+    "english": "How are you Mwangi / Your news Mwangi"
+  },
+  {
+    "kikuyu": "Nĩ mwega mũno",
+    "english": "It is very good"
+  },
+  {
+    "kikuyu": "Nĩ ndakũgeithia",
+    "english": "Greetings to you (singular) / I greet you"
+  },
+  {
+    "kikuyu": "Nĩ ndageithĩka",
+    "english": "I have received greetings"
+  },
+  {
+    "kikuyu": "Nĩ ndamũgeithia",
+    "english": "Greetings you all / I greet you all"
+  },
+  {
+    "kikuyu": "Nĩ twageithĩka",
+    "english": "We have received greetings"
+  },
+  {
+    "kikuyu": "Mũrĩega?",
+    "english": "Are you all fine?"
+  },
+  {
+    "kikuyu": "Tĩ tũrĩega mũno",
+    "english": "Yes, we are very fine"
+  },
+  {
+    "kikuyu": "Mwarimũ waku etagwo atĩa?",
+    "english": "What is the name of your teacher?"
+  },
+  {
+    "kikuyu": "Nĩ wendete gũthooma?",
+    "english": "Do you like reading?"
+  },
+  {
+    "kikuyu": "Njĩĩra rĩtwa rĩa ibuku rĩmwe",
+    "english": "Tell me the name of one book"
+  },
+  {
+    "kikuyu": "Nĩ ũthakaga mĩthako?",
+    "english": "Do you play games?"
+  },
+  {
+    "kikuyu": "Wendete mĩthako ũrĩkũ?",
+    "english": "Which game do you like?"
+  },
+  {
+    "kikuyu": "Mũrũ wa nyũkwa etagwo atĩa?",
+    "english": "What is your brother's name?"
+  },
+  {
+    "kikuyu": "Mwarĩ wa nyũkwa etagwo atĩa?",
+    "english": "What is your sister's name?"
+  },
+  {
+    "kikuyu": "Wathĩĩ kũ mũthĩĩ?",
+    "english": "Where are you going?"
+  },
+  {
+    "kikuyu": "Ndathĩĩ Karĩũbang'i",
+    "english": "I am going to Kariobangi"
+  },
+  {
+    "kikuyu": "Haica ngarĩ ĩrĩa",
+    "english": "Take that vehicle"
+  },
+  {
+    "kikuyu": "Ĩno nĩ ya Mathare",
+    "english": "This one goes to Mathare"
+  },
+  {
+    "kikuyu": "Nĩ ngatho",
+    "english": "Thanks"
+  },
+  {
+    "kikuyu": "Ĩno nĩ ya Karĩũbang'i?",
+    "english": "Is this one to Kariobangi?"
+  },
+  {
+    "kikuyu": "Ĩĩ nĩ yo ingĩra naihenya, mĩtũkĩ mĩtũkĩ maitũ",
+    "english": "Yes it is, get in quickly mother"
+  },
+  {
+    "kikuyu": "Nyita guoko ndikagwe",
+    "english": "Hold my hand so I don't fall"
+  },
+  {
+    "kikuyu": "Ĩkarĩra gĩtĩ gĩkĩ na ũrehe mbeca",
+    "english": "Sit on this seat and bring the money"
+  },
+  {
+    "kikuyu": "Nĩ cigana?",
+    "english": "How much?"
+  },
+  {
+    "kikuyu": "Ciringi mĩrongo ĩtano",
+    "english": "Fifty shillings"
+  },
+  {
+    "kikuyu": "Hĩ! Karĩ goro atĩa?",
+    "english": "My! How expensive?"
+  },
+  {
+    "kikuyu": "Tĩ goro maitũ nĩguo tũrĩhagia",
+    "english": "It's not expensive mum, that's what we charge"
+  },
+  {
+    "kikuyu": "Ke igana rĩmwe ũnjokerie mĩrongo ĩtano",
+    "english": "Take this 100 shillings and give back 50"
+  },
+  {
+    "kikuyu": "Ĩkaara thĩ!",
+    "english": "Sit down!"
+  },
+  {
+    "kikuyu": "Ũka naĩhenya!",
+    "english": "Come quickly!"
+  },
+  {
+    "kikuyu": "Rĩĩra methaini",
+    "english": "Eat at the table"
+  },
+  {
+    "kikuyu": "Hinga mũrango",
+    "english": "Close the door"
+  },
+  {
+    "kikuyu": "Hingũrĩra ndĩrica",
+    "english": "Open the window (for someone)"
+  },
+  {
+    "kikuyu": "Andĩka ũhoro ũcio",
+    "english": "Write that news/matter"
+  },
+  {
+    "kikuyu": "Cookia gĩtĩ kĩu",
+    "english": "Return that chair"
+  },
+  {
+    "kikuyu": "Thĩĩ kabati",
+    "english": "Go to the cupboard"
+  },
+  {
+    "kikuyu": "Ruta gĩtĩ kĩu",
+    "english": "Remove that chair"
+  },
+  {
+    "kikuyu": "Ngeithi njega!",
+    "english": "Good greetings! / Hello!"
+  },
+  {
+    "kikuyu": "Wĩmwega Karanja",
+    "english": "Are you fine Karanja?"
+  },
+  {
+    "kikuyu": "Ndimwega Njerĩ",
+    "english": "I am fine Njeri"
+  },
+  {
+    "kikuyu": "Ũhoro waku Mwangĩ",
+    "english": "How are you Mwangi? (lit. your news)"
+  },
+  {
+    "kikuyu": "Nĩ mwega mũno",
+    "english": "It is very good"
+  },
+  {
+    "kikuyu": "Nĩĩ ndakũgeĩthia",
+    "english": "Greetings to you (singular, formal)"
+  },
+  {
+    "kikuyu": "Nĩĩ ndamũgeĩthia",
+    "english": "Greetings to you all (plural, formal)"
+  },
+  {
+    "kikuyu": "Mũrĩega?",
+    "english": "Are you all fine?"
+  },
+  {
+    "kikuyu": "Ĩĩ tũrĩega mũno",
+    "english": "Yes, we are very fine"
+  },
+  {
+    "kikuyu": "Wathĩĩ kũ mũthĩĩ?",
+    "english": "Where are you going traveller?"
+  },
+  {
+    "kikuyu": "Ndathĩĩ Karĩũbang'ĩ",
+    "english": "I am going to Kariobangi"
+  },
+  {
+    "kikuyu": "Haica ngarĩ ĩrĩa. Nĩ cigana?",
+    "english": "Take that vehicle. How much?"
+  },
+  {
+    "kikuyu": "Ciringi mĩrongo ĩtano. Nĩ ngatho",
+    "english": "Fifty shillings. Thanks"
+  },
+  {
+    "kikuyu": "Nĩ ũthĩĩaga thukuru?",
+    "english": "Do you go to school?"
+  },
+  {
+    "kikuyu": "Thukuru yanyu ĩtagwo atĩa?",
+    "english": "What is the name of your school?"
+  },
+  {
+    "kikuyu": "Tũrarĩa mũcère na nyama rĩu",
+    "english": "We are eating rice and meat now"
+  },
+  {
+    "kikuyu": "Ũka haha",
+    "english": "Come here"
+  },
+  {
+    "kikuyu": "Rĩra maĩ",
+    "english": "Cry for water"
+  },
+  {
+    "kikuyu": "Aria na mwanake",
+    "english": "Speak with the young man"
+  },
+  {
+    "kikuyu": "Mũirĩtu aruta wĩra",
+    "english": "The girl is doing work"
+  },
+  {
+    "kikuyu": "Mũthũuri arĩa irio",
+    "english": "The man is eating food"
+  },
+  {
+    "kikuyu": "Mweri mwerũ wa mũgwanja - a new seventh month",
+    "english": "July"
+  },
+  {
+    "kikuyu": "Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri",
+    "english": "moon/month"
+  },
+  {
+    "kikuyu": "Mweri mwerũ",
+    "english": "new month"
+  },
+  {
+    "kikuyu": "Rathimwo",
+    "english": "be blessed"
+  },
+  {
+    "kikuyu": "Rūci-inī",
+    "english": "morning"
+  },
+  {
+    "kikuyu": "Wīmwega rūci-inī?",
+    "english": "Are you well this morning?"
+  },
+  {
+    "kikuyu": "Ndīmwega mūno",
+    "english": "I am very well"
+  },
+  {
+    "kikuyu": "Wathiī kū?",
+    "english": "Where are you going?"
+  },
+  {
+    "kikuyu": "Ndathiī wīra",
+    "english": "I am going to work"
+  },
+  {
+    "kikuyu": "Ūrutaga wīra ūrīkū?",
+    "english": "Which work do you do?"
+  },
+  {
+    "kikuyu": "Wîtagwo atĩa?",
+    "english": "What's your name?"
+  },
+  {
+    "kikuyu": "Njitagwo [name]",
+    "english": "My name is..."
+  },
+  {
+    "kikuyu": "Wî mwega?",
+    "english": "How are you?"
+  },
+  {
+    "kikuyu": "Ndî mwega mûno",
+    "english": "I'm very fine"
+  },
+  {
+    "kikuyu": "Eha [name]?",
+    "english": "Where is...?"
+  },
+  {
+    "kikuyu": "Ûyû haha",
+    "english": "Here he/she is"
+  },
+  {
+    "kikuyu": "Hĩ! Kaĩ kwĩna heho-ĩ!",
+    "english": "Lo! It is very cold!"
+  },
+  {
+    "kikuyu": "Kaĩ wĩ mũrũaru?",
+    "english": "Are you sick?"
+  },
+  {
+    "kikuyu": "Wanjũrĩa ũguo nĩkĩ?",
+    "english": "Why do you ask me that?"
+  },
+  {
+    "kikuyu": "Tondũ gũtirĩ na heho",
+    "english": "Because it is not cold"
+  },
+  {
+    "kikuyu": "We! Ta ĩkĩra burana",
+    "english": "You! Just put on a cardigan"
+  },
+  {
+    "kikuyu": "Kwĩna ũrugarĩ",
+    "english": "It is hot/warm"
+  },
+  {
+    "kikuyu": "Urenda kũrũarara?",
+    "english": "Do you want to fall sick?"
+  },
+  {
+    "kikuyu": "Ngwĩhũmba burana na kabuti",
+    "english": "I will wear a cardigan and an overcoat"
+  },
+  {
+    "kikuyu": "Rũgama na mwena",
+    "english": "Stand on the side"
+  },
+  {
+    "kikuyu": "Gũrĩra mũgate na iria",
+    "english": "Buy me bread"
+  },
+  {
+    "kikuyu": "Aria na arata aku",
+    "english": "Speak to your friends"
+  },
+  {
+    "kikuyu": "Hinga mũrango tuthĩĩ",
+    "english": "Close the door and let us go"
+  },
+  {
+    "kikuyu": "Hingũra ibuku tuthoome",
+    "english": "Open the book we read"
+  },
+  {
+    "kikuyu": "Njĩĩra thogora wa cai",
+    "english": "tell me the price of tea"
+  },
+  {
+    "kikuyu": "Wendagia atĩa?",
+    "english": "how much do you sell?"
+  },
+  {
+    "kikuyu": "Nĩ ũrendia goro",
+    "english": "you are selling expensively"
+  },
+  {
+    "kikuyu": "Nyenderia thubu",
+    "english": "sell to me soup"
+  },
+  {
+    "kikuyu": "Ngwĩnderie maĩ ma macungwa?",
+    "english": "may I sell to you orange juice?"
+  },
+  {
+    "kikuyu": "Iria igagatu rĩna goro",
+    "english": "sour milk is expensive"
+  },
+  {
+    "kikuyu": "Thota nĩ ciringi mĩrongo ĩtatũ",
+    "english": "soda is 30 shillings"
+  },
+  {
+    "kikuyu": "Tĩ gĩkombe kĩa ũcũrũ?",
+    "english": "what about a cup of porridge?"
+  },
+  {
+    "kikuyu": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe",
+    "english": "will you buy chicken? → buy chicken so we eat"
+  },
+  {
+    "kikuyu": "Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe",
+    "english": "will you shut that door? → close all doors"
+  },
+  {
+    "kikuyu": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+    "english": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard"
+  },
+  {
+    "kikuyu": "you will manage)",
+    "english": "you will manage)"
+  },
+  {
+    "kikuyu": "Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha",
+    "english": "will you put money in bank? → put those eggs here"
+  },
+  {
+    "kikuyu": "Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya",
+    "english": "will you hit the ball? → hit the ball hard"
+  },
+  {
+    "kikuyu": "Mweri mwerũ wa mũgwanja - a new seventh month",
+    "english": "July"
+  },
+  {
+    "kikuyu": "Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri",
+    "english": "moon/month"
+  },
+  {
+    "kikuyu": "Mweri mwerũ",
+    "english": "new month"
+  },
+  {
+    "kikuyu": "Rathimwo",
+    "english": "be blessed"
+  },
+  {
+    "kikuyu": "Ũbataire ndaconokaga",
+    "english": "the person in need is not ashamed"
+  },
+  {
+    "kikuyu": "Ũgĩ wakĩra hinya",
+    "english": "Cleverness is greater than strength"
+  },
+  {
+    "kikuyu": "Ũbataire ndaconokaga",
+    "english": "the person in need is not ashamed"
+  },
+  {
+    "kikuyu": "Ũgĩ wakĩra hinya",
+    "english": "Cleverness is greater than strength"
+  },
+  {
+    "kikuyu": "O akiendagwo ni Ngai",
+    "english": "God continues to love him/her"
+  },
+  {
+    "kikuyu": "O mũndũ athondekaga ũrĩrĩ wake",
+    "english": "Every person makes up his own bed"
+  },
+  {
+    "kikuyu": "Mbogo Nyingĩ itirĩ Nyama",
+    "english": "Too many buffaloes do not have meat (Deal with one thing at a time)"
+  },
+  {
+    "kikuyu": "Kūrīha nyūmba ūtegūcererwo tigītūmikīega gīa kuongerera nyūmba",
+    "english": "Paying rent on time is not a good reason to increase the amount of rent"
+  },
+  {
+    "kikuyu": "Andũ marĩ mũoyo matĩhurũkaga",
+    "english": "People who are alive do not rest (There is always work to be done in life)"
+  },
+  {
+    "kikuyu": "Mũingatwo na mũingatani, gũtirĩ ũtahũmaga",
+    "english": "The one being chased and the one chasing, both get tired (Effort is expended by all parties in a strenuous endeavor)"
+  },
+  {
+    "kikuyu": "Mũtĩ ũrũngagwo ũrĩ mũnini",
+    "english": "A tree is straightened when young (Good manners and discipline should be instilled in children when they are young)"
+  },
+  {
+    "kikuyu": "Wĩĩgĩire ndahũtaga",
+    "english": "He/she that has saved something does not starve (Make a habit of saving for hard times)"
+  },
+  {
+    "kikuyu": "Mũthua ngoro ti Mũthua Kũgũrũ",
+    "english": "Person with lame heart is not same as person with lame leg (It is not easy to know one with ill mind)"
+  },
+  {
+    "kikuyu": "Anđũ marĩ mũoyo matihurũkaga",
+    "english": "People who are alive do not rest (People with life/spirit must keep working)"
+  },
+  {
+    "kikuyu": "Mũingatwo na mũingatani, gũtirĩ ũtahũmaga",
+    "english": "The one being chased and the one chasing, both get tired (In any conflict, both parties suffer)"
+  },
+  {
+    "kikuyu": "Mũrĩa wiki, akuaga e wiki",
+    "english": "The one who eats alone dies alone (Share what you have)"
+  },
+  {
+    "kikuyu": "Ũbataire ndaconokaga",
+    "english": "the person in need is not ashamed (to ask for help)"
+  },
+  {
+    "kikuyu": "Wĩrute Gĩkũyũ",
+    "english": "Learn Kikuyu"
+  },
+  {
+    "kikuyu": "Nĩ ũrabatara?",
+    "english": "Do you need? / Are you in need?"
+  },
+  {
+    "kikuyu": "Kaĩ ũtangiconoka?",
+    "english": "Are you not ashamed?"
+  },
+  {
+    "kikuyu": "Nĩ agathwo, mwathani wa thĩ ciothe",
+    "english": "Praise be to God, Lord of all the worlds"
+  },
+  {
+    "kikuyu": "Nĩ wee wĩkĩ tũhoyaga na nĩ wee wĩkĩ twĩhokaga",
+    "english": "You alone we worship, and You alone we ask for help"
+  },
+  {
+    "kikuyu": "Tũtongorie njĩra-inĩ nyoroku",
+    "english": "Guide us on the Straight Path"
+  },
+  {
+    "kikuyu": "Rũngai kana mwongerere haha",
+    "english": "Correct or add here (invitation for input)"
+  },
+  {
+    "kikuyu": "Ũmbo wa Indo mwanya mwanya",
+    "english": "different shapes"
+  },
+  {
+    "kikuyu": "Simple sentences | consonants g, h and k",
+    "english": "Simple sentences with consonants g, h and k"
+  },
+  {
+    "kikuyu": "Wikendi nĩ mithenya ya ndũnyũ",
+    "english": "weekends are market days"
+  },
+  {
+    "kikuyu": "ng'ombe",
+    "english": "cow"
+  },
+  {
+    "kikuyu": "thenge",
+    "english": "he-goat"
+  },
+  {
+    "kikuyu": "ngũkũ",
+    "english": "chicken/hen"
+  },
+  {
+    "kikuyu": "mbata",
+    "english": "duck"
+  },
+  {
+    "kikuyu": "njogu",
+    "english": "elephant"
+  },
+  {
+    "kikuyu": "mũrũthĩ",
+    "english": "lion"
+  },
+  {
+    "kikuyu": "ndũiga",
+    "english": "giraffe"
+  },
+  {
+    "kikuyu": "njagĩ",
+    "english": "zebra"
+  },
+  {
+    "kikuyu": "huria",
+    "english": "rhinoceros"
+  },
+  {
+    "kikuyu": "hiti",
+    "english": "hyena"
+  },
+  {
+    "kikuyu": "ngarĩ",
+    "english": "leopard"
+  },
+  {
+    "kikuyu": "ngigĩ",
+    "english": "grasshopper"
+  },
+  {
+    "kikuyu": "Ũmbo wa Indo mwanya mwanya",
+    "english": "different shapes"
+  },
+  {
+    "kikuyu": "Guka gucia guoko gwaikwa",
+    "english": "Grandfather, pull my hand"
+  },
+  {
+    "kikuyu": "Wikendi nĩ mithenya ya ndũnyũ",
+    "english": "weekends are market days"
+  },
+  {
+    "kikuyu": "matunda",
+    "english": "fruits"
+  },
+  {
+    "kikuyu": "mĩthenya ya wiki",
+    "english": "days of the week"
+  },
+  {
+    "kikuyu": "cama",
+    "english": "taste"
+  },
+  {
+    "kikuyu": "ciugo irĩkĩtie na 'thĩ'",
+    "english": "words ending in 'thĩ'"
+  },
+  {
+    "kikuyu": "mĩigana kuuma 11 kũmagana million",
+    "english": "numbers from 11 to 1 million"
+  },
+  {
+    "kikuyu": "mĩthĩĩre",
+    "english": "locomotion (movement verbs - set 1)"
+  },
+  {
+    "kikuyu": "mĩthĩĩre",
+    "english": "locomotion (movement verbs - set 2)"
+  },
+  {
+    "kikuyu": "gũkoma",
+    "english": "to sleep"
+  },
+  {
+    "kikuyu": "ciugo cia ndaĩ na t, th, ny",
+    "english": "simple sentences with consonants t, th, ny"
+  },
+  {
+    "kikuyu": "mbarĩki",
+    "english": "castor oil"
+  },
+  {
+    "kikuyu": "tũheere twa Gĩkũyũ",
+    "english": "Kikuyu vowels with pronunciation guide"
+  },
+  {
+    "kikuyu": "tara, ndemwa, rũri",
+    "english": "counting and symbols vocabulary"
+  },
+  {
+    "kikuyu": "ihũha, thundo",
+    "english": "skin conditions - boils and pimples"
+  },
+  {
+    "kikuyu": "kĩmĩra",
+    "english": "mucous and silkiness"
+  },
+  {
+    "kikuyu": "ngũha",
+    "english": "tick (parasite)"
+  },
+  {
+    "kikuyu": "tũnyamũ twa thaciarĩ",
+    "english": "types of ants"
+  },
+  {
+    "kikuyu": "mîthemba ya nyûmba",
+    "english": "types of houses - construction materials"
+  },
+  {
+    "kikuyu": "hîndî ya mbura na ya riua",
+    "english": "weather - rainy and sunny periods"
+  },
+  {
+    "kikuyu": "kanyua njui",
+    "english": "sunbird"
+  },
+  {
+    "kikuyu": "gĩchorogothu",
+    "english": "common bulbul"
+  },
+  {
+    "kikuyu": "mĩario na ciugo cia gĩthiomi",
+    "english": "idioms and traditional expressions"
+  },
+  {
+    "kikuyu": "ngiri ithano na magana matano",
+    "english": "number expression - 5,500 shillings"
+  },
+  {
+    "kikuyu": "Ngũgũ",
+    "english": "Hartlaub's Turaco (bird)"
+  },
+  {
+    "kikuyu": "Karogi / Ngunû",
+    "english": "Hamerkop (bird)"
+  },
+  {
+    "kikuyu": "Mũthũ",
+    "english": "Mouse bird / Speckled Mousebird"
+  },
+  {
+    "kikuyu": "Nyamĩndigi",
+    "english": "Cape Robin-Chat (bird)"
+  },
+  {
+    "kikuyu": "Nderi",
+    "english": "Vulture"
+  },
+  {
+    "kikuyu": "Rwigi",
+    "english": "Hawk / Kite (bird of prey)"
+  },
+  {
+    "kikuyu": "Mweri wa ĩnana",
+    "english": "The eighth month (August)"
+  },
+  {
+    "kikuyu": "Ũrata",
+    "english": "Friendship"
+  },
+  {
+    "kikuyu": "Kwenga",
+    "english": "Smile"
+  },
+  {
+    "kikuyu": "Rwembea",
+    "english": "Roof"
+  },
+  {
+    "kikuyu": "Njara",
+    "english": "Wrist"
+  },
+  {
+    "kikuyu": "Synonym Pairs (40+ word pairs)",
+    "english": "Complete list of interchangeable words showing dialectal variations and synonyms"
+  },
+  {
+    "kikuyu": "Mbura ya mbembe",
+    "english": "Hailstones (literally: rain of hailstones)"
+  },
+  {
+    "kikuyu": "Nyama ya Mbũri",
+    "english": "Goat meat (this is goat meat)"
+  },
+  {
+    "kikuyu": "Nyama ya ngũkũ",
+    "english": "Chicken meat (this is chicken meat)"
+  },
+  {
+    "kikuyu": "Theerũ",
+    "english": "Vervet Monkey"
+  },
+  {
+    "kikuyu": "Traditional Kikuyu Terms (Marigũ ma Mũgĩkũyũ)",
+    "english": "Gacukari, Gathumo, Gatumia, Kambara, Kĩbuda, Kĩganda, Mbiri, Mũraru, Mũtahato, Mũtore, Njuru (gacuru, mũcũru), Nyoro, Wanga'e"
+  },
+  {
+    "kikuyu": "Birds - Eagle",
+    "english": "Ndiiyũ (eagle)"
+  },
+  {
+    "kikuyu": "Nguo",
+    "english": "Clothes"
+  },
+  {
+    "kikuyu": "Cati",
+    "english": "Shirt"
+  },
+  {
+    "kikuyu": "Thuruarĩ",
+    "english": "Shorts/Pants"
+  },
+  {
+    "kikuyu": "Mũbũto",
+    "english": "Trousers"
+  },
+  {
+    "kikuyu": "Thogithi",
+    "english": "Socks"
+  },
+  {
+    "kikuyu": "Ngobia",
+    "english": "Hat/Cap"
+  },
+  {
+    "kikuyu": "Tai",
+    "english": "Necktie"
+  },
+  {
+    "kikuyu": "Mĩwanĩ",
+    "english": "Spectacles/Glasses"
+  },
+  {
+    "kikuyu": "Kiratũ",
+    "english": "Shoe (singular)"
+  },
+  {
+    "kikuyu": "Iratũ",
+    "english": "Shoes (plural)"
+  },
+  {
+    "kikuyu": "Taritari",
+    "english": "Slippers"
+  },
+  {
+    "kikuyu": "Nginyĩra",
+    "english": "Leather sandals"
+  },
+  {
+    "kikuyu": "Gĩtambaya",
+    "english": "Cloth/Fabric"
+  },
+  {
+    "kikuyu": "Gĩtambaya kia mũtwee",
+    "english": "Head scarf"
+  },
+  {
+    "kikuyu": "Mĩndira",
+    "english": "Earrings"
+  },
+  {
+    "kikuyu": "Bangiri",
+    "english": "Bangle(s)"
+  },
+  {
+    "kikuyu": "Mbete",
+    "english": "Ring"
+  },
+  {
+    "kikuyu": "Mũgathĩ",
+    "english": "Necklace"
+  },
+  {
+    "kikuyu": "Mũndũ mũgĩ",
+    "english": "Clever person"
+  },
+  {
+    "kikuyu": "Mũndũ mũkĩgu",
+    "english": "Foolish person"
+  },
+  {
+    "kikuyu": "Mũndũ mwara",
+    "english": "Wise person"
+  },
+  {
+    "kikuyu": "Ndaci (Traditional Kikuyu Dances)",
+    "english": "8 Traditional Dances: Gĩtiiro, Nguchu, Nduumo, Mũgoiyo, Gĩchukia, Mwomboko, Kĩbaata, Mũthũngũci"
+  },
+  {
+    "kikuyu": "love",
+    "english": "Wendo"
+  },
+  {
+    "kikuyu": "bravery",
+    "english": "Ûrûme"
+  },
+  {
+    "kikuyu": "night",
+    "english": "Ûtukû"
+  },
+  {
+    "kikuyu": "foolishness",
+    "english": "Ûrîmû"
+  },
+  {
+    "kikuyu": "law",
+    "english": "Watho"
+  },
+  {
+    "kikuyu": "face",
+    "english": "Ûtihû"
+  },
+  {
+    "kikuyu": "jealousy",
+    "english": "Ûîru"
+  },
+  {
+    "kikuyu": "kingdom",
+    "english": "Ûthamaki"
+  },
+  {
+    "kikuyu": "visit",
+    "english": "Ûgeni"
+  },
+  {
+    "kikuyu": "magic",
+    "english": "Ûgo"
+  },
+  {
+    "kikuyu": "witchcraft",
+    "english": "Ûrogi"
+  },
+  {
+    "kikuyu": "Thuruarĩ nguhĩ",
+    "english": "shorts"
+  },
+  {
+    "kikuyu": "Thuruarĩ ndaihu",
+    "english": "trousers"
+  },
+  {
+    "kikuyu": "Mûthurũ",
+    "english": "skirt"
+  },
+  {
+    "kikuyu": "Caatĩ",
+    "english": "shirt"
+  },
+  {
+    "kikuyu": "Mburauthĩ",
+    "english": "blouse"
+  },
+  {
+    "kikuyu": "Nguo ya thĩinĩ",
+    "english": "underwear"
+  },
+  {
+    "kikuyu": "Gĩtambaya kĩa mûtwe",
+    "english": "headscarf"
+  },
+  {
+    "kikuyu": "Thogithĩ",
+    "english": "socks"
+  },
+  {
+    "kikuyu": "Kĩratũ",
+    "english": "shoe"
+  },
+  {
+    "kikuyu": "termites",
+    "english": "Mûthûa"
+  },
+  {
+    "kikuyu": "small black ants",
+    "english": "Thigiriri"
+  },
+  {
+    "kikuyu": "soldier ants in line",
+    "english": "Thuraku"
+  },
+  {
+    "kikuyu": "tiny brown ants in groups",
+    "english": "Mûgagaca"
+  },
+  {
+    "kikuyu": "you",
+    "english": "Wee"
+  },
+  {
+    "kikuyu": "Niĩ",
+    "english": "me"
+  },
+  {
+    "kikuyu": "before/first",
+    "english": "Mbere"
+  },
+  {
+    "kikuyu": "cold",
+    "english": "Heho"
+  },
+  {
+    "kikuyu": "fire",
+    "english": "Mwaki"
+  },
+  {
+    "kikuyu": "he/she",
+    "english": "We"
+  },
+  {
+    "kikuyu": "Mũrĩmi",
+    "english": "farmer"
+  },
+  {
+    "kikuyu": "Ndingĩhota",
+    "english": "I cannot"
+  },
+  {
+    "kikuyu": "giraffe",
+    "english": "Ndûiga"
+  },
+  {
+    "kikuyu": "elephant",
+    "english": "Njogu"
+  },
+  {
+    "kikuyu": "zebra",
+    "english": "Wambûi mîcore/Njagî"
+  },
+  {
+    "kikuyu": "ostrich",
+    "english": "Nyaga"
+  },
+  {
+    "kikuyu": "rhino",
+    "english": "Huria"
+  },
+  {
+    "kikuyu": "lion",
+    "english": "Mûrûthî"
+  },
+  {
+    "kikuyu": "wildebeest",
+    "english": "Ngatata"
+  },
+  {
+    "kikuyu": "cheetah",
+    "english": "Nyûtû"
+  },
+  {
+    "kikuyu": "hyena",
+    "english": "Hiti"
+  },
+  {
+    "kikuyu": "hippo",
+    "english": "Nguuo"
+  },
+  {
+    "kikuyu": "leopard",
+    "english": "Ngarî"
+  },
+  {
+    "kikuyu": "chimpanzee",
+    "english": "Thakwe"
+  },
+  {
+    "kikuyu": "Mūrathimi",
+    "english": "the one who blesses"
+  },
+  {
+    "kikuyu": "Rīu rī",
+    "english": "now - at statement beginning"
+  },
+  {
+    "kikuyu": "mine - depending on noun class",
+    "english": "Wakwa"
+  },
+  {
+    "kikuyu": "mine - plural",
+    "english": "Ciakwa"
+  },
+  {
+    "kikuyu": "buffalo",
+    "english": "Mbogo"
+  },
+  {
+    "kikuyu": "rhinoceros",
+    "english": "Huria/Munyi"
+  },
+  {
+    "kikuyu": "Methūka vs Enyūka",
+    "english": "crack small vs large"
+  },
+  {
+    "kikuyu": "Mīago",
+    "english": "leisure"
+  },
+  {
+    "kikuyu": "happiness",
+    "english": "Ikeno"
+  },
+  {
+    "kikuyu": "Mūcang'ang'a",
+    "english": "gossip"
+  },
+  {
+    "kikuyu": "Mūthīgi",
+    "english": "elder's staff"
+  },
+  {
+    "kikuyu": "Rūthanju",
+    "english": "herding stick"
+  },
+  {
+    "kikuyu": "Mūtino",
+    "english": "accident-unpredictable"
+  },
+  {
+    "kikuyu": "Ūgwati",
+    "english": "extreme danger-predictable"
+  },
+  {
+    "kikuyu": "Kũheane",
+    "english": "give away"
+  },
+  {
+    "kikuyu": "Gũtanaha",
+    "english": "give generously/selflessly"
+  },
+  {
+    "kikuyu": "Kũhĩnja/Kũmoca",
+    "english": "be thin/lose weight"
+  },
+  {
+    "kikuyu": "Kũhana mũnyuko",
+    "english": "extremely thin/skeletal"
+  },
+  {
+    "kikuyu": "Kwĩhotora/Kwĩharĩria",
+    "english": "prepare for action"
+  },
+  {
+    "kikuyu": "husks",
+    "english": "Makore"
+  },
+  {
+    "kikuyu": "maize pollen/sawdust",
+    "english": "Muura"
+  },
+  {
+    "kikuyu": "bow legs",
+    "english": "Mbaco/Mbogoro"
+  },
+  {
+    "kikuyu": "Mbegũ",
+    "english": "seeds"
+  },
+  {
+    "kikuyu": "Mbeũ",
+    "english": "selected seeds/youth"
+  },
+  {
+    "kikuyu": "Gwĩthirima",
+    "english": "spread oil with palms"
+  },
+  {
+    "kikuyu": "Kwĩhaka",
+    "english": "apply substance with tool"
+  },
+  {
+    "kikuyu": "cold weather",
+    "english": "Heho"
+  },
+  {
+    "kikuyu": "extremely cold with fog",
+    "english": "Mbaa"
+  },
+  {
+    "kikuyu": "Kĩbii",
+    "english": "mist/fog"
+  },
+  {
+    "kikuyu": "Kĩnundu",
+    "english": "fog"
+  },
+  {
+    "kikuyu": "Kũgwata",
+    "english": "grasp with both hands/rape/kidnap"
+  },
+  {
+    "kikuyu": "Kũnyita",
+    "english": "grasp one or both hands"
+  },
+  {
+    "kikuyu": "Kũhahũra",
+    "english": "scare/shock"
+  },
+  {
+    "kikuyu": "Kũmakia",
+    "english": "frighten"
+  },
+  {
+    "kikuyu": "drop noisily",
+    "english": "Bacania"
+  },
+  {
+    "kikuyu": "Gũithania",
+    "english": "drop carelessly"
+  },
+  {
+    "kikuyu": "Gĩthayo/Kīgūūta",
+    "english": "lazy person"
+  },
+  {
+    "kikuyu": "unnecessary verbal trouble",
+    "english": "Gocogoco"
+  },
+  {
+    "kikuyu": "arguments",
+    "english": "Ngarari"
+  },
+  {
+    "kikuyu": "Gũkunga",
+    "english": "bend to avoid"
+  },
+  {
+    "kikuyu": "Gũcema",
+    "english": "bend to hide"
+  },
+  {
+    "kikuyu": "Gũtherema",
+    "english": "spread/increase area"
+  },
+  {
+    "kikuyu": "Kũingĩha",
+    "english": "increase"
+  },
+  {
+    "kikuyu": "Gũthetha",
+    "english": "wish ill verbally"
+  },
+  {
+    "kikuyu": "Kũroga",
+    "english": "cause harm via poison/witchcraft"
+  },
+  {
+    "kikuyu": "Gũtirūka",
+    "english": "lose footing"
+  },
+  {
+    "kikuyu": "Kũhĩngwo",
+    "english": "trip on object"
+  },
+  {
+    "kikuyu": "Gũtuma",
+    "english": "sew"
+  },
+  {
+    "kikuyu": "Kũrata",
+    "english": "mend/patch"
+  },
+  {
+    "kikuyu": "ground squirrel",
+    "english": "Kîmbu"
+  },
+  {
+    "kikuyu": "Ngajathĩ",
+    "english": "tree squirrel"
+  },
+  {
+    "kikuyu": "snake",
+    "english": "Nyoka"
+  },
+  {
+    "kikuyu": "weasel",
+    "english": "King'ang'î"
+  },
+  {
+    "kikuyu": "badger",
+    "english": "Kîîra"
+  },
+  {
+    "kikuyu": "ground squirrel",
+    "english": "Gaturu"
+  },
+  {
+    "kikuyu": "Wakaharĩ",
+    "english": "tree squirrel"
+  },
+  {
+    "kikuyu": "warthog",
+    "english": "Ngîrî"
+  },
+  {
+    "kikuyu": "buffalo",
+    "english": "Mbogo"
+  },
+  {
+    "kikuyu": "antelope",
+    "english": "Thîia"
+  },
+  {
+    "kikuyu": "anteater",
+    "english": "Ngarî"
+  },
+  {
+    "kikuyu": "Mwarimũ/Arimũ",
+    "english": "teacher/teachers"
+  },
+  {
+    "kikuyu": "Mũthigari/Athigari",
+    "english": "police/police"
+  },
+  {
+    "kikuyu": "Mũrĩmi/Arĩmi",
+    "english": "farmer/farmers"
+  },
+  {
+    "kikuyu": "Igana rĩmwe",
+    "english": "100"
+  },
+  {
+    "kikuyu": "Mirioni ĩmwe",
+    "english": "1,000,000"
+  },
+  {
+    "kikuyu": "Africa",
+    "english": "Vowels: a"
+  },
+  {
+    "kikuyu": "Estuary",
+    "english": "e"
+  },
+  {
+    "kikuyu": "India",
+    "english": "i"
+  },
+  {
+    "kikuyu": "office",
+    "english": "o"
+  },
+  {
+    "kikuyu": "ooze",
+    "english": "u"
+  },
+  {
+    "kikuyu": "ĩ",
+    "english": "Ate/Gate"
+  },
+  {
+    "kikuyu": "ũ",
+    "english": "Owner"
+  },
+  {
+    "kikuyu": "sh/ch sound",
+    "english": "C"
+  },
+  {
+    "kikuyu": "Inĩ",
+    "english": "liver"
+  },
+  {
+    "kikuyu": "Nyongo",
+    "english": "gallbladder"
+  },
+  {
+    "kikuyu": "Nda",
+    "english": "stomach"
+  },
+  {
+    "kikuyu": "Rwarĩũngũ",
+    "english": "pancreas"
+  },
+  {
+    "kikuyu": "Mara",
+    "english": "small intestine"
+  },
+  {
+    "kikuyu": "Mũtũra",
+    "english": "large intestine"
+  },
+  {
+    "kikuyu": "Gataathĩra",
+    "english": "appendix"
+  },
+  {
+    "kikuyu": "Mũkwa",
+    "english": "rectum"
+  },
+  {
+    "kikuyu": "Itina",
+    "english": "anus - impolite"
+  },
+  {
+    "kikuyu": "Rĩũ",
+    "english": "now"
+  },
+  {
+    "kikuyu": "Mũrĩũ",
+    "english": "drunk person"
+  },
+  {
+    "kikuyu": "Hĩũ",
+    "english": "cooked/ready to eat"
+  },
+  {
+    "kikuyu": "Kĩũ",
+    "english": "that big one"
+  },
+  {
+    "kikuyu": "Rĩra",
+    "english": "cry"
+  },
+  {
+    "kikuyu": "Rarĩra",
+    "english": "sleep without supper"
+  },
+  {
+    "kikuyu": "Ĩkĩrĩra",
+    "english": "put in container for someone"
+  },
+  {
+    "kikuyu": "Gĩtĩ/Itĩ",
+    "english": "chair/chairs"
+  },
+  {
+    "kikuyu": "Gĩkombe/Ikombe",
+    "english": "cup/cups"
+  },
+  {
+    "kikuyu": "Kĩrĩma/Ciĩma",
+    "english": "mountain/mountains"
+  },
+  {
+    "kikuyu": "Kĩratũ/Cĩratũ",
+    "english": "shoe/shoes"
+  },
+  {
+    "kikuyu": "Gĩtonga/Itonga",
+    "english": "tycoon/tycoons"
+  },
+  {
+    "kikuyu": "Kĩhĩĩ/Cĩhĩĩ",
+    "english": "youth/youths"
+  },
+  {
+    "kikuyu": "Kĩng'angĩ/Ciũng'angĩ",
+    "english": "crocodile/crocodiles"
+  },
+  {
+    "kikuyu": "Gũcũnga",
+    "english": "doze"
+  },
+  {
+    "kikuyu": "Gũkoma",
+    "english": "sleep"
+  },
+  {
+    "kikuyu": "Gũkoma na nda",
+    "english": "sleep face down"
+  },
+  {
+    "kikuyu": "Gũkoma na ngara/mũgongo",
+    "english": "sleep on back"
+  },
+  {
+    "kikuyu": "Gũkoma na mwena",
+    "english": "sleep on side"
+  },
+  {
+    "kikuyu": "Kũrara",
+    "english": "spend the night"
+  },
+  {
+    "kikuyu": "Hinga maitho ũkome",
+    "english": "shut eyes and sleep"
+  },
+  {
+    "kikuyu": "Koma na wega/thayũ",
+    "english": "sleep well"
+  },
+  {
+    "kikuyu": "Gĩa na ũtuko mwega",
+    "english": "have a good night"
+  },
+  {
+    "kikuyu": "Mũembe",
+    "english": "mango tree"
+  },
+  {
+    "kikuyu": "Mũcungwa",
+    "english": "orange tree"
+  },
+  {
+    "kikuyu": "Mũkũyũ",
+    "english": "ficus sycamora"
+  },
+  {
+    "kikuyu": "Mũgumo",
+    "english": "ficus natalensis/thoningii"
+  },
+  {
+    "kikuyu": "Mũtamaiyũ",
+    "english": "African olive tree"
+  },
+  {
+    "kikuyu": "M: Maitũ",
+    "english": "mother"
+  },
+  {
+    "kikuyu": "uncle",
+    "english": "mama"
+  },
+  {
+    "kikuyu": "intestines",
+    "english": "mara"
+  },
+  {
+    "kikuyu": "hands",
+    "english": "moko"
+  },
+  {
+    "kikuyu": "saliva",
+    "english": "mata"
+  },
+  {
+    "kikuyu": "guinea fowl",
+    "english": "Nganga"
+  },
+  {
+    "kikuyu": "hat",
+    "english": "Ngobia"
+  },
+  {
+    "kikuyu": "floor/storey",
+    "english": "ngoroba"
+  },
+  {
+    "kikuyu": "Mũrãng'a",
+    "english": "place"
+  },
+  {
+    "kikuyu": "hunger",
+    "english": "ng'aragu"
+  },
+  {
+    "kikuyu": "be idle",
+    "english": "ng'ethia"
+  },
+  {
+    "kikuyu": "cold",
+    "english": "Heho"
+  },
+  {
+    "kikuyu": "Mĩaraho",
+    "english": "midday/around and soon after midday"
+  },
+  {
+    "kikuyu": "Nguuyū",
+    "english": "Colobus monkey"
+  },
+  {
+    "kikuyu": "Nūgū",
+    "english": "Baboon"
+  },
+  {
+    "kikuyu": "Ngĩma",
+    "english": "Sykes monkey"
+  },
+  {
+    "kikuyu": "Chimpanzee",
+    "english": "Thakwe"
+  },
+  {
+    "kikuyu": "Ndũiga",
+    "english": "giraffe"
+  },
+  {
+    "kikuyu": "Njogu",
+    "english": "elephant"
+  },
+  {
+    "kikuyu": "Wambũĩ mĩcore/njagĩ",
+    "english": "zebra"
+  },
+  {
+    "kikuyu": "Nyaga",
+    "english": "ostrich"
+  },
+  {
+    "kikuyu": "Huria",
+    "english": "rhinoceros"
+  },
+  {
+    "kikuyu": "Mũrũthĩ",
+    "english": "lion"
+  },
+  {
+    "kikuyu": "Ngatata",
+    "english": "wildebeest"
+  },
+  {
+    "kikuyu": "Nyũtũ",
+    "english": "cheetah"
+  },
+  {
+    "kikuyu": "Hiti",
+    "english": "hyena"
+  },
+  {
+    "kikuyu": "Nguuo",
+    "english": "hippo"
+  },
+  {
+    "kikuyu": "Ngarĩ",
+    "english": "leopard"
+  },
+  {
+    "kikuyu": "Kĩbũyũ",
+    "english": "flask"
+  },
+  {
+    "kikuyu": "Ndigithũ",
+    "english": "water pot"
+  },
+  {
+    "kikuyu": "stove",
+    "english": "Thitobu"
+  },
+  {
+    "kikuyu": "file",
+    "english": "Tuuba"
+  },
+  {
+    "kikuyu": "fridge",
+    "english": "Burinji"
+  },
+  {
+    "kikuyu": "lamp",
+    "english": "Tawa"
+  },
+  {
+    "kikuyu": "torch",
+    "english": "Toci"
+  },
+  {
+    "kikuyu": "Ngwatĩra",
+    "english": "tin lamp"
+  },
+  {
+    "kikuyu": "Ũrĩrĩ",
+    "english": "bed/woman's bed"
+  },
+  {
+    "kikuyu": "Gĩtanda",
+    "english": "bed"
+  },
+  {
+    "kikuyu": "Thagĩri",
+    "english": "charcoal stove"
+  },
+  {
+    "kikuyu": "charcoal",
+    "english": "Makara/ikara"
+  },
+  {
+    "kikuyu": "saw",
+    "english": "Thoo"
+  },
+  {
+    "kikuyu": "Rũgĩo",
+    "english": "hot pan/griddle"
+  },
+  {
+    "kikuyu": "Mũindũri",
+    "english": "wooden ladle"
+  },
+  {
+    "kikuyu": "Riiko/Mariiko",
+    "english": "stove/cooker"
+  },
+  {
+    "kikuyu": "Metha",
+    "english": "table"
+  },
+  {
+    "kikuyu": "Gĩtĩ/Ĩtĩ",
+    "english": "chair"
+  },
+  {
+    "kikuyu": "Mwaburi/Mĩaburi",
+    "english": "umbrella"
+  },
+  {
+    "kikuyu": "Nyũngũ",
+    "english": "traditional cooking pot"
+  },
+  {
+    "kikuyu": "Thaani",
+    "english": "plates"
+  },
+  {
+    "kikuyu": "Kahĩũ/Tũhĩũ",
+    "english": "knife"
+  },
+  {
+    "kikuyu": "Njagĩ",
+    "english": "jug"
+  },
+  {
+    "kikuyu": "Hũma",
+    "english": "fork"
+  },
+  {
+    "kikuyu": "Gĩcĩko/Ĩcĩko",
+    "english": "spoon"
+  },
+  {
+    "kikuyu": "Mbakũrĩ",
+    "english": "bowl"
+  },
+  {
+    "kikuyu": "Mũcuba/Mĩcuba",
+    "english": "bottle"
+  },
+  {
+    "kikuyu": "Mbũthũ",
+    "english": "decorated gourd"
+  },
+  {
+    "kikuyu": "Thaburia",
+    "english": "saucepan"
+  },
+  {
+    "kikuyu": "Ngĩrathĩ",
+    "english": "glass"
+  },
+  {
+    "kikuyu": "Kĩĩhũrĩ/ciĩhũrĩ",
+    "english": "plain gourd/calabash"
+  },
+  {
+    "kikuyu": "Kĩmbu",
+    "english": "chameleon"
+  },
+  {
+    "kikuyu": "skink/lizard",
+    "english": "Njagathi"
+  },
+  {
+    "kikuyu": "snake",
+    "english": "Nyoka"
+  },
+  {
+    "kikuyu": "Kĩng'ang'i",
+    "english": "crocodile"
+  },
+  {
+    "kikuyu": "Kĩũra",
+    "english": "frog"
+  },
+  {
+    "kikuyu": "Mũtwee/Mîtwe",
+    "english": "head"
+  },
+  {
+    "kikuyu": "Njũrĩrĩ/Njũîrĩ",
+    "english": "hair"
+  },
+  {
+    "kikuyu": "Rũbutu/Mbutu",
+    "english": "eyebrow"
+  },
+  {
+    "kikuyu": "Riitho/Maitho",
+    "english": "eye"
+  },
+  {
+    "kikuyu": "Gũtũ/Matũ",
+    "english": "ear"
+  },
+  {
+    "kikuyu": "Inĩũrũ/Manĩũrũ",
+    "english": "nose"
+  },
+  {
+    "kikuyu": "Igego/Magego",
+    "english": "teeth"
+  },
+  {
+    "kikuyu": "Kîromo/Iromo",
+    "english": "lips"
+  },
+  {
+    "kikuyu": "Kĩreru/Ireru",
+    "english": "chin"
+  },
+  {
+    "kikuyu": "Ngingo",
+    "english": "neck"
+  },
+  {
+    "kikuyu": "Gîthũri/Îthũri",
+    "english": "chest"
+  },
+  {
+    "kikuyu": "Kĩande/Ciande",
+    "english": "shoulder"
+  },
+  {
+    "kikuyu": "Guoko/Moko",
+    "english": "arm"
+  },
+  {
+    "kikuyu": "Nda",
+    "english": "stomach"
+  },
+  {
+    "kikuyu": "Rũhĩ/Hĩ",
+    "english": "hand"
+  },
+  {
+    "kikuyu": "Njohero",
+    "english": "waist"
+  },
+  {
+    "kikuyu": "Îru/Maru",
+    "english": "knee"
+  },
+  {
+    "kikuyu": "Kĩara/Twara",
+    "english": "fingers/toes"
+  },
+  {
+    "kikuyu": "Kũgũrũ/Magũrũ",
+    "english": "leg"
+  },
+  {
+    "kikuyu": "Ikĩnya/Makĩnya",
+    "english": "foot"
+  },
+  {
+    "kikuyu": "Kanua/Tũnua",
+    "english": "mouth"
+  },
+  {
+    "kikuyu": "Gītahuha",
+    "english": "puff adder"
+  },
+  {
+    "kikuyu": "Mūrarū",
+    "english": "green grass snake"
+  },
+  {
+    "kikuyu": "Gīīko",
+    "english": "cobra"
+  },
+  {
+    "kikuyu": "common cold",
+    "english": "Njooma"
+  },
+  {
+    "kikuyu": "Kīhuti",
+    "english": "cold sores around mouth"
+  },
+  {
+    "kikuyu": "Kĩũngũyũ / thamaki",
+    "english": "fish - singular"
+  },
+  {
+    "kikuyu": "Ciũngũyũ / thamaki",
+    "english": "several fish - plural"
+  },
+  {
+    "kikuyu": "tiny common black ants",
+    "english": "Thigiriri"
+  },
+  {
+    "kikuyu": "Thūraita",
+    "english": "large black ants"
+  },
+  {
+    "kikuyu": "Mūgagaca",
+    "english": "tiny brown ants"
+  },
+  {
+    "kikuyu": "soldier ants",
+    "english": "Thuraku"
+  },
+  {
+    "kikuyu": "Mūthūa",
+    "english": "termites"
+  },
+  {
+    "kikuyu": "wasp",
+    "english": "Igi"
+  },
+  {
+    "kikuyu": "Mũndũ ũmwe",
+    "english": "1 person"
+  },
+  {
+    "kikuyu": "Andũ erĩ",
+    "english": "2 people"
+  },
+  {
+    "kikuyu": "atatũ",
+    "english": "3"
+  },
+  {
+    "kikuyu": "ana",
+    "english": "4"
+  },
+  {
+    "kikuyu": "atano",
+    "english": "5"
+  },
+  {
+    "kikuyu": "atandatũ",
+    "english": "6"
+  },
+  {
+    "kikuyu": "mũgwanja",
+    "english": "7"
+  },
+  {
+    "kikuyu": "anana",
+    "english": "8"
+  },
+  {
+    "kikuyu": "kenda",
+    "english": "9"
+  },
+  {
+    "kikuyu": "ikũmi",
+    "english": "10"
+  },
+  {
+    "kikuyu": "ikũmi na ũmwe",
+    "english": "11"
+  },
+  {
+    "kikuyu": "light",
+    "english": "Ũtheri"
+  },
+  {
+    "kikuyu": "darkness",
+    "english": "Nduma"
+  },
+  {
+    "kikuyu": "moonlight & stars",
+    "english": "wa mweri na njata"
+  },
+  {
+    "kikuyu": "electric light",
+    "english": "wa thitima"
+  },
+  {
+    "kikuyu": "wa mũcũmaa",
+    "english": "candle"
+  },
+  {
+    "kikuyu": "torch",
+    "english": "wa toci"
+  },
+  {
+    "kikuyu": "wa mwaki wa ngũ",
+    "english": "firewood fire"
+  },
+  {
+    "kikuyu": "Mũndĩ/bundi",
+    "english": "handyman - carpenter/plumber"
+  },
+  {
+    "kikuyu": "Mũrĩmi",
+    "english": "farmer"
+  },
+  {
+    "kikuyu": "driver",
+    "english": "Ndereba"
+  },
+  {
+    "kikuyu": "leaders",
+    "english": "Atongoria"
+  },
+  {
+    "kikuyu": "police",
+    "english": "Borithi"
+  },
+  {
+    "kikuyu": "Mũũbĩa",
+    "english": "priest-catholic"
+  },
+  {
+    "kikuyu": "Mũhũrĩri wa mbica",
+    "english": "photographer"
+  },
+  {
+    "kikuyu": "Mũgwĩmi",
+    "english": "hunter"
+  },
+  {
+    "kikuyu": "Mũrĩithia wa mahiũ",
+    "english": "herder"
+  },
+  {
+    "kikuyu": "iron mongers",
+    "english": "Aturi"
+  },
+  {
+    "kikuyu": "Ombi a nyũngũ",
+    "english": "potters"
+  },
+  {
+    "kikuyu": "Mũgo",
+    "english": "medicine person"
+  },
+  {
+    "kikuyu": "Aciari",
+    "english": "parents"
+  },
+  {
+    "kikuyu": "Rũrĩrĩ",
+    "english": "community/tribe speaking one language"
+  },
+  {
+    "kikuyu": "Ciana",
+    "english": "children"
+  },
+  {
+    "kikuyu": "Kenda mũiyũrũ",
+    "english": "the full nine/ten"
+  },
+  {
+    "kikuyu": "Tũhĩĩ",
+    "english": "boys"
+  },
+  {
+    "kikuyu": "Tũirĩtu",
+    "english": "girls"
+  },
+  {
+    "kikuyu": "Nyũmba",
+    "english": "house/woman's hut"
+  },
+  {
+    "kikuyu": "Thingira",
+    "english": "men's hut"
+  },
+  {
+    "kikuyu": "Ikũmbĩ",
+    "english": "granary"
+  },
+  {
+    "kikuyu": "Mũgũnda",
+    "english": "garden/farm"
+  },
+  {
+    "kikuyu": "Gĩcagi",
+    "english": "village"
+  },
+  {
+    "kikuyu": "cold",
+    "english": "Heho"
+  },
+  {
+    "kikuyu": "Ũrugarĩ",
+    "english": "heat/warmth"
+  },
+  {
+    "kikuyu": "fire",
+    "english": "Mwaki"
+  },
+  {
+    "kikuyu": "Gĩchĩnga",
+    "english": "smoldering stick with fire"
+  },
+  {
+    "kikuyu": "cardigan/sweater",
+    "english": "Burana"
+  },
+  {
+    "kikuyu": "coat",
+    "english": "Ĩgooti"
+  },
+  {
+    "kikuyu": "overcoat",
+    "english": "Kabuti"
+  },
+  {
+    "kikuyu": "Mũrĩngĩti",
+    "english": "blanket"
+  },
+  {
+    "kikuyu": "Ĩkĩra",
+    "english": "put/put on/wear"
+  },
+  {
+    "kikuyu": "Kwĩhũmba",
+    "english": "to wear"
+  },
+  {
+    "kikuyu": "Mũno",
+    "english": "very much"
+  },
+  {
+    "kikuyu": "Grandfather - Muranga/Kiambu vs Nyeri",
+    "english": "Guka/Wagui"
+  },
+  {
+    "kikuyu": "Cũcũ",
+    "english": "Grandmother"
+  },
+  {
+    "kikuyu": "Aunt",
+    "english": "Tata"
+  },
+  {
+    "kikuyu": "Uncle-mother's side",
+    "english": "Mama"
+  },
+  {
+    "kikuyu": "Baba mũnini",
+    "english": "Uncle-father's younger brother"
+  },
+  {
+    "kikuyu": "Baba mũkũrũ",
+    "english": "Uncle-father's older brother"
+  },
+  {
+    "kikuyu": "Mũrũ wa tata",
+    "english": "Cousin-aunt's son"
+  },
+  {
+    "kikuyu": "Mũrũ wa mama",
+    "english": "Cousin-uncle's son"
+  },
+  {
+    "kikuyu": "Mũrũ wa maitũ",
+    "english": "Brother"
+  },
+  {
+    "kikuyu": "Mwarĩ wa maitũ",
+    "english": "Sister"
+  },
+  {
+    "kikuyu": "Mũrũ wa baba",
+    "english": "Half Brother"
+  },
+  {
+    "kikuyu": "Mwarĩ wa baba",
+    "english": "Half Sister"
+  },
+  {
+    "kikuyu": "foot/step",
+    "english": "Ikinya"
+  },
+  {
+    "kikuyu": "race",
+    "english": "Ihenya"
+  },
+  {
+    "kikuyu": "Kĩnya",
+    "english": "gourd"
+  },
+  {
+    "kikuyu": "arrive/step on/up to",
+    "english": "Kinya"
+  },
+  {
+    "kikuyu": "strength",
+    "english": "Hinya"
+  },
+  {
+    "kikuyu": "know",
+    "english": "Menya"
+  },
+  {
+    "kikuyu": "pinch",
+    "english": "Kunya"
+  },
+  {
+    "kikuyu": "tomato",
+    "english": "Nyanya"
+  },
+  {
+    "kikuyu": "uproot",
+    "english": "Munya"
+  },
+  {
+    "kikuyu": "squeeze/press",
+    "english": "Hihinya"
+  },
+  {
+    "kikuyu": "duck",
+    "english": "Mbata"
+  },
+  {
+    "kikuyu": "Ngũkũ ya mwera",
+    "english": "hen"
+  },
+  {
+    "kikuyu": "chick",
+    "english": "Gacui"
+  },
+  {
+    "kikuyu": "Ngũkũ ya njamba",
+    "english": "cock"
+  },
+  {
+    "kikuyu": "Nyamũ ya thĩ",
+    "english": "snake - polite/euphemistic"
+  },
+  {
+    "kikuyu": "look for Mwangi",
+    "english": "Caria Mwangi"
+  },
+  {
+    "kikuyu": "look for money",
+    "english": "Caria mbeca"
+  },
+  {
+    "kikuyu": "Caria mahĩtia",
+    "english": "look for errors/mistakes"
+  },
+  {
+    "kikuyu": "Gũcaria",
+    "english": "to search"
+  },
+  {
+    "kikuyu": "Gũcoka",
+    "english": "to return/come back-person"
+  },
+  {
+    "kikuyu": "Gũcokia",
+    "english": "to return-object"
+  },
+  {
+    "kikuyu": "Gũĩka",
+    "english": "to do"
+  },
+  {
+    "kikuyu": "Gũikara",
+    "english": "to stay"
+  },
+  {
+    "kikuyu": "Gũikara thĩ",
+    "english": "to sit down"
+  },
+  {
+    "kikuyu": "Gũikena",
+    "english": "to be happy"
+  },
+  {
+    "kikuyu": "Gũkinya",
+    "english": "to arrive/step on"
+  },
+  {
+    "kikuyu": "Gũthambia",
+    "english": "to wash"
+  },
+  {
+    "kikuyu": "Gũthĩĩ rũgendo",
+    "english": "to go on journey"
+  },
+  {
+    "kikuyu": "Gũthũkia",
+    "english": "to damage/spoil"
+  },
+  {
+    "kikuyu": "Gũtigara",
+    "english": "to remain"
+  },
+  {
+    "kikuyu": "Gũtinia",
+    "english": "to cut"
+  },
+  {
+    "kikuyu": "to wait",
+    "english": "Gweterera"
+  },
+  {
+    "kikuyu": "Gwĩcĩrĩria",
+    "english": "to think/reason"
+  },
+  {
+    "kikuyu": "Kũgeria",
+    "english": "to try"
+  },
+  {
+    "kikuyu": "Ritho/Maitho",
+    "english": "eye/eyes"
+  },
+  {
+    "kikuyu": "Mũtwe/Mĩtwe",
+    "english": "head/heads"
+  },
+  {
+    "kikuyu": "Mũkangi/Mĩkangi",
+    "english": "beak/beaks"
+  },
+  {
+    "kikuyu": "Ngingo",
+    "english": "neck"
+  },
+  {
+    "kikuyu": "Ĩthagu/Mathagu",
+    "english": "wings"
+  },
+  {
+    "kikuyu": "Ruoya/Njoya",
+    "english": "feather/feathers"
+  },
+  {
+    "kikuyu": "Mwĩrĩ/Mĩrĩ",
+    "english": "body/bodies"
+  },
+  {
+    "kikuyu": "Njoya cia Kĩngũĩ",
+    "english": "tail feathers"
+  },
+  {
+    "kikuyu": "Kũgũrũ/Magũrũ",
+    "english": "leg/legs"
+  },
+  {
+    "kikuyu": "Gũthĩĩ",
+    "english": "to go"
+  },
+  {
+    "kikuyu": "Kũruga",
+    "english": "to cook"
+  },
+  {
+    "kikuyu": "Gũciara",
+    "english": "to give birth"
+  },
+  {
+    "kikuyu": "Kũrigita",
+    "english": "to nurse"
+  },
+  {
+    "kikuyu": "Kũrĩma",
+    "english": "to farm"
+  },
+  {
+    "kikuyu": "Kũũmba",
+    "english": "to mold with clay"
+  },
+  {
+    "kikuyu": "to want/love",
+    "english": "Kwenda"
+  },
+  {
+    "kikuyu": "Kũrwara",
+    "english": "to be sick"
+  },
+  {
+    "kikuyu": "Kũiya",
+    "english": "to steal"
+  },
+  {
+    "kikuyu": "Thibitarĩ",
+    "english": "hospital"
+  },
+  {
+    "kikuyu": "Mũrwaru",
+    "english": "patient"
+  },
+  {
+    "kikuyu": "Nđagĩtarĩ",
+    "english": "doctor"
+  },
+  {
+    "kikuyu": "Mũrigitani",
+    "english": "nurse"
+  },
+  {
+    "kikuyu": "Dagĩtarĩ wa magego",
+    "english": "dentist"
+  },
+  {
+    "kikuyu": "Mĩthaiga/Nđawa",
+    "english": "medicine"
+  },
+  {
+    "kikuyu": "Nđawa ya mbũrũgũtũ",
+    "english": "tablet"
+  },
+  {
+    "kikuyu": "table",
+    "english": "Metha"
+  },
+  {
+    "kikuyu": "picture/photo",
+    "english": "Mbica"
+  },
+  {
+    "kikuyu": "Nyũngũ",
+    "english": "cooking pot"
+  },
+  {
+    "kikuyu": "Ngĩrathi",
+    "english": "glass"
+  },
+  {
+    "kikuyu": "plate",
+    "english": "Thaani"
+  },
+  {
+    "kikuyu": "iron for clothes",
+    "english": "Baathi"
+  },
+  {
+    "kikuyu": "television",
+    "english": "Terebiceni"
+  },
+  {
+    "kikuyu": "saucepan",
+    "english": "Thaburia"
+  },
+  {
+    "kikuyu": "kettle",
+    "english": "Mbirika"
+  },
+  {
+    "kikuyu": "padlock",
+    "english": "Kuburi"
+  },
+  {
+    "kikuyu": "keys",
+    "english": "Cabi"
+  },
+  {
+    "kikuyu": "cow",
+    "english": "Ng'ombe"
+  },
+  {
+    "kikuyu": "he-goat",
+    "english": "Thenge"
+  },
+  {
+    "kikuyu": "Ngũkũ",
+    "english": "chicken/hen"
+  },
+  {
+    "kikuyu": "duck",
+    "english": "Mbata"
+  },
+  {
+    "kikuyu": "Ngigĩ",
+    "english": "grasshopper"
+  },
+  {
+    "kikuyu": "Kũgũra",
+    "english": "to buy"
+  },
+  {
+    "kikuyu": "Kũgwa",
+    "english": "to fall"
+  },
+  {
+    "kikuyu": "Kũhinga",
+    "english": "to close"
+  },
+  {
+    "kikuyu": "Kũhingũra",
+    "english": "to open"
+  },
+  {
+    "kikuyu": "Kũhota",
+    "english": "to manage/be able to do"
+  },
+  {
+    "kikuyu": "Kũiga",
+    "english": "to keep/place"
+  },
+  {
+    "kikuyu": "Kũmenya",
+    "english": "to know"
+  },
+  {
+    "kikuyu": "Kũnyita",
+    "english": "to catch/hold/understand"
+  },
+  {
+    "kikuyu": "Kũrehe",
+    "english": "to bring"
+  },
+  {
+    "kikuyu": "Kũringa",
+    "english": "to hit"
+  },
+  {
+    "kikuyu": "Kũrũga",
+    "english": "to cook"
+  },
+  {
+    "kikuyu": "Kũrũgama",
+    "english": "to stand"
+  },
+  {
+    "kikuyu": "Kũrũmĩrĩra",
+    "english": "to follow"
+  },
+  {
+    "kikuyu": "to say",
+    "english": "Kuuga"
+  },
+  {
+    "kikuyu": "to want/love",
+    "english": "Kwenda"
+  },
+  {
+    "kikuyu": "to sell",
+    "english": "Kwendia"
+  },
+  {
+    "kikuyu": "to forgive/tie for someone",
+    "english": "Kwohera"
+  },
+  {
+    "kikuyu": "Gũcũnga",
+    "english": "to doze"
+  },
+  {
+    "kikuyu": "Gũkoma",
+    "english": "to sleep"
+  },
+  {
+    "kikuyu": "Gũkoma na nda",
+    "english": "sleep on stomach/face down"
+  },
+  {
+    "kikuyu": "Gũkoma na ngara/mũgongo",
+    "english": "sleep on back"
+  },
+  {
+    "kikuyu": "Gũkoma na mwena",
+    "english": "sleep on one side"
+  },
+  {
+    "kikuyu": "Kũrara",
+    "english": "to spend the night"
+  },
+  {
+    "kikuyu": "Hinga maitho ũkome",
+    "english": "shut your eyes and sleep"
+  },
+  {
+    "kikuyu": "Rara nĩ gwatuka (sleep-over",
+    "english": "Rara nĩ gwatuka (sleep-over"
+  },
+  {
+    "kikuyu": "darkness has fallen)",
+    "english": "darkness has fallen)"
+  },
+  {
+    "kikuyu": "Koma ũkĩre",
+    "english": "sleep and wake up"
+  },
+  {
+    "kikuyu": "Koma na wega/thayũ",
+    "english": "sleep well"
+  },
+  {
+    "kikuyu": "Gĩa/Korwo na ũtuko mwega",
+    "english": "have a good night"
+  },
+  {
+    "kikuyu": "Ngũi",
+    "english": "dog"
+  },
+  {
+    "kikuyu": "cat",
+    "english": "Nyau"
+  },
+  {
+    "kikuyu": "parrot",
+    "english": "Gathuku"
+  },
+  {
+    "kikuyu": "Mbĩa",
+    "english": "rat"
+  },
+  {
+    "kikuyu": "Gĩkombe",
+    "english": "cup"
+  },
+  {
+    "kikuyu": "pen",
+    "english": "Karamu"
+  },
+  {
+    "kikuyu": "frog",
+    "english": "Kiura"
+  },
+  {
+    "kikuyu": "small frog",
+    "english": "Kora"
+  },
+  {
+    "kikuyu": "Mwaburi/Mĩaburi",
+    "english": "umbrella sing/plur"
+  },
+  {
+    "kikuyu": "Mũbĩra/Mĩbĩra",
+    "english": "ball sing/plur"
+  },
+  {
+    "kikuyu": "Kĩratũ/Iratũ",
+    "english": "shoe sing/plur"
+  },
+  {
+    "kikuyu": "car",
+    "english": "Ngaari"
+  },
+  {
+    "kikuyu": "call",
+    "english": "Ĩta"
+  },
+  {
+    "kikuyu": "speak",
+    "english": "Aria"
+  },
+  {
+    "kikuyu": "wait",
+    "english": "Eterera"
+  },
+  {
+    "kikuyu": "visit",
+    "english": "Ceera"
+  },
+  {
+    "kikuyu": "say",
+    "english": "Uga"
+  },
+  {
+    "kikuyu": "Andĩka",
+    "english": "write"
+  },
+  {
+    "kikuyu": "see",
+    "english": "Ona"
+  },
+  {
+    "kikuyu": "shave/dig a hole",
+    "english": "Enja"
+  },
+  {
+    "kikuyu": "drink",
+    "english": "Nyua"
+  },
+  {
+    "kikuyu": "get out",
+    "english": "Uma"
+  },
+  {
+    "kikuyu": "be happy",
+    "english": "Kena"
+  },
+  {
+    "kikuyu": "find",
+    "english": "Kora"
+  },
+  {
+    "kikuyu": "sleep",
+    "english": "Koma"
+  },
+  {
+    "kikuyu": "need",
+    "english": "Batara"
+  },
+  {
+    "kikuyu": "Rĩma",
+    "english": "dig in a farm"
+  },
+  {
+    "kikuyu": "dream",
+    "english": "Rota"
+  },
+  {
+    "kikuyu": "cook",
+    "english": "Ruga"
+  },
+  {
+    "kikuyu": "Mũrango",
+    "english": "door"
+  },
+  {
+    "kikuyu": "cupboard",
+    "english": "Kabati"
+  },
+  {
+    "kikuyu": "table",
+    "english": "Metha"
+  },
+  {
+    "kikuyu": "window",
+    "english": "Nđirica"
+  },
+  {
+    "kikuyu": "Gĩtĩ",
+    "english": "chair"
+  },
+  {
+    "kikuyu": "Gaturwa/Njĩngwa",
+    "english": "stool"
+  },
+  {
+    "kikuyu": "handyman/carpenter/plumber",
+    "english": "Bundi"
+  },
+  {
+    "kikuyu": "Mũrĩmi",
+    "english": "farmer"
+  },
+  {
+    "kikuyu": "driver",
+    "english": "Nđereba"
+  },
+  {
+    "kikuyu": "leaders",
+    "english": "Atongoria"
+  },
+  {
+    "kikuyu": "police",
+    "english": "Borithi"
+  },
+  {
+    "kikuyu": "Mũũbĩa",
+    "english": "priest/catholic"
+  },
+  {
+    "kikuyu": "Mũhũrĩri wa mbica",
+    "english": "photographer"
+  },
+  {
+    "kikuyu": "Mũgwĩmi",
+    "english": "hunter"
+  },
+  {
+    "kikuyu": "Mũrĩithia wa mahiũ",
+    "english": "herder of domestic animals"
+  },
+  {
+    "kikuyu": "iron mongers",
+    "english": "Aturi"
+  },
+  {
+    "kikuyu": "Ombi a nyũngũ",
+    "english": "potters"
+  },
+  {
+    "kikuyu": "Mũgo",
+    "english": "medicine person/traditional healer"
+  },
+  {
+    "kikuyu": "scared",
+    "english": "Guoya"
+  },
+  {
+    "kikuyu": "happy",
+    "english": "Gikeno"
+  },
+  {
+    "kikuyu": "Kĩeha",
+    "english": "sad"
+  },
+  {
+    "kikuyu": "angry",
+    "english": "Marakara"
+  },
+  {
+    "kikuyu": "Ndũhĩo",
+    "english": "excited"
+  },
+  {
+    "kikuyu": "Kĩmako",
+    "english": "worried"
+  },
+  {
+    "kikuyu": "Kũhahũka",
+    "english": "surprised"
+  },
+  {
+    "kikuyu": "Ũrĩmũ",
+    "english": "silly"
+  },
+  {
+    "kikuyu": "Kwaga kũiganĩra",
+    "english": "frustrated"
+  },
+  {
+    "kikuyu": "Kũigua kĩnyiria",
+    "english": "to be disgusted"
+  },
+  {
+    "kikuyu": "Kũnyĩra",
+    "english": "to express disgust"
+  },
+  {
+    "kikuyu": "Gũcambia/gũgooca",
+    "english": "criticize/praise"
+  },
+  {
+    "kikuyu": "Gũtaara/kũhĩtithia",
+    "english": "guide/mislead"
+  },
+  {
+    "kikuyu": "Gũtherema/gũkũndera",
+    "english": "accept/reject"
+  },
+  {
+    "kikuyu": "Gũthĩnia/gũteithia",
+    "english": "bother/help"
+  },
+  {
+    "kikuyu": "Gũtonga/gũthĩna",
+    "english": "be rich/be poor"
+  },
+  {
+    "kikuyu": "Gwaka/gũtharia",
+    "english": "build/demolish"
+  },
+  {
+    "kikuyu": "Kũgetha/kũhanda",
+    "english": "harvest/plant"
+  },
+  {
+    "kikuyu": "Kũhũnyũka/kũrura",
+    "english": "be fast/be slow"
+  },
+  {
+    "kikuyu": "Kũhũta/kũhũna",
+    "english": "be hungry/be full"
+  },
+  {
+    "kikuyu": "Kũrĩra/gũtheka",
+    "english": "cry/laugh"
+  },
+  {
+    "kikuyu": "Kwĩhĩka/kwĩgũucia",
+    "english": "feel shy/be proud"
+  },
+  {
+    "kikuyu": "Mũnyuko/noru",
+    "english": "thin/fat"
+  },
+  {
+    "kikuyu": "Ndũma/ũtheri",
+    "english": "darkness/light"
+  },
+  {
+    "kikuyu": "Ngũĩ/ndũhĩo",
+    "english": "anger/excitement"
+  },
+  {
+    "kikuyu": "Njamba/kĩguoya",
+    "english": "hero/coward"
+  },
+  {
+    "kikuyu": "Thayũ/mbaara",
+    "english": "peace/war"
+  },
+  {
+    "kikuyu": "Riiko/Marĩiko",
+    "english": "stove/cooker sing/plur"
+  },
+  {
+    "kikuyu": "Metha",
+    "english": "table"
+  },
+  {
+    "kikuyu": "Mwaburi/Mĩaburi",
+    "english": "umbrella"
+  },
+  {
+    "kikuyu": "Thaani",
+    "english": "plate"
+  },
+  {
+    "kikuyu": "Gĩtĩ/Itĩ",
+    "english": "chair"
+  },
+  {
+    "kikuyu": "Nyũgũ",
+    "english": "clay pot"
+  },
+  {
+    "kikuyu": "Kahiũ/Tũhĩũ",
+    "english": "knife"
+  },
+  {
+    "kikuyu": "Hũma",
+    "english": "fork"
+  },
+  {
+    "kikuyu": "Gĩciko/Iciko",
+    "english": "spoon"
+  },
+  {
+    "kikuyu": "Mbakũri",
+    "english": "serving bowl"
+  },
+  {
+    "kikuyu": "Mũcuba/Mĩcuba",
+    "english": "bottle"
+  },
+  {
+    "kikuyu": "Njagĩ",
+    "english": "water pitcher/jug"
+  },
+  {
+    "kikuyu": "Thaburia",
+    "english": "cooking pot"
+  },
+  {
+    "kikuyu": "Ngirathi",
+    "english": "glass"
+  },
+  {
+    "kikuyu": "Kĩĩhũri/Cĩihũri",
+    "english": "gourd/calabash"
+  },
+  {
+    "kikuyu": "Mbũthũ",
+    "english": "decorated calabash"
+  },
+  {
+    "kikuyu": "milk",
+    "english": "Iria"
+  },
+  {
+    "kikuyu": "soda",
+    "english": "Thota"
+  },
+  {
+    "kikuyu": "Ũcũrũ",
+    "english": "porridge"
+  },
+  {
+    "kikuyu": "soup",
+    "english": "Thubu"
+  },
+  {
+    "kikuyu": "tea",
+    "english": "Cai"
+  },
+  {
+    "kikuyu": "Kahũwa",
+    "english": "coffee"
+  },
+  {
+    "kikuyu": "sour milk",
+    "english": "Iria igagatu"
+  },
+  {
+    "kikuyu": "Maĩ",
+    "english": "water"
+  },
+  {
+    "kikuyu": "Maĩ ma macungwa",
+    "english": "orange juice"
+  },
+  {
+    "kikuyu": "Maĩ ma ndimũ",
+    "english": "lemon juice"
+  },
+  {
+    "kikuyu": "Maĩ ma matunda",
+    "english": "fruit juice"
+  },
+  {
+    "kikuyu": "Wa/ya/rĩa/gĩa mbere",
+    "english": "first"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa keerĩ",
+    "english": "second"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa gatatũ",
+    "english": "third"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa kana",
+    "english": "fourth"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa gatano",
+    "english": "fifth"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa gatandatũ",
+    "english": "sixth"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa mũgwanja",
+    "english": "seventh"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa kanana",
+    "english": "eighth"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa kenda",
+    "english": "ninth"
+  },
+  {
+    "kikuyu": "wa/ya/rĩa/gĩa ikũmi",
+    "english": "tenth"
+  },
+  {
+    "kikuyu": "knee",
+    "english": "Iru"
+  },
+  {
+    "kikuyu": "cheek",
+    "english": "Ikai"
+  },
+  {
+    "kikuyu": "Rũhi",
+    "english": "palm"
+  },
+  {
+    "kikuyu": "Mũtĩ mũceke/mwarĩĩ",
+    "english": "thin tree/large tree"
+  },
+  {
+    "kikuyu": "Gĩkabu gĩceke/kĩarĩĩ",
+    "english": "small basket/large basket"
+  },
+  {
+    "kikuyu": "Kĩmũbira/Mũbira/Kamũbira",
+    "english": "very large ball/ball/small ball - augmentative/normal/diminutive"
+  },
+  {
+    "kikuyu": "Ng'ombe noru/hũnju",
+    "english": "fat cow/thin cow"
+  },
+  {
+    "kikuyu": "Mũndũ mũkũhĩ/mũraihu/mũceke/mũtungu",
+    "english": "short person/tall person/thin person/fat person"
+  },
+  {
+    "kikuyu": "Mũrango",
+    "english": "door"
+  },
+  {
+    "kikuyu": "Kabatĩ",
+    "english": "cupboard/cabinet/wardrobe"
+  },
+  {
+    "kikuyu": "table",
+    "english": "Metha"
+  },
+  {
+    "kikuyu": "Gĩtĩ",
+    "english": "chair"
+  },
+  {
+    "kikuyu": "Gaturwa/Njĩgĩwa",
+    "english": "stool/small table"
+  },
+  {
+    "kikuyu": "window",
+    "english": "Ndirica"
+  },
+  {
+    "kikuyu": "beer",
+    "english": "Drinks: Njoohi"
+  },
+  {
+    "kikuyu": "water",
+    "english": "Maai"
+  },
+  {
+    "kikuyu": "orange juice",
+    "english": "Maai ma macungwa"
+  },
+  {
+    "kikuyu": "milk",
+    "english": "Iria"
+  },
+  {
+    "kikuyu": "fermented milk",
+    "english": "Iria igagatu"
+  },
+  {
+    "kikuyu": "Ũcũrũ mũgagatu",
+    "english": "fermented porridge"
+  },
+  {
+    "kikuyu": "soda",
+    "english": "Thoota"
+  },
+  {
+    "kikuyu": "chapattis",
+    "english": "Cabaci"
+  },
+  {
+    "kikuyu": "Mũgate",
+    "english": "bread"
+  },
+  {
+    "kikuyu": "Mũcere",
+    "english": "rice"
+  },
+  {
+    "kikuyu": "beans",
+    "english": "Mboco"
+  },
+  {
+    "kikuyu": "meat",
+    "english": "Nyama"
+  },
+  {
+    "kikuyu": "Thamaki/Kĩũngũyũ",
+    "english": "fish"
+  },
+  {
+    "kikuyu": "Mũtura",
+    "english": "traditional sausage"
+  },
+  {
+    "kikuyu": "Gũtherukia",
+    "english": "to boil"
+  },
+  {
+    "kikuyu": "Kũhĩhia",
+    "english": "to roast"
+  },
+  {
+    "kikuyu": "Gũkanda mũtu",
+    "english": "to make dough"
+  },
+  {
+    "kikuyu": "Wambũi mĩcore",
+    "english": "zebra"
+  },
+  {
+    "kikuyu": "Mũrũthi",
+    "english": "lion"
+  },
+  {
+    "kikuyu": "Ndũiga",
+    "english": "giraffe"
+  },
+  {
+    "kikuyu": "rhinoceros",
+    "english": "Huria"
+  },
+  {
+    "kikuyu": "elephant",
+    "english": "Njogu"
+  },
+  {
+    "kikuyu": "buffalo",
+    "english": "Mbogo"
+  },
+  {
+    "kikuyu": "Gũtũnda",
+    "english": "to have a rash"
+  },
+  {
+    "kikuyu": "Ndĩ mũtũndu guoko",
+    "english": "I have a rash on my arm"
+  },
+  {
+    "kikuyu": "pimple/s",
+    "english": "Thundo"
+  },
+  {
+    "kikuyu": "Ndĩna thundo ũthiũ",
+    "english": "I have a pimple on my face"
+  },
+  {
+    "kikuyu": "Kĩronda",
+    "english": "a wound"
+  },
+  {
+    "kikuyu": "he/she has a wound on his knee",
+    "english": "E na kironda iru"
+  },
+  {
+    "kikuyu": "Kũrwara",
+    "english": "to be sick"
+  },
+  {
+    "kikuyu": "Ndĩ mũrwaru nda",
+    "english": "I am sick in the stomach"
+  },
+  {
+    "kikuyu": "Gũturwo",
+    "english": "to have pain"
+  },
+  {
+    "kikuyu": "Igokora/Kĩgokora",
+    "english": "elbow - variant pronunciations"
+  },
+  {
+    "kikuyu": "Rucuĩrĩ",
+    "english": "single hair strand"
+  },
+  {
+    "kikuyu": "Njuĩrĩ (hair - collective",
+    "english": "Njuĩrĩ (hair - collective"
+  },
+  {
+    "kikuyu": "no matter how many strands)",
+    "english": "no matter how many strands)"
+  },
+  {
+    "kikuyu": "Kĩongo/Ciongo",
+    "english": "head"
+  },
+  {
+    "kikuyu": "Njuĩrĩ/Njuĩrĩ",
+    "english": "hair - invariant"
+  },
+  {
+    "kikuyu": "Gũtũ/Matũ",
+    "english": "ear"
+  },
+  {
+    "kikuyu": "Ũthĩĩ/Maũthĩĩ",
+    "english": "face"
+  },
+  {
+    "kikuyu": "Inĩũrũ/Manĩũrũ",
+    "english": "nose"
+  },
+  {
+    "kikuyu": "Rũrĩmĩ/Nĩmĩ",
+    "english": "tongue"
+  },
+  {
+    "kikuyu": "Rĩĩtho/Maĩtho",
+    "english": "eye"
+  },
+  {
+    "kikuyu": "hand",
+    "english": "Guoko/Moko"
+  },
+  {
+    "kikuyu": "Kĩara/Ciara",
+    "english": "finger"
+  },
+  {
+    "kikuyu": "elbow",
+    "english": "Igokora/Magokora"
+  },
+  {
+    "kikuyu": "Kũgũrũ/Magũrũ",
+    "english": "leg"
+  },
+  {
+    "kikuyu": "knee",
+    "english": "Iru/Maru"
+  },
+  {
+    "kikuyu": "Mũhũri wa mbica",
+    "english": "photographer - lit. hitter of pictures"
+  },
+  {
+    "kikuyu": "Mũgĩmwĩa",
+    "english": "hunter"
+  },
+  {
+    "kikuyu": "Mũrĩithia wa mahĩũ",
+    "english": "herder of domestic animals"
+  },
+  {
+    "kikuyu": "Mũtũri",
+    "english": "iron monger/blacksmith"
+  },
+  {
+    "kikuyu": "Mũũmbi wa nyũngũ",
+    "english": "potter - lit. molder of pots"
+  },
+  {
+    "kikuyu": "Mũgo",
+    "english": "medicine person/traditional healer"
+  },
+  {
+    "kikuyu": "handyman/carpenter",
+    "english": "Bundi"
+  },
+  {
+    "kikuyu": "Mũrĩmĩ",
+    "english": "farmer"
+  },
+  {
+    "kikuyu": "driver",
+    "english": "Ndereba"
+  },
+  {
+    "kikuyu": "Mũtongoria",
+    "english": "leader"
+  },
+  {
+    "kikuyu": "police",
+    "english": "Borithi"
+  },
+  {
+    "kikuyu": "Mũbĩa",
+    "english": "priest - Catholic"
+  },
+  {
+    "kikuyu": "Mũrango",
+    "english": "door"
+  },
+  {
+    "kikuyu": "cupboard/cabinet",
+    "english": "Kabati"
+  },
+  {
+    "kikuyu": "table",
+    "english": "Metha"
+  },
+  {
+    "kikuyu": "Ndĩrica",
+    "english": "window"
+  },
+  {
+    "kikuyu": "Gĩtĩ",
+    "english": "seat/chair"
+  },
+  {
+    "kikuyu": "Gaturwa/Njĩngwa",
+    "english": "stool"
+  },
+  {
+    "kikuyu": "come",
+    "english": "Verbs: Ũka"
+  },
+  {
+    "kikuyu": "Andĩka",
+    "english": "write"
+  },
+  {
+    "kikuyu": "Rĩra",
+    "english": "cry"
+  },
+  {
+    "kikuyu": "laugh",
+    "english": "Theka"
+  },
+  {
+    "kikuyu": "Rĩa",
+    "english": "eat"
+  },
+  {
+    "kikuyu": "speak",
+    "english": "Aria"
+  },
+  {
+    "kikuyu": "Thĩĩ",
+    "english": "go"
+  },
+  {
+    "kikuyu": "read",
+    "english": "Thooma"
+  },
+  {
+    "kikuyu": "keep quiet",
+    "english": "Kira"
+  },
+  {
+    "kikuyu": "cook",
+    "english": "Ruga"
+  },
+  {
+    "kikuyu": "Ruta wĩra",
+    "english": "do work"
+  },
+  {
+    "kikuyu": "remove",
+    "english": "Ruta"
+  },
+  {
+    "kikuyu": "food",
+    "english": "Irio"
+  },
+  {
+    "kikuyu": "Wĩra",
+    "english": "work"
+  },
+  {
+    "kikuyu": "Mũirĩtu",
+    "english": "girl"
+  },
+  {
+    "kikuyu": "young man",
+    "english": "Mwanake"
+  },
+  {
+    "kikuyu": "Mũtumia",
+    "english": "woman"
+  },
+  {
+    "kikuyu": "Mũthũuri",
+    "english": "man"
+  },
+  {
+    "kikuyu": "Maĩ",
+    "english": "water"
+  },
+  {
+    "kikuyu": "Marũa",
+    "english": "letter"
+  },
+  {
+    "kikuyu": "Ũcũrũ",
+    "english": "porridge"
+  },
+  {
+    "kikuyu": "father",
+    "english": "Nuclear family: Baba"
+  },
+  {
+    "kikuyu": "Maitũ",
+    "english": "mother"
+  },
+  {
+    "kikuyu": "Mũrũ wa maitũ",
+    "english": "brother"
+  },
+  {
+    "kikuyu": "Mwarĩ wa maitũ",
+    "english": "sister"
+  },
+  {
+    "kikuyu": "Murũ wa baba",
+    "english": "half brother"
+  },
+  {
+    "kikuyu": "Mwarĩ wa baba",
+    "english": "half sister"
+  },
+  {
+    "kikuyu": "Cũcũ",
+    "english": "grandmother"
+  },
+  {
+    "kikuyu": "aunt",
+    "english": "Tata"
+  },
+  {
+    "kikuyu": "uncle - mother's side",
+    "english": "Mama"
+  },
+  {
+    "kikuyu": "Baba mũnini",
+    "english": "uncle - father's younger brother"
+  },
+  {
+    "kikuyu": "Baba mũkũrũ",
+    "english": "uncle - father's older brother"
+  },
+  {
+    "kikuyu": "Mũrũ wa tata",
+    "english": "cousin"
+  },
+  {
+    "kikuyu": "Mũrũ wa mama",
+    "english": "cousin"
+  },
+  {
+    "kikuyu": "mbarĩki - castor oil",
+    "english": "b/mb"
+  },
+  {
+    "kikuyu": "ß/b (baba - father",
+    "english": "ß/b (baba - father"
+  },
+  {
+    "kikuyu": "like Bh in Mahabharat)",
+    "english": "like Bh in Mahabharat)"
+  },
+  {
+    "kikuyu": "c (cũcũ - grandmother",
+    "english": "c (cũcũ - grandmother"
+  },
+  {
+    "kikuyu": "like sh in Shilling)",
+    "english": "like sh in Shilling)"
+  },
+  {
+    "kikuyu": "ndoro - mud",
+    "english": "ɖ/nd"
+  },
+  {
+    "kikuyu": "guka - grandfather",
+    "english": "ɣ/g"
+  },
+  {
+    "kikuyu": "haha - here",
+    "english": "h"
+  },
+  {
+    "kikuyu": "karamu - pen",
+    "english": "k"
+  },
+  {
+    "kikuyu": "maitũ - mother",
+    "english": "m"
+  },
+  {
+    "kikuyu": "ngaari - car",
+    "english": "n/ng"
+  },
+  {
+    "kikuyu": "Murang'a - county",
+    "english": "Ŋ/ng'"
+  },
+  {
+    "kikuyu": "njeri - woman's name",
+    "english": "dʒ/nj"
+  },
+  {
+    "kikuyu": "tene - long ago",
+    "english": "t"
+  },
+  {
+    "kikuyu": "thaani - plate",
+    "english": "ð/th"
+  },
+  {
+    "kikuyu": "Nyanya - tomato",
+    "english": "ɲ/ny"
+  },
+  {
+    "kikuyu": "Yakwa - mine",
+    "english": "Y"
+  },
+  {
+    "kikuyu": "Wanjiku - girl's name",
+    "english": "W"
+  },
+  {
+    "kikuyu": "Kũhũra",
+    "english": "to beat/wash/make/iron/thrash/play"
+  },
+  {
+    "kikuyu": "Kũhũra thimũ",
+    "english": "to make a call"
+  },
+  {
+    "kikuyu": "Kũhũra baathi",
+    "english": "to iron clothes"
+  },
+  {
+    "kikuyu": "Kũhũra mboco",
+    "english": "to thrash dry beans from pods"
+  },
+  {
+    "kikuyu": "Kũhũra mbembe",
+    "english": "to thrash maize"
+  },
+  {
+    "kikuyu": "Kũhũra mũbira",
+    "english": "to play football"
+  },
+  {
+    "kikuyu": "Kũhũra kanua",
+    "english": "to make clicking noise - expressing annoyance"
+  },
+  {
+    "kikuyu": "Kũrũa mbaara",
+    "english": "to fight a war"
+  },
+  {
+    "kikuyu": "Kũhũrana",
+    "english": "to beat each other"
+  },
+  {
+    "kikuyu": "Mbaara",
+    "english": "war/fight"
+  },
+  {
+    "kikuyu": "Nũũ wakũhũra?",
+    "english": "who has beaten you?"
+  },
+  {
+    "kikuyu": "metha",
+    "english": "table"
+  },
+  {
+    "kikuyu": "mbica",
+    "english": "picture/photo"
+  },
+  {
+    "kikuyu": "nyũngũ",
+    "english": "pot (cooking)"
+  },
+  {
+    "kikuyu": "ngĩrathi",
+    "english": "glass"
+  },
+  {
+    "kikuyu": "thaani",
+    "english": "plate"
+  },
+  {
+    "kikuyu": "baathi",
+    "english": "iron (for clothes)"
+  },
+  {
+    "kikuyu": "terebiceni",
+    "english": "television"
+  },
+  {
+    "kikuyu": "thaburia",
+    "english": "pot (saucepan)"
+  },
+  {
+    "kikuyu": "mbirika",
+    "english": "kettle"
+  },
+  {
+    "kikuyu": "kuburi",
+    "english": "padlock"
+  },
+  {
+    "kikuyu": "cabi",
+    "english": "keys"
+  }
+]

@@ -1,4 +1,14 @@
 {
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T00:00:00.000000+00:00",
+    "curator": "Direct Asset File Script",
+    "source_files": [
+      "all_files"
+    ],
+    "total_entries": 1163,
+    "description": "Complete collection of all phrases for direct loading"
+  },
   "entries": [
     {
       "id": "unknown-24370899",
@@ -23030,21 +23040,5 @@
         "reviewer": "needs_native_speaker_review"
       }
     }
-  ],
-  "metadata": {
-    "version": "1.0",
-    "created_date": "2025-10-20T00:00:00.000000+00:00",
-    "last_updated": "2025-10-20T00:00:00.000000+00:00",
-    "source": "backend-curated-content-modern",
-    "total_entries": 1163,
-    "categories": [
-      "conjugations",
-      "vocabulary",
-      "proverbs",
-      "phrases",
-      "grammar",
-      "cultural"
-    ],
-    "description": "All cleaned entries from backend curated content"
-  }
+  ]
 }

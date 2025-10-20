@@ -1,0 +1,5514 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T23:16:21.571684",
+    "curator": "Numbered Entries Script",
+    "source_files": [
+      "numbered_entries"
+    ],
+    "total_entries": 500,
+    "description": "Explicitly numbered entries for debugging"
+  },
+  "entries": [
+    {
+      "id": "numbered-001",
+      "kikuyu": "Numbered Entry 1 (Kikuyu)",
+      "english": "Numbered Entry 1 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-002",
+      "kikuyu": "Numbered Entry 2 (Kikuyu)",
+      "english": "Numbered Entry 2 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-003",
+      "kikuyu": "Numbered Entry 3 (Kikuyu)",
+      "english": "Numbered Entry 3 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-004",
+      "kikuyu": "Numbered Entry 4 (Kikuyu)",
+      "english": "Numbered Entry 4 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-005",
+      "kikuyu": "Numbered Entry 5 (Kikuyu)",
+      "english": "Numbered Entry 5 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-006",
+      "kikuyu": "Numbered Entry 6 (Kikuyu)",
+      "english": "Numbered Entry 6 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-007",
+      "kikuyu": "Numbered Entry 7 (Kikuyu)",
+      "english": "Numbered Entry 7 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-008",
+      "kikuyu": "Numbered Entry 8 (Kikuyu)",
+      "english": "Numbered Entry 8 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-009",
+      "kikuyu": "Numbered Entry 9 (Kikuyu)",
+      "english": "Numbered Entry 9 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-010",
+      "kikuyu": "Numbered Entry 10 (Kikuyu)",
+      "english": "Numbered Entry 10 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-011",
+      "kikuyu": "Numbered Entry 11 (Kikuyu)",
+      "english": "Numbered Entry 11 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-012",
+      "kikuyu": "Numbered Entry 12 (Kikuyu)",
+      "english": "Numbered Entry 12 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-013",
+      "kikuyu": "Numbered Entry 13 (Kikuyu)",
+      "english": "Numbered Entry 13 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-014",
+      "kikuyu": "Numbered Entry 14 (Kikuyu)",
+      "english": "Numbered Entry 14 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-015",
+      "kikuyu": "Numbered Entry 15 (Kikuyu)",
+      "english": "Numbered Entry 15 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-016",
+      "kikuyu": "Numbered Entry 16 (Kikuyu)",
+      "english": "Numbered Entry 16 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-017",
+      "kikuyu": "Numbered Entry 17 (Kikuyu)",
+      "english": "Numbered Entry 17 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-018",
+      "kikuyu": "Numbered Entry 18 (Kikuyu)",
+      "english": "Numbered Entry 18 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-019",
+      "kikuyu": "Numbered Entry 19 (Kikuyu)",
+      "english": "Numbered Entry 19 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-020",
+      "kikuyu": "Numbered Entry 20 (Kikuyu)",
+      "english": "Numbered Entry 20 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-021",
+      "kikuyu": "Numbered Entry 21 (Kikuyu)",
+      "english": "Numbered Entry 21 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-022",
+      "kikuyu": "Numbered Entry 22 (Kikuyu)",
+      "english": "Numbered Entry 22 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-023",
+      "kikuyu": "Numbered Entry 23 (Kikuyu)",
+      "english": "Numbered Entry 23 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-024",
+      "kikuyu": "Numbered Entry 24 (Kikuyu)",
+      "english": "Numbered Entry 24 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-025",
+      "kikuyu": "Numbered Entry 25 (Kikuyu)",
+      "english": "Numbered Entry 25 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-026",
+      "kikuyu": "Numbered Entry 26 (Kikuyu)",
+      "english": "Numbered Entry 26 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-027",
+      "kikuyu": "Numbered Entry 27 (Kikuyu)",
+      "english": "Numbered Entry 27 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-028",
+      "kikuyu": "Numbered Entry 28 (Kikuyu)",
+      "english": "Numbered Entry 28 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-029",
+      "kikuyu": "Numbered Entry 29 (Kikuyu)",
+      "english": "Numbered Entry 29 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-030",
+      "kikuyu": "Numbered Entry 30 (Kikuyu)",
+      "english": "Numbered Entry 30 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-031",
+      "kikuyu": "Numbered Entry 31 (Kikuyu)",
+      "english": "Numbered Entry 31 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-032",
+      "kikuyu": "Numbered Entry 32 (Kikuyu)",
+      "english": "Numbered Entry 32 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-033",
+      "kikuyu": "Numbered Entry 33 (Kikuyu)",
+      "english": "Numbered Entry 33 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-034",
+      "kikuyu": "Numbered Entry 34 (Kikuyu)",
+      "english": "Numbered Entry 34 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-035",
+      "kikuyu": "Numbered Entry 35 (Kikuyu)",
+      "english": "Numbered Entry 35 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-036",
+      "kikuyu": "Numbered Entry 36 (Kikuyu)",
+      "english": "Numbered Entry 36 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-037",
+      "kikuyu": "Numbered Entry 37 (Kikuyu)",
+      "english": "Numbered Entry 37 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-038",
+      "kikuyu": "Numbered Entry 38 (Kikuyu)",
+      "english": "Numbered Entry 38 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-039",
+      "kikuyu": "Numbered Entry 39 (Kikuyu)",
+      "english": "Numbered Entry 39 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-040",
+      "kikuyu": "Numbered Entry 40 (Kikuyu)",
+      "english": "Numbered Entry 40 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-041",
+      "kikuyu": "Numbered Entry 41 (Kikuyu)",
+      "english": "Numbered Entry 41 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-042",
+      "kikuyu": "Numbered Entry 42 (Kikuyu)",
+      "english": "Numbered Entry 42 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-043",
+      "kikuyu": "Numbered Entry 43 (Kikuyu)",
+      "english": "Numbered Entry 43 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-044",
+      "kikuyu": "Numbered Entry 44 (Kikuyu)",
+      "english": "Numbered Entry 44 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-045",
+      "kikuyu": "Numbered Entry 45 (Kikuyu)",
+      "english": "Numbered Entry 45 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-046",
+      "kikuyu": "Numbered Entry 46 (Kikuyu)",
+      "english": "Numbered Entry 46 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-047",
+      "kikuyu": "Numbered Entry 47 (Kikuyu)",
+      "english": "Numbered Entry 47 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-048",
+      "kikuyu": "Numbered Entry 48 (Kikuyu)",
+      "english": "Numbered Entry 48 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-049",
+      "kikuyu": "Numbered Entry 49 (Kikuyu)",
+      "english": "Numbered Entry 49 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-050",
+      "kikuyu": "Numbered Entry 50 (Kikuyu)",
+      "english": "Numbered Entry 50 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-051",
+      "kikuyu": "Numbered Entry 51 (Kikuyu)",
+      "english": "Numbered Entry 51 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-052",
+      "kikuyu": "Numbered Entry 52 (Kikuyu)",
+      "english": "Numbered Entry 52 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-053",
+      "kikuyu": "Numbered Entry 53 (Kikuyu)",
+      "english": "Numbered Entry 53 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-054",
+      "kikuyu": "Numbered Entry 54 (Kikuyu)",
+      "english": "Numbered Entry 54 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-055",
+      "kikuyu": "Numbered Entry 55 (Kikuyu)",
+      "english": "Numbered Entry 55 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-056",
+      "kikuyu": "Numbered Entry 56 (Kikuyu)",
+      "english": "Numbered Entry 56 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-057",
+      "kikuyu": "Numbered Entry 57 (Kikuyu)",
+      "english": "Numbered Entry 57 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-058",
+      "kikuyu": "Numbered Entry 58 (Kikuyu)",
+      "english": "Numbered Entry 58 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-059",
+      "kikuyu": "Numbered Entry 59 (Kikuyu)",
+      "english": "Numbered Entry 59 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-060",
+      "kikuyu": "Numbered Entry 60 (Kikuyu)",
+      "english": "Numbered Entry 60 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-061",
+      "kikuyu": "Numbered Entry 61 (Kikuyu)",
+      "english": "Numbered Entry 61 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-062",
+      "kikuyu": "Numbered Entry 62 (Kikuyu)",
+      "english": "Numbered Entry 62 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-063",
+      "kikuyu": "Numbered Entry 63 (Kikuyu)",
+      "english": "Numbered Entry 63 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-064",
+      "kikuyu": "Numbered Entry 64 (Kikuyu)",
+      "english": "Numbered Entry 64 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-065",
+      "kikuyu": "Numbered Entry 65 (Kikuyu)",
+      "english": "Numbered Entry 65 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-066",
+      "kikuyu": "Numbered Entry 66 (Kikuyu)",
+      "english": "Numbered Entry 66 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-067",
+      "kikuyu": "Numbered Entry 67 (Kikuyu)",
+      "english": "Numbered Entry 67 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-068",
+      "kikuyu": "Numbered Entry 68 (Kikuyu)",
+      "english": "Numbered Entry 68 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-069",
+      "kikuyu": "Numbered Entry 69 (Kikuyu)",
+      "english": "Numbered Entry 69 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-070",
+      "kikuyu": "Numbered Entry 70 (Kikuyu)",
+      "english": "Numbered Entry 70 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-071",
+      "kikuyu": "Numbered Entry 71 (Kikuyu)",
+      "english": "Numbered Entry 71 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-072",
+      "kikuyu": "Numbered Entry 72 (Kikuyu)",
+      "english": "Numbered Entry 72 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-073",
+      "kikuyu": "Numbered Entry 73 (Kikuyu)",
+      "english": "Numbered Entry 73 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-074",
+      "kikuyu": "Numbered Entry 74 (Kikuyu)",
+      "english": "Numbered Entry 74 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-075",
+      "kikuyu": "Numbered Entry 75 (Kikuyu)",
+      "english": "Numbered Entry 75 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-076",
+      "kikuyu": "Numbered Entry 76 (Kikuyu)",
+      "english": "Numbered Entry 76 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-077",
+      "kikuyu": "Numbered Entry 77 (Kikuyu)",
+      "english": "Numbered Entry 77 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-078",
+      "kikuyu": "Numbered Entry 78 (Kikuyu)",
+      "english": "Numbered Entry 78 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-079",
+      "kikuyu": "Numbered Entry 79 (Kikuyu)",
+      "english": "Numbered Entry 79 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-080",
+      "kikuyu": "Numbered Entry 80 (Kikuyu)",
+      "english": "Numbered Entry 80 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-081",
+      "kikuyu": "Numbered Entry 81 (Kikuyu)",
+      "english": "Numbered Entry 81 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-082",
+      "kikuyu": "Numbered Entry 82 (Kikuyu)",
+      "english": "Numbered Entry 82 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-083",
+      "kikuyu": "Numbered Entry 83 (Kikuyu)",
+      "english": "Numbered Entry 83 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-084",
+      "kikuyu": "Numbered Entry 84 (Kikuyu)",
+      "english": "Numbered Entry 84 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-085",
+      "kikuyu": "Numbered Entry 85 (Kikuyu)",
+      "english": "Numbered Entry 85 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-086",
+      "kikuyu": "Numbered Entry 86 (Kikuyu)",
+      "english": "Numbered Entry 86 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-087",
+      "kikuyu": "Numbered Entry 87 (Kikuyu)",
+      "english": "Numbered Entry 87 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-088",
+      "kikuyu": "Numbered Entry 88 (Kikuyu)",
+      "english": "Numbered Entry 88 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-089",
+      "kikuyu": "Numbered Entry 89 (Kikuyu)",
+      "english": "Numbered Entry 89 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-090",
+      "kikuyu": "Numbered Entry 90 (Kikuyu)",
+      "english": "Numbered Entry 90 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-091",
+      "kikuyu": "Numbered Entry 91 (Kikuyu)",
+      "english": "Numbered Entry 91 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-092",
+      "kikuyu": "Numbered Entry 92 (Kikuyu)",
+      "english": "Numbered Entry 92 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-093",
+      "kikuyu": "Numbered Entry 93 (Kikuyu)",
+      "english": "Numbered Entry 93 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-094",
+      "kikuyu": "Numbered Entry 94 (Kikuyu)",
+      "english": "Numbered Entry 94 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-095",
+      "kikuyu": "Numbered Entry 95 (Kikuyu)",
+      "english": "Numbered Entry 95 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-096",
+      "kikuyu": "Numbered Entry 96 (Kikuyu)",
+      "english": "Numbered Entry 96 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-097",
+      "kikuyu": "Numbered Entry 97 (Kikuyu)",
+      "english": "Numbered Entry 97 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-098",
+      "kikuyu": "Numbered Entry 98 (Kikuyu)",
+      "english": "Numbered Entry 98 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-099",
+      "kikuyu": "Numbered Entry 99 (Kikuyu)",
+      "english": "Numbered Entry 99 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-100",
+      "kikuyu": "Numbered Entry 100 (Kikuyu)",
+      "english": "Numbered Entry 100 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-101",
+      "kikuyu": "Numbered Entry 101 (Kikuyu)",
+      "english": "Numbered Entry 101 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-102",
+      "kikuyu": "Numbered Entry 102 (Kikuyu)",
+      "english": "Numbered Entry 102 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-103",
+      "kikuyu": "Numbered Entry 103 (Kikuyu)",
+      "english": "Numbered Entry 103 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-104",
+      "kikuyu": "Numbered Entry 104 (Kikuyu)",
+      "english": "Numbered Entry 104 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-105",
+      "kikuyu": "Numbered Entry 105 (Kikuyu)",
+      "english": "Numbered Entry 105 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-106",
+      "kikuyu": "Numbered Entry 106 (Kikuyu)",
+      "english": "Numbered Entry 106 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-107",
+      "kikuyu": "Numbered Entry 107 (Kikuyu)",
+      "english": "Numbered Entry 107 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-108",
+      "kikuyu": "Numbered Entry 108 (Kikuyu)",
+      "english": "Numbered Entry 108 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-109",
+      "kikuyu": "Numbered Entry 109 (Kikuyu)",
+      "english": "Numbered Entry 109 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-110",
+      "kikuyu": "Numbered Entry 110 (Kikuyu)",
+      "english": "Numbered Entry 110 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-111",
+      "kikuyu": "Numbered Entry 111 (Kikuyu)",
+      "english": "Numbered Entry 111 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-112",
+      "kikuyu": "Numbered Entry 112 (Kikuyu)",
+      "english": "Numbered Entry 112 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-113",
+      "kikuyu": "Numbered Entry 113 (Kikuyu)",
+      "english": "Numbered Entry 113 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-114",
+      "kikuyu": "Numbered Entry 114 (Kikuyu)",
+      "english": "Numbered Entry 114 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-115",
+      "kikuyu": "Numbered Entry 115 (Kikuyu)",
+      "english": "Numbered Entry 115 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-116",
+      "kikuyu": "Numbered Entry 116 (Kikuyu)",
+      "english": "Numbered Entry 116 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-117",
+      "kikuyu": "Numbered Entry 117 (Kikuyu)",
+      "english": "Numbered Entry 117 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-118",
+      "kikuyu": "Numbered Entry 118 (Kikuyu)",
+      "english": "Numbered Entry 118 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-119",
+      "kikuyu": "Numbered Entry 119 (Kikuyu)",
+      "english": "Numbered Entry 119 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-120",
+      "kikuyu": "Numbered Entry 120 (Kikuyu)",
+      "english": "Numbered Entry 120 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-121",
+      "kikuyu": "Numbered Entry 121 (Kikuyu)",
+      "english": "Numbered Entry 121 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-122",
+      "kikuyu": "Numbered Entry 122 (Kikuyu)",
+      "english": "Numbered Entry 122 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-123",
+      "kikuyu": "Numbered Entry 123 (Kikuyu)",
+      "english": "Numbered Entry 123 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-124",
+      "kikuyu": "Numbered Entry 124 (Kikuyu)",
+      "english": "Numbered Entry 124 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-125",
+      "kikuyu": "Numbered Entry 125 (Kikuyu)",
+      "english": "Numbered Entry 125 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-126",
+      "kikuyu": "Numbered Entry 126 (Kikuyu)",
+      "english": "Numbered Entry 126 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-127",
+      "kikuyu": "Numbered Entry 127 (Kikuyu)",
+      "english": "Numbered Entry 127 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-128",
+      "kikuyu": "Numbered Entry 128 (Kikuyu)",
+      "english": "Numbered Entry 128 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-129",
+      "kikuyu": "Numbered Entry 129 (Kikuyu)",
+      "english": "Numbered Entry 129 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-130",
+      "kikuyu": "Numbered Entry 130 (Kikuyu)",
+      "english": "Numbered Entry 130 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-131",
+      "kikuyu": "Numbered Entry 131 (Kikuyu)",
+      "english": "Numbered Entry 131 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-132",
+      "kikuyu": "Numbered Entry 132 (Kikuyu)",
+      "english": "Numbered Entry 132 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-133",
+      "kikuyu": "Numbered Entry 133 (Kikuyu)",
+      "english": "Numbered Entry 133 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-134",
+      "kikuyu": "Numbered Entry 134 (Kikuyu)",
+      "english": "Numbered Entry 134 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-135",
+      "kikuyu": "Numbered Entry 135 (Kikuyu)",
+      "english": "Numbered Entry 135 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-136",
+      "kikuyu": "Numbered Entry 136 (Kikuyu)",
+      "english": "Numbered Entry 136 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-137",
+      "kikuyu": "Numbered Entry 137 (Kikuyu)",
+      "english": "Numbered Entry 137 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-138",
+      "kikuyu": "Numbered Entry 138 (Kikuyu)",
+      "english": "Numbered Entry 138 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-139",
+      "kikuyu": "Numbered Entry 139 (Kikuyu)",
+      "english": "Numbered Entry 139 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-140",
+      "kikuyu": "Numbered Entry 140 (Kikuyu)",
+      "english": "Numbered Entry 140 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-141",
+      "kikuyu": "Numbered Entry 141 (Kikuyu)",
+      "english": "Numbered Entry 141 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-142",
+      "kikuyu": "Numbered Entry 142 (Kikuyu)",
+      "english": "Numbered Entry 142 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-143",
+      "kikuyu": "Numbered Entry 143 (Kikuyu)",
+      "english": "Numbered Entry 143 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-144",
+      "kikuyu": "Numbered Entry 144 (Kikuyu)",
+      "english": "Numbered Entry 144 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-145",
+      "kikuyu": "Numbered Entry 145 (Kikuyu)",
+      "english": "Numbered Entry 145 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-146",
+      "kikuyu": "Numbered Entry 146 (Kikuyu)",
+      "english": "Numbered Entry 146 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-147",
+      "kikuyu": "Numbered Entry 147 (Kikuyu)",
+      "english": "Numbered Entry 147 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-148",
+      "kikuyu": "Numbered Entry 148 (Kikuyu)",
+      "english": "Numbered Entry 148 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-149",
+      "kikuyu": "Numbered Entry 149 (Kikuyu)",
+      "english": "Numbered Entry 149 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-150",
+      "kikuyu": "Numbered Entry 150 (Kikuyu)",
+      "english": "Numbered Entry 150 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-151",
+      "kikuyu": "Numbered Entry 151 (Kikuyu)",
+      "english": "Numbered Entry 151 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-152",
+      "kikuyu": "Numbered Entry 152 (Kikuyu)",
+      "english": "Numbered Entry 152 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-153",
+      "kikuyu": "Numbered Entry 153 (Kikuyu)",
+      "english": "Numbered Entry 153 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-154",
+      "kikuyu": "Numbered Entry 154 (Kikuyu)",
+      "english": "Numbered Entry 154 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-155",
+      "kikuyu": "Numbered Entry 155 (Kikuyu)",
+      "english": "Numbered Entry 155 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-156",
+      "kikuyu": "Numbered Entry 156 (Kikuyu)",
+      "english": "Numbered Entry 156 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-157",
+      "kikuyu": "Numbered Entry 157 (Kikuyu)",
+      "english": "Numbered Entry 157 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-158",
+      "kikuyu": "Numbered Entry 158 (Kikuyu)",
+      "english": "Numbered Entry 158 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-159",
+      "kikuyu": "Numbered Entry 159 (Kikuyu)",
+      "english": "Numbered Entry 159 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-160",
+      "kikuyu": "Numbered Entry 160 (Kikuyu)",
+      "english": "Numbered Entry 160 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-161",
+      "kikuyu": "Numbered Entry 161 (Kikuyu)",
+      "english": "Numbered Entry 161 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-162",
+      "kikuyu": "Numbered Entry 162 (Kikuyu)",
+      "english": "Numbered Entry 162 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-163",
+      "kikuyu": "Numbered Entry 163 (Kikuyu)",
+      "english": "Numbered Entry 163 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-164",
+      "kikuyu": "Numbered Entry 164 (Kikuyu)",
+      "english": "Numbered Entry 164 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-165",
+      "kikuyu": "Numbered Entry 165 (Kikuyu)",
+      "english": "Numbered Entry 165 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-166",
+      "kikuyu": "Numbered Entry 166 (Kikuyu)",
+      "english": "Numbered Entry 166 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-167",
+      "kikuyu": "Numbered Entry 167 (Kikuyu)",
+      "english": "Numbered Entry 167 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-168",
+      "kikuyu": "Numbered Entry 168 (Kikuyu)",
+      "english": "Numbered Entry 168 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-169",
+      "kikuyu": "Numbered Entry 169 (Kikuyu)",
+      "english": "Numbered Entry 169 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-170",
+      "kikuyu": "Numbered Entry 170 (Kikuyu)",
+      "english": "Numbered Entry 170 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-171",
+      "kikuyu": "Numbered Entry 171 (Kikuyu)",
+      "english": "Numbered Entry 171 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-172",
+      "kikuyu": "Numbered Entry 172 (Kikuyu)",
+      "english": "Numbered Entry 172 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-173",
+      "kikuyu": "Numbered Entry 173 (Kikuyu)",
+      "english": "Numbered Entry 173 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-174",
+      "kikuyu": "Numbered Entry 174 (Kikuyu)",
+      "english": "Numbered Entry 174 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-175",
+      "kikuyu": "Numbered Entry 175 (Kikuyu)",
+      "english": "Numbered Entry 175 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-176",
+      "kikuyu": "Numbered Entry 176 (Kikuyu)",
+      "english": "Numbered Entry 176 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-177",
+      "kikuyu": "Numbered Entry 177 (Kikuyu)",
+      "english": "Numbered Entry 177 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-178",
+      "kikuyu": "Numbered Entry 178 (Kikuyu)",
+      "english": "Numbered Entry 178 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-179",
+      "kikuyu": "Numbered Entry 179 (Kikuyu)",
+      "english": "Numbered Entry 179 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-180",
+      "kikuyu": "Numbered Entry 180 (Kikuyu)",
+      "english": "Numbered Entry 180 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-181",
+      "kikuyu": "Numbered Entry 181 (Kikuyu)",
+      "english": "Numbered Entry 181 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-182",
+      "kikuyu": "Numbered Entry 182 (Kikuyu)",
+      "english": "Numbered Entry 182 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-183",
+      "kikuyu": "Numbered Entry 183 (Kikuyu)",
+      "english": "Numbered Entry 183 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-184",
+      "kikuyu": "Numbered Entry 184 (Kikuyu)",
+      "english": "Numbered Entry 184 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-185",
+      "kikuyu": "Numbered Entry 185 (Kikuyu)",
+      "english": "Numbered Entry 185 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-186",
+      "kikuyu": "Numbered Entry 186 (Kikuyu)",
+      "english": "Numbered Entry 186 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-187",
+      "kikuyu": "Numbered Entry 187 (Kikuyu)",
+      "english": "Numbered Entry 187 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-188",
+      "kikuyu": "Numbered Entry 188 (Kikuyu)",
+      "english": "Numbered Entry 188 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-189",
+      "kikuyu": "Numbered Entry 189 (Kikuyu)",
+      "english": "Numbered Entry 189 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-190",
+      "kikuyu": "Numbered Entry 190 (Kikuyu)",
+      "english": "Numbered Entry 190 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-191",
+      "kikuyu": "Numbered Entry 191 (Kikuyu)",
+      "english": "Numbered Entry 191 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-192",
+      "kikuyu": "Numbered Entry 192 (Kikuyu)",
+      "english": "Numbered Entry 192 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-193",
+      "kikuyu": "Numbered Entry 193 (Kikuyu)",
+      "english": "Numbered Entry 193 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-194",
+      "kikuyu": "Numbered Entry 194 (Kikuyu)",
+      "english": "Numbered Entry 194 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-195",
+      "kikuyu": "Numbered Entry 195 (Kikuyu)",
+      "english": "Numbered Entry 195 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-196",
+      "kikuyu": "Numbered Entry 196 (Kikuyu)",
+      "english": "Numbered Entry 196 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-197",
+      "kikuyu": "Numbered Entry 197 (Kikuyu)",
+      "english": "Numbered Entry 197 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-198",
+      "kikuyu": "Numbered Entry 198 (Kikuyu)",
+      "english": "Numbered Entry 198 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-199",
+      "kikuyu": "Numbered Entry 199 (Kikuyu)",
+      "english": "Numbered Entry 199 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-200",
+      "kikuyu": "Numbered Entry 200 (Kikuyu)",
+      "english": "Numbered Entry 200 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-201",
+      "kikuyu": "Numbered Entry 201 (Kikuyu)",
+      "english": "Numbered Entry 201 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-202",
+      "kikuyu": "Numbered Entry 202 (Kikuyu)",
+      "english": "Numbered Entry 202 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-203",
+      "kikuyu": "Numbered Entry 203 (Kikuyu)",
+      "english": "Numbered Entry 203 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-204",
+      "kikuyu": "Numbered Entry 204 (Kikuyu)",
+      "english": "Numbered Entry 204 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-205",
+      "kikuyu": "Numbered Entry 205 (Kikuyu)",
+      "english": "Numbered Entry 205 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-206",
+      "kikuyu": "Numbered Entry 206 (Kikuyu)",
+      "english": "Numbered Entry 206 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-207",
+      "kikuyu": "Numbered Entry 207 (Kikuyu)",
+      "english": "Numbered Entry 207 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-208",
+      "kikuyu": "Numbered Entry 208 (Kikuyu)",
+      "english": "Numbered Entry 208 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-209",
+      "kikuyu": "Numbered Entry 209 (Kikuyu)",
+      "english": "Numbered Entry 209 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-210",
+      "kikuyu": "Numbered Entry 210 (Kikuyu)",
+      "english": "Numbered Entry 210 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-211",
+      "kikuyu": "Numbered Entry 211 (Kikuyu)",
+      "english": "Numbered Entry 211 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-212",
+      "kikuyu": "Numbered Entry 212 (Kikuyu)",
+      "english": "Numbered Entry 212 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-213",
+      "kikuyu": "Numbered Entry 213 (Kikuyu)",
+      "english": "Numbered Entry 213 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-214",
+      "kikuyu": "Numbered Entry 214 (Kikuyu)",
+      "english": "Numbered Entry 214 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-215",
+      "kikuyu": "Numbered Entry 215 (Kikuyu)",
+      "english": "Numbered Entry 215 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-216",
+      "kikuyu": "Numbered Entry 216 (Kikuyu)",
+      "english": "Numbered Entry 216 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-217",
+      "kikuyu": "Numbered Entry 217 (Kikuyu)",
+      "english": "Numbered Entry 217 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-218",
+      "kikuyu": "Numbered Entry 218 (Kikuyu)",
+      "english": "Numbered Entry 218 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-219",
+      "kikuyu": "Numbered Entry 219 (Kikuyu)",
+      "english": "Numbered Entry 219 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-220",
+      "kikuyu": "Numbered Entry 220 (Kikuyu)",
+      "english": "Numbered Entry 220 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-221",
+      "kikuyu": "Numbered Entry 221 (Kikuyu)",
+      "english": "Numbered Entry 221 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-222",
+      "kikuyu": "Numbered Entry 222 (Kikuyu)",
+      "english": "Numbered Entry 222 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-223",
+      "kikuyu": "Numbered Entry 223 (Kikuyu)",
+      "english": "Numbered Entry 223 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-224",
+      "kikuyu": "Numbered Entry 224 (Kikuyu)",
+      "english": "Numbered Entry 224 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-225",
+      "kikuyu": "Numbered Entry 225 (Kikuyu)",
+      "english": "Numbered Entry 225 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-226",
+      "kikuyu": "Numbered Entry 226 (Kikuyu)",
+      "english": "Numbered Entry 226 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-227",
+      "kikuyu": "Numbered Entry 227 (Kikuyu)",
+      "english": "Numbered Entry 227 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-228",
+      "kikuyu": "Numbered Entry 228 (Kikuyu)",
+      "english": "Numbered Entry 228 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-229",
+      "kikuyu": "Numbered Entry 229 (Kikuyu)",
+      "english": "Numbered Entry 229 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-230",
+      "kikuyu": "Numbered Entry 230 (Kikuyu)",
+      "english": "Numbered Entry 230 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-231",
+      "kikuyu": "Numbered Entry 231 (Kikuyu)",
+      "english": "Numbered Entry 231 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-232",
+      "kikuyu": "Numbered Entry 232 (Kikuyu)",
+      "english": "Numbered Entry 232 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-233",
+      "kikuyu": "Numbered Entry 233 (Kikuyu)",
+      "english": "Numbered Entry 233 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-234",
+      "kikuyu": "Numbered Entry 234 (Kikuyu)",
+      "english": "Numbered Entry 234 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-235",
+      "kikuyu": "Numbered Entry 235 (Kikuyu)",
+      "english": "Numbered Entry 235 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-236",
+      "kikuyu": "Numbered Entry 236 (Kikuyu)",
+      "english": "Numbered Entry 236 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-237",
+      "kikuyu": "Numbered Entry 237 (Kikuyu)",
+      "english": "Numbered Entry 237 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-238",
+      "kikuyu": "Numbered Entry 238 (Kikuyu)",
+      "english": "Numbered Entry 238 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-239",
+      "kikuyu": "Numbered Entry 239 (Kikuyu)",
+      "english": "Numbered Entry 239 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-240",
+      "kikuyu": "Numbered Entry 240 (Kikuyu)",
+      "english": "Numbered Entry 240 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-241",
+      "kikuyu": "Numbered Entry 241 (Kikuyu)",
+      "english": "Numbered Entry 241 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-242",
+      "kikuyu": "Numbered Entry 242 (Kikuyu)",
+      "english": "Numbered Entry 242 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-243",
+      "kikuyu": "Numbered Entry 243 (Kikuyu)",
+      "english": "Numbered Entry 243 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-244",
+      "kikuyu": "Numbered Entry 244 (Kikuyu)",
+      "english": "Numbered Entry 244 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-245",
+      "kikuyu": "Numbered Entry 245 (Kikuyu)",
+      "english": "Numbered Entry 245 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-246",
+      "kikuyu": "Numbered Entry 246 (Kikuyu)",
+      "english": "Numbered Entry 246 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-247",
+      "kikuyu": "Numbered Entry 247 (Kikuyu)",
+      "english": "Numbered Entry 247 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-248",
+      "kikuyu": "Numbered Entry 248 (Kikuyu)",
+      "english": "Numbered Entry 248 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-249",
+      "kikuyu": "Numbered Entry 249 (Kikuyu)",
+      "english": "Numbered Entry 249 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-250",
+      "kikuyu": "Numbered Entry 250 (Kikuyu)",
+      "english": "Numbered Entry 250 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-251",
+      "kikuyu": "Numbered Entry 251 (Kikuyu)",
+      "english": "Numbered Entry 251 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-252",
+      "kikuyu": "Numbered Entry 252 (Kikuyu)",
+      "english": "Numbered Entry 252 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-253",
+      "kikuyu": "Numbered Entry 253 (Kikuyu)",
+      "english": "Numbered Entry 253 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-254",
+      "kikuyu": "Numbered Entry 254 (Kikuyu)",
+      "english": "Numbered Entry 254 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-255",
+      "kikuyu": "Numbered Entry 255 (Kikuyu)",
+      "english": "Numbered Entry 255 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-256",
+      "kikuyu": "Numbered Entry 256 (Kikuyu)",
+      "english": "Numbered Entry 256 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-257",
+      "kikuyu": "Numbered Entry 257 (Kikuyu)",
+      "english": "Numbered Entry 257 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-258",
+      "kikuyu": "Numbered Entry 258 (Kikuyu)",
+      "english": "Numbered Entry 258 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-259",
+      "kikuyu": "Numbered Entry 259 (Kikuyu)",
+      "english": "Numbered Entry 259 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-260",
+      "kikuyu": "Numbered Entry 260 (Kikuyu)",
+      "english": "Numbered Entry 260 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-261",
+      "kikuyu": "Numbered Entry 261 (Kikuyu)",
+      "english": "Numbered Entry 261 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-262",
+      "kikuyu": "Numbered Entry 262 (Kikuyu)",
+      "english": "Numbered Entry 262 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-263",
+      "kikuyu": "Numbered Entry 263 (Kikuyu)",
+      "english": "Numbered Entry 263 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-264",
+      "kikuyu": "Numbered Entry 264 (Kikuyu)",
+      "english": "Numbered Entry 264 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-265",
+      "kikuyu": "Numbered Entry 265 (Kikuyu)",
+      "english": "Numbered Entry 265 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-266",
+      "kikuyu": "Numbered Entry 266 (Kikuyu)",
+      "english": "Numbered Entry 266 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-267",
+      "kikuyu": "Numbered Entry 267 (Kikuyu)",
+      "english": "Numbered Entry 267 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-268",
+      "kikuyu": "Numbered Entry 268 (Kikuyu)",
+      "english": "Numbered Entry 268 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-269",
+      "kikuyu": "Numbered Entry 269 (Kikuyu)",
+      "english": "Numbered Entry 269 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-270",
+      "kikuyu": "Numbered Entry 270 (Kikuyu)",
+      "english": "Numbered Entry 270 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-271",
+      "kikuyu": "Numbered Entry 271 (Kikuyu)",
+      "english": "Numbered Entry 271 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-272",
+      "kikuyu": "Numbered Entry 272 (Kikuyu)",
+      "english": "Numbered Entry 272 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-273",
+      "kikuyu": "Numbered Entry 273 (Kikuyu)",
+      "english": "Numbered Entry 273 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-274",
+      "kikuyu": "Numbered Entry 274 (Kikuyu)",
+      "english": "Numbered Entry 274 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-275",
+      "kikuyu": "Numbered Entry 275 (Kikuyu)",
+      "english": "Numbered Entry 275 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-276",
+      "kikuyu": "Numbered Entry 276 (Kikuyu)",
+      "english": "Numbered Entry 276 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-277",
+      "kikuyu": "Numbered Entry 277 (Kikuyu)",
+      "english": "Numbered Entry 277 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-278",
+      "kikuyu": "Numbered Entry 278 (Kikuyu)",
+      "english": "Numbered Entry 278 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-279",
+      "kikuyu": "Numbered Entry 279 (Kikuyu)",
+      "english": "Numbered Entry 279 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-280",
+      "kikuyu": "Numbered Entry 280 (Kikuyu)",
+      "english": "Numbered Entry 280 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-281",
+      "kikuyu": "Numbered Entry 281 (Kikuyu)",
+      "english": "Numbered Entry 281 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-282",
+      "kikuyu": "Numbered Entry 282 (Kikuyu)",
+      "english": "Numbered Entry 282 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-283",
+      "kikuyu": "Numbered Entry 283 (Kikuyu)",
+      "english": "Numbered Entry 283 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-284",
+      "kikuyu": "Numbered Entry 284 (Kikuyu)",
+      "english": "Numbered Entry 284 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-285",
+      "kikuyu": "Numbered Entry 285 (Kikuyu)",
+      "english": "Numbered Entry 285 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-286",
+      "kikuyu": "Numbered Entry 286 (Kikuyu)",
+      "english": "Numbered Entry 286 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-287",
+      "kikuyu": "Numbered Entry 287 (Kikuyu)",
+      "english": "Numbered Entry 287 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-288",
+      "kikuyu": "Numbered Entry 288 (Kikuyu)",
+      "english": "Numbered Entry 288 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-289",
+      "kikuyu": "Numbered Entry 289 (Kikuyu)",
+      "english": "Numbered Entry 289 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-290",
+      "kikuyu": "Numbered Entry 290 (Kikuyu)",
+      "english": "Numbered Entry 290 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-291",
+      "kikuyu": "Numbered Entry 291 (Kikuyu)",
+      "english": "Numbered Entry 291 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-292",
+      "kikuyu": "Numbered Entry 292 (Kikuyu)",
+      "english": "Numbered Entry 292 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-293",
+      "kikuyu": "Numbered Entry 293 (Kikuyu)",
+      "english": "Numbered Entry 293 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-294",
+      "kikuyu": "Numbered Entry 294 (Kikuyu)",
+      "english": "Numbered Entry 294 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-295",
+      "kikuyu": "Numbered Entry 295 (Kikuyu)",
+      "english": "Numbered Entry 295 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-296",
+      "kikuyu": "Numbered Entry 296 (Kikuyu)",
+      "english": "Numbered Entry 296 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-297",
+      "kikuyu": "Numbered Entry 297 (Kikuyu)",
+      "english": "Numbered Entry 297 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-298",
+      "kikuyu": "Numbered Entry 298 (Kikuyu)",
+      "english": "Numbered Entry 298 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-299",
+      "kikuyu": "Numbered Entry 299 (Kikuyu)",
+      "english": "Numbered Entry 299 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-300",
+      "kikuyu": "Numbered Entry 300 (Kikuyu)",
+      "english": "Numbered Entry 300 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-301",
+      "kikuyu": "Numbered Entry 301 (Kikuyu)",
+      "english": "Numbered Entry 301 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-302",
+      "kikuyu": "Numbered Entry 302 (Kikuyu)",
+      "english": "Numbered Entry 302 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-303",
+      "kikuyu": "Numbered Entry 303 (Kikuyu)",
+      "english": "Numbered Entry 303 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-304",
+      "kikuyu": "Numbered Entry 304 (Kikuyu)",
+      "english": "Numbered Entry 304 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-305",
+      "kikuyu": "Numbered Entry 305 (Kikuyu)",
+      "english": "Numbered Entry 305 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-306",
+      "kikuyu": "Numbered Entry 306 (Kikuyu)",
+      "english": "Numbered Entry 306 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-307",
+      "kikuyu": "Numbered Entry 307 (Kikuyu)",
+      "english": "Numbered Entry 307 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-308",
+      "kikuyu": "Numbered Entry 308 (Kikuyu)",
+      "english": "Numbered Entry 308 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-309",
+      "kikuyu": "Numbered Entry 309 (Kikuyu)",
+      "english": "Numbered Entry 309 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-310",
+      "kikuyu": "Numbered Entry 310 (Kikuyu)",
+      "english": "Numbered Entry 310 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-311",
+      "kikuyu": "Numbered Entry 311 (Kikuyu)",
+      "english": "Numbered Entry 311 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-312",
+      "kikuyu": "Numbered Entry 312 (Kikuyu)",
+      "english": "Numbered Entry 312 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-313",
+      "kikuyu": "Numbered Entry 313 (Kikuyu)",
+      "english": "Numbered Entry 313 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-314",
+      "kikuyu": "Numbered Entry 314 (Kikuyu)",
+      "english": "Numbered Entry 314 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-315",
+      "kikuyu": "Numbered Entry 315 (Kikuyu)",
+      "english": "Numbered Entry 315 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-316",
+      "kikuyu": "Numbered Entry 316 (Kikuyu)",
+      "english": "Numbered Entry 316 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-317",
+      "kikuyu": "Numbered Entry 317 (Kikuyu)",
+      "english": "Numbered Entry 317 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-318",
+      "kikuyu": "Numbered Entry 318 (Kikuyu)",
+      "english": "Numbered Entry 318 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-319",
+      "kikuyu": "Numbered Entry 319 (Kikuyu)",
+      "english": "Numbered Entry 319 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-320",
+      "kikuyu": "Numbered Entry 320 (Kikuyu)",
+      "english": "Numbered Entry 320 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-321",
+      "kikuyu": "Numbered Entry 321 (Kikuyu)",
+      "english": "Numbered Entry 321 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-322",
+      "kikuyu": "Numbered Entry 322 (Kikuyu)",
+      "english": "Numbered Entry 322 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-323",
+      "kikuyu": "Numbered Entry 323 (Kikuyu)",
+      "english": "Numbered Entry 323 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-324",
+      "kikuyu": "Numbered Entry 324 (Kikuyu)",
+      "english": "Numbered Entry 324 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-325",
+      "kikuyu": "Numbered Entry 325 (Kikuyu)",
+      "english": "Numbered Entry 325 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-326",
+      "kikuyu": "Numbered Entry 326 (Kikuyu)",
+      "english": "Numbered Entry 326 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-327",
+      "kikuyu": "Numbered Entry 327 (Kikuyu)",
+      "english": "Numbered Entry 327 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-328",
+      "kikuyu": "Numbered Entry 328 (Kikuyu)",
+      "english": "Numbered Entry 328 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-329",
+      "kikuyu": "Numbered Entry 329 (Kikuyu)",
+      "english": "Numbered Entry 329 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-330",
+      "kikuyu": "Numbered Entry 330 (Kikuyu)",
+      "english": "Numbered Entry 330 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-331",
+      "kikuyu": "Numbered Entry 331 (Kikuyu)",
+      "english": "Numbered Entry 331 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-332",
+      "kikuyu": "Numbered Entry 332 (Kikuyu)",
+      "english": "Numbered Entry 332 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-333",
+      "kikuyu": "Numbered Entry 333 (Kikuyu)",
+      "english": "Numbered Entry 333 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-334",
+      "kikuyu": "Numbered Entry 334 (Kikuyu)",
+      "english": "Numbered Entry 334 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-335",
+      "kikuyu": "Numbered Entry 335 (Kikuyu)",
+      "english": "Numbered Entry 335 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-336",
+      "kikuyu": "Numbered Entry 336 (Kikuyu)",
+      "english": "Numbered Entry 336 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-337",
+      "kikuyu": "Numbered Entry 337 (Kikuyu)",
+      "english": "Numbered Entry 337 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-338",
+      "kikuyu": "Numbered Entry 338 (Kikuyu)",
+      "english": "Numbered Entry 338 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-339",
+      "kikuyu": "Numbered Entry 339 (Kikuyu)",
+      "english": "Numbered Entry 339 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-340",
+      "kikuyu": "Numbered Entry 340 (Kikuyu)",
+      "english": "Numbered Entry 340 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-341",
+      "kikuyu": "Numbered Entry 341 (Kikuyu)",
+      "english": "Numbered Entry 341 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-342",
+      "kikuyu": "Numbered Entry 342 (Kikuyu)",
+      "english": "Numbered Entry 342 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-343",
+      "kikuyu": "Numbered Entry 343 (Kikuyu)",
+      "english": "Numbered Entry 343 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-344",
+      "kikuyu": "Numbered Entry 344 (Kikuyu)",
+      "english": "Numbered Entry 344 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-345",
+      "kikuyu": "Numbered Entry 345 (Kikuyu)",
+      "english": "Numbered Entry 345 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-346",
+      "kikuyu": "Numbered Entry 346 (Kikuyu)",
+      "english": "Numbered Entry 346 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-347",
+      "kikuyu": "Numbered Entry 347 (Kikuyu)",
+      "english": "Numbered Entry 347 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-348",
+      "kikuyu": "Numbered Entry 348 (Kikuyu)",
+      "english": "Numbered Entry 348 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-349",
+      "kikuyu": "Numbered Entry 349 (Kikuyu)",
+      "english": "Numbered Entry 349 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-350",
+      "kikuyu": "Numbered Entry 350 (Kikuyu)",
+      "english": "Numbered Entry 350 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-351",
+      "kikuyu": "Numbered Entry 351 (Kikuyu)",
+      "english": "Numbered Entry 351 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-352",
+      "kikuyu": "Numbered Entry 352 (Kikuyu)",
+      "english": "Numbered Entry 352 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-353",
+      "kikuyu": "Numbered Entry 353 (Kikuyu)",
+      "english": "Numbered Entry 353 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-354",
+      "kikuyu": "Numbered Entry 354 (Kikuyu)",
+      "english": "Numbered Entry 354 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-355",
+      "kikuyu": "Numbered Entry 355 (Kikuyu)",
+      "english": "Numbered Entry 355 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-356",
+      "kikuyu": "Numbered Entry 356 (Kikuyu)",
+      "english": "Numbered Entry 356 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-357",
+      "kikuyu": "Numbered Entry 357 (Kikuyu)",
+      "english": "Numbered Entry 357 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-358",
+      "kikuyu": "Numbered Entry 358 (Kikuyu)",
+      "english": "Numbered Entry 358 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-359",
+      "kikuyu": "Numbered Entry 359 (Kikuyu)",
+      "english": "Numbered Entry 359 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-360",
+      "kikuyu": "Numbered Entry 360 (Kikuyu)",
+      "english": "Numbered Entry 360 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-361",
+      "kikuyu": "Numbered Entry 361 (Kikuyu)",
+      "english": "Numbered Entry 361 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-362",
+      "kikuyu": "Numbered Entry 362 (Kikuyu)",
+      "english": "Numbered Entry 362 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-363",
+      "kikuyu": "Numbered Entry 363 (Kikuyu)",
+      "english": "Numbered Entry 363 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-364",
+      "kikuyu": "Numbered Entry 364 (Kikuyu)",
+      "english": "Numbered Entry 364 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-365",
+      "kikuyu": "Numbered Entry 365 (Kikuyu)",
+      "english": "Numbered Entry 365 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-366",
+      "kikuyu": "Numbered Entry 366 (Kikuyu)",
+      "english": "Numbered Entry 366 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-367",
+      "kikuyu": "Numbered Entry 367 (Kikuyu)",
+      "english": "Numbered Entry 367 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-368",
+      "kikuyu": "Numbered Entry 368 (Kikuyu)",
+      "english": "Numbered Entry 368 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-369",
+      "kikuyu": "Numbered Entry 369 (Kikuyu)",
+      "english": "Numbered Entry 369 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-370",
+      "kikuyu": "Numbered Entry 370 (Kikuyu)",
+      "english": "Numbered Entry 370 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-371",
+      "kikuyu": "Numbered Entry 371 (Kikuyu)",
+      "english": "Numbered Entry 371 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-372",
+      "kikuyu": "Numbered Entry 372 (Kikuyu)",
+      "english": "Numbered Entry 372 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-373",
+      "kikuyu": "Numbered Entry 373 (Kikuyu)",
+      "english": "Numbered Entry 373 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-374",
+      "kikuyu": "Numbered Entry 374 (Kikuyu)",
+      "english": "Numbered Entry 374 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-375",
+      "kikuyu": "Numbered Entry 375 (Kikuyu)",
+      "english": "Numbered Entry 375 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-376",
+      "kikuyu": "Numbered Entry 376 (Kikuyu)",
+      "english": "Numbered Entry 376 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-377",
+      "kikuyu": "Numbered Entry 377 (Kikuyu)",
+      "english": "Numbered Entry 377 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-378",
+      "kikuyu": "Numbered Entry 378 (Kikuyu)",
+      "english": "Numbered Entry 378 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-379",
+      "kikuyu": "Numbered Entry 379 (Kikuyu)",
+      "english": "Numbered Entry 379 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-380",
+      "kikuyu": "Numbered Entry 380 (Kikuyu)",
+      "english": "Numbered Entry 380 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-381",
+      "kikuyu": "Numbered Entry 381 (Kikuyu)",
+      "english": "Numbered Entry 381 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-382",
+      "kikuyu": "Numbered Entry 382 (Kikuyu)",
+      "english": "Numbered Entry 382 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-383",
+      "kikuyu": "Numbered Entry 383 (Kikuyu)",
+      "english": "Numbered Entry 383 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-384",
+      "kikuyu": "Numbered Entry 384 (Kikuyu)",
+      "english": "Numbered Entry 384 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-385",
+      "kikuyu": "Numbered Entry 385 (Kikuyu)",
+      "english": "Numbered Entry 385 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-386",
+      "kikuyu": "Numbered Entry 386 (Kikuyu)",
+      "english": "Numbered Entry 386 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-387",
+      "kikuyu": "Numbered Entry 387 (Kikuyu)",
+      "english": "Numbered Entry 387 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-388",
+      "kikuyu": "Numbered Entry 388 (Kikuyu)",
+      "english": "Numbered Entry 388 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-389",
+      "kikuyu": "Numbered Entry 389 (Kikuyu)",
+      "english": "Numbered Entry 389 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-390",
+      "kikuyu": "Numbered Entry 390 (Kikuyu)",
+      "english": "Numbered Entry 390 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-391",
+      "kikuyu": "Numbered Entry 391 (Kikuyu)",
+      "english": "Numbered Entry 391 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-392",
+      "kikuyu": "Numbered Entry 392 (Kikuyu)",
+      "english": "Numbered Entry 392 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-393",
+      "kikuyu": "Numbered Entry 393 (Kikuyu)",
+      "english": "Numbered Entry 393 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-394",
+      "kikuyu": "Numbered Entry 394 (Kikuyu)",
+      "english": "Numbered Entry 394 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-395",
+      "kikuyu": "Numbered Entry 395 (Kikuyu)",
+      "english": "Numbered Entry 395 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-396",
+      "kikuyu": "Numbered Entry 396 (Kikuyu)",
+      "english": "Numbered Entry 396 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-397",
+      "kikuyu": "Numbered Entry 397 (Kikuyu)",
+      "english": "Numbered Entry 397 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-398",
+      "kikuyu": "Numbered Entry 398 (Kikuyu)",
+      "english": "Numbered Entry 398 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-399",
+      "kikuyu": "Numbered Entry 399 (Kikuyu)",
+      "english": "Numbered Entry 399 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-400",
+      "kikuyu": "Numbered Entry 400 (Kikuyu)",
+      "english": "Numbered Entry 400 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-401",
+      "kikuyu": "Numbered Entry 401 (Kikuyu)",
+      "english": "Numbered Entry 401 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-402",
+      "kikuyu": "Numbered Entry 402 (Kikuyu)",
+      "english": "Numbered Entry 402 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-403",
+      "kikuyu": "Numbered Entry 403 (Kikuyu)",
+      "english": "Numbered Entry 403 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-404",
+      "kikuyu": "Numbered Entry 404 (Kikuyu)",
+      "english": "Numbered Entry 404 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-405",
+      "kikuyu": "Numbered Entry 405 (Kikuyu)",
+      "english": "Numbered Entry 405 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-406",
+      "kikuyu": "Numbered Entry 406 (Kikuyu)",
+      "english": "Numbered Entry 406 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-407",
+      "kikuyu": "Numbered Entry 407 (Kikuyu)",
+      "english": "Numbered Entry 407 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-408",
+      "kikuyu": "Numbered Entry 408 (Kikuyu)",
+      "english": "Numbered Entry 408 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-409",
+      "kikuyu": "Numbered Entry 409 (Kikuyu)",
+      "english": "Numbered Entry 409 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-410",
+      "kikuyu": "Numbered Entry 410 (Kikuyu)",
+      "english": "Numbered Entry 410 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-411",
+      "kikuyu": "Numbered Entry 411 (Kikuyu)",
+      "english": "Numbered Entry 411 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-412",
+      "kikuyu": "Numbered Entry 412 (Kikuyu)",
+      "english": "Numbered Entry 412 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-413",
+      "kikuyu": "Numbered Entry 413 (Kikuyu)",
+      "english": "Numbered Entry 413 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-414",
+      "kikuyu": "Numbered Entry 414 (Kikuyu)",
+      "english": "Numbered Entry 414 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-415",
+      "kikuyu": "Numbered Entry 415 (Kikuyu)",
+      "english": "Numbered Entry 415 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-416",
+      "kikuyu": "Numbered Entry 416 (Kikuyu)",
+      "english": "Numbered Entry 416 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-417",
+      "kikuyu": "Numbered Entry 417 (Kikuyu)",
+      "english": "Numbered Entry 417 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-418",
+      "kikuyu": "Numbered Entry 418 (Kikuyu)",
+      "english": "Numbered Entry 418 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-419",
+      "kikuyu": "Numbered Entry 419 (Kikuyu)",
+      "english": "Numbered Entry 419 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-420",
+      "kikuyu": "Numbered Entry 420 (Kikuyu)",
+      "english": "Numbered Entry 420 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-421",
+      "kikuyu": "Numbered Entry 421 (Kikuyu)",
+      "english": "Numbered Entry 421 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-422",
+      "kikuyu": "Numbered Entry 422 (Kikuyu)",
+      "english": "Numbered Entry 422 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-423",
+      "kikuyu": "Numbered Entry 423 (Kikuyu)",
+      "english": "Numbered Entry 423 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-424",
+      "kikuyu": "Numbered Entry 424 (Kikuyu)",
+      "english": "Numbered Entry 424 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-425",
+      "kikuyu": "Numbered Entry 425 (Kikuyu)",
+      "english": "Numbered Entry 425 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-426",
+      "kikuyu": "Numbered Entry 426 (Kikuyu)",
+      "english": "Numbered Entry 426 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-427",
+      "kikuyu": "Numbered Entry 427 (Kikuyu)",
+      "english": "Numbered Entry 427 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-428",
+      "kikuyu": "Numbered Entry 428 (Kikuyu)",
+      "english": "Numbered Entry 428 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-429",
+      "kikuyu": "Numbered Entry 429 (Kikuyu)",
+      "english": "Numbered Entry 429 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-430",
+      "kikuyu": "Numbered Entry 430 (Kikuyu)",
+      "english": "Numbered Entry 430 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-431",
+      "kikuyu": "Numbered Entry 431 (Kikuyu)",
+      "english": "Numbered Entry 431 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-432",
+      "kikuyu": "Numbered Entry 432 (Kikuyu)",
+      "english": "Numbered Entry 432 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-433",
+      "kikuyu": "Numbered Entry 433 (Kikuyu)",
+      "english": "Numbered Entry 433 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-434",
+      "kikuyu": "Numbered Entry 434 (Kikuyu)",
+      "english": "Numbered Entry 434 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-435",
+      "kikuyu": "Numbered Entry 435 (Kikuyu)",
+      "english": "Numbered Entry 435 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-436",
+      "kikuyu": "Numbered Entry 436 (Kikuyu)",
+      "english": "Numbered Entry 436 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-437",
+      "kikuyu": "Numbered Entry 437 (Kikuyu)",
+      "english": "Numbered Entry 437 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-438",
+      "kikuyu": "Numbered Entry 438 (Kikuyu)",
+      "english": "Numbered Entry 438 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-439",
+      "kikuyu": "Numbered Entry 439 (Kikuyu)",
+      "english": "Numbered Entry 439 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-440",
+      "kikuyu": "Numbered Entry 440 (Kikuyu)",
+      "english": "Numbered Entry 440 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-441",
+      "kikuyu": "Numbered Entry 441 (Kikuyu)",
+      "english": "Numbered Entry 441 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-442",
+      "kikuyu": "Numbered Entry 442 (Kikuyu)",
+      "english": "Numbered Entry 442 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-443",
+      "kikuyu": "Numbered Entry 443 (Kikuyu)",
+      "english": "Numbered Entry 443 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-444",
+      "kikuyu": "Numbered Entry 444 (Kikuyu)",
+      "english": "Numbered Entry 444 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-445",
+      "kikuyu": "Numbered Entry 445 (Kikuyu)",
+      "english": "Numbered Entry 445 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-446",
+      "kikuyu": "Numbered Entry 446 (Kikuyu)",
+      "english": "Numbered Entry 446 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-447",
+      "kikuyu": "Numbered Entry 447 (Kikuyu)",
+      "english": "Numbered Entry 447 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-448",
+      "kikuyu": "Numbered Entry 448 (Kikuyu)",
+      "english": "Numbered Entry 448 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-449",
+      "kikuyu": "Numbered Entry 449 (Kikuyu)",
+      "english": "Numbered Entry 449 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-450",
+      "kikuyu": "Numbered Entry 450 (Kikuyu)",
+      "english": "Numbered Entry 450 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-451",
+      "kikuyu": "Numbered Entry 451 (Kikuyu)",
+      "english": "Numbered Entry 451 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-452",
+      "kikuyu": "Numbered Entry 452 (Kikuyu)",
+      "english": "Numbered Entry 452 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-453",
+      "kikuyu": "Numbered Entry 453 (Kikuyu)",
+      "english": "Numbered Entry 453 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-454",
+      "kikuyu": "Numbered Entry 454 (Kikuyu)",
+      "english": "Numbered Entry 454 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-455",
+      "kikuyu": "Numbered Entry 455 (Kikuyu)",
+      "english": "Numbered Entry 455 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-456",
+      "kikuyu": "Numbered Entry 456 (Kikuyu)",
+      "english": "Numbered Entry 456 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-457",
+      "kikuyu": "Numbered Entry 457 (Kikuyu)",
+      "english": "Numbered Entry 457 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-458",
+      "kikuyu": "Numbered Entry 458 (Kikuyu)",
+      "english": "Numbered Entry 458 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-459",
+      "kikuyu": "Numbered Entry 459 (Kikuyu)",
+      "english": "Numbered Entry 459 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-460",
+      "kikuyu": "Numbered Entry 460 (Kikuyu)",
+      "english": "Numbered Entry 460 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-461",
+      "kikuyu": "Numbered Entry 461 (Kikuyu)",
+      "english": "Numbered Entry 461 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-462",
+      "kikuyu": "Numbered Entry 462 (Kikuyu)",
+      "english": "Numbered Entry 462 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-463",
+      "kikuyu": "Numbered Entry 463 (Kikuyu)",
+      "english": "Numbered Entry 463 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-464",
+      "kikuyu": "Numbered Entry 464 (Kikuyu)",
+      "english": "Numbered Entry 464 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-465",
+      "kikuyu": "Numbered Entry 465 (Kikuyu)",
+      "english": "Numbered Entry 465 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-466",
+      "kikuyu": "Numbered Entry 466 (Kikuyu)",
+      "english": "Numbered Entry 466 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-467",
+      "kikuyu": "Numbered Entry 467 (Kikuyu)",
+      "english": "Numbered Entry 467 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-468",
+      "kikuyu": "Numbered Entry 468 (Kikuyu)",
+      "english": "Numbered Entry 468 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-469",
+      "kikuyu": "Numbered Entry 469 (Kikuyu)",
+      "english": "Numbered Entry 469 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-470",
+      "kikuyu": "Numbered Entry 470 (Kikuyu)",
+      "english": "Numbered Entry 470 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-471",
+      "kikuyu": "Numbered Entry 471 (Kikuyu)",
+      "english": "Numbered Entry 471 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-472",
+      "kikuyu": "Numbered Entry 472 (Kikuyu)",
+      "english": "Numbered Entry 472 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-473",
+      "kikuyu": "Numbered Entry 473 (Kikuyu)",
+      "english": "Numbered Entry 473 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-474",
+      "kikuyu": "Numbered Entry 474 (Kikuyu)",
+      "english": "Numbered Entry 474 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-475",
+      "kikuyu": "Numbered Entry 475 (Kikuyu)",
+      "english": "Numbered Entry 475 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-476",
+      "kikuyu": "Numbered Entry 476 (Kikuyu)",
+      "english": "Numbered Entry 476 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-477",
+      "kikuyu": "Numbered Entry 477 (Kikuyu)",
+      "english": "Numbered Entry 477 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-478",
+      "kikuyu": "Numbered Entry 478 (Kikuyu)",
+      "english": "Numbered Entry 478 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-479",
+      "kikuyu": "Numbered Entry 479 (Kikuyu)",
+      "english": "Numbered Entry 479 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-480",
+      "kikuyu": "Numbered Entry 480 (Kikuyu)",
+      "english": "Numbered Entry 480 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-481",
+      "kikuyu": "Numbered Entry 481 (Kikuyu)",
+      "english": "Numbered Entry 481 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-482",
+      "kikuyu": "Numbered Entry 482 (Kikuyu)",
+      "english": "Numbered Entry 482 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-483",
+      "kikuyu": "Numbered Entry 483 (Kikuyu)",
+      "english": "Numbered Entry 483 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-484",
+      "kikuyu": "Numbered Entry 484 (Kikuyu)",
+      "english": "Numbered Entry 484 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-485",
+      "kikuyu": "Numbered Entry 485 (Kikuyu)",
+      "english": "Numbered Entry 485 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-486",
+      "kikuyu": "Numbered Entry 486 (Kikuyu)",
+      "english": "Numbered Entry 486 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-487",
+      "kikuyu": "Numbered Entry 487 (Kikuyu)",
+      "english": "Numbered Entry 487 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-488",
+      "kikuyu": "Numbered Entry 488 (Kikuyu)",
+      "english": "Numbered Entry 488 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-489",
+      "kikuyu": "Numbered Entry 489 (Kikuyu)",
+      "english": "Numbered Entry 489 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-490",
+      "kikuyu": "Numbered Entry 490 (Kikuyu)",
+      "english": "Numbered Entry 490 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-491",
+      "kikuyu": "Numbered Entry 491 (Kikuyu)",
+      "english": "Numbered Entry 491 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-492",
+      "kikuyu": "Numbered Entry 492 (Kikuyu)",
+      "english": "Numbered Entry 492 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-493",
+      "kikuyu": "Numbered Entry 493 (Kikuyu)",
+      "english": "Numbered Entry 493 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-494",
+      "kikuyu": "Numbered Entry 494 (Kikuyu)",
+      "english": "Numbered Entry 494 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-495",
+      "kikuyu": "Numbered Entry 495 (Kikuyu)",
+      "english": "Numbered Entry 495 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-496",
+      "kikuyu": "Numbered Entry 496 (Kikuyu)",
+      "english": "Numbered Entry 496 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-497",
+      "kikuyu": "Numbered Entry 497 (Kikuyu)",
+      "english": "Numbered Entry 497 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-498",
+      "kikuyu": "Numbered Entry 498 (Kikuyu)",
+      "english": "Numbered Entry 498 (English)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-499",
+      "kikuyu": "Numbered Entry 499 (Kikuyu)",
+      "english": "Numbered Entry 499 (English)",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    },
+    {
+      "id": "numbered-500",
+      "kikuyu": "Numbered Entry 500 (Kikuyu)",
+      "english": "Numbered Entry 500 (English)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Numbered Entries Debug"
+      },
+      "quality": 3
+    }
+  ]
+}

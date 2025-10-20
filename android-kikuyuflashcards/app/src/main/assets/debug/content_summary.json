@@ -1,0 +1,16 @@
+{
+  "total_entries": 1163,
+  "categories": {
+    "vocabulary": 770,
+    "conjugations": 54,
+    "cultural": 1,
+    "grammar": 42,
+    "phrases": 274,
+    "proverbs": 22
+  },
+  "difficulties": {
+    "intermediate": 504,
+    "advanced": 160,
+    "beginner": 499
+  }
+}

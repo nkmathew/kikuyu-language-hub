@@ -1,0 +1,2813 @@
+{
+  "metadata": {
+    "category": "grammar",
+    "total_entries": 42
+  },
+  "entries": [
+    {
+      "id": "ek_grammar_batch002_001",
+      "english": "Counting in Noun Classes",
+      "kikuyu": "Gũtara kũringana na ĩ-rĩa-mĩ-kĩ",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 021",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "noun_classes",
+      "context": "How numbers change based on noun class (1-4) - fundamental Bantu language feature",
+      "cultural_notes": "Kikuyu noun classes determine how numbers and adjectives agree with nouns. Class 1 is for people, Class 2 for trees/plants, Class 3 for animals, Class 4 for diminutives",
+      "examples": [
+        {
+          "english": "Class 1 (people): one person",
+          "kikuyu": "Mũndũ ũmwe",
+          "context": "mũ- class"
+        },
+        {
+          "english": "Class 1 (people): two people",
+          "kikuyu": "Andũ erĩ",
+          "context": "plural"
+        },
+        {
+          "english": "Class 2 (trees): one tree",
+          "kikuyu": "Mũtĩ ũmwe",
+          "context": "mũ- class"
+        },
+        {
+          "english": "Class 3 (animals): one cow",
+          "kikuyu": "Ngombe ĩmwe",
+          "context": "N- class"
+        },
+        {
+          "english": "Class 4 (diminutive): one cup",
+          "kikuyu": "Gĩkombe kĩmwe",
+          "context": "kĩ- class"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "noun_class_agreement",
+        "classes_covered": "1 (mũ-/a-), 2 (mũ-/mĩ-), 3 (N-/N-), 4 (kĩ-/ĩ-)"
+      },
+      "tags": [
+        "grammar",
+        "noun classes",
+        "numbers",
+        "agreement",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch002_002",
+      "english": "Conjunctions (connecting words)",
+      "kikuyu": "Ciugo cia kũnyiitithania",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 022",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "conjunctions",
+      "context": "Common conjunctions for connecting clauses and sentences",
+      "cultural_notes": "Essential for forming complex sentences",
+      "examples": [
+        {
+          "english": "after",
+          "kikuyu": "thutha wa...",
+          "context": "time conjunction"
+        },
+        {
+          "english": "although",
+          "kikuyu": "ona gũtuĩka...",
+          "context": "concessive"
+        },
+        {
+          "english": "because",
+          "kikuyu": "tondũ wa... (nĩaamu...)",
+          "context": "causal"
+        },
+        {
+          "english": "till/until",
+          "kikuyu": "kĩnya rĩrĩa...",
+          "context": "temporal"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "conjunction",
+        "function": "clause_connector"
+      },
+      "tags": [
+        "grammar",
+        "conjunctions",
+        "sentence structure",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch002_003",
+      "english": "Adjective agreement with noun classes",
+      "kikuyu": "Kũringana kwa mathimo na ĩ-rĩa-mĩ-kĩ",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 023",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "adjective_agreement",
+      "context": "How adjectives change form to match noun classes 1-4",
+      "cultural_notes": "Adjectives must agree with the noun class they modify, changing their prefix",
+      "examples": [
+        {
+          "english": "Class 1: tall child",
+          "kikuyu": "Mwana mũraihu",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 2: tall tree",
+          "kikuyu": "Mũtĩ mũraihu",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: tall bull",
+          "kikuyu": "Njamba ndaihu",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: tall chair",
+          "kikuyu": "Gĩtĩ kĩraihu",
+          "context": "kĩ- prefix"
+        },
+        {
+          "english": "Class 1: white child",
+          "kikuyu": "Mwana mwerũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: white bull",
+          "kikuyu": "Njamba njerũ",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: hot chair",
+          "kikuyu": "Gĩtĩ kĩhĩũ",
+          "context": "kĩ- prefix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "adjective_noun_agreement",
+        "adjectives": "long/tall (raihu), white (erũ), hot (hĩũ)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "noun classes",
+        "agreement",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch003_001",
+      "english": "Adjective agreement - descriptive adjectives",
+      "kikuyu": "Kũringana kwa mathimo ma ũhoro",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 026",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "adjective_agreement",
+      "context": "How adjectives for dead, soft, poor, and rich change across noun classes 1-4",
+      "cultural_notes": "Demonstrates fundamental Bantu grammar where adjectives must agree with noun class prefixes",
+      "examples": [
+        {
+          "english": "Class 1 (child): dead child",
+          "kikuyu": "Mwana mũkũũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 2 (door): dead door/tree",
+          "kikuyu": "Mũrango mũkũũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3 (bull): dead bull",
+          "kikuyu": "Njamba ngũũ",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4 (chair): dead chair",
+          "kikuyu": "Gĩtĩ gĩkũũ",
+          "context": "gĩ- prefix"
+        },
+        {
+          "english": "Class 1: soft child",
+          "kikuyu": "Mwana mwororo",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: soft bull",
+          "kikuyu": "Njamba njororo",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: soft chair",
+          "kikuyu": "Gĩtĩ kĩororo",
+          "context": "kĩ- prefix"
+        },
+        {
+          "english": "Class 1: poor child",
+          "kikuyu": "Mwana mũthĩni",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: poor bull",
+          "kikuyu": "Njamba thĩni",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 1: rich child",
+          "kikuyu": "Mwana mũtongu",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: rich bull",
+          "kikuyu": "Njamba ndongu",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: rich chair",
+          "kikuyu": "Gĩtĩ gĩtongu",
+          "context": "gĩ- prefix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "adjective_noun_agreement",
+        "adjectives_covered": "kũũ (dead), ororo (soft), thĩni (poor), tongu (rich)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "noun classes",
+        "agreement",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch003_002",
+      "english": "Adjective stem for 'bad' - ũru",
+      "kikuyu": "Rũthĩ rwa 'ũru'",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 027",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "adjective_stems",
+      "context": "The stem '...ũru' for 'bad' and how it combines with noun class prefixes",
+      "cultural_notes": "Understanding adjective stems is key to mastering Kikuyu grammar",
+      "examples": [
+        {
+          "english": "Class 1 (person): bad person",
+          "kikuyu": "Mũndũ mũru",
+          "context": "mũ- + ũru"
+        },
+        {
+          "english": "Class 4 (cup): bad cup",
+          "kikuyu": "Gĩkombe kĩũru",
+          "context": "kĩ- + ũru"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "adjective_stem",
+        "stem": "ũru (bad)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "stems",
+        "noun classes",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch003_003",
+      "english": "Adjective agreement - color and size adjectives",
+      "kikuyu": "Kũringana kwa mathimo ma rangi na ũnene",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 029",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "adjective_agreement",
+      "context": "How adjectives for black, long, and tall change across noun classes 1-4",
+      "cultural_notes": "Continuation of adjective agreement patterns with common descriptive terms",
+      "examples": [
+        {
+          "english": "Class 1 (child): black child",
+          "kikuyu": "Mwana mũirũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 2 (door): black door",
+          "kikuyu": "Mũrango mũirũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3 (bull): black bull",
+          "kikuyu": "Njamba njirũ",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4 (chair): black chair",
+          "kikuyu": "Gĩtĩ kĩirũ",
+          "context": "kĩ- prefix"
+        },
+        {
+          "english": "Class 1: long child",
+          "kikuyu": "Mwana mũraya",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: long bull",
+          "kikuyu": "Njamba ndaya",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: long chair",
+          "kikuyu": "Gĩtĩ kĩraya",
+          "context": "kĩ- prefix"
+        },
+        {
+          "english": "Class 1: tall child",
+          "kikuyu": "Mwana mũraihu",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: tall bull",
+          "kikuyu": "Njamba ndaihu",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: tall chair",
+          "kikuyu": "Gĩtĩ kĩraihu",
+          "context": "kĩ- prefix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "adjective_noun_agreement",
+        "adjectives_covered": "irũ (black), raya (long), raihu (long/tall)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "noun classes",
+        "agreement",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch004_001",
+      "english": "Kikuyu adjective structure - adjectives follow nouns",
+      "kikuyu": "mathimo marumagĩrĩra marĩĩtwa",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 036",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "word_order",
+      "context": "In English 'a good boy', in Kikuyu 'boy good' - adjectives come after the noun they modify",
+      "cultural_notes": "Fundamental difference from English word order. Complete list of common adjective roots provided",
+      "examples": [
+        {
+          "english": "adjective root: good",
+          "kikuyu": "__ega",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: bad",
+          "kikuyu": "__ũrũ",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: big",
+          "kikuyu": "__nene",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: small",
+          "kikuyu": "__nini",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: tall/long",
+          "kikuyu": "__raya",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: white (light colour)",
+          "kikuyu": "__erũ",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: black (dark colour)",
+          "kikuyu": "__irũ",
+          "context": "stem form"
+        },
+        {
+          "english": "adjective root: bitter",
+          "kikuyu": "__rũrũ",
+          "context": "R dropped with 'nd' prefix: ndongu ndũrũ (bitter sodom apple)"
+        },
+        {
+          "english": "this good girl is yours",
+          "kikuyu": "mũĩrĩtu ũyũ mwega nĩ wanyu",
+          "context": "noun + adjective structure"
+        },
+        {
+          "english": "these good girls are theirs",
+          "kikuyu": "aĩrĩtu aya ega nĩ ao",
+          "context": "plural agreement"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "word_order",
+        "pattern": "NOUN + ADJECTIVE (opposite of English)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "word order",
+        "syntax",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch005_001",
+      "english": "auxiliary verb 'to have' - all persons",
+      "kikuyu": "kiugo kĩa gũteithia 'kũgĩa na'",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 046",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "verbs_auxiliary",
+      "context": "Complete conjugation of the auxiliary verb 'to have' for all persons (I, you, he/she, they, we)",
+      "cultural_notes": "Pronouns in brackets can be omitted and sentence still makes sense in Kikuyu",
+      "examples": [
+        {
+          "english": "I have (I am)",
+          "kikuyu": "(nĩĩ) ndĩ",
+          "context": "1st person singular"
+        },
+        {
+          "english": "I have a...",
+          "kikuyu": "ndĩ na...",
+          "context": "possession"
+        },
+        {
+          "english": "you have (you are)",
+          "kikuyu": "(wee) wĩ",
+          "context": "2nd person singular"
+        },
+        {
+          "english": "you have a...",
+          "kikuyu": "wĩ na...",
+          "context": "possession"
+        },
+        {
+          "english": "he/she has (...is)",
+          "kikuyu": "(we) e",
+          "context": "3rd person singular"
+        },
+        {
+          "english": "he/she has a...",
+          "kikuyu": "e na...",
+          "context": "possession"
+        },
+        {
+          "english": "they have (...are)",
+          "kikuyu": "(o) me",
+          "context": "3rd person plural"
+        },
+        {
+          "english": "they have a...",
+          "kikuyu": "me na...",
+          "context": "possession"
+        },
+        {
+          "english": "we have (are)",
+          "kikuyu": "(ithuĩ) twĩ",
+          "context": "1st person plural"
+        },
+        {
+          "english": "we have a...",
+          "kikuyu": "twĩ na...",
+          "context": "possession"
+        },
+        {
+          "english": "I have many friends",
+          "kikuyu": "(nĩĩ) ndĩ na arata aingĩ",
+          "context": "example sentence"
+        },
+        {
+          "english": "you have a good parent",
+          "kikuyu": "(wee) wĩ na mũciarĩ mwega",
+          "context": "example sentence"
+        },
+        {
+          "english": "he/she has a white car",
+          "kikuyu": "(we) e na ngaarĩ njerũ",
+          "context": "example sentence"
+        },
+        {
+          "english": "they have a big house",
+          "kikuyu": "(o) me na nyũmba nene",
+          "context": "example sentence"
+        },
+        {
+          "english": "we are sad (we have sadness)",
+          "kikuyu": "(ithuĩ) twĩ na kĩeha",
+          "context": "example sentence"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "auxiliary_verb",
+        "pattern": "pronoun (optional) + verb + na + object",
+        "persons": "all six persons covered"
+      },
+      "tags": [
+        "grammar",
+        "verbs",
+        "auxiliary",
+        "possession",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch005_002",
+      "english": "demonstratives for respected persons",
+      "kikuyu": "macio ma gũonia andũ marĩ gĩtĩĩo",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 052",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "demonstratives_respect",
+      "context": "Special demonstrative pronouns used when referring to respected people",
+      "cultural_notes": "Shows cultural values of respect embedded in grammar - special forms for honored individuals",
+      "examples": [
+        {
+          "english": "this one (respected person)",
+          "kikuyu": "ũyũ",
+          "context": "singular demonstrative"
+        },
+        {
+          "english": "these ones (respected persons)",
+          "kikuyu": "aya",
+          "context": "plural demonstrative"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "demonstrative",
+        "function": "showing_respect",
+        "usage": "for honored or respected individuals"
+      },
+      "tags": [
+        "grammar",
+        "demonstratives",
+        "respect",
+        "culture",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "gram-007-001",
+      "english": "Write these words in future tenses (practice exercise)",
+      "kikuyu": "Hûthîra ciugo ici gûtunga ûhoro wa maûndû megwîkîka",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 068",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "examples": [
+        "Verbs to practice: Teng'era (run), Ikara (stay), Koma (sleep), Ona (see), Igua (hear)",
+        "More verbs: Îkîra (put), Ruga (cook), Aka (make/construct), Rîma (dig), Rûgama (stand)",
+        "Additional: Toonya (enter), Tuma (sew), Rora (look), Thikîrîrîa (listen)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-008-001",
+      "english": "Monosyllable 'No' - versatile modifier meaning but/just/can/may/only",
+      "kikuyu": "No (particle)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 083",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "examples": [
+        "No mûhaka (It is a must) - without NO: mûhaka = boundary",
+        "No mûûre (You can get lost)",
+        "No mîtoka (It is just cars)",
+        "No kwarî na maûndû (There were still issues)",
+        "No ûgerie (You may try)",
+        "No nguo yake yarî ndaihu (But her dress was long)",
+        "Korwo no ûrîrîkane (If you could remember)",
+        "No ndîmûteithie (I can help you)",
+        "Ûria mendaga no kwona nyina wao (They only wanted to see their mother)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-008-002",
+      "english": "'No' with present tense = still/yet (ongoing action)",
+      "kikuyu": "No + present tense",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 084",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "examples": [
+        "No rwimbo? (You are still listening to music?)",
+        "No kúría? (You are still eating?)",
+        "No ndore úraringa? (You are still jumping?)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-009-001",
+      "english": "Monosyllable 'O' - them/any/even/whenever modifier",
+      "kikuyu": "O (particle)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 086",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "examples": [
+        "O (them; they)",
+        "O yothe (any)",
+        "O kûrîa maikagia maitho (Wherever they looked)",
+        "O rîrîa (when; whenever)",
+        "O hîndî o yothe (any time)",
+        "Mûndû o wothe (any person; every person)",
+        "O na kûrî o ûgûo (however; nevertheless)",
+        "Kî'ande o kîrîa (the same shoulder)",
+        "O na ndangîetîkîrîre (He/she would even not have agreed)",
+        "O ta mûndû (just like a person)",
+        "O rîmwe (suddenly; just once)",
+        "O na ndirarîrîkana (I don't even remember)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-009-002",
+      "english": "Nine essential monosyllables with distinct meanings",
+      "kikuyu": "Monosyllable words: Ha, He, Ke, Ma, Nda, Nja, No, O, Ta",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 089-090",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-010-001",
+      "english": "Class III Nouns - Invariant Plural",
+      "kikuyu": "Class III Nouns - Invariant Plural",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 101",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "this (singular demonstrative for Class III nouns)",
+          "kikuyu": "ino",
+          "notes": "used with singular nouns"
+        },
+        {
+          "english": "these (plural demonstrative for Class III nouns)",
+          "kikuyu": "ici",
+          "notes": "used with plural nouns"
+        },
+        {
+          "english": "this table",
+          "kikuyu": "metha ino",
+          "notes": "singular example - Class III noun with singular demonstrative"
+        },
+        {
+          "english": "these tables",
+          "kikuyu": "metha ici",
+          "notes": "plural example - Class III noun with plural demonstrative (noun form unchanged)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "noun class",
+        "structure": {
+          "singular": "noun + ino",
+          "plural": "noun + ici",
+          "note": "The noun form itself remains unchanged between singular and plural"
+        },
+        "notes": "Class III nouns in Kikuyu have the unique feature that the noun form itself does not change between singular and plural. The number distinction is shown only through agreement patterns like demonstratives."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-010-002",
+      "english": "Numbers 1-11 with Noun Agreement",
+      "kikuyu": "Numbers 1-11 with Noun Agreement",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 102",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "one",
+          "kikuyu": "Îmwe",
+          "notes": "cardinal number 1"
+        },
+        {
+          "english": "two",
+          "kikuyu": "Igîrî",
+          "notes": "cardinal number 2"
+        },
+        {
+          "english": "three",
+          "kikuyu": "Ithathû",
+          "notes": "cardinal number 3"
+        },
+        {
+          "english": "four",
+          "kikuyu": "Inya",
+          "notes": "cardinal number 4"
+        },
+        {
+          "english": "five",
+          "kikuyu": "Ithano",
+          "notes": "cardinal number 5"
+        },
+        {
+          "english": "six",
+          "kikuyu": "Ithathatû",
+          "notes": "cardinal number 6"
+        },
+        {
+          "english": "seven",
+          "kikuyu": "Mûgwanja",
+          "notes": "cardinal number 7"
+        },
+        {
+          "english": "eight",
+          "kikuyu": "Inyanya",
+          "notes": "cardinal number 8"
+        },
+        {
+          "english": "nine",
+          "kikuyu": "Kenda",
+          "notes": "cardinal number 9"
+        },
+        {
+          "english": "ten",
+          "kikuyu": "Ikûmi",
+          "notes": "cardinal number 10"
+        },
+        {
+          "english": "eleven",
+          "kikuyu": "Ikûmi na îmwe",
+          "notes": "cardinal number 11 (literally 'ten and one')"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "numeral",
+        "grammatical_feature": "cardinal numbers",
+        "structure": {
+          "1-6": "I- prefix pattern (Îmwe, Igîrî, Ithathû, Inya, Ithano, Ithathatû)",
+          "7": "Mû- prefix (Mûgwanja)",
+          "8": "I- prefix (Inyanya)",
+          "9": "No prefix (Kenda)",
+          "10": "I- prefix (Ikûmi)",
+          "11+": "Compound structure (Ikûmi na îmwe)"
+        },
+        "notes": "Kikuyu numbers typically show noun class agreement with the nouns they modify. Most numbers 1-10 take the I- prefix in their citation form."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-012-001",
+      "english": "Reversible Action Verb Pairs (Do and Undo)",
+      "kikuyu": "Reversible Action Verb Pairs (Do and Undo)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 119",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "close",
+          "kikuyu": "Hinga",
+          "notes": "action verb"
+        },
+        {
+          "english": "open",
+          "kikuyu": "Hîngûra",
+          "notes": "reversive form"
+        },
+        {
+          "english": "spread",
+          "kikuyu": "Anîka",
+          "notes": "action verb"
+        },
+        {
+          "english": "fold",
+          "kikuyu": "Anûrra",
+          "notes": "reversive form"
+        },
+        {
+          "english": "tie",
+          "kikuyu": "Oha",
+          "notes": "action verb"
+        },
+        {
+          "english": "untie",
+          "kikuyu": "Ohorania",
+          "notes": "reversive form"
+        },
+        {
+          "english": "straighten",
+          "kikuyu": "Handũka",
+          "notes": "action verb"
+        },
+        {
+          "english": "bend",
+          "kikuyu": "Hendekerania",
+          "notes": "reversive form"
+        },
+        {
+          "english": "start",
+          "kikuyu": "Amba",
+          "notes": "action verb"
+        },
+        {
+          "english": "finish",
+          "kikuyu": "Ambûra",
+          "notes": "reversive form"
+        },
+        {
+          "english": "go in",
+          "kikuyu": "Ingîra",
+          "notes": "action verb"
+        },
+        {
+          "english": "go out",
+          "kikuyu": "Ekereria",
+          "notes": "reversive form (option 1)"
+        },
+        {
+          "english": "take out",
+          "kikuyu": "Ekaria",
+          "notes": "reversive form (option 2)"
+        },
+        {
+          "english": "put in",
+          "kikuyu": "Iya",
+          "notes": "action verb"
+        },
+        {
+          "english": "take out",
+          "kikuyu": "Inyia",
+          "notes": "reversive form"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "reversive derivation",
+        "structure": {
+          "common_patterns": [
+            "-ûra suffix (Hinga → Hîngûra)",
+            "-orania suffix (Oha → Ohorania)",
+            "-ûra suffix (Amba → Ambûra)",
+            "vowel change (Ingîra → Ekereria)"
+          ]
+        },
+        "notes": "Kikuyu has a productive system of reversive verb derivation that creates 'undo' verbs from action verbs"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-012-002",
+      "english": "Conjunctions - Temporal and Logical Connectors",
+      "kikuyu": "Conjunctions - Temporal and Logical Connectors",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 120",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "after",
+          "kikuyu": "Thutha wa",
+          "notes": "temporal conjunction"
+        },
+        {
+          "english": "together with",
+          "kikuyu": "Hamwe na",
+          "notes": "coordinating conjunction"
+        },
+        {
+          "english": "and",
+          "kikuyu": "Na",
+          "notes": "coordinating conjunction"
+        },
+        {
+          "english": "also/again",
+          "kikuyu": "Îngî",
+          "notes": "additive conjunction"
+        },
+        {
+          "english": "for example",
+          "kikuyu": "Kwa mûhîano",
+          "notes": "exemplifying conjunction"
+        },
+        {
+          "english": "or",
+          "kikuyu": "Kana",
+          "notes": "disjunctive conjunction"
+        },
+        {
+          "english": "because of",
+          "kikuyu": "Rĩĩra rĩa",
+          "notes": "causal conjunction"
+        },
+        {
+          "english": "because",
+          "kikuyu": "Tondũ",
+          "notes": "causal conjunction"
+        },
+        {
+          "english": "then/so",
+          "kikuyu": "No",
+          "notes": "sequential/consequential conjunction"
+        },
+        {
+          "english": "saying that",
+          "kikuyu": "Akiuga atĩrĩ",
+          "notes": "quotative conjunction"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "conjunction",
+        "grammatical_feature": "connectors",
+        "categories": [
+          "temporal (Thutha wa)",
+          "coordinating (Na, Hamwe na)",
+          "causal (Tondũ, Rĩĩra rĩa)",
+          "sequential (No)"
+        ],
+        "notes": "Kikuyu conjunctions connect clauses and phrases, expressing various logical and temporal relationships"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-013-001",
+      "english": "Auxiliary Verb 'Na' (to have) - All Persons",
+      "kikuyu": "Auxiliary Verb 'Na' (to have) - All Persons",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 134",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I have a pen",
+          "kikuyu": "Ndĩ na karamũ",
+          "notes": "1st person singular with singular noun"
+        },
+        {
+          "english": "You have pens",
+          "kikuyu": "Wĩ na tũramũ",
+          "notes": "2nd person singular with plural noun"
+        },
+        {
+          "english": "You all have problems",
+          "kikuyu": "Mwĩ na thĩna",
+          "notes": "2nd person plural with noun"
+        },
+        {
+          "english": "He/she has my glass",
+          "kikuyu": "E na ngĩrathĩ yakwa",
+          "notes": "3rd person singular with singular possessive (yakwa)"
+        },
+        {
+          "english": "They have my glasses",
+          "kikuyu": "Me na ngĩrathĩ ciakwa",
+          "notes": "3rd person plural with plural possessive (ciakwa)"
+        },
+        {
+          "english": "We have another teacher",
+          "kikuyu": "Twĩ na mwarimũ ũngĩ",
+          "notes": "1st person plural with modifier (ũngĩ = another)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "auxiliary verb - possession",
+        "structure": {
+          "1st person singular": "Ndĩ na + noun",
+          "2nd person singular": "Wĩ na + noun",
+          "3rd person singular": "E na + noun",
+          "1st person plural": "Twĩ na + noun",
+          "2nd person plural": "Mwĩ na + noun",
+          "3rd person plural": "Me na + noun"
+        },
+        "notes": "The possession construction in Kikuyu uses the auxiliary verb 'na' (to have) preceded by the appropriate subject form. This construction follows the pattern: subject + na + possessed noun."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-014-001",
+      "english": "Object Concords with 'na' - Simple Examples",
+      "kikuyu": "Object Concords with 'na' - Simple Examples",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 136",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "Who is with the girl?",
+          "kikuyu": "Mũirĩtu arĩ naũ?",
+          "notes": "Question asking about accompaniment"
+        },
+        {
+          "english": "I am with her",
+          "kikuyu": "Ndĩ nake",
+          "notes": "Answer using object concord -ke (Class 1 singular)"
+        },
+        {
+          "english": "Who has the big knife?",
+          "kikuyu": "Rũhiũ rũrĩ naũ?",
+          "notes": "Question asking about possession"
+        },
+        {
+          "english": "I have it",
+          "kikuyu": "Ndĩ na ruo",
+          "notes": "Answer using object concord -ruo (Class 6 singular)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "pronoun",
+        "grammatical_feature": "object concord",
+        "structure": {
+          "question": "Noun + arĩ/rũrĩ + naũ?",
+          "answer": "Subject + na + object concord"
+        },
+        "notes": "Kikuyu uses specific object concords with the preposition 'na' to refer back to previously mentioned nouns. These concords vary by noun class."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-014-002",
+      "english": "Complete Object Concord System by Noun Class",
+      "kikuyu": "Complete Object Concord System by Noun Class",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 137",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "with him/her (singular)",
+          "kikuyu": "nake",
+          "notes": "Class 1 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nao",
+          "notes": "Class 1 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "naguo",
+          "notes": "Class 2 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nayo",
+          "notes": "Class 2 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "nayo",
+          "notes": "Class 3 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nacio",
+          "notes": "Class 3 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "nakĩo",
+          "notes": "Class 4 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nacio",
+          "notes": "Class 4 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "narĩo",
+          "notes": "Class 5 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "namo",
+          "notes": "Class 5 plural object concord"
+        },
+        {
+          "english": "with it (singular)",
+          "kikuyu": "naruo",
+          "notes": "Class 6 singular object concord"
+        },
+        {
+          "english": "with them (plural)",
+          "kikuyu": "nacio",
+          "notes": "Class 6 plural object concord"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "pronoun",
+        "grammatical_feature": "object concord system",
+        "structure": {
+          "formation": "na + object concord specific to noun class and number"
+        },
+        "class_mapping": {
+          "Class 1": "-ke (sg) / -o (pl)",
+          "Class 2": "-guo (sg) / -yo (pl)",
+          "Class 3": "-yo (sg) / -cio (pl)",
+          "Class 4": "-kĩo (sg) / -cio (pl)",
+          "Class 5": "-rĩo (sg) / -mo (pl)",
+          "Class 6": "-ruo (sg) / -cio (pl)"
+        },
+        "notes": "The object concord system in Kikuyu provides specific forms for each noun class and number combination, allowing precise reference to previously mentioned nouns."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-014-003",
+      "english": "Demonstrative Agreement - Class 1 & 4",
+      "kikuyu": "Demonstrative Agreement - Class 1 & 4",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 140",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "This my child is good",
+          "kikuyu": "Mwana ũyũ wakwa nĩ mwega",
+          "notes": "Class 1 demonstrative agreement (ũyũ)"
+        },
+        {
+          "english": "This my chair is good",
+          "kikuyu": "Gĩtĩ gĩkĩ gĩakwa nĩ kĩega",
+          "notes": "Class 4 demonstrative agreement (gĩkĩ)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "demonstrative",
+        "grammatical_feature": "noun class agreement",
+        "structure": {
+          "Class 1 pattern": "Noun + ũyũ + possessive + nĩ + adjective",
+          "Class 4 pattern": "Noun + gĩkĩ + possessive + nĩ + adjective"
+        },
+        "demonstratives": {
+          "Class 1": "ũyũ (this one)",
+          "Class 4": "gĩkĩ (this one)"
+        },
+        "notes": "In Kikuyu, demonstratives must agree with the noun class of the noun they modify. Different noun classes use different demonstrative forms."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-016-001",
+      "english": "Frequency Adverbs",
+      "kikuyu": "Frequency Adverbs",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 158",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "always",
+          "kikuyu": "Hĩndĩ cĩothe",
+          "notes": "highest frequency"
+        },
+        {
+          "english": "constantly",
+          "kikuyu": "Kaĩngĩ kaĩngĩ",
+          "notes": "very high frequency (repeated form)"
+        },
+        {
+          "english": "nearly every day",
+          "kikuyu": "Hakuhi hĩndĩ cĩothe",
+          "notes": "high frequency with qualifier hakuhi (near)"
+        },
+        {
+          "english": "almost every day",
+          "kikuyu": "Nĩ ta hĩndĩ cĩothe",
+          "notes": "high frequency with qualifier nĩ ta (it is like)"
+        },
+        {
+          "english": "often",
+          "kikuyu": "Kaĩngĩ",
+          "notes": "medium-high frequency"
+        },
+        {
+          "english": "sometimes/once in a while",
+          "kikuyu": "Rĩmwe na rĩmwe",
+          "notes": "medium-low frequency, literally 'one and one'"
+        },
+        {
+          "english": "rarely",
+          "kikuyu": "Tĩ kaĩngĩ",
+          "notes": "low frequency, literally 'not often'"
+        },
+        {
+          "english": "never",
+          "kikuyu": "O na rĩ",
+          "notes": "zero frequency"
+        },
+        {
+          "english": "Eat food with vegetables nearly every day",
+          "kikuyu": "Rĩaga irio cĩĩ na mboga hakuhi hĩndĩ cĩothe",
+          "notes": "Habitual action with frequency adverb"
+        },
+        {
+          "english": "He goes to Thika once in a while",
+          "kikuyu": "Nĩ athiaga Thika rĩmwe na rĩmwe",
+          "notes": "Occasional action"
+        },
+        {
+          "english": "He/she rarely comes",
+          "kikuyu": "Tĩ kaĩngĩ okaga",
+          "notes": "Infrequent action"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "adverb",
+        "grammatical_feature": "frequency",
+        "structure": {
+          "patterns": [
+            "Time expressions: Hĩndĩ cĩothe (all time)",
+            "Quantifier expressions: Kaĩngĩ (often)",
+            "Negative expressions: Tĩ kaĩngĩ (not often)",
+            "Modifier expressions: Hakuhi hĩndĩ cĩothe (near all time)",
+            "Reduplication: Kaĩngĩ kaĩngĩ (often often = constantly)"
+          ]
+        },
+        "notes": "Kikuyu frequency adverbs generally follow the verb and can be modified by qualifiers to express more nuanced frequencies. They often combine with the habitual aspect of verbs (-aga suffix)."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-017-001",
+      "english": "Noun Class 4 & Diminutive Class",
+      "kikuyu": "Noun Class 4 & Diminutive Class",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 172",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "this big cup",
+          "kikuyu": "Gĩkombe gĩkĩ kĩnene",
+          "notes": "Class 4 singular with demonstrative and adjective"
+        },
+        {
+          "english": "these big cups",
+          "kikuyu": "Ĩkombe ĩcĩ nene",
+          "notes": "Class 4 plural with demonstrative and adjective"
+        },
+        {
+          "english": "this nice small cup",
+          "kikuyu": "Gakombe gaka kega",
+          "notes": "Diminutive singular with demonstrative and adjective"
+        },
+        {
+          "english": "these nice small cups",
+          "kikuyu": "tũkombe tũtũ twega",
+          "notes": "Diminutive plural with demonstrative and adjective"
+        },
+        {
+          "english": "This big woven tray",
+          "kikuyu": "Gĩtarũrũ gĩkĩ kĩnene",
+          "notes": "Class 4 singular example"
+        },
+        {
+          "english": "These big woven trays",
+          "kikuyu": "Ĩtarũrũ ĩcĩ nene",
+          "notes": "Class 4 plural example"
+        },
+        {
+          "english": "This wide small woven tray",
+          "kikuyu": "Gatarũrũ gaka karĩĩ",
+          "notes": "Diminutive singular example"
+        },
+        {
+          "english": "These wide small woven trays",
+          "kikuyu": "tũtarũrũ tũtũ twarĩĩ",
+          "notes": "Diminutive plural example"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "noun classes",
+        "structure": {
+          "Class 4 singular": "Prefix: Kĩ-/Gĩ-, Agreement: gĩ-/kĩ-",
+          "Class 4 plural": "Prefix: Ci-/Ĩ-, Agreement: ĩ-/ci-",
+          "Diminutive singular": "Prefix: Ka-/Ga-, Agreement: ka-/ga-",
+          "Diminutive plural": "Prefix: tũ-, Agreement: tũ-/tw-"
+        },
+        "notes": "Class 4 nouns typically denote artifacts and tools. The diminutive class is used to indicate small size and sometimes has affectionate connotations. Both classes show strict agreement patterns with demonstratives and adjectives."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-017-002",
+      "english": "Consonant Examples (g, h, k)",
+      "kikuyu": "Consonant Examples (g, h, k)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 173",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "Grandfather, pull my hand",
+          "kikuyu": "Guka gucia guoko gakwa",
+          "notes": "Sentence practicing 'g' sound"
+        },
+        {
+          "english": "Come for this cup",
+          "kikuyu": "Gĩra gĩkombe gĩkĩ",
+          "notes": "Sentence practicing 'g' sound"
+        },
+        {
+          "english": "This place is cold",
+          "kikuyu": "Haha hena heho",
+          "notes": "Sentence practicing 'h' sound"
+        },
+        {
+          "english": "Blow the fire if you can",
+          "kikuyu": "Huha mwaki wahota",
+          "notes": "Sentence practicing 'h' sound"
+        },
+        {
+          "english": "The girl has a pen",
+          "kikuyu": "Kairĩtu kena karamu",
+          "notes": "Sentence practicing 'k' sound"
+        },
+        {
+          "english": "The child saw a frog and ran away",
+          "kikuyu": "Kana kona kora kora",
+          "notes": "Sentence practicing 'k' sound"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "pattern": "Sentences with multiple occurrences of the same consonant"
+        },
+        "notes": "These practice sentences use consonant alliteration to help learners master the pronunciation of specific Kikuyu consonants. The 'g', 'h', and 'k' sounds are distinctive in Kikuyu and important for correct pronunciation."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-017-003",
+      "english": "Conjunctions - Complete System",
+      "kikuyu": "Conjunctions - Complete System",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "and/nor",
+          "kikuyu": "Na",
+          "notes": "coordinating conjunction"
+        },
+        {
+          "english": "but",
+          "kikuyu": "No",
+          "notes": "adversative conjunction"
+        },
+        {
+          "english": "or",
+          "kikuyu": "Kana",
+          "notes": "disjunctive conjunction"
+        },
+        {
+          "english": "after",
+          "kikuyu": "Thutha wa",
+          "notes": "temporal conjunction"
+        },
+        {
+          "english": "although",
+          "kikuyu": "Ona gũtũĩka",
+          "notes": "concessive conjunction"
+        },
+        {
+          "english": "because",
+          "kikuyu": "Tondũ wa/niamu",
+          "notes": "causal conjunction (two forms)"
+        },
+        {
+          "english": "till/until",
+          "kikuyu": "Kinya rĩrĩa",
+          "notes": "temporal conjunction"
+        },
+        {
+          "english": "They neither eat pork nor do they drink beer",
+          "kikuyu": "Matirĩaga ngũrũwe na matinyuaga njohi",
+          "notes": "Na used for 'nor' in negative context"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "conjunction",
+        "grammatical_feature": "connectors",
+        "categories": {
+          "coordinating": "Na (and/nor)",
+          "adversative": "No (but)",
+          "disjunctive": "Kana (or)",
+          "temporal": "Thutha wa (after), Kinya rĩrĩa (till/until)",
+          "concessive": "Ona gũtũĩka (although)",
+          "causal": "Tondũ wa/niamu (because)"
+        },
+        "notes": "Kikuyu conjunctions connect clauses and phrases to express various logical relationships. Some are single words while others are phrases."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-018-001",
+      "english": "Future Tenses - Near vs Distant",
+      "kikuyu": "Future Tenses - Near vs Distant",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 176",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "Women will make distress sound (later today)",
+          "kikuyu": "Atumia nĩ mekũ-uga mbu",
+          "notes": "Near future with -kũ- marker (3rd person plural)"
+        },
+        {
+          "english": "You will whistle (later today)",
+          "kikuyu": "Wee nĩ ũkũ-huha mĩruri",
+          "notes": "Near future with -kũ- marker (2nd person singular)"
+        },
+        {
+          "english": "Women will make distress sound (tomorrow/later)",
+          "kikuyu": "Atumia nĩ makã-uga mbu",
+          "notes": "Distant future with -ka- marker (3rd person plural)"
+        },
+        {
+          "english": "You will whistle (tomorrow/later)",
+          "kikuyu": "Wee nĩ ũka-huha mĩruri",
+          "notes": "Distant future with -ka- marker (2nd person singular)"
+        },
+        {
+          "english": "The rooster will crow (later today)",
+          "kikuyu": "Ngengere nĩ ikũ-gamba",
+          "notes": "Near future with -kũ- marker"
+        },
+        {
+          "english": "We will sing a nice song (tomorrow)",
+          "kikuyu": "Tũka-ina karwĩmbo kega",
+          "notes": "Distant future with -ka- marker"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "tense markers",
+        "structure": {
+          "near future": "Subject + nĩ + subject agreement prefix + -kũ- + verb stem",
+          "distant future": "Subject + nĩ + subject agreement prefix + -ka- + verb stem"
+        },
+        "time_reference": {
+          "-kũ-": "Later today, near future (same day)",
+          "-ka-": "Tomorrow or beyond, distant future (different day)"
+        },
+        "notes": "Kikuyu makes a temporal distinction between actions that will occur later on the same day (-kũ-) versus actions that will occur on a future day (-ka-). This precise time marking is a characteristic feature of Bantu languages."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-018-002",
+      "english": "Kaĩ Question Particle & Emphatic Marker",
+      "kikuyu": "Kaĩ Question Particle & Emphatic Marker",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 180",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "It is cold",
+          "kikuyu": "Kwĩna heho",
+          "notes": "Basic statement without particles"
+        },
+        {
+          "english": "Is it cold?",
+          "kikuyu": "Kaĩ kwĩna heho?",
+          "notes": "Question with Kaĩ prefix"
+        },
+        {
+          "english": "It is really cold!",
+          "kikuyu": "Kaĩ kwĩna heho-ĩ!",
+          "notes": "Emphatic statement with Kaĩ prefix and -ĩ suffix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "particle",
+        "grammatical_feature": "interrogative/emphatic markers",
+        "structure": {
+          "question": "Kaĩ + statement",
+          "emphatic": "Kaĩ + statement + -ĩ"
+        },
+        "notes": "The particle 'Kaĩ' serves dual functions in Kikuyu. As a prefix to a statement, it transforms it into a yes/no question. When combined with the suffix '-ĩ' at the end of the statement, it creates an emphatic exclamation. This demonstrates how modal particles can completely change the pragmatic function of an utterance."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-019-001",
+      "english": "Agent/Patient Noun Formation (Review)",
+      "kikuyu": "Agent/Patient Noun Formation (Review)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 188",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "chaser (one who chases)",
+          "kikuyu": "Mũingatani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "teacher (one who teaches)",
+          "kikuyu": "Mũrutani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "beater (one who beats)",
+          "kikuyu": "Mũhurani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "one being chased",
+          "kikuyu": "Mũingatwo",
+          "notes": "patient noun with -wo suffix"
+        },
+        {
+          "english": "student (one being taught)",
+          "kikuyu": "Mũrutwo",
+          "notes": "patient noun with -wo suffix"
+        },
+        {
+          "english": "one being beaten",
+          "kikuyu": "Mũhurwo",
+          "notes": "patient noun with -wo suffix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "derivational morphology",
+        "structure": {
+          "agent formation": "Mũ- + verb stem + -ani",
+          "patient formation": "Mũ- + verb stem + -wo"
+        },
+        "notes": "Kikuyu uses a productive derivational system to create agent nouns (doers of actions) and patient nouns (receivers of actions) from verb stems. These derived nouns belong to Class 1/2 with Mũ-/A- prefixes."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-019-002",
+      "english": "Imperative Forms (Commands)",
+      "kikuyu": "Imperative Forms (Commands)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 190-191",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "buy!",
+          "kikuyu": "Gũra",
+          "notes": "imperative form of kũgũra (to buy)"
+        },
+        {
+          "english": "close!",
+          "kikuyu": "Hinga",
+          "notes": "imperative form of kũhinga (to close)"
+        },
+        {
+          "english": "open!",
+          "kikuyu": "Hingũra",
+          "notes": "imperative form of kũhingũra (to open)"
+        },
+        {
+          "english": "stand!",
+          "kikuyu": "Rũgama",
+          "notes": "imperative form of kũrũgama (to stand)"
+        },
+        {
+          "english": "speak!",
+          "kikuyu": "Aria",
+          "notes": "imperative form of kwaria (to speak)"
+        },
+        {
+          "english": "Speak to your friends",
+          "kikuyu": "Aria na arata aku",
+          "notes": "Imperative with prepositional phrase"
+        },
+        {
+          "english": "Close the door and let us go",
+          "kikuyu": "Hinga mũrango tuthĩĩ",
+          "notes": "Imperative followed by subjunctive"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "imperative mood",
+        "structure": {
+          "formation": "Remove kũ-/kw- prefix from infinitive form",
+          "plural commands": "Add -i suffix to singular imperative"
+        },
+        "notes": "The imperative (command) form in Kikuyu is formed by removing the infinitive prefix kũ-/kw- from the verb. For commands directed at multiple people, an -i suffix is added to the singular imperative form."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-020-001",
+      "english": "Benefactive Suffix -ĩra/-era",
+      "kikuyu": "Benefactive Suffix -ĩra/-era",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 197",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "pour tea for Njeri",
+          "kikuyu": "Ĩkĩĩra Njeri cai",
+          "notes": "benefactive form of verb 'to put/pour'"
+        },
+        {
+          "english": "read a book to the child",
+          "kikuyu": "Thoomera mwana ibuku",
+          "notes": "benefactive form of 'gũthooma' (to read)"
+        },
+        {
+          "english": "take food to Maina",
+          "kikuyu": "Twarĩĩra maina irio",
+          "notes": "benefactive form of 'gũtwara' (to deliver)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "benefactive suffix",
+        "structure": {
+          "formation": "Verb stem + -ĩra/-era suffix",
+          "examples": [
+            "gũthooma (to read) → thoomera (read for/to someone)",
+            "gũtwara (to deliver) → twarĩĩra (deliver for/to someone)"
+          ]
+        },
+        "notes": "The benefactive suffix -ĩra/-era is added to verb stems to indicate that the action is performed for the benefit of someone else. It creates what would be expressed with 'for' or 'to' in English. The choice between -ĩra and -era depends on vowel harmony with the verb stem."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-020-002",
+      "english": "Class III Noun Plural Invariance",
+      "kikuyu": "Class III Noun Plural Invariance",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 200",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "this one table",
+          "kikuyu": "Metha ĩno ĩmwe",
+          "notes": "class III noun with singular demonstrative and numeral"
+        },
+        {
+          "english": "these two tables",
+          "kikuyu": "Metha ici igĩrĩ",
+          "notes": "same class III noun with plural demonstrative and numeral"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "noun class",
+        "structure": {
+          "singular": "Noun + ĩno (this) + singular agreement",
+          "plural": "Noun + ici (these) + plural agreement",
+          "invariance": "The noun form itself does not change between singular and plural"
+        },
+        "notes": "Class III nouns in Kikuyu have the unique characteristic that the noun form itself remains unchanged between singular and plural. The number distinction is shown only through agreement patterns on demonstratives, numerals, and other modifiers."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-021-001",
+      "english": "Consonant Practice Sentences - T, Th, Ny",
+      "kikuyu": "Consonant Practice Sentences - T, Th, Ny",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 206",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "forever and ever",
+          "kikuyu": "Tene na tene na tene",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "cut fabric 5 times",
+          "kikuyu": "Tinia taama maita matano",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "count money",
+          "kikuyu": "Tara mbeca",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "accomplish",
+          "kikuyu": "Tooria",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "complain",
+          "kikuyu": "Teta",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "this plate is clean",
+          "kikuyu": "Thaani ĩno nĩ theru",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "read without joking",
+          "kikuyu": "Thooma ũtarĩ na itherũ",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "move away from here",
+          "kikuyu": "Thenga/ehera haha",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "behind the house",
+          "kikuyu": "Thutha wa nyumba",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "cook tomatoes and greens",
+          "kikuyu": "Ruga nyanya na nyeni",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "Mũrarũ is a snake",
+          "kikuyu": "Mũrarũ nĩ nyoka",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "wild animals",
+          "kikuyu": "Nyamũ cia gĩthaka",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "vegetables are good",
+          "kikuyu": "Nyeni nĩ njega",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "cockroach is dirty",
+          "kikuyu": "Nyenje ĩ gĩko",
+          "notes": "Ny sound practice"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "T sounds": "Unaspirated alveolar stop",
+          "Th sounds": "Aspirated alveolar stop",
+          "Ny sounds": "Palatal nasal"
+        },
+        "notes": "These practice sentences help learners distinguish between similar consonant sounds in Kikuyu. The T/Th contrast is important for correct pronunciation, as is the Ny palatal nasal sound which is common in Bantu languages."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-021-002",
+      "english": "Large Numbers System (11-1,000,000)",
+      "kikuyu": "Large Numbers System (11-1,000,000)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 211",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "11",
+          "kikuyu": "Ikumi na ĩmwe",
+          "notes": "10 + 1"
+        },
+        {
+          "english": "12",
+          "kikuyu": "Ikũmi na igĩrĩ",
+          "notes": "10 + 2"
+        },
+        {
+          "english": "13",
+          "kikuyu": "Ikũmi na ithatũ",
+          "notes": "10 + 3"
+        },
+        {
+          "english": "20",
+          "kikuyu": "Mĩrongo ĩĩrĩ",
+          "notes": "2 tens (mĩrongo = archaic for 'ten')"
+        },
+        {
+          "english": "21",
+          "kikuyu": "Mĩrongo ĩĩrĩ na ĩmwe",
+          "notes": "2 tens and 1"
+        },
+        {
+          "english": "30",
+          "kikuyu": "Mĩrongo ĩtatũ",
+          "notes": "3 tens"
+        },
+        {
+          "english": "99",
+          "kikuyu": "Mĩrongo kenda na kenda",
+          "notes": "9 tens and 9"
+        },
+        {
+          "english": "100",
+          "kikuyu": "Igana rĩmwe",
+          "notes": "1 hundred"
+        },
+        {
+          "english": "101",
+          "kikuyu": "Igana rĩmwe na ĩmwe",
+          "notes": "1 hundred and 1"
+        },
+        {
+          "english": "120",
+          "kikuyu": "Igana rĩmwe rĩa mĩrongo ĩĩrĩ",
+          "notes": "1 hundred of 2 tens"
+        },
+        {
+          "english": "141",
+          "kikuyu": "Igana rĩmwe rĩa mĩrongo ĩna na ĩmwe",
+          "notes": "1 hundred of 4 tens and 1"
+        },
+        {
+          "english": "199",
+          "kikuyu": "Igana rĩmwe rĩa mĩrongo kenda na kenda",
+          "notes": "1 hundred of 9 tens and 9"
+        },
+        {
+          "english": "1000",
+          "kikuyu": "Ngiri ĩmwe",
+          "notes": "1 thousand"
+        },
+        {
+          "english": "1,000,000",
+          "kikuyu": "Mirioni ĩmwe",
+          "notes": "1 million (borrowed from English)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "numeral",
+        "grammatical_feature": "number system",
+        "structure": {
+          "11-19": "Ikũmi na [1-9]",
+          "20-99": "Mĩrongo [2-9] (na [1-9])",
+          "100-999": "Igana rĩmwe rĩa [tens and units]",
+          "1000+": "Ngiri [number]",
+          "1000000+": "Mirioni [number]"
+        },
+        "notes": "The Kikuyu number system uses a decimal base (groups of 10). For numbers 20 and above, it uses the archaic form 'mĩrongo' (tens) followed by the number of tens. Higher numbers use a possessive construction with 'rĩa' (of) connecting hundreds to the smaller units."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-022-001",
+      "english": "Consonant Practice - B, C, Nđ (D)",
+      "kikuyu": "Consonant Practice - B, C, Nđ (D)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 218",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "father has gone to the police",
+          "kikuyu": "Baba athĩĩ kwĩ borithi",
+          "notes": "B sound practice"
+        },
+        {
+          "english": "arrange things well and iron the clothes",
+          "kikuyu": "Banga inđo wega ũhũre nguo baathi",
+          "notes": "B sound practice"
+        },
+        {
+          "english": "grandmother, visit us often",
+          "kikuyu": "Cũcũ cera gwitũ kaingĩ",
+          "notes": "C sound practice"
+        },
+        {
+          "english": "Mũcemi, answer the question",
+          "kikuyu": "Mũcemi cookia kĩũria",
+          "notes": "C sound practice"
+        },
+        {
+          "english": "put on gumboots and walk over the mud",
+          "kikuyu": "Ĩkĩra iratũ cia kobo ũthĩĩ nđoro-inĩ",
+          "notes": "Nđ (D) sound practice"
+        },
+        {
+          "english": "a slug is a small animal",
+          "kikuyu": "Nđongoro nĩ kanyamũ kanini",
+          "notes": "Nđ (D) sound practice"
+        },
+        {
+          "english": "this big sodom apple is bitter",
+          "kikuyu": "Nđongu ĩno nđungu nĩ nđũrũ",
+          "notes": "Nđ (D) sound practice with alliteration"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "B sounds": "Voiced bilabial stop",
+          "C sounds": "Voiceless palatal stop",
+          "Nđ/D sounds": "Prenasalized voiced alveolar stop"
+        },
+        "notes": "These practice sentences focus on the correct pronunciation of B, C, and Nđ (often transliterated as D) sounds in Kikuyu. The Nđ sound is particularly important as it's a prenasalized consonant that combines an 'n' and a 'd' sound."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-022-002",
+      "english": "Sequential Actions - 'Before' Construction (Tana)",
+      "kikuyu": "Sequential Actions - 'Before' Construction (Tana)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 222",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "drink water before you eat food",
+          "kikuyu": "Nyua maĩ ũtanarĩa irio",
+          "notes": "singular 'before' construction with ũtana-"
+        },
+        {
+          "english": "shower before you go out",
+          "kikuyu": "Wĩthambe ũtanauma nja",
+          "notes": "singular 'before' construction with ũtana-"
+        },
+        {
+          "english": "make a call before you do something else",
+          "kikuyu": "Hũra thimũ ũtaneka ũndũ ũngĩ",
+          "notes": "singular 'before' construction with ũtana-"
+        },
+        {
+          "english": "drink water before you eat (plural)",
+          "kikuyu": "Nyuai maĩ mũtanarĩa irio",
+          "notes": "plural 'before' construction with mũtana-"
+        },
+        {
+          "english": "shower before you go out (plural)",
+          "kikuyu": "Mwĩthambei mũtanuma nja",
+          "notes": "plural 'before' construction with mũtana-"
+        },
+        {
+          "english": "teach the children before they grow up",
+          "kikuyu": "Thomithiai ciana citananeheha",
+          "notes": "3rd person 'before' construction with citana-"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "sequential marker",
+        "structure": {
+          "singular pattern": "Verb (imperative) + ũtana- + verb",
+          "plural pattern": "Verb (plural imperative) + mũtana- + verb",
+          "3rd person pattern": "Verb (imperative) + citana- + verb"
+        },
+        "notes": "The -tana- construction is used to express 'before' in sequential actions. The form changes based on the subject: ũtana- (2nd person singular), mũtana- (2nd person plural), citana- (3rd person). This construction always follows a verb, typically in imperative form."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-023-001",
+      "english": "Time System - African vs Western Hours",
+      "kikuyu": "Time System - African vs Western Hours",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 225",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "7am (hour 1 of the day)",
+          "kikuyu": "thaa îmwe cia rũciũ-inĩ",
+          "notes": "daytime hour count starts at 7am in traditional system"
+        },
+        {
+          "english": "6pm (hour 12 of the day)",
+          "kikuyu": "thaa ikũmi na igĩrĩ / thinacara",
+          "notes": "daytime ends at 6pm, which is hour 12 in traditional system"
+        },
+        {
+          "english": "7pm (hour 1 of the night)",
+          "kikuyu": "thaa îmwe cia hũaĩ-inĩ",
+          "notes": "nighttime hour count starts at 7pm in traditional system"
+        },
+        {
+          "english": "12pm (hour 6 of the day)",
+          "kikuyu": "thaa ithathatû cia mûthenya",
+          "notes": "noon is hour 6 in traditional system"
+        },
+        {
+          "english": "12am (hour 6 of the night)",
+          "kikuyu": "thaa ithathatû cia ûtukû",
+          "notes": "midnight is hour 6 in traditional system"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "time expression",
+        "grammatical_feature": "time system",
+        "structure": {
+          "format": "thaa [number] cia [time of day]",
+          "time of day terms": {
+            "rũciũ-inĩ": "morning/day (7am-6pm)",
+            "hũaĩ-inĩ": "evening/night (7pm-6am)",
+            "mûthenya": "daytime",
+            "ûtukû": "nighttime"
+          }
+        },
+        "notes": "The traditional Kikuyu/African time system counts hours differently from the Western system. Day hours start at 7am (hour 1) and end at 6pm (hour 12), while night hours start at 7pm (hour 1) and end at 6am (hour 12). This means there's a 6-hour difference between African and Western hour numbering."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-023-002",
+      "english": "Negative Sentences - Future & Present",
+      "kikuyu": "Negative Sentences - Future & Present",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 232",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I will not tell you",
+          "kikuyu": "Ndigũkwĩra",
+          "notes": "1st person singular future negative"
+        },
+        {
+          "english": "We will not speak",
+          "kikuyu": "Tũtĩkwaria",
+          "notes": "1st person plural future negative"
+        },
+        {
+          "english": "You will not speak",
+          "kikuyu": "Ndũkwaria",
+          "notes": "2nd person singular future negative"
+        },
+        {
+          "english": "You all will not speak",
+          "kikuyu": "Mũtĩkwaria",
+          "notes": "2nd person plural future negative"
+        },
+        {
+          "english": "They said they will not speak",
+          "kikuyu": "Moiga matĩkwaria",
+          "notes": "3rd person plural future negative in reported speech"
+        },
+        {
+          "english": "I don't speak",
+          "kikuyu": "Ndiaragia",
+          "notes": "1st person singular present negative"
+        },
+        {
+          "english": "He/she doesn't speak",
+          "kikuyu": "Ndaragia",
+          "notes": "3rd person singular present negative"
+        },
+        {
+          "english": "We don't speak",
+          "kikuyu": "Tũtĩaragia",
+          "notes": "1st person plural present negative"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "negation",
+        "structure": {
+          "future negative": {
+            "1st person singular": "Ndi- + verb",
+            "1st person plural": "Tũtĩ- + verb",
+            "2nd person singular": "Ndũ- + verb",
+            "2nd person plural": "Mũtĩ- + verb",
+            "3rd person singular": "Nda- + verb",
+            "3rd person plural": "Matĩ- + verb"
+          },
+          "present negative": {
+            "1st person singular": "Ndi- + -ra- + verb",
+            "3rd person singular": "Nda- + -ra- + verb",
+            "1st person plural": "Tũtĩ- + -ra- + verb"
+          }
+        },
+        "notes": "Kikuyu negation uses specific negative prefixes for each person and number. These prefixes replace the positive subject markers. In the present tense, the negative marker is followed by the progressive marker -ra-."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-024-001",
+      "english": "Consonant Pronunciation Practice - G, H, K",
+      "kikuyu": "Consonant Pronunciation Practice - G, H, K",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 237",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "grandfather, pull my hand",
+          "kikuyu": "Gũka gũcia guoko gwaakwa",
+          "notes": "G sound practice with alliteration"
+        },
+        {
+          "english": "come for this cup",
+          "kikuyu": "Gĩra gĩkombe gĩkĩ",
+          "notes": "G sound practice with alliteration"
+        },
+        {
+          "english": "this place is cold",
+          "kikuyu": "Haha hena heho",
+          "notes": "H sound practice with alliteration"
+        },
+        {
+          "english": "blow the fire if you can",
+          "kikuyu": "Hũha mwaki wahota",
+          "notes": "H sound practice"
+        },
+        {
+          "english": "the capsicum has shriveled",
+          "kikuyu": "Hoho nĩ ya hoha",
+          "notes": "H sound practice with alliteration"
+        },
+        {
+          "english": "the girl has a pen",
+          "kikuyu": "Kaĩrĩtu kena karamu",
+          "notes": "K sound practice with alliteration"
+        },
+        {
+          "english": "the boy has shot the bird",
+          "kikuyu": "Kahĩĩ nĩ karatha kanyoni",
+          "notes": "K sound practice with alliteration"
+        },
+        {
+          "english": "the child saw a frog and ran away",
+          "kikuyu": "Kana kona kora kora",
+          "notes": "K sound practice with alliteration"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "G sounds": "Voiced velar stop /g/",
+          "H sounds": "Voiceless glottal fricative /h/",
+          "K sounds": "Voiceless velar stop /k/"
+        },
+        "notes": "These practice sentences use alliteration (multiple words with the same initial sound) to help learners master the distinct pronunciation of the G, H, and K consonants in Kikuyu. The contrast between voiced G and voiceless K is particularly important."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-025-001",
+      "english": "Personal Pronouns - Complete System",
+      "kikuyu": "Personal Pronouns - Complete System",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 254",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I/me",
+          "kikuyu": "Nĩĩ",
+          "notes": "1st person singular pronoun"
+        },
+        {
+          "english": "my name is",
+          "kikuyu": "Njĩtagwo",
+          "notes": "1st person singular subject prefix with passive verb"
+        },
+        {
+          "english": "we",
+          "kikuyu": "Ĩthũĩ",
+          "notes": "1st person plural pronoun"
+        },
+        {
+          "english": "we are called",
+          "kikuyu": "Twĩtagwo",
+          "notes": "1st person plural subject prefix with passive verb"
+        },
+        {
+          "english": "you (singular)",
+          "kikuyu": "Wee",
+          "notes": "2nd person singular pronoun"
+        },
+        {
+          "english": "your name is",
+          "kikuyu": "Wĩtagwo",
+          "notes": "2nd person singular subject prefix with passive verb"
+        },
+        {
+          "english": "you (plural)",
+          "kikuyu": "Ĩnyuĩ",
+          "notes": "2nd person plural pronoun"
+        },
+        {
+          "english": "you are called",
+          "kikuyu": "Mwĩtagwo",
+          "notes": "2nd person plural subject prefix with passive verb"
+        },
+        {
+          "english": "he/she",
+          "kikuyu": "We",
+          "notes": "3rd person singular pronoun"
+        },
+        {
+          "english": "his/her name is",
+          "kikuyu": "Etagwo",
+          "notes": "3rd person singular subject prefix with passive verb"
+        },
+        {
+          "english": "they",
+          "kikuyu": "O",
+          "notes": "3rd person plural pronoun"
+        },
+        {
+          "english": "they are called",
+          "kikuyu": "Metagwo",
+          "notes": "3rd person plural subject prefix with passive verb"
+        },
+        {
+          "english": "who am I?",
+          "kikuyu": "Nĩ nĩũ ũ?",
+          "notes": "question with 1st person singular pronoun"
+        },
+        {
+          "english": "who are you?",
+          "kikuyu": "Wee nĩ wee ũ?",
+          "notes": "question with 2nd person singular pronoun"
+        },
+        {
+          "english": "who is he/she?",
+          "kikuyu": "We nĩ we ũ?",
+          "notes": "question with 3rd person singular pronoun"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "pronoun",
+        "grammatical_feature": "personal pronouns",
+        "structure": {
+          "1st person": {
+            "singular": {
+              "independent pronoun": "Nĩĩ",
+              "subject prefix": "N-/Nj-"
+            },
+            "plural": {
+              "independent pronoun": "Ĩthũĩ",
+              "subject prefix": "Tw-"
+            }
+          },
+          "2nd person": {
+            "singular": {
+              "independent pronoun": "Wee",
+              "subject prefix": "W-"
+            },
+            "plural": {
+              "independent pronoun": "Ĩnyuĩ",
+              "subject prefix": "Mw-"
+            }
+          },
+          "3rd person": {
+            "singular": {
+              "independent pronoun": "We",
+              "subject prefix": "E-"
+            },
+            "plural": {
+              "independent pronoun": "O",
+              "subject prefix": "Me-"
+            }
+          }
+        },
+        "notes": "Kikuyu has independent pronouns (standalone forms) and subject prefixes that attach to verbs. The question pattern for asking 'who is X?' involves repeating the pronoun with the question marker 'ũ'."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-027-001",
+      "english": "Verb -ruta - Multiple Meanings & Extensions",
+      "kikuyu": "Verb -ruta - Multiple Meanings & Extensions",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 268",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "to remove/to give out/to teach",
+          "kikuyu": "Kũruta",
+          "notes": "infinitive form with multiple meanings"
+        },
+        {
+          "english": "remove for/pay for/do for",
+          "kikuyu": "Rutĩra",
+          "notes": "applicative form with -ĩra suffix"
+        },
+        {
+          "english": "teacher (lit. one who teaches/removes knowledge)",
+          "kikuyu": "Mũrutani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "learner (lit. one who is taught/removed from ignorance)",
+          "kikuyu": "Mũrutwo",
+          "notes": "patient noun with -wo suffix"
+        },
+        {
+          "english": "do work",
+          "kikuyu": "Ruta wĩra",
+          "notes": "imperative with meaning 'do'"
+        },
+        {
+          "english": "pay money",
+          "kikuyu": "Ruta mbeca",
+          "notes": "imperative with meaning 'pay'"
+        },
+        {
+          "english": "remove the ear",
+          "kikuyu": "Ruta igũtũ",
+          "notes": "imperative with meaning 'remove'"
+        },
+        {
+          "english": "to pay money for Mwangi",
+          "kikuyu": "Kũrutĩra Mwangi mbeca",
+          "notes": "infinitive of applicative form"
+        },
+        {
+          "english": "I am removing/teaching/doing",
+          "kikuyu": "Ndĩraruta",
+          "notes": "1st person singular present progressive"
+        },
+        {
+          "english": "the teacher is teaching the learners",
+          "kikuyu": "Mũrutani araruta Arutwo",
+          "notes": "3rd person singular present progressive with objects"
+        },
+        {
+          "english": "you plural are paying money for Mwangi",
+          "kikuyu": "Mũrĩrutĩra Mwangi mbeca",
+          "notes": "2nd person plural present progressive of applicative"
+        },
+        {
+          "english": "do work",
+          "kikuyu": "Ruta wĩra",
+          "notes": "singular command"
+        },
+        {
+          "english": "pay money (plural command)",
+          "kikuyu": "Rutaĩ mbeca",
+          "notes": "plural command with -ĩ suffix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "polysemous verb with extensions",
+        "structure": {
+          "root": "-ruta",
+          "infinitive": "Kũ- + -ruta",
+          "applicative": "-ruta + -ĩra",
+          "agent noun": "Mũ- + -ruta + -ani",
+          "patient noun": "Mũ- + -rut + -wo",
+          "imperative": {
+            "singular": "Ruta",
+            "plural": "Rutaĩ"
+          }
+        },
+        "meanings": [
+          "to remove (physical removal)",
+          "to do (performing an action)",
+          "to pay (giving money)",
+          "to teach (imparting knowledge)"
+        ],
+        "notes": "The verb -ruta is a highly versatile verb in Kikuyu with multiple meanings. It can take various extensions like the applicative (-ĩra) and can be nominalized into agent and patient nouns. It demonstrates how Bantu languages can express multiple related concepts with a single verb root."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-027-002",
+      "english": "Passive Voice & Reflexive - Advanced Grammar",
+      "kikuyu": "Passive Voice & Reflexive - Advanced Grammar",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 269",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "tie",
+          "kikuyu": "Oha",
+          "notes": "active verb"
+        },
+        {
+          "english": "he has been tied",
+          "kikuyu": "Ohetwo",
+          "notes": "passive form with -two suffix (human subject)"
+        },
+        {
+          "english": "it has been tied",
+          "kikuyu": "Yohetwo",
+          "notes": "passive form with y- prefix (non-human subject)"
+        },
+        {
+          "english": "to take care",
+          "kikuyu": "Kũmenyerera",
+          "notes": "active verb (infinitive)"
+        },
+        {
+          "english": "it has been cared for",
+          "kikuyu": "Ĩmenyerereirwo",
+          "notes": "passive form with -irwo suffix"
+        },
+        {
+          "english": "take care of yourself",
+          "kikuyu": "Wimenyerere",
+          "notes": "reflexive form with -i- infix"
+        },
+        {
+          "english": "this donkey is from Wajir",
+          "kikuyu": "Ndigiri ĩno nĩ ya Wajir",
+          "notes": "noun class agreement example - I-I noun class"
+        },
+        {
+          "english": "do you all see how it has been cared for?",
+          "kikuyu": "Nĩmũrona ũrĩa ĩmenyerereirwo",
+          "notes": "passive in question with noun class agreement"
+        },
+        {
+          "english": "it has been tied with pillows",
+          "kikuyu": "Yohetwo na muuto",
+          "notes": "passive with instrumental phrase"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": [
+          "passive voice",
+          "reflexive"
+        ],
+        "structure": {
+          "passive markers": {
+            "recent past/perfect": "-two",
+            "past": "-irwo",
+            "non-human prefix": "Y-"
+          },
+          "reflexive marker": "-i- (infix before verb root)"
+        },
+        "noun_class_agreement": {
+          "Ndigiri (donkey)": "I-I noun class",
+          "demonstrative": "ĩno (this)",
+          "subject prefix": "ĩ-"
+        },
+        "notes": "Kikuyu uses different markers for passive voice depending on tense and subject. The -two suffix indicates perfect/recent past passive, while -irwo is used for past passive. The reflexive voice is formed by inserting the -i- infix before the verb root. Subject prefixes and verb forms must agree with the noun class of the subject."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}
