@@ -10,45 +10,11 @@
       "271.txt",
       "274.txt"
     ],
-    "total_entries": 24,
+    "total_entries": 21,
     "description": "Converted from easy_kikuyu_batch_027_vocab.json",
     "last_updated": "2025-01-09T12:30:00Z"
   },
   "entries": [
-    {
-      "id": "vocab-027-001",
-      "english": "Nuclear family: Baba (father), Maitũ (mother), Mũrũ wa maitũ (brother), Mwarĩ wa maitũ (sister), Murũ wa baba (half brother), Mwarĩ wa baba (half sister). Extended family: Guka/Wagũi (grandfather - Muranga/Kiambu vs Nyeri), Cũcũ (grandmother), Tata (aunt), Mama (uncle - mother's side), Baba mũnini (uncle - father's younger brother), Baba mũkũrũ (uncle - father's older brother), Mũrũ wa tata (cousin), Mũrũ wa mama (cousin). Note: All your father's brothers' wives are addressed as 'mother'",
-      "kikuyu": "Kinship Terms - Family System",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 266",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-09T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-027-002",
-      "english": "b/mb (mbarĩki - castor oil), ß/b (baba - father, like Bh in Mahabharat), c (cũcũ - grandmother, like sh in Shilling), ɖ/nd (ndoro - mud), ɣ/g (guka - grandfather), h (haha - here), k (karamu - pen), m (maitũ - mother), n/ng (ngaari - car), Ŋ/ng' (Murang'a - county), dʒ/nj (njeri - woman's name), t (tene - long ago), ð/th (thaani - plate), ɲ/ny (Nyanya - tomato), Y (Yakwa - mine), W (Wanjiku - girl's name)",
-      "kikuyu": "Consonants - Foundation Class B",
-      "category": "vocabulary",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 267",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-09T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
     {
       "id": "vocab-027-003",
       "english": "Clothes",
@@ -346,23 +312,6 @@
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 270",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-09T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-027-021",
-      "english": "Kũhũra (to beat/wash/make/iron/thrash/play): Kũhũra nguo (to wash clothes), Kũhũra thimũ (to make a call), Kũhũra baathi (to iron clothes), Kũhũra mboco (to thrash dry beans from pods), Kũhũra mbembe (to thrash maize), Kũhũra mũbira (to play football), Kũhũra kanua (to make clicking noise - expressing annoyance). Related: Kũrũa (to fight), Kũrũa mbaara (to fight a war), Kũhũrana (to beat each other), Mbaara (war/fight). Questions: Nũũ wahũra mwana? (who has beaten the child?), Nũũ wakũhũra? (who has beaten you?). Command: Tigai kũrũa (stop fighting)",
-      "kikuyu": "Kũhũra - Versatile Verb Meanings",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 271",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-09T12:30:00Z"
       },

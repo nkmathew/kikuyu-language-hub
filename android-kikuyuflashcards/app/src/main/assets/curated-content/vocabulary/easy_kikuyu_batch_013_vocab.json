@@ -7,7 +7,7 @@
       "125.txt",
       "128.txt"
     ],
-    "total_entries": 2,
+    "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_013_vocab.json",
     "last_updated": "2025-01-08T08:30:00Z"
   },
@@ -20,23 +20,6 @@
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 125",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T08:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-013-002",
-      "english": "Igana rĩmwe (100), Mirioni ĩmwe (1,000,000)",
-      "kikuyu": "Numbers - Large Values",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lessons 128-130",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T08:30:00Z"
       },

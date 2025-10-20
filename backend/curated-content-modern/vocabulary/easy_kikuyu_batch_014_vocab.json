@@ -9,78 +9,9 @@
       "139.txt",
       "141.txt"
     ],
-    "total_entries": 4,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_014_vocab.json",
     "last_updated": "2025-01-08T09:00:00Z"
   },
-  "entries": [
-    {
-      "id": "vocab-014-001",
-      "english": "Vowels: a (Africa), e (Estuary), i (India), o (office), u (ooze), ĩ (Ate/Gate), ũ (Owner). Consonants: B (soft bilabial fricative like soft V/W), C (sh/ch sound)",
-      "kikuyu": "Kikuyu Pronunciation Guide",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 135",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-014-002",
-      "english": "Inĩ (liver), Nyongo (gallbladder), Nda (stomach), Rwarĩũngũ (pancreas), Mara (small intestine), Mũtũra (large intestine), Gataathĩra (appendix), Mũkwa (rectum), Itina (anus - impolite)",
-      "kikuyu": "Digestive System (Ciĩga cia njĩra ya irio)",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 138",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-014-003",
-      "english": "Rĩũ (now), Mũrĩũ (drunk person), Hĩũ (cooked/ready to eat), Kĩũ (that big one). Verbs: Ĩra (tell), Rĩra (cry), Rarĩra (sleep without supper), Ĩkĩrĩra (put in container for someone)",
-      "kikuyu": "Homophones & Minimal Pairs",
-      "category": "vocabulary",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 139",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-014-004",
-      "english": "Gĩtĩ/Itĩ (chair/chairs), Gĩkombe/Ikombe (cup/cups), Kĩrĩma/Ciĩma (mountain/mountains), Kĩratũ/Cĩratũ (shoe/shoes), Gĩtonga/Itonga (tycoon/tycoons), Kĩhĩĩ/Cĩhĩĩ (youth/youths), Kĩng'angĩ/Ciũng'angĩ (crocodile/crocodiles)",
-      "kikuyu": "Class 4 Nouns (Kĩ-/Gĩ- → Ci-/I-)",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 141",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

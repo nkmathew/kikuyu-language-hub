@@ -7,7 +7,7 @@
       "087.txt",
       "092.txt"
     ],
-    "total_entries": 4,
+    "total_entries": 3,
     "description": "Converted from easy_kikuyu_batch_009_vocab.json",
     "last_updated": "2025-01-08T06:00:00Z"
   },
@@ -54,23 +54,6 @@
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 087",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T06:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-009-004",
-      "english": "8 Traditional Dances: Gĩtiiro, Nguchu, Nduumo, Mũgoiyo, Gĩchukia, Mwomboko, Kĩbaata, Mũthũngũci",
-      "kikuyu": "Ndaci (Traditional Kikuyu Dances)",
-      "category": "vocabulary",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 092",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T06:00:00Z"
       },

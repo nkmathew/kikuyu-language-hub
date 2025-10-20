@@ -8,61 +8,9 @@
       "260.txt",
       "264.txt"
     ],
-    "total_entries": 3,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_026_vocab.json",
     "last_updated": "2025-01-08T15:00:00Z"
   },
-  "entries": [
-    {
-      "id": "vocab-026-001",
-      "english": "Mũhũri wa mbica (photographer - lit. hitter of pictures), Mũgĩmwĩa (hunter), Mũrĩithia wa mahĩũ (herder of domestic animals), Mũtũri (iron monger/blacksmith), Mũũmbi wa nyũngũ (potter - lit. molder of pots), Mũgo (medicine person/traditional healer), Bundi (handyman/carpenter), Mũrĩmĩ (farmer), Ndereba (driver), Mũtongoria (leader), Borithi (police), Mũbĩa (priest - Catholic)",
-      "kikuyu": "Traditional Professions - Extended",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 256",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-026-002",
-      "english": "Mũrango (door), Kabati (cupboard/cabinet), Metha (table), Ndĩrica (window), Gĩtĩ (seat/chair), Gaturwa/Njĩngwa (stool)",
-      "kikuyu": "Sitting Room Items - Week 2",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 260",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-026-003",
-      "english": "Verbs: Ũka (come), Andĩka (write), Rĩra (cry), Theka (laugh), Rĩa (eat), Aria (speak), Thĩĩ (go), Thooma (read), Kira (keep quiet), Ruga (cook), Ruta wĩra (do work), Ruta (remove). Nouns: Haha (here), Irio (food), Wĩra (work), Mũirĩtu (girl), Mwanake (young man), Mũtumia (woman), Mũthũuri (man), Maĩ (water), Marũa (letter), Ũcũrũ (porridge)",
-      "kikuyu": "Basic Verbs & Nouns - Week 1:2",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 264",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T15:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

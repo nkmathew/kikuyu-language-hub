@@ -7,44 +7,9 @@
       "233.txt",
       "234.txt"
     ],
-    "total_entries": 2,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_023_phrases.json",
     "last_updated": "2025-01-08T13:30:00Z"
   },
-  "entries": [
-    {
-      "id": "phrase-023-001",
-      "english": "Njĩĩra thogora wa cai (tell me the price of tea), Wendagia atĩa? (how much do you sell?), Nĩ ũrendia goro (you are selling expensively), Nyenderia thubu (sell to me soup), Ngwĩnderie maĩ ma macungwa? (may I sell to you orange juice?), Iria igagatu rĩna goro (sour milk is expensive), Tĩ goro! Nĩ raithi (it's not expensive, it is cheap), Thota nĩ ciringi mĩrongo ĩtatũ (soda is 30 shillings), Tĩ gĩkombe kĩa ũcũrũ? (what about a cup of porridge?)",
-      "kikuyu": "Buying & Selling Conversation",
-      "category": "phrases",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 233",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "phrase-023-002",
-      "english": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe (will you buy chicken? → buy chicken so we eat), Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe (will you shut that door? → close all doors), Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard, you will manage), Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha (will you put money in bank? → put those eggs here), Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya (will you hit the ball? → hit the ball hard)",
-      "kikuyu": "Asking & Giving Instructions (10 Examples)",
-      "category": "phrases",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 234",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

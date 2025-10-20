@@ -10,95 +10,9 @@
       "213.txt",
       "214.txt"
     ],
-    "total_entries": 5,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_021_vocab.json",
     "last_updated": "2025-01-08T12:30:00Z"
   },
-  "entries": [
-    {
-      "id": "vocab-021-001",
-      "english": "Gũcũnga (to doze), Gũkoma (to sleep), Gũkoma na nda (sleep on stomach/face down), Gũkoma na ngara/mũgongo (sleep on back), Gũkoma na mwena (sleep on one side), Kũrara (to spend the night), Hinga maitho ũkome (shut your eyes and sleep), Rara nĩ gwatuka (sleep-over, darkness has fallen), Koma ũkĩre (sleep and wake up), Koma na wega/thayũ (sleep well), Gĩa/Korwo na ũtuko mwega (have a good night)",
-      "kikuyu": "Sleep-Related Vocabulary",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 207",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-021-002",
-      "english": "Ngũi (dog), Nyau (cat), Gathuku (parrot), Mbĩa (rat)",
-      "kikuyu": "Domestic & Wild Animals",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 209",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-021-003",
-      "english": "Gĩkombe (cup), Karamu (pen), Kiura (frog), Kora (small frog)",
-      "kikuyu": "Simple Vocabulary with Consonants G, H, K",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 210",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-021-004",
-      "english": "Mwaburi/Mĩaburi (umbrella sing/plur), Mũbĩra/Mĩbĩra (ball sing/plur), Kĩratũ/Iratũ (shoe sing/plur), Ngaari (car)",
-      "kikuyu": "Everyday Objects with Singular/Plural",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 213",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-021-005",
-      "english": "Ĩta (call), Aria (speak), Eterera (wait), Ceera (visit), Uga (say), Andĩka (write), Ona (see), Enja (shave/dig a hole), Nyua (drink), Uma (get out), Kena (be happy), Kora (find), Koma (sleep), Batara (need), Rĩma (dig in a farm), Rota (dream), Ruga (cook)",
-      "kikuyu": "Essential Verbs Set 3",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 214",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

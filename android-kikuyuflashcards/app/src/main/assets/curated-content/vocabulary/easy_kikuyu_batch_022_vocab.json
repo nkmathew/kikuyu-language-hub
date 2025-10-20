@@ -8,61 +8,9 @@
       "219.txt",
       "223.txt"
     ],
-    "total_entries": 3,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_022_vocab.json",
     "last_updated": "2025-01-08T13:00:00Z"
   },
-  "entries": [
-    {
-      "id": "vocab-022-001",
-      "english": "Mũrango (door), Kabati (cupboard), Metha (table), Nđirica (window), Gĩtĩ (chair), Gaturwa/Njĩngwa (stool)",
-      "kikuyu": "Sitting Room Furniture",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 217",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-022-002",
-      "english": "Bundi (handyman/carpenter/plumber), Mũrĩmi (farmer), Nđereba (driver), Atongoria (leaders), Borithi (police), Mũũbĩa (priest/catholic), Mũhũrĩri wa mbica (photographer), Mũgwĩmi (hunter), Mũrĩithia wa mahiũ (herder of domestic animals), Aturi (iron mongers), Ombi a nyũngũ (potters), Mũgo (medicine person/traditional healer)",
-      "kikuyu": "Professions & Jobs",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 219",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-022-003",
-      "english": "Guoya (scared), Gikeno (happy), Kĩeha (sad), Marakara (angry), Ndũhĩo (excited), Kĩmako (worried), Kũhahũka (surprised), Ũrĩmũ (silly), Kwaga kũiganĩra (frustrated), Kũigua kĩnyiria (to be disgusted), Kũnyĩra (to express disgust)",
-      "kikuyu": "Emotions & Feelings",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 223",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T13:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

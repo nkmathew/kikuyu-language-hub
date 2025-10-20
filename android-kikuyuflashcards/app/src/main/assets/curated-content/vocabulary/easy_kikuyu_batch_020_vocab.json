@@ -9,78 +9,9 @@
       "200.txt",
       "202.txt"
     ],
-    "total_entries": 4,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_020_vocab.json",
     "last_updated": "2025-01-08T12:00:00Z"
   },
-  "entries": [
-    {
-      "id": "vocab-020-001",
-      "english": "Gũthĩĩ (to go) → Mũthĩĩ (traveller), Kũruga (to cook) → Mũrugi (cook), Gũciara (to give birth) → Mũciari (parent), Kũrigita (to nurse) → Mũrigiti/Mũrigitani (nurse), Kũrĩma (to farm) → Mũrĩmi (farmer), Kũũmba (to mold with clay) → Mũmbi (potter), Kwenda (to want/love) → Mwendwa (lover), Kũrwara (to be sick) → Mũrwaru (sick person), Kũiya (to steal) → Mũici (thief)",
-      "kikuyu": "Verb to Noun Formation (Agent Pattern)",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 196",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-020-002",
-      "english": "Thibitarĩ (hospital), Mũrwaru (patient), Nđagĩtarĩ (doctor), Mũrigitani (nurse), Dagĩtarĩ wa magego (dentist), Mĩthaiga/Nđawa (medicine), Nđawa ya mbũrũgũtũ (tablet)",
-      "kikuyu": "Hospital Vocabulary",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 199",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-020-003",
-      "english": "Metha (table), Mbica (picture/photo), Nyũngũ (cooking pot), Ngĩrathi (glass), Thaani (plate), Baathi (iron for clothes), Terebiceni (television), Thaburia (saucepan), Mbirika (kettle), Kuburi (padlock), Cabi (keys), Ng'ombe (cow), Thenge (he-goat), Ngũkũ (chicken/hen), Mbata (duck), Ngigĩ (grasshopper)",
-      "kikuyu": "Class III Household & Animals",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 200",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-020-004",
-      "english": "Kũgũra (to buy), Kũgwa (to fall), Kũhinga (to close), Kũhingũra (to open), Kũhota (to manage/be able to do), Kũiga (to keep/place), Kũmenya (to know), Kũnyita (to catch/hold/understand), Kũrehe (to bring), Kũringa (to hit), Kũrũga (to cook), Kũrũgama (to stand), Kũrũmĩrĩra (to follow), Kuuga (to say), Kwenda (to want/love), Kwendia (to sell), Kwohera (to forgive/tie for someone)",
-      "kikuyu": "Essential Verbs Set 2",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 202",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T12:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

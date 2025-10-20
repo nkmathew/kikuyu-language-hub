@@ -6,27 +6,9 @@
     "source_files": [
       "103.txt"
     ],
-    "total_entries": 1,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_010_phrases.json",
     "last_updated": "2025-01-08T06:30:00Z"
   },
-  "entries": [
-    {
-      "id": "phrase-010-001",
-      "english": "Rūci-inī (morning). Wīmwega rūci-inī? (Are you well this morning?). Ndīmwega mūno (I am very well). Wathiī kū? (Where are you going?). Ndathiī wīra (I am going to work). Ūrutaga wīra ūrīkū? (Which work do you do?)",
-      "kikuyu": "Morning Conversation",
-      "category": "phrases",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 103",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T06:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

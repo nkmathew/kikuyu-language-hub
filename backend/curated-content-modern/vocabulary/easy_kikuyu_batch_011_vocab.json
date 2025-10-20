@@ -11,79 +11,11 @@
       "113.txt",
       "114.txt"
     ],
-    "total_entries": 5,
+    "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_011_vocab.json",
     "last_updated": "2025-01-08T07:00:00Z"
   },
   "entries": [
-    {
-      "id": "vocab-011-001",
-      "english": "Mbogo (buffalo), Huria/Munyi (rhinoceros), Methūka vs Enyūka (crack small vs large), Mīago (leisure), Ikeno (happiness), Mūcang'ang'a (gossip), Mūthīgi (elder's staff), Rūthanju (herding stick), Mūtino (accident-unpredictable), Ūgwati (extreme danger-predictable)",
-      "kikuyu": "Nuanced Animal & Object Terms",
-      "category": "vocabulary",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 108",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T07:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-011-002",
-      "english": "Kũheane (give away), Gũtanaha (give generously/selflessly), Kũhĩnja/Kũmoca (be thin/lose weight), Kũhana mũnyuko (extremely thin/skeletal), Kwĩhotora/Kwĩharĩria (prepare for action), Makore (husks), Muura (maize pollen/sawdust), Mbaco/Mbogoro (bow legs), Mbegũ (seeds), Mbeũ (selected seeds/youth)",
-      "kikuyu": "Giving & Physical States",
-      "category": "vocabulary",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 109",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T07:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-011-003",
-      "english": "Gwĩthirima (spread oil with palms), Kwĩhaka (apply substance with tool), Heho (cold weather), Mbaa (extremely cold with fog), Kĩbii (mist/fog), Kĩnundu (fog), Kũgwata (grasp with both hands/rape/kidnap), Kũnyita (grasp one or both hands), Kũhahũra (scare/shock), Kũmakia (frighten)",
-      "kikuyu": "Weather & Body Application",
-      "category": "vocabulary",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 110",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T07:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-011-004",
-      "english": "Bacania (drop noisily), Gũithania (drop carelessly), Gĩthayo/Kīgūūta (lazy person), Gocogoco (unnecessary verbal trouble), Ngarari (arguments), Gũkunga (bend to avoid), Gũcema (bend to hide), Gũtherema (spread/increase area), Kũingĩha (increase), Gũthetha (wish ill verbally), Kũroga (cause harm via poison/witchcraft), Gũtirūka (lose footing), Kũhĩngwo (trip on object), Gũtuma (sew), Kũrata (mend/patch)",
-      "kikuyu": "Movement & Action Verbs",
-      "category": "vocabulary",
-      "difficulty": "advanced",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 111",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T07:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
     {
       "id": "vocab-011-005",
       "english": "Complete list of interchangeable words showing dialectal variations and synonyms",

@@ -7,61 +7,9 @@
       "235.txt",
       "243.txt"
     ],
-    "total_entries": 3,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_024_vocab.json",
     "last_updated": "2025-01-08T14:00:00Z"
   },
-  "entries": [
-    {
-      "id": "vocab-024-001",
-      "english": "Iru (knee), Ikai (cheek), Rũhi (palm)",
-      "kikuyu": "Body Parts - Additional",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 235",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-024-002",
-      "english": "Mũtĩ mũceke/mwarĩĩ (thin tree/large tree), Gĩkabu gĩceke/kĩarĩĩ (small basket/large basket), Kĩmũbira/Mũbira/Kamũbira (very large ball/ball/small ball - augmentative/normal/diminutive), Ng'ombe noru/hũnju (fat cow/thin cow), Mũndũ mũkũhĩ/mũraihu/mũceke/mũtungu (short person/tall person/thin person/fat person)",
-      "kikuyu": "Size Descriptors with Noun Class Agreement",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 243",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-024-003",
-      "english": "Mũrango (door), Kabatĩ (cupboard/cabinet/wardrobe), Metha (table), Gĩtĩ (chair), Gaturwa/Njĩgĩwa (stool/small table), Ndirica (window)",
-      "kikuyu": "Sitting Room Furniture Items",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 240",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

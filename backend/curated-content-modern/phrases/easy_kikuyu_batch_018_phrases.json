@@ -7,7 +7,7 @@
       "175.txt",
       "180.txt"
     ],
-    "total_entries": 2,
+    "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_018_phrases.json",
     "last_updated": "2025-01-08T11:00:00Z"
   },
@@ -20,23 +20,6 @@
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 175",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T11:00:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "phrase-018-002",
-      "english": "Hĩ! Kaĩ kwĩna heho-ĩ! (Lo! It is very cold!), Kaĩ wĩ mũrũaru? (Are you sick?), Wanjũrĩa ũguo nĩkĩ? (Why do you ask me that?), Tondũ gũtirĩ na heho (Because it is not cold), We! Ta ĩkĩra burana (You! Just put on a cardigan), Kwĩna ũrugarĩ (It is hot/warm), Urenda kũrũarara? (Do you want to fall sick?), Ngwĩhũmba burana na kabuti (I will wear a cardigan and an overcoat)",
-      "kikuyu": "Cold Weather Conversation",
-      "category": "phrases",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 180",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T11:00:00Z"
       },

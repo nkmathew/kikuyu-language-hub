@@ -7,28 +7,11 @@
       "191.txt",
       "194.txt"
     ],
-    "total_entries": 2,
+    "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_019_phrases.json",
     "last_updated": "2025-01-08T11:30:00Z"
   },
   "entries": [
-    {
-      "id": "phrase-019-001",
-      "english": "Rũgama na mwena (Stand on the side), Gũrĩra mũgate na iria (Buy me bread), Aria na arata aku (Speak to your friends), Hinga mũrango tuthĩĩ (Close the door and let us go), Hingũra ibuku tuthoome (Open the book we read)",
-      "kikuyu": "Command Sentences - Practice",
-      "category": "phrases",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 191",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T11:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
     {
       "id": "phrase-019-002",
       "english": "I am happy with this lesson",

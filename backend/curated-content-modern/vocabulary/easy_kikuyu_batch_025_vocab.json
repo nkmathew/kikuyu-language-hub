@@ -11,7 +11,7 @@
       "252.txt",
       "253.txt"
     ],
-    "total_entries": 6,
+    "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_025_vocab.json",
     "last_updated": "2025-01-08T14:30:00Z"
   },
@@ -24,91 +24,6 @@
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 247",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-025-002",
-      "english": "Drinks: Njoohi (beer), Maai (water), Maai ma macungwa (orange juice), Iria (milk), Iria igagatu (fermented milk), Ũcũrũ mũgagatu (fermented porridge), Thoota (soda). Foods: Mũkimo (mashed food), Cabaci (chapattis), Mũgate (bread), Mũcere (rice), Mboco (beans), Nyama (meat), Thamaki/Kĩũngũyũ (fish), Mũtura (traditional sausage). Cooking verbs: Gũkaranga (to fry), Gũtherukia (to boil), Kũhĩhia (to roast), Gũkanda mũtu (to make dough)",
-      "kikuyu": "Food & Drinks - Beginner 2",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 248",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-025-003",
-      "english": "Wambũi mĩcore (zebra), Mũrũthi (lion), Ndũiga (giraffe), Huria (rhinoceros), Njogu (elephant), Mbogo (buffalo)",
-      "kikuyu": "Safari Animals",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 249",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-025-004",
-      "english": "Gũtũnda (to have a rash), Ndĩ mũtũndu guoko (I have a rash on my arm), Thundo (pimple/s), Ndĩna thundo ũthiũ (I have a pimple on my face), Kĩronda (a wound), E na kironda iru (he/she has a wound on his knee), Kũrwara (to be sick), Ndĩ mũrwaru nda (I am sick in the stomach), Gũturwo (to have pain)",
-      "kikuyu": "Health & Illness Vocabulary",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 251",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-025-005",
-      "english": "Igokora/Kĩgokora (elbow - variant pronunciations), Rucuĩrĩ (single hair strand), Njuĩrĩ (hair - collective, no matter how many strands)",
-      "kikuyu": "Body Parts - Hair & Elbow",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 252",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T14:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-025-006",
-      "english": "Kĩongo/Ciongo (head), Njuĩrĩ/Njuĩrĩ (hair - invariant), Gũtũ/Matũ (ear), Ũthĩĩ/Maũthĩĩ (face), Inĩũrũ/Manĩũrũ (nose), Rũrĩmĩ/Nĩmĩ (tongue), Rĩĩtho/Maĩtho (eye), Guoko/Moko (hand), Kĩara/Ciara (finger), Igokora/Magokora (elbow), Kũgũrũ/Magũrũ (leg), Iru/Maru (knee)",
-      "kikuyu": "Body Parts - Complete with Sing/Plur",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 253",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T14:30:00Z"
       },

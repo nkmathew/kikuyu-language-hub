@@ -10,62 +10,11 @@
       "150.txt",
       "154.txt"
     ],
-    "total_entries": 5,
+    "total_entries": 1,
     "description": "Converted from easy_kikuyu_batch_015_vocab.json",
     "last_updated": "2025-01-08T09:30:00Z"
   },
   "entries": [
-    {
-      "id": "vocab-015-001",
-      "english": "Gũcũnga (doze), Gũkoma (sleep), Gũkoma na nda (sleep face down), Gũkoma na ngara/mũgongo (sleep on back), Gũkoma na mwena (sleep on side), Kũrara (spend the night), Hinga maitho ũkome (shut eyes and sleep), Koma na wega/thayũ (sleep well), Gĩa na ũtuko mwega (have a good night)",
-      "kikuyu": "Sleep Vocabulary & Phrases",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 146",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-015-002",
-      "english": "Mũembe (mango tree), Mũcungwa (orange tree), Mũkũyũ (ficus sycamora), Mũgumo (ficus natalensis/thoningii), Mũtamaiyũ (African olive tree)",
-      "kikuyu": "Sacred Trees",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 148",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-015-003",
-      "english": "M: Maitũ (mother), mama (uncle), mara (intestines), moko (hands), mata (saliva). Ng: Ngaari (car), Nganga (guinea fowl), Ngobia (hat), ngoroba (floor/storey). Ng': Ng'ang'a (name/medicine man), Mũrãng'a (place), ng'aragu (hunger), ng'ethia (be idle)",
-      "kikuyu": "Nasal Consonants Practice (m, ng, ng')",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 149",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
     {
       "id": "vocab-015-004",
       "english": "Vervet Monkey",
@@ -74,23 +23,6 @@
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 150",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T09:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-015-005",
-      "english": "Heho (cold), Mĩaraho (midday/around and soon after midday)",
-      "kikuyu": "Time Vocabulary",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 154",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T09:30:00Z"
       },

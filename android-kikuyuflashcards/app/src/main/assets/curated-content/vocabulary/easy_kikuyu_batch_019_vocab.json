@@ -8,61 +8,9 @@
       "186.txt",
       "189.txt"
     ],
-    "total_entries": 3,
+    "total_entries": 0,
     "description": "Converted from easy_kikuyu_batch_019_vocab.json",
     "last_updated": "2025-01-08T11:30:00Z"
   },
-  "entries": [
-    {
-      "id": "vocab-019-001",
-      "english": "Caria Mwangi (look for Mwangi), Caria mbeca (look for money), Caria mahĩtia (look for errors/mistakes)",
-      "kikuyu": "Caria - Search/Look for",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 185",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T11:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-019-002",
-      "english": "Gũcaria (to search), Gũcoka (to return/come back-person), Gũcokia (to return-object), Gũĩka (to do), Gũikara (to stay), Gũikara thĩ (to sit down), Gũikena (to be happy), Gũkinya (to arrive/step on), Gũthambia (to wash), Gũthĩĩ rũgendo (to go on journey), Gũthũkia (to damage/spoil), Gũtigara (to remain), Gũtinia (to cut), Gweterera (to wait), Gwĩcĩrĩria (to think/reason), Kũgeria (to try)",
-      "kikuyu": "Essential Verbs - Complete Set",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 186",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T11:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-019-003",
-      "english": "Ritho/Maitho (eye/eyes), Mũtwe/Mĩtwe (head/heads), Mũkangi/Mĩkangi (beak/beaks), Ngingo (neck), Ĩthagu/Mathagu (wings), Ruoya/Njoya (feather/feathers), Mwĩrĩ/Mĩrĩ (body/bodies), Njoya cia Kĩngũĩ (tail feathers), Kũgũrũ/Magũrũ (leg/legs)",
-      "kikuyu": "Bird Parts (Cĩĩga cia nyoni)",
-      "category": "vocabulary",
-      "difficulty": "beginner",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 189",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T11:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    }
-  ]
+  "entries": []
 }

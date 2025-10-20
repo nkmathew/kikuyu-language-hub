@@ -9,7 +9,7 @@
       "118.txt",
       "124.txt"
     ],
-    "total_entries": 4,
+    "total_entries": 2,
     "description": "Converted from easy_kikuyu_batch_012_vocab.json",
     "last_updated": "2025-01-08T07:30:00Z"
   },
@@ -22,40 +22,6 @@
       "difficulty": "beginner",
       "source": {
         "origin": "Easy Kikuyu Lesson 115",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T07:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-012-002",
-      "english": "Kîmbu (ground squirrel), Ngajathĩ (tree squirrel), Nyoka (snake), King'ang'î (weasel), Kîîra (badger), Gaturu (ground squirrel), Wakaharĩ (tree squirrel), Ngîrî (warthog), Mbogo (buffalo), Thîia (antelope), Ngarî (anteater)",
-      "kikuyu": "More Wild Animals & Colors",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 116",
-        "created_date": "2025-01-08",
-        "last_updated": "2025-01-08T07:30:00Z"
-      },
-      "quality": {
-        "verified": false,
-        "confidence_score": 4.0,
-        "source_quality": "community"
-      }
-    },
-    {
-      "id": "vocab-012-003",
-      "english": "Mwarimũ/Arimũ (teacher/teachers), Mũthigari/Athigari (police/police), Mũrĩmi/Arĩmi (farmer/farmers)",
-      "kikuyu": "Occupations - Singular/Plural",
-      "category": "vocabulary",
-      "difficulty": "intermediate",
-      "source": {
-        "origin": "Easy Kikuyu Lesson 118",
         "created_date": "2025-01-08",
         "last_updated": "2025-01-08T07:30:00Z"
       },
