@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T19:25:44.881326+00:00",
+    "curator": "Manual Split Translations",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 43,
+    "description": "Manually split flagged translations for category: phrases"
+  },
+  "entries": [
+    {
+      "id": "phrase-010-001_01",
+      "kikuyu": "Rūci-inī",
+      "english": "morning",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_02",
+      "kikuyu": "Wīmwega rūci-inī?",
+      "english": "Are you well this morning?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_03",
+      "kikuyu": "Ndīmwega mūno",
+      "english": "I am very well",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_04",
+      "kikuyu": "Wathiī kū?",
+      "english": "Where are you going?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-010-001_05",
+      "kikuyu": "Ndathiī wīra",
+      "english": "I am going to work",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation"
+    },
+    {
+      "id": "phrase-010-001_06",
+      "kikuyu": "Ūrutaga wīra ūrīkū?",
+      "english": "Which work do you do?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Morning Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_01",
+      "kikuyu": "Wîtagwo atĩa?",
+      "english": "What's your name?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_02",
+      "kikuyu": "Njitagwo [name]",
+      "english": "My name is...",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_03",
+      "kikuyu": "Wî mwega?",
+      "english": "How are you?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_04",
+      "kikuyu": "Ndî mwega mûno",
+      "english": "I'm very fine",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-011-002_05",
+      "kikuyu": "Eha [name]?",
+      "english": "Where is...?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation (Question)"
+    },
+    {
+      "id": "phrase-011-002_06",
+      "kikuyu": "Ûyû haha",
+      "english": "Here he/she is",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Introduction Conversation"
+    },
+    {
+      "id": "phrase-018-002_01",
+      "kikuyu": "Hĩ! Kaĩ kwĩna heho-ĩ!",
+      "english": "Lo! It is very cold!",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_02",
+      "kikuyu": "Kaĩ wĩ mũrũaru?",
+      "english": "Are you sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_03",
+      "kikuyu": "Wanjũrĩa ũguo nĩkĩ?",
+      "english": "Why do you ask me that?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_04",
+      "kikuyu": "Tondũ gũtirĩ na heho",
+      "english": "Because it is not cold",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_05",
+      "kikuyu": "We! Ta ĩkĩra burana",
+      "english": "You! Just put on a cardigan",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_06",
+      "kikuyu": "Kwĩna ũrugarĩ",
+      "english": "It is hot/warm",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_07",
+      "kikuyu": "Urenda kũrũarara?",
+      "english": "Do you want to fall sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_08",
+      "kikuyu": "Ngwĩhũmba burana na kabuti",
+      "english": "I will wear a cardigan and an overcoat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-019-001_01",
+      "kikuyu": "Rũgama na mwena",
+      "english": "Stand on the side",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_02",
+      "kikuyu": "Gũrĩra mũgate na iria",
+      "english": "Buy me bread",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_03",
+      "kikuyu": "Aria na arata aku",
+      "english": "Speak to your friends",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_04",
+      "kikuyu": "Hinga mũrango tuthĩĩ",
+      "english": "Close the door and let us go",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_05",
+      "kikuyu": "Hingũra ibuku tuthoome",
+      "english": "Open the book we read",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-023-001_01",
+      "kikuyu": "Njĩĩra thogora wa cai",
+      "english": "tell me the price of tea",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_02",
+      "kikuyu": "Wendagia atĩa?",
+      "english": "how much do you sell?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_03",
+      "kikuyu": "Nĩ ũrendia goro",
+      "english": "you are selling expensively",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_04",
+      "kikuyu": "Nyenderia thubu",
+      "english": "sell to me soup",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_05",
+      "kikuyu": "Ngwĩnderie maĩ ma macungwa?",
+      "english": "may I sell to you orange juice?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-001_06",
+      "kikuyu": "Iria igagatu rĩna goro",
+      "english": "sour milk is expensive",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_09",
+      "kikuyu": "Thota nĩ ciringi mĩrongo ĩtatũ",
+      "english": "soda is 30 shillings",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation"
+    },
+    {
+      "id": "phrase-023-001_10",
+      "kikuyu": "Tĩ gĩkombe kĩa ũcũrũ?",
+      "english": "what about a cup of porridge?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
+    },
+    {
+      "id": "phrase-023-002_01",
+      "kikuyu": "Nĩ ũkũgũra ngũkũ? → Gũra ngũkũ tũrĩe",
+      "english": "will you buy chicken? → buy chicken so we eat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_02",
+      "kikuyu": "Nĩ ũkũhinga mũrango ũcio? → Hinga ndirica ciothe",
+      "english": "will you shut that door? → close all doors",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_03",
+      "kikuyu": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "english": "Nĩ mekũhota gũkuua mũrĩgo? → Geria mũno nĩ ũkũhota (will they manage to carry luggage? → try hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_04",
+      "kikuyu": "you will manage)",
+      "english": "you will manage)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_05",
+      "kikuyu": "Nĩ ũkũiga mbeca bengi? → Iga matumbĩ mau haha",
+      "english": "will you put money in bank? → put those eggs here",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-023-002_06",
+      "kikuyu": "Nĩ ũkũringa mũbira? → Rĩnga mũbira na hinya",
+      "english": "will you hit the ball? → hit the ball hard",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
+    },
+    {
+      "id": "phrase-027-001_01",
+      "kikuyu": "Mweri mwerũ wa mũgwanja - a new seventh month",
+      "english": "July",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_02",
+      "kikuyu": "Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri",
+      "english": "moon/month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_03",
+      "kikuyu": "Mweri mwerũ",
+      "english": "new month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_04",
+      "kikuyu": "Rathimwo",
+      "english": "be blessed",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    }
+  ]
+}
