@@ -33,6 +33,7 @@ class StudyListActivity : AppCompatActivity() {
     // Managers
     private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var flagStorageService: FlagStorageService
+    private lateinit var positionManager: StudyListPositionManager
 
     // State
     private val knownCards = mutableSetOf<String>()
@@ -63,6 +64,7 @@ class StudyListActivity : AppCompatActivity() {
         flashCardManager.setFlashcardMode(false)
         android.util.Log.d("StudyListActivity", "Setting flashcard mode: false (study mode)")
         flagStorageService = FlagStorageService(this)
+        positionManager = StudyListPositionManager(this)
 
         // Set up RecyclerView
         setupRecyclerView()
@@ -76,10 +78,18 @@ class StudyListActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home) {
+            // Save position before leaving
+            saveScrollPosition()
             finish()
             return true
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onPause() {
+        super.onPause()
+        // Save position when activity is paused (user navigates away or app goes to background)
+        saveScrollPosition()
     }
 
     /**
@@ -108,14 +118,20 @@ class StudyListActivity : AppCompatActivity() {
                 studyListAdapter.setFlaggedCards(flaggedCards)
             },
             onCategoryChanged = { category ->
+                // Save current position before changing category
+                saveScrollPosition()
                 flashCardManager.setCategory(category)
                 loadCards()
             },
             onDifficultyChanged = { difficulty ->
+                // Save current position before changing difficulty
+                saveScrollPosition()
                 flashCardManager.setDifficulty(difficulty)
                 loadCards()
             },
             onSortChanged = { sortMode ->
+                // Save current position before changing sort mode
+                saveScrollPosition()
                 currentSortMode = sortMode
                 loadCards()
             },
@@ -242,6 +258,73 @@ class StudyListActivity : AppCompatActivity() {
 
         android.util.Log.d("StudyListActivity", "🔍 DEBUG: Updated adapter with ${cards.size} cards")
         android.util.Log.d("StudyListActivity", "Loaded ${cards.size} study cards (in study mode, not expanding examples)")
+
+        // Restore saved position if available
+        restoreScrollPosition()
+    }
+
+    /**
+     * Save the current scroll position
+     */
+    private fun saveScrollPosition() {
+        try {
+            val layoutManager = recyclerView.layoutManager as LinearLayoutManager
+            val position = layoutManager.findFirstVisibleItemPosition()
+
+            if (position > 0) {  // Skip header position (0)
+                val category = flashCardManager.getCurrentCategory()
+                val difficulty = flashCardManager.getCurrentDifficulty()
+
+                positionManager.savePosition(
+                    position = position,
+                    category = category,
+                    difficulty = difficulty,
+                    sortMode = currentSortMode,
+                    totalItems = totalCards
+                )
+
+                android.util.Log.d("StudyListActivity",
+                    "Saved position $position (category: $category, difficulty: $difficulty, sort: $currentSortMode)")
+            }
+        } catch (e: Exception) {
+            android.util.Log.e("StudyListActivity", "Error saving scroll position: ${e.message}", e)
+        }
+    }
+
+    /**
+     * Restore the saved scroll position if available
+     */
+    private fun restoreScrollPosition() {
+        try {
+            val category = flashCardManager.getCurrentCategory()
+            val difficulty = flashCardManager.getCurrentDifficulty()
+
+            if (positionManager.hasLastPosition(category, difficulty, currentSortMode)) {
+                val position = positionManager.getLastPosition(category, difficulty, currentSortMode)
+
+                if (position > 0 && position < totalCards) {
+                    // Post with delay to ensure adapter has completed its work
+                    recyclerView.post {
+                        (recyclerView.layoutManager as LinearLayoutManager)
+                            .scrollToPositionWithOffset(position, 0)
+
+                        android.util.Log.d("StudyListActivity",
+                            "Restored position $position (category: $category, difficulty: $difficulty, sort: $currentSortMode)")
+
+                        // Brief visual indicator of scroll position change
+                        recyclerView.postDelayed({
+                            // Flash a brief scroll to highlight the position
+                            recyclerView.smoothScrollBy(0, 20)
+                            recyclerView.postDelayed({
+                                recyclerView.smoothScrollBy(0, -20)
+                            }, 100)
+                        }, 300)
+                    }
+                }
+            }
+        } catch (e: Exception) {
+            android.util.Log.e("StudyListActivity", "Error restoring scroll position: ${e.message}", e)
+        }
     }
 
     /**
