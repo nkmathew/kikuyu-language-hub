@@ -78,6 +78,9 @@ class StudyCardView @JvmOverloads constructor(
         // Inflate layout
         LayoutInflater.from(context).inflate(R.layout.view_study_card, this, true)
 
+        // Apply non-selectable background to ensure consistent appearance when pressed
+        findViewById<CardView>(R.id.cardView).setBackgroundResource(R.drawable.card_non_selectable_background)
+
         // Find views
         cardView = findViewById(R.id.cardView)
         flaggedStatusBadge = findViewById(R.id.flaggedStatusBadge)
@@ -365,6 +368,9 @@ class StudyCardView @JvmOverloads constructor(
                 else
                     R.color.md_theme_light_surface))
 
+            // Ensure it still has the non-selectable property when pressed
+            cardView.foreground = null
+
             // Ensure text colors remain readable and consistent
             englishTextView.setTextColor(ContextCompat.getColor(context,
                 if (ThemeManager.isDarkTheme(context))
@@ -389,13 +395,16 @@ class StudyCardView @JvmOverloads constructor(
             flagButton.setBackgroundColor(ContextCompat.getColor(context, android.R.color.transparent))
             flagButton.setAlpha(0.7f) // Slightly transparent
 
-            // Reset background when not flagged
-            cardView.setBackgroundResource(android.R.color.transparent)
+            // Reset background when not flagged - use our non-selectable background
+            cardView.setBackgroundResource(R.drawable.card_non_selectable_background)
             cardView.setCardBackgroundColor(ContextCompat.getColor(context,
                 if (ThemeManager.isDarkTheme(context))
                     R.color.md_theme_dark_surfaceContainerHighest
                 else
                     R.color.md_theme_light_surface))
+
+            // Ensure it still has the non-selectable property when pressed
+            cardView.foreground = null
 
             // Reset text colors to theme defaults when not flagged
             englishTextView.setTextColor(ContextCompat.getColor(context,

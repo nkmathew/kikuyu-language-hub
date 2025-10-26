@@ -235,6 +235,20 @@ class StudyListActivity : AppCompatActivity() {
         var cards = flashCardManager.getAllEntries()
         android.util.Log.d("StudyListActivity", "🔍 DEBUG: flashCardManager.getAllEntries() returned ${cards.size} cards")
 
+        // Log if there are any debug phrases in the data
+        val debugKeywords = listOf("numbered entry", "sample vocab", "test entry", "debug")
+        val debugPhrases = cards.filter { card ->
+            debugKeywords.any { keyword ->
+                card.english.lowercase().contains(keyword.lowercase()) ||
+                card.kikuyu.lowercase().contains(keyword.lowercase())
+            }
+        }
+
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Found ${debugPhrases.size} debug phrases in data")
+        if (debugPhrases.isNotEmpty()) {
+            android.util.Log.d("StudyListActivity", "🔍 DEBUG: Example debug phrase: '${debugPhrases.first().english}' - '${debugPhrases.first().kikuyu}'")
+        }
+
         // Apply sorting based on current sort mode
         cards = when (currentSortMode) {
             "short_first" -> cards.sortedBy { it.kikuyu.length + it.english.length }

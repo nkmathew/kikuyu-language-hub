@@ -180,20 +180,8 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         // Set existing reason if available
         editText.setText(flagReasons[cardId] ?: "")
 
-        // If we have popular reasons, show them as quick select buttons
-        if (popularReasons.isNotEmpty()) {
-            popularReasons.forEach { reason ->
-                val button = createReasonButton(reason, editText)
-                quickReasonsLayout.addView(button)
-            }
-        } else {
-            // Hide the quick reasons section if no popular reasons
-            dialogView.findViewById<TextView>(R.id.quickReasonsTitle).visibility = View.GONE
-            quickReasonsLayout.visibility = View.GONE
-        }
-
-        // Create a dialog to ask for the reason
-        AlertDialog.Builder(this)
+        // Create the dialog
+        val dialog = AlertDialog.Builder(this)
             .setTitle("Flag Reason")
             .setMessage("Why is this translation flagged?")
             .setView(dialogView)
@@ -207,7 +195,34 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
                 }
             }
             .setNegativeButton("Cancel", null)
-            .show()
+            .create()
+
+        // If we have popular reasons, show them as quick select buttons with auto-save functionality
+        if (popularReasons.isNotEmpty()) {
+            popularReasons.forEach { reason ->
+                // Create button with callback to auto-save and dismiss the dialog
+                val button = createReasonButton(reason, editText) { selectedReason ->
+                    // Auto-save the reason
+                    if (selectedReason.isNotEmpty()) {
+                        flagStorageService.setFlagReason(cardId, selectedReason)
+                        flagReasons[cardId] = selectedReason
+                        flaggedCardAdapter.updateCards(flaggedCards, flagReasons)
+                        Toast.makeText(this, "Reason saved", Toast.LENGTH_SHORT).show()
+
+                        // Dismiss the dialog
+                        dialog.dismiss()
+                    }
+                }
+                quickReasonsLayout.addView(button)
+            }
+        } else {
+            // Hide the quick reasons section if no popular reasons
+            dialogView.findViewById<TextView>(R.id.quickReasonsTitle).visibility = View.GONE
+            quickReasonsLayout.visibility = View.GONE
+        }
+
+        // Show the dialog
+        dialog.show()
     }
 
     /**
@@ -288,18 +303,6 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
         val editText = dialogView.findViewById<EditText>(R.id.reasonEditText)
         val quickReasonsLayout = dialogView.findViewById<LinearLayout>(R.id.quickReasonsLayout)
 
-        // If we have popular reasons, show them as quick select buttons
-        if (popularReasons.isNotEmpty()) {
-            popularReasons.forEach { reason ->
-                val button = createReasonButton(reason, editText)
-                quickReasonsLayout.addView(button)
-            }
-        } else {
-            // Hide the quick reasons section if no popular reasons
-            dialogView.findViewById<TextView>(R.id.quickReasonsTitle).visibility = View.GONE
-            quickReasonsLayout.visibility = View.GONE
-        }
-
         // Create a dialog to ask for the reason
         val dialog = AlertDialog.Builder(this)
             .setTitle("Reason Required")
@@ -313,12 +316,8 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
             }
             .create()
 
-        // Show the dialog
-        dialog.show()
-
-        // Override the positive button to prevent dialog dismiss when reason is empty
-        dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
-            val reason = editText.text.toString().trim()
+        // Function to handle saving reason and proceeding to next card or sending email
+        val saveReasonAndProceed = { reason: String ->
             if (reason.isNotEmpty()) {
                 // Save the reason
                 flagStorageService.setFlagReason(card.id, reason)
@@ -347,6 +346,30 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
                 // Don't dismiss the dialog
             }
         }
+
+        // If we have popular reasons, show them as quick select buttons with auto-save functionality
+        if (popularReasons.isNotEmpty()) {
+            popularReasons.forEach { reason ->
+                val button = createReasonButton(reason, editText) { selectedReason ->
+                    // Use the common save and proceed function
+                    saveReasonAndProceed(selectedReason)
+                }
+                quickReasonsLayout.addView(button)
+            }
+        } else {
+            // Hide the quick reasons section if no popular reasons
+            dialogView.findViewById<TextView>(R.id.quickReasonsTitle).visibility = View.GONE
+            quickReasonsLayout.visibility = View.GONE
+        }
+
+        // Show the dialog
+        dialog.show()
+
+        // Override the positive button to prevent dialog dismiss when reason is empty
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE).setOnClickListener {
+            val reason = editText.text.toString().trim()
+            saveReasonAndProceed(reason)
+        }
     }
 
     /**
@@ -359,8 +382,15 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
 
     /**
      * Helper function to create a modern Material Design button for reason selection
+     * @param reason The reason text to display and use
+     * @param editText The EditText to populate with the reason
+     * @param onReasonSelected Optional callback for when a reason is selected
      */
-    private fun createReasonButton(reason: String, editText: EditText): MaterialButton {
+    private fun createReasonButton(
+        reason: String,
+        editText: EditText,
+        onReasonSelected: ((String) -> Unit)? = null
+    ): MaterialButton {
         return MaterialButton(
             this, null, com.google.android.material.R.attr.materialButtonOutlinedStyle
         ).apply {
@@ -376,9 +406,11 @@ class FlaggedTranslationsActivity : AppCompatActivity() {
             setBackgroundColor(getColor(android.R.color.transparent))
             setTextColor(getColor(R.color.md_theme_dark_onSurfaceVariant))
 
-            // Set click listener to fill the EditText with this reason
+            // Set click listener to fill the EditText with this reason and trigger callback
             setOnClickListener {
                 editText.setText(reason)
+                // Call the callback if provided - for auto-save and dismiss
+                onReasonSelected?.invoke(reason)
             }
 
             // Set layout params

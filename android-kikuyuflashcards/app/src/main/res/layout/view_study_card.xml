@@ -8,8 +8,8 @@
     android:layout_margin="8dp"
     app:cardCornerRadius="12dp"
     app:cardElevation="2dp"
-    app:cardBackgroundColor="?attr/colorSurfaceVariant"
-    android:foreground="?attr/selectableItemBackground">
+    android:background="@drawable/card_non_selectable_background"
+    app:cardBackgroundColor="?attr/colorSurfaceVariant">
 
     <LinearLayout
         android:layout_width="match_parent"
