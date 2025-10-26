@@ -247,6 +247,9 @@ export default function HomePage() {
           <Link href="/progress" className="btn btn-secondary text-center">
             📊 View Detailed Progress
           </Link>
+          <Link href="/flagged" className="btn btn-secondary text-center">
+            🚩 Flagged Translations
+          </Link>
         </div>
       </div>
 

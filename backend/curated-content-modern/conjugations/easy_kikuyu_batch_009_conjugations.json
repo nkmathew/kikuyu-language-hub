@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.140460+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "094.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_009_conjugations.json",
+    "last_updated": "2025-01-08T06:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-009-001",
+      "english": "Verb 'Hûra' - multiple meanings: beat, iron, wash, start, call",
+      "kikuyu": "Hûra (beat/strike) → Hûrîra (beat for)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 094",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "examples": [
+        "Hûra nguo bathi (Iron clothes)",
+        "Hûra nguo (Wash clothes)",
+        "Hûra ngarî mwaki (Start a car)",
+        "Hûra thimû (Make a phone call)",
+        "Hûrîra thimû (Call me by phone)",
+        "Hûrîra nguo bathi (Iron clothes for me)",
+        "Wîhûrîre nguo bathi (Iron clothes for yourself)",
+        "Nî ngwîhûrîra bathi (I will iron for myself)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

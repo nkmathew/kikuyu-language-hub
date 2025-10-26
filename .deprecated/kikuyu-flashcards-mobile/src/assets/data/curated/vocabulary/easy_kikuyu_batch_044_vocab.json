@@ -1,0 +1,517 @@
+{
+  "batch": 44,
+  "source_files": "435-444",
+  "total_flashcards": 50,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Vocabulary"],
+  "difficulty_distribution": {
+    "beginner": 20,
+    "intermediate": 25,
+    "advanced": 5
+  },
+  "flashcards": [
+    {
+      "id": "ek_b44_vocab_001",
+      "kikuyu": "mũthũngũ",
+      "english": "white man",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_002",
+      "kikuyu": "mamenyanĩĩre",
+      "english": "they knew each other",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - reciprocal past",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_003",
+      "kikuyu": "agĩkuua",
+      "english": "he took away",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_004",
+      "kikuyu": "kairĩtũ",
+      "english": "girl",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_005",
+      "kikuyu": "gaitũ",
+      "english": "our",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Possessive pronoun",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_006",
+      "kikuyu": "agĩthĩĩ nako",
+      "english": "he went with her",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense with object",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_007",
+      "kikuyu": "Njeremani",
+      "english": "Germany",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - country",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_008",
+      "kikuyu": "rĩu",
+      "english": "now",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Adverb - time",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_009",
+      "kikuyu": "karutaga",
+      "english": "does work",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_010",
+      "kikuyu": "mũkawainĩ",
+      "english": "in a hotel",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - location",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_011",
+      "kikuyu": "mũ-Njeremani",
+      "english": "the German",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nationality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_012",
+      "kikuyu": "ndakahikiririe",
+      "english": "did not marry her",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - negative past",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #435"
+    },
+    {
+      "id": "ek_b44_vocab_013",
+      "kikuyu": "gakĩambĩrĩĩria",
+      "english": "she started",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_014",
+      "kikuyu": "gũcaria",
+      "english": "to look for",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_015",
+      "kikuyu": "mwanake",
+      "english": "young man",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_016",
+      "kikuyu": "ũtarĩ",
+      "english": "who is not",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Relative clause",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_017",
+      "kikuyu": "mũ-Kenya",
+      "english": "Kenyan",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nationality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_018",
+      "kikuyu": "wa mbere",
+      "english": "first",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Ordinal number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_019",
+      "kikuyu": "Mũ-Nainjeria",
+      "english": "Nigerian",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nationality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_020",
+      "kikuyu": "matanendana",
+      "english": "before they had loved each other",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - past perfect",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_021",
+      "kikuyu": "mũno rĩ",
+      "english": "for long",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Adverb - duration",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_022",
+      "kikuyu": "akĩingatwo",
+      "english": "he was deported",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - passive past",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_023",
+      "kikuyu": "thirikari",
+      "english": "government",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - institution",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_024",
+      "kikuyu": "endagia",
+      "english": "drugs",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - substance",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_025",
+      "kikuyu": "ndawa",
+      "english": "drugs (same word for medicine)",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - substance",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_026",
+      "kikuyu": "wakerĩ",
+      "english": "second",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Ordinal number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_027",
+      "kikuyu": "mũ-Tanganyika",
+      "english": "Tanzanian",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - nationality",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_028",
+      "kikuyu": "mendana",
+      "english": "loving",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - gerund",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_029",
+      "kikuyu": "hanini",
+      "english": "for a short time",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Adverb - duration",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_030",
+      "kikuyu": "akĩĩnuka",
+      "english": "he went back",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - past tense",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_031",
+      "kikuyu": "kwao",
+      "english": "home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - location",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_032",
+      "kikuyu": "mũtumia",
+      "english": "wife",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #436"
+    },
+    {
+      "id": "ek_b44_vocab_033",
+      "kikuyu": "nĩ tondũ",
+      "english": "because",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Conjunction - reason",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_034",
+      "kikuyu": "anake",
+      "english": "young men",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - people",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_035",
+      "kikuyu": "matiĩũĩ",
+      "english": "do not know",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - negative present",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_036",
+      "kikuyu": "kwendana",
+      "english": "how to love",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_037",
+      "kikuyu": "wa kerĩ",
+      "english": "secondly",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Ordinal number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_038",
+      "kikuyu": "matirĩ",
+      "english": "they are not",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - negative present",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_039",
+      "kikuyu": "ũtana",
+      "english": "generosity",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - quality",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_040",
+      "kikuyu": "wa gatatũ",
+      "english": "thirdly",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Ordinal number",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_041",
+      "kikuyu": "manyina mao",
+      "english": "their mothers",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Noun - people with possessive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_042",
+      "kikuyu": "matimarekagia",
+      "english": "do not let them go",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - negative causative",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_043",
+      "kikuyu": "kũrekia",
+      "english": "to let go/release",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_044",
+      "kikuyu": "wahika",
+      "english": "when you get married",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - conditional",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_045",
+      "kikuyu": "nyina",
+      "english": "his mother",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - person with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_046",
+      "kikuyu": "arĩtĩndaga",
+      "english": "will be at your home often",
+      "difficulty": "advanced",
+      "category": "Vocabulary",
+      "context": "Verb - future tense",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_047",
+      "kikuyu": "gwaku",
+      "english": "your home",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Noun - location with possessive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_048",
+      "kikuyu": "gũtĩnda",
+      "english": "to spend time somewhere",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_049",
+      "kikuyu": "kũmenya",
+      "english": "to know",
+      "difficulty": "beginner",
+      "category": "Vocabulary",
+      "context": "Verb - infinitive",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #437"
+    },
+    {
+      "id": "ek_b44_vocab_050",
+      "kikuyu": "ũraruga",
+      "english": "what you are cooking",
+      "difficulty": "intermediate",
+      "category": "Vocabulary",
+      "context": "Verb - present continuous",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #437"
+    }
+  ]
+}

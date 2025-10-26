@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.119487+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_012_early_morning.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-24370899",
+      "english": "I drank tea and ate bread",
+      "kikuyu": "Nyuire cai na ndĩrĩre mũgate",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Past tense - describing actions from early this morning",
+      "cultural_notes": "Note the different past tense marker compared to 'moments ago' - this indicates earlier in the day",
+      "examples": [
+        {
+          "kikuyu": "Nyuire cai na ndĩrĩre mũgate",
+          "english": "I drank tea and ate bread",
+          "context": "Early this morning"
+        },
+        {
+          "kikuyu": "Ndehĩre irio metha-inĩ",
+          "english": "I brought food to the table",
+          "context": "Early this morning"
+        }
+      ],
+      "grammatical_info": {
+        "tense": "past_morning",
+        "comparison_with_recent_past": {
+          "recent_past": "nda-",
+          "morning_past": "-ire ending",
+          "note": "Different conjugation patterns for different time periods"
+        },
+        "verbs": [
+          {
+            "infinitive": "kũnyua",
+            "meaning": "to drink",
+            "recent_past": "ndanyua",
+            "morning_past": "nyuire"
+          },
+          {
+            "infinitive": "kũrĩa",
+            "meaning": "to eat",
+            "recent_past": "ndarĩa",
+            "morning_past": "ndĩrĩre"
+          },
+          {
+            "infinitive": "kũheha",
+            "meaning": "to bring",
+            "recent_past": "ndahehe",
+            "morning_past": "ndehĩre"
+          }
+        ]
+      },
+      "tags": [
+        "past tense",
+        "morning",
+        "daily actions",
+        "verbs",
+        "eating",
+        "drinking"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.288455+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "254.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_025_grammar.json",
+    "last_updated": "2025-10-19T12:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "grammar-025-001",
+      "english": "Personal Pronouns - Complete System",
+      "kikuyu": "Personal Pronouns - Complete System",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 254",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I/me",
+          "kikuyu": "Nĩĩ",
+          "notes": "1st person singular pronoun"
+        },
+        {
+          "english": "my name is",
+          "kikuyu": "Njĩtagwo",
+          "notes": "1st person singular subject prefix with passive verb"
+        },
+        {
+          "english": "we",
+          "kikuyu": "Ĩthũĩ",
+          "notes": "1st person plural pronoun"
+        },
+        {
+          "english": "we are called",
+          "kikuyu": "Twĩtagwo",
+          "notes": "1st person plural subject prefix with passive verb"
+        },
+        {
+          "english": "you (singular)",
+          "kikuyu": "Wee",
+          "notes": "2nd person singular pronoun"
+        },
+        {
+          "english": "your name is",
+          "kikuyu": "Wĩtagwo",
+          "notes": "2nd person singular subject prefix with passive verb"
+        },
+        {
+          "english": "you (plural)",
+          "kikuyu": "Ĩnyuĩ",
+          "notes": "2nd person plural pronoun"
+        },
+        {
+          "english": "you are called",
+          "kikuyu": "Mwĩtagwo",
+          "notes": "2nd person plural subject prefix with passive verb"
+        },
+        {
+          "english": "he/she",
+          "kikuyu": "We",
+          "notes": "3rd person singular pronoun"
+        },
+        {
+          "english": "his/her name is",
+          "kikuyu": "Etagwo",
+          "notes": "3rd person singular subject prefix with passive verb"
+        },
+        {
+          "english": "they",
+          "kikuyu": "O",
+          "notes": "3rd person plural pronoun"
+        },
+        {
+          "english": "they are called",
+          "kikuyu": "Metagwo",
+          "notes": "3rd person plural subject prefix with passive verb"
+        },
+        {
+          "english": "who am I?",
+          "kikuyu": "Nĩ nĩũ ũ?",
+          "notes": "question with 1st person singular pronoun"
+        },
+        {
+          "english": "who are you?",
+          "kikuyu": "Wee nĩ wee ũ?",
+          "notes": "question with 2nd person singular pronoun"
+        },
+        {
+          "english": "who is he/she?",
+          "kikuyu": "We nĩ we ũ?",
+          "notes": "question with 3rd person singular pronoun"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "pronoun",
+        "grammatical_feature": "personal pronouns",
+        "structure": {
+          "1st person": {
+            "singular": {
+              "independent pronoun": "Nĩĩ",
+              "subject prefix": "N-/Nj-"
+            },
+            "plural": {
+              "independent pronoun": "Ĩthũĩ",
+              "subject prefix": "Tw-"
+            }
+          },
+          "2nd person": {
+            "singular": {
+              "independent pronoun": "Wee",
+              "subject prefix": "W-"
+            },
+            "plural": {
+              "independent pronoun": "Ĩnyuĩ",
+              "subject prefix": "Mw-"
+            }
+          },
+          "3rd person": {
+            "singular": {
+              "independent pronoun": "We",
+              "subject prefix": "E-"
+            },
+            "plural": {
+              "independent pronoun": "O",
+              "subject prefix": "Me-"
+            }
+          }
+        },
+        "notes": "Kikuyu has independent pronouns (standalone forms) and subject prefixes that attach to verbs. The question pattern for asking 'who is X?' involves repeating the pronoun with the question marker 'ũ'."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

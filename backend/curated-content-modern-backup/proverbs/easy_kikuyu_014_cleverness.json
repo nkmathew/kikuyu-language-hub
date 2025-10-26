@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.411721+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_014_cleverness.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-04565065",
+      "english": "Cleverness is greater than strength",
+      "kikuyu": "Ũgĩ wakĩra hinya",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Traditional proverb emphasizing the value of intelligence over physical strength",
+      "cultural_notes": "This proverb teaches to rely more on brain power than brute force, a key value in Kikuyu wisdom tradition",
+      "grammatical_info": {
+        "related_terms": [
+          {
+            "term": "mũndũ mũgĩ",
+            "meaning": "clever person",
+            "part_of_speech": "noun phrase"
+          },
+          {
+            "term": "gũkĩra",
+            "meaning": "to surpass, to cross",
+            "part_of_speech": "verb"
+          }
+        ]
+      },
+      "tags": [
+        "wisdom",
+        "intelligence",
+        "strength",
+        "values",
+        "monday proverb"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

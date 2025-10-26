@@ -1,0 +1,92 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.154428+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "174.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_017_conjugations.json",
+    "last_updated": "2025-01-08T10:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-017-001",
+      "english": "Conjugation conversions between persons",
+      "kikuyu": "Kugarũra mĩario ya andũ arĩa matiarĩa na arĩa marĩa",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:30:00Z"
+      },
+      "examples": [
+        {
+          "kikuyu": "Nĩ aracaria",
+          "english": "He/She is searching",
+          "notes": "3rd person singular"
+        },
+        {
+          "kikuyu": "Nĩ ndiracaria",
+          "english": "I am searching",
+          "notes": "1st person singular (converted form)"
+        },
+        {
+          "kikuyu": "Nĩ maroka",
+          "english": "They are coming",
+          "notes": "3rd person plural"
+        },
+        {
+          "kikuyu": "Nĩ tũrĩoka",
+          "english": "We are coming",
+          "notes": "1st person plural (converted form)"
+        },
+        {
+          "kikuyu": "Nĩ arethamba",
+          "english": "He/She is bathing",
+          "notes": "3rd person singular"
+        },
+        {
+          "kikuyu": "Nĩ ndirethamba",
+          "english": "I am bathing",
+          "notes": "1st person singular (converted form)"
+        },
+        {
+          "kikuyu": "Nĩ maratheka",
+          "english": "They are laughing",
+          "notes": "3rd person plural"
+        },
+        {
+          "kikuyu": "Nĩ tũrĩatheka",
+          "english": "We are laughing",
+          "notes": "1st person plural (converted form)"
+        },
+        {
+          "kikuyu": "Nĩ marandĩka",
+          "english": "They are writing",
+          "notes": "3rd person plural"
+        },
+        {
+          "kikuyu": "Nĩ tũrĩandĩka",
+          "english": "We are writing",
+          "notes": "1st person plural (converted form)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "present progressive",
+        "conversion_pattern": {
+          "3sg_to_1sg": "ara- → ndira-",
+          "3pl_to_1pl": "ma- → tũrĩ-"
+        }
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "batch_info": {
+    "batch_number": "024",
+    "total_cards": 3,
+    "category": "vocabulary",
+    "source_files": ["235.txt", "243.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T14:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-024-001",
+      "kikuyu": "Body Parts - Additional",
+      "english": "Iru (knee), Ikai (cheek), Rũhi (palm)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Additional body part vocabulary to supplement previous lessons",
+      "quality_score": 4.2,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 235",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-024-002",
+      "kikuyu": "Size Descriptors with Noun Class Agreement",
+      "english": "Mũtĩ mũceke/mwarĩĩ (thin tree/large tree), Gĩkabu gĩceke/kĩarĩĩ (small basket/large basket), Kĩmũbira/Mũbira/Kamũbira (very large ball/ball/small ball - augmentative/normal/diminutive), Ng'ombe noru/hũnju (fat cow/thin cow), Mũndũ mũkũhĩ/mũraihu/mũceke/mũtungu (short person/tall person/thin person/fat person)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Size and shape vocabulary showing noun class agreement. Diminutive/augmentative: Ka-/Kĩ- prefixes change size. Adjectives: -ceke (thin/small), -arĩĩ/-raihu (large/tall), noru/mũtungu (fat), hũnju/mũceke (thin)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 243",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-024-003",
+      "kikuyu": "Sitting Room Furniture Items",
+      "english": "Mũrango (door), Kabatĩ (cupboard/cabinet/wardrobe), Metha (table), Gĩtĩ (chair), Gaturwa/Njĩgĩwa (stool/small table), Ndirica (window)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Essential sitting room furniture vocabulary (indo cia gĩtĩrĩro). Note synonym: Gaturwa/Njĩgĩwa both mean stool",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.157893+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "187.txt",
+      "192.txt",
+      "193.txt"
+    ],
+    "total_entries": 3,
+    "description": "Converted from easy_kikuyu_batch_019_conjugations.json",
+    "last_updated": "2025-01-08T11:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-019-001",
+      "english": "First person habitual actions (I/we forms)",
+      "kikuyu": "Ciĩko cia nĩĩ na ithuĩ (mũtugo)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 187",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I come",
+          "kikuyu": "Njũkaga",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "I cry",
+          "kikuyu": "Nđĩraga",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "I eat",
+          "kikuyu": "Nđĩaga",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "I speak",
+          "kikuyu": "Njaragia",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "I am usually happy",
+          "kikuyu": "Ngenaga",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "I laugh",
+          "kikuyu": "Thekaga",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "I go",
+          "kikuyu": "Thiaga",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "I read",
+          "kikuyu": "Thomaga",
+          "context": "1st person singular habitual"
+        },
+        {
+          "english": "We come",
+          "kikuyu": "Tũkaga",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We cry",
+          "kikuyu": "Tũrĩraga",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We eat",
+          "kikuyu": "Tũrĩaga",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We speak",
+          "kikuyu": "Twaragia",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We are happy",
+          "kikuyu": "Tũkenaga",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We laugh",
+          "kikuyu": "Tũthekaga",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We go",
+          "kikuyu": "Tũthiaga",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We read",
+          "kikuyu": "Tũthomaga",
+          "context": "1st person plural habitual"
+        },
+        {
+          "english": "We write",
+          "kikuyu": "Tũanđĩkaga",
+          "context": "1st person plural habitual"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "habitual present",
+        "marker": "-ga suffix",
+        "persons": ["1st person singular", "1st person plural"]
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-019-002",
+      "english": "Location expressions: now vs earlier today",
+      "kikuyu": "Kũrĩa andũ marĩ: rĩu na tene ũmũthĩ",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 192",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "I am here",
+          "kikuyu": "Nđĩ gũkũ",
+          "notes": "Now (present) - 1st person singular"
+        },
+        {
+          "english": "We are here",
+          "kikuyu": "Twĩ gũkũ",
+          "notes": "Now (present) - 1st person plural"
+        },
+        {
+          "english": "You are here",
+          "kikuyu": "Wĩ gũkũ",
+          "notes": "Now (present) - 2nd person singular"
+        },
+        {
+          "english": "You all are here",
+          "kikuyu": "Mwĩ gukũ",
+          "notes": "Now (present) - 2nd person plural"
+        },
+        {
+          "english": "He/She is here",
+          "kikuyu": "E gũkũ / Arĩ gũkũ",
+          "notes": "Now (present) - 3rd person singular"
+        },
+        {
+          "english": "They are here",
+          "kikuyu": "Me gũkũ / Marĩ gũkũ",
+          "notes": "Now (present) - 3rd person plural"
+        },
+        {
+          "english": "I was here (earlier today)",
+          "kikuyu": "Nyuma gũkũ",
+          "notes": "Earlier today - 1st person singular"
+        },
+        {
+          "english": "We were here (earlier today)",
+          "kikuyu": "Tuma gũkũ",
+          "notes": "Earlier today - 1st person plural"
+        },
+        {
+          "english": "You were here (earlier today)",
+          "kikuyu": "Uma gũkũ",
+          "notes": "Earlier today - 2nd person singular"
+        },
+        {
+          "english": "You all were here (earlier today)",
+          "kikuyu": "Muma gũkũ",
+          "notes": "Earlier today - 2nd person plural"
+        },
+        {
+          "english": "He/She was here (earlier today)",
+          "kikuyu": "Oima gũkũ",
+          "notes": "Earlier today - 3rd person singular"
+        },
+        {
+          "english": "They were here (earlier today)",
+          "kikuyu": "Moima gũkũ",
+          "notes": "Earlier today - 3rd person plural"
+        },
+        {
+          "kikuyu": "Twĩ gũkũ na tũrarĩa nyama",
+          "english": "We are here and we're eating meat",
+          "notes": "Present continuous with location"
+        },
+        {
+          "kikuyu": "Tuma gũkũ na tũrĩire nyama",
+          "english": "We were here earlier and we ate meat",
+          "notes": "Recent past with location"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "time_frames": ["present", "earlier today"],
+        "patterns": {
+          "present": "subject_marker + location",
+          "earlier_today": "subject_marker + 'ma' + location"
+        }
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-019-003",
+      "english": "Experience questions about wildlife",
+      "kikuyu": "Ciũria cia menyerero ya nyamũ cia gĩthaka",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 193",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "This is an ostrich",
+          "kikuyu": "Ĩno nĩ Nyaga",
+          "notes": "Statement introducing the animal"
+        },
+        {
+          "english": "Have you ever seen an ostrich?",
+          "kikuyu": "Nĩ ũrĩ wona Nyaga?",
+          "notes": "Experience question - 2nd person singular"
+        },
+        {
+          "english": "This is a rhino",
+          "kikuyu": "Ĩno nĩ Huria",
+          "notes": "Statement introducing the animal"
+        },
+        {
+          "english": "Have they ever seen a rhino?",
+          "kikuyu": "Nĩ marĩ mona huria?",
+          "notes": "Experience question - 3rd person plural"
+        },
+        {
+          "english": "This is a lion",
+          "kikuyu": "Ũyũ nĩ mũrũthi",
+          "notes": "Statement introducing the animal"
+        },
+        {
+          "english": "Have you all ever seen a lion?",
+          "kikuyu": "Nĩ mũrĩ mwona mũrũthi?",
+          "notes": "Experience question - 2nd person plural"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "perfect (experiential)",
+        "pattern": "Nĩ + subject marker + rĩ + verb stem"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

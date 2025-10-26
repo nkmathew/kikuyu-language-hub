@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.366346+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "217.txt",
+      "223.txt"
+    ],
+    "total_entries": 18,
+    "description": "Converted from easy_kikuyu_batch_022_phrases.json",
+    "last_updated": "2025-01-09T14:15:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase-022-001",
+      "english": "Are you fine Karanja?",
+      "kikuyu": "Wĩmwe ga Karanja",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-002",
+      "english": "I am fine Njeri",
+      "kikuyu": "Nđĩmwe ga Njeri",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-003",
+      "english": "How are you Mwangi / Your news Mwangi",
+      "kikuyu": "Ũhoro waku Mwangi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-004",
+      "english": "It is very good",
+      "kikuyu": "Nĩ mwega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-005",
+      "english": "Greetings to you (singular)",
+      "kikuyu": "Nĩ nđakũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-006",
+      "english": "I have received greetings",
+      "kikuyu": "Nĩ nđageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-007",
+      "english": "Greetings you all",
+      "kikuyu": "Nĩ nđamũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-008",
+      "english": "We have received greetings",
+      "kikuyu": "Nĩ twageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-009",
+      "english": "Are you all fine?",
+      "kikuyu": "Mũrĩega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-010",
+      "english": "Yes, we are very fine",
+      "kikuyu": "Ĩĩ tũrĩega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 217",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-011",
+      "english": "To be angry, making sounds with mouth (when angry)",
+      "kikuyu": "Kũringa kanua",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-012",
+      "english": "To mumble",
+      "kikuyu": "Kũbogotha",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-013",
+      "english": "To speak with an accent",
+      "kikuyu": "Gũthĩoma",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-014",
+      "english": "To groan",
+      "kikuyu": "Kũhaya",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-015",
+      "english": "To snort",
+      "kikuyu": "Gũkorora",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-016",
+      "english": "To sneeze",
+      "kikuyu": "Gũathĩmũra",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-017",
+      "english": "Fast sounds made by someone crying",
+      "kikuyu": "Kũnũhanũha",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-022-018",
+      "english": "To have a sad posture (e.g. when mourning)",
+      "kikuyu": "Gũĩthĩkĩra",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 223",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

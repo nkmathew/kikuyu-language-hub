@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_second_layout"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/colorButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color 1"/>
+
+    <Button
+        android:id="@+id/colorButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color 2"/>
+
+    <Button
+        android:id="@+id/colorButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color 3"/>
+
+    <Button
+        android:id="@+id/colorButton4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color 4"/>
+
+    <Button
+        android:id="@+id/colorButton5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Color 5"/>
+</LinearLayout>

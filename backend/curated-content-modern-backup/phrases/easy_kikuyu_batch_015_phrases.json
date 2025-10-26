@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.333699+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "145.txt",
+      "147.txt",
+      "152.txt"
+    ],
+    "total_entries": 11,
+    "description": "Converted from easy_kikuyu_batch_015_phrases.json",
+    "last_updated": "2025-01-09T12:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase-015-001",
+      "english": "This is the city of Nairobi",
+      "kikuyu": "Ũyũ nĩ mũciĩ mũnene wa Nairobi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-002",
+      "english": "The big town of Nairobi",
+      "kikuyu": "Taũni nene ya Nairobi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-003",
+      "english": "Gaudencia is in Ol-jororok",
+      "kikuyu": "Gaũdencia e Ol-jororok",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-004",
+      "english": "Where are you?",
+      "kikuyu": "We wĩkũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 145",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-005",
+      "english": "How is your place?",
+      "kikuyu": "Kwanyu kũhana atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-006",
+      "english": "Is it cold or rainy?",
+      "kikuyu": "Kwĩna heho kana mbura?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-007",
+      "english": "Or is it sunny?",
+      "kikuyu": "Kana kwĩna riũwa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-008",
+      "english": "Our place is windy",
+      "kikuyu": "Gwitũ kũrĩ na rũhuho",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 147",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-009",
+      "english": "What time is it?",
+      "kikuyu": "Nĩ thaa cĩgana?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-010",
+      "english": "It is 8:30 (half past eight)",
+      "kikuyu": "Nĩ thaa igĩrĩ na nuthu",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-015-011",
+      "english": "It is 9:45 (quarter to 10)",
+      "kikuyu": "Nĩ thaa ĩthatũ itigarĩtie ndagĩka ikũmi na ithano",
+      "category": "phrases",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 152",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "batch": 48,
+  "source_files": "475-484",
+  "total_flashcards": 25,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Phrases", "Questions", "Conversation", "Greetings"],
+  "difficulty_distribution": {
+    "beginner": 12,
+    "intermediate": 10,
+    "advanced": 3
+  },
+  "flashcards": [
+    {
+      "id": "ek_b48_phrase_001",
+      "kikuyu": "Tataguo etagwo atĩa?",
+      "english": "What is your aunt's name?",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Family question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_phrase_002",
+      "kikuyu": "Mamaguo etagwo atĩa?",
+      "english": "What is your uncle's name?",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Family question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_phrase_003",
+      "kikuyu": "Wĩ na tata aigana?",
+      "english": "How many aunts do you have?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Family question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_phrase_004",
+      "kikuyu": "Wĩ na mama aigana?",
+      "english": "How many uncles do you have?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Family question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #475"
+    },
+    {
+      "id": "ek_b48_phrase_005",
+      "kikuyu": "Rega gũthĩĩ nake",
+      "english": "refuse to go with him",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Refusal expression",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #476"
+    },
+    {
+      "id": "ek_b48_phrase_006",
+      "kikuyu": "Rega kũmũhe mbeca",
+      "english": "refuse to give him money",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Refusal expression",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #476"
+    },
+    {
+      "id": "ek_b48_phrase_007",
+      "kikuyu": "Ndĩ na karamu",
+      "english": "I have a pen",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Possession statement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_phrase_008",
+      "kikuyu": "Wĩ na tũramũ",
+      "english": "you have pens",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Possession statement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_phrase_009",
+      "kikuyu": "Mwĩ na thĩna",
+      "english": "you (all) have problems",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Possession statement",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_phrase_010",
+      "kikuyu": "E na ngĩrathĩ yakwa",
+      "english": "He/she has my glass",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Possession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_phrase_011",
+      "kikuyu": "Me na ngĩrathĩ ciakwa",
+      "english": "they have my glasses",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Possession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_phrase_012",
+      "kikuyu": "Twĩ na mwarimũ ũngĩ",
+      "english": "we have another teacher",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Possession statement",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #477"
+    },
+    {
+      "id": "ek_b48_phrase_013",
+      "kikuyu": "Ngeithi nyingĩ",
+      "english": "much greetings",
+      "difficulty": "beginner",
+      "category": "Greetings",
+      "context": "Greeting expression",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_phrase_014",
+      "kikuyu": "Mbica ĩno yahũrĩirwo Abirika ya ithũĩro",
+      "english": "this picture was taken in West Africa",
+      "difficulty": "advanced",
+      "category": "Conversation",
+      "context": "Location description",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_phrase_015",
+      "kikuyu": "Hihi nĩ nyamũ ĩrĩkũ?",
+      "english": "which animal could it possibly be?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Speculative question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_phrase_016",
+      "kikuyu": "Hihi ini nĩ ihĩu?",
+      "english": "Could the liver be ready (cooked)?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Speculative question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_phrase_017",
+      "kikuyu": "Hihi wĩ mũrwaru?",
+      "english": "are you probably sick? Could you be sick?",
+      "difficulty": "intermediate",
+      "category": "Questions",
+      "context": "Health question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #478"
+    },
+    {
+      "id": "ek_b48_phrase_018",
+      "kikuyu": "Ĩno nĩ nyamũ ĩrĩkũ",
+      "english": "which animal is this",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Identification question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #479"
+    },
+    {
+      "id": "ek_b48_phrase_019",
+      "kikuyu": "Mĩrore wega",
+      "english": "look at it properly",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Instruction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #479"
+    },
+    {
+      "id": "ek_b48_phrase_020",
+      "kikuyu": "Nĩkũ ĩtahana nyamũ cia kwanyu?",
+      "english": "where is it not like animals from your home? (what is different?)",
+      "difficulty": "advanced",
+      "category": "Questions",
+      "context": "Comparison question",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #479"
+    },
+    {
+      "id": "ek_b48_phrase_021",
+      "kikuyu": "ũyũ nĩ mũhuko kana nĩ mũgate?",
+      "english": "is this a bag or is it bread?",
+      "difficulty": "beginner",
+      "category": "Questions",
+      "context": "Choice question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #480"
+    },
+    {
+      "id": "ek_b48_phrase_022",
+      "kikuyu": "Mũcaina wĩtagwo Changhong Li",
+      "english": "A chinese called Changhong Li",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Introduction",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_phrase_023",
+      "kikuyu": "arakũria mĩtĩ ya Moringa",
+      "english": "is growing trees of Moringa",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Activity description",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_phrase_024",
+      "kikuyu": "ngiri ĩmwe na magana mana",
+      "english": "1400",
+      "difficulty": "beginner",
+      "category": "Conversation",
+      "context": "Number expression",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #481"
+    },
+    {
+      "id": "ek_b48_phrase_025",
+      "kikuyu": "mwena wa Sultan Hamud",
+      "english": "In the area of Sultan Hamud",
+      "difficulty": "intermediate",
+      "category": "Conversation",
+      "context": "Location description",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #481"
+    }
+  ]
+}

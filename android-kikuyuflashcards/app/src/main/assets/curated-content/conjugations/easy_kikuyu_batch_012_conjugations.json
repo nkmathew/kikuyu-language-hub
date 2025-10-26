@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.145037+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "117.txt",
+      "121.txt"
+    ],
+    "total_entries": 8,
+    "description": "Converted from easy_kikuyu_batch_012_conjugations.json",
+    "last_updated": "2025-01-08T08:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-012-001",
+      "english": "I made a distress sound",
+      "kikuyu": "Nguuga mbu",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-012-002",
+      "english": "I whistled",
+      "kikuyu": "Nwahuha mîruri",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-012-003",
+      "english": "I made a sound",
+      "kikuyu": "Ngamba",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-012-004",
+      "english": "I made noise",
+      "kikuyu": "Nwanegenia",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-012-005",
+      "english": "I spoke",
+      "kikuyu": "Narîa",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-012-006",
+      "english": "I yelled",
+      "kikuyu": "Ngiaya",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-012-007",
+      "english": "I sang",
+      "kikuyu": "Noina",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 117",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-012-008",
+      "english": "Present location - to be here (all persons)",
+      "kikuyu": "Gũkorwo haha (andũ othe)",
+      "category": "conjugations",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 121",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T08:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "I am here",
+          "kikuyu": "Ndĩ gûkũ",
+          "context": "1st person singular"
+        },
+        {
+          "english": "You are here",
+          "kikuyu": "Wĩ gûkũ",
+          "context": "2nd person singular"
+        },
+        {
+          "english": "He/She is here",
+          "kikuyu": "E gûkũ / Arĩ gûkũ",
+          "context": "3rd person singular"
+        },
+        {
+          "english": "We are here",
+          "kikuyu": "Twĩ gûkũ",
+          "context": "1st person plural"
+        },
+        {
+          "english": "You all are here",
+          "kikuyu": "Mwĩ gûkũ",
+          "context": "2nd person plural"
+        },
+        {
+          "english": "They are here",
+          "kikuyu": "Me gûkũ / Marĩ gûkũ",
+          "context": "3rd person plural"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "present",
+        "pattern": "subject_marker + location"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

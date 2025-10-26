@@ -1,0 +1,82 @@
+{
+  "batch_info": {
+    "batch_number": "021",
+    "total_cards": 5,
+    "category": "vocabulary",
+    "source_files": ["207.txt", "209.txt", "210.txt", "213.txt", "214.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T12:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-021-001",
+      "kikuyu": "Sleep-Related Vocabulary",
+      "english": "Gũcũnga (to doze), Gũkoma (to sleep), Gũkoma na nda (sleep on stomach/face down), Gũkoma na ngara/mũgongo (sleep on back), Gũkoma na mwena (sleep on one side), Kũrara (to spend the night), Hinga maitho ũkome (shut your eyes and sleep), Rara nĩ gwatuka (sleep-over, darkness has fallen), Koma ũkĩre (sleep and wake up), Koma na wega/thayũ (sleep well), Gĩa/Korwo na ũtuko mwega (have a good night)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Comprehensive sleep vocabulary. Note: Kũrara means to spend the night (not just to sleep). Examples: Rara ũgathie rĩciũ (sleep over and go tomorrow), Kaĩ ũkomaga ũhingũrĩte maitho? (do you sleep with eyes open?)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 207",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-021-002",
+      "kikuyu": "Domestic & Wild Animals",
+      "english": "Ngũi (dog), Nyau (cat), Gathuku (parrot), Mbĩa (rat)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Common domestic and pest animals vocabulary",
+      "quality_score": 4.3,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 209",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-021-003",
+      "kikuyu": "Simple Vocabulary with Consonants G, H, K",
+      "english": "Gĩkombe (cup), Karamu (pen), Kiura (frog), Kora (small frog)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Basic vocabulary demonstrating consonant sounds g, h, k. Example sentences: Gĩra gĩkombe gĩkĩ (come for this cup), Kaĩrĩtu kena karamu (the girl has a pen), Kana kona kora (the child saw a frog)",
+      "quality_score": 4.2,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 210",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-021-004",
+      "kikuyu": "Everyday Objects with Singular/Plural",
+      "english": "Mwaburi/Mĩaburi (umbrella sing/plur), Mũbĩra/Mĩbĩra (ball sing/plur), Kĩratũ/Iratũ (shoe sing/plur), Ngaari (car)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Common objects showing singular/plural patterns. Class patterns: Mũ-/Mĩ- for umbrella and ball, Kĩ-/I- for shoe",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 213",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:30:00Z"
+      }
+    },
+    {
+      "id": "vocab-021-005",
+      "kikuyu": "Essential Verbs Set 3",
+      "english": "Ĩta (call), Aria (speak), Eterera (wait), Ceera (visit), Uga (say), Andĩka (write), Ona (see), Enja (shave/dig a hole), Nyua (drink), Uma (get out), Kena (be happy), Kora (find), Koma (sleep), Batara (need), Rĩma (dig in a farm), Rota (dream), Ruga (cook)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "17 essential verbs in infinitive form (without Kũ-/Gũ- prefix). Note polysemy: Enja can mean shave OR dig a hole (context-dependent)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 214",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T12:30:00Z"
+      }
+    }
+  ]
+}

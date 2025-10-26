@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.206986+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_010_quran_fatiha.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-94518682",
+      "english": "Surah Al-Fatiha - The Opening",
+      "kikuyu": "Surah Fatiha - Kĩambĩrĩria",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Translation of the first chapter of the Quran into Kikuyu, demonstrating religious and spiritual vocabulary",
+      "cultural_notes": "This translation shows the integration of Islamic faith within Kikuyu-speaking communities and demonstrates advanced religious vocabulary",
+      "examples": [
+        {
+          "kikuyu": "Ngai",
+          "english": "God",
+          "context": "Supreme being"
+        },
+        {
+          "kikuyu": "mwathani",
+          "english": "master/lord",
+          "context": "Title of authority"
+        },
+        {
+          "kikuyu": "tha",
+          "english": "mercy",
+          "context": "Divine attribute"
+        },
+        {
+          "kikuyu": "gũtua ciira",
+          "english": "to judge",
+          "context": "Legal/judicial terminology"
+        },
+        {
+          "kikuyu": "njĩra nyoroku",
+          "english": "straight path",
+          "context": "Metaphor for righteousness"
+        }
+      ],
+      "tags": [
+        "religion",
+        "Islam",
+        "spiritual",
+        "Quran",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

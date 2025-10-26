@@ -1,0 +1,570 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-07T00:00:00Z",
+    "last_updated": "2025-10-07T00:00:00Z",
+    "curator": "Claude (Manual Curation)",
+    "source_files": ["wiktionary_verbs_literal_seed.py"],
+    "total_entries": 15,
+    "description": "Essential Kikuyu verbs curated from Wiktionary with IPA pronunciation and grammatical details"
+  },
+  "entries": [
+    {
+      "id": "wk_verbs_001",
+      "english": "write",
+      "kikuyu": "andĩka",
+      "category": "conjugations",
+      "subcategory": "basic_verbs",
+      "difficulty": "beginner",
+      "context": "Essential verb for literacy and education",
+      "cultural_notes": "Writing became important in Kikuyu culture with formal education and literacy programs",
+      "pronunciation": {
+        "ipa": "/aⁿdeka/",
+        "simplified": "an-DEE-ka"
+      },
+      "examples": [
+        {
+          "english": "I want to write a letter",
+          "kikuyu": "Nĩndĩrenda kwandĩka barũa",
+          "context": "Personal communication"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kwandĩka",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["literacy", "education", "communication", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_002",
+      "english": "go",
+      "kikuyu": "enda",
+      "category": "conjugations",
+      "subcategory": "basic_verbs",
+      "difficulty": "beginner",
+      "context": "Fundamental verb of movement",
+      "cultural_notes": "One of the most frequently used verbs in daily conversation",
+      "pronunciation": {
+        "ipa": "/ɛⁿda/",
+        "simplified": "EN-da"
+      },
+      "examples": [
+        {
+          "english": "I am going home",
+          "kikuyu": "Ndĩraenda mũciĩ",
+          "context": "Daily movement"
+        },
+        {
+          "english": "Where are you going?",
+          "kikuyu": "Ũraenda kũ?",
+          "context": "Common question"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũenda",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["movement", "travel", "daily_life", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_003",
+      "english": "want/like",
+      "kikuyu": "enda",
+      "category": "conjugations",
+      "subcategory": "basic_verbs",
+      "difficulty": "beginner",
+      "context": "Expressing desire or preference (same root as 'go')",
+      "cultural_notes": "This verb can mean both 'want' and 'like', showing the connection between desire and movement in Kikuyu thinking",
+      "pronunciation": {
+        "ipa": "/ɛⁿda/",
+        "simplified": "EN-da"
+      },
+      "examples": [
+        {
+          "english": "I want food",
+          "kikuyu": "Nĩndĩrenda irio",
+          "context": "Expressing hunger"
+        },
+        {
+          "english": "Do you like tea?",
+          "kikuyu": "Nĩwendete caĩ?",
+          "context": "Asking about preferences"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũenda",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["desire", "preference", "emotions", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_004",
+      "english": "buy",
+      "kikuyu": "gũra",
+      "category": "conjugations",
+      "subcategory": "basic_verbs",
+      "difficulty": "beginner",
+      "context": "Commercial transaction verb",
+      "cultural_notes": "Essential verb for modern economic life and traditional trading",
+      "pronunciation": {
+        "ipa": "/ɣuɾa/",
+        "simplified": "GOO-ra"
+      },
+      "examples": [
+        {
+          "english": "I will buy vegetables at the market",
+          "kikuyu": "Nĩngũgũra mbaĩga thokoni",
+          "context": "Market shopping"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũgũra",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["commerce", "market", "daily_life", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_005",
+      "english": "catch/hold",
+      "kikuyu": "gwata",
+      "category": "conjugations",
+      "subcategory": "basic_verbs",
+      "difficulty": "beginner",
+      "context": "Physical action of grasping or catching",
+      "cultural_notes": "Important verb for physical activities, hunting, and handling objects",
+      "pronunciation": {
+        "ipa": "/ɣʷata/",
+        "simplified": "GWA-ta"
+      },
+      "examples": [
+        {
+          "english": "Catch the ball",
+          "kikuyu": "Gwata bũrũ",
+          "context": "Playing games"
+        },
+        {
+          "english": "Hold my hand",
+          "kikuyu": "Gwata guoko gwakwa",
+          "context": "Physical guidance or comfort"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũgwata",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["physical", "action", "sports", "care", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_006",
+      "english": "think",
+      "kikuyu": "hitha",
+      "category": "conjugations",
+      "subcategory": "mental_verbs",
+      "difficulty": "beginner",
+      "context": "Mental process of thinking or contemplating",
+      "cultural_notes": "Thinking and wisdom are highly valued in Kikuyu culture, with many proverbs about the importance of thought before action",
+      "pronunciation": {
+        "ipa": "/hiða/",
+        "simplified": "HEE-tha"
+      },
+      "examples": [
+        {
+          "english": "I think this is good",
+          "kikuyu": "Nĩhithaga atĩ ũndũ ũyũ nĩ wega",
+          "context": "Expressing opinion"
+        },
+        {
+          "english": "Think before you speak",
+          "kikuyu": "Hitha mbere ya kwaria",
+          "context": "Advice giving"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũhitha",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["mental", "wisdom", "decision_making", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_007",
+      "english": "be able/can",
+      "kikuyu": "hota",
+      "category": "conjugations",
+      "subcategory": "modal_verbs",
+      "difficulty": "beginner",
+      "context": "Modal verb expressing ability or possibility",
+      "cultural_notes": "Important auxiliary verb for expressing capability and potential",
+      "pronunciation": {
+        "ipa": "/hɔta/",
+        "simplified": "HO-ta"
+      },
+      "examples": [
+        {
+          "english": "I can speak Kikuyu",
+          "kikuyu": "Nĩngaracia Gĩkũyũ",
+          "context": "Expressing language ability"
+        },
+        {
+          "english": "Can you help me?",
+          "kikuyu": "Ũrahota gũndeithia?",
+          "context": "Requesting assistance"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũhota",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["ability", "modal", "capability", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_008",
+      "english": "ask/request",
+      "kikuyu": "hoya",
+      "category": "conjugations",
+      "subcategory": "communication_verbs",
+      "difficulty": "beginner",
+      "context": "Polite request or inquiry",
+      "cultural_notes": "Respectful communication is central to Kikuyu culture. The verb 'hoya' implies polite asking rather than demanding",
+      "pronunciation": {
+        "ipa": "/hɔːja/",
+        "simplified": "HO-ya"
+      },
+      "examples": [
+        {
+          "english": "I ask for your help",
+          "kikuyu": "Nĩndakũhoya ũndeithie",
+          "context": "Polite request"
+        },
+        {
+          "english": "Ask your teacher",
+          "kikuyu": "Hoya mũrũthani waku",
+          "context": "Seeking information"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũhoya",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["communication", "politeness", "request", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_009",
+      "english": "learn",
+      "kikuyu": "iga",
+      "category": "conjugations",
+      "subcategory": "educational_verbs",
+      "difficulty": "beginner",
+      "context": "Acquiring knowledge or skills",
+      "cultural_notes": "Learning is highly valued in Kikuyu culture, traditionally through storytelling, observation, and apprenticeship",
+      "pronunciation": {
+        "ipa": "/iɣa/",
+        "simplified": "EE-ga"
+      },
+      "examples": [
+        {
+          "english": "Children learn at school",
+          "kikuyu": "Ciana nĩciigaga cukuru",
+          "context": "Educational context"
+        },
+        {
+          "english": "Learn from your elders",
+          "kikuyu": "Iga kũrĩ athuuri aku",
+          "context": "Traditional wisdom transfer"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kwĩga",
+        "verb_class": "kw-verb (reflexive)"
+      },
+      "tags": ["education", "knowledge", "wisdom", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_010",
+      "english": "hear/feel",
+      "kikuyu": "igua",
+      "category": "conjugations",
+      "subcategory": "sensory_verbs",
+      "difficulty": "beginner",
+      "context": "Auditory perception or emotional feeling",
+      "cultural_notes": "This verb encompasses both physical hearing and emotional feeling, reflecting the Kikuyu understanding of the connection between senses and emotions",
+      "pronunciation": {
+        "ipa": "/iɣua/",
+        "simplified": "ee-GOO-a"
+      },
+      "examples": [
+        {
+          "english": "I hear music",
+          "kikuyu": "Nĩndigua nyĩmbo",
+          "context": "Auditory experience"
+        },
+        {
+          "english": "I feel happy",
+          "kikuyu": "Nĩndigua gĩkeno",
+          "context": "Emotional state"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kwĩgua",
+        "verb_class": "kw-verb (reflexive)"
+      },
+      "tags": ["senses", "hearing", "emotions", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_011",
+      "english": "do/make",
+      "kikuyu": "ĩka",
+      "category": "conjugations",
+      "subcategory": "basic_verbs",
+      "difficulty": "beginner",
+      "context": "General action verb for doing or making",
+      "cultural_notes": "One of the most versatile and frequently used verbs in Kikuyu, applicable to many activities and creation processes",
+      "pronunciation": {
+        "ipa": "/eka/",
+        "simplified": "EE-ka"
+      },
+      "examples": [
+        {
+          "english": "What are you doing?",
+          "kikuyu": "Nĩ atĩa weka?",
+          "context": "Common question"
+        },
+        {
+          "english": "I am making food",
+          "kikuyu": "Nĩndĩreka irio",
+          "context": "Cooking activity"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kwĩka",
+        "verb_class": "kw-verb (reflexive)"
+      },
+      "tags": ["action", "creation", "general_verb", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 5.0,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_012",
+      "english": "try",
+      "kikuyu": "geria",
+      "category": "conjugations",
+      "subcategory": "basic_verbs",
+      "difficulty": "beginner",
+      "context": "Attempting or testing something",
+      "cultural_notes": "Trying and perseverance are valued in Kikuyu culture, with many proverbs about the importance of effort",
+      "pronunciation": {
+        "ipa": "/ɣɛɾia/",
+        "simplified": "ge-REE-a"
+      },
+      "examples": [
+        {
+          "english": "Try to speak Kikuyu",
+          "kikuyu": "Geria gwĩka Gĩkũyũ",
+          "context": "Language learning encouragement"
+        },
+        {
+          "english": "I will try my best",
+          "kikuyu": "Nĩngwĩgerithia",
+          "context": "Promising effort"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kũgeria",
+        "verb_class": "ku-verb"
+      },
+      "tags": ["effort", "attempt", "perseverance", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    },
+    {
+      "id": "wk_verbs_013",
+      "english": "dig",
+      "kikuyu": "enja",
+      "category": "conjugations",
+      "subcategory": "agricultural_verbs",
+      "difficulty": "beginner",
+      "context": "Digging soil for farming or construction",
+      "cultural_notes": "Fundamental agricultural verb in Kikuyu farming culture. Digging is associated with preparation, hard work, and providing for the family",
+      "pronunciation": {
+        "ipa": "/ɛᶮdʑa/",
+        "simplified": "EN-ja"
+      },
+      "examples": [
+        {
+          "english": "Dig the field for planting",
+          "kikuyu": "Enja mũgũnda wa kũhaanda",
+          "context": "Agricultural preparation"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "infinitive": "kwenja",
+        "verb_class": "kw-verb"
+      },
+      "tags": ["agriculture", "farming", "physical_work", "beginner"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "dictionary",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Wiktionary",
+        "attribution": "Wiktionary Kikuyu verb entries",
+        "license": "CC-BY-SA",
+        "url": "https://en.wiktionary.org/wiki/Category:Kikuyu_verbs"
+      }
+    }
+  ]
+}

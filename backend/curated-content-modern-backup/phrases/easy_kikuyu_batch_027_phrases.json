@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.391221+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "273.txt"
+    ],
+    "total_entries": 4,
+    "description": "Converted from easy_kikuyu_batch_027_phrases.json (Integrated split entries)",
+    "last_updated": "2025-10-20T22:37:41.929664"
+  },
+  "entries": [
+    {
+      "id": "phrase-027-001_01",
+      "kikuyu": "Mweri mwerũ wa mũgwanja - a new seventh month",
+      "english": "July",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_02",
+      "kikuyu": "Rathimwo na mbeca nyingĩ - be blessed with a lot of money. Vocabulary: Mweri",
+      "english": "moon/month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_03",
+      "kikuyu": "Mweri mwerũ",
+      "english": "new month",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    },
+    {
+      "id": "phrase-027-001_04",
+      "kikuyu": "Rathimwo",
+      "english": "be blessed",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From New Month Blessing - July"
+    }
+  ]
+}

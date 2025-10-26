@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.338758+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "166.txt",
+      "170.txt",
+      "174.txt"
+    ],
+    "total_entries": 21,
+    "description": "Converted from easy_kikuyu_batch_017_phrases.json",
+    "last_updated": "2025-01-09T13:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase-017-001",
+      "english": "This is father",
+      "kikuyu": "Ũyũ nĩ baba",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-002",
+      "english": "This other one is mother",
+      "kikuyu": "Ũyũ ũngĩ nĩ maitũ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-003",
+      "english": "We are standing with my sister",
+      "kikuyu": "Tũrũgamĩte na mwarĩ wa maitũ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-004",
+      "english": "The tall one is my uncle",
+      "kikuyu": "Ũcio mũraihu nĩ mama",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-005",
+      "english": "Father is taking photographs",
+      "kikuyu": "Baba arahũra mbica",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 166",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-006",
+      "english": "I am sick",
+      "kikuyu": "Ndĩ mũrwaru",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-007",
+      "english": "I'm not feeling well",
+      "kikuyu": "Ndiraiguia wega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-008",
+      "english": "Go to hospital",
+      "kikuyu": "Thĩĩ thibitarĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-009",
+      "english": "Where are you hurting?",
+      "kikuyu": "Ũraatũũrwo nĩ kũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-010",
+      "english": "I have a headache",
+      "kikuyu": "Ndiraatũũrwo nĩ mũtwee",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-011",
+      "english": "Do you have a stomachache?",
+      "kikuyu": "Nĩ ũraatũũrwo nĩ nda?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-012",
+      "english": "I also have a toothache",
+      "kikuyu": "O na igego nĩ rĩraatũũra",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-013",
+      "english": "Go see a dentist",
+      "kikuyu": "Thĩĩ wone ndagĩtarĩ wa magego",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 170",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-014",
+      "english": "Knock knock knock (knocking sound)",
+      "kikuyu": "Ko ko ko",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-015",
+      "english": "Who is it?",
+      "kikuyu": "Nũũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-016",
+      "english": "It is me",
+      "kikuyu": "Nĩ nĩĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-017",
+      "english": "Whose Njeri? / Who is your father?",
+      "kikuyu": "Njeri wa ũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-018",
+      "english": "You are a visitor",
+      "kikuyu": "Wee wĩ mũgeni",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-019",
+      "english": "Enter",
+      "kikuyu": "Ingĩra",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-020",
+      "english": "Take tea / Have tea",
+      "kikuyu": "Nyua cai",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-017-021",
+      "english": "Go in peace",
+      "kikuyu": "Thĩĩ na wega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 174",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

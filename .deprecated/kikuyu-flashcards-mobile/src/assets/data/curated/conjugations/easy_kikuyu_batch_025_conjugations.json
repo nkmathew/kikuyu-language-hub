@@ -1,0 +1,26 @@
+{
+  "batch_info": {
+    "batch_number": "025",
+    "total_cards": 1,
+    "category": "conjugations",
+    "source_files": ["245.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T14:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-025-001",
+      "kikuyu": "Conditional Tense 2 - Gũthoma (to read/learn)",
+      "english": "Pattern: Subject + ngĩ + verb + no + result. 2nd Singular: Ũngĩthoma no ũhĩge? (if you read/learn, would you become sharp/clever?), 1st Singular: Ĩngĩthoma no njũhĩge (if I read/learn I would become sharp/clever), 1st Plural: Tũngĩthoma no tũhĩge (if we read/learn we would become sharp), 3rd Plural: Mangĩthoma no mohĩge (if they read/learn they would become sharp)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Conditional tense with consequence clause using 'no' (then). Vocabulary: Kũhĩga (to be sharp/clever), Kahiu kogĩ (sharp knife - adjective example). Shows if-then conditional structure across persons",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 245",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      }
+    }
+  ]
+}

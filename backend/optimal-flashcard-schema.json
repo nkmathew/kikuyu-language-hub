@@ -1,0 +1,361 @@
+{
+  "schema_metadata": {
+    "name": "Optimal Flashcard Schema",
+    "version": "1.0",
+    "created_date": "2025-10-19T00:00:00Z",
+    "description": "Optimal JSON schema for Kikuyu language flashcard content",
+    "based_on_analysis": "197 JSON files with 40 unique structures",
+    "recommended_for": [
+      "backend curated content",
+      "mobile app data structure",
+      "API response format",
+      "content validation"
+    ],
+    "compatible_with": [
+      "static web flashcards app (with DataLoader compatibility)",
+      "React Native mobile app",
+      "Android native app",
+      "RESTful APIs"
+    ]
+  },
+  "optimal_schema": {
+    "type": "object",
+    "required": ["metadata", "entries"],
+    "properties": {
+      "metadata": {
+        "type": "object",
+        "required": ["schema_version", "created_date", "curator", "source_files", "total_entries"],
+        "properties": {
+          "schema_version": {
+            "type": "string",
+            "description": "Version of this schema (e.g., '1.0')",
+            "example": "1.0"
+          },
+          "created_date": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When this content collection was created",
+            "example": "2025-10-19T00:00:00Z"
+          },
+          "last_updated": {
+            "type": "string",
+            "format": "date-time",
+            "description": "When this content was last updated",
+            "example": "2025-10-19T00:00:00Z"
+          },
+          "curator": {
+            "type": "string",
+            "description": "Person or system that curated this content",
+            "example": "Claude (Manual Curation)"
+          },
+          "source_files": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of original source files used for this curation",
+            "example": ["020.txt", "021.txt"]
+          },
+          "total_entries": {
+            "type": "integer",
+            "description": "Total number of content entries in this file",
+            "example": 2
+          },
+          "description": {
+            "type": "string",
+            "description": "Human-readable description of the content",
+            "example": "Advanced conjugation patterns from Easy Kikuyu - Batch 002"
+          }
+        }
+      },
+      "entries": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "english", "kikuyu", "category", "difficulty", "source"],
+          "properties": {
+            "id": {
+              "type": "string",
+              "description": "Unique identifier for this flashcard",
+              "example": "conj-002-001"
+            },
+            "english": {
+              "type": "string",
+              "description": "English translation of the flashcard",
+              "example": "I lit a fire"
+            },
+            "kikuyu": {
+              "type": "string",
+              "description": "Kikuyu text of the flashcard",
+              "example": "Ndakia"
+            },
+            "category": {
+              "type": "string",
+              "enum": ["vocabulary", "proverbs", "grammar", "conjugations", "cultural", "numbers", "phrases"],
+              "description": "Primary content category",
+              "example": "conjugations"
+            },
+            "subcategory": {
+              "type": "string",
+              "description": "More specific categorization",
+              "example": "verb_patterns"
+            },
+            "difficulty": {
+              "type": "string",
+              "enum": ["beginner", "intermediate", "advanced"],
+              "description": "Difficulty level for learners",
+              "example": "intermediate"
+            },
+            "context": {
+              "type": "string",
+              "description": "Context or usage notes for this content",
+              "example": "Special conjugation pattern for verbs that start with vowels"
+            },
+            "cultural_notes": {
+              "type": "string",
+              "description": "Cultural significance, background, or traditional usage",
+              "example": "Important grammatical pattern showing how vowel-initial verbs conjugate differently in past tenses"
+            },
+            "examples": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["english", "kikuyu"],
+                "properties": {
+                  "english": {
+                    "type": "string",
+                    "example": "I took a bath with cold water"
+                  },
+                  "kikuyu": {
+                    "type": "string",
+                    "example": "Ndethamba na maĩ mahoro"
+                  },
+                  "context": {
+                    "type": "string",
+                    "example": "Recent past"
+                  }
+                }
+              },
+              "description": "Usage examples showing the content in context"
+            },
+            "grammatical_info": {
+              "type": "object",
+              "properties": {
+                "part_of_speech": {
+                  "type": "string",
+                  "example": "verb"
+                },
+                "verb_class": {
+                  "type": "string",
+                  "example": "vowel_initial_verbs"
+                },
+                "noun_class": {
+                  "type": "string",
+                  "example": "class_3"
+                },
+                "infinitive": {
+                  "type": "string",
+                  "example": "akia"
+                },
+                "tense": {
+                  "type": "string",
+                  "example": "recent_past"
+                },
+                "subject_marker": {
+                  "type": "string",
+                  "example": "nda-"
+                }
+              },
+              "description": "Grammatical information about the entry"
+            },
+            "tags": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "description": "Searchable tags for content discovery",
+              "example": ["grammar", "verb patterns", "vowels", "conjugation"]
+            },
+            "quality": {
+              "type": "object",
+              "required": ["verified", "confidence_score", "source_quality"],
+              "properties": {
+                "verified": {
+                  "type": "boolean",
+                  "description": "Whether content has been verified by native speaker",
+                  "example": false
+                },
+                "confidence_score": {
+                  "type": "number",
+                  "minimum": 1.0,
+                  "maximum": 5.0,
+                  "description": "Confidence score (1-5) for accuracy",
+                  "example": 4.9
+                },
+                "source_quality": {
+                  "type": "string",
+                  "enum": ["native_speaker", "academic", "dictionary", "community", "automated"],
+                  "description": "Quality classification of original source",
+                  "example": "native_speaker"
+                },
+                "reviewer": {
+                  "type": "string",
+                  "description": "Name/ID of person who reviewed this entry",
+                  "example": "needs_native_speaker_review"
+                },
+                "review_date": {
+                  "type": "string",
+                  "format": "date-time",
+                  "description": "When this entry was reviewed",
+                  "example": "2025-10-19T00:00:00Z"
+                }
+              },
+              "description": "Quality verification information"
+            },
+            "source": {
+              "type": "object",
+              "required": ["origin"],
+              "properties": {
+                "origin": {
+                  "type": "string",
+                  "description": "Original source (Easy Kikuyu, Wiktionary, etc.)",
+                  "example": "Easy Kikuyu Facebook - Lesson 020"
+                },
+                "attribution": {
+                  "type": "string",
+                  "description": "Proper attribution for the source",
+                  "example": "Emmanuel Kariuki - Easy Kikuyu lessons"
+                },
+                "license": {
+                  "type": "string",
+                  "description": "License or usage terms",
+                  "example": "educational_use"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "URL to original source if available"
+                },
+                "created_date": {
+                  "type": "string",
+                  "format": "date-time",
+                  "description": "Date the source content was created",
+                  "example": "2025-10-19T00:00:00Z"
+                },
+                "last_updated": {
+                  "type": "string",
+                  "format": "date-time",
+                  "description": "Date the source content was last updated",
+                  "example": "2025-10-19T00:00:00Z"
+                }
+              },
+              "description": "Source attribution information"
+            }
+          }
+        },
+        "description": "Array of flashcard entries"
+      }
+    }
+  },
+  "example_usage": {
+    "metadata": {
+      "schema_version": "1.0",
+      "created_date": "2025-10-19T00:00:00Z",
+      "last_updated": "2025-10-19T00:00:00Z",
+      "curator": "Claude (Manual Curation)",
+      "source_files": ["020.txt"],
+      "total_entries": 1,
+      "description": "Advanced conjugation patterns from Easy Kikuyu - Batch 002 (past tense patterns with vowel-starting verbs)"
+    },
+    "entries": [
+      {
+        "id": "conj-002-001",
+        "english": "To light - I lit - I lit earlier today",
+        "kikuyu": "Akia - Ndakia | Njakirĩrie",
+        "category": "conjugations",
+        "subcategory": "verb_patterns",
+        "difficulty": "advanced",
+        "context": "Special conjugation pattern for verbs that start with vowels",
+        "cultural_notes": "Important grammatical pattern showing how vowel-initial verbs conjugate differently in past tenses",
+        "examples": [
+          {
+            "english": "to light (fire)",
+            "kikuyu": "Akia - Ndakia | Njakirĩrie",
+            "context": "vowel pattern"
+          },
+          {
+            "english": "to leave/move",
+            "kikuyu": "Ehera - Ndehera | Njeherĩre",
+            "context": "vowel pattern"
+          }
+        ],
+        "grammatical_info": {
+          "part_of_speech": "verb",
+          "pattern_type": "vowel_initial_verbs",
+          "recent_past_pattern": "Nda-/Nde-/Ndo- prefix",
+          "early_today_pattern": "Nj- prefix + -ĩre/-ire ending"
+        },
+        "tags": ["grammar", "verb patterns", "vowels", "conjugation", "advanced"],
+        "quality": {
+          "verified": false,
+          "confidence_score": 4.9,
+          "source_quality": "native_speaker",
+          "reviewer": "needs_native_speaker_review"
+        },
+        "source": {
+          "origin": "Easy Kikuyu Facebook - Lesson 020",
+          "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+          "license": "educational_use",
+          "created_date": "2025-10-19T00:00:00Z",
+          "last_updated": "2025-10-19T00:00:00Z"
+        }
+      }
+    ]
+  },
+  "implementation_notes": {
+    "flashcard_app_compatibility": {
+      "note": "The static flashcards web app will automatically handle this schema via DataLoader compatibility",
+      "mapping": "entries → flashcards (handled automatically in dataLoader.ts:283-284)",
+      "backward_compatibility": "Full support maintained for legacy batch_info/flashcards format"
+    },
+    "mobile_app_compatibility": {
+      "note": "This schema maps directly to Android CuratedContent models",
+      "direct_mapping": "All fields map 1:1 to CuratedContentEntry data class"
+    },
+    "api_compatibility": {
+      "note": "Perfect for REST API responses and database serialization"
+    },
+    "validation": {
+      "note": "Use this schema as the source of truth for data validation",
+      "recommended_validator": "JSON Schema or Zod for runtime validation"
+    }
+  },
+  "migration_strategy": {
+    "from_legacy": {
+      "batch_info_to_metadata": {
+        "batch_number": "description (if not present)",
+        "total_cards": "total_entries",
+        "category": "include in description",
+        "source_files": "preserve",
+        "created_date": "preserve",
+        "last_updated": "preserve"
+      },
+      "flashcards_to_entries": "Direct mapping (handled by DataLoader)",
+      "author_to_curator": "author → curator",
+      "additional_fields": {
+        "schema_version": "Add '1.0'",
+        "quality": "Add default quality object if missing"
+      }
+    },
+    "to_legacy": {
+      "metadata_to_batch_info": {
+        "curator": "author (if no batch_info exists)",
+        "total_entries": "total_cards",
+        "description": "Remove or include in batch_info.description",
+        "schema_version": "Remove"
+      },
+      "entries_to_flashcards": "Direct mapping",
+      "quality": "Remove if not needed by legacy system"
+    }
+  }
+}

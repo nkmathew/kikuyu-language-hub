@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.177542+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "245.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_025_conjugations.json",
+    "last_updated": "2025-10-19T12:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-025-001",
+      "english": "Conditional Tense 2 - Gũthoma (to read/learn)",
+      "kikuyu": "Conditional Tense 2 - Gũthoma (to read/learn)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 245",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "If you read/learn, would you become sharp/clever?",
+          "kikuyu": "Ũngĩthoma no ũhĩge?",
+          "notes": "2nd person singular conditional with result question"
+        },
+        {
+          "english": "If I read/learn I would become sharp/clever",
+          "kikuyu": "Ĩngĩthoma no njũhĩge",
+          "notes": "1st person singular conditional with result statement"
+        },
+        {
+          "english": "If we read/learn we would become sharp",
+          "kikuyu": "Tũngĩthoma no tũhĩge",
+          "notes": "1st person plural conditional with result statement"
+        },
+        {
+          "english": "If they read/learn they would become sharp",
+          "kikuyu": "Mangĩthoma no mohĩge",
+          "notes": "3rd person plural conditional with result statement"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "conditional",
+        "persons": ["1st person singular", "1st person plural", "2nd person singular", "3rd person plural"],
+        "pattern": {
+          "structure": "Subject + -ngĩ- + verb + no + result",
+          "1st person singular": "Ĩ- + -ngĩ- + verb stem",
+          "1st person plural": "Tũ- + -ngĩ- + verb stem",
+          "2nd person singular": "Ũ- + -ngĩ- + verb stem",
+          "3rd person plural": "Ma- + -ngĩ- + verb stem"
+        },
+        "notes": "The 'no' connector is used between the condition and result clauses in this type of conditional construction"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

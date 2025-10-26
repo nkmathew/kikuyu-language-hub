@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.431597+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "176.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_018_proverbs.json",
+    "last_updated": "2025-01-08T11:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "proverb-018-001",
+      "english": "Person with lame heart is not same as person with lame leg (It is not easy to know one with ill mind)",
+      "kikuyu": "Mũthua ngoro ti Mũthua Kũgũrũ",
+      "category": "proverbs",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 176",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

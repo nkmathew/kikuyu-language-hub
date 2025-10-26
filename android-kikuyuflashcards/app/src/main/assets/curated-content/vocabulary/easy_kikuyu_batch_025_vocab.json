@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.564922+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "247.txt",
+      "248.txt",
+      "249.txt",
+      "251.txt",
+      "252.txt",
+      "253.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_025_vocab.json",
+    "last_updated": "2025-01-08T14:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "vocab-025-001",
+      "english": "Ndiiyũ (eagle)",
+      "kikuyu": "Birds - Eagle",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 247",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T14:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

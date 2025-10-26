@@ -1,0 +1,192 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.171753+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "227.txt",
+      "228.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_023_conjugations.json",
+    "last_updated": "2025-10-19T12:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-023-001",
+      "english": "Past Tense - Two Types (Moments Ago & Early Today)",
+      "kikuyu": "Past Tense - Two Types (Moments Ago & Early Today)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 227",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "I started",
+          "kikuyu": "Ndokĩra",
+          "notes": "1st person singular, moments ago past tense (kũra - to start)"
+        },
+        {
+          "english": "We started",
+          "kikuyu": "Twokĩra",
+          "notes": "1st person plural, moments ago past tense (kũra - to start)"
+        },
+        {
+          "english": "You started",
+          "kikuyu": "Wokĩra",
+          "notes": "2nd person singular, moments ago past tense (kũra - to start)"
+        },
+        {
+          "english": "You all started",
+          "kikuyu": "Mwokĩra",
+          "notes": "2nd person plural, moments ago past tense (kũra - to start)"
+        },
+        {
+          "english": "He/She started",
+          "kikuyu": "Okĩra",
+          "notes": "3rd person singular, moments ago past tense (kũra - to start)"
+        },
+        {
+          "english": "They started",
+          "kikuyu": "Mokĩra",
+          "notes": "3rd person plural, moments ago past tense (kũra - to start)"
+        },
+        {
+          "english": "I started ten minutes ago",
+          "kikuyu": "Ndokĩra dagĩka ikũmi ciathira",
+          "notes": "Example sentence using moments ago past tense"
+        },
+        {
+          "english": "I showered",
+          "kikuyu": "Ndĩthambire",
+          "notes": "1st person singular, early today past tense (kwĩthamba - to shower)"
+        },
+        {
+          "english": "We showered",
+          "kikuyu": "Twĩthambire",
+          "notes": "1st person plural, early today past tense (kwĩthamba - to shower)"
+        },
+        {
+          "english": "You showered",
+          "kikuyu": "Wĩthambire",
+          "notes": "2nd person singular, early today past tense (kwĩthamba - to shower)"
+        },
+        {
+          "english": "You all showered",
+          "kikuyu": "Mwĩthambire",
+          "notes": "2nd person plural, early today past tense (kwĩthamba - to shower)"
+        },
+        {
+          "english": "He/She showered",
+          "kikuyu": "Ethambire",
+          "notes": "3rd person singular, early today past tense (kwĩthamba - to shower)"
+        },
+        {
+          "english": "They showered",
+          "kikuyu": "Methambire",
+          "notes": "3rd person plural, early today past tense (kwĩthamba - to shower)"
+        },
+        {
+          "english": "I showered with warm water",
+          "kikuyu": "Ndĩthambire na maĩ mahoro",
+          "notes": "Example sentence using early today past tense"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": ["past - moments ago", "past - early today"],
+        "persons": ["1st person singular", "1st person plural", "2nd person singular", "2nd person plural", "3rd person singular", "3rd person plural"],
+        "pattern": {
+          "moments ago": {
+            "1st person singular": "Ndo- + verb stem + -ĩra",
+            "1st person plural": "Two- + verb stem + -ĩra",
+            "2nd person singular": "Wo- + verb stem + -ĩra",
+            "2nd person plural": "Mwo- + verb stem + -ĩra",
+            "3rd person singular": "O- + verb stem + -ĩra",
+            "3rd person plural": "Mo- + verb stem + -ĩra"
+          },
+          "early today": {
+            "1st person singular": "Ndĩ- + verb stem + -ire",
+            "1st person plural": "Twĩ- + verb stem + -ire",
+            "2nd person singular": "Wĩ- + verb stem + -ire",
+            "2nd person plural": "Mwĩ- + verb stem + -ire",
+            "3rd person singular": "E- + verb stem + -ire",
+            "3rd person plural": "Me- + verb stem + -ire"
+          }
+        },
+        "notes": "Kikuyu distinguishes between actions that happened moments ago versus actions that happened earlier today"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-023-002",
+      "english": "Conditional Tense (Kũmenya - to know)",
+      "kikuyu": "Conditional Tense (Kũmenya - to know)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 228",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "If I knew, what would I do?",
+          "kikuyu": "Ĩngĩmenya ingĩka atĩa?",
+          "notes": "1st person singular conditional"
+        },
+        {
+          "english": "If we knew, what would we do?",
+          "kikuyu": "Tũngĩmenya tũngĩka atĩa?",
+          "notes": "1st person plural conditional"
+        },
+        {
+          "english": "If you knew, what would you do?",
+          "kikuyu": "Ũngĩmenya ũngĩka atĩa?",
+          "notes": "2nd person singular conditional"
+        },
+        {
+          "english": "If you all knew, what would you all do?",
+          "kikuyu": "Mũngĩmenya mũngĩka atĩa?",
+          "notes": "2nd person plural conditional"
+        },
+        {
+          "english": "If he/she knew, what would he/she do?",
+          "kikuyu": "Angĩmenya angĩka atĩa?",
+          "notes": "3rd person singular conditional"
+        },
+        {
+          "english": "If they knew, what would they do?",
+          "kikuyu": "Mangĩmenya mangĩka atĩa?",
+          "notes": "3rd person plural conditional"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "conditional",
+        "persons": ["1st person singular", "1st person plural", "2nd person singular", "2nd person plural", "3rd person singular", "3rd person plural"],
+        "pattern": {
+          "1st person singular": "Ĩ- + -ngĩ- + verb stem",
+          "1st person plural": "Tũ- + -ngĩ- + verb stem",
+          "2nd person singular": "Ũ- + -ngĩ- + verb stem",
+          "2nd person plural": "Mũ- + -ngĩ- + verb stem",
+          "3rd person singular": "A- + -ngĩ- + verb stem",
+          "3rd person plural": "Ma- + -ngĩ- + verb stem"
+        },
+        "notes": "The conditional marker '-ngĩ-' is used twice in conditional sentences: once with the condition verb and once with the result verb"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

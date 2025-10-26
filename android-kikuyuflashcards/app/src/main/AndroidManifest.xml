@@ -1,0 +1,93 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".KikuyuFlashCardsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KikuyuFlashCards">
+
+        <activity android:name=".MainActivityWithBottomNav"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+
+        <!-- Flash Card Activity -->
+        <activity android:name=".FlashCardActivity" 
+            android:label="Kikuyu FlashCards"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+        
+        <!-- Quiz Activity -->
+        <activity android:name=".QuizActivity" 
+            android:label="Quiz Mode"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+        
+        <!-- Statistics Activity -->
+        <activity android:name=".StatisticsActivity" 
+            android:label="Learning Statistics"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+        
+        <!-- Category Selector Activity -->
+        <activity android:name=".CategorySelectorActivity" 
+            android:label="Select Category"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Fill-in-the-Blank Activity -->
+        <activity android:name=".FillInTheBlankActivity" 
+            android:label="Fill in the Blank"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Cloze Test Activity -->
+        <activity android:name=".ClozeTestActivity" 
+            android:label="Cloze Test"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Multiple Response Game Activity -->
+        <activity android:name=".MultipleResponseGameActivity" 
+            android:label="Response Games"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Problem Words Activity -->
+        <activity android:name=".ProblemWordsActivity" 
+            android:label="Problem Words"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Problem Words Practice Activity -->
+        <activity android:name=".ProblemWordsPracticeActivity" 
+            android:label="Practice Problem Words"
+            android:parentActivityName=".ProblemWordsActivity" />
+
+        <!-- Settings Activity -->
+        <activity android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Enhanced Flash Card Activity -->
+        <activity android:name=".EnhancedFlashCardActivity"
+            android:label="Enhanced Flashcards"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Study List Activity -->
+        <activity android:name=".StudyListActivity"
+            android:label="Study Mode"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Flagged Translations Activity -->
+        <activity android:name=".FlaggedTranslationsActivity"
+            android:label="Flagged Translations"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Flash Card Style Activity -->
+        <activity android:name=".FlashCardStyleActivity"
+            android:label="Flash Card Style"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+    </application>
+</manifest>

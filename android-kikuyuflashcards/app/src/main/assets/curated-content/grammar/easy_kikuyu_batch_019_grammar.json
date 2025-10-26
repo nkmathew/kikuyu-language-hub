@@ -1,0 +1,137 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.270568+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "188.txt",
+      "190.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_019_grammar.json",
+    "last_updated": "2025-10-19T12:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "grammar-019-001",
+      "english": "Agent/Patient Noun Formation (Review)",
+      "kikuyu": "Agent/Patient Noun Formation (Review)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 188",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "chaser (one who chases)",
+          "kikuyu": "Mũingatani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "teacher (one who teaches)",
+          "kikuyu": "Mũrutani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "beater (one who beats)",
+          "kikuyu": "Mũhurani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "one being chased",
+          "kikuyu": "Mũingatwo",
+          "notes": "patient noun with -wo suffix"
+        },
+        {
+          "english": "student (one being taught)",
+          "kikuyu": "Mũrutwo",
+          "notes": "patient noun with -wo suffix"
+        },
+        {
+          "english": "one being beaten",
+          "kikuyu": "Mũhurwo",
+          "notes": "patient noun with -wo suffix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "grammatical_feature": "derivational morphology",
+        "structure": {
+          "agent formation": "Mũ- + verb stem + -ani",
+          "patient formation": "Mũ- + verb stem + -wo"
+        },
+        "notes": "Kikuyu uses a productive derivational system to create agent nouns (doers of actions) and patient nouns (receivers of actions) from verb stems. These derived nouns belong to Class 1/2 with Mũ-/A- prefixes."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-019-002",
+      "english": "Imperative Forms (Commands)",
+      "kikuyu": "Imperative Forms (Commands)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 190-191",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "buy!",
+          "kikuyu": "Gũra",
+          "notes": "imperative form of kũgũra (to buy)"
+        },
+        {
+          "english": "close!",
+          "kikuyu": "Hinga",
+          "notes": "imperative form of kũhinga (to close)"
+        },
+        {
+          "english": "open!",
+          "kikuyu": "Hingũra",
+          "notes": "imperative form of kũhingũra (to open)"
+        },
+        {
+          "english": "stand!",
+          "kikuyu": "Rũgama",
+          "notes": "imperative form of kũrũgama (to stand)"
+        },
+        {
+          "english": "speak!",
+          "kikuyu": "Aria",
+          "notes": "imperative form of kwaria (to speak)"
+        },
+        {
+          "english": "Speak to your friends",
+          "kikuyu": "Aria na arata aku",
+          "notes": "Imperative with prepositional phrase"
+        },
+        {
+          "english": "Close the door and let us go",
+          "kikuyu": "Hinga mũrango tuthĩĩ",
+          "notes": "Imperative followed by subjunctive"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "imperative mood",
+        "structure": {
+          "formation": "Remove kũ-/kw- prefix from infinitive form",
+          "plural commands": "Add -i suffix to singular imperative"
+        },
+        "notes": "The imperative (command) form in Kikuyu is formed by removing the infinitive prefix kũ-/kw- from the verb. For commands directed at multiple people, an -i suffix is added to the singular imperative form."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

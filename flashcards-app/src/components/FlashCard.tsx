@@ -12,7 +12,9 @@ interface FlashCardProps {
   onPrevious?: () => void;
   onMarkKnown?: () => void;
   onMarkUnknown?: () => void;
+  onToggleFlag?: () => void;
   isKnown?: boolean;
+  isFlagged?: boolean;
   className?: string;
 }
 
@@ -24,7 +26,9 @@ export default function FlashCard({
   onPrevious,
   onMarkKnown,
   onMarkUnknown,
+  onToggleFlag,
   isKnown = false,
+  isFlagged = false,
   className = ''
 }: FlashCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -155,15 +159,24 @@ export default function FlashCard({
   }, [isFlipped, isKnown, onFlip, onNext, onPrevious, onMarkKnown, onMarkUnknown, handleCopyCard]);
 
   return (
-    <div className={`w-full max-w-7xl mx-auto ${className}`}>
-      {/* Card Status Indicator */}
-      {isKnown && (
-        <div className="flex justify-center mb-4">
-          <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
-            ✓ Known Card
-          </span>
-        </div>
-      )}
+    <div className={`w-full max-w-7xl mx-auto ${isFlagged ? 'bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800 rounded-lg p-4' : ''} ${className}`}>
+      {/* Card Status Indicators */}
+      <div className="flex justify-between items-center mb-4">
+        {isFlagged && (
+          <div className="flex items-center gap-2">
+            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-red-600 text-white">
+              🚩 Flagged for review
+            </span>
+          </div>
+        )}
+        {isKnown && (
+          <div className="flex justify-end">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">
+              ✓ Known Card
+            </span>
+          </div>
+        )}
+      </div>
 
       {/* Two Column Layout for Wide Screens */}
       <div className="flex flex-col xl:flex-row xl:gap-8 xl:items-start">
@@ -371,6 +384,14 @@ export default function FlashCard({
                 className={`btn ${isKnown ? 'btn-warning' : 'btn-success'} flex items-center`}
               >
                 {isKnown ? '❌ Mark as Unknown' : '✅ Mark as Known'}
+              </button>
+              
+              <button
+                onClick={onToggleFlag}
+                className={`btn ${isFlagged ? 'btn-danger' : 'btn-secondary'} flex items-center`}
+                title={isFlagged ? 'Remove flag' : 'Flag for review'}
+              >
+                {isFlagged ? '🚩 Flagged' : '🏳️ Flag'}
               </button>
               
               <button

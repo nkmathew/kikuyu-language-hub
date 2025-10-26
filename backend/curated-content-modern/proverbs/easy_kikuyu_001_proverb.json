@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.408292+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_001_proverb.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-90034849",
+      "english": "the person in need is not ashamed",
+      "kikuyu": "Ũbataire ndaconokaga",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Traditional proverb teaching that those in need should not feel ashamed to ask for help",
+      "cultural_notes": "This proverb emphasizes Kikuyu cultural values of community support and removing stigma from asking for assistance",
+      "examples": [
+        {
+          "kikuyu": "Nĩ ũrabatara?",
+          "english": "Do you need?",
+          "context": "Also: Nĩ ũbataire?"
+        },
+        {
+          "kikuyu": "Kaĩ ũtangiconoka?",
+          "english": "Are you not ashamed?",
+          "context": "Kaĩ implies pity or regret"
+        }
+      ],
+      "grammatical_info": {
+        "related_verbs": [
+          {
+            "infinitive": "kũbatara",
+            "meaning": "to need",
+            "noun_form": "bata (need)"
+          },
+          {
+            "infinitive": "gũconoka",
+            "meaning": "to be ashamed"
+          },
+          {
+            "infinitive": "gũconora",
+            "meaning": "to shame (someone)"
+          }
+        ]
+      },
+      "tags": [
+        "community",
+        "support",
+        "shame",
+        "traditional values"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "019",
+    "total_cards": 2,
+    "category": "phrases",
+    "source_files": ["191.txt", "194.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T11:30:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "phrase-019-001",
+      "kikuyu": "Command Sentences - Practice",
+      "english": "Rũgama na mwena (Stand on the side), Gũrĩra mũgate na iria (Buy me bread), Aria na arata aku (Speak to your friends), Hinga mũrango tuthĩĩ (Close the door and let us go), Hingũra ibuku tuthoome (Open the book we read)",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "notes": "Complete imperative sentences showing practical commands. Pattern: Imperative + object/location. Tuthĩĩ = let us go (subjunctive), Tuthoome = let us read (subjunctive)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 191",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      }
+    },
+    {
+      "id": "phrase-019-002",
+      "kikuyu": "Nī ndīrakena na gīthūmū gīkī",
+      "english": "I am happy with this lesson",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "notes": "Expression of satisfaction with learning. Gīthūmū = lesson. Pattern: Nī ndīrakena na... = I am happy with...",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 194",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      }
+    }
+  ]
+}

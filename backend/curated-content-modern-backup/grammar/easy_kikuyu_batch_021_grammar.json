@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.276874+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "206.txt",
+      "211.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_021_grammar.json",
+    "last_updated": "2025-10-19T12:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "grammar-021-001",
+      "english": "Consonant Practice Sentences - T, Th, Ny",
+      "kikuyu": "Consonant Practice Sentences - T, Th, Ny",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 206",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "forever and ever",
+          "kikuyu": "Tene na tene na tene",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "cut fabric 5 times",
+          "kikuyu": "Tinia taama maita matano",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "count money",
+          "kikuyu": "Tara mbeca",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "accomplish",
+          "kikuyu": "Tooria",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "complain",
+          "kikuyu": "Teta",
+          "notes": "T sound practice"
+        },
+        {
+          "english": "this plate is clean",
+          "kikuyu": "Thaani ĩno nĩ theru",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "read without joking",
+          "kikuyu": "Thooma ũtarĩ na itherũ",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "move away from here",
+          "kikuyu": "Thenga/ehera haha",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "behind the house",
+          "kikuyu": "Thutha wa nyumba",
+          "notes": "Th sound practice"
+        },
+        {
+          "english": "cook tomatoes and greens",
+          "kikuyu": "Ruga nyanya na nyeni",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "Mũrarũ is a snake",
+          "kikuyu": "Mũrarũ nĩ nyoka",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "wild animals",
+          "kikuyu": "Nyamũ cia gĩthaka",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "vegetables are good",
+          "kikuyu": "Nyeni nĩ njega",
+          "notes": "Ny sound practice"
+        },
+        {
+          "english": "cockroach is dirty",
+          "kikuyu": "Nyenje ĩ gĩko",
+          "notes": "Ny sound practice"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "T sounds": "Unaspirated alveolar stop",
+          "Th sounds": "Aspirated alveolar stop",
+          "Ny sounds": "Palatal nasal"
+        },
+        "notes": "These practice sentences help learners distinguish between similar consonant sounds in Kikuyu. The T/Th contrast is important for correct pronunciation, as is the Ny palatal nasal sound which is common in Bantu languages."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-021-002",
+      "english": "Large Numbers System (11-1,000,000)",
+      "kikuyu": "Large Numbers System (11-1,000,000)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 211",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "11",
+          "kikuyu": "Ikumi na ĩmwe",
+          "notes": "10 + 1"
+        },
+        {
+          "english": "12",
+          "kikuyu": "Ikũmi na igĩrĩ",
+          "notes": "10 + 2"
+        },
+        {
+          "english": "13",
+          "kikuyu": "Ikũmi na ithatũ",
+          "notes": "10 + 3"
+        },
+        {
+          "english": "20",
+          "kikuyu": "Mĩrongo ĩĩrĩ",
+          "notes": "2 tens (mĩrongo = archaic for 'ten')"
+        },
+        {
+          "english": "21",
+          "kikuyu": "Mĩrongo ĩĩrĩ na ĩmwe",
+          "notes": "2 tens and 1"
+        },
+        {
+          "english": "30",
+          "kikuyu": "Mĩrongo ĩtatũ",
+          "notes": "3 tens"
+        },
+        {
+          "english": "99",
+          "kikuyu": "Mĩrongo kenda na kenda",
+          "notes": "9 tens and 9"
+        },
+        {
+          "english": "100",
+          "kikuyu": "Igana rĩmwe",
+          "notes": "1 hundred"
+        },
+        {
+          "english": "101",
+          "kikuyu": "Igana rĩmwe na ĩmwe",
+          "notes": "1 hundred and 1"
+        },
+        {
+          "english": "120",
+          "kikuyu": "Igana rĩmwe rĩa mĩrongo ĩĩrĩ",
+          "notes": "1 hundred of 2 tens"
+        },
+        {
+          "english": "141",
+          "kikuyu": "Igana rĩmwe rĩa mĩrongo ĩna na ĩmwe",
+          "notes": "1 hundred of 4 tens and 1"
+        },
+        {
+          "english": "199",
+          "kikuyu": "Igana rĩmwe rĩa mĩrongo kenda na kenda",
+          "notes": "1 hundred of 9 tens and 9"
+        },
+        {
+          "english": "1000",
+          "kikuyu": "Ngiri ĩmwe",
+          "notes": "1 thousand"
+        },
+        {
+          "english": "1,000,000",
+          "kikuyu": "Mirioni ĩmwe",
+          "notes": "1 million (borrowed from English)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "numeral",
+        "grammatical_feature": "number system",
+        "structure": {
+          "11-19": "Ikũmi na [1-9]",
+          "20-99": "Mĩrongo [2-9] (na [1-9])",
+          "100-999": "Igana rĩmwe rĩa [tens and units]",
+          "1000+": "Ngiri [number]",
+          "1000000+": "Mirioni [number]"
+        },
+        "notes": "The Kikuyu number system uses a decimal base (groups of 10). For numbers 20 and above, it uses the archaic form 'mĩrongo' (tens) followed by the number of tens. Higher numbers use a possessive construction with 'rĩa' (of) connecting hundreds to the smaller units."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

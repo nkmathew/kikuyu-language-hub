@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.116267+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_011_moments_ago.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-24370899",
+      "english": "I drank tea and ate bread",
+      "kikuyu": "Ndanyua cai na ndarĩa mũgate",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Recent past tense - describing actions that just happened (moments ago)",
+      "cultural_notes": "Common everyday expressions for recent actions. Note the use of 'na' (and) to connect actions.",
+      "examples": [
+        {
+          "kikuyu": "Ndanyua cai na ndarĩa mũgate",
+          "english": "I drank tea and ate bread",
+          "context": "Moments ago - recent past"
+        },
+        {
+          "kikuyu": "Ndahehe irio metha-inĩ",
+          "english": "I brought food to the table",
+          "context": "Moments ago - recent past"
+        }
+      ],
+      "grammatical_info": {
+        "tense": "recent_past",
+        "subject_marker": "nda-",
+        "verbs": [
+          {
+            "infinitive": "kũnyua",
+            "meaning": "to drink",
+            "conjugated": "ndanyua"
+          },
+          {
+            "infinitive": "kũrĩa",
+            "meaning": "to eat",
+            "conjugated": "ndarĩa"
+          },
+          {
+            "infinitive": "kũheha",
+            "meaning": "to bring",
+            "conjugated": "ndahehe"
+          }
+        ]
+      },
+      "tags": [
+        "past tense",
+        "daily actions",
+        "verbs",
+        "eating",
+        "drinking"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

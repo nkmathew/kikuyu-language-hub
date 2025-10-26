@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.242488+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "086.txt",
+      "089.txt",
+      "090.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_009_grammar.json",
+    "last_updated": "2025-01-08T06:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "gram-009-001",
+      "english": "Monosyllable 'O' - them/any/even/whenever modifier",
+      "kikuyu": "O (particle)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 086",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "examples": [
+        "O (them; they)",
+        "O yothe (any)",
+        "O kûrîa maikagia maitho (Wherever they looked)",
+        "O rîrîa (when; whenever)",
+        "O hîndî o yothe (any time)",
+        "Mûndû o wothe (any person; every person)",
+        "O na kûrî o ûgûo (however; nevertheless)",
+        "Kî'ande o kîrîa (the same shoulder)",
+        "O na ndangîetîkîrîre (He/she would even not have agreed)",
+        "O ta mûndû (just like a person)",
+        "O rîmwe (suddenly; just once)",
+        "O na ndirarîrîkana (I don't even remember)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-009-002",
+      "english": "Nine essential monosyllables with distinct meanings",
+      "kikuyu": "Monosyllable words: Ha, He, Ke, Ma, Nda, Nja, No, O, Ta",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lessons 089-090",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

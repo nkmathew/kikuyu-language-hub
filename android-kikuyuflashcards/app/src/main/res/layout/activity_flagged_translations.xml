@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_background">
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@color/dark_surface">
+
+        <Button
+            android:id="@+id/exportButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="📋 Copy"
+            android:textSize="12sp"
+            android:backgroundTint="@color/md_theme_light_primary"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/shareButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="4dp"
+            android:text="📧 Email"
+            android:textSize="12sp"
+            android:backgroundTint="@color/info_blue"
+            style="@style/Widget.Material3.Button" />
+
+        <Button
+            android:id="@+id/clearAllButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="🗑️ Clear"
+            android:textSize="12sp"
+            android:backgroundTint="@color/warning_color"
+            style="@style/Widget.Material3.Button" />
+
+    </LinearLayout>
+
+    <!-- Flagged Count Header -->
+    <TextView
+        android:id="@+id/flaggedCountHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flagged Translations: 0/554"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/dark_on_surface_variant"
+        android:background="@color/dark_surface_variant"
+        android:paddingVertical="8dp"
+        android:paddingHorizontal="16dp"
+        android:gravity="center"
+        android:visibility="visible" />
+
+    <!-- Empty State -->
+    <TextView
+        android:id="@+id/emptyStateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="No flagged translations found.\nFlag translations in the study list to see them here."
+        android:textSize="16sp"
+        android:textColor="@color/dark_on_surface_variant"
+        android:padding="32dp"
+        android:visibility="gone" />
+
+    <!-- RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="4dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>

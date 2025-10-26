@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.298245+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "common_expressions"
+    ],
+    "total_entries": 5,
+    "description": "Common greeting phrases and everyday expressions in Kikuyu",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase_greeting_001",
+      "english": "How are you?",
+      "kikuyu": "Wĩ mwega?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard greeting",
+        "license": "educational_use"
+      },
+      "subcategory": "greetings",
+      "context": "Common greeting to ask about someone's well-being",
+      "cultural_notes": "This is the most common way to greet someone in Kikuyu. Literal meaning is 'Are you well?'",
+      "examples": [
+        {
+          "english": "I am well",
+          "kikuyu": "Ndĩ mwega",
+          "context": "Standard response to greeting"
+        },
+        {
+          "english": "I am not well",
+          "kikuyu": "Ndirĩ mwega",
+          "context": "When you're not feeling well"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "wĩ (you are), mwega (well/good)"
+      },
+      "tags": [
+        "greeting",
+        "common",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_greeting_002",
+      "english": "Good morning",
+      "kikuyu": "Wĩhoro",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard greeting",
+        "license": "educational_use"
+      },
+      "subcategory": "greetings",
+      "context": "Morning greeting",
+      "cultural_notes": "Used from dawn until around 10-11 AM",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase"
+      },
+      "tags": [
+        "greeting",
+        "morning",
+        "beginner",
+        "time-specific"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_thankyou_001",
+      "english": "Thank you",
+      "kikuyu": "Nĩ wega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard courtesy expression",
+        "license": "educational_use"
+      },
+      "subcategory": "courtesy",
+      "context": "Expression of gratitude",
+      "cultural_notes": "Literal meaning is 'it is good/well'. Very common polite expression.",
+      "examples": [
+        {
+          "english": "Thank you very much",
+          "kikuyu": "Nĩ wega mũno",
+          "context": "Emphatic gratitude"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "nĩ (it is), wega (good/well), mũno (very much)"
+      },
+      "tags": [
+        "gratitude",
+        "courtesy",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_question_001",
+      "english": "What is your name?",
+      "kikuyu": "Wĩtagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard introduction phrase",
+        "license": "educational_use"
+      },
+      "subcategory": "introductions",
+      "context": "Asking someone's name",
+      "cultural_notes": "Common phrase when meeting someone new. Literal: 'You are called what?'",
+      "examples": [
+        {
+          "english": "My name is...",
+          "kikuyu": "Ndetagwo...",
+          "context": "Introducing yourself"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "wĩtagwo (you are called), atĩa (what)"
+      },
+      "tags": [
+        "introduction",
+        "question",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "phrase_courtesy_001",
+      "english": "Please",
+      "kikuyu": "Ndagũthaitha",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Common Kikuyu expressions",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Standard courtesy expression",
+        "license": "educational_use"
+      },
+      "subcategory": "courtesy",
+      "context": "Polite request",
+      "cultural_notes": "Literally means 'I beg you'. Essential for polite conversation.",
+      "examples": [
+        {
+          "english": "Please help me",
+          "kikuyu": "Ndagũthaitha ũndeithie",
+          "context": "Polite request for assistance"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "notes": "From gũthaitha (to beg/plead)"
+      },
+      "tags": [
+        "courtesy",
+        "request",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

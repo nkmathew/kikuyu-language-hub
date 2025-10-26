@@ -39,3 +39,18 @@ yarn-error.log*
 # Other copies are synced via sync-curated-content script
 flashcards-app/public/data/curated/
 kikuyu-flashcards-mobile/src/assets/data/curated/
+
+# Android native project (keep android/ tracked, ignore artifacts/secrets)
+android/.gradle/
+android/.idea/
+android/local.properties
+android/build/
+android/app/build/
+android/**/captures/
+*.iml
+*.keystore
+android/app/debug.keystore
+
+.schema-types/
+*.stackdump
+bash.exe.stackdump

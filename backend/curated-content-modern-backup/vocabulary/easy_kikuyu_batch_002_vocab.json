@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.469223+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "015.txt",
+      "019.txt",
+      "024.txt"
+    ],
+    "total_entries": 3,
+    "description": "Vocabulary from Easy Kikuyu Facebook lessons by Emmanuel Kariuki - Batch 002 (fruits, days of week, time)",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_vocab_batch002_001",
+      "english": "fruits",
+      "kikuyu": "matunda",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 015",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "food",
+      "context": "General term for fruits, with specific fruit vocabulary",
+      "cultural_notes": "Common tropical and local fruits in Kikuyu-speaking regions",
+      "examples": [
+        {
+          "english": "lemon",
+          "kikuyu": "ndimũ",
+          "context": "citrus"
+        },
+        {
+          "english": "mango",
+          "kikuyu": "ĩembe/maembe",
+          "context": "tropical fruit"
+        },
+        {
+          "english": "avocado",
+          "kikuyu": "ikorobia/makorobia",
+          "context": "common"
+        },
+        {
+          "english": "pineapple",
+          "kikuyu": "inanathi/mananathi",
+          "context": "tropical"
+        },
+        {
+          "english": "guava",
+          "kikuyu": "mabera",
+          "context": "local fruit"
+        },
+        {
+          "english": "ripe bananas",
+          "kikuyu": "irĩgũ rĩrũ/marĩgũ meru",
+          "context": "fruit"
+        },
+        {
+          "english": "pawpaw",
+          "kikuyu": "ĩbabaĩ/mababaĩ",
+          "context": "tropical"
+        },
+        {
+          "english": "tangerine",
+          "kikuyu": "thandara",
+          "context": "citrus"
+        },
+        {
+          "english": "orange",
+          "kikuyu": "ĩcungwa",
+          "context": "citrus"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun"
+      },
+      "tags": [
+        "food",
+        "fruits",
+        "beginner",
+        "vocabulary"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_vocab_batch002_002",
+      "english": "days of the week",
+      "kikuyu": "mĩthenya ya wiki",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 019",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "time_expressions",
+      "context": "All seven days of the week in Kikuyu",
+      "cultural_notes": "Mix of Kiswahili borrowings (Monday, Saturday) and native Kikuyu counting system",
+      "examples": [
+        {
+          "english": "Monday",
+          "kikuyu": "Njumatatũ",
+          "context": "from Kiswahili, common usage"
+        },
+        {
+          "english": "Tuesday",
+          "kikuyu": "(Mũthenya) wa kerĩ",
+          "context": "the second day"
+        },
+        {
+          "english": "Wednesday",
+          "kikuyu": "(Mũthenya) wa gatatũ",
+          "context": "the third day"
+        },
+        {
+          "english": "Thursday",
+          "kikuyu": "(Mũthenya) wa kana",
+          "context": "the fourth day"
+        },
+        {
+          "english": "Friday",
+          "kikuyu": "(Mũthenya) wa gatano",
+          "context": "the fifth day"
+        },
+        {
+          "english": "Saturday",
+          "kikuyu": "(Mũthenya) wa Jumamothi",
+          "context": "from Kiswahili jumamosi"
+        },
+        {
+          "english": "Sunday",
+          "kikuyu": "(Mũthenya) wa Kĩumia",
+          "context": "day of stopping/resting"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "notes": "Sunday literal meaning: day of coming out/stopping what you're doing"
+      },
+      "tags": [
+        "time",
+        "days",
+        "week",
+        "calendar",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_vocab_batch002_003",
+      "english": "taste",
+      "kikuyu": "cama",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 015",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "sensory",
+      "context": "Vocabulary for describing taste sensations",
+      "cultural_notes": "Essential vocabulary for describing food flavors",
+      "examples": [
+        {
+          "english": "to have sour taste",
+          "kikuyu": "kũgagata",
+          "context": "verb"
+        },
+        {
+          "english": "sweet taste",
+          "kikuyu": "mũrio",
+          "context": "noun"
+        },
+        {
+          "english": "to have bitter taste",
+          "kikuyu": "kũrũra",
+          "context": "verb"
+        },
+        {
+          "english": "sugar",
+          "kikuyu": "cukari",
+          "context": "sweetener"
+        },
+        {
+          "english": "salt",
+          "kikuyu": "cumbĩ",
+          "context": "seasoning"
+        },
+        {
+          "english": "over sweetened",
+          "kikuyu": "kũrũra cukari",
+          "context": "too much sugar"
+        },
+        {
+          "english": "over salted",
+          "kikuyu": "kũrũra cumbĩ",
+          "context": "too much salt"
+        },
+        {
+          "english": "sweetness of honey",
+          "kikuyu": "mũrĩo wa ũkĩ",
+          "context": "natural sweetness"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun"
+      },
+      "tags": [
+        "taste",
+        "flavor",
+        "sensory",
+        "food",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

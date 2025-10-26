@@ -31,6 +31,7 @@ export default function StudyPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [knownCards, setKnownCards] = useState<Set<string>>(new Set());
+  const [flaggedCards, setFlaggedCards] = useState<Set<string>>(new Set());
   const [sessionStartTime] = useState(new Date());
   const [cardsStudied, setCardsStudied] = useState(0);
   const [correctAnswers, setCorrectAnswers] = useState(0);
@@ -90,7 +91,9 @@ export default function StudyPage() {
 
   const loadUserProgress = () => {
     const known = localStorageManager.getKnownCards();
+    const flagged = localStorageManager.getFlaggedCards();
     setKnownCards(known);
+    setFlaggedCards(flagged);
   };
 
   const handleFlip = useCallback(() => {
@@ -136,6 +139,22 @@ export default function StudyPage() {
       setKnownCards(prev => {
         const newSet = new Set(prev);
         newSet.delete(currentCard.id);
+        return newSet;
+      });
+    }
+  }, [cards, currentIndex]);
+
+  const handleToggleFlag = useCallback(() => {
+    const currentCard = cards[currentIndex];
+    if (currentCard) {
+      const isNowFlagged = localStorageManager.toggleFlag(currentCard.id);
+      setFlaggedCards(prev => {
+        const newSet = new Set(prev);
+        if (isNowFlagged) {
+          newSet.add(currentCard.id);
+        } else {
+          newSet.delete(currentCard.id);
+        }
         return newSet;
       });
     }
@@ -343,7 +362,20 @@ export default function StudyPage() {
                   return newSet;
                 });
               }}
+              onToggleFlag={() => {
+                const isNowFlagged = localStorageManager.toggleFlag(card.id);
+                setFlaggedCards(prev => {
+                  const newSet = new Set(prev);
+                  if (isNowFlagged) {
+                    newSet.add(card.id);
+                  } else {
+                    newSet.delete(card.id);
+                  }
+                  return newSet;
+                });
+              }}
               isKnown={knownCards.has(card.id)}
+              isFlagged={flaggedCards.has(card.id)}
               className="mb-6"
             />
           ))}
@@ -356,7 +388,9 @@ export default function StudyPage() {
           onPrevious={currentIndex > 0 ? handlePrevious : undefined}
           onMarkKnown={handleMarkKnown}
           onMarkUnknown={handleMarkUnknown}
+          onToggleFlag={handleToggleFlag}
           isKnown={isCardKnown}
+          isFlagged={flaggedCards.has(currentCard.id)}
           className="mb-6"
         />
       )}

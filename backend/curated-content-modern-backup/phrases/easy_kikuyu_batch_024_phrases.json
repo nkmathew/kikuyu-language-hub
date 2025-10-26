@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.376141+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "240.txt"
+    ],
+    "total_entries": 10,
+    "description": "Converted from easy_kikuyu_batch_024_phrases.json",
+    "last_updated": "2025-01-09T14:20:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase-024-001",
+      "english": "Are you fine Karanja?",
+      "kikuyu": "Wĩmwega Karanja",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-002",
+      "english": "I am fine Njeri",
+      "kikuyu": "Ndĩmwega Njeri",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-003",
+      "english": "How are you Mwangi / Your news Mwangi",
+      "kikuyu": "Ũhoro waku Mwangi",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-004",
+      "english": "It is very good",
+      "kikuyu": "Nĩ mwega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-005",
+      "english": "Greetings to you (singular) / I greet you",
+      "kikuyu": "Nĩ ndakũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-006",
+      "english": "I have received greetings",
+      "kikuyu": "Nĩ ndageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-007",
+      "english": "Greetings you all / I greet you all",
+      "kikuyu": "Nĩ ndamũgeithia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-008",
+      "english": "We have received greetings",
+      "kikuyu": "Nĩ twageithĩka",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-009",
+      "english": "Are you all fine?",
+      "kikuyu": "Mũrĩega?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-024-010",
+      "english": "Yes, we are very fine",
+      "kikuyu": "Tĩ tũrĩega mũno",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 240",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:20:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

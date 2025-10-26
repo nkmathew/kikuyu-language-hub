@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "022",
+    "total_cards": 2,
+    "category": "grammar",
+    "source_files": ["218.txt", "222.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T13:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "grammar-022-001",
+      "kikuyu": "Consonant Practice - B, C, Nđ (D)",
+      "english": "B (b): Baba athĩĩ kwĩ borithi (father has gone to the police), Banga inđo wega ũhũre nguo baathi (arrange things well and iron the clothes). C (c): Cũcũ cera gwitũ kaingĩ (grandmother, visit us often), Mũcemi cookia kĩũria (Mũcemi, answer the question). Nđ (nđ/d): Ĩkĩra iratũ cia kobo ũthĩĩ nđoro-inĩ (put on gumboots and walk over the mud), Nđongoro nĩ kanyamũ kanini (a slug is a small animal), Nđongu ĩno nđungu nĩ nđũrũ (this big sodom apple is bitter)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "notes": "Pronunciation practice for consonants b, c, and nđ (prenasalized d). Vocabulary: Mũborithi (policeman), Baathi (iron for clothes), Nđongu (sodom apple), Nđongoro (slug), Nđoro (mud)",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 218",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    },
+    {
+      "id": "grammar-022-002",
+      "kikuyu": "Sequential Actions - 'Before' Construction (Tana)",
+      "english": "Pattern: Verb + ũtana/mũtana + verb. Singular: Nyua maĩ ũtanarĩa irio (drink water before you eat food), Wĩthambe ũtanauma nja (shower before you go out), Hũra thimũ ũtaneka ũndũ ũngĩ (make a call before you do something else). Plural: Nyuai maĩ mũtanarĩa irio (drink water before you eat - plural), Mwĩthambei mũtanuma nja (shower before you go out - plural), Thomithiai ciana citananeheha (teach the children before they grow up)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "notes": "'Before' construction using -tana- infix. Pattern shows imperative + ũtana/mũtana + subjunctive. Singular uses ũtana-, plural uses mũtana-. Essential for expressing sequential actions",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 222",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    }
+  ]
+}

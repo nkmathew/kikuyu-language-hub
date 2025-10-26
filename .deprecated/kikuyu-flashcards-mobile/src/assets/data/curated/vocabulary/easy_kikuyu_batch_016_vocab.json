@@ -1,0 +1,96 @@
+{
+  "batch_info": {
+    "batch_number": "016",
+    "total_cards": 6,
+    "category": "vocabulary",
+    "source_files": ["155.txt", "156.txt", "157.txt", "160.txt", "161.txt", "162.txt", "164.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T10:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "vocab-016-001",
+      "kikuyu": "Primates",
+      "english": "Nguuyū (Colobus monkey), Nūgū (Baboon), Ngĩma (Sykes monkey), Thakwe (Chimpanzee)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete primate vocabulary. Nguuyū is the black and white colobus, Ngĩma is Sykes/blue monkey. Part of wildlife/safari vocabulary",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lessons 155-157",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-016-002",
+      "kikuyu": "Wild Animals (Nyamũ cĩa gĩthaka)",
+      "english": "Ndũiga (giraffe), Njogu (elephant), Wambũĩ mĩcore/njagĩ (zebra), Nyaga (ostrich), Huria (rhinoceros), Mũrũthĩ (lion), Ngatata (wildebeest), Nyũtũ (cheetah), Hiti (hyena), Nguuo (hippo), Ngarĩ (leopard)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete safari/wild animals vocabulary. Nyamũ cĩa gĩthaka = wild animals (animals of the wilderness). Covers big five and other iconic African wildlife",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 160",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-016-003",
+      "kikuyu": "Household Items - Traditional & Modern",
+      "english": "Kĩbũyũ (flask), Ndigithũ (water pot), Thitobu (stove), Tuuba (file), Burinji (fridge), Tawa (lamp), Toci (torch), Ngwatĩra (tin lamp), Ũrĩrĩ (bed/woman's bed), Gĩtanda (bed), Thagĩri (charcoal stove), Makara/ikara (charcoal), Thoo (saw), Rũgĩo (hot pan/griddle), Mũindũri (wooden ladle)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Mix of traditional and modern household items. Ũrĩrĩ traditionally refers to a woman's bed/room. Shows cultural evolution with borrowed words (Burinji from fridge, Toci from torch)",
+      "quality_score": 4.6,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 161",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-016-004",
+      "kikuyu": "Household Items - Kitchen & Dining (Indo cia nyũmba)",
+      "english": "Riiko/Mariiko (stove/cooker), Metha (table), Gĩtĩ/Ĩtĩ (chair), Mwaburi/Mĩaburi (umbrella), Nyũngũ (traditional cooking pot), Thaani (plates), Kahĩũ/Tũhĩũ (knife), Njagĩ (jug), Hũma (fork), Gĩcĩko/Ĩcĩko (spoon), Mbakũrĩ (bowl), Mũcuba/Mĩcuba (bottle), Mbũthũ (decorated gourd), Thaburia (saucepan), Ngĩrathĩ (glass), Kĩĩhũrĩ/ciĩhũrĩ (plain gourd/calabash)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete kitchen/dining vocabulary with singular/plural forms. Indo cia nyũmba = things of the house. Shows traditional items (Mbũthũ, Kĩĩhũrĩ) alongside modern utensils",
+      "quality_score": 4.5,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 162",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-016-005",
+      "kikuyu": "Reptiles & Amphibians",
+      "english": "Kĩmbu (chameleon), Njagathi (skink/lizard), Nyoka (snake), Kĩng'ang'i (crocodile), Kĩũra (frog)",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "notes": "Complete reptile and amphibian vocabulary. Nyoka is general term for snake. Context: Andīkai marītwa nyamū ciathī (write names of snakes in comments)",
+      "quality_score": 4.4,
+      "source": {
+        "origin": "Easy Kikuyu Lessons 163-164",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    },
+    {
+      "id": "vocab-016-006",
+      "kikuyu": "Body Parts (Cĩuga cia mwĩrĩ)",
+      "english": "Mũtwee/Mîtwe (head), Njũrĩrĩ/Njũîrĩ (hair), Rũbutu/Mbutu (eyebrow), Riitho/Maitho (eye), Gũtũ/Matũ (ear), Inĩũrũ/Manĩũrũ (nose), Igego/Magego (teeth), Kîromo/Iromo (lips), Kĩreru/Ireru (chin), Ngingo (neck), Gîthũri/Îthũri (chest), Kĩande/Ciande (shoulder), Guoko/Moko (arm), Nda (stomach), Rũhĩ/Hĩ (hand), Njohero (waist), Îru/Maru (knee), Kĩara/Twara (fingers/toes), Kũgũrũ/Magũrũ (leg), Ikĩnya/Makĩnya (foot), Kanua/Tũnua (mouth)",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "notes": "Complete body parts with singular/plural forms. Cĩuga cia mwĩrĩ = parts of the body. Note: Kĩara/Twara serves for both fingers and toes. Some parts invariant in plural (Nda, Ngingo, Njohero)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 164",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T10:00:00Z"
+      }
+    }
+  ]
+}

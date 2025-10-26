@@ -1,0 +1,195 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.174557+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "236.txt",
+      "241.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_024_conjugations.json",
+    "last_updated": "2025-10-19T12:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-024-001",
+      "english": "1st Person Future Tense - Later Today (with Dahl's Law)",
+      "kikuyu": "1st Person Future Tense - Later Today (with Dahl's Law)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 236",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "I will come",
+          "kikuyu": "Nĩ ngũ-ũka",
+          "notes": "1st person singular future tense (later today)"
+        },
+        {
+          "english": "I will eat",
+          "kikuyu": "Nĩ ngũ-rĩa",
+          "notes": "1st person singular future tense (later today)"
+        },
+        {
+          "english": "I will be happy",
+          "kikuyu": "Nĩ ngũ-kena",
+          "notes": "1st person singular future tense (later today)"
+        },
+        {
+          "english": "I will laugh",
+          "kikuyu": "Nĩ ngũ-theka",
+          "notes": "1st person singular future tense (later today)"
+        },
+        {
+          "english": "I will read",
+          "kikuyu": "Nĩ ngũ-thooma",
+          "notes": "1st person singular future tense (later today)"
+        },
+        {
+          "english": "We will come",
+          "kikuyu": "Nĩ tũgũ-ũka",
+          "notes": "1st person plural future tense (later today)"
+        },
+        {
+          "english": "We will eat",
+          "kikuyu": "Nĩ tũkũ-rĩa",
+          "notes": "1st person plural future tense (later today)"
+        },
+        {
+          "english": "We will be happy",
+          "kikuyu": "Nĩ tũgũ-kena",
+          "notes": "1st person plural future tense (later today)"
+        },
+        {
+          "english": "We will laugh",
+          "kikuyu": "Nĩ tũgũ-theka",
+          "notes": "1st person plural future tense (later today)"
+        },
+        {
+          "english": "We will read",
+          "kikuyu": "Nĩ tũgũ-thooma",
+          "notes": "1st person plural future tense (later today)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "future - later today",
+        "persons": ["1st person singular", "1st person plural"],
+        "pattern": {
+          "1st person singular": "Nĩ + ngũ-/nkũ- + verb stem",
+          "1st person plural": "Nĩ + tũgũ-/tũkũ- + verb stem"
+        },
+        "notes": "This tense shows Dahl's Law in action, where gũ- changes to kũ- before certain consonants to avoid similar sounds in succession"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-024-002",
+      "english": "Sound & Feeling Verbs - Past & Future Conjugation",
+      "kikuyu": "Sound & Feeling Verbs - Past & Future Conjugation",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 241",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "Made noise",
+          "kikuyu": "Arĩngire kanua",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Mumbled",
+          "kikuyu": "Abogothire",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Spoke with accent",
+          "kikuyu": "Athĩomire",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Groaned",
+          "kikuyu": "Ahayire",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Snorted",
+          "kikuyu": "Akororire",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Sneezed",
+          "kikuyu": "Aathĩmũrire",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Was disgusted",
+          "kikuyu": "Aiguire kĩnyĩria",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Sat sadly/mourned",
+          "kikuyu": "Ethĩkĩrire",
+          "notes": "3rd person singular past tense (yesterday) with -ire ending"
+        },
+        {
+          "english": "Will make noise",
+          "kikuyu": "Akarĩnga kanua",
+          "notes": "3rd person singular future tense (tomorrow) with -ka- marker"
+        },
+        {
+          "english": "Will mumble",
+          "kikuyu": "Akabogotha",
+          "notes": "3rd person singular future tense (tomorrow) with -ka- marker"
+        },
+        {
+          "english": "Will speak with accent",
+          "kikuyu": "Akathĩoma",
+          "notes": "3rd person singular future tense (tomorrow) with -ka- marker"
+        },
+        {
+          "english": "Will groan",
+          "kikuyu": "Akahaya",
+          "notes": "3rd person singular future tense (tomorrow) with -ka- marker"
+        },
+        {
+          "english": "Will sneeze",
+          "kikuyu": "Akaathĩmũra",
+          "notes": "3rd person singular future tense (tomorrow) with -ka- marker"
+        },
+        {
+          "english": "Will mourn",
+          "kikuyu": "Akethĩkĩra",
+          "notes": "3rd person singular future tense (tomorrow) with -ka- marker"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": ["past - yesterday", "future - tomorrow"],
+        "category": "sound and feeling verbs",
+        "persons": ["3rd person singular"],
+        "pattern": {
+          "past": "A-/E- + verb stem + -ire",
+          "future": "A-/E- + -ka- + verb stem"
+        },
+        "notes": "This entry showcases various sound and feeling verbs in Kikuyu with past and future conjugations"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

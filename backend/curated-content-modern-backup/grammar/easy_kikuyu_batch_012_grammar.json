@@ -1,0 +1,203 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.248573+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "119.txt",
+      "120.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_012_grammar.json",
+    "last_updated": "2025-10-19T12:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "grammar-012-001",
+      "english": "Reversible Action Verb Pairs (Do and Undo)",
+      "kikuyu": "Reversible Action Verb Pairs (Do and Undo)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 119",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "close",
+          "kikuyu": "Hinga",
+          "notes": "action verb"
+        },
+        {
+          "english": "open",
+          "kikuyu": "Hîngûra",
+          "notes": "reversive form"
+        },
+        {
+          "english": "spread",
+          "kikuyu": "Anîka",
+          "notes": "action verb"
+        },
+        {
+          "english": "fold",
+          "kikuyu": "Anûrra",
+          "notes": "reversive form"
+        },
+        {
+          "english": "tie",
+          "kikuyu": "Oha",
+          "notes": "action verb"
+        },
+        {
+          "english": "untie",
+          "kikuyu": "Ohorania",
+          "notes": "reversive form"
+        },
+        {
+          "english": "straighten",
+          "kikuyu": "Handũka",
+          "notes": "action verb"
+        },
+        {
+          "english": "bend",
+          "kikuyu": "Hendekerania",
+          "notes": "reversive form"
+        },
+        {
+          "english": "start",
+          "kikuyu": "Amba",
+          "notes": "action verb"
+        },
+        {
+          "english": "finish",
+          "kikuyu": "Ambûra",
+          "notes": "reversive form"
+        },
+        {
+          "english": "go in",
+          "kikuyu": "Ingîra",
+          "notes": "action verb"
+        },
+        {
+          "english": "go out",
+          "kikuyu": "Ekereria",
+          "notes": "reversive form (option 1)"
+        },
+        {
+          "english": "take out",
+          "kikuyu": "Ekaria",
+          "notes": "reversive form (option 2)"
+        },
+        {
+          "english": "put in",
+          "kikuyu": "Iya",
+          "notes": "action verb"
+        },
+        {
+          "english": "take out",
+          "kikuyu": "Inyia",
+          "notes": "reversive form"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "reversive derivation",
+        "structure": {
+          "common_patterns": [
+            "-ûra suffix (Hinga → Hîngûra)",
+            "-orania suffix (Oha → Ohorania)",
+            "-ûra suffix (Amba → Ambûra)",
+            "vowel change (Ingîra → Ekereria)"
+          ]
+        },
+        "notes": "Kikuyu has a productive system of reversive verb derivation that creates 'undo' verbs from action verbs"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-012-002",
+      "english": "Conjunctions - Temporal and Logical Connectors",
+      "kikuyu": "Conjunctions - Temporal and Logical Connectors",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 120",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:00:00Z"
+      },
+      "examples": [
+        {
+          "english": "after",
+          "kikuyu": "Thutha wa",
+          "notes": "temporal conjunction"
+        },
+        {
+          "english": "together with",
+          "kikuyu": "Hamwe na",
+          "notes": "coordinating conjunction"
+        },
+        {
+          "english": "and",
+          "kikuyu": "Na",
+          "notes": "coordinating conjunction"
+        },
+        {
+          "english": "also/again",
+          "kikuyu": "Îngî",
+          "notes": "additive conjunction"
+        },
+        {
+          "english": "for example",
+          "kikuyu": "Kwa mûhîano",
+          "notes": "exemplifying conjunction"
+        },
+        {
+          "english": "or",
+          "kikuyu": "Kana",
+          "notes": "disjunctive conjunction"
+        },
+        {
+          "english": "because of",
+          "kikuyu": "Rĩĩra rĩa",
+          "notes": "causal conjunction"
+        },
+        {
+          "english": "because",
+          "kikuyu": "Tondũ",
+          "notes": "causal conjunction"
+        },
+        {
+          "english": "then/so",
+          "kikuyu": "No",
+          "notes": "sequential/consequential conjunction"
+        },
+        {
+          "english": "saying that",
+          "kikuyu": "Akiuga atĩrĩ",
+          "notes": "quotative conjunction"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "conjunction",
+        "grammatical_feature": "connectors",
+        "categories": [
+          "temporal (Thutha wa)",
+          "coordinating (Na, Hamwe na)",
+          "causal (Tondũ, Rĩĩra rĩa)",
+          "sequential (No)"
+        ],
+        "notes": "Kikuyu conjunctions connect clauses and phrases, expressing various logical and temporal relationships"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

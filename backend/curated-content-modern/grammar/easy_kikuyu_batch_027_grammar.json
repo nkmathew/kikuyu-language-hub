@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.291208+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "268.txt",
+      "269.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_027_grammar.json",
+    "last_updated": "2025-10-19T12:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "grammar-027-001",
+      "english": "Verb -ruta - Multiple Meanings & Extensions",
+      "kikuyu": "Verb -ruta - Multiple Meanings & Extensions",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 268",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "to remove/to give out/to teach",
+          "kikuyu": "Kũruta",
+          "notes": "infinitive form with multiple meanings"
+        },
+        {
+          "english": "remove for/pay for/do for",
+          "kikuyu": "Rutĩra",
+          "notes": "applicative form with -ĩra suffix"
+        },
+        {
+          "english": "teacher (lit. one who teaches/removes knowledge)",
+          "kikuyu": "Mũrutani",
+          "notes": "agent noun with -ani suffix"
+        },
+        {
+          "english": "learner (lit. one who is taught/removed from ignorance)",
+          "kikuyu": "Mũrutwo",
+          "notes": "patient noun with -wo suffix"
+        },
+        {
+          "english": "do work",
+          "kikuyu": "Ruta wĩra",
+          "notes": "imperative with meaning 'do'"
+        },
+        {
+          "english": "pay money",
+          "kikuyu": "Ruta mbeca",
+          "notes": "imperative with meaning 'pay'"
+        },
+        {
+          "english": "remove the ear",
+          "kikuyu": "Ruta igũtũ",
+          "notes": "imperative with meaning 'remove'"
+        },
+        {
+          "english": "to pay money for Mwangi",
+          "kikuyu": "Kũrutĩra Mwangi mbeca",
+          "notes": "infinitive of applicative form"
+        },
+        {
+          "english": "I am removing/teaching/doing",
+          "kikuyu": "Ndĩraruta",
+          "notes": "1st person singular present progressive"
+        },
+        {
+          "english": "the teacher is teaching the learners",
+          "kikuyu": "Mũrutani araruta Arutwo",
+          "notes": "3rd person singular present progressive with objects"
+        },
+        {
+          "english": "you plural are paying money for Mwangi",
+          "kikuyu": "Mũrĩrutĩra Mwangi mbeca",
+          "notes": "2nd person plural present progressive of applicative"
+        },
+        {
+          "english": "do work",
+          "kikuyu": "Ruta wĩra",
+          "notes": "singular command"
+        },
+        {
+          "english": "pay money (plural command)",
+          "kikuyu": "Rutaĩ mbeca",
+          "notes": "plural command with -ĩ suffix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "polysemous verb with extensions",
+        "structure": {
+          "root": "-ruta",
+          "infinitive": "Kũ- + -ruta",
+          "applicative": "-ruta + -ĩra",
+          "agent noun": "Mũ- + -ruta + -ani",
+          "patient noun": "Mũ- + -rut + -wo",
+          "imperative": {
+            "singular": "Ruta",
+            "plural": "Rutaĩ"
+          }
+        },
+        "meanings": [
+          "to remove (physical removal)",
+          "to do (performing an action)",
+          "to pay (giving money)",
+          "to teach (imparting knowledge)"
+        ],
+        "notes": "The verb -ruta is a highly versatile verb in Kikuyu with multiple meanings. It can take various extensions like the applicative (-ĩra) and can be nominalized into agent and patient nouns. It demonstrates how Bantu languages can express multiple related concepts with a single verb root."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-027-002",
+      "english": "Passive Voice & Reflexive - Advanced Grammar",
+      "kikuyu": "Passive Voice & Reflexive - Advanced Grammar",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 269",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "tie",
+          "kikuyu": "Oha",
+          "notes": "active verb"
+        },
+        {
+          "english": "he has been tied",
+          "kikuyu": "Ohetwo",
+          "notes": "passive form with -two suffix (human subject)"
+        },
+        {
+          "english": "it has been tied",
+          "kikuyu": "Yohetwo",
+          "notes": "passive form with y- prefix (non-human subject)"
+        },
+        {
+          "english": "to take care",
+          "kikuyu": "Kũmenyerera",
+          "notes": "active verb (infinitive)"
+        },
+        {
+          "english": "it has been cared for",
+          "kikuyu": "Ĩmenyerereirwo",
+          "notes": "passive form with -irwo suffix"
+        },
+        {
+          "english": "take care of yourself",
+          "kikuyu": "Wimenyerere",
+          "notes": "reflexive form with -i- infix"
+        },
+        {
+          "english": "this donkey is from Wajir",
+          "kikuyu": "Ndigiri ĩno nĩ ya Wajir",
+          "notes": "noun class agreement example - I-I noun class"
+        },
+        {
+          "english": "do you all see how it has been cared for?",
+          "kikuyu": "Nĩmũrona ũrĩa ĩmenyerereirwo",
+          "notes": "passive in question with noun class agreement"
+        },
+        {
+          "english": "it has been tied with pillows",
+          "kikuyu": "Yohetwo na muuto",
+          "notes": "passive with instrumental phrase"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": ["passive voice", "reflexive"],
+        "structure": {
+          "passive markers": {
+            "recent past/perfect": "-two",
+            "past": "-irwo",
+            "non-human prefix": "Y-"
+          },
+          "reflexive marker": "-i- (infix before verb root)"
+        },
+        "noun_class_agreement": {
+          "Ndigiri (donkey)": "I-I noun class",
+          "demonstrative": "ĩno (this)",
+          "subject prefix": "ĩ-"
+        },
+        "notes": "Kikuyu uses different markers for passive voice depending on tense and subject. The -two suffix indicates perfect/recent past passive, while -irwo is used for past passive. The reflexive voice is formed by inserting the -i- infix before the verb root. Subject prefixes and verb forms must agree with the noun class of the subject."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.482456+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "045.txt",
+      "047.txt",
+      "049.txt",
+      "050.txt",
+      "051.txt"
+    ],
+    "total_entries": 5,
+    "description": "Vocabulary from Easy Kikuyu Facebook lessons - Batch 005 (counting, body, insects)",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_vocab_batch005_001",
+      "english": "counting and symbols vocabulary",
+      "kikuyu": "tara, ndemwa, rũri",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 045",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "mathematics",
+      "context": "Essential vocabulary for counting, numbers, and symbols",
+      "cultural_notes": "Includes religious symbolism like the sign of the cross",
+      "examples": [
+        {
+          "english": "count",
+          "kikuyu": "tara",
+          "context": "verb"
+        },
+        {
+          "english": "numbers or letters",
+          "kikuyu": "ndemwa",
+          "context": "noun"
+        },
+        {
+          "english": "sign",
+          "kikuyu": "rũri",
+          "context": "noun (e.g., rũri rwa mutharaba - sign of the cross)"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "mixed"
+      },
+      "tags": [
+        "vocabulary",
+        "counting",
+        "numbers",
+        "symbols",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_vocab_batch005_002",
+      "english": "skin conditions - boils and pimples",
+      "kikuyu": "ihũha, thundo",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 047",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "health_body",
+      "context": "Medical vocabulary for common skin conditions",
+      "cultural_notes": "Health-related vocabulary for describing bodily conditions",
+      "examples": [
+        {
+          "english": "a boil / boils",
+          "kikuyu": "ihũha / mahũha",
+          "context": "singular/plural"
+        },
+        {
+          "english": "a pimple / pimples",
+          "kikuyu": "thundo / thundo",
+          "context": "singular/plural same form"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun",
+        "notes": "thundo has same form for singular and plural"
+      },
+      "tags": [
+        "vocabulary",
+        "health",
+        "body",
+        "medical",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_vocab_batch005_003",
+      "english": "mucous and silkiness",
+      "kikuyu": "kĩmĩra",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 049",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "descriptive",
+      "context": "Word with dual meaning - mucous from nose, and silky texture",
+      "cultural_notes": "Demonstrates how one word can describe different textures sharing similar qualities",
+      "examples": [
+        {
+          "english": "mucous from the nose",
+          "kikuyu": "kĩmĩra",
+          "context": "bodily fluid"
+        },
+        {
+          "english": "the silky strands in young maize",
+          "kikuyu": "kĩmĩra kĩa mbembe",
+          "context": "plant texture"
+        },
+        {
+          "english": "silky hair",
+          "kikuyu": "njuĩrĩ ya kĩmĩra",
+          "context": "hair texture"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun"
+      },
+      "tags": [
+        "vocabulary",
+        "texture",
+        "descriptive",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_vocab_batch005_004",
+      "english": "tick (parasite)",
+      "kikuyu": "ngũha",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 050",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "insects_parasites",
+      "context": "Common external parasite found on animals and humans",
+      "cultural_notes": "Important vocabulary for farming and animal husbandry",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "noun"
+      },
+      "tags": [
+        "vocabulary",
+        "insects",
+        "parasites",
+        "animals",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_vocab_batch005_005",
+      "english": "types of ants",
+      "kikuyu": "tũnyamũ twa thaciarĩ",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 051",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "insects",
+      "context": "Different types of ants and ant-like insects",
+      "cultural_notes": "Detailed insect vocabulary, part of traditional ecological knowledge",
+      "examples": [
+        {
+          "english": "soldier ant",
+          "kikuyu": "thûraku",
+          "context": "aggressive species"
+        },
+        {
+          "english": "termite",
+          "kikuyu": "mûthûa",
+          "context": "wood-eating insect"
+        },
+        {
+          "english": "black ant",
+          "kikuyu": "thigiriri",
+          "context": "common species"
+        },
+        {
+          "english": "fire ant",
+          "kikuyu": "mûgagaca",
+          "context": "stinging species"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "noun"
+      },
+      "tags": [
+        "vocabulary",
+        "insects",
+        "ants",
+        "nature",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

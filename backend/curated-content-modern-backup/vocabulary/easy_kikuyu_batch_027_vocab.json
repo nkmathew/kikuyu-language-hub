@@ -1,0 +1,376 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.572607+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "266.txt",
+      "267.txt",
+      "270.txt",
+      "271.txt",
+      "274.txt"
+    ],
+    "total_entries": 21,
+    "description": "Converted from easy_kikuyu_batch_027_vocab.json",
+    "last_updated": "2025-01-09T12:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "vocab-027-003",
+      "english": "Clothes",
+      "kikuyu": "Nguo",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-004",
+      "english": "Shirt",
+      "kikuyu": "Cati",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-005",
+      "english": "Shorts/Pants",
+      "kikuyu": "Thuruarĩ",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-006",
+      "english": "Trousers",
+      "kikuyu": "Mũbũto",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-007",
+      "english": "Socks",
+      "kikuyu": "Thogithi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-008",
+      "english": "Hat/Cap",
+      "kikuyu": "Ngobia",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-009",
+      "english": "Necktie",
+      "kikuyu": "Tai",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-010",
+      "english": "Spectacles/Glasses",
+      "kikuyu": "Mĩwanĩ",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-011",
+      "english": "Shoe (singular)",
+      "kikuyu": "Kiratũ",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-012",
+      "english": "Shoes (plural)",
+      "kikuyu": "Iratũ",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-013",
+      "english": "Slippers",
+      "kikuyu": "Taritari",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-014",
+      "english": "Leather sandals",
+      "kikuyu": "Nginyĩra",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-015",
+      "english": "Cloth/Fabric",
+      "kikuyu": "Gĩtambaya",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-016",
+      "english": "Head scarf",
+      "kikuyu": "Gĩtambaya kia mũtwee",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-017",
+      "english": "Earrings",
+      "kikuyu": "Mĩndira",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-018",
+      "english": "Bangle(s)",
+      "kikuyu": "Bangiri",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-019",
+      "english": "Ring",
+      "kikuyu": "Mbete",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-020",
+      "english": "Necklace",
+      "kikuyu": "Mũgathĩ",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 270",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-022",
+      "english": "Clever person",
+      "kikuyu": "Mũndũ mũgĩ",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 274",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-023",
+      "english": "Foolish person",
+      "kikuyu": "Mũndũ mũkĩgu",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 274",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-027-024",
+      "english": "Wise person",
+      "kikuyu": "Mũndũ mwara",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 274",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T12:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

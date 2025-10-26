@@ -1,0 +1,40 @@
+{
+  "batch_info": {
+    "batch_number": "022",
+    "total_cards": 2,
+    "category": "conjugations",
+    "source_files": ["216.txt", "224.txt"],
+    "created_date": "2025-01-08",
+    "last_updated": "2025-01-08T13:00:00Z"
+  },
+  "flashcards": [
+    {
+      "id": "conj-022-001",
+      "kikuyu": "1st Person Habitual - Prefix Variation Rules",
+      "english": "NJ prefix (a,e,c,u,o verbs): ĩta→Njĩtagwo, aria→Njaragia, eterera→Njetereraga, ceera→Njeraga, ũga→Njũgaga. NG prefix (g,ng,k verbs): kena→Ngenaga, kora→Ngoraga, koma→Ngomaga. NY prefix (o,e,ny,um,un,en verbs): anđĩka→Nyanđĩkaga, ũma→Nyũmaga, ona→Nyõnaga, enja→Nyenjaga, nyua→Nyũaga. MB prefix (b verbs): batara→Mbataraga. Irregular: rĩma→Nĩmaga (reason unclear). R-verbs without N: rota→nđotaga, ruga→nđugaga",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "notes": "Complex 1st person simple present (habitual) prefix variation rules based on verb-initial consonant. Shows systematic phonological conditioning and exceptions. Essential for correct conjugation formation",
+      "quality_score": 4.8,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 216",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    },
+    {
+      "id": "conj-022-002",
+      "kikuyu": "Future Tense - Later Today (2nd & 3rd Person)",
+      "english": "2nd Singular: ũgũ-ũka (you will come), ũkũ-rĩa (you will eat), ũgũ-theka (you will laugh). 2nd Plural: Mũgũ-ũka (you will come), Mũkũ-rĩa (you will eat), Mũgũ-theka (you will laugh). 3rd Singular: egũka (he/she will come), ekũrĩa (he/she will eat), agũthooma (he/she will read). 3rd Plural: megũka (they will come), mekũrĩa (they will eat), magũthooma (they will read)",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "notes": "Near future tense (later today) for 2nd & 3rd persons. Pattern: Nĩ + subject marker + gũ/kũ + verb. Subject markers: ũ-/Mũ- (2nd), e-/me- (3rd). Compare with -kũ- (near) vs -ka- (distant future)",
+      "quality_score": 4.7,
+      "source": {
+        "origin": "Easy Kikuyu Lesson 224",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T13:00:00Z"
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.545121+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "196.txt",
+      "199.txt",
+      "200.txt",
+      "202.txt"
+    ],
+    "total_entries": 0,
+    "description": "Converted from easy_kikuyu_batch_020_vocab.json",
+    "last_updated": "2025-01-08T12:00:00Z"
+  },
+  "entries": []
+}

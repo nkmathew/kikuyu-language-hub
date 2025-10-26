@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.279376+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "218.txt",
+      "222.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_022_grammar.json",
+    "last_updated": "2025-10-19T12:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "grammar-022-001",
+      "english": "Consonant Practice - B, C, Nđ (D)",
+      "kikuyu": "Consonant Practice - B, C, Nđ (D)",
+      "category": "grammar",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 218",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "father has gone to the police",
+          "kikuyu": "Baba athĩĩ kwĩ borithi",
+          "notes": "B sound practice"
+        },
+        {
+          "english": "arrange things well and iron the clothes",
+          "kikuyu": "Banga inđo wega ũhũre nguo baathi",
+          "notes": "B sound practice"
+        },
+        {
+          "english": "grandmother, visit us often",
+          "kikuyu": "Cũcũ cera gwitũ kaingĩ",
+          "notes": "C sound practice"
+        },
+        {
+          "english": "Mũcemi, answer the question",
+          "kikuyu": "Mũcemi cookia kĩũria",
+          "notes": "C sound practice"
+        },
+        {
+          "english": "put on gumboots and walk over the mud",
+          "kikuyu": "Ĩkĩra iratũ cia kobo ũthĩĩ nđoro-inĩ",
+          "notes": "Nđ (D) sound practice"
+        },
+        {
+          "english": "a slug is a small animal",
+          "kikuyu": "Nđongoro nĩ kanyamũ kanini",
+          "notes": "Nđ (D) sound practice"
+        },
+        {
+          "english": "this big sodom apple is bitter",
+          "kikuyu": "Nđongu ĩno nđungu nĩ nđũrũ",
+          "notes": "Nđ (D) sound practice with alliteration"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "consonant",
+        "grammatical_feature": "pronunciation practice",
+        "structure": {
+          "B sounds": "Voiced bilabial stop",
+          "C sounds": "Voiceless palatal stop",
+          "Nđ/D sounds": "Prenasalized voiced alveolar stop"
+        },
+        "notes": "These practice sentences focus on the correct pronunciation of B, C, and Nđ (often transliterated as D) sounds in Kikuyu. The Nđ sound is particularly important as it's a prenasalized consonant that combines an 'n' and a 'd' sound."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "grammar-022-002",
+      "english": "Sequential Actions - 'Before' Construction (Tana)",
+      "kikuyu": "Sequential Actions - 'Before' Construction (Tana)",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 222",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-10-19T12:30:00Z"
+      },
+      "examples": [
+        {
+          "english": "drink water before you eat food",
+          "kikuyu": "Nyua maĩ ũtanarĩa irio",
+          "notes": "singular 'before' construction with ũtana-"
+        },
+        {
+          "english": "shower before you go out",
+          "kikuyu": "Wĩthambe ũtanauma nja",
+          "notes": "singular 'before' construction with ũtana-"
+        },
+        {
+          "english": "make a call before you do something else",
+          "kikuyu": "Hũra thimũ ũtaneka ũndũ ũngĩ",
+          "notes": "singular 'before' construction with ũtana-"
+        },
+        {
+          "english": "drink water before you eat (plural)",
+          "kikuyu": "Nyuai maĩ mũtanarĩa irio",
+          "notes": "plural 'before' construction with mũtana-"
+        },
+        {
+          "english": "shower before you go out (plural)",
+          "kikuyu": "Mwĩthambei mũtanuma nja",
+          "notes": "plural 'before' construction with mũtana-"
+        },
+        {
+          "english": "teach the children before they grow up",
+          "kikuyu": "Thomithiai ciana citananeheha",
+          "notes": "3rd person 'before' construction with citana-"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "grammatical_feature": "sequential marker",
+        "structure": {
+          "singular pattern": "Verb (imperative) + ũtana- + verb",
+          "plural pattern": "Verb (plural imperative) + mũtana- + verb",
+          "3rd person pattern": "Verb (imperative) + citana- + verb"
+        },
+        "notes": "The -tana- construction is used to express 'before' in sequential actions. The form changes based on the subject: ũtana- (2nd person singular), mũtana- (2nd person plural), citana- (3rd person). This construction always follows a verb, typically in imperative form."
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

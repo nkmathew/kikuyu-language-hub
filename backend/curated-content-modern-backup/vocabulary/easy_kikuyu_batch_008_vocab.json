@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.495866+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "075.txt",
+      "076.txt",
+      "077.txt",
+      "078.txt"
+    ],
+    "total_entries": 4,
+    "description": "Converted from easy_kikuyu_batch_008_vocab.json",
+    "last_updated": "2025-01-08T05:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "vocab-008-001",
+      "english": "Vulture",
+      "kikuyu": "Nderi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 075",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-008-002",
+      "english": "Hawk / Kite (bird of prey)",
+      "kikuyu": "Rwigi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 076",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-008-003",
+      "english": "The eighth month (August)",
+      "kikuyu": "Mweri wa ĩnana",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 077",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-008-004",
+      "english": "Friendship",
+      "kikuyu": "Ũrata",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 078",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "examples": [
+        "Mũriega arata (A good friend)",
+        "Ũmũthĩ nĩ mũthenya wa ũrata wa mabũrũri moothe (Today is international friendship day)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

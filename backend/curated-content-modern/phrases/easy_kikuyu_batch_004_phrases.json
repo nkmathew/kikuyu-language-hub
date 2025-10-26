@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.310023+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "038.txt",
+      "042.txt",
+      "044.txt"
+    ],
+    "total_entries": 3,
+    "description": "Common phrases and greetings from Easy Kikuyu - Batch 004",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_phrase_batch004_001",
+      "english": "one bigish big house",
+      "kikuyu": "kĩnyũmba kĩmwe kinene",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 038",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "descriptions",
+      "context": "Demonstrating size adjective with noun class agreement",
+      "cultural_notes": "Shows diminutive kĩ- class usage and adjective agreement pattern",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "noun_class": "kĩ- (class 4 diminutive)",
+        "structure": "noun + number + adjective"
+      },
+      "tags": [
+        "phrases",
+        "descriptions",
+        "size",
+        "adjectives",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.4,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch004_002",
+      "english": "greetings and welcome phrases",
+      "kikuyu": "ũhoro na kũnyita ũgeni",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 042",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "greetings",
+      "context": "Essential greeting exchanges and welcome expressions",
+      "cultural_notes": "Fundamental phrases for social interaction and hospitality",
+      "examples": [
+        {
+          "english": "Are you well? (plural)",
+          "kikuyu": "mũrĩega?",
+          "context": "greeting question"
+        },
+        {
+          "english": "We are well (plural response)",
+          "kikuyu": "tũrĩega",
+          "context": "greeting response"
+        },
+        {
+          "english": "Are you well? (singular)",
+          "kikuyu": "wĩmwega?",
+          "context": "greeting question"
+        },
+        {
+          "english": "I am well (singular response)",
+          "kikuyu": "ndĩmwega",
+          "context": "greeting response"
+        },
+        {
+          "english": "I welcome you (plural)",
+          "kikuyu": "nĩ ndamũnyita ũgeni",
+          "context": "formal welcome"
+        },
+        {
+          "english": "I welcome you (singular)",
+          "kikuyu": "nĩ ndakũnyita ũgeni",
+          "context": "formal welcome"
+        },
+        {
+          "english": "We will start at the beginning",
+          "kikuyu": "tũkwambĩrĩria kĩambĩrĩria",
+          "context": "educational phrase"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "function": "social_interaction"
+      },
+      "tags": [
+        "greetings",
+        "welcome",
+        "hospitality",
+        "beginner",
+        "essential"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch004_003",
+      "english": "you alone",
+      "kikuyu": "wĩ wika, wĩ nyika",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 044",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "expressions",
+      "context": "Idiomatic expression emphasizing singularity or solitude",
+      "cultural_notes": "Two variant forms of the same meaning, showing linguistic flexibility",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "variants": "wĩ wika / wĩ nyika"
+      },
+      "tags": [
+        "phrases",
+        "idioms",
+        "expressions",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.3,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

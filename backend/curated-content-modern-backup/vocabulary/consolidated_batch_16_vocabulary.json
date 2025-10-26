@@ -1,0 +1,879 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.642963",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 72,
+    "description": "Consolidated entries for vocabulary batch 16 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.292908"
+  },
+  "entries": [
+    {
+      "id": "vocab-016-001_01",
+      "kikuyu": "Nguuyū",
+      "english": "Colobus monkey",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Primates"
+    },
+    {
+      "id": "vocab-016-001_02",
+      "kikuyu": "Nūgū",
+      "english": "Baboon",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Primates"
+    },
+    {
+      "id": "vocab-016-001_03",
+      "kikuyu": "Ngĩma",
+      "english": "Sykes monkey",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Primates"
+    },
+    {
+      "id": "vocab-016-001_04",
+      "kikuyu": "Chimpanzee",
+      "english": "Thakwe",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Primates"
+    },
+    {
+      "id": "vocab-016-002_01",
+      "kikuyu": "Ndũiga",
+      "english": "giraffe",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_02",
+      "kikuyu": "Njogu",
+      "english": "elephant",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_03",
+      "kikuyu": "Wambũĩ mĩcore/njagĩ",
+      "english": "zebra",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_04",
+      "kikuyu": "Nyaga",
+      "english": "ostrich",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_05",
+      "kikuyu": "Huria",
+      "english": "rhinoceros",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_06",
+      "kikuyu": "Mũrũthĩ",
+      "english": "lion",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_07",
+      "kikuyu": "Ngatata",
+      "english": "wildebeest",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_08",
+      "kikuyu": "Nyũtũ",
+      "english": "cheetah",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_09",
+      "kikuyu": "Hiti",
+      "english": "hyena",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_10",
+      "kikuyu": "Nguuo",
+      "english": "hippo",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-002_11",
+      "kikuyu": "Ngarĩ",
+      "english": "leopard",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Wild Animals (Nyamũ cĩa gĩthaka)"
+    },
+    {
+      "id": "vocab-016-003_01",
+      "kikuyu": "Kĩbũyũ",
+      "english": "flask",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_02",
+      "kikuyu": "Ndigithũ",
+      "english": "water pot",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_03",
+      "kikuyu": "stove",
+      "english": "Thitobu",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_04",
+      "kikuyu": "file",
+      "english": "Tuuba",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_05",
+      "kikuyu": "fridge",
+      "english": "Burinji",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_06",
+      "kikuyu": "lamp",
+      "english": "Tawa",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_07",
+      "kikuyu": "torch",
+      "english": "Toci",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_08",
+      "kikuyu": "Ngwatĩra",
+      "english": "tin lamp",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_09",
+      "kikuyu": "Ũrĩrĩ",
+      "english": "bed/woman's bed",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_10",
+      "kikuyu": "Gĩtanda",
+      "english": "bed",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_11",
+      "kikuyu": "Thagĩri",
+      "english": "charcoal stove",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_12",
+      "kikuyu": "charcoal",
+      "english": "Makara/ikara",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_13",
+      "kikuyu": "saw",
+      "english": "Thoo",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_14",
+      "kikuyu": "Rũgĩo",
+      "english": "hot pan/griddle",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-003_15",
+      "kikuyu": "Mũindũri",
+      "english": "wooden ladle",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Traditional & Modern"
+    },
+    {
+      "id": "vocab-016-004_01",
+      "kikuyu": "Riiko/Mariiko",
+      "english": "stove/cooker",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_02",
+      "kikuyu": "Metha",
+      "english": "table",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_03",
+      "kikuyu": "Gĩtĩ/Ĩtĩ",
+      "english": "chair",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_04",
+      "kikuyu": "Mwaburi/Mĩaburi",
+      "english": "umbrella",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_05",
+      "kikuyu": "Nyũngũ",
+      "english": "traditional cooking pot",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_06",
+      "kikuyu": "Thaani",
+      "english": "plates",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_07",
+      "kikuyu": "Kahĩũ/Tũhĩũ",
+      "english": "knife",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_08",
+      "kikuyu": "Njagĩ",
+      "english": "jug",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_09",
+      "kikuyu": "Hũma",
+      "english": "fork",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_10",
+      "kikuyu": "Gĩcĩko/Ĩcĩko",
+      "english": "spoon",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_11",
+      "kikuyu": "Mbakũrĩ",
+      "english": "bowl",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_12",
+      "kikuyu": "Mũcuba/Mĩcuba",
+      "english": "bottle",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_13",
+      "kikuyu": "Mbũthũ",
+      "english": "decorated gourd",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_14",
+      "kikuyu": "Thaburia",
+      "english": "saucepan",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_15",
+      "kikuyu": "Ngĩrathĩ",
+      "english": "glass",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-004_16",
+      "kikuyu": "Kĩĩhũrĩ/ciĩhũrĩ",
+      "english": "plain gourd/calabash",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Household Items - Kitchen & Dining (Indo cia nyũmba)"
+    },
+    {
+      "id": "vocab-016-005_01",
+      "kikuyu": "Kĩmbu",
+      "english": "chameleon",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Reptiles & Amphibians"
+    },
+    {
+      "id": "vocab-016-005_02",
+      "kikuyu": "skink/lizard",
+      "english": "Njagathi",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Reptiles & Amphibians"
+    },
+    {
+      "id": "vocab-016-005_03",
+      "kikuyu": "snake",
+      "english": "Nyoka",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Reptiles & Amphibians"
+    },
+    {
+      "id": "vocab-016-005_04",
+      "kikuyu": "Kĩng'ang'i",
+      "english": "crocodile",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Reptiles & Amphibians"
+    },
+    {
+      "id": "vocab-016-005_05",
+      "kikuyu": "Kĩũra",
+      "english": "frog",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Reptiles & Amphibians"
+    },
+    {
+      "id": "vocab-016-006_01",
+      "kikuyu": "Mũtwee/Mîtwe",
+      "english": "head",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_02",
+      "kikuyu": "Njũrĩrĩ/Njũîrĩ",
+      "english": "hair",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_03",
+      "kikuyu": "Rũbutu/Mbutu",
+      "english": "eyebrow",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_04",
+      "kikuyu": "Riitho/Maitho",
+      "english": "eye",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_05",
+      "kikuyu": "Gũtũ/Matũ",
+      "english": "ear",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_06",
+      "kikuyu": "Inĩũrũ/Manĩũrũ",
+      "english": "nose",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_07",
+      "kikuyu": "Igego/Magego",
+      "english": "teeth",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_08",
+      "kikuyu": "Kîromo/Iromo",
+      "english": "lips",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_09",
+      "kikuyu": "Kĩreru/Ireru",
+      "english": "chin",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_10",
+      "kikuyu": "Ngingo",
+      "english": "neck",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_11",
+      "kikuyu": "Gîthũri/Îthũri",
+      "english": "chest",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_12",
+      "kikuyu": "Kĩande/Ciande",
+      "english": "shoulder",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_13",
+      "kikuyu": "Guoko/Moko",
+      "english": "arm",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_14",
+      "kikuyu": "Nda",
+      "english": "stomach",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_15",
+      "kikuyu": "Rũhĩ/Hĩ",
+      "english": "hand",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_16",
+      "kikuyu": "Njohero",
+      "english": "waist",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_17",
+      "kikuyu": "Îru/Maru",
+      "english": "knee",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_18",
+      "kikuyu": "Kĩara/Twara",
+      "english": "fingers/toes",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_19",
+      "kikuyu": "Kũgũrũ/Magũrũ",
+      "english": "leg",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_20",
+      "kikuyu": "Ikĩnya/Makĩnya",
+      "english": "foot",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    },
+    {
+      "id": "vocab-016-006_21",
+      "kikuyu": "Kanua/Tũnua",
+      "english": "mouth",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Body Parts (Cĩuga cia mwĩrĩ)"
+    }
+  ]
+}

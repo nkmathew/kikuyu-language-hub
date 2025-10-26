@@ -1,0 +1,373 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.379941+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "246.txt",
+      "250.txt"
+    ],
+    "total_entries": 21,
+    "description": "Converted from easy_kikuyu_batch_025_phrases.json",
+    "last_updated": "2025-01-09T14:25:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase-025-001",
+      "english": "What is the name of your teacher?",
+      "kikuyu": "Mwarimũ waku etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-002",
+      "english": "Do you like reading?",
+      "kikuyu": "Nĩ wendete gũthooma?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-003",
+      "english": "Tell me the name of one book",
+      "kikuyu": "Njĩĩra rĩtwa rĩa ibuku rĩmwe",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-004",
+      "english": "Do you play games?",
+      "kikuyu": "Nĩ ũthakaga mĩthako?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-005",
+      "english": "Which game do you like?",
+      "kikuyu": "Wendete mĩthako ũrĩkũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-006",
+      "english": "What is your brother's name?",
+      "kikuyu": "Mũrũ wa nyũkwa etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-007",
+      "english": "What is your sister's name?",
+      "kikuyu": "Mwarĩ wa nyũkwa etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 246",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-008",
+      "english": "Where are you going?",
+      "kikuyu": "Wathĩĩ kũ mũthĩĩ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-009",
+      "english": "I am going to Kariobangi",
+      "kikuyu": "Ndathĩĩ Karĩũbang'i",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-010",
+      "english": "Take that vehicle",
+      "kikuyu": "Haica ngarĩ ĩrĩa",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-011",
+      "english": "This one goes to Mathare",
+      "kikuyu": "Ĩno nĩ ya Mathare",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-012",
+      "english": "Thanks",
+      "kikuyu": "Nĩ ngatho",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-013",
+      "english": "Is this one to Kariobangi?",
+      "kikuyu": "Ĩno nĩ ya Karĩũbang'i?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-014",
+      "english": "Yes it is, get in quickly mother",
+      "kikuyu": "Ĩĩ nĩ yo ingĩra naihenya, mĩtũkĩ mĩtũkĩ maitũ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-015",
+      "english": "Hold my hand so I don't fall",
+      "kikuyu": "Nyita guoko ndikagwe",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-016",
+      "english": "Sit on this seat and bring the money",
+      "kikuyu": "Ĩkarĩra gĩtĩ gĩkĩ na ũrehe mbeca",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-017",
+      "english": "How much?",
+      "kikuyu": "Nĩ cigana?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-018",
+      "english": "Fifty shillings",
+      "kikuyu": "Ciringi mĩrongo ĩtano",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-019",
+      "english": "My! How expensive?",
+      "kikuyu": "Hĩ! Karĩ goro atĩa?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-020",
+      "english": "It's not expensive mum, that's what we charge",
+      "kikuyu": "Tĩ goro maitũ nĩguo tũrĩhagia",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-025-021",
+      "english": "Take this 100 shillings and give back 50",
+      "kikuyu": "Ke igana rĩmwe ũnjokerie mĩrongo ĩtano",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 250",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T14:25:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.151721+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "142.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_014_conjugations.json",
+    "last_updated": "2025-01-08T09:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-014-001",
+      "english": "Perfect tense questions and answers",
+      "kikuyu": "Ciũria na macokio ma ihinda rĩrathira",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 142",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T09:00:00Z"
+      },
+      "examples": [
+        {
+          "kikuyu": "Nīwahingūra?",
+          "english": "Have you opened?",
+          "notes": "Perfect tense question"
+        },
+        {
+          "kikuyu": "Ndinahingūra",
+          "english": "I have not opened",
+          "notes": "Perfect negative form"
+        },
+        {
+          "kikuyu": "Nīngūhingūrīte kabere",
+          "english": "I opened earlier",
+          "notes": "Affirmative past perfect with kabere"
+        },
+        {
+          "kikuyu": "Nī wethamba?",
+          "english": "Have you bathed?",
+          "notes": "Perfect tense question"
+        },
+        {
+          "kikuyu": "Ndinethamba",
+          "english": "I have not bathed",
+          "notes": "Perfect negative form"
+        },
+        {
+          "kikuyu": "Nīngwīthambīte kabere",
+          "english": "I bathed earlier",
+          "notes": "Affirmative past perfect with kabere"
+        },
+        {
+          "kikuyu": "Nīūrugire cai?",
+          "english": "Have you made tea?",
+          "notes": "Perfect tense question"
+        },
+        {
+          "kikuyu": "Ndinaruga cai",
+          "english": "I have not made tea",
+          "notes": "Perfect negative form"
+        },
+        {
+          "kikuyu": "Nīndugire cai hau kabere",
+          "english": "I made tea earlier",
+          "notes": "Affirmative past perfect with location and time"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "perfect",
+        "constructions": [
+          "Nī + subject prefix + verb stem + ?",
+          "Ndina + verb stem",
+          "Nī + subject prefix + verb stem + ite + kabere"
+        ]
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

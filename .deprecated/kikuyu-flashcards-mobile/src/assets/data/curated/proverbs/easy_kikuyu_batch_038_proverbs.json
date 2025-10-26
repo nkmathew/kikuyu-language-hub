@@ -1,0 +1,62 @@
+{
+  "batch": 38,
+  "source_files": "375-384",
+  "total_flashcards": 3,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Proverbs"],
+  "difficulty_distribution": {
+    "beginner": 0,
+    "intermediate": 1,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b38_proverb_001",
+      "kikuyu": "Mũndũ Mũgĩ ndarĩ mĩhere ya ũhoro",
+      "english": "A clever person does not need too much explaining",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about intelligence",
+      "cultural_notes": "A compliment suggesting that a wise or intelligent person can grasp an idea quickly without needing elaborate detail",
+      "sub_translations": [
+        {"kikuyu": "Mũndũ Mũgĩ", "english": "A clever person"},
+        {"kikuyu": "ndarĩ mĩhere ya ũhoro", "english": "does not need methods of giving information"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #376"
+    },
+    {
+      "id": "ek_b38_proverb_002",
+      "kikuyu": "Andũ matarĩ ndundu mahũragwo na njũgũma ĩmwe",
+      "english": "People not united are beaten with one club",
+      "difficulty": "advanced",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about unity",
+      "cultural_notes": "Emphasizes the power of unity; those who are not united are easily defeated or exploited by even a single force",
+      "sub_translations": [
+        {"kikuyu": "Andũ matarĩ ndundu", "english": "People not united"},
+        {"kikuyu": "mahũragwo na njũgũma ĩmwe", "english": "are beaten with one club"}
+      ],
+      "quality": 4.9,
+      "source": "Easy Kikuyu #380"
+    },
+    {
+      "id": "ek_b38_proverb_003",
+      "kikuyu": "Mũtĩ ũrũngagwo ũrĩ mũnini",
+      "english": "A tree is straightened when young",
+      "difficulty": "intermediate",
+      "category": "Proverbs",
+      "context": "Traditional wisdom about education",
+      "cultural_notes": "Implied meaning: Do not wait till your kids are adults - teach them while they're young",
+      "sub_translations": [
+        {"kikuyu": "Mũtĩ ũrũngagwo", "english": "A tree is straightened"},
+        {"kikuyu": "ũrĩ mũnini", "english": "when young"}
+      ],
+      "quality": 4.8,
+      "source": "Easy Kikuyu #383"
+    }
+  ]
+}

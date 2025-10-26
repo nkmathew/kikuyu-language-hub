@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.239172+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "083.txt",
+      "084.txt"
+    ],
+    "total_entries": 2,
+    "description": "Converted from easy_kikuyu_batch_008_grammar.json",
+    "last_updated": "2025-01-08T05:30:00Z"
+  },
+  "entries": [
+    {
+      "id": "gram-008-001",
+      "english": "Monosyllable 'No' - versatile modifier meaning but/just/can/may/only",
+      "kikuyu": "No (particle)",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 083",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "examples": [
+        "No mûhaka (It is a must) - without NO: mûhaka = boundary",
+        "No mûûre (You can get lost)",
+        "No mîtoka (It is just cars)",
+        "No kwarî na maûndû (There were still issues)",
+        "No ûgerie (You may try)",
+        "No nguo yake yarî ndaihu (But her dress was long)",
+        "Korwo no ûrîrîkane (If you could remember)",
+        "No ndîmûteithie (I can help you)",
+        "Ûria mendaga no kwona nyina wao (They only wanted to see their mother)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "gram-008-002",
+      "english": "'No' with present tense = still/yet (ongoing action)",
+      "kikuyu": "No + present tense",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 084",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:30:00Z"
+      },
+      "examples": [
+        "No rwimbo? (You are still listening to music?)",
+        "No kúría? (You are still eating?)",
+        "No ndore úraringa? (You are still jumping?)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

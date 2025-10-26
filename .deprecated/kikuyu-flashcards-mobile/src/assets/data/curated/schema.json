@@ -1,0 +1,212 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Kikuyu Language Content Schema",
+  "description": "Standardized schema for curated Kikuyu language learning content",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "description": "Version of this schema",
+          "default": "1.0"
+        },
+        "created_date": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When this content collection was created"
+        },
+        "last_updated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When this content was last updated"
+        },
+        "curator": {
+          "type": "string",
+          "description": "Person or system that curated this content"
+        },
+        "source_files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of original seed files used for this curation"
+        },
+        "total_entries": {
+          "type": "integer",
+          "description": "Total number of content entries in this file"
+        }
+      },
+      "required": ["schema_version", "created_date", "curator"]
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/ContentEntry"
+      }
+    }
+  },
+  "required": ["metadata", "entries"],
+  "definitions": {
+    "ContentEntry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for this entry"
+        },
+        "english": {
+          "type": "string",
+          "description": "English text or translation"
+        },
+        "kikuyu": {
+          "type": "string",
+          "description": "Kikuyu text with proper diacritics and tone marks"
+        },
+        "category": {
+          "type": "string",
+          "enum": ["vocabulary", "proverbs", "grammar", "conjugations", "cultural", "numbers", "phrases"],
+          "description": "Primary content category"
+        },
+        "subcategory": {
+          "type": "string",
+          "description": "More specific categorization (e.g., 'animals', 'household items', 'verb conjugation')"
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["beginner", "intermediate", "advanced"],
+          "description": "Difficulty level for learners"
+        },
+        "context": {
+          "type": "string",
+          "description": "Context or usage notes for this content"
+        },
+        "cultural_notes": {
+          "type": "string",
+          "description": "Cultural significance, background, or traditional usage"
+        },
+        "pronunciation": {
+          "type": "object",
+          "properties": {
+            "ipa": {
+              "type": "string",
+              "description": "International Phonetic Alphabet transcription"
+            },
+            "simplified": {
+              "type": "string",
+              "description": "Simplified pronunciation guide for beginners"
+            },
+            "audio_file": {
+              "type": "string",
+              "description": "Path to audio pronunciation file (future use)"
+            }
+          }
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "english": {
+                "type": "string",
+                "description": "Example sentence in English"
+              },
+              "kikuyu": {
+                "type": "string",
+                "description": "Example sentence in Kikuyu"
+              },
+              "context": {
+                "type": "string",
+                "description": "Context for this example"
+              }
+            },
+            "required": ["english", "kikuyu"]
+          },
+          "description": "Usage examples showing the content in context"
+        },
+        "grammatical_info": {
+          "type": "object",
+          "properties": {
+            "part_of_speech": {
+              "type": "string",
+              "description": "Grammatical part of speech (noun, verb, adjective, etc.)"
+            },
+            "verb_class": {
+              "type": "string",
+              "description": "For verbs: conjugation class or pattern"
+            },
+            "noun_class": {
+              "type": "string",
+              "description": "For nouns: Bantu noun class"
+            },
+            "infinitive": {
+              "type": "string",
+              "description": "For verbs: infinitive form"
+            }
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "Searchable tags for content discovery"
+        },
+        "quality": {
+          "type": "object",
+          "properties": {
+            "verified": {
+              "type": "boolean",
+              "description": "Whether content has been verified by native speaker"
+            },
+            "confidence_score": {
+              "type": "number",
+              "minimum": 1.0,
+              "maximum": 5.0,
+              "description": "Confidence score (1-5) for accuracy"
+            },
+            "source_quality": {
+              "type": "string",
+              "enum": ["native_speaker", "academic", "dictionary", "community", "automated"],
+              "description": "Quality classification of original source"
+            },
+            "reviewer": {
+              "type": "string",
+              "description": "Name/ID of person who reviewed this entry"
+            },
+            "review_date": {
+              "type": "string",
+              "format": "date-time",
+              "description": "When this entry was reviewed"
+            }
+          }
+        },
+        "source": {
+          "type": "object",
+          "properties": {
+            "origin": {
+              "type": "string",
+              "description": "Original source (Easy Kikuyu, Wiktionary, etc.)"
+            },
+            "attribution": {
+              "type": "string",
+              "description": "Proper attribution for the source"
+            },
+            "license": {
+              "type": "string",
+              "description": "License or usage terms"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL to original source if available"
+            }
+          },
+          "required": ["origin"]
+        }
+      },
+      "required": ["id", "english", "kikuyu", "category", "difficulty", "source"]
+    }
+  }
+}

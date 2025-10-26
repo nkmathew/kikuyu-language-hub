@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.137224+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "067.txt",
+      "070.txt",
+      "072.txt",
+      "074.txt"
+    ],
+    "total_entries": 4,
+    "description": "Converted from easy_kikuyu_batch_007_conjugations.json",
+    "last_updated": "2025-01-08T05:05:00Z"
+  },
+  "entries": [
+    {
+      "id": "conj-007-001",
+      "english": "Second person future tense - today vs tomorrow/beyond",
+      "kikuyu": "Ûgû/Ûgwî/Ûkwî/Ûkû (today future) vs Ûgo/Ûge/Ûke/Ûga (tomorrow future)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 067",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "examples": [
+        "Ûgwîthamba na maî mahoro (You will bathe with cold water today)",
+        "Ûgethamba na maî mahoro (You will bathe with cold water tomorrow)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-007-002",
+      "english": "First person future tense - tomorrow and beyond",
+      "kikuyu": "Ngo/Nga/Nge (first person tomorrow future)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 070",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "examples": [
+        "Ngethamba na maî mahoro (I will bathe with cold water)",
+        "Ngahinga mûrango (I will shut/lock the door)",
+        "Rûcîû ngokîra dagîka ikûmi ciathira (Tomorrow I will wake up ten minutes later)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-007-003",
+      "english": "First person future tense - moments later or anytime today",
+      "kikuyu": "Ngû/Ngwî (first person today future)",
+      "category": "conjugations",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 072",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "examples": [
+        "Ngwîhumba nguo naihenya (I will put on clothes quickly)",
+        "Ngûrûga ûcûrû wa mûûtû wa mûhîa (I will make sorghum porridge)",
+        "Ûmûthî ngûcoka hinge mûrango (Today then I will shut the door)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "conj-007-004",
+      "english": "Auxiliary verb 'to have' - all persons",
+      "kikuyu": "Ndî/Wî/E/Me/Twî/Mwî + na",
+      "category": "conjugations",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 074",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T05:05:00Z"
+      },
+      "examples": [
+        "Ndî na karamu (I have a pen)",
+        "Wî na tûramû (You have pens)",
+        "E na ngîrathi yakwa (He/she has my glass)",
+        "Me na ngîrathi ciakwa (They have my glasses)",
+        "Twî na mwarimû ûngî (We have another teacher)",
+        "Mwî na thîna (You all have problems)"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

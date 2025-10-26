@@ -1,0 +1,248 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.225933+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "026.txt",
+      "027.txt",
+      "029.txt"
+    ],
+    "total_entries": 3,
+    "description": "Grammar rules from Easy Kikuyu - Batch 003 (adjective agreement across noun classes)",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_grammar_batch003_001",
+      "english": "Adjective agreement - descriptive adjectives",
+      "kikuyu": "Kũringana kwa mathimo ma ũhoro",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 026",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "adjective_agreement",
+      "context": "How adjectives for dead, soft, poor, and rich change across noun classes 1-4",
+      "cultural_notes": "Demonstrates fundamental Bantu grammar where adjectives must agree with noun class prefixes",
+      "examples": [
+        {
+          "english": "Class 1 (child): dead child",
+          "kikuyu": "Mwana mũkũũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 2 (door): dead door/tree",
+          "kikuyu": "Mũrango mũkũũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3 (bull): dead bull",
+          "kikuyu": "Njamba ngũũ",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4 (chair): dead chair",
+          "kikuyu": "Gĩtĩ gĩkũũ",
+          "context": "gĩ- prefix"
+        },
+        {
+          "english": "Class 1: soft child",
+          "kikuyu": "Mwana mwororo",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: soft bull",
+          "kikuyu": "Njamba njororo",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: soft chair",
+          "kikuyu": "Gĩtĩ kĩororo",
+          "context": "kĩ- prefix"
+        },
+        {
+          "english": "Class 1: poor child",
+          "kikuyu": "Mwana mũthĩni",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: poor bull",
+          "kikuyu": "Njamba thĩni",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 1: rich child",
+          "kikuyu": "Mwana mũtongu",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: rich bull",
+          "kikuyu": "Njamba ndongu",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: rich chair",
+          "kikuyu": "Gĩtĩ gĩtongu",
+          "context": "gĩ- prefix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "adjective_noun_agreement",
+        "adjectives_covered": "kũũ (dead), ororo (soft), thĩni (poor), tongu (rich)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "noun classes",
+        "agreement",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch003_002",
+      "english": "Adjective stem for 'bad' - ũru",
+      "kikuyu": "Rũthĩ rwa 'ũru'",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 027",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "adjective_stems",
+      "context": "The stem '...ũru' for 'bad' and how it combines with noun class prefixes",
+      "cultural_notes": "Understanding adjective stems is key to mastering Kikuyu grammar",
+      "examples": [
+        {
+          "english": "Class 1 (person): bad person",
+          "kikuyu": "Mũndũ mũru",
+          "context": "mũ- + ũru"
+        },
+        {
+          "english": "Class 4 (cup): bad cup",
+          "kikuyu": "Gĩkombe kĩũru",
+          "context": "kĩ- + ũru"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "adjective_stem",
+        "stem": "ũru (bad)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "stems",
+        "noun classes",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch003_003",
+      "english": "Adjective agreement - color and size adjectives",
+      "kikuyu": "Kũringana kwa mathimo ma rangi na ũnene",
+      "category": "grammar",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 029",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "adjective_agreement",
+      "context": "How adjectives for black, long, and tall change across noun classes 1-4",
+      "cultural_notes": "Continuation of adjective agreement patterns with common descriptive terms",
+      "examples": [
+        {
+          "english": "Class 1 (child): black child",
+          "kikuyu": "Mwana mũirũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 2 (door): black door",
+          "kikuyu": "Mũrango mũirũ",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3 (bull): black bull",
+          "kikuyu": "Njamba njirũ",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4 (chair): black chair",
+          "kikuyu": "Gĩtĩ kĩirũ",
+          "context": "kĩ- prefix"
+        },
+        {
+          "english": "Class 1: long child",
+          "kikuyu": "Mwana mũraya",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: long bull",
+          "kikuyu": "Njamba ndaya",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: long chair",
+          "kikuyu": "Gĩtĩ kĩraya",
+          "context": "kĩ- prefix"
+        },
+        {
+          "english": "Class 1: tall child",
+          "kikuyu": "Mwana mũraihu",
+          "context": "mũ- prefix"
+        },
+        {
+          "english": "Class 3: tall bull",
+          "kikuyu": "Njamba ndaihu",
+          "context": "N- prefix"
+        },
+        {
+          "english": "Class 4: tall chair",
+          "kikuyu": "Gĩtĩ kĩraihu",
+          "context": "kĩ- prefix"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "grammar_rule",
+        "rule_type": "adjective_noun_agreement",
+        "adjectives_covered": "irũ (black), raya (long), raihu (long/tall)"
+      },
+      "tags": [
+        "grammar",
+        "adjectives",
+        "noun classes",
+        "agreement",
+        "advanced"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

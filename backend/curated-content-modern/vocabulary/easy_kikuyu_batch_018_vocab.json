@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.537070+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "176.txt",
+      "178.txt",
+      "179.txt",
+      "180.txt",
+      "181.txt",
+      "182.txt",
+      "184.txt"
+    ],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_batch_018_vocab.json",
+    "last_updated": "2025-01-08T11:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "vocab-018-001",
+      "english": "Gacukari, Gathumo, Gatumia, Kambara, Kĩbuda, Kĩganda, Mbiri, Mũraru, Mũtahato, Mũtore, Njuru (gacuru, mũcũru), Nyoro, Wanga'e",
+      "kikuyu": "Traditional Kikuyu Terms (Marigũ ma Mũgĩkũyũ)",
+      "category": "vocabulary",
+      "difficulty": "advanced",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 176",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { Flashcard } from '@/types/flashcard';
 import ReportCard from './ReportCard';
 import { getRelativeTime, getFullDateTime } from '@/lib/dateUtils';
+import { localStorageManager } from '@/lib/localStorage';
 
 interface StudyCardProps {
   card: Flashcard;
@@ -11,6 +12,8 @@ interface StudyCardProps {
   onMarkKnown?: () => void;
   onMarkUnknown?: () => void;
   isKnown?: boolean;
+  isFlagged?: boolean;
+  onToggleFlag?: () => void;
   className?: string;
 }
 
@@ -20,6 +23,8 @@ export default function StudyCard({
   onMarkKnown,
   onMarkUnknown,
   isKnown = false,
+  isFlagged = false,
+  onToggleFlag,
   className = ''
 }: StudyCardProps) {
   const [copyFeedback, setCopyFeedback] = useState<string | null>(null);
@@ -71,15 +76,24 @@ export default function StudyCard({
   };
 
   return (
-    <div className={`card mb-6 ${className}`}>
-      {/* Card Status Indicator */}
-      {isKnown && (
-        <div className="flex justify-end mb-3">
-          <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-700 light:bg-green-100 text-white light:text-green-800">
-            ✓ Known
-          </span>
-        </div>
-      )}
+    <div className={`card mb-6 ${isFlagged ? 'bg-red-50 dark:bg-red-900/20 border-red-200 dark:border-red-800' : ''} ${className}`}>
+      {/* Card Status Indicators */}
+      <div className="flex justify-between items-center mb-3">
+        {isFlagged && (
+          <div className="flex items-center gap-2">
+            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-red-600 text-white">
+              🚩 Flagged for review
+            </span>
+          </div>
+        )}
+        {isKnown && (
+          <div className="flex justify-end">
+            <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-700 light:bg-green-100 text-white light:text-green-800">
+              ✓ Known
+            </span>
+          </div>
+        )}
+      </div>
 
       <div className="flex flex-col xl:flex-row xl:gap-8">
         {/* Main Content */}
@@ -227,6 +241,14 @@ export default function StudyCard({
               className={`btn ${isKnown ? 'btn-warning' : 'btn-success'} flex items-center text-sm`}
             >
               {isKnown ? '❌ Unknown' : '✅ Known'}
+            </button>
+            
+            <button
+              onClick={onToggleFlag}
+              className={`btn ${isFlagged ? 'btn-danger' : 'btn-secondary'} flex items-center text-sm`}
+              title={isFlagged ? 'Remove flag' : 'Flag for review'}
+            >
+              {isFlagged ? '🚩 Flagged' : '🏳️ Flag'}
             </button>
             
             <button

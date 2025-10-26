@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.499630+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "087.txt",
+      "092.txt"
+    ],
+    "total_entries": 3,
+    "description": "Converted from easy_kikuyu_batch_009_vocab.json",
+    "last_updated": "2025-01-08T06:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "vocab-009-001",
+      "english": "Smile",
+      "kikuyu": "Kwenga",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 087",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-009-002",
+      "english": "Roof",
+      "kikuyu": "Rwembea",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 087",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "vocab-009-003",
+      "english": "Wrist",
+      "kikuyu": "Njara",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 087",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T06:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

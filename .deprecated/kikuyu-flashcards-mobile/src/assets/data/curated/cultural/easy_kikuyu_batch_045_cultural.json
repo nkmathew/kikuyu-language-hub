@@ -1,0 +1,217 @@
+{
+  "batch": 45,
+  "source_files": "445-454",
+  "total_flashcards": 20,
+  "created_date": "2025-01-27",
+  "last_updated": "2025-01-27T20:00:00Z",
+  "author": "Emmanuel Kariuki",
+  "source": "Easy Kikuyu",
+  "categories": ["Cultural", "Sleep", "Daily_Routines"],
+  "difficulty_distribution": {
+    "beginner": 8,
+    "intermediate": 10,
+    "advanced": 2
+  },
+  "flashcards": [
+    {
+      "id": "ek_b45_cultural_001",
+      "kikuyu": "Hinga maitho ũkome",
+      "english": "Shut your eyes and sleep",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Sleep instruction",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_002",
+      "kikuyu": "Kaĩ ũkomaga ũhingũrĩte maitho?",
+      "english": "Do you sleep with eyes open?",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Sleep question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_003",
+      "kikuyu": "Rara nĩ gwatuka",
+      "english": "Sleep, darkness has fallen",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Traditional sleep saying",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_004",
+      "kikuyu": "Rarĩrĩra ũgathie rũciũ",
+      "english": "Sleep over and go tomorrow",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Sleep invitation",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_005",
+      "kikuyu": "Koma ũkĩre thaa igĩrĩ cia rũciũnĩ",
+      "english": "Sleep and wake up at 8 in the morning",
+      "difficulty": "advanced",
+      "category": "Cultural",
+      "context": "Sleep schedule",
+      "quality": 4.8,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_006",
+      "kikuyu": "ũkĩra nĩ gwakĩa",
+      "english": "Wake up, it is sunrise",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Wake up instruction",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_007",
+      "kikuyu": "Nĩ wokĩra tene?",
+      "english": "You have woken up early",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Wake up question",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_008",
+      "kikuyu": "Ndĩrenda kũoka gwa cibũ",
+      "english": "I want to be at the chief's very early",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Early morning plan",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_009",
+      "kikuyu": "Amba wĩgũgũre",
+      "english": "First breakfast (yourself)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Morning routine",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_010",
+      "kikuyu": "Tũkwĩgũgũra na kĩ",
+      "english": "What shall we breakfast (ourselves with)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Morning meal question",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_011",
+      "kikuyu": "Ara ũrĩrĩ",
+      "english": "Make your bed",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Morning routine",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_012",
+      "kikuyu": "Wĩthambe mwĩrĩ",
+      "english": "Take a bath (wash your body)",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Morning routine",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_013",
+      "kikuyu": "Nyorokia mũrũngĩtĩ",
+      "english": "Spread the blanket",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Morning routine",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_014",
+      "kikuyu": "Kiinya magego",
+      "english": "Brush your teeth",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Morning routine",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_015",
+      "kikuyu": "Thĩĩ ndũgacererwo",
+      "english": "Go so you are not late",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Morning departure",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #454"
+    },
+    {
+      "id": "ek_b45_cultural_016",
+      "kikuyu": "Gũcũnga",
+      "english": "to doze",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Sleep state",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_017",
+      "kikuyu": "Gũkoma na nda",
+      "english": "to sleep on the stomach (face down)",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Sleep position",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_018",
+      "kikuyu": "Gũkoma na ngara",
+      "english": "to sleep on your back",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Sleep position",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_019",
+      "kikuyu": "Gũkoma na mwena",
+      "english": "to sleep on side",
+      "difficulty": "intermediate",
+      "category": "Cultural",
+      "context": "Sleep position",
+      "quality": 4.6,
+      "source": "Easy Kikuyu #453"
+    },
+    {
+      "id": "ek_b45_cultural_020",
+      "kikuyu": "Kũrara",
+      "english": "to spend the night",
+      "difficulty": "beginner",
+      "category": "Cultural",
+      "context": "Sleep verb",
+      "quality": 4.5,
+      "source": "Easy Kikuyu #453"
+    }
+  ]
+}

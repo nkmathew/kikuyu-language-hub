@@ -1,0 +1,129 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.344035+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "175.txt",
+      "180.txt"
+    ],
+    "total_entries": 9,
+    "description": "Converted from easy_kikuyu_batch_018_phrases.json (Integrated split entries)",
+    "last_updated": "2025-10-20T22:37:41.922078"
+  },
+  "entries": [
+    {
+      "id": "phrase-018-001",
+      "english": "Have a good weekend",
+      "kikuyu": "Korwoi na wikendi njega",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 175",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:00:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-018-002_01",
+      "kikuyu": "Hĩ! Kaĩ kwĩna heho-ĩ!",
+      "english": "Lo! It is very cold!",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_02",
+      "kikuyu": "Kaĩ wĩ mũrũaru?",
+      "english": "Are you sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_03",
+      "kikuyu": "Wanjũrĩa ũguo nĩkĩ?",
+      "english": "Why do you ask me that?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_04",
+      "kikuyu": "Tondũ gũtirĩ na heho",
+      "english": "Because it is not cold",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_05",
+      "kikuyu": "We! Ta ĩkĩra burana",
+      "english": "You! Just put on a cardigan",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
+    },
+    {
+      "id": "phrase-018-002_06",
+      "kikuyu": "Kwĩna ũrugarĩ",
+      "english": "It is hot/warm",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    },
+    {
+      "id": "phrase-018-002_07",
+      "kikuyu": "Urenda kũrũarara?",
+      "english": "Do you want to fall sick?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
+    },
+    {
+      "id": "phrase-018-002_08",
+      "kikuyu": "Ngwĩhũmba burana na kabuti",
+      "english": "I will wear a cardigan and an overcoat",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From conversation: Cold Weather Conversation"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.452196+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_007_consonants.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-61085435",
+      "english": "Simple sentences with consonants g, h and k",
+      "kikuyu": "Simple sentences | consonants g, h and k",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Phonetics practice sentences focusing on specific consonant sounds",
+      "cultural_notes": "Educational material for pronunciation practice with alliterative sentences",
+      "examples": [
+        {
+          "kikuyu": "Guka gucia guoko gwaikwa",
+          "english": "Grandfather, pull my hand",
+          "context": "Consonant g practice"
+        },
+        {
+          "kikuyu": "Gĩra gĩkombe gĩkĩ",
+          "english": "Come for this cup",
+          "context": "Consonant g practice - gĩkombe (cup)"
+        },
+        {
+          "kikuyu": "Haha hena heho",
+          "english": "This place is cold",
+          "context": "Consonant h practice"
+        },
+        {
+          "kikuyu": "Huha mwaki wahota",
+          "english": "Blow the fire if you can",
+          "context": "Consonant h practice"
+        },
+        {
+          "kikuyu": "Hoho no ya hoha",
+          "english": "The capsicum has shriveled",
+          "context": "Consonant h practice"
+        },
+        {
+          "kikuyu": "Kaĩrĩtu kena karamu",
+          "english": "The girl has a pen",
+          "context": "Consonant k practice - karamu (pen)"
+        },
+        {
+          "kikuyu": "Kahĩĩ nĩ karatha kanyoni",
+          "english": "The boy has shot the bird",
+          "context": "Consonant k practice"
+        },
+        {
+          "kikuyu": "Kana kona kora kora",
+          "english": "The child saw a frog and ran away",
+          "context": "Consonant k practice - kiura/kora (frog/small frog)"
+        }
+      ],
+      "tags": [
+        "pronunciation",
+        "consonants",
+        "sentences",
+        "learning"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

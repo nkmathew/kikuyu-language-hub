@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.301590+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "016.txt",
+      "017.txt",
+      "018.txt",
+      "024.txt"
+    ],
+    "total_entries": 4,
+    "description": "Common phrases and expressions from Easy Kikuyu - Batch 002",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_phrase_batch002_001",
+      "english": "I don't have a farm",
+      "kikuyu": "Ndire na mũgũnda",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 016",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "possession",
+      "context": "Expressing lack of possession",
+      "cultural_notes": "Common expression. 'Ndire' means 'I don't have', 'mũgũnda' means farm/field",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "negative_possession"
+      },
+      "tags": [
+        "possession",
+        "negative",
+        "farming",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.5,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch002_002",
+      "english": "Sell what you like, even land",
+      "kikuyu": "Endia kĩrĩa ukwenda, ona mũgũnda",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 017",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "proverb_like",
+      "context": "Expression about freedom of choice in selling",
+      "cultural_notes": "Proverbial expression emphasizing personal freedom in business decisions",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "verbs": "endia (sell), ukwenda (you want)"
+      },
+      "tags": [
+        "selling",
+        "choice",
+        "freedom",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch002_003",
+      "english": "What do you have to sell?",
+      "kikuyu": "Nĩ kĩĩ wĩ na kĩo gĩa kwendia?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 018",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "questions",
+      "context": "Market/shopping question asking what someone is selling",
+      "cultural_notes": "Common marketplace question. Shows interrogative structure",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "interrogative",
+        "question_word": "nĩ kĩĩ (what)"
+      },
+      "tags": [
+        "question",
+        "selling",
+        "market",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.7,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_phrase_batch002_004",
+      "english": "Today is Friday",
+      "kikuyu": "Ũmũthĩ nĩ wagatano",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 024",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "time_expressions",
+      "context": "Stating what day it is today",
+      "cultural_notes": "Common daily expression. wagatano = Friday (the fifth day)",
+      "examples": [],
+      "grammatical_info": {
+        "part_of_speech": "phrase",
+        "structure": "ũmũthĩ (today) + nĩ (is) + day_name"
+      },
+      "tags": [
+        "time",
+        "days",
+        "statement",
+        "beginner"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

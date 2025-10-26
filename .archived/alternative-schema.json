@@ -1,0 +1,46 @@
+ {
+    "metadata": {
+      "schema_version": "str",
+      "created_date": "str",
+      "last_updated": "str",
+      "curator": "str",
+      "source_files": ["str"],
+      "total_entries": "int",
+      "description": "str"
+    },
+    "entries": [
+      {
+        "id": "str",
+        "english": "str",
+        "kikuyu": "str",
+        "category": "str",
+        "difficulty": "str",
+        "context": "str",
+        "cultural_notes": "str",
+        "examples": [
+          {
+            "english": "str",
+            "kikuyu": "str",
+            "context": "str"
+          }
+        ],
+        "grammatical_info": {
+          "part_of_speech": "str",
+          "infinitive": "str",
+          "tense": "str"
+        },
+        "tags": ["str"],
+        "quality": {
+          "confidence_score": "float",
+          "verified": "bool",
+          "source_quality": "str"
+        },
+        "source": {
+          "origin": "str",
+          "attribution": "str",
+          "license": "str",
+          "created_date": "str"
+        }
+      }
+    ]
+  }

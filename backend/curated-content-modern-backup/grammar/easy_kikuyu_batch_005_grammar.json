@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.232600+00:00",
+    "curator": "Claude (Manual Curation) (Original) → Schema Migration v1.0 (Converted)",
+    "source_files": [
+      "046.txt",
+      "052.txt"
+    ],
+    "total_entries": 2,
+    "description": "Grammar rules from Easy Kikuyu - Batch 005 (auxiliary verb 'to have', demonstratives)",
+    "last_updated": "2025-10-07T00:00:00Z"
+  },
+  "entries": [
+    {
+      "id": "ek_grammar_batch005_001",
+      "english": "auxiliary verb 'to have' - all persons",
+      "kikuyu": "kiugo kĩa gũteithia 'kũgĩa na'",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 046",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "verbs_auxiliary",
+      "context": "Complete conjugation of the auxiliary verb 'to have' for all persons (I, you, he/she, they, we)",
+      "cultural_notes": "Pronouns in brackets can be omitted and sentence still makes sense in Kikuyu",
+      "examples": [
+        {
+          "english": "I have (I am)",
+          "kikuyu": "(nĩĩ) ndĩ",
+          "context": "1st person singular"
+        },
+        {
+          "english": "I have a...",
+          "kikuyu": "ndĩ na...",
+          "context": "possession"
+        },
+        {
+          "english": "you have (you are)",
+          "kikuyu": "(wee) wĩ",
+          "context": "2nd person singular"
+        },
+        {
+          "english": "you have a...",
+          "kikuyu": "wĩ na...",
+          "context": "possession"
+        },
+        {
+          "english": "he/she has (...is)",
+          "kikuyu": "(we) e",
+          "context": "3rd person singular"
+        },
+        {
+          "english": "he/she has a...",
+          "kikuyu": "e na...",
+          "context": "possession"
+        },
+        {
+          "english": "they have (...are)",
+          "kikuyu": "(o) me",
+          "context": "3rd person plural"
+        },
+        {
+          "english": "they have a...",
+          "kikuyu": "me na...",
+          "context": "possession"
+        },
+        {
+          "english": "we have (are)",
+          "kikuyu": "(ithuĩ) twĩ",
+          "context": "1st person plural"
+        },
+        {
+          "english": "we have a...",
+          "kikuyu": "twĩ na...",
+          "context": "possession"
+        },
+        {
+          "english": "I have many friends",
+          "kikuyu": "(nĩĩ) ndĩ na arata aingĩ",
+          "context": "example sentence"
+        },
+        {
+          "english": "you have a good parent",
+          "kikuyu": "(wee) wĩ na mũciarĩ mwega",
+          "context": "example sentence"
+        },
+        {
+          "english": "he/she has a white car",
+          "kikuyu": "(we) e na ngaarĩ njerũ",
+          "context": "example sentence"
+        },
+        {
+          "english": "they have a big house",
+          "kikuyu": "(o) me na nyũmba nene",
+          "context": "example sentence"
+        },
+        {
+          "english": "we are sad (we have sadness)",
+          "kikuyu": "(ithuĩ) twĩ na kĩeha",
+          "context": "example sentence"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "auxiliary_verb",
+        "pattern": "pronoun (optional) + verb + na + object",
+        "persons": "all six persons covered"
+      },
+      "tags": [
+        "grammar",
+        "verbs",
+        "auxiliary",
+        "possession",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    },
+    {
+      "id": "ek_grammar_batch005_002",
+      "english": "demonstratives for respected persons",
+      "kikuyu": "macio ma gũonia andũ marĩ gĩtĩĩo",
+      "category": "grammar",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 052",
+        "created_date": "2025-10-07T00:00:00Z",
+        "last_updated": "2025-10-07T00:00:00Z",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use"
+      },
+      "subcategory": "demonstratives_respect",
+      "context": "Special demonstrative pronouns used when referring to respected people",
+      "cultural_notes": "Shows cultural values of respect embedded in grammar - special forms for honored individuals",
+      "examples": [
+        {
+          "english": "this one (respected person)",
+          "kikuyu": "ũyũ",
+          "context": "singular demonstrative"
+        },
+        {
+          "english": "these ones (respected persons)",
+          "kikuyu": "aya",
+          "context": "plural demonstrative"
+        }
+      ],
+      "grammatical_info": {
+        "part_of_speech": "demonstrative",
+        "function": "showing_respect",
+        "usage": "for honored or respected individuals"
+      },
+      "tags": [
+        "grammar",
+        "demonstratives",
+        "respect",
+        "culture",
+        "intermediate"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.6,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      }
+    }
+  ]
+}

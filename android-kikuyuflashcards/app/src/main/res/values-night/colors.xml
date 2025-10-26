@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme Material 3 color palette -->
+    <color name="md_theme_dark_primary">#7DD3FC</color>
+    <color name="md_theme_dark_onPrimary">#001E2A</color>
+    <color name="md_theme_dark_primaryContainer">#004D61</color>
+    <color name="md_theme_dark_onPrimaryContainer">#B8E6FF</color>
+    <color name="md_theme_dark_secondary">#B1CBD5</color>
+    <color name="md_theme_dark_onSecondary">#1C3439</color>
+    <color name="md_theme_dark_secondaryContainer">#324B50</color>
+    <color name="md_theme_dark_onSecondaryContainer">#CCE7F1</color>
+    <color name="md_theme_dark_tertiary">#B1CAE5</color>
+    <color name="md_theme_dark_onTertiary">#1B3348</color>
+    <color name="md_theme_dark_tertiaryContainer">#32495F</color>
+    <color name="md_theme_dark_onTertiaryContainer">#CCE5FF</color>
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+    <color name="md_theme_dark_background">#0E1419</color>
+    <color name="md_theme_dark_onBackground">#E1E3E6</color>
+    <color name="md_theme_dark_surface">#0E1419</color>
+    <color name="md_theme_dark_onSurface">#E1E3E6</color>
+    <color name="md_theme_dark_surfaceVariant">#3F484D</color>
+    <color name="md_theme_dark_onSurfaceVariant">#BFC8CD</color>
+    <color name="md_theme_dark_outline">#899297</color>
+    <color name="md_theme_dark_inverseOnSurface">#0E1419</color>
+    <color name="md_theme_dark_inverseSurface">#E1E3E6</color>
+    <color name="md_theme_dark_inversePrimary">#00687D</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+    <color name="md_theme_dark_surfaceTint">#7DD3FC</color>
+    <color name="md_theme_dark_outlineVariant">#3F484D</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+    
+    <!-- Custom dark theme colors for app components -->
+    <color name="dark_card_background">#1E2328</color>
+    <color name="dark_card_text">#E1E3E6</color>
+    <color name="dark_english_card">#2D4A57</color>
+    <color name="dark_kikuyu_card">#4A3429</color>
+    <color name="dark_button_background">#3F484D</color>
+    <color name="dark_button_text">#E1E3E6</color>
+    
+    <!-- Legacy color compatibility -->
+    <color name="colorPrimary">#7DD3FC</color>
+    <color name="colorPrimaryDark">#004D61</color>
+    <color name="colorAccent">#B1CBD5</color>
+    <color name="purple_500">#7DD3FC</color>
+    <color name="purple_700">#004D61</color>
+    <color name="teal_200">#B1CBD5</color>
+    <color name="teal_700">#324B50</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#000000</color>
+</resources>

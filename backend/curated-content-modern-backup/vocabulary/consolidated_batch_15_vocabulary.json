@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-20T22:38:18.638047",
+    "curator": "Split Entry Integration Script",
+    "source_files": [
+      "flagged-translations.txt"
+    ],
+    "total_entries": 27,
+    "description": "Consolidated entries for vocabulary batch 15 (Integrated split entries)",
+    "last_updated": "2025-10-20T22:38:19.261981"
+  },
+  "entries": [
+    {
+      "id": "vocab-015-001_01",
+      "kikuyu": "Gũcũnga",
+      "english": "doze",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_02",
+      "kikuyu": "Gũkoma",
+      "english": "sleep",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_03",
+      "kikuyu": "Gũkoma na nda",
+      "english": "sleep face down",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_04",
+      "kikuyu": "Gũkoma na ngara/mũgongo",
+      "english": "sleep on back",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_05",
+      "kikuyu": "Gũkoma na mwena",
+      "english": "sleep on side",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_06",
+      "kikuyu": "Kũrara",
+      "english": "spend the night",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_07",
+      "kikuyu": "Hinga maitho ũkome",
+      "english": "shut eyes and sleep",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_08",
+      "kikuyu": "Koma na wega/thayũ",
+      "english": "sleep well",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-001_09",
+      "kikuyu": "Gĩa na ũtuko mwega",
+      "english": "have a good night",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sleep Vocabulary & Phrases"
+    },
+    {
+      "id": "vocab-015-002_01",
+      "kikuyu": "Mũembe",
+      "english": "mango tree",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sacred Trees"
+    },
+    {
+      "id": "vocab-015-002_02",
+      "kikuyu": "Mũcungwa",
+      "english": "orange tree",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sacred Trees"
+    },
+    {
+      "id": "vocab-015-002_03",
+      "kikuyu": "Mũkũyũ",
+      "english": "ficus sycamora",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sacred Trees"
+    },
+    {
+      "id": "vocab-015-002_04",
+      "kikuyu": "Mũgumo",
+      "english": "ficus natalensis/thoningii",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sacred Trees"
+    },
+    {
+      "id": "vocab-015-002_05",
+      "kikuyu": "Mũtamaiyũ",
+      "english": "African olive tree",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Sacred Trees"
+    },
+    {
+      "id": "vocab-015-003_01",
+      "kikuyu": "M: Maitũ",
+      "english": "mother",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_02",
+      "kikuyu": "uncle",
+      "english": "mama",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_03",
+      "kikuyu": "intestines",
+      "english": "mara",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_04",
+      "kikuyu": "hands",
+      "english": "moko",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_05",
+      "kikuyu": "saliva",
+      "english": "mata",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_06",
+      "kikuyu": "guinea fowl",
+      "english": "Nganga",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_07",
+      "kikuyu": "hat",
+      "english": "Ngobia",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_08",
+      "kikuyu": "floor/storey",
+      "english": "ngoroba",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_09",
+      "kikuyu": "Mũrãng'a",
+      "english": "place",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_10",
+      "kikuyu": "hunger",
+      "english": "ng'aragu",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-003_11",
+      "kikuyu": "be idle",
+      "english": "ng'ethia",
+      "category": "vocabulary",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Nasal Consonants Practice (m, ng, ng')"
+    },
+    {
+      "id": "vocab-015-005_01",
+      "kikuyu": "cold",
+      "english": "Heho",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Time Vocabulary"
+    },
+    {
+      "id": "vocab-015-005_02",
+      "kikuyu": "Mĩaraho",
+      "english": "midday/around and soon after midday",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Time Vocabulary"
+    }
+  ]
+}

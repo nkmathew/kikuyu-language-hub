@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.454700+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_013_market_days.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-15885820",
+      "english": "weekends are market days",
+      "kikuyu": "Wikendi nĩ mithenya ya ndũnyũ",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Cultural observation about traditional market days falling on weekends",
+      "cultural_notes": "Traditional Kikuyu markets (ndũnyũ) often occur on weekends, showing the integration of modern week structure with traditional commerce",
+      "tags": [
+        "weekend",
+        "market",
+        "days",
+        "commerce",
+        "culture"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

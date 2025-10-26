@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-07T00:00:00Z",
+    "last_updated": "2025-10-07T00:00:00Z",
+    "curator": "Claude (Manual Curation)",
+    "source_files": ["020.txt"],
+    "total_entries": 2,
+    "description": "Advanced conjugation patterns from Easy Kikuyu - Batch 002 (past tense patterns with vowel-starting verbs)"
+  },
+  "entries": [
+    {
+      "id": "ek_conj_batch002_001",
+      "english": "I woke up ten minutes ago",
+      "kikuyu": "Ndokĩra dagĩka ikũmi ciathira",
+      "category": "conjugations",
+      "subcategory": "recent_past_detailed",
+      "difficulty": "intermediate",
+      "context": "Recent past tense - extended examples with more verbs",
+      "cultural_notes": "Demonstrates common morning routine vocabulary with past tense conjugations",
+      "examples": [
+        {"english": "I took a bath with cold water", "kikuyu": "Ndethamba na maĩ mahoro", "context": "recent past"},
+        {"english": "I put on my clothes quickly", "kikuyu": "Ndehumba nguo naihenya", "context": "recent past"},
+        {"english": "I made sorghum porridge", "kikuyu": "Ndaruga ũcũrũ wa mũtũ wa mũhĩa", "context": "recent past"},
+        {"english": "Then I shut the door and left", "kikuyu": "Ndacoka ndahĩnga mũrango ndoima", "context": "sequential actions"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "tense": "recent_past",
+        "subject_marker": "nda-/nde-/ndo-"
+      },
+      "tags": ["past tense", "morning routine", "daily life", "intermediate"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.8,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 020",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T16:00:00Z",
+        "last_updated": "2025-10-07T16:00:00Z"
+      }
+    },
+    {
+      "id": "ek_conj_batch002_002",
+      "english": "To light - I lit - I lit earlier today",
+      "kikuyu": "Akia - Ndakia | Njakirĩrie",
+      "category": "conjugations",
+      "subcategory": "verb_patterns",
+      "difficulty": "advanced",
+      "context": "Special conjugation pattern for verbs that start with vowels",
+      "cultural_notes": "Important grammatical pattern showing how vowel-initial verbs conjugate differently in past tenses",
+      "examples": [
+        {"english": "to light (fire)", "kikuyu": "Akia - Ndakia | Njakirĩrie", "context": "vowel pattern"},
+        {"english": "to leave/move", "kikuyu": "Ehera - Ndehera | Njeherĩre", "context": "vowel pattern"},
+        {"english": "to put/place", "kikuyu": "Iga - Ndaiga | Njigĩre", "context": "vowel pattern"},
+        {"english": "to do/make", "kikuyu": "Ĩka - Ndeka | Njĩkĩre", "context": "vowel pattern"},
+        {"english": "to sleep", "kikuyu": "Orota - Ndorota | Njorotire", "context": "vowel pattern"},
+        {"english": "to see", "kikuyu": "Ona - Ndona | Nyonĩre", "context": "vowel pattern"},
+        {"english": "to cook", "kikuyu": "Uga - Ndoiga | Njugĩre", "context": "vowel pattern"}
+      ],
+      "grammatical_info": {
+        "part_of_speech": "verb",
+        "pattern_type": "vowel_initial_verbs",
+        "recent_past_pattern": "Nda-/Nde-/Ndo- prefix",
+        "early_today_pattern": "Nj- prefix + -ĩre/-ire ending"
+      },
+      "tags": ["grammar", "verb patterns", "vowels", "conjugation", "advanced"],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.9,
+        "source_quality": "native_speaker",
+        "reviewer": "needs_native_speaker_review"
+      },
+      "source": {
+        "origin": "Easy Kikuyu Facebook - Lesson 020",
+        "attribution": "Emmanuel Kariuki - Easy Kikuyu lessons",
+        "license": "educational_use",
+        "created_date": "2025-10-07T16:00:00Z",
+        "last_updated": "2025-10-07T16:00:00Z"
+      }
+    }
+  ]
+}

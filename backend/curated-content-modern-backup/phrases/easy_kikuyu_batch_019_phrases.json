@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.346761+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "191.txt",
+      "194.txt"
+    ],
+    "total_entries": 6,
+    "description": "Converted from easy_kikuyu_batch_019_phrases.json (Integrated split entries)",
+    "last_updated": "2025-10-20T22:37:41.924675"
+  },
+  "entries": [
+    {
+      "id": "phrase-019-002",
+      "english": "I am happy with this lesson",
+      "kikuyu": "Nī ndīrakena na gīthūmū gīkī",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 194",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-08T11:30:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-019-001_01",
+      "kikuyu": "Rũgama na mwena",
+      "english": "Stand on the side",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_02",
+      "kikuyu": "Gũrĩra mũgate na iria",
+      "english": "Buy me bread",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_03",
+      "kikuyu": "Aria na arata aku",
+      "english": "Speak to your friends",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_04",
+      "kikuyu": "Hinga mũrango tuthĩĩ",
+      "english": "Close the door and let us go",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    },
+    {
+      "id": "phrase-019-001_05",
+      "kikuyu": "Hingũra ibuku tuthoome",
+      "english": "Open the book we read",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Manual extraction"
+      },
+      "quality": 3,
+      "cultural_notes": "From Command Sentences - Practice"
+    }
+  ]
+}

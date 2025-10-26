@@ -1,0 +1,340 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.353590+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [
+      "195.txt",
+      "198.txt",
+      "204.txt"
+    ],
+    "total_entries": 19,
+    "description": "Converted from easy_kikuyu_batch_020_phrases.json",
+    "last_updated": "2025-01-09T13:15:00Z"
+  },
+  "entries": [
+    {
+      "id": "phrase-020-001",
+      "english": "Njeri daughter of Njoroge",
+      "kikuyu": "Njeri wa Njoroge",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 195",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-002",
+      "english": "I am off home / I'm leaving now",
+      "kikuyu": "Nĩĩ ndainuka",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 195",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-003",
+      "english": "This girl",
+      "kikuyu": "Mũirĩtu ũyũ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-004",
+      "english": "These girls",
+      "kikuyu": "Aĩrĩtu aya",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-005",
+      "english": "Who is this?",
+      "kikuyu": "Ũyũ nũũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-006",
+      "english": "Who are these?",
+      "kikuyu": "Aya nĩ a?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-007",
+      "english": "What is his/her name?",
+      "kikuyu": "Etagwo atĩa?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-008",
+      "english": "Do you speak Kikuyu?",
+      "kikuyu": "Nĩ waragia gĩkũyũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-009",
+      "english": "Speak to me / Talk with me",
+      "kikuyu": "Aria na nĩĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 198",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-010",
+      "english": "Let's meet",
+      "kikuyu": "Nĩĩtũcemanie",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-011",
+      "english": "Where do you want us to meet?",
+      "kikuyu": "Ũkwenda tũcemanie kũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-012",
+      "english": "Let us meet at a hotel",
+      "kikuyu": "Nĩ tũcemanie mũkawainĩ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-013",
+      "english": "Which hotel?",
+      "kikuyu": "Mũkawa ũrikũ?",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-014",
+      "english": "I don't know it",
+      "kikuyu": "Ndiũĩ",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-015",
+      "english": "Board a matatu to town",
+      "kikuyu": "Haica matatu ya taũnĩ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-016",
+      "english": "When you arrive call me by phone",
+      "kikuyu": "Wakinĩya ũhũrĩre thimũ",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-017",
+      "english": "The town is large",
+      "kikuyu": "Taũnĩ nĩ nene",
+      "category": "phrases",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-018",
+      "english": "Where do I disembark?",
+      "kikuyu": "Ngumĩra kũ?",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    },
+    {
+      "id": "phrase-020-019",
+      "english": "Disembark at Posta / Post office",
+      "kikuyu": "Ũmĩra bothita",
+      "category": "phrases",
+      "difficulty": "intermediate",
+      "source": {
+        "origin": "Easy Kikuyu Lesson 204",
+        "created_date": "2025-01-08",
+        "last_updated": "2025-01-09T13:15:00Z"
+      },
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}

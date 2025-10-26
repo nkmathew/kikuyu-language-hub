@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_date": "2025-10-18T21:21:36.449222+00:00",
+    "curator": "Schema Migration v1.0",
+    "source_files": [],
+    "total_entries": 1,
+    "description": "Converted from easy_kikuyu_006_shapes.json - 2025-10-19"
+  },
+  "entries": [
+    {
+      "id": "unknown-62261215",
+      "english": "different shapes",
+      "kikuyu": "Ũmbo wa Indo mwanya mwanya",
+      "category": "vocabulary",
+      "difficulty": "beginner",
+      "source": {
+        "origin": "Unknown",
+        "created_date": null,
+        "last_updated": null
+      },
+      "context": "Vocabulary for describing various geometric shapes",
+      "cultural_notes": "Native speaker vocabulary for teaching shapes, using natural comparisons like honeycomb (magua ma njũkĩ) for hexagon",
+      "tags": [
+        "shapes",
+        "geometry",
+        "basic vocabulary",
+        "descriptive"
+      ],
+      "quality": {
+        "verified": false,
+        "confidence_score": 4.0,
+        "source_quality": "community"
+      }
+    }
+  ]
+}
