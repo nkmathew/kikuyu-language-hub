@@ -567,11 +567,66 @@ class FillInTheBlankActivity : AppCompatActivity() {
     }
     
     private fun showIncorrectFeedback(userAnswer: String) {
-        questionText.text = "$displayPhrase\n\n❌ Not quite. You said: \"$userAnswer\"\nThe correct answer is: \"$blankWord\""
+        // Build base feedback message
+        var feedbackMessage = "$displayPhrase\n\n❌ Not quite. You said: \"$userAnswer\""
+
+        // Try to find what the user's answer means in the vocabulary
+        val userAnswerTranslation = findTranslationForWord(userAnswer)
+        if (userAnswerTranslation != null) {
+            feedbackMessage += "\n(\"$userAnswer\" means \"$userAnswerTranslation\")"
+        }
+
+        feedbackMessage += "\nThe correct answer is: \"$blankWord\""
+
+        questionText.text = feedbackMessage
         questionText.setTextColor(ContextCompat.getColor(this, R.color.md_theme_light_error))
-        
+
         // Animate shake for incorrect answer
         animateQuestionShake()
+    }
+
+    /**
+     * Search for a word in the vocabulary and return its translation
+     * Returns the translation if found, null otherwise
+     */
+    private fun findTranslationForWord(word: String): String? {
+        if (word.isBlank()) return null
+
+        // Normalize the word for comparison (lowercase, trim)
+        val normalizedWord = word.trim().lowercase()
+
+        // Get all entries from the flashcard manager
+        val allEntries = flashCardManager.getAllEntries()
+
+        // Search through all entries to find matches
+        for (entry in allEntries) {
+            // Check if the word matches the Kikuyu text (case-insensitive)
+            if (entry.kikuyu.lowercase().trim() == normalizedWord) {
+                return entry.english
+            }
+
+            // Check if the word matches the English text (case-insensitive)
+            if (entry.english.lowercase().trim() == normalizedWord) {
+                return entry.kikuyu
+            }
+
+            // Also check if the word is part of a multi-word phrase
+            // Split both English and Kikuyu into words and check for matches
+            val kikuyuWords = entry.kikuyu.split(" ").map { it.trim().lowercase() }
+            val englishWords = entry.english.split(" ").map { it.trim().lowercase() }
+
+            if (kikuyuWords.contains(normalizedWord)) {
+                // Found the word in Kikuyu, return the English translation
+                return entry.english
+            }
+
+            if (englishWords.contains(normalizedWord)) {
+                // Found the word in English, return the Kikuyu translation
+                return entry.kikuyu
+            }
+        }
+
+        return null
     }
     
     private fun showHint() {
