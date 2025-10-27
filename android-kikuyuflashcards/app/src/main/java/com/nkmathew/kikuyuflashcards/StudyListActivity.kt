@@ -235,8 +235,28 @@ class StudyListActivity : AppCompatActivity() {
         var cards = flashCardManager.getAllEntries()
         android.util.Log.d("StudyListActivity", "🔍 DEBUG: flashCardManager.getAllEntries() returned ${cards.size} cards")
 
-        // Log if there are any debug phrases in the data
+        // Log any debug phrases in the original data before filtering
         val debugKeywords = listOf("numbered entry", "sample vocab", "test entry", "debug")
+        val debugPhrasesBeforeFilter = cards.filter { card ->
+            debugKeywords.any { keyword ->
+                card.english.lowercase().contains(keyword.lowercase()) ||
+                card.kikuyu.lowercase().contains(keyword.lowercase())
+            }
+        }
+
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Found ${debugPhrasesBeforeFilter.size} debug phrases BEFORE filtering")
+
+        // Filter out section header entries (grammar descriptions that aren't actual translations)
+        val sectionHeaderIds = getSectionHeaderIds()
+
+        // Filter out section headers
+        val filteredCards = cards.filterNot { card -> sectionHeaderIds.contains(card.id) }
+        val removedCount = cards.size - filteredCards.size
+
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Filtered out $removedCount section headers")
+        cards = filteredCards
+
+        // Log if there are any debug phrases in the data after filtering
         val debugPhrases = cards.filter { card ->
             debugKeywords.any { keyword ->
                 card.english.lowercase().contains(keyword.lowercase()) ||
@@ -244,9 +264,17 @@ class StudyListActivity : AppCompatActivity() {
             }
         }
 
-        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Found ${debugPhrases.size} debug phrases in data")
+        android.util.Log.d("StudyListActivity", "🔍 DEBUG: Found ${debugPhrases.size} debug phrases AFTER filtering")
         if (debugPhrases.isNotEmpty()) {
             android.util.Log.d("StudyListActivity", "🔍 DEBUG: Example debug phrase: '${debugPhrases.first().english}' - '${debugPhrases.first().kikuyu}'")
+        }
+
+        // Ensure we didn't accidentally filter out debug phrases
+        val missingDebugPhrases = debugPhrasesBeforeFilter.size - debugPhrases.size
+        if (missingDebugPhrases > 0) {
+            android.util.Log.w("StudyListActivity", "⚠️ WARNING: Lost $missingDebugPhrases debug phrases during filtering")
+        } else {
+            android.util.Log.d("StudyListActivity", "✅ All debug phrases preserved during filtering")
         }
 
         // Apply sorting based on current sort mode
@@ -350,10 +378,39 @@ class StudyListActivity : AppCompatActivity() {
     }
 
     /**
+     * Get the section header IDs to filter out
+     *
+     * This is used to filter out entries that are grammar descriptions or section headers
+     * rather than actual translation content. These entries were marked with "content_type": "section_header"
+     * in the JSON data, but we filter them by ID here since the FlashcardEntry model doesn't have a contentType field.
+     */
+    private fun getSectionHeaderIds(): List<String> {
+        return listOf(
+            // Conjugation section headers
+            "conj-022-002", "conj-025-001", "conj-026-001", "conj-026-002",
+
+            // Grammar section headers
+            "gram-010-001", "gram-010-002", "grammar-012-001", "grammar-012-002",
+            "grammar-013-001", "grammar-014-001", "grammar-014-002", "grammar-014-003",
+            "grammar-016-001", "grammar-017-001", "grammar-017-002", "grammar-017-003",
+            "grammar-018-001", "grammar-018-002", "grammar-019-001", "grammar-019-002",
+            "grammar-020-001", "grammar-020-002", "grammar-021-001", "grammar-021-002",
+            "grammar-022-001", "grammar-022-002", "grammar-023-001", "grammar-023-002",
+            "grammar-024-001", "grammar-025-001", "grammar-027-001", "grammar-027-002",
+
+            // Other section headers
+            "unknown-61085435", "vocab-011-005"
+        )
+    }
+
+    /**
      * Copy all cards to clipboard
      */
     private fun copyAllToClipboard() {
-        val cards = flashCardManager.getAllEntries()
+        // Get all entries and filter out section headers
+        var cards = flashCardManager.getAllEntries()
+        cards = cards.filterNot { card -> getSectionHeaderIds().contains(card.id) }
+
         if (cards.isEmpty()) {
             Toast.makeText(this, "No cards to copy", Toast.LENGTH_SHORT).show()
             return
@@ -373,7 +430,10 @@ class StudyListActivity : AppCompatActivity() {
      * Share all cards
      */
     private fun shareAllCards() {
-        val cards = flashCardManager.getAllEntries()
+        // Get all entries and filter out section headers
+        var cards = flashCardManager.getAllEntries()
+        cards = cards.filterNot { card -> getSectionHeaderIds().contains(card.id) }
+
         if (cards.isEmpty()) {
             Toast.makeText(this, "No cards to share", Toast.LENGTH_SHORT).show()
             return
