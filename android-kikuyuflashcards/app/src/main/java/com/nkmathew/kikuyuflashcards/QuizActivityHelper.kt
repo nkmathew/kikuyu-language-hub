@@ -10,32 +10,48 @@ import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 class QuizActivityHelper(private val context: Context) {
     companion object {
         private const val TAG = "QuizActivityHelper"
+    }
 
-        // Keywords that indicate test/debug entries that should be excluded from quizzes
-        private val TEST_KEYWORDS = listOf(
-            "numbered entry",
-            "sample vocab",
-            "test entry",
-            "debug"
+    /**
+     * Get the section header IDs to filter out
+     *
+     * This is used to filter out entries that are grammar descriptions or section headers
+     * rather than actual translation content. These entries were marked with "content_type": "section_header"
+     * in the JSON data, but we filter them by ID here since the FlashcardEntry model doesn't have a contentType field.
+     */
+    private fun getSectionHeaderIds(): List<String> {
+        return listOf(
+            // Conjugation section headers
+            "conj-022-002", "conj-025-001", "conj-026-001", "conj-026-002",
+
+            // Grammar section headers
+            "gram-010-001", "gram-010-002", "grammar-012-001", "grammar-012-002",
+            "grammar-013-001", "grammar-014-001", "grammar-014-002", "grammar-014-003",
+            "grammar-016-001", "grammar-017-001", "grammar-017-002", "grammar-017-003",
+            "grammar-018-001", "grammar-018-002", "grammar-019-001", "grammar-019-002",
+            "grammar-020-001", "grammar-020-002", "grammar-021-001", "grammar-021-002",
+            "grammar-022-001", "grammar-022-002", "grammar-023-001", "grammar-023-002",
+            "grammar-024-001", "grammar-025-001", "grammar-027-001", "grammar-027-002",
+
+            // Other section headers
+            "unknown-61085435", "vocab-011-005"
         )
     }
 
     /**
-     * Filter out debug/test entries that shouldn't be shown in quizzes
+     * Filter out section header entries that shouldn't be shown in quizzes
      */
     fun filterQuizEntries(allEntries: List<FlashcardEntry>): List<FlashcardEntry> {
-        val filteredEntries = allEntries.filter { entry ->
-            // Check if the entry contains any test keywords
-            val isTestEntry = TEST_KEYWORDS.any { keyword ->
-                entry.english.lowercase().contains(keyword.lowercase()) ||
-                entry.kikuyu.lowercase().contains(keyword.lowercase())
-            }
+        // Get section header IDs to filter out
+        val sectionHeaderIds = getSectionHeaderIds()
 
-            // Only include real (non-test) entries
-            !isTestEntry
+        // Filter out section headers by ID
+        val filteredEntries = allEntries.filterNot { entry ->
+            sectionHeaderIds.contains(entry.id)
         }
 
-        Log.d(TAG, "Filtered ${allEntries.size} total entries to ${filteredEntries.size} valid quiz entries")
+        val removedCount = allEntries.size - filteredEntries.size
+        Log.d(TAG, "Filtered ${allEntries.size} total entries to ${filteredEntries.size} valid quiz entries (removed $removedCount section headers)")
 
         return if (filteredEntries.size >= 10) {
             filteredEntries
@@ -53,7 +69,7 @@ class QuizActivityHelper(private val context: Context) {
         flashCardManager: FlashCardManagerV2,
         count: Int
     ): List<FlashcardEntry> {
-        // Get all entries and filter out test/debug entries
+        // Get all entries and filter out section headers
         val validEntries = filterQuizEntries(flashCardManager.getAllEntries())
 
         // Generate random quiz questions

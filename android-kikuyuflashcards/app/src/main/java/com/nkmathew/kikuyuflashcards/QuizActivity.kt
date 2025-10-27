@@ -19,7 +19,7 @@ import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 class QuizActivity : ComponentActivity() {
     companion object {
         private const val TAG = "QuizActivity"
-        private const val QUIZ_LENGTH = 20 // Increased from 10 to 20
+        private const val QUIZ_LENGTH = 50 // Increased from 20 to 50 to show more quiz questions
     }
 
     private lateinit var flashCardManager: FlashCardManagerV2
