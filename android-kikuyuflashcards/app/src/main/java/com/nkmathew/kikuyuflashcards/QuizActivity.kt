@@ -1621,6 +1621,7 @@ class QuizActivity : ComponentActivity() {
     }
 
     private fun showQuizComplete() {
+        Log.d(TAG, "Quiz completion started. Failed answers size: ${failedAnswers.size}, Score: $score")
         val accuracy = if (quizLength > 0) (score * 100) / quizLength else 0
         val failedCount = failedAnswers.size
         val correctCount = score
@@ -1651,10 +1652,11 @@ class QuizActivity : ComponentActivity() {
 
         // Show failed answers review if there are any
         if (failedAnswers.isNotEmpty()) {
-            Log.d(TAG, "Showing ${failedAnswers.size} failed answers review")
+            Log.d(TAG, "Found ${failedAnswers.size} failed answers, showing review")
+            Log.d(TAG, "Failed answers: ${failedAnswers.map { "${it.userAnswer} -> ${it.correctAnswer}" }}")
             showFailedAnswersReview()
         } else {
-            Log.d(TAG, "No failed answers to show")
+            Log.d(TAG, "No failed answers to show - quiz completed with ${score} correct answers")
         }
 
         // Archive completed quiz and clear state
@@ -1677,9 +1679,49 @@ class QuizActivity : ComponentActivity() {
     }
 
     /**
+     * Debug method to log the current view hierarchy
+     */
+    private fun debugViewHierarchy() {
+        try {
+            val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
+            Log.d(TAG, "=== VIEW HIERARCHY DEBUG ===")
+            Log.d(TAG, "FrameLayout: ${frameLayout != null}, children: ${frameLayout?.childCount}")
+
+            if (frameLayout != null && frameLayout.childCount > 0) {
+                val child0 = frameLayout.getChildAt(0)
+                Log.d(TAG, "Child 0: ${child0?.javaClass?.simpleName}")
+
+                if (child0 is ScrollView) {
+                    Log.d(TAG, "ScrollView found, children: ${child0.childCount}")
+                    if (child0.childCount > 0) {
+                        val scrollChild = child0.getChildAt(0)
+                        Log.d(TAG, "ScrollView child: ${scrollChild?.javaClass?.simpleName}")
+
+                        if (scrollChild is LinearLayout) {
+                            Log.d(TAG, "Root LinearLayout found, children: ${scrollChild.childCount}")
+                            for (i in 0 until scrollChild.childCount) {
+                                val layoutChild = scrollChild.getChildAt(i)
+                                Log.d(TAG, "  Child $i: ${layoutChild?.javaClass?.simpleName} - ${layoutChild}")
+                            }
+                        }
+                    }
+                }
+            }
+            Log.d(TAG, "=== END VIEW HIERARCHY DEBUG ===")
+        } catch (e: Exception) {
+            Log.e(TAG, "Error debugging view hierarchy", e)
+        }
+    }
+
+    /**
      * Shows a review of all failed answers with their meanings
      */
     private fun showFailedAnswersReview() {
+        Log.d(TAG, "showFailedAnswersReview() called with ${failedAnswers.size} failed answers")
+
+        // Debug the current view hierarchy
+        debugViewHierarchy()
+
         // Create a section for failed answers review
         val failedReviewSection = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
@@ -1709,10 +1751,40 @@ class QuizActivity : ComponentActivity() {
         }
         failedReviewSection.addView(titleText)
 
-        // Add each failed answer
+        // Create a scrollable container for the answer cards
+        val scrollableContent = ScrollView(this).apply {
+            layoutParams = LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            ).apply {
+                // Set a maximum height to ensure it doesn't take up the entire screen
+                val maxHeight = (resources.displayMetrics.heightPixels * 0.5).toInt() // 50% of screen height for better visibility
+                this.height = maxHeight
+            }
+
+            // Enable smooth scrolling with visible scrollbar
+            isVerticalScrollBarEnabled = true
+            scrollBarStyle = android.view.View.SCROLLBARS_INSIDE_OVERLAY
+            // Note: verticalFadingEdgeEnabled requires API level, removing for compatibility
+
+            // Set a subtle background to indicate scrollable area
+            setBackgroundColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_surfaceVariant))
+        }
+
+        // Create content container inside scrollview
+        val scrollContent = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            layoutParams = android.widget.FrameLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            )
+            setPadding(8, 8, 8, 8) // Add some padding inside the scrollable area
+        }
+
+        // Add each failed answer to scrollable content
         failedAnswers.take(10).forEachIndexed { index, failedAnswer ->
             val answerCard = createFailedAnswerCard(failedAnswer, index + 1)
-            failedReviewSection.addView(answerCard)
+            scrollContent.addView(answerCard)
         }
 
         // If there are more than 10 failed answers, show a message
@@ -1725,8 +1797,14 @@ class QuizActivity : ComponentActivity() {
                 setPadding(0, 16, 0, 0)
                 setTypeface(android.graphics.Typeface.create("sans-serif", android.graphics.Typeface.ITALIC))
             }
-            failedReviewSection.addView(moreText)
+            scrollContent.addView(moreText)
         }
+
+        // Add scrollable content to scrollview, then add scrollview to main section
+        scrollableContent.addView(scrollContent)
+        failedReviewSection.addView(scrollableContent)
+
+        Log.d(TAG, "Scrollable failed answers review created with ${failedAnswers.size} answers, max height: ${scrollableContent.height}px")
 
         // Action button to practice failed words
         val practiceButton = Button(this).apply {
@@ -1761,31 +1839,57 @@ class QuizActivity : ComponentActivity() {
         }
         failedReviewSection.addView(practiceButton)
 
-        // Add the review section to the main layout
+        // Add the review section to the main layout with improved reliability
         try {
+            Log.d(TAG, "Starting to add failed answers review section...")
+
+            // Method 1: Try the standard approach first
             val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
             Log.d(TAG, "FrameLayout found: ${frameLayout != null}, children: ${frameLayout?.childCount}")
 
-            val scrollView = frameLayout?.getChildAt(0) as? ScrollView
-            Log.d(TAG, "ScrollView found: ${scrollView != null}")
+            if (frameLayout != null && frameLayout.childCount > 0) {
+                val scrollView = frameLayout.getChildAt(0) as? ScrollView
+                Log.d(TAG, "ScrollView found: ${scrollView != null}")
 
-            val rootLayout = scrollView?.getChildAt(0) as? LinearLayout
-            Log.d(TAG, "RootLayout found: ${rootLayout != null}, current children: ${rootLayout?.childCount}")
+                if (scrollView != null && scrollView.childCount > 0) {
+                    val rootLayout = scrollView.getChildAt(0) as? LinearLayout
+                    Log.d(TAG, "RootLayout found: ${rootLayout != null}, current children: ${rootLayout?.childCount}")
 
-            if (rootLayout != null) {
-                rootLayout.addView(failedReviewSection)
-                Log.d(TAG, "Failed review section added successfully")
+                    if (rootLayout != null) {
+                        Log.d(TAG, "Adding failed review section to root layout...")
+                        rootLayout.addView(failedReviewSection)
+                        Log.d(TAG, "Failed review section added successfully! New child count: ${rootLayout.childCount}")
 
-                // Scroll to the failed answers section
-                scrollView?.postDelayed({
-                    scrollView.smoothScrollTo(0, failedReviewSection.top)
-                    Log.d(TAG, "Scrolled to failed answers section")
-                }, 300)
-            } else {
-                Log.e(TAG, "RootLayout is null, cannot add failed answers review")
+                        // Force layout update
+                        rootLayout.requestLayout()
+
+                        // Scroll to the failed answers section with longer delay
+                        scrollView.postDelayed({
+                            scrollView.fullScroll(ScrollView.FOCUS_DOWN)
+                            Log.d(TAG, "Scrolled to bottom to show failed answers")
+                        }, 500)
+
+                        return // Success!
+                    }
+                }
             }
+
+            // Method 2: Fallback - try to add directly to frameLayout
+            Log.w(TAG, "Standard approach failed, trying fallback method...")
+            frameLayout?.addView(failedReviewSection)
+            Log.d(TAG, "Failed review section added using fallback method")
+
         } catch (e: Exception) {
             Log.e(TAG, "Error adding failed answers review", e)
+
+            // Method 3: Last resort - show a simple message
+            try {
+                runOnUiThread {
+                    Toast.makeText(this@QuizActivity, "Failed answers review could not be displayed", Toast.LENGTH_LONG).show()
+                }
+            } catch (toastException: Exception) {
+                Log.e(TAG, "Even fallback toast failed", toastException)
+            }
         }
     }
 
