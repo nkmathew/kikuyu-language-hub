@@ -22,6 +22,7 @@ import android.view.ViewGroup
 import android.widget.ScrollView
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.View
+import android.content.Intent
 
 class QuizActivity : ComponentActivity() {
     companion object {
@@ -35,6 +36,7 @@ class QuizActivity : ComponentActivity() {
     private lateinit var quizHelper: QuizActivityHelper
     private lateinit var quizConfigManager: QuizConfigManager
     private lateinit var quizStateManager: QuizStateManager
+    private lateinit var failureTracker: FailureTracker
     private lateinit var questionText: TextView
     private lateinit var progressText: TextView
     private lateinit var progressBar: ProgressBar
@@ -61,12 +63,26 @@ class QuizActivity : ComponentActivity() {
     private var quizId: String? = null
     private val answeredQuestions = mutableListOf<AnsweredQuestion>()
 
+    // Failed answers tracking for this quiz session
+    private val failedAnswers = mutableListOf<FailedAnswer>()
+
     data class QuizQuestion(
         val phrase: FlashcardEntry,
         val questionText: String,
         val correctAnswer: String,
         val options: List<String>,
         val isEnglishToKikuyu: Boolean
+    )
+
+    data class FailedAnswer(
+        val phrase: FlashcardEntry,
+        val userAnswer: String,
+        val correctAnswer: String,
+        val questionText: String,
+        val isEnglishToKikuyu: Boolean,
+        val wrongOptionMeaning: String?, // What the wrong answer actually means
+        val timestamp: Long = System.currentTimeMillis(),
+        val responseTime: Long = 0L // Time taken to answer in milliseconds
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -83,6 +99,7 @@ class QuizActivity : ComponentActivity() {
             quizHelper = QuizActivityHelper(this)
             quizConfigManager = QuizConfigManager(this)
             quizStateManager = QuizStateManager(this)
+            failureTracker = FailureTracker(this)
 
             if (flashCardManager.getTotalEntries() < 4) {
                 Toast.makeText(this, "Need at least 4 phrases for quiz mode", Toast.LENGTH_LONG).show()
@@ -545,6 +562,9 @@ class QuizActivity : ComponentActivity() {
         // Restore answered questions history
         answeredQuestions.clear()
         answeredQuestions.addAll(state.answeredQuestions)
+
+        // Clear failed answers for new session (will be populated as user answers)
+        failedAnswers.clear()
 
         // Restore the quiz questions by their IDs
         quizQuestions.clear()
@@ -1282,6 +1302,20 @@ class QuizActivity : ComponentActivity() {
     }
 
     /**
+     * Helper method to find the meaning of a wrong answer
+     */
+    private fun findWrongAnswerMeaning(wrongAnswer: String, isEnglishToKikuyuQuestion: Boolean): String? {
+        val wrongPhrase = findPhraseByText(wrongAnswer, !isEnglishToKikuyuQuestion)
+        return if (wrongPhrase != null) {
+            // If the question was English→Kikuyu, the wrong answer is Kikuyu, so return its English meaning
+            // If the question was Kikuyu→English, the wrong answer is English, so return its Kikuyu meaning
+            if (isEnglishToKikuyuQuestion) wrongPhrase.english else wrongPhrase.kikuyu
+        } else {
+            null
+        }
+    }
+
+    /**
      * Creates a custom progress bar drawable with gradient
      */
     private fun createProgressBarDrawable(): LayerDrawable {
@@ -1318,6 +1352,9 @@ class QuizActivity : ComponentActivity() {
 
         // Clear answered questions history
         answeredQuestions.clear()
+
+        // Clear failed answers for new quiz session
+        failedAnswers.clear()
 
         generateNextQuestion()
     }
@@ -1433,11 +1470,14 @@ class QuizActivity : ComponentActivity() {
 
     private fun showQuizComplete() {
         val accuracy = if (quizLength > 0) (score * 100) / quizLength else 0
+        val failedCount = failedAnswers.size
+        val correctCount = score
         val statsMessage = """
             🎉 Quiz Complete!
 
             Final Score: $score / $quizLength
             Accuracy: $accuracy%
+            Correct: $correctCount | Wrong: $failedCount
 
             Overall Progress:
             Total Quiz Answers: ${progressManager.getQuizTotalAnswered()}
@@ -1449,12 +1489,17 @@ class QuizActivity : ComponentActivity() {
         questionText.text = statsMessage
         progressText.text = "Quiz Finished"
         progressBar.progress = quizLength
-        scoreText.text = "Great job! 🎊"
+        scoreText.text = if (failedCount > 0) "Review mistakes below 👇" else "Perfect! 🎊"
 
         // Hide option buttons
         listOf(option1Button, option2Button, option3Button, option4Button).forEach {
             it.text = ""
             it.isEnabled = false
+        }
+
+        // Show failed answers review if there are any
+        if (failedAnswers.isNotEmpty()) {
+            showFailedAnswersReview()
         }
 
         // Archive completed quiz and clear state
@@ -1473,7 +1518,186 @@ class QuizActivity : ComponentActivity() {
             Log.d(TAG, "Quiz completed and archived")
         }
 
-        Toast.makeText(this, "Quiz completed! Check your stats.", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Quiz completed! Review your mistakes below.", Toast.LENGTH_LONG).show()
+    }
+
+    /**
+     * Shows a review of all failed answers with their meanings
+     */
+    private fun showFailedAnswersReview() {
+        // Create a section for failed answers review
+        val failedReviewSection = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            background = GradientDrawable().apply {
+                cornerRadius = 20f
+                setColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_errorContainer))
+                setStroke(2, ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_error))
+            }
+            setPadding(20, 20, 20, 20)
+            elevation = 8f
+            layoutParams = LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 16, 0, 16)
+            }
+        }
+
+        // Title
+        val titleText = TextView(this).apply {
+            text = "❌ Failed Answers Review (${failedAnswers.size})"
+            textSize = 18f
+            setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onError))
+            setTypeface(android.graphics.Typeface.DEFAULT_BOLD)
+            setPadding(0, 0, 0, 16)
+            gravity = Gravity.CENTER
+        }
+        failedReviewSection.addView(titleText)
+
+        // Add each failed answer
+        failedAnswers.take(10).forEachIndexed { index, failedAnswer ->
+            val answerCard = createFailedAnswerCard(failedAnswer, index + 1)
+            failedReviewSection.addView(answerCard)
+        }
+
+        // If there are more than 10 failed answers, show a message
+        if (failedAnswers.size > 10) {
+            val moreText = TextView(this).apply {
+                text = "And ${failedAnswers.size - 10} more... Check Problem Words for complete list."
+                textSize = 14f
+                setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onError))
+                gravity = Gravity.CENTER
+                setPadding(0, 16, 0, 0)
+                setTypeface(android.graphics.Typeface.create("sans-serif", android.graphics.Typeface.ITALIC))
+            }
+            failedReviewSection.addView(moreText)
+        }
+
+        // Action button to practice failed words
+        val practiceButton = Button(this).apply {
+            text = "🎯 Practice These Words"
+            setOnClickListener {
+                soundManager.playButtonSound()
+                startProblemWordsPractice()
+            }
+            setPadding(24, 16, 24, 16)
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onTertiary))
+            isAllCaps = false
+            setTypeface(android.graphics.Typeface.DEFAULT_BOLD)
+
+            background = GradientDrawable(
+                GradientDrawable.Orientation.LEFT_RIGHT,
+                intArrayOf(
+                    ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_tertiary),
+                    ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_primary)
+                )
+            ).apply {
+                cornerRadius = 16f
+            }
+
+            elevation = 6f
+            layoutParams = LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 16, 0, 0)
+            }
+        }
+        failedReviewSection.addView(practiceButton)
+
+        // Add the review section to the main layout
+        val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
+        val scrollView = frameLayout?.getChildAt(0) as? ScrollView
+        val rootLayout = scrollView?.getChildAt(0) as? LinearLayout
+
+        rootLayout?.addView(failedReviewSection)
+
+        // Scroll to the failed answers section
+        scrollView?.postDelayed({
+            scrollView.smoothScrollTo(0, failedReviewSection.top)
+        }, 300)
+    }
+
+    /**
+     * Creates a card for displaying a single failed answer
+     */
+    private fun createFailedAnswerCard(failedAnswer: FailedAnswer, questionNumber: Int): LinearLayout {
+        return LinearLayout(this@QuizActivity).apply {
+            orientation = LinearLayout.VERTICAL
+            background = GradientDrawable().apply {
+                cornerRadius = 12f
+                setColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_surfaceContainer))
+                setStroke(1, ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_outline))
+            }
+            setPadding(16, 12, 16, 12)
+            layoutParams = LinearLayout.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 8, 0, 8)
+            }
+
+            // Question number and direction
+            val headerText = TextView(this@QuizActivity).apply {
+                val direction = if (failedAnswer.isEnglishToKikuyu) "🇬🇧 → 🇰🇪" else "🇰🇪 → 🇬🇧"
+                text = "$questionNumber. $direction"
+                textSize = 14f
+                setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_primary))
+                setTypeface(android.graphics.Typeface.DEFAULT_BOLD)
+                setPadding(0, 0, 0, 8)
+            }
+            addView(headerText)
+
+            // The question
+            val questionText = TextView(this@QuizActivity).apply {
+                text = "Question: \"${failedAnswer.questionText}\""
+                textSize = 14f
+                setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onSurface))
+                setPadding(0, 0, 0, 4)
+            }
+            addView(questionText)
+
+            // Your wrong answer
+            val yourAnswerText = TextView(this@QuizActivity).apply {
+                text = "❌ Your answer: \"${failedAnswer.userAnswer}\""
+                textSize = 14f
+                setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_error))
+                setTypeface(android.graphics.Typeface.DEFAULT_BOLD)
+                setPadding(0, 4, 0, 4)
+            }
+            addView(yourAnswerText)
+
+            // Show what your wrong answer means (if available)
+            failedAnswer.wrongOptionMeaning?.let { meaning ->
+                val meaningText = TextView(this@QuizActivity).apply {
+                    text = "💡 Actually means: \"$meaning\""
+                    textSize = 12f
+                    setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onSurfaceVariant))
+                    setTypeface(android.graphics.Typeface.create("sans-serif", android.graphics.Typeface.ITALIC))
+                    setPadding(8, 2, 0, 4)
+                }
+                addView(meaningText)
+            }
+
+            // The correct answer
+            val correctAnswerText = TextView(this@QuizActivity).apply {
+                text = "✅ Correct answer: \"${failedAnswer.correctAnswer}\""
+                textSize = 14f
+                setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_tertiary))
+                setTypeface(android.graphics.Typeface.DEFAULT_BOLD)
+                setPadding(0, 4, 0, 0)
+            }
+            addView(correctAnswerText)
+        }
+    }
+
+    /**
+     * Starts the Problem Words activity to practice failed words
+     */
+    private fun startProblemWordsPractice() {
+        val intent = Intent(this, ProblemWordsActivity::class.java)
+        startActivity(intent)
     }
 
     private fun checkAnswer(selectedOptionIndex: Int) {
@@ -1541,6 +1765,13 @@ class QuizActivity : ComponentActivity() {
             score++
             soundManager.playCorrectSound()
 
+            // Record success in FailureTracker for improvement tracking
+            failureTracker.recordSuccess(
+                entry = question.phrase,
+                learningMode = FailureTracker.LearningMode.STREAK_MASTER,
+                responseTime = 0L // TODO: Add response time tracking
+            )
+
             // Show correct answer feedback with better styling
             val correctToast = Toast.makeText(this, "✅ Correct!", Toast.LENGTH_SHORT)
             correctToast.setGravity(Gravity.TOP or Gravity.CENTER_HORIZONTAL, 0, 200)
@@ -1553,14 +1784,39 @@ class QuizActivity : ComponentActivity() {
         } else {
             soundManager.playWrongSound()
 
+            // Create and show detailed feedback card for incorrect answers
+            val userSelectedText = question.options[selectedOptionIndex]
+            val correctAnswerText = question.correctAnswer
+
+            // Track the failed answer for this quiz session
+            val wrongAnswerMeaning = findWrongAnswerMeaning(userSelectedText, question.isEnglishToKikuyu)
+
+            val failedAnswer = FailedAnswer(
+                phrase = question.phrase,
+                userAnswer = userSelectedText,
+                correctAnswer = question.correctAnswer,
+                questionText = question.questionText,
+                isEnglishToKikuyu = question.isEnglishToKikuyu,
+                wrongOptionMeaning = wrongAnswerMeaning,
+                responseTime = 0L // TODO: Add response time tracking
+            )
+            failedAnswers.add(failedAnswer)
+
+            // Record the failure in the FailureTracker system
+            failureTracker.recordFailure(
+                entry = question.phrase,
+                failureType = FailureTracker.FailureType.MULTIPLE_CHOICE_ERROR,
+                learningMode = FailureTracker.LearningMode.STREAK_MASTER, // Using existing quiz mode
+                userAnswer = userSelectedText,
+                correctAnswer = question.correctAnswer,
+                difficulty = question.phrase.difficulty,
+                responseTime = 0L
+            )
+
             // Remove any existing feedback card
             feedbackCard?.let { card ->
                 (card.parent as? ViewGroup)?.removeView(card)
             }
-
-            // Create and show detailed feedback card for incorrect answers
-            val userSelectedText = question.options[selectedOptionIndex]
-            val correctAnswerText = question.correctAnswer
             feedbackCard = createFeedbackCard(userSelectedText, correctAnswerText, question)
 
             // Find the options layout and add feedback card below it
