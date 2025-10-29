@@ -19,7 +19,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Morning Conversation"
     },
     {
@@ -31,7 +36,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Morning Conversation (Question)"
     },
     {
@@ -43,7 +53,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Morning Conversation"
     },
     {
@@ -55,7 +70,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Morning Conversation (Question)"
     },
     {
@@ -67,7 +87,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Morning Conversation"
     },
     {
@@ -79,7 +104,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Morning Conversation (Question)"
     },
     {
@@ -91,7 +121,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Introduction Conversation (Question)"
     },
     {
@@ -103,7 +138,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Introduction Conversation"
     },
     {
@@ -115,7 +155,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Introduction Conversation (Question)"
     },
     {
@@ -127,7 +172,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Introduction Conversation"
     },
     {
@@ -139,7 +189,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Introduction Conversation (Question)"
     },
     {
@@ -151,7 +206,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Introduction Conversation"
     },
     {
@@ -163,7 +223,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
     },
     {
@@ -175,7 +240,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
     },
     {
@@ -187,7 +257,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
     },
     {
@@ -199,7 +274,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation"
     },
     {
@@ -211,7 +291,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation (Exclamation)"
     },
     {
@@ -223,7 +308,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation"
     },
     {
@@ -235,7 +325,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation (Question)"
     },
     {
@@ -247,7 +342,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Cold Weather Conversation"
     },
     {
@@ -259,7 +359,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -271,7 +376,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -283,7 +393,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -295,7 +410,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -307,7 +427,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -319,7 +444,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -331,7 +461,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
     },
     {
@@ -343,7 +478,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -355,7 +495,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -367,7 +512,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
     },
     {
@@ -379,7 +529,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -391,7 +546,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -403,7 +563,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
     },
     {
@@ -415,7 +580,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -427,7 +597,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -439,7 +614,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -451,7 +631,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -463,7 +648,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -475,7 +665,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -487,7 +682,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From New Month Blessing - July"
     },
     {
@@ -499,7 +699,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From New Month Blessing - July"
     },
     {
@@ -511,7 +716,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From New Month Blessing - July"
     },
     {
@@ -523,7 +733,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From New Month Blessing - July"
     }
   ]

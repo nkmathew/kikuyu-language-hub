@@ -21,7 +21,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -33,7 +38,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
     },
     {
@@ -45,7 +55,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -57,7 +72,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -69,7 +89,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
     },
     {
@@ -81,7 +106,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -93,7 +123,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     },
     {
@@ -105,7 +140,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation (Question)"
     },
     {
@@ -117,7 +157,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -129,7 +174,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -141,7 +191,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -153,7 +208,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -165,7 +225,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -177,7 +242,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Asking & Giving Instructions (10 Examples)"
     },
     {
@@ -189,7 +259,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation (Exclamation)"
     },
     {
@@ -201,7 +276,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From conversation: Buying & Selling Conversation"
     }
   ]

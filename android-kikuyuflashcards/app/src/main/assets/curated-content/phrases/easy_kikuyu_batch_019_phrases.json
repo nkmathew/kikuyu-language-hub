@@ -38,7 +38,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -50,7 +55,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -62,7 +72,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -74,7 +89,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     },
     {
@@ -86,7 +106,12 @@
       "source": {
         "origin": "Manual extraction"
       },
-      "quality": 3,
+      "quality": {
+        "score": 3,
+        "verified": false,
+        "confidence_score": 3.0,
+        "source_quality": "manual"
+      },
       "cultural_notes": "From Command Sentences - Practice"
     }
   ]

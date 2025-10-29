@@ -176,7 +176,7 @@
       ],
       "grammatical_info": {
         "part_of_speech": "verb",
-        "tense": ["past - yesterday", "future - tomorrow"],
+        "tense": "past - yesterday, future - tomorrow",
         "category": "sound and feeling verbs",
         "persons": ["3rd person singular"],
         "pattern": {

@@ -1944,7 +1944,6 @@ class QuizActivity : ComponentActivity() {
 
             // Show correct answer feedback with better styling
             val correctToast = Toast.makeText(this, "✅ Correct!", Toast.LENGTH_SHORT)
-            correctToast.setGravity(Gravity.TOP or Gravity.CENTER_HORIZONTAL, 0, 200)
             correctToast.show()
 
             // Play achievement sound for milestones
@@ -1958,7 +1957,7 @@ class QuizActivity : ComponentActivity() {
             val userSelectedText = question.options[selectedOptionIndex]
             val correctAnswerText = question.correctAnswer
 
-            // Track the failed answer for this quiz session
+            // Track the failed answer for this quiz session (lightweight operation)
             val wrongAnswerMeaning = findWrongAnswerMeaning(userSelectedText, question.isEnglishToKikuyu)
 
             val failedAnswer = FailedAnswer(
@@ -1990,52 +1989,31 @@ class QuizActivity : ComponentActivity() {
             }
             feedbackCard = createFeedbackCard(userSelectedText, correctAnswerText, question)
 
-            // Find the options layout and add feedback card below it
-            // The content view is a FrameLayout containing the ScrollView
-            val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
-            val scrollView = frameLayout?.getChildAt(0) as? ScrollView
-            val rootLayout = scrollView?.getChildAt(0) as? LinearLayout
+            // Add feedback card to layout (optimized)
+            try {
+                val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
+                val scrollView = frameLayout?.getChildAt(0) as? ScrollView
+                val rootLayout = scrollView?.getChildAt(0) as? LinearLayout
 
-            rootLayout?.let { root ->
-                // Find the index of the options layout (which contains the option buttons)
-                var optionsLayoutIndex = -1
-                for (i in 0 until root.childCount) {
-                    val child = root.getChildAt(i)
-                    if (child is LinearLayout) {
-                        // Check if this layout contains our option buttons
-                        val containsButtons = (0 until child.childCount).any { j ->
-                            val grandchild = child.getChildAt(j)
-                            grandchild == option1Button || grandchild == option2Button ||
-                            grandchild == option3Button || grandchild == option4Button
-                        }
-                        if (containsButtons) {
-                            optionsLayoutIndex = i
-                            break
-                        }
-                    }
+                // Add feedback card at the end of root layout for simplicity
+                rootLayout?.addView(feedbackCard)
+
+                // Simple animation (reduced complexity)
+                feedbackCard?.let { card ->
+                    card.alpha = 0f
+                    card.animate()
+                        .alpha(1f)
+                        .setDuration(300) // Reduced duration
+                        .setInterpolator(android.view.animation.DecelerateInterpolator()) // Simpler interpolator
+                        .start()
+
+                    // Simple scroll to bottom
+                    scrollView?.postDelayed({
+                        scrollView.fullScroll(ScrollView.FOCUS_DOWN)
+                    }, 100)
                 }
-
-                // Add feedback card after the options layout
-                if (optionsLayoutIndex >= 0 && optionsLayoutIndex < root.childCount - 1) {
-                    root.addView(feedbackCard, optionsLayoutIndex + 1)
-
-                    // Animate the feedback card entrance
-                    feedbackCard?.let { card ->
-                        card.alpha = 0f
-                        card.scaleY = 0.8f
-                        card.animate()
-                            .alpha(1f)
-                            .scaleY(1f)
-                            .setDuration(400)
-                            .setInterpolator(android.view.animation.OvershootInterpolator())
-                            .start()
-
-                        // Scroll to show the feedback card
-                        scrollView?.postDelayed({
-                            scrollView.smoothScrollTo(0, card.top)
-                        }, 100)
-                    }
-                }
+            } catch (e: Exception) {
+                Log.e(TAG, "Error adding feedback card", e)
             }
         }
 

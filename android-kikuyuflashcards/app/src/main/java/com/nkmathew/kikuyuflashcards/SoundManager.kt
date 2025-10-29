@@ -28,11 +28,18 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     private var ttsLanguageSupported = false
     
     // Sound IDs
-    private var swipeSoundId: Int = 0
-    private var correctSoundId: Int = 0
-    private var wrongSoundId: Int = 0
-    private var buttonSoundId: Int = 0
-    private var achievementSoundId: Int = 0
+    private var swipeSoundId: Int = -1
+    private var correctSoundId: Int = -1
+    private var wrongSoundId: Int = -1
+    private var buttonSoundId: Int = -1
+    private var achievementSoundId: Int = -1
+
+    // Sound loaded flags
+    private var swipeSoundLoaded = false
+    private var correctSoundLoaded = false
+    private var wrongSoundLoaded = false
+    private var buttonSoundLoaded = false
+    private var achievementSoundLoaded = false
     
     init {
         initializeSoundPool()
@@ -63,15 +70,15 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     private fun loadSounds() {
         soundPool?.let { pool ->
             try {
-                // For now, we'll create silent placeholders
-                // In a real implementation, you would load actual sound files from assets
-                swipeSoundId = 1
-                correctSoundId = 2
-                wrongSoundId = 3
-                buttonSoundId = 4
-                achievementSoundId = 5
-                
-                Log.d(TAG, "Sound placeholders loaded successfully")
+                // Disable sound loading for now to avoid SoundPool errors
+                // The app will work fine without sound effects
+                // TODO: Add proper sound files to assets/res/raw and load them here
+                Log.d(TAG, "Sound effects disabled to avoid SoundPool errors")
+                swipeSoundLoaded = false
+                correctSoundLoaded = false
+                wrongSoundLoaded = false
+                buttonSoundLoaded = false
+                achievementSoundLoaded = false
             } catch (e: Exception) {
                 Log.e(TAG, "Error loading sounds", e)
             }
@@ -79,33 +86,28 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     }
     
     fun playSwipeSound() {
-        if (isInitialized && soundPool != null) {
-            soundPool?.play(swipeSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, DEFAULT_RATE)
-        }
+        // Sound effects disabled to avoid SoundPool errors
+        Log.d(TAG, "Swipe sound skipped - sound effects disabled")
     }
-    
+
     fun playCorrectSound() {
-        if (isInitialized && soundPool != null) {
-            soundPool?.play(correctSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, DEFAULT_RATE)
-        }
+        // Sound effects disabled to avoid SoundPool errors
+        Log.d(TAG, "Correct sound skipped - sound effects disabled")
     }
-    
+
     fun playWrongSound() {
-        if (isInitialized && soundPool != null) {
-            soundPool?.play(wrongSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, DEFAULT_RATE)
-        }
+        // Sound effects disabled to avoid SoundPool errors
+        Log.d(TAG, "Wrong sound skipped - sound effects disabled")
     }
-    
+
     fun playButtonSound() {
-        if (isInitialized && soundPool != null) {
-            soundPool?.play(buttonSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, DEFAULT_RATE)
-        }
+        // Sound effects disabled to avoid SoundPool errors
+        Log.d(TAG, "Button sound skipped - sound effects disabled")
     }
-    
+
     fun playAchievementSound() {
-        if (isInitialized && soundPool != null) {
-            soundPool?.play(achievementSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, DEFAULT_RATE)
-        }
+        // Sound effects disabled to avoid SoundPool errors
+        Log.d(TAG, "Achievement sound skipped - sound effects disabled")
     }
     
     fun setSoundEnabled(enabled: Boolean) {

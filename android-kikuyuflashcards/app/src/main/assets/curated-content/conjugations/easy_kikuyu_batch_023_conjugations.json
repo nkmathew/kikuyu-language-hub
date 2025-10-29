@@ -97,7 +97,7 @@
       ],
       "grammatical_info": {
         "part_of_speech": "verb",
-        "tense": ["past - moments ago", "past - early today"],
+        "tense": "past - moments ago, past - early today",
         "persons": ["1st person singular", "1st person plural", "2nd person singular", "2nd person plural", "3rd person singular", "3rd person plural"],
         "pattern": {
           "moments ago": {
