@@ -64,8 +64,8 @@ class FlaggedCardAdapter(
             difficultyText.text = card.difficulty
             categoryText.text = card.category
 
-            // Set position badge
-            positionBadge.text = position.toString()
+            // Set position badge with "#" prefix to match ProblemWordsActivity style
+            positionBadge.text = "#$position"
 
             // Show cultural notes if available
             if (card.culturalNotes?.isNotEmpty() == true) {

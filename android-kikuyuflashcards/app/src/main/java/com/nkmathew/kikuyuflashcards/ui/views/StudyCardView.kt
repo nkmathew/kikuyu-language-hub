@@ -155,7 +155,11 @@ class StudyCardView @JvmOverloads constructor(
     fun setPosition(pos: Int, total: Int) {
         position = pos
         totalCards = total
-        positionIndicator.text = "$position/$totalCards"
+        // Update position indicator with "#" prefix to match the style in ProblemWordsActivity
+        positionIndicator.text = "#$position"
+        // Update background and text color to match tertiary theme colors
+        positionIndicator.background = ContextCompat.getDrawable(context, R.drawable.circle_background_blue)
+        positionIndicator.setTextColor(ContextCompat.getColor(context, R.color.md_theme_dark_tertiary))
     }
 
     /**

@@ -135,14 +135,14 @@ class ProblemWordsActivity : AppCompatActivity() {
             text = "📚 Problem Words"
             textSize = 28f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_light_primary))
+            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_primary))
             gravity = Gravity.CENTER
         }
-        
+
         val subtitleText = TextView(this).apply {
             text = "Focus on words that need extra practice"
             textSize = 16f
-            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.text_secondary))
+            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_onSurfaceVariant))
             gravity = Gravity.CENTER
             setPadding(0, 8, 0, 0)
         }
@@ -163,11 +163,11 @@ class ProblemWordsActivity : AppCompatActivity() {
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
         }
-        
+
         statsText = TextView(this).apply {
             text = "Loading statistics..."
             textSize = 14f
-            setTextColor(Color.BLACK)
+            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_onSurface))
             gravity = Gravity.CENTER
         }
         
@@ -179,8 +179,8 @@ class ProblemWordsActivity : AppCompatActivity() {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 12f
-            setColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_light_surfaceVariant))
-            setStroke(1, ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_light_outline))
+            setColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_surfaceVariant))
+            setStroke(1, ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_outline))
         }
     }
     
@@ -259,8 +259,8 @@ class ProblemWordsActivity : AppCompatActivity() {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 8f
-            setColor(Color.WHITE)
-            setStroke(1, ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_light_secondary))
+            setColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_surfaceContainer))
+            setStroke(1, ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_secondary))
         }
     }
     
@@ -448,7 +448,7 @@ class ProblemWordsActivity : AppCompatActivity() {
     
     private fun refreshWordList() {
         wordsContainer.removeAllViews()
-        
+
         if (problemWords.isEmpty()) {
             val emptyText = TextView(this).apply {
                 text = "🎉 No problem words found!\n\nKeep up the great work!"
@@ -460,16 +460,17 @@ class ProblemWordsActivity : AppCompatActivity() {
             wordsContainer.addView(emptyText)
             return
         }
-        
-        problemWords.forEach { word ->
-            val wordCard = createProblemWordCard(word)
+
+        // Add numbered cards
+        problemWords.forEachIndexed { index, word ->
+            val wordCard = createProblemWordCard(word, index + 1)
             wordsContainer.addView(wordCard)
         }
-        
+
         Log.d(TAG, "Displayed ${problemWords.size} problem words")
     }
     
-    private fun createProblemWordCard(word: FailureTracker.DifficultyWord): LinearLayout {
+    private fun createProblemWordCard(word: FailureTracker.DifficultyWord, cardNumber: Int = 0): LinearLayout {
         val cardContainer = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(20, 20, 20, 20)
@@ -482,7 +483,38 @@ class ProblemWordsActivity : AppCompatActivity() {
                 setMargins(0, 8, 0, 8)
             }
         }
-        
+
+        // Card number badge (if number is provided)
+        if (cardNumber > 0) {
+            // Header with card number
+            val headerRow = LinearLayout(this).apply {
+                orientation = LinearLayout.HORIZONTAL
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
+                gravity = Gravity.START
+                setPadding(0, 0, 0, 8)
+            }
+
+            // Number badge
+            val numberBadge = TextView(this).apply {
+                text = "#$cardNumber"
+                textSize = 14f
+                setTypeface(null, android.graphics.Typeface.BOLD)
+                setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_tertiary))
+                background = GradientDrawable().apply {
+                    shape = GradientDrawable.RECTANGLE
+                    cornerRadius = 12f
+                    setColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_tertiaryContainer))
+                }
+                setPadding(12, 4, 12, 4)
+            }
+
+            headerRow.addView(numberBadge)
+            cardContainer.addView(headerRow)
+        }
+
         // Word content
         val wordContent = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
@@ -493,13 +525,13 @@ class ProblemWordsActivity : AppCompatActivity() {
             text = "🇬🇧 ${word.englishText}"
             textSize = 18f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(Color.BLACK)
+            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_onSurface))
         }
-        
+
         val kikuyuText = TextView(this).apply {
             text = "🇰🇪 ${word.kikuyuText}"
             textSize = 16f
-            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_light_secondary))
+            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_primary))
             setPadding(0, 4, 0, 0)
         }
         
@@ -513,13 +545,13 @@ class ProblemWordsActivity : AppCompatActivity() {
         val categoryText = TextView(this).apply {
             text = "📁 ${word.category}"
             textSize = 12f
-            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.text_secondary))
+            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_onSurfaceVariant))
         }
-        
+
         val failureCountText = TextView(this).apply {
             text = "❌ ${word.failureCount} failures"
             textSize = 12f
-            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_light_error))
+            setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_error))
             setPadding(16, 0, 0, 0)
         }
         
@@ -590,16 +622,16 @@ class ProblemWordsActivity : AppCompatActivity() {
     
     private fun createWordCardBackground(masteryLevel: FailureTracker.MasteryLevel): GradientDrawable {
         val color = when (masteryLevel) {
-            FailureTracker.MasteryLevel.STRUGGLING -> ContextCompat.getColor(this, R.color.md_theme_light_error)
+            FailureTracker.MasteryLevel.STRUGGLING -> ContextCompat.getColor(this, R.color.md_theme_dark_error)
             FailureTracker.MasteryLevel.CHALLENGING -> ContextCompat.getColor(this, R.color.warning_orange)
             FailureTracker.MasteryLevel.LEARNING -> ContextCompat.getColor(this, R.color.info_blue)
             FailureTracker.MasteryLevel.MASTERED -> ContextCompat.getColor(this, R.color.success_green)
         }
-        
+
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 12f
-            setColor(Color.WHITE)
+            setColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_surfaceContainer))
             setStroke(3, color)
         }
     }

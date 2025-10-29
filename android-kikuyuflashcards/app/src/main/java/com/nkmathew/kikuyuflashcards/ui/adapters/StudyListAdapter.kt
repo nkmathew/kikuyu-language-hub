@@ -97,6 +97,7 @@ class StudyListAdapter(
                 val cardPosition = position - 1 // Subtract 1 for header
                 val card = cards[cardPosition]
                 // Pass the position (1-based) and total count to the card
+                // Use cardPosition + 1 for 1-based position to match ProblemWordsActivity
                 holder.bind(card, cardPosition + 1, cards.size)
             }
         }

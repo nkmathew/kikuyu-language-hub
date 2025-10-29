@@ -5,7 +5,8 @@
     android:layout_height="wrap_content"
     android:layout_margin="4dp"
     app:cardCornerRadius="12dp"
-    app:cardElevation="3dp">
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/md_theme_dark_surface">
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -14,11 +15,13 @@
         <!-- Position Badge (small, at bottom-right corner) -->
         <TextView
             android:id="@+id/positionBadge"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
             android:background="@drawable/circle_background_blue"
             android:text="1"
-            android:textColor="@android:color/white"
+            android:textColor="@color/md_theme_dark_tertiary"
             android:textSize="11sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -52,7 +55,7 @@
                         android:text="Kikuyu Text"
                         android:textSize="20sp"
                         android:textStyle="bold"
-                        android:textColor="@color/primary_color" />
+                        android:textColor="@color/md_theme_dark_primary" />
 
                     <TextView
                         android:id="@+id/englishText"
@@ -60,7 +63,7 @@
                         android:layout_height="wrap_content"
                         android:text="English Text"
                         android:textSize="18sp"
-                        android:textColor="@color/secondary_color"
+                        android:textColor="@color/md_theme_dark_secondary"
                         android:layout_marginTop="6dp" />
 
                 </LinearLayout>
@@ -71,7 +74,7 @@
                     android:layout_height="32dp"
                     android:background="@drawable/circle_background_red"
                     android:text="✕"
-                    android:textColor="@android:color/white"
+                    android:textColor="@color/md_theme_dark_onError"
                     android:textSize="16sp"
                     android:textStyle="bold"
                     android:gravity="center" />
@@ -106,7 +109,7 @@
                     android:background="@drawable/category_badge"
                     android:paddingHorizontal="8dp"
                     android:paddingVertical="4dp"
-                    android:textColor="@color/secondary_color"
+                    android:textColor="@color/md_theme_dark_onSurface"
                     android:layout_marginStart="8dp" />
 
             </LinearLayout>
