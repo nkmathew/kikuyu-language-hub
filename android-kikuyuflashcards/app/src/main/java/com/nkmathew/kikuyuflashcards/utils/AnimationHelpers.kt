@@ -206,7 +206,94 @@ object AnimationHelpers {
             interpolator = AccelerateDecelerateInterpolator()
         }
     }
-    
+
+    /**
+     * Creates a smooth slide-in animation for new questions
+     */
+    fun createSlideInFromRight(view: View, duration: Long = 400L): AnimatorSet {
+        view.translationX = view.width.toFloat()
+        view.alpha = 0f
+
+        return AnimatorSet().apply {
+            playTogether(
+                ObjectAnimator.ofFloat(view, "translationX", view.width.toFloat(), 0f),
+                ObjectAnimator.ofFloat(view, "alpha", 0f, 1f)
+            )
+            this.duration = duration
+            interpolator = DecelerateInterpolator()
+        }
+    }
+
+    /**
+     * Creates a smooth slide-out animation for old questions
+     */
+    fun createSlideOutToLeft(view: View, duration: Long = 400L): AnimatorSet {
+        return AnimatorSet().apply {
+            playTogether(
+                ObjectAnimator.ofFloat(view, "translationX", 0f, -view.width.toFloat()),
+                ObjectAnimator.ofFloat(view, "alpha", 1f, 0f)
+            )
+            this.duration = duration
+            interpolator = AccelerateInterpolator()
+        }
+    }
+
+    /**
+     * Creates a sparkle/celebration animation for correct answers
+     */
+    fun createCelebrationAnimation(view: View, duration: Long = 600L): AnimatorSet {
+        return AnimatorSet().apply {
+            val rotate = ObjectAnimator.ofFloat(view, "rotation", 0f, 360f)
+            val scaleX = ObjectAnimator.ofFloat(view, "scaleX", 1f, 1.3f, 1f)
+            val scaleY = ObjectAnimator.ofFloat(view, "scaleY", 1f, 1.3f, 1f)
+
+            playTogether(rotate, scaleX, scaleY)
+            this.duration = duration
+            interpolator = OvershootInterpolator()
+        }
+    }
+
+    /**
+     * Creates a subtle loading pulse animation
+     */
+    fun createLoadingPulse(view: View): ObjectAnimator {
+        return ObjectAnimator.ofFloat(view, "alpha", 1f, 0.6f, 1f).apply {
+            duration = 1200L
+            repeatCount = ValueAnimator.INFINITE
+            interpolator = AccelerateDecelerateInterpolator()
+        }
+    }
+
+    /**
+     * Creates a staggered animation sequence
+     */
+    fun createStaggeredAnimation(views: List<View>, duration: Long = 300L, delay: Long = 50L): AnimatorSet {
+        val animators = mutableListOf<ObjectAnimator>()
+
+        views.forEachIndexed { index, view ->
+            view.alpha = 0f
+            view.translationY = 50f
+
+            val alphaAnim = ObjectAnimator.ofFloat(view, "alpha", 0f, 1f).apply {
+                this.duration = duration
+                startDelay = index * delay
+            }
+
+            val translateAnim = ObjectAnimator.ofFloat(view, "translationY", 50f, 0f).apply {
+                this.duration = duration
+                startDelay = index * delay
+                interpolator = OvershootInterpolator()
+            }
+
+            animators.add(alphaAnim)
+            animators.add(translateAnim)
+        }
+
+        return AnimatorSet().apply {
+            playTogether(*animators.toTypedArray())
+        }
+    }
+
     /**
      * Direction enum for slide animations
      */
