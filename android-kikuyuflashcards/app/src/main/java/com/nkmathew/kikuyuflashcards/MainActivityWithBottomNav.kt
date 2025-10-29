@@ -36,7 +36,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
     
     private fun createBottomNavigationUI() {
         val isDarkTheme = ThemeManager.isDarkTheme(this)
-        val backgroundColor = if (isDarkTheme) Color.parseColor("#121212") else ContextCompat.getColor(this, R.color.md_theme_light_background)
+        val backgroundColor = if (isDarkTheme) ContextCompat.getColor(this, R.color.md_theme_dark_background) else ContextCompat.getColor(this, R.color.md_theme_light_background)
         
         // Main container
         val mainLayout = LinearLayout(this).apply {
@@ -191,7 +191,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setPadding(0, 2, 0, 0)
             tag = "indicator_${item.id}"
             visibility = if (item.id == currentActiveTab) android.view.View.VISIBLE else android.view.View.GONE
-            setTextColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+            setTextColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary))
         }
         
         // Update colors based on active state
@@ -231,9 +231,13 @@ class MainActivityWithBottomNav : ComponentActivity() {
     }
     
     private fun updateNavButtonColors(iconText: TextView?, labelText: TextView?, isActive: Boolean, isDarkTheme: Boolean) {
-        val activeColor = ContextCompat.getColor(this, R.color.md_theme_light_primary)
+        val activeColor = if (isDarkTheme) {
+            ContextCompat.getColor(this, R.color.md_theme_dark_primary)
+        } else {
+            ContextCompat.getColor(this, R.color.md_theme_light_primary)
+        }
         val inactiveColor = if (isDarkTheme) Color.parseColor("#888888") else Color.parseColor("#666666")
-        
+
         iconText?.setTextColor(if (isActive) activeColor else inactiveColor)
         labelText?.setTextColor(if (isActive) activeColor else inactiveColor)
     }
@@ -247,7 +251,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         val titleText = TextView(this).apply {
             text = "🇰🇪 Kikuyu Flash Cards"
             textSize = 32f
-            setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+            setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
             setPadding(0, 0, 0, 16)
             gravity = Gravity.CENTER
             setTypeface(null, android.graphics.Typeface.BOLD)
@@ -282,7 +286,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         val titleText = TextView(this).apply {
             text = "📚 Learning Modes"
             textSize = 28f
-            setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+            setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
             setPadding(0, 0, 0, 24)
             gravity = Gravity.CENTER
             setTypeface(null, android.graphics.Typeface.BOLD)
@@ -391,7 +395,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             val buttonBg = GradientDrawable().apply {
                 shape = GradientDrawable.RECTANGLE
                 cornerRadius = 24f
-                setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+                setColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
             }
             background = buttonBg
             
@@ -501,7 +505,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         val titleText = TextView(this).apply {
             text = "📊 Learning Analytics"
             textSize = 28f
-            setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+            setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
             gravity = Gravity.CENTER
             setPadding(0, 0, 0, 12)
             setTypeface(null, android.graphics.Typeface.BOLD)
@@ -543,7 +547,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         val titleText = TextView(this).apply {
             text = "⚙️ Settings"
             textSize = 28f
-            setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+            setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
             setPadding(0, 0, 0, 24)
             gravity = Gravity.CENTER
             setTypeface(null, android.graphics.Typeface.BOLD)
@@ -655,7 +659,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             val background = GradientDrawable().apply {
                 shape = GradientDrawable.RECTANGLE
                 cornerRadius = 16f
-                setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_surfaceContainerHigh))
+                setColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_surfaceContainerHigh) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_surfaceContainerHigh))
             }
             setBackground(background)
             
@@ -672,7 +676,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             val titleView = TextView(this@MainActivityWithBottomNav).apply {
                 text = title
                 textSize = 18f
-                setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+                setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
                 setPadding(0, 0, 0, 12)
                 gravity = Gravity.CENTER
                 setTypeface(null, android.graphics.Typeface.BOLD)
@@ -690,14 +694,14 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 val labelView = TextView(this@MainActivityWithBottomNav).apply {
                     text = label
                     textSize = 14f
-                    setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurface))
+                    setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_onSurface) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurface))
                     this.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
                 }
                 
                 val valueView = TextView(this@MainActivityWithBottomNav).apply {
                     text = value
                     textSize = 15f
-                    setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+                    setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
                     gravity = Gravity.END
                     this.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
                     setTypeface(null, android.graphics.Typeface.BOLD)
@@ -718,7 +722,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             val background = GradientDrawable().apply {
                 shape = GradientDrawable.RECTANGLE
                 cornerRadius = 16f
-                setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_surfaceContainerHigh))
+                setColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_surfaceContainerHigh) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_surfaceContainerHigh))
             }
             setBackground(background)
             
@@ -735,7 +739,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             val titleView = TextView(this@MainActivityWithBottomNav).apply {
                 text = title
                 textSize = 18f
-                setTextColor(if (isDarkTheme) Color.WHITE else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+                setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
                 setPadding(0, 0, 0, 12)
                 setTypeface(null, android.graphics.Typeface.BOLD)
             }
@@ -752,7 +756,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 val labelView = TextView(this@MainActivityWithBottomNav).apply {
                     text = label
                     textSize = 16f
-                    setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurface))
+                    setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_onSurface) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurface))
                     this.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
                 }
                 

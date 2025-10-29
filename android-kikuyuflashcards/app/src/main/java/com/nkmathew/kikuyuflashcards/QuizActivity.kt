@@ -835,6 +835,14 @@ class QuizActivity : ComponentActivity() {
             orientation = LinearLayout.HORIZONTAL
             gravity = Gravity.CENTER
             setPadding(0, 16, 0, 0)
+
+            // Add bottom margin to ensure buttons don't get hidden by navigation bar
+            val layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            layoutParams.setMargins(0, 0, 0, 80) // Add 80dp bottom margin
+            this.layoutParams = layoutParams
         }
 
         val backButton = Button(this).apply {
@@ -915,7 +923,10 @@ class QuizActivity : ComponentActivity() {
         // Handle system insets to avoid overlap with system bars
         ViewCompat.setOnApplyWindowInsetsListener(scrollView) { view, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            view.updatePadding(top = systemBars.top + 16) // Add 16dp top margin
+            view.updatePadding(
+                top = systemBars.top + 16,      // Add 16dp top margin
+                bottom = systemBars.bottom + 16  // Add padding at the bottom to account for system bars
+            )
             insets
         }
     }
@@ -1553,8 +1564,10 @@ class QuizActivity : ComponentActivity() {
             feedbackCard = createFeedbackCard(userSelectedText, correctAnswerText, question)
 
             // Find the options layout and add feedback card below it
-            val rootLayout = findViewById<ScrollView>(android.R.id.content)
-                ?.getChildAt(0) as? LinearLayout
+            // The content view is a FrameLayout containing the ScrollView
+            val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
+            val scrollView = frameLayout?.getChildAt(0) as? ScrollView
+            val rootLayout = scrollView?.getChildAt(0) as? LinearLayout
 
             rootLayout?.let { root ->
                 // Find the index of the options layout (which contains the option buttons)
@@ -1591,8 +1604,8 @@ class QuizActivity : ComponentActivity() {
                             .start()
 
                         // Scroll to show the feedback card
-                        findViewById<ScrollView>(android.R.id.content)?.postDelayed({
-                            findViewById<ScrollView>(android.R.id.content)?.smoothScrollTo(0, card.top)
+                        scrollView?.postDelayed({
+                            scrollView.smoothScrollTo(0, card.top)
                         }, 100)
                     }
                 }
