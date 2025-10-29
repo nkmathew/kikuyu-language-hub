@@ -123,6 +123,167 @@ class QuizActivity : ComponentActivity() {
     }
 
     /**
+     * Shows a confirmation dialog before restarting the quiz
+     */
+    private fun showRestartConfirmationDialog() {
+        // Create dialog container with Material 3 styling
+        val dialogContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(32, 32, 32, 32)
+            background = GradientDrawable().apply {
+                cornerRadius = 24f
+                setColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_surfaceContainer))
+            }
+            elevation = 12f
+        }
+
+        // Title with icon
+        val titleContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            setPadding(0, 0, 0, 20)
+        }
+
+        val titleIcon = TextView(this).apply {
+            text = "⚠️"
+            textSize = 28f
+            setPadding(0, 0, 12, 0)
+        }
+
+        val titleText = TextView(this).apply {
+            text = "Restart Quiz?"
+            textSize = 20f
+            setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onSurface))
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+        }
+
+        titleContainer.addView(titleIcon)
+        titleContainer.addView(titleText)
+
+        // Warning message
+        val messageText = TextView(this).apply {
+            text = "Are you sure you want to restart the quiz?\n\nYour current progress (${currentQuestionIndex + 1}/$quizLength) and score ($score) will be lost."
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onSurfaceVariant))
+            gravity = Gravity.CENTER
+            setLineSpacing(6f, 1.3f)
+            setPadding(0, 0, 0, 24)
+        }
+
+        // Action buttons
+        val buttonsContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            setPadding(0, 8, 0, 0)
+        }
+
+        // Cancel button
+        val cancelButton = Button(this).apply {
+            text = "Cancel"
+            setOnClickListener {
+                soundManager.playButtonSound()
+                // Close dialog
+                (it.parent as? ViewGroup)?.let { parent ->
+                    (parent.parent as? ViewGroup)?.let { grandParent ->
+                        grandParent.removeView(parent)
+                    }
+                }
+            }
+            setPadding(24, 16, 24, 16)
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onSecondary))
+            isAllCaps = false
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.NORMAL)
+            background = GradientDrawable().apply {
+                cornerRadius = 16f
+                setColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_secondary))
+            }
+            elevation = 4f
+            layoutParams = LinearLayout.LayoutParams(
+                0,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                1f
+            ).apply {
+                setMargins(0, 0, 12, 0)
+            }
+        }
+
+        // Restart button
+        val confirmButton = Button(this).apply {
+            text = "Restart Quiz"
+            setOnClickListener {
+                soundManager.playButtonSound()
+                // Close dialog and restart quiz
+                (it.parent as? ViewGroup)?.let { parent ->
+                    (parent.parent as? ViewGroup)?.let { grandParent ->
+                        grandParent.removeView(parent)
+                    }
+                }
+                restartQuiz()
+            }
+            setPadding(24, 16, 24, 16)
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_onPrimary))
+            isAllCaps = false
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+            background = GradientDrawable(
+                GradientDrawable.Orientation.LEFT_RIGHT,
+                intArrayOf(
+                    ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_error),
+                    ContextCompat.getColor(this@QuizActivity, R.color.md_theme_dark_errorContainer)
+                )
+            ).apply {
+                cornerRadius = 16f
+            }
+            elevation = 4f
+            layoutParams = LinearLayout.LayoutParams(
+                0,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                1f
+            ).apply {
+                setMargins(12, 0, 0, 0)
+            }
+        }
+
+        buttonsContainer.addView(cancelButton)
+        buttonsContainer.addView(confirmButton)
+
+        // Add all views to dialog container
+        dialogContainer.addView(titleContainer)
+        dialogContainer.addView(messageText)
+        dialogContainer.addView(buttonsContainer)
+
+        // Create dialog overlay
+        val dialogOverlay = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            gravity = Gravity.CENTER
+            setPadding(48, 48, 48, 48)
+            setBackgroundColor(ContextCompat.getColor(this@QuizActivity, R.color.overlay_color))
+            layoutParams = ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT
+            )
+        }
+
+        dialogOverlay.addView(dialogContainer)
+
+        // Show dialog with animation
+        setContentView(dialogOverlay)
+
+        // Animate dialog entry
+        dialogContainer.alpha = 0f
+        dialogContainer.scaleX = 0.8f
+        dialogContainer.scaleY = 0.8f
+        dialogContainer.animate()
+            .alpha(1f)
+            .scaleX(1f)
+            .scaleY(1f)
+            .setDuration(300)
+            .setInterpolator(android.view.animation.OvershootInterpolator())
+            .start()
+    }
+
+    /**
      * Shows a configuration dialog for quiz settings
      */
     private fun showQuizConfigDialog() {
@@ -712,7 +873,7 @@ class QuizActivity : ComponentActivity() {
         // Header container with title and progress
         val headerContainer = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
-            setPadding(16, 16, 16, 32)
+            setPadding(16, 8, 16, 20)
             gravity = Gravity.CENTER
         }
 
@@ -727,14 +888,6 @@ class QuizActivity : ComponentActivity() {
             letterSpacing = 0.02f
         }
 
-        val titleIcon = TextView(this).apply {
-            text = "🧠"
-            textSize = 40f
-            gravity = Gravity.CENTER
-            setPadding(0, 0, 0, 16)
-        }
-
-        headerContainer.addView(titleIcon)
         headerContainer.addView(titleText)
 
         // Progress section with visual progress bar
@@ -783,13 +936,13 @@ class QuizActivity : ComponentActivity() {
         val questionCard = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             background = createQuestionCardBackground()
-            setPadding(32, 32, 32, 32)
+            setPadding(24, 20, 24, 20)
             elevation = 12f
             layoutParams = LinearLayout.LayoutParams(
                 ViewGroup.LayoutParams.MATCH_PARENT,
                 ViewGroup.LayoutParams.WRAP_CONTENT
             ).apply {
-                setMargins(0, 0, 0, 32)
+                setMargins(0, 0, 0, 24)
             }
         }
 
@@ -889,7 +1042,7 @@ class QuizActivity : ComponentActivity() {
             text = "🔄 Restart"
             setOnClickListener {
                 soundManager.playButtonSound()
-                restartQuiz()
+                showRestartConfirmationDialog()
             }
             setPadding(28, 18, 28, 18)
             textSize = 15f
@@ -1415,11 +1568,10 @@ class QuizActivity : ComponentActivity() {
     }
 
     private fun updateQuizUI(question: String, options: List<String>, isEnglishToKikuyu: Boolean) {
-        val direction = if (isEnglishToKikuyu) "🇬🇧 → 🇰🇪" else "🇰🇪 → 🇬🇧"
-        val prompt = if (isEnglishToKikuyu) "What is the Kikuyu translation?" else "What is the English translation?"
+        val direction = if (isEnglishToKikuyu) "English → Kikuyu" else "Kikuyu → English"
 
-        questionText.text = "$direction\n$prompt\n\n\"$question\""
-        progressText.text = "Question ${currentQuestionIndex + 1} of $quizLength"
+        questionText.text = "\"$question\""
+        progressText.text = "Question ${currentQuestionIndex + 1} of $quizLength | $direction"
         progressBar.progress = currentQuestionIndex
         scoreText.text = "Score: $score / ${if (currentQuestionIndex == 0) 0 else currentQuestionIndex}"
 
@@ -1499,7 +1651,10 @@ class QuizActivity : ComponentActivity() {
 
         // Show failed answers review if there are any
         if (failedAnswers.isNotEmpty()) {
+            Log.d(TAG, "Showing ${failedAnswers.size} failed answers review")
             showFailedAnswersReview()
+        } else {
+            Log.d(TAG, "No failed answers to show")
         }
 
         // Archive completed quiz and clear state
@@ -1607,16 +1762,31 @@ class QuizActivity : ComponentActivity() {
         failedReviewSection.addView(practiceButton)
 
         // Add the review section to the main layout
-        val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
-        val scrollView = frameLayout?.getChildAt(0) as? ScrollView
-        val rootLayout = scrollView?.getChildAt(0) as? LinearLayout
+        try {
+            val frameLayout = findViewById<android.widget.FrameLayout>(android.R.id.content)
+            Log.d(TAG, "FrameLayout found: ${frameLayout != null}, children: ${frameLayout?.childCount}")
 
-        rootLayout?.addView(failedReviewSection)
+            val scrollView = frameLayout?.getChildAt(0) as? ScrollView
+            Log.d(TAG, "ScrollView found: ${scrollView != null}")
 
-        // Scroll to the failed answers section
-        scrollView?.postDelayed({
-            scrollView.smoothScrollTo(0, failedReviewSection.top)
-        }, 300)
+            val rootLayout = scrollView?.getChildAt(0) as? LinearLayout
+            Log.d(TAG, "RootLayout found: ${rootLayout != null}, current children: ${rootLayout?.childCount}")
+
+            if (rootLayout != null) {
+                rootLayout.addView(failedReviewSection)
+                Log.d(TAG, "Failed review section added successfully")
+
+                // Scroll to the failed answers section
+                scrollView?.postDelayed({
+                    scrollView.smoothScrollTo(0, failedReviewSection.top)
+                    Log.d(TAG, "Scrolled to failed answers section")
+                }, 300)
+            } else {
+                Log.e(TAG, "RootLayout is null, cannot add failed answers review")
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "Error adding failed answers review", e)
+        }
     }
 
     /**
@@ -1801,6 +1971,7 @@ class QuizActivity : ComponentActivity() {
                 responseTime = 0L // TODO: Add response time tracking
             )
             failedAnswers.add(failedAnswer)
+            Log.d(TAG, "Failed answer recorded: ${failedAnswer.userAnswer} -> ${failedAnswer.correctAnswer}, Total failed: ${failedAnswers.size}")
 
             // Record the failure in the FailureTracker system
             failureTracker.recordFailure(
@@ -1870,8 +2041,14 @@ class QuizActivity : ComponentActivity() {
 
         currentQuestionIndex++
 
-        // Move to next question after a longer delay to allow reading feedback
-        val delayTime = if (isCorrect) 2000L else 4500L // Longer delay for wrong answers
+        // Move to next question after shorter delay with immediate spinner
+        val readingTime = if (isCorrect) 800L else 1200L // Shorter reading time
+
+        // Show loading spinner immediately
+        selectedButton.postDelayed({
+            showLoadingSpinner()
+        }, 300) // Small delay for feedback visibility
+
         selectedButton.postDelayed({
             // Remove feedback card before transitioning
             feedbackCard?.let { card ->
@@ -1885,17 +2062,12 @@ class QuizActivity : ComponentActivity() {
                     .start()
             }
 
-            // Show loading spinner after feedback card fades
+            // Generate next question immediately after feedback fades
             selectedButton.postDelayed({
-                showLoadingSpinner()
-
-                // Wait for the spinner animation (700ms delay for smooth UX)
-                selectedButton.postDelayed({
-                    generateNextQuestion()
-                    hideLoadingSpinner()
-                }, 700)
-            }, 250)
-        }, delayTime)
+                generateNextQuestion()
+                hideLoadingSpinner()
+            }, 200)
+        }, readingTime)
     }
 
     override fun onPause() {
