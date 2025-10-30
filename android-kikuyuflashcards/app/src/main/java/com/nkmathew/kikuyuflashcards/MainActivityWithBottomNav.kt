@@ -16,6 +16,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import com.nkmathew.kikuyuflashcards.models.Categories
+import com.nkmathew.kikuyuflashcards.FailureTracker
 import com.nkmathew.kikuyuflashcards.utils.ButtonStyleHelper
 
 class MainActivityWithBottomNav : ComponentActivity() {
@@ -262,14 +263,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setTypeface(null, android.graphics.Typeface.BOLD)
         }
 
-        val welcomeText = TextView(this).apply {
-            text = "Wĩ mwega! Welcome to your Kikuyu learning journey"
-            textSize = 18f
-            setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurfaceVariant))
-            setPadding(16, 0, 16, 24)
-            gravity = Gravity.CENTER
-            setLineSpacing(4f, 1.2f)
-        }
+        // Welcome text removed to save vertical space
 
         // Quick Actions section (moved to top for better visibility)
         val activityCard = createActivityCard(isDarkTheme)
@@ -282,7 +276,6 @@ class MainActivityWithBottomNav : ComponentActivity() {
 
         // Add views in new order
         contentContainer.addView(titleText)
-        contentContainer.addView(welcomeText)
         contentContainer.addView(activityCard)
         contentContainer.addView(recentActivitiesCard)
         contentContainer.addView(statsCard)
@@ -504,10 +497,14 @@ class MainActivityWithBottomNav : ComponentActivity() {
             )
         }
 
+        // Get problem words count for the button
+        val failureTracker = FailureTracker(this)
+        val problemWordsCount = failureTracker.getWordsNeedingAttention(50).size
+
         // Add Practice Problem Words button at the top (special accent button)
         val practiceProblemWordsButton = ButtonStyleHelper.createAccentButton(
             context = this,
-            text = "🎯 Practice Problem Words",
+            text = "🎯 Practice Problem Words ($problemWordsCount)",
             isDarkTheme = isDarkTheme
         ) {
             soundManager.playButtonSound()
@@ -1303,22 +1300,12 @@ class MainActivityWithBottomNav : ComponentActivity() {
             layoutParams.setMargins(0, 0, 0, 8)  // Add bottom margin between buttons
             this.layoutParams = layoutParams
 
-            // Create background with progress gradient using theme colors
+            // Create solid background (no gradients)
             val colorResId = ButtonStyleHelper.getThemeColorId(colorType, isDarkTheme)
-            val buttonBg = if (progress > 0) {
-                ButtonStyleHelper.createProgressButtonBackground(
-                    context = this@MainActivityWithBottomNav,
-                    progress = progress,
-                    baseColorResId = colorResId,
-                    isDarkTheme = isDarkTheme
-                )
-            } else {
-                // Solid background
-                GradientDrawable().apply {
-                    shape = GradientDrawable.RECTANGLE
-                    cornerRadius = ButtonStyleHelper.STANDARD_CORNER_RADIUS
-                    setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, colorResId))
-                }
+            val buttonBg = GradientDrawable().apply {
+                shape = GradientDrawable.RECTANGLE
+                cornerRadius = ButtonStyleHelper.STANDARD_CORNER_RADIUS
+                setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, colorResId))
             }
 
             background = buttonBg
@@ -1353,9 +1340,9 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 textSize = ButtonStyleHelper.SMALL_TEXT_SIZE
                 setTextColor(Color.WHITE)
                 alpha = 0.9f
-                maxLines = 2
+                maxLines = 3  // Increased from 2 to prevent cutoff
                 ellipsize = android.text.TextUtils.TruncateAt.END
-                setPadding(8, 0, 8, 0)
+                setPadding(8, 2, 8, 2)  // Reduced padding to fit better
             }
 
             // Progress indicator
