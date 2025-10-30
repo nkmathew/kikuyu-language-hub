@@ -391,7 +391,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
                     checkMultipleChoiceAnswer(option)
                 }
                 setPadding(24, 16, 24, 16)
-                setTextColor(Color.BLACK)
+                setTextColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_onSecondaryContainer))
                 background = createOptionButtonBackground()
                 layoutParams = LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT,
@@ -408,7 +408,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 12f
-            setColor(Color.WHITE)
+            setColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_secondaryContainer))
             setStroke(2, ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_secondary))
         }
     }
@@ -502,7 +502,6 @@ class FillInTheBlankActivity : AppCompatActivity() {
                 learningMode = FailureTracker.LearningMode.FILL_BLANK,
                 userAnswer = userAnswer,
                 correctAnswer = blankWord,
-                difficulty = difficulty,
                 responseTime = responseTime
             )
             

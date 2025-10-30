@@ -302,8 +302,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             LearningMode("🧠 Quiz Mode", "Test your knowledge", "quiz"),
             LearningMode("✏️ Fill Blanks", "Complete the sentences", "fill_blank"),
             LearningMode("🔀 Sentence Unscramble", "Drag words to correct order", "sentence_unscramble"),
-            LearningMode("🔤 Vowel Hunt", "Find the correct vowels", "vowel_hunt"),
-            LearningMode("🎮 Games", "Fun learning activities", "games")
+            LearningMode("🔤 Vowel Hunt", "Find the correct vowels", "vowel_hunt")
         )
         
         contentContainer.addView(titleText)
@@ -458,7 +457,6 @@ class MainActivityWithBottomNav : ComponentActivity() {
                     "fill_blank" -> startFillBlank()
                     "sentence_unscramble" -> startSentenceUnscramble()
                     "vowel_hunt" -> startVowelHunt()
-                    "games" -> startGames()
                 }
             }
         }
@@ -851,11 +849,6 @@ class MainActivityWithBottomNav : ComponentActivity() {
 
     private fun startVowelHunt() {
         val intent = Intent(this, VowelHuntActivity::class.java)
-        startActivity(intent)
-    }
-
-    private fun startGames() {
-        val intent = Intent(this, MultipleResponseGameActivity::class.java)
         startActivity(intent)
     }
 

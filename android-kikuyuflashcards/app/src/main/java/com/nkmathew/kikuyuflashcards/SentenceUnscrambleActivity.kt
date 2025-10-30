@@ -4,7 +4,9 @@ import android.animation.ObjectAnimator
 import android.animation.AnimatorSet
 import android.content.Context
 import android.content.Intent
+import android.graphics.Canvas
 import android.graphics.Color
+import android.graphics.Point
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.util.Log
@@ -173,9 +175,10 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
             addView(instructionText)
         }
 
-        // Source words container (scrambled words)
+        // Source words container (scrambled words) using a flow layout approach
+        // We'll create a vertical LinearLayout that contains multiple horizontal rows
         sourceWordsContainer = LinearLayout(this).apply {
-            orientation = LinearLayout.VERTICAL // Changed to vertical to allow words to wrap naturally
+            orientation = LinearLayout.VERTICAL
             setPadding(16, 24, 16, 24)
             gravity = Gravity.CENTER
             background = createContainerBackground(R.color.md_theme_dark_surfaceContainerLow)
@@ -262,7 +265,7 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
                 checkAnswer()
             }
             setPadding(32, 16, 32, 16)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_onSecondary))
             background = createButtonBackground(R.color.success_green)
         }
 
@@ -275,7 +278,7 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
                 showHint()
             }
             setPadding(24, 12, 24, 12)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_onSecondary))
             background = createButtonBackground(R.color.md_theme_dark_tertiary)
         }
 
@@ -288,7 +291,7 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
                 startNewQuestion()
             }
             setPadding(32, 16, 32, 16)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_onSecondary))
             background = createButtonBackground(R.color.md_theme_dark_secondary)
             visibility = View.GONE
         }
@@ -302,7 +305,7 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
                 startProblemWordsActivity()
             }
             setPadding(24, 12, 24, 12)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_onSecondary))
             background = createButtonBackground(R.color.md_theme_dark_tertiary)
         }
 
@@ -315,7 +318,7 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
                 finish()
             }
             setPadding(24, 12, 24, 12)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_onSecondary))
             background = createButtonBackground(R.color.md_theme_dark_outline)
         }
 
@@ -338,12 +341,29 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
     }
 
     private fun startNewQuestion() {
-        // Get a random phrase
-        currentPhrase = flashCardManager.getRandomEntry()
-        if (currentPhrase == null) {
-            Toast.makeText(this, "No phrases available", Toast.LENGTH_SHORT).show()
-            finish()
-            return
+        // Get a random phrase with at least 3 words
+        var attempts = 0
+        do {
+            currentPhrase = flashCardManager.getRandomEntry()
+            if (currentPhrase == null) {
+                Toast.makeText(this, "No phrases available", Toast.LENGTH_SHORT).show()
+                finish()
+                return
+            }
+
+            // Check if the phrase has at least 3 words
+            val wordCount = currentPhrase!!.kikuyu.split(" ").filter { it.isNotEmpty() }.size
+            if (wordCount >= 3) {
+                break
+            }
+
+            // Limit attempts to avoid infinite loop
+            attempts++
+        } while (attempts < 10) // Try up to 10 times
+
+        if (attempts >= 10) {
+            // If we couldn't find a 3+ word phrase after 10 attempts, just use whatever we have
+            Toast.makeText(this, "Limited phrase selection available", Toast.LENGTH_SHORT).show()
         }
 
         // Track question start time
@@ -401,9 +421,34 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
         // Display the question
         questionText.text = "Arrange the Kikuyu words to match:\n\nEnglish: \"${phrase.english}\""
 
-        // Add draggable word elements to source container
-        for (word in scrambledWords) {
-            addDraggableWord(word)
+        // Add draggable word elements to source container using a flow layout approach
+        // Create horizontal rows with max 3-4 words per row depending on screen width
+        val screenWidth = resources.displayMetrics.widthPixels
+        val avgWordWidth = 150 // Approximate average word width in pixels
+        val wordsPerRow = (screenWidth / avgWordWidth).coerceIn(2, 4) // Between 2 and 4 words per row
+
+        // Group words into rows
+        val wordRows = scrambledWords.chunked(wordsPerRow)
+
+        // Create a horizontal row for each group of words
+        for (rowWords in wordRows) {
+            val rowContainer = LinearLayout(this).apply {
+                orientation = LinearLayout.HORIZONTAL
+                gravity = Gravity.CENTER
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
+            }
+
+            // Add words to this row
+            for (word in rowWords) {
+                val wordView = createDraggableWordView(word)
+                rowContainer.addView(wordView)
+            }
+
+            // Add the row to the source container
+            sourceWordsContainer.addView(rowContainer)
         }
     }
 
@@ -453,8 +498,12 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
         return result
     }
 
-    private fun addDraggableWord(word: String) {
-        val wordView = TextView(this).apply {
+    /**
+     * Creates a draggable TextView for a word
+     * @return The created TextView
+     */
+    private fun createDraggableWordView(word: String): TextView {
+        return TextView(this).apply {
             text = word
             textSize = 18f
             setTextColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_onPrimaryContainer))
@@ -478,8 +527,6 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
             // Enable drag functionality
             setOnTouchListener(createDragListener())
         }
-
-        sourceWordsContainer.addView(wordView)
     }
 
     private fun createWordBackground(colorRes: Int): GradientDrawable {
@@ -490,16 +537,47 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
         }
     }
 
+    /**
+     * Example of how to use the ThemeColors class for consistent styling:
+     * private fun createWordBackgroundWithThemeColors(): GradientDrawable {
+     *     return GradientDrawable().apply {
+     *         shape = GradientDrawable.RECTANGLE
+     *         cornerRadius = 12f
+     *         setColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, ThemeColors.primaryContainerColor))
+     *         setStroke(2, ContextCompat.getColor(this@SentenceUnscrambleActivity, ThemeColors.outlineColor))
+     *     }
+     * }
+     */
+
     private fun createDragListener(): View.OnTouchListener {
         return View.OnTouchListener { view, event ->
             when (event.action) {
                 MotionEvent.ACTION_DOWN -> {
-                    // Start drag operation
-                    val dragData = View.DragShadowBuilder(view)
-                    view.startDragAndDrop(null, dragData, view, 0)
+                    // Start drag operation with enhanced flags and custom shadow builder
+                    val dragData = object : View.DragShadowBuilder(view) {
+                        override fun onProvideShadowMetrics(outShadowSize: Point, outShadowTouchPoint: Point) {
+                            // Make shadow slightly larger for better visibility
+                            val width = view.width
+                            val height = view.height
+                            outShadowSize.set(width + 20, height + 20)
+                            outShadowTouchPoint.set(width / 2, height / 2)
+                        }
+
+                        override fun onDrawShadow(canvas: Canvas) {
+                            // Draw slightly transparent shadow
+                            canvas.save()
+                            canvas.translate(10f, 10f)
+                            view.draw(canvas)
+                            canvas.restore()
+                        }
+                    }
+                    view.startDragAndDrop(null, dragData, view, View.DRAG_FLAG_GLOBAL)
 
                     // Make view "disappear" temporarily
                     view.visibility = View.INVISIBLE
+
+                    // Perform haptic feedback for better user experience
+                    view.performHapticFeedback(android.view.HapticFeedbackConstants.LONG_PRESS)
                     true
                 }
                 else -> false
@@ -517,19 +595,43 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
                     true
                 }
                 DragEvent.ACTION_DRAG_ENTERED -> {
-                    // Highlight the drop area
-                    (view.background as? GradientDrawable)?.setStroke(
-                        4,
-                        ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_primary)
-                    )
+                    // Highlight the drop area with more prominent visual feedback
+                    (view.background as? GradientDrawable)?.apply {
+                        setStroke(
+                            6, // Thicker border for better visibility
+                            ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_primary)
+                        )
+                        // Add slight background color change for better visual cue
+                        setColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_surfaceContainerHighest))
+                    }
+                    // Add slight scale animation for better feedback
+                    val scaleX = ObjectAnimator.ofFloat(view, "scaleX", 1f, 1.02f)
+                    val scaleY = ObjectAnimator.ofFloat(view, "scaleY", 1f, 1.02f)
+                    AnimatorSet().apply {
+                        playTogether(scaleX, scaleY)
+                        duration = 150
+                        start()
+                    }
                     true
                 }
                 DragEvent.ACTION_DRAG_EXITED -> {
                     // Restore normal appearance
-                    (view.background as? GradientDrawable)?.setStroke(
-                        2,
-                        ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_outline)
-                    )
+                    (view.background as? GradientDrawable)?.apply {
+                        setStroke(
+                            2,
+                            ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_outline)
+                        )
+                        // Restore original background color
+                        setColor(ContextCompat.getColor(this@SentenceUnscrambleActivity, R.color.md_theme_dark_surfaceContainerHigh))
+                    }
+                    // Reset scale
+                    val scaleX = ObjectAnimator.ofFloat(view, "scaleX", 1.02f, 1f)
+                    val scaleY = ObjectAnimator.ofFloat(view, "scaleY", 1.02f, 1f)
+                    AnimatorSet().apply {
+                        playTogether(scaleX, scaleY)
+                        duration = 150
+                        start()
+                    }
                     true
                 }
                 DragEvent.ACTION_DROP -> {
@@ -610,7 +712,6 @@ class SentenceUnscrambleActivity : AppCompatActivity() {
                 learningMode = FailureTracker.LearningMode.SENTENCE_UNSCRAMBLE,
                 userAnswer = currentWordOrder.joinToString(" "),
                 correctAnswer = correctWordOrder.joinToString(" "),
-                difficulty = difficulty,
                 responseTime = responseTime
             )
 

@@ -19,6 +19,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
+import com.nkmathew.kikuyuflashcards.ThemeColors
 import kotlin.random.Random
 
 /**
@@ -61,6 +62,8 @@ class VowelHuntActivity : AppCompatActivity() {
     companion object {
         private const val TAG = "VowelHuntActivity"
         private val KIKUYU_VOWELS = listOf('a', 'e', 'i', 'o', 'u')
+        private val KIKUYU_ACCENTED_VOWELS = listOf('ĩ', 'ũ') // Include accented vowels (ĩ and ũ)
+        private val ALL_KIKUYU_VOWELS = KIKUYU_VOWELS + KIKUYU_ACCENTED_VOWELS
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -136,11 +139,18 @@ class VowelHuntActivity : AppCompatActivity() {
         // Question container with card styling
         val questionContainer = createQuestionCard()
 
-        // Vowel options container
+        // Vowel options container using a grid-like layout (2 rows)
         vowelOptionsContainer = LinearLayout(this).apply {
-            orientation = LinearLayout.HORIZONTAL
+            orientation = LinearLayout.VERTICAL
             setPadding(0, 24, 0, 24)
             gravity = Gravity.CENTER
+
+            // Set layout params to ensure the container has enough width
+            val layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            this.layoutParams = layoutParams
         }
 
         // Buttons container
@@ -239,15 +249,21 @@ class VowelHuntActivity : AppCompatActivity() {
         return cardContainer
     }
 
+    /**
+     * Creates a card background using theme colors
+     */
     private fun createCardBackground(): GradientDrawable {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 16f
-            setColor(ContextCompat.getColor(this@VowelHuntActivity, R.color.md_theme_dark_surface))
-            setStroke(3, ContextCompat.getColor(this@VowelHuntActivity, R.color.md_theme_dark_primary))
+            setColor(ContextCompat.getColor(this@VowelHuntActivity, ThemeColors.cardBgColor))
+            setStroke(3, ContextCompat.getColor(this@VowelHuntActivity, ThemeColors.cardStrokeColor))
         }
     }
 
+    /**
+     * Creates a button background with the specified theme color
+     */
     private fun createButtonBackground(colorRes: Int): GradientDrawable {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
@@ -261,13 +277,13 @@ class VowelHuntActivity : AppCompatActivity() {
             text = vowel.toString().uppercase()
             textSize = 20f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(this@VowelHuntActivity, R.color.md_theme_dark_onSecondaryContainer))
-            background = createButtonBackground(R.color.md_theme_dark_secondaryContainer)
+            setTextColor(ContextCompat.getColor(this@VowelHuntActivity, ThemeColors.onSecondaryContainerColor))
+            background = createButtonBackground(ThemeColors.secondaryContainerColor)
 
-            // Set button size and margins
-            val size = resources.displayMetrics.density * 60
+            // Set button size and margins - smaller buttons to fit properly
+            val size = resources.displayMetrics.density * 48
             val layoutParams = LinearLayout.LayoutParams(size.toInt(), size.toInt())
-            layoutParams.setMargins(16, 8, 16, 8)
+            layoutParams.setMargins(4, 4, 4, 4)
             this.layoutParams = layoutParams
 
             // Set click listener
@@ -306,9 +322,9 @@ class VowelHuntActivity : AppCompatActivity() {
     private fun createVowelHuntQuestion() {
         val phrase = currentPhrase ?: return
 
-        // Extract a word from the phrase that has vowels
+        // Extract a word from the phrase that has vowels (both regular and accented)
         val words = phrase.kikuyu.split(" ").filter { word ->
-            word.length >= 4 && word.any { it in KIKUYU_VOWELS }
+            word.length >= 4 && word.any { it in ALL_KIKUYU_VOWELS }
         }
 
         if (words.isEmpty()) {
@@ -320,10 +336,10 @@ class VowelHuntActivity : AppCompatActivity() {
         // Select a random word from the filtered list
         originalWord = words.random()
 
-        // Find a vowel position to modify
+        // Find a vowel position to modify (including accented vowels)
         val vowelPositions = mutableListOf<Int>()
         originalWord.forEachIndexed { index, char ->
-            if (char.lowercaseChar() in KIKUYU_VOWELS) {
+            if (char.lowercaseChar() in ALL_KIKUYU_VOWELS) {
                 vowelPositions.add(index)
             }
         }
@@ -350,11 +366,50 @@ class VowelHuntActivity : AppCompatActivity() {
         questionText.text = "Select the correct vowel:\n\nEnglish: \"${phrase.english}\""
         modifiedWordText.text = modifiedWord
 
-        // Add vowel options
-        for (vowel in KIKUYU_VOWELS) {
-            val button = createVowelButton(vowel)
-            vowelOptionsContainer.addView(button)
+        // Create a grid layout with two rows
+        // First row
+        val topRowContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
         }
+
+        // Add vowels A, E, I to top row
+        for (vowel in KIKUYU_VOWELS.subList(0, 3)) {
+            val button = createVowelButton(vowel)
+            topRowContainer.addView(button)
+        }
+
+        vowelOptionsContainer.addView(topRowContainer)
+
+        // Second row
+        val bottomRowContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+        }
+
+        // Add vowels O, U to bottom row
+        for (vowel in KIKUYU_VOWELS.subList(3, 5)) {
+            val button = createVowelButton(vowel)
+            bottomRowContainer.addView(button)
+        }
+
+        // Add accented vowels if difficulty is medium or hard
+        if (difficulty != "easy") {
+            for (vowel in KIKUYU_ACCENTED_VOWELS) {
+                val button = createVowelButton(vowel)
+                bottomRowContainer.addView(button)
+            }
+        }
+
+        vowelOptionsContainer.addView(bottomRowContainer)
     }
 
     private fun checkAnswer(selectedVowel: Char) {
@@ -389,7 +444,6 @@ class VowelHuntActivity : AppCompatActivity() {
                 learningMode = FailureTracker.LearningMode.VOWEL_HUNT,
                 userAnswer = userAnswer,
                 correctAnswer = originalWord,
-                difficulty = difficulty,
                 responseTime = responseTime
             )
 
