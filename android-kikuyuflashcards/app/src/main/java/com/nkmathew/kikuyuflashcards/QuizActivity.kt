@@ -1570,8 +1570,17 @@ class QuizActivity : ComponentActivity() {
     private fun updateQuizUI(question: String, options: List<String>, isEnglishToKikuyu: Boolean) {
         val direction = if (isEnglishToKikuyu) "English → Kikuyu" else "Kikuyu → English"
 
+        // Get total cards count for context
+        val totalCards = flashCardManager.getTotalEntries()
+        val totalAnswered = progressManager.getQuizTotalAnswered()
+
+        // Calculate session progress percentage
+        val sessionProgress = if (quizLength > 0) {
+            ((currentQuestionIndex + 1) * 100 / quizLength)
+        } else 0
+
         questionText.text = "\"$question\""
-        progressText.text = "Question ${currentQuestionIndex + 1} of $quizLength | $direction"
+        progressText.text = "Question ${currentQuestionIndex + 1} of $quizLength ($sessionProgress%) | $direction"
         progressBar.progress = currentQuestionIndex
         scoreText.text = "Score: $score / ${if (currentQuestionIndex == 0) 0 else currentQuestionIndex}"
 
@@ -1625,6 +1634,14 @@ class QuizActivity : ComponentActivity() {
         val accuracy = if (quizLength > 0) (score * 100) / quizLength else 0
         val failedCount = failedAnswers.size
         val correctCount = score
+
+        // Get total cards and total answered for overall progress context
+        val totalCards = flashCardManager.getTotalEntries()
+        val totalAnswered = progressManager.getQuizTotalAnswered()
+        val overallProgress = if (totalCards > 0) {
+            (totalAnswered * 100) / totalCards
+        } else 0
+
         val statsMessage = """
             🎉 Quiz Complete!
 
@@ -1633,7 +1650,7 @@ class QuizActivity : ComponentActivity() {
             Correct: $correctCount | Wrong: $failedCount
 
             Overall Progress:
-            Total Quiz Answers: ${progressManager.getQuizTotalAnswered()}
+            Quiz Answers: ${progressManager.getQuizTotalAnswered()} / $totalCards ($overallProgress%)
             Overall Accuracy: ${"%.1f".format(progressManager.getQuizAccuracy())}%
             Current Streak: ${progressManager.getCurrentStreak()}
             Best Streak: ${progressManager.getBestStreak()}

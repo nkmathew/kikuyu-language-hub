@@ -750,7 +750,21 @@ class MainActivityWithBottomNav : ComponentActivity() {
 
         val descText = TextView(this).apply {
             val description = if (progress > 0) {
-                "${mode.description} • ${(progress * 100).toInt()}% complete"
+                // For quiz mode, check if there's an active quiz
+                if (mode.id == "quiz") {
+                    val quizStateManager = QuizStateManager(this@MainActivityWithBottomNav)
+                    val quizState = quizStateManager.loadQuizState()
+
+                    if (quizState != null && !quizState.isCompleted) {
+                        // Show current quiz progress as primary metric
+                        val quizProgress = ((quizState.currentQuestionIndex.toFloat() / quizState.quizLength) * 100).toInt()
+                        "${mode.description} • Current quiz: $quizProgress% • Overall: ${(progress * 100).toInt()}%"
+                    } else {
+                        "${mode.description} • ${(progress * 100).toInt()}% complete"
+                    }
+                } else {
+                    "${mode.description} • ${(progress * 100).toInt()}% complete"
+                }
             } else {
                 mode.description
             }

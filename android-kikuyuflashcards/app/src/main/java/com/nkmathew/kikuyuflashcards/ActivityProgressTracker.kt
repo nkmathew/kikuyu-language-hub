@@ -79,8 +79,22 @@ class ActivityProgressTracker(private val context: Context) {
 
     /**
      * Calculate Quiz progress
+     *
+     * This method now prioritizes the most contextually relevant denominator:
+     * - For active quizzes: Uses the current quiz's length (showing e.g. 5/10 = 50%)
+     * - Otherwise: Uses overall progress across all cards (e.g. 35/85)
      */
     private fun getQuizProgress(): Float {
+        // For active quiz, use quiz length as denominator
+        val quizStateManager = QuizStateManager(context)
+        val quizState = quizStateManager.loadQuizState()
+
+        if (quizState != null && !quizState.isCompleted) {
+            // We have an active quiz, so show progress within that quiz
+            return (quizState.currentQuestionIndex.toFloat() / quizState.quizLength).coerceIn(0f, 1f)
+        }
+
+        // Otherwise use total filtered entries for overall progress
         val totalAnswered = progressManager.getQuizTotalAnswered()
         val totalCards = flashCardManager.getTotalEntries()
         if (totalCards == 0) return 0f
