@@ -4,16 +4,16 @@ import android.content.ClipData
 import android.content.ClipboardManager
 import android.content.Context
 import android.graphics.Color
+import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
+import android.view.Gravity
 import android.view.View
-import android.widget.Button
-import android.widget.ImageButton
-import android.widget.SeekBar
-import android.widget.TextView
-import android.widget.Toast
+import android.view.ViewGroup
+import android.widget.*
 import com.google.android.material.button.MaterialButton
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
+import com.nkmathew.kikuyuflashcards.models.Categories
 import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.services.FlagStorageService
 import com.nkmathew.kikuyuflashcards.ui.views.FlashCardStyleView
@@ -21,6 +21,7 @@ import com.nkmathew.kikuyuflashcards.ui.views.FlashCardStyleView
 /**
  * Activity that displays flashcards in a flip-style format similar to the React Native app
  * Borrows the flipping animation and button layout from FlashCard.tsx
+ * Now includes category selection functionality
  */
 class FlashCardStyleActivity : AppCompatActivity() {
 
@@ -36,6 +37,12 @@ class FlashCardStyleActivity : AppCompatActivity() {
     private lateinit var nextButton: MaterialButton
     private lateinit var slideshowButton: Button
     private lateinit var timerSettingButton: ImageButton
+
+    // Category selection views
+    private lateinit var categorySelectorContainer: LinearLayout
+    private lateinit var categoriesContainer: LinearLayout
+    private lateinit var startFlashCardsButton: Button
+    private var flashCardsContainer: LinearLayout? = null
 
     // For slideshow mode
     private var isSlideshowRunning = false
@@ -54,6 +61,7 @@ class FlashCardStyleActivity : AppCompatActivity() {
     private val PREFS_NAME = "FlashcardSettings"
     private val PREF_FLIP_DELAY = "flip_delay"
     private val PREF_ADVANCE_DELAY = "advance_delay"
+    private val PREF_SELECTED_CATEGORY = "selected_category"
 
     private lateinit var flashCardManager: FlashCardManagerV2
     private lateinit var flagStorageService: FlagStorageService
@@ -62,6 +70,9 @@ class FlashCardStyleActivity : AppCompatActivity() {
     private var cards = listOf<FlashcardEntry>()
     private val knownCards = mutableSetOf<String>()
     private val flaggedCards = mutableSetOf<String>()
+
+    // Category selection state
+    private var selectedCategory: String? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -79,7 +90,19 @@ class FlashCardStyleActivity : AppCompatActivity() {
         initializeViews()
         initializeManagers()
         setupClickListeners()
-        loadCards()
+
+        // Get previously selected category from preferences
+        val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        selectedCategory = prefs.getString(PREF_SELECTED_CATEGORY, null)
+
+        // Check if we should show the category selector
+        val showCategorySelection = intent.getBooleanExtra("show_category_selection", true)
+
+        if (showCategorySelection) {
+            setupCategorySelectorView()
+        } else {
+            loadCards()
+        }
     }
 
     private fun initializeViews() {
@@ -236,7 +259,265 @@ class FlashCardStyleActivity : AppCompatActivity() {
         dialog.show()
     }
 
+    /**
+     * Set up the category selector view
+     */
+    private fun setupCategorySelectorView() {
+        // Inflate category selector layout
+        val rootView = findViewById<ViewGroup>(android.R.id.content)
+        val inflater = layoutInflater
+        val categorySelectorView = inflater.inflate(R.layout.view_category_selector, rootView, false)
+        rootView.addView(categorySelectorView)
+
+        // Get references to views
+        categorySelectorContainer = findViewById(R.id.categorySelectorContainer)
+        categoriesContainer = findViewById(R.id.categoriesContainer)
+        startFlashCardsButton = findViewById(R.id.startFlashCardsButton)
+
+        // Set container to match parent
+        val params = categorySelectorContainer.layoutParams
+        params.width = ViewGroup.LayoutParams.MATCH_PARENT
+        params.height = ViewGroup.LayoutParams.MATCH_PARENT
+        categorySelectorContainer.layoutParams = params
+
+        // Reference to main flashcards container
+        flashCardsContainer = findViewById<LinearLayout>(R.id.flashCardsContainer)
+        flashCardsContainer?.visibility = View.GONE
+
+        // Show available categories
+        populateCategories()
+
+        // Set up start button
+        startFlashCardsButton.setOnClickListener {
+            startFlashCards()
+        }
+
+        // Update UI
+        updateStartButtonState()
+    }
+
+    /**
+     * Populate the categories container with category buttons
+     */
+    private fun populateCategories() {
+        // Clear existing categories
+        categoriesContainer.removeAllViews()
+
+        // Add "All Categories" button
+        val allCategoriesButton = createCategoryButton(
+            "📚 All Categories",
+            "Practice everything",
+            flashCardManager.getTotalEntries(),
+            null
+        )
+        categoriesContainer.addView(allCategoriesButton)
+
+        // Add category-specific buttons
+        val availableCategories = flashCardManager.getAvailableCategories()
+        for (category in availableCategories) {
+            val displayName = flashCardManager.getCategoryDisplayName(category)
+            val count = flashCardManager.getTotalEntriesInCategory(category)
+            val (icon, title) = extractIconAndTitle(displayName)
+            val description = getCategoryDescription(category)
+
+            val button = createCategoryButton(
+                "$icon $title",
+                description,
+                count,
+                category
+            )
+            categoriesContainer.addView(button)
+        }
+    }
+
+    /**
+     * Create a category selection button
+     */
+    private fun createCategoryButton(title: String, description: String, count: Int, category: String?): LinearLayout {
+        val isSelected = category == selectedCategory || (category == null && selectedCategory == null)
+
+        return LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            setPadding(24, 20, 24, 20)
+            gravity = Gravity.CENTER_VERTICAL
+
+            // Create gradient background
+            val gradientColors = if (isSelected) {
+                intArrayOf(
+                    ContextCompat.getColor(this@FlashCardStyleActivity, R.color.md_theme_dark_primary),
+                    ContextCompat.getColor(this@FlashCardStyleActivity, R.color.md_theme_dark_primaryContainer)
+                )
+            } else {
+                intArrayOf(
+                    ContextCompat.getColor(this@FlashCardStyleActivity, R.color.md_theme_dark_surfaceContainerHigh),
+                    ContextCompat.getColor(this@FlashCardStyleActivity, R.color.md_theme_dark_surfaceContainer)
+                )
+            }
+
+            val gradientDrawable = GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, gradientColors).apply {
+                shape = GradientDrawable.RECTANGLE
+                cornerRadius = 16f
+            }
+            background = gradientDrawable
+
+            val cardLayoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            cardLayoutParams.setMargins(0, 0, 0, 16)
+            this.layoutParams = cardLayoutParams
+
+            // Add elevation and shadow
+            elevation = if (isSelected) 8f else 4f
+
+            // Set click listener
+            setOnClickListener {
+                // Update selected category
+                selectedCategory = category
+                // Save the selection
+                val prefs = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+                prefs.edit().putString(PREF_SELECTED_CATEGORY, category).apply()
+
+                // Update UI
+                populateCategories()
+                updateStartButtonState()
+            }
+
+            // Text content
+            val textContainerParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+            val textContainer = LinearLayout(this@FlashCardStyleActivity).apply {
+                orientation = LinearLayout.VERTICAL
+                layoutParams = textContainerParams
+            }
+
+            val titleView = TextView(this@FlashCardStyleActivity).apply {
+                text = title
+                textSize = 18f
+                val textColor = if (isSelected) {
+                    Color.WHITE
+                } else {
+                    ContextCompat.getColor(this@FlashCardStyleActivity, R.color.md_theme_dark_onSurface)
+                }
+                setTextColor(textColor)
+                setTypeface(null, android.graphics.Typeface.BOLD)
+            }
+
+            val subtitleView = TextView(this@FlashCardStyleActivity).apply {
+                text = description
+                textSize = 14f
+                val textColor = if (isSelected) {
+                    Color.WHITE
+                } else {
+                    ContextCompat.getColor(this@FlashCardStyleActivity, R.color.md_theme_dark_onSurfaceVariant)
+                }
+                setTextColor(textColor)
+                setPadding(0, 4, 0, 0)
+            }
+
+            textContainer.addView(titleView)
+            textContainer.addView(subtitleView)
+
+            // Count badge
+            val countView = TextView(this@FlashCardStyleActivity).apply {
+                text = "$count"
+                textSize = 16f
+                setPadding(16, 8, 16, 8)
+                setTextColor(Color.WHITE)
+                gravity = Gravity.CENTER
+                setTypeface(null, android.graphics.Typeface.BOLD)
+
+                // Create circular badge background
+                val badgeBg = GradientDrawable().apply {
+                    shape = GradientDrawable.OVAL
+                    setColor(ContextCompat.getColor(this@FlashCardStyleActivity, R.color.achievement_gold))
+                }
+                background = badgeBg
+
+                elevation = 2f
+            }
+
+            addView(textContainer)
+            addView(countView)
+        }
+    }
+
+    /**
+     * Start flashcards with the selected category
+     */
+    private fun startFlashCards() {
+        // Hide category selector
+        categorySelectorContainer.visibility = View.GONE
+
+        // Show flashcards container
+        findViewById<ViewGroup>(android.R.id.content).findViewById<LinearLayout>(R.id.flashCardsContainer)?.visibility = View.VISIBLE
+
+        // Update action bar title
+        updateActionBarTitle()
+
+        // Load cards with selected category
+        loadCards()
+    }
+
+    /**
+     * Update the action bar title based on the selected category
+     */
+    private fun updateActionBarTitle() {
+        supportActionBar?.apply {
+            title = if (selectedCategory != null) {
+                val displayName = flashCardManager.getCategoryDisplayName(selectedCategory!!)
+                "Flash Cards: $displayName"
+            } else {
+                "Flash Cards: All Categories"
+            }
+        }
+    }
+
+    /**
+     * Update the start button state based on selection
+     */
+    private fun updateStartButtonState() {
+        startFlashCardsButton.isEnabled = true
+        startFlashCardsButton.text = "Start Learning" +
+            (if (selectedCategory != null) " ${flashCardManager.getCategoryDisplayName(selectedCategory!!)}" else " All Categories")
+    }
+
+    /**
+     * Extract icon and title from a display name
+     */
+    private fun extractIconAndTitle(displayName: String): Pair<String, String> {
+        val parts = displayName.split(" ", limit = 2)
+        return if (parts.size >= 2) {
+            parts[0] to parts[1]
+        } else {
+            "📚" to displayName
+        }
+    }
+
+    /**
+     * Get a description for a category
+     */
+    private fun getCategoryDescription(category: String): String {
+        return when (category) {
+            "greetings" -> "Essential daily greetings"
+            "emotions" -> "Express feelings & moods"
+            "basic_words" -> "Fundamental vocabulary"
+            "verbs" -> "Action words & movements"
+            "nouns" -> "People, places & things"
+            "questions" -> "Asking & answering"
+            "time" -> "Days, months & time"
+            else -> "Learn these phrases"
+        }
+    }
+
+    /**
+     * Load cards based on selected category
+     */
     private fun loadCards() {
+        // Apply category filter if selected
+        if (selectedCategory != null) {
+            flashCardManager.setCategory(selectedCategory)
+        }
+
         cards = flashCardManager.getAllEntries()
         if (cards.isNotEmpty()) {
             currentCardIndex = 0

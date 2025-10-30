@@ -5,6 +5,7 @@ import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.view.Gravity
+import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.activity.ComponentActivity
@@ -21,6 +22,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
     private lateinit var contentContainer: LinearLayout
     private lateinit var bottomNavLayout: LinearLayout
     private var currentActiveTab = "home"
+    private lateinit var activityProgressTracker: ActivityProgressTracker
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,9 +30,10 @@ class MainActivityWithBottomNav : ComponentActivity() {
         
         // Apply dark theme
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
-        
+
         soundManager = SoundManager(this)
-        
+        activityProgressTracker = ActivityProgressTracker(this)
+
         createBottomNavigationUI()
     }
     
@@ -244,9 +247,9 @@ class MainActivityWithBottomNav : ComponentActivity() {
     
     private fun showHomeContent() {
         contentContainer.removeAllViews()
-        
+
         val isDarkTheme = ThemeManager.isDarkTheme(this)
-        
+
         // Welcome section
         val titleText = TextView(this).apply {
             text = "🇰🇪 Kikuyu Flash Cards"
@@ -256,7 +259,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             gravity = Gravity.CENTER
             setTypeface(null, android.graphics.Typeface.BOLD)
         }
-        
+
         val welcomeText = TextView(this).apply {
             text = "Wĩ mwega! Welcome to your Kikuyu learning journey"
             textSize = 18f
@@ -265,17 +268,122 @@ class MainActivityWithBottomNav : ComponentActivity() {
             gravity = Gravity.CENTER
             setLineSpacing(4f, 1.2f)
         }
-        
+
+        // Quick Actions section (moved to top for better visibility)
+        val activityCard = createActivityCard(isDarkTheme)
+
         // Quick stats card
         val statsCard = createStatsCard(isDarkTheme)
-        
-        // Recent activity card
-        val activityCard = createActivityCard(isDarkTheme)
-        
+
+        // Recent Activities Section
+        val recentActivitiesCard = createRecentActivitiesCard(isDarkTheme)
+
+        // Add views in new order
         contentContainer.addView(titleText)
         contentContainer.addView(welcomeText)
-        contentContainer.addView(statsCard)
         contentContainer.addView(activityCard)
+        contentContainer.addView(recentActivitiesCard)
+        contentContainer.addView(statsCard)
+    }
+
+    /**
+     * Create a card showing recent activities
+     */
+    private fun createRecentActivitiesCard(isDarkTheme: Boolean): LinearLayout {
+        val cardLayout = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(20, 16, 20, 16)
+
+            val background = GradientDrawable().apply {
+                shape = GradientDrawable.RECTANGLE
+                cornerRadius = 16f
+                setColor(if (isDarkTheme)
+                    ContextCompat.getColor(context, R.color.md_theme_dark_surfaceContainerHigh)
+                    else ContextCompat.getColor(context, R.color.md_theme_light_surfaceContainerHigh))
+            }
+            setBackground(background)
+
+            val layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            layoutParams.setMargins(0, 0, 0, 16)
+            this.layoutParams = layoutParams
+        }
+
+        val titleText = TextView(this).apply {
+            text = "🎓 Learning Progress"
+            textSize = 18f
+            setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
+            setTypeface(null, android.graphics.Typeface.BOLD)
+            setPadding(0, 0, 0, 12)
+        }
+
+        // Progress summary
+        val progressManager = ProgressManager(this)
+        val stats = progressManager.getProgressStats()
+
+        val progressSummaryText = TextView(this).apply {
+            text = "You've viewed ${stats.totalCardsViewed} cards and answered " +
+                   "${stats.quizCorrectAnswers} quiz questions correctly. " +
+                   "Current learning streak: ${stats.currentStreak} days!"
+            textSize = 14f
+            setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else Color.parseColor("#666666"))
+            setPadding(0, 0, 0, 16)
+            setLineSpacing(4f, 1.2f)
+        }
+
+        // Progress bar showing overall progress
+        val progressContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER_VERTICAL
+            setPadding(0, 8, 0, 8)
+        }
+
+        // Create progress bar view
+        val progressView = android.view.View(this)
+        val progressPercent = (stats.totalCardsViewed.toFloat() / 100f).coerceIn(0.05f, 1f)
+        val progressBg = GradientDrawable().apply {
+            shape = GradientDrawable.RECTANGLE
+            cornerRadius = 16f
+            setColor(ContextCompat.getColor(this@MainActivityWithBottomNav,
+                if (isDarkTheme) R.color.md_theme_dark_primary else R.color.md_theme_light_primary))
+        }
+        progressView.background = progressBg
+
+        val progressParams = LinearLayout.LayoutParams(
+            0,
+            24,
+            progressPercent
+        )
+        progressParams.marginEnd = 8
+        progressView.layoutParams = progressParams
+
+        // Create remaining bar view
+        val remainingView = android.view.View(this)
+        val remainingPercent = 1f - progressPercent
+        val remainingBg = GradientDrawable().apply {
+            shape = GradientDrawable.RECTANGLE
+            cornerRadius = 16f
+            setColor(Color.parseColor("#333333"))
+        }
+        remainingView.background = remainingBg
+
+        val remainingParams = LinearLayout.LayoutParams(
+            0,
+            24,
+            remainingPercent
+        )
+        remainingView.layoutParams = remainingParams
+
+        progressContainer.addView(progressView)
+        progressContainer.addView(remainingView)
+
+        cardLayout.addView(titleText)
+        cardLayout.addView(progressSummaryText)
+        cardLayout.addView(progressContainer)
+
+        return cardLayout
     }
     
     private fun showLearnContent() {
@@ -294,10 +402,8 @@ class MainActivityWithBottomNav : ComponentActivity() {
         
         // Learning mode cards
         val learningModes = listOf(
-                LearningMode("🚀 Flash Cards", "Interactive learning", "flashcards"),
-            LearningMode("✨ Enhanced Cards", "Rich content with metadata", "enhanced_flashcards"),
+            LearningMode("🎯 Flash Cards", "Flip-style cards with categories", "flashcard_style"),
             LearningMode("📋 Study List", "Side-by-side learning mode", "study_list"),
-            LearningMode("🎯 Flash Card Style", "Flip-style cards like React Native", "flashcard_style"),
             LearningMode("🚩 Flagged Translations", "Review flagged translations", "flagged_translations"),
             LearningMode("🧠 Quiz Mode", "Test your knowledge", "quiz"),
             LearningMode("✏️ Fill Blanks", "Complete the sentences", "fill_blank"),
@@ -363,21 +469,21 @@ class MainActivityWithBottomNav : ComponentActivity() {
         val cardLayout = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(20, 16, 20, 16)
-            
+
             val background = GradientDrawable().apply {
                 shape = GradientDrawable.RECTANGLE
                 cornerRadius = 16f
                 setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else Color.parseColor("#F5F5F5"))
             }
             setBackground(background)
-            
+
             val layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
             this.layoutParams = layoutParams
         }
-        
+
         val titleText = TextView(this).apply {
             text = "🎯 Quick Actions"
             textSize = 18f
@@ -385,30 +491,175 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setTypeface(null, android.graphics.Typeface.BOLD)
             setPadding(0, 0, 0, 12)
         }
-        
-        val actionButton = Button(this).apply {
-            text = "Continue Learning"
-            textSize = 16f
-            setPadding(24, 16, 24, 16)
-            setTextColor(Color.WHITE)
-            
-            val buttonBg = GradientDrawable().apply {
-                shape = GradientDrawable.RECTANGLE
-                cornerRadius = 24f
-                setColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+
+        // Create horizontal scroll view for activity buttons
+        val scrollView = HorizontalScrollView(this).apply {
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            isHorizontalScrollBarEnabled = false
+            overScrollMode = android.view.View.OVER_SCROLL_NEVER
+        }
+
+        // Container for activity buttons
+        val activityButtonsContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            setPadding(0, 8, 0, 8)
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+        }
+
+        // Add activity buttons for resumable activities
+        val resumableActivities = listOf(
+            Triple("flashcard_style", "🎯 Flash Cards", R.color.md_theme_dark_primary),
+            Triple("study_list", "📋 Study", R.color.md_theme_dark_secondary),
+            Triple("quiz", "🧠 Quiz", R.color.md_theme_dark_tertiary),
+            Triple("fill_blank", "✏️ Fill Blanks", R.color.md_theme_dark_secondary),
+            Triple("sentence_unscramble", "🔀 Unscramble", R.color.md_theme_dark_tertiary),
+            Triple("vowel_hunt", "🔤 Vowel Hunt", R.color.md_theme_dark_secondary)
+        )
+
+        // Add activity buttons
+        for ((activityId, title, color) in resumableActivities) {
+            // Get progress for this activity
+            val progress = activityProgressTracker.getProgressForActivity(activityId)
+
+            // Create resume message
+            val resumeMessage = activityProgressTracker.getResumeMessage(activityId)
+
+            // Create activity button
+            val button = createResumeButton(
+                title = title,
+                description = resumeMessage,
+                progress = progress,
+                colorResId = color,
+                isDarkTheme = isDarkTheme
+            ) {
+                // Handle click based on activity ID
+                when (activityId) {
+                    "flashcard_style" -> startFlashCardStyle(false) // Don't show category selection
+                    "study_list" -> startStudyList()
+                    "quiz" -> startQuiz()
+                    "fill_blank" -> startFillBlank()
+                    "sentence_unscramble" -> startSentenceUnscramble()
+                    "vowel_hunt" -> startVowelHunt()
+                }
             }
+
+            activityButtonsContainer.addView(button)
+        }
+
+        // Add the activity buttons container to the scroll view
+        scrollView.addView(activityButtonsContainer)
+
+        // Add title and scrolling activity buttons
+        cardLayout.addView(titleText)
+        cardLayout.addView(scrollView)
+
+        return cardLayout
+    }
+
+    /**
+     * Create a resume activity button
+     */
+    private fun createResumeButton(
+        title: String,
+        description: String,
+        progress: Float,
+        colorResId: Int,
+        isDarkTheme: Boolean,
+        onClick: () -> Unit
+    ): LinearLayout {
+        return LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(12, 8, 12, 8)
+
+            // Set size
+            val layoutParams = LinearLayout.LayoutParams(
+                240, // Fixed width for consistent buttons
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            layoutParams.marginEnd = 12
+            this.layoutParams = layoutParams
+
+            // Create background with progress gradient
+            val buttonBg = if (progress > 0) {
+                // Show progress gradient
+                val gradientStart = ContextCompat.getColor(this@MainActivityWithBottomNav, colorResId)
+                val gradientEnd = ContextCompat.getColor(this@MainActivityWithBottomNav,
+                    if (isDarkTheme) R.color.md_theme_dark_surfaceContainerHigh else R.color.md_theme_light_surfaceContainerHigh)
+
+                GradientDrawable(GradientDrawable.Orientation.LEFT_RIGHT, intArrayOf(gradientStart, gradientEnd)).apply {
+                    shape = GradientDrawable.RECTANGLE
+                    cornerRadius = 12f
+                    gradientType = GradientDrawable.LINEAR_GRADIENT
+                    setGradientCenter(progress, 0.5f)
+                }
+            } else {
+                // Solid background
+                GradientDrawable().apply {
+                    shape = GradientDrawable.RECTANGLE
+                    cornerRadius = 12f
+                    setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, colorResId))
+                }
+            }
+
             background = buttonBg
-            
+            elevation = 4f
+
+            // Make clickable
+            isClickable = true
+            isFocusable = true
             setOnClickListener {
                 soundManager.playButtonSound()
-                startCategorySelectorFlashCards()
+                onClick()
             }
+
+            // Title
+            val titleText = TextView(this@MainActivityWithBottomNav).apply {
+                text = title
+                textSize = 16f
+                setTextColor(Color.WHITE)
+                gravity = Gravity.CENTER
+                setTypeface(null, android.graphics.Typeface.BOLD)
+                setPadding(8, 8, 8, 4)
+            }
+
+            // Description
+            val descText = TextView(this@MainActivityWithBottomNav).apply {
+                text = description
+                textSize = 12f
+                setTextColor(Color.WHITE)
+                alpha = 0.9f
+                gravity = Gravity.CENTER
+                maxLines = 2
+                ellipsize = android.text.TextUtils.TruncateAt.END
+                setPadding(8, 0, 8, 8)
+            }
+
+            // Progress indicator
+            val progressIndicator = if (progress > 0) {
+                TextView(this@MainActivityWithBottomNav).apply {
+                    text = "${(progress * 100).toInt()}%"
+                    textSize = 12f
+                    setTextColor(Color.WHITE)
+                    gravity = Gravity.CENTER
+                    background = GradientDrawable().apply {
+                        shape = GradientDrawable.OVAL
+                        setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_inverseSurface))
+                    }
+                    setPadding(8, 2, 8, 2)
+                    alpha = 0.9f
+                }
+            } else null
+
+            addView(titleText)
+            addView(descText)
+            progressIndicator?.let { addView(it) }
         }
-        
-        cardLayout.addView(titleText)
-        cardLayout.addView(actionButton)
-        
-        return cardLayout
     }
     
     /**
@@ -425,33 +676,57 @@ class MainActivityWithBottomNav : ComponentActivity() {
     }
     
     private fun createLearningModeCard(mode: LearningMode, isDarkTheme: Boolean): LinearLayout {
+        // Get progress for this activity
+        val progress = activityProgressTracker.getProgressForActivity(mode.id)
+
         val cardLayout = LinearLayout(this).apply {
             orientation = LinearLayout.HORIZONTAL
             setPadding(20, 16, 20, 16)
             gravity = Gravity.CENTER_VERTICAL
-            
-            val background = GradientDrawable().apply {
-                shape = GradientDrawable.RECTANGLE
-                cornerRadius = 16f
-                setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else Color.parseColor("#F5F5F5"))
+
+            // Create gradient background based on progress
+            val gradientDrawable = if (progress > 0) {
+                // Calculate colors for progress-based gradient
+                // We use a linear gradient from right to left (reverse of normal) so the filled part is on the left
+                val gradientStart = ContextCompat.getColor(this@MainActivityWithBottomNav,
+                    if (isDarkTheme) R.color.md_theme_dark_primary else R.color.md_theme_light_primary)
+
+                // The end color is transparent primary color (or surface color)
+                val gradientEnd = ContextCompat.getColor(this@MainActivityWithBottomNav,
+                    if (isDarkTheme) R.color.md_theme_dark_surfaceContainerHigh else R.color.md_theme_light_surfaceContainerHigh)
+
+                // Create the gradient drawable
+                GradientDrawable(GradientDrawable.Orientation.RIGHT_LEFT, intArrayOf(gradientEnd, gradientStart)).apply {
+                    shape = GradientDrawable.RECTANGLE
+                    cornerRadius = 16f
+                    gradientType = GradientDrawable.LINEAR_GRADIENT
+                    // Set the gradient center point based on progress (1.0 - progress because we're using RIGHT_LEFT orientation)
+                    setGradientCenter(1.0f - progress, 0.5f)
+                }
+            } else {
+                // No progress, use solid background
+                GradientDrawable().apply {
+                    shape = GradientDrawable.RECTANGLE
+                    cornerRadius = 16f
+                    setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else Color.parseColor("#F5F5F5"))
+                }
             }
-            setBackground(background)
-            
+
+            background = gradientDrawable
+
             val layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
             layoutParams.setMargins(0, 0, 0, 12)
             this.layoutParams = layoutParams
-            
+
             isClickable = true
             setOnClickListener {
                 soundManager.playButtonSound()
                 when (mode.id) {
-                    "flashcards" -> startCategorySelectorFlashCards()
-                    "enhanced_flashcards" -> startEnhancedFlashCards()
-                    "study_list" -> startStudyList()
                     "flashcard_style" -> startFlashCardStyle()
+                    "study_list" -> startStudyList()
                     "flagged_translations" -> startFlaggedTranslations()
                     "quiz" -> startQuiz()
                     "fill_blank" -> startFillBlank()
@@ -460,37 +735,43 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 }
             }
         }
-        
+
         val textContainer = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
         }
-        
+
         val titleText = TextView(this).apply {
             text = mode.title
             textSize = 16f
             setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
             setTypeface(null, android.graphics.Typeface.BOLD)
         }
-        
+
         val descText = TextView(this).apply {
-            text = mode.description
+            val description = if (progress > 0) {
+                "${mode.description} • ${(progress * 100).toInt()}% complete"
+            } else {
+                mode.description
+            }
+
+            text = description
             textSize = 14f
             setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else Color.parseColor("#666666"))
             setPadding(0, 4, 0, 0)
         }
-        
+
         val arrowText = TextView(this).apply {
             text = "→"
             textSize = 20f
             setTextColor(if (isDarkTheme) Color.parseColor("#888888") else Color.parseColor("#AAAAAA"))
         }
-        
+
         textContainer.addView(titleText)
         textContainer.addView(descText)
         cardLayout.addView(textContainer)
         cardLayout.addView(arrowText)
-        
+
         return cardLayout
     }
     
@@ -807,23 +1088,16 @@ class MainActivityWithBottomNav : ComponentActivity() {
     }
 
     // Activity Launchers
-    private fun startFlashCards() {
-        val intent = Intent(this, FlashCardActivity::class.java)
-        startActivity(intent)
-    }
-
-    private fun startEnhancedFlashCards() {
-        val intent = Intent(this, EnhancedFlashCardActivity::class.java)
-        startActivity(intent)
-    }
 
     private fun startStudyList() {
         val intent = Intent(this, StudyListActivity::class.java)
         startActivity(intent)
     }
 
-    private fun startFlashCardStyle() {
-        val intent = Intent(this, FlashCardStyleActivity::class.java)
+    private fun startFlashCardStyle(showCategorySelection: Boolean = true) {
+        val intent = Intent(this, FlashCardStyleActivity::class.java).apply {
+            putExtra("show_category_selection", showCategorySelection)
+        }
         startActivity(intent)
     }
 
