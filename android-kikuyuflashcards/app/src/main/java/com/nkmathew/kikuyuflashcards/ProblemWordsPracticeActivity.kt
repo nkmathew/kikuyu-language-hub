@@ -36,7 +36,6 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     private lateinit var scoreText: TextView
     private lateinit var questionText: TextView
     private lateinit var optionsContainer: LinearLayout
-    private lateinit var nextButton: LinearLayout
     private lateinit var backButton: LinearLayout
     
     // Practice state
@@ -50,6 +49,8 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     private var practiceActive = false
     private var currentQuestionStartTime = 0L
     private var isDarkTheme = true
+    private var autoAdvanceHandler: android.os.Handler? = null
+    private var autoAdvanceRunnable: Runnable? = null
     
     companion object {
         private const val TAG = "ProblemWordsPracticeActivity"
@@ -167,16 +168,6 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         }
         startButton.tag = "start_button" // Add tag for easier finding
         
-        nextButton = ButtonStyleHelper.createPrimaryButton(
-            context = this,
-            text = "Next Word →",
-            isDarkTheme = isDarkTheme
-        ) { view ->
-            animateButtonPress(view)
-            nextWord()
-        }
-        nextButton.visibility = View.GONE
-
         backButton = ButtonStyleHelper.createSecondaryButton(
             context = this,
             text = "🏠 Back to Problem Words",
@@ -187,7 +178,6 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         }
         
         buttonContainer.addView(startButton)
-        buttonContainer.addView(nextButton)
         buttonContainer.addView(backButton)
         
         mainContainer.addView(headerContainer)
@@ -367,8 +357,8 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         currentWord = problemWords[currentWordIndex]
         currentQuestionStartTime = System.currentTimeMillis()
 
-        // Reset UI
-        nextButton.visibility = View.GONE
+        // Cancel any pending auto-advance
+        cancelAutoAdvance()
 
         val word = currentWord!!
         questionText.text = "🧠 Choose the correct translation for:\n\n\"${word.englishText}\"\n\nYou've struggled with this word ${word.failureCount} times"
@@ -433,9 +423,9 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             showIncorrectFeedback(selectedAnswer, word.kikuyuText)
         }
 
-        // Disable all option buttons and show next button
+        // Disable all option buttons and schedule auto-advance
         disableAllOptionButtons()
-        nextButton.visibility = View.VISIBLE
+        scheduleAutoAdvance()
 
         updateProgressDisplay()
     }
@@ -450,7 +440,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     
     private fun showCorrectFeedback() {
         val word = currentWord!!
-        questionText.text = "✅ CORRECT!\n\n\"${word.englishText}\"\n${word.kikuyuText}\n\n+10 points!"
+        questionText.text = "✅ CORRECT!\n\n\"${word.englishText}\"\n${word.kikuyuText}\n\n+10 points!\n\n→ Next word in 2.5 seconds..."
         questionText.setTextColor(if (isDarkTheme) Color.parseColor("#4CAF50") else ContextCompat.getColor(this, R.color.success_green))
 
         animateSuccess()
@@ -459,26 +449,44 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
 
     private fun showIncorrectFeedback(userAnswer: String, correctAnswer: String) {
         val word = currentWord!!
-        questionText.text = "❌ Not quite right.\n\n\"${word.englishText}\"\nYour choice: \"$userAnswer\"\nCorrect: \"$correctAnswer\"\n\nKeep practicing this word!"
+        questionText.text = "❌ Not quite right.\n\n\"${word.englishText}\"\nYour choice: \"$userAnswer\"\nCorrect: \"$correctAnswer\"\n\nKeep practicing this word!\n\n→ Next word in 2.5 seconds..."
         questionText.setTextColor(if (isDarkTheme) Color.parseColor("#CF6679") else ContextCompat.getColor(this, R.color.md_theme_light_error))
 
         animateError()
     }
     
-    private fun nextWord() {
-        currentWordIndex++
+    /**
+     * Schedule auto-advance to the next word after a delay
+     */
+    private fun scheduleAutoAdvance() {
+        cancelAutoAdvance() // Cancel any existing auto-advance
 
-        // Reset question text color
-        questionText.setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
+        autoAdvanceHandler = android.os.Handler(android.os.Looper.getMainLooper())
+        autoAdvanceRunnable = Runnable {
+            currentWordIndex++
 
-        // Hide next button again
-        nextButton.visibility = View.GONE
+            // Reset question text color
+            questionText.setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
 
-        if (currentWordIndex < problemWords.size) {
-            showNextQuestion()
-        } else {
-            endPracticeSession()
+            if (currentWordIndex < problemWords.size) {
+                showNextQuestion()
+            } else {
+                endPracticeSession()
+            }
         }
+
+        // Auto-advance after 2.5 seconds (2500ms)
+        autoAdvanceHandler?.postDelayed(autoAdvanceRunnable!!, 2500)
+    }
+
+    /**
+     * Cancel any pending auto-advance
+     */
+    private fun cancelAutoAdvance() {
+        autoAdvanceRunnable?.let { runnable ->
+            autoAdvanceHandler?.removeCallbacks(runnable)
+        }
+        autoAdvanceRunnable = null
     }
     
     private fun updateProgressDisplay() {
@@ -488,11 +496,14 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     
     private fun endPracticeSession() {
         practiceActive = false
-        
+
+        // Cancel any pending auto-advance
+        cancelAutoAdvance()
+
         val accuracy = if (totalAttempts > 0) {
             ((correctAnswers.toFloat() / totalAttempts) * 100).toInt()
         } else 0
-        
+
         val resultsMessage = buildString {
             appendLine("🎯 Practice Session Complete!")
             appendLine()
@@ -500,7 +511,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             appendLine("Accuracy: $accuracy%")
             appendLine("Correct Answers: $correctAnswers/$totalAttempts")
             appendLine()
-            
+
             when {
                 accuracy >= 80 -> appendLine("🌟 Excellent work! You're mastering these words!")
                 accuracy >= 60 -> appendLine("👍 Good job! Keep practicing to improve further.")
@@ -508,17 +519,22 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
                 else -> appendLine("📚 Keep practicing! Every attempt helps you learn.")
             }
         }
-        
+
         questionText.text = resultsMessage
         questionText.setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
 
         // Hide practice UI elements
         optionsContainer.visibility = View.GONE
-        nextButton.visibility = View.GONE
-        
+
         Toast.makeText(this, "Practice Complete! Score: $score", Toast.LENGTH_LONG).show()
     }
-    
+
+    override fun onDestroy() {
+        super.onDestroy()
+        // Clean up auto-advance handler to prevent memory leaks
+        cancelAutoAdvance()
+    }
+
     private fun animateButtonPress(button: View) {
         val animator = ObjectAnimator.ofFloat(button, "scaleX", 1f, 0.95f, 1f)
         animator.duration = 100
