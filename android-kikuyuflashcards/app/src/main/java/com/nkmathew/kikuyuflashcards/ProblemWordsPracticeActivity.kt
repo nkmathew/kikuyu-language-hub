@@ -34,8 +34,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     private lateinit var progressText: TextView
     private lateinit var scoreText: TextView
     private lateinit var questionText: TextView
-    private lateinit var answerInput: EditText
-    private lateinit var checkButton: Button
+    private lateinit var optionsContainer: LinearLayout
     private lateinit var nextButton: Button
     private lateinit var backButton: Button
     
@@ -43,11 +42,13 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     private var problemWords: List<FailureTracker.DifficultyWord> = emptyList()
     private var currentWordIndex = 0
     private var currentWord: FailureTracker.DifficultyWord? = null
+    private var currentOptions: List<String> = emptyList()
     private var score = 0
     private var correctAnswers = 0
     private var totalAttempts = 0
     private var practiceActive = false
     private var currentQuestionStartTime = 0L
+    private var isDarkTheme = true
     
     companion object {
         private const val TAG = "ProblemWordsPracticeActivity"
@@ -55,17 +56,18 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        
+
         // Apply dark theme
         ThemeManager.setTheme(this, ThemeManager.ThemeMode.DARK)
-        
+        isDarkTheme = ThemeManager.isDarkTheme(this)
+
         // Initialize managers
         failureTracker = FailureTracker(this)
         flashCardManager = FlashCardManagerV2(this)
         soundManager = SoundManager(this)
-        
+
         setContentView(createLayout())
-        
+
         loadProblemWords()
     }
     
@@ -88,14 +90,14 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             text = "🎯 Problem Words Practice"
             textSize = 24f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_primary))
+            setTextColor(if (isDarkTheme) ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_primary))
             gravity = Gravity.CENTER
         }
-        
+
         val subtitleText = TextView(this).apply {
-            text = "Focused practice on challenging words"
+            text = "Choose the correct translation from multiple choices"
             textSize = 14f
-            setTextColor(ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.text_secondary))
+            setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.text_secondary))
             gravity = Gravity.CENTER
             setPadding(0, 4, 0, 0)
         }
@@ -118,14 +120,14 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         scoreText = TextView(this).apply {
             text = "🏆 Score: 0"
             textSize = 14f
-            setTextColor(ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.success_green))
+            setTextColor(if (isDarkTheme) Color.parseColor("#4CAF50") else ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.success_green))
             setPadding(8, 4, 8, 4)
         }
-        
+
         progressText = TextView(this).apply {
             text = "📊 Progress: 0/0"
             textSize = 14f
-            setTextColor(ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_secondary))
+            setTextColor(if (isDarkTheme) Color.parseColor("#BBBBBB") else ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_secondary))
             setPadding(8, 4, 8, 4)
         }
         
@@ -135,22 +137,15 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         // Question area
         val questionCard = createQuestionCard()
         
-        // Input area
-        val inputContainer = LinearLayout(this).apply {
+        // Options area - replace input with multiple choice buttons
+        val optionsContainer = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
             setPadding(0, 16, 0, 16)
-        }
-        
-        answerInput = EditText(this).apply {
-            hint = "Type the Kikuyu translation..."
-            textSize = 16f
-            setPadding(24, 16, 24, 16)
-            background = createInputBackground()
-            setTextColor(Color.BLACK)
-            setSingleLine(true)
             visibility = View.GONE
         }
+
+        this.optionsContainer = optionsContainer
         
         // Buttons
         val buttonContainer = LinearLayout(this).apply {
@@ -159,29 +154,19 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             setPadding(0, 0, 0, 16)
         }
         
-        checkButton = Button(this).apply {
-            text = "✓ Check Answer"
-            textSize = 16f
-            setOnClickListener { 
-                animateButtonPress(this)
-                checkAnswer() 
-            }
-            setPadding(24, 12, 24, 12)
-            setTextColor(Color.WHITE)
-            background = createButtonBackground(R.color.success_green)
-            visibility = View.GONE
-        }
+        // Removed checkButton - now using multiple choice options directly
         
         val startButton = Button(this).apply {
             text = "🚀 START PRACTICE"
             textSize = 18f
-            setOnClickListener { 
+            setOnClickListener {
                 animateButtonPress(this)
-                startPractice() 
+                startPractice()
             }
             setPadding(32, 16, 32, 16)
             setTextColor(Color.WHITE)
             background = createButtonBackground(R.color.success_green)
+            tag = "start_button" // Add tag for easier finding
         }
         
         nextButton = Button(this).apply {
@@ -209,7 +194,6 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             background = createButtonBackground(R.color.md_theme_light_outline)
         }
         
-        buttonContainer.addView(checkButton)
         buttonContainer.addView(startButton)
         buttonContainer.addView(nextButton)
         buttonContainer.addView(backButton)
@@ -217,7 +201,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         mainContainer.addView(headerContainer)
         mainContainer.addView(progressContainer)
         mainContainer.addView(questionCard)
-        mainContainer.addView(inputContainer)
+        mainContainer.addView(optionsContainer)
         mainContainer.addView(buttonContainer)
         
         rootLayout.addView(mainContainer)
@@ -228,8 +212,8 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 12f
-            setColor(ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_surfaceVariant))
-            setStroke(1, ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_outline))
+            setColor(if (isDarkTheme) Color.parseColor("#2D2D2D") else ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_surfaceVariant))
+            setStroke(1, if (isDarkTheme) Color.parseColor("#444444") else ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_outline))
         }
     }
     
@@ -246,9 +230,9 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         }
         
         questionText = TextView(this).apply {
-            text = "Get ready to practice your problem words!\n\nTap START to begin."
+            text = "Get ready to practice your problem words!\n\nChoose the correct translation from multiple choices.\n\nTap START to begin."
             textSize = 18f
-            setTextColor(Color.BLACK)
+            setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
             gravity = Gravity.CENTER
             setLineSpacing(1.4f, 1f)
         }
@@ -261,17 +245,17 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 16f
-            setColor(Color.WHITE)
-            setStroke(3, ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.quiz_purple))
+            setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else Color.WHITE)
+            setStroke(3, if (isDarkTheme) Color.parseColor("#6200EE") else ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.quiz_purple))
         }
     }
-    
-    private fun createInputBackground(): GradientDrawable {
+
+    private fun createOptionButtonBackground(): GradientDrawable {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
-            cornerRadius = 8f
-            setColor(Color.WHITE)
-            setStroke(2, ContextCompat.getColor(this@ProblemWordsPracticeActivity, R.color.md_theme_light_secondary))
+            cornerRadius = 12f
+            setColor(if (isDarkTheme) Color.parseColor("#2D2D2D") else Color.parseColor("#F5F5F5"))
+            setStroke(2, if (isDarkTheme) Color.parseColor("#555555") else Color.parseColor("#CCCCCC"))
         }
     }
     
@@ -280,6 +264,46 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 24f
             setColor(ContextCompat.getColor(this@ProblemWordsPracticeActivity, colorRes))
+        }
+    }
+
+    private fun generateMultipleChoiceOptions(correctAnswer: String, allWords: List<FailureTracker.DifficultyWord>): List<String> {
+        val options = mutableListOf<String>()
+        options.add(correctAnswer) // Add correct answer first
+
+        // Get other Kikuyu words as distractors (excluding the correct answer)
+        val distractors = allWords
+            .filter { it.kikuyuText != correctAnswer }
+            .map { it.kikuyuText }
+            .shuffled()
+            .take(3) // Take 3 distractors
+
+        options.addAll(distractors)
+        return options.shuffled() // Shuffle all options
+    }
+
+    private fun createOptionButton(optionText: String, isCorrect: Boolean): Button {
+        return Button(this).apply {
+            text = optionText
+            textSize = 16f
+            setPadding(24, 16, 24, 16)
+            setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
+            background = createOptionButtonBackground()
+            gravity = Gravity.CENTER
+
+            setOnClickListener {
+                if (!practiceActive) return@setOnClickListener
+
+                animateButtonPress(this)
+                handleOptionSelected(optionText, isCorrect)
+            }
+
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 8, 0, 8)
+            }
         }
     }
     
@@ -303,31 +327,48 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             Toast.makeText(this, "No problem words available for practice", Toast.LENGTH_SHORT).show()
             return
         }
-        
+
         practiceActive = true
         currentWordIndex = 0
         score = 0
         correctAnswers = 0
         totalAttempts = 0
-        
+
         // Hide start button, show practice UI
-        checkButton.visibility = View.VISIBLE
-        answerInput.visibility = View.VISIBLE
-        
-        // Hide the start button
-        val buttonContainer = checkButton.parent as ViewGroup
-        for (i in 0 until buttonContainer.childCount) {
-            val child = buttonContainer.getChildAt(i)
-            if (child is Button && child.text.toString().contains("START")) {
-                child.visibility = View.GONE
-                break
-            }
-        }
-        
+        optionsContainer.visibility = View.VISIBLE
+
+        // Hide the start button - we'll handle this differently by storing reference
+        val startButton = findStartButton()
+        startButton?.visibility = View.GONE
+
         currentWord = problemWords[currentWordIndex]
         showNextQuestion()
-        
+
         soundManager.playButtonSound()
+    }
+
+    private fun findStartButton(): Button? {
+        // Use the tag to find the start button more efficiently
+        val rootView = window.decorView.findViewById<ViewGroup>(android.R.id.content)
+        return findViewByTagRecursive(rootView, "start_button")
+    }
+
+    private fun findViewByTagRecursive(parent: View, tag: String): Button? {
+        if (parent.tag == tag) {
+            return parent as? Button
+        }
+
+        if (parent is ViewGroup) {
+            for (i in 0 until parent.childCount) {
+                val child = parent.getChildAt(i)
+                val button = findViewByTagRecursive(child, tag)
+                if (button != null) {
+                    return button
+                }
+            }
+        }
+
+        return null
     }
     
     private fun showNextQuestion() {
@@ -335,42 +376,41 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             endPracticeSession()
             return
         }
-        
+
         currentWord = problemWords[currentWordIndex]
         currentQuestionStartTime = System.currentTimeMillis()
-        
+
         // Reset UI
-        answerInput.text.clear()
         nextButton.visibility = View.GONE
-        
+
         val word = currentWord!!
-        questionText.text = "🧠 Recall Practice\n\nType the Kikuyu translation for:\n\n\"${word.englishText}\"\n\nYou've struggled with this word ${word.failureCount} times"
-        
-        // Focus on input
-        answerInput.requestFocus()
-        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as android.view.inputmethod.InputMethodManager
-        imm.showSoftInput(answerInput, android.view.inputmethod.InputMethodManager.SHOW_IMPLICIT)
-        
+        questionText.text = "🧠 Choose the correct translation for:\n\n\"${word.englishText}\"\n\nYou've struggled with this word ${word.failureCount} times"
+        questionText.setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
+
+        // Generate multiple choice options
+        currentOptions = generateMultipleChoiceOptions(word.kikuyuText, problemWords)
+
+        // Clear and populate options container
+        optionsContainer.removeAllViews()
+        currentOptions.forEach { option ->
+            val isCorrect = option == word.kikuyuText
+            val optionButton = createOptionButton(option, isCorrect)
+            optionsContainer.addView(optionButton)
+        }
+
         updateProgressDisplay()
     }
     
-    private fun checkAnswer() {
-        val userAnswer = answerInput.text.toString().trim()
-        if (userAnswer.isEmpty()) {
-            Toast.makeText(this, "Please enter an answer", Toast.LENGTH_SHORT).show()
-            return
-        }
-        
+    private fun handleOptionSelected(selectedAnswer: String, isCorrect: Boolean) {
         val word = currentWord!!
-        val isCorrect = userAnswer.equals(word.kikuyuText, ignoreCase = true)
         val responseTime = System.currentTimeMillis() - currentQuestionStartTime
-        
+
         totalAttempts++
-        
+
         if (isCorrect) {
             correctAnswers++
             score += 10
-            
+
             // Record success with failure tracker
             val entry = FlashcardEntry(
                 id = word.phraseId,
@@ -381,7 +421,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
                 source = SourceInfo(origin = "Problem Words")
             )
             failureTracker.recordSuccess(entry, FailureTracker.LearningMode.FLASHCARD, responseTime)
-            
+
             showCorrectFeedback()
         } else {
             // Record failure with failure tracker
@@ -393,55 +433,60 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
                 difficulty = "medium",
                 source = SourceInfo(origin = "Problem Words")
             )
-            
+
             failureTracker.recordFailure(
                 entry = entry,
-                failureType = FailureTracker.FailureType.RECALL_ERROR,
+                failureType = FailureTracker.FailureType.MULTIPLE_CHOICE_ERROR,
                 learningMode = FailureTracker.LearningMode.FLASHCARD,
-                userAnswer = userAnswer,
+                userAnswer = selectedAnswer,
                 correctAnswer = word.kikuyuText,
                 responseTime = responseTime
             )
-            
-            showIncorrectFeedback(userAnswer, word.kikuyuText)
+
+            showIncorrectFeedback(selectedAnswer, word.kikuyuText)
         }
-        
-        // Hide input elements and show next button
-        answerInput.visibility = View.GONE
-        checkButton.visibility = View.GONE
+
+        // Disable all option buttons and show next button
+        disableAllOptionButtons()
         nextButton.visibility = View.VISIBLE
-        
+
         updateProgressDisplay()
+    }
+
+    private fun disableAllOptionButtons() {
+        for (i in 0 until optionsContainer.childCount) {
+            val button = optionsContainer.getChildAt(i) as Button
+            button.isClickable = false
+            button.alpha = 0.6f
+        }
     }
     
     private fun showCorrectFeedback() {
         val word = currentWord!!
         questionText.text = "✅ CORRECT!\n\n\"${word.englishText}\"\n${word.kikuyuText}\n\n+10 points!"
-        questionText.setTextColor(ContextCompat.getColor(this, R.color.success_green))
-        
+        questionText.setTextColor(if (isDarkTheme) Color.parseColor("#4CAF50") else ContextCompat.getColor(this, R.color.success_green))
+
         animateSuccess()
         soundManager.playButtonSound()
     }
-    
+
     private fun showIncorrectFeedback(userAnswer: String, correctAnswer: String) {
         val word = currentWord!!
-        questionText.text = "❌ Not quite right.\n\n\"${word.englishText}\"\nYour answer: \"$userAnswer\"\nCorrect: \"$correctAnswer\"\n\nKeep practicing this word!"
-        questionText.setTextColor(ContextCompat.getColor(this, R.color.md_theme_light_error))
-        
+        questionText.text = "❌ Not quite right.\n\n\"${word.englishText}\"\nYour choice: \"$userAnswer\"\nCorrect: \"$correctAnswer\"\n\nKeep practicing this word!"
+        questionText.setTextColor(if (isDarkTheme) Color.parseColor("#CF6679") else ContextCompat.getColor(this, R.color.md_theme_light_error))
+
         animateError()
     }
     
     private fun nextWord() {
         currentWordIndex++
-        
+
         // Reset question text color
-        questionText.setTextColor(Color.BLACK)
-        
-        // Show input elements again
-        answerInput.visibility = View.VISIBLE
-        checkButton.visibility = View.VISIBLE
+        questionText.setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
+
+        // Hide next button again
         nextButton.visibility = View.GONE
-        
+
         if (currentWordIndex < problemWords.size) {
             showNextQuestion()
         } else {
@@ -478,11 +523,10 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         }
         
         questionText.text = resultsMessage
-        questionText.setTextColor(Color.BLACK)
-        
+        questionText.setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
+
         // Hide practice UI elements
-        answerInput.visibility = View.GONE
-        checkButton.visibility = View.GONE
+        optionsContainer.visibility = View.GONE
         nextButton.visibility = View.GONE
         
         Toast.makeText(this, "Practice Complete! Score: $score", Toast.LENGTH_LONG).show()
