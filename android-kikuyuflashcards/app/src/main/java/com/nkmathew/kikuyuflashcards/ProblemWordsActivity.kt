@@ -273,13 +273,13 @@ class ProblemWordsActivity : AppCompatActivity() {
         
         // Practice button
         practiceButton = Button(this).apply {
-            text = "🎯 Practice Problem Words"
-            textSize = 18f
-            setOnClickListener { 
+            text = "🎯 PRACTICE ALL PROBLEM WORDS"
+            textSize = 20f
+            setOnClickListener {
                 animateButtonPress(this)
-                startProblemWordsPractice() 
+                startProblemWordsPractice()
             }
-            setPadding(32, 16, 32, 16)
+            setPadding(32, 20, 32, 20)
             setTextColor(Color.WHITE)
             background = createButtonBackground(R.color.success_green)
             isEnabled = false // Will be enabled when there are problem words
@@ -426,22 +426,27 @@ class ProblemWordsActivity : AppCompatActivity() {
     private fun updateStatsDisplay() {
         val stats = failureTracker.getFailureStats()
         val totalProblemWords = problemWords.size
-        
+
         val statsText = buildString {
             appendLine("📊 Learning Statistics")
             appendLine()
             appendLine("Total Problem Words: $totalProblemWords")
             appendLine("Total Failures: ${stats["total_failures"]}")
             appendLine("Recent Failures (24h): ${stats["recent_failures_24h"]}")
-            
+
             val mostCommonType = stats["most_common_failure_type"]
             if (mostCommonType != null) {
                 appendLine("Common Issue: ${mostCommonType.toString().replace("_", " ").lowercase()}")
             }
+
+            if (totalProblemWords > 0) {
+                appendLine()
+                appendLine("✨ Use the PRACTICE ALL button below to practice all ${totalProblemWords} problem words in a focused session ✨")
+            }
         }
-        
+
         this.statsText.text = statsText
-        
+
         // Enable practice button if there are problem words
         practiceButton.isEnabled = totalProblemWords > 0
     }
@@ -519,7 +524,7 @@ class ProblemWordsActivity : AppCompatActivity() {
         val wordContent = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
         }
-        
+
         // English and Kikuyu text
         val englishText = TextView(this).apply {
             text = "🇬🇧 ${word.englishText}"
@@ -534,14 +539,14 @@ class ProblemWordsActivity : AppCompatActivity() {
             setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_primary))
             setPadding(0, 4, 0, 0)
         }
-        
+
         // Category and stats
         val statsRow = LinearLayout(this).apply {
             orientation = LinearLayout.HORIZONTAL
             gravity = Gravity.CENTER_VERTICAL
             setPadding(0, 8, 0, 0)
         }
-        
+
         val categoryText = TextView(this).apply {
             text = "📁 ${word.category}"
             textSize = 12f
@@ -554,18 +559,18 @@ class ProblemWordsActivity : AppCompatActivity() {
             setTextColor(ContextCompat.getColor(this@ProblemWordsActivity, R.color.md_theme_dark_error))
             setPadding(16, 0, 0, 0)
         }
-        
+
         val masteryText = TextView(this).apply {
             text = "📈 ${getMasteryLevelDisplay(word.masteryLevel)}"
             textSize = 12f
             setTextColor(getMasteryLevelColor(word.masteryLevel))
             setPadding(16, 0, 0, 0)
         }
-        
+
         statsRow.addView(categoryText)
         statsRow.addView(failureCountText)
         statsRow.addView(masteryText)
-        
+
         // Failure types (if any)
         if (word.failureTypes.isNotEmpty()) {
             val failureTypesText = TextView(this).apply {
@@ -576,46 +581,33 @@ class ProblemWordsActivity : AppCompatActivity() {
             }
             wordContent.addView(failureTypesText)
         }
-        
-        // Action buttons
+
+        // Action buttons (removed individual practice button, keeping only Mark as Mastered)
         val actionButtons = LinearLayout(this).apply {
             orientation = LinearLayout.HORIZONTAL
             gravity = Gravity.END
             setPadding(0, 12, 0, 0)
         }
-        
-        val practiceWordButton = Button(this).apply {
-            text = "📖 Practice"
-            textSize = 12f
-            setOnClickListener { 
-                animateButtonPress(this)
-                practiceSingleWord(word) 
-            }
-            setPadding(16, 8, 16, 8)
-            setTextColor(Color.WHITE)
-            background = createSmallButtonBackground(R.color.md_theme_light_secondary)
-        }
-        
+
         val markMasteredButton = Button(this).apply {
-            text = "✅ Mastered"
+            text = "✅ Mark as Mastered"
             textSize = 12f
-            setOnClickListener { 
+            setOnClickListener {
                 animateButtonPress(this)
-                markWordAsMastered(word) 
+                markWordAsMastered(word)
             }
             setPadding(16, 8, 16, 8)
             setTextColor(Color.WHITE)
             background = createSmallButtonBackground(R.color.success_green)
         }
-        
-        actionButtons.addView(practiceWordButton)
+
         actionButtons.addView(markMasteredButton)
-        
+
         wordContent.addView(englishText)
         wordContent.addView(kikuyuText)
         wordContent.addView(statsRow)
         wordContent.addView(actionButtons)
-        
+
         cardContainer.addView(wordContent)
         return cardContainer
     }
@@ -675,15 +667,7 @@ class ProblemWordsActivity : AppCompatActivity() {
         soundManager.playButtonSound()
     }
     
-    private fun practiceSingleWord(word: FailureTracker.DifficultyWord) {
-        val intent = Intent(this, FlashCardActivity::class.java)
-        intent.putExtra("focus_phrase_english", word.englishText)
-        intent.putExtra("focus_phrase_kikuyu", word.kikuyuText)
-        intent.putExtra("practice_mode", "single_problem_word")
-        startActivity(intent)
-        
-        soundManager.playButtonSound()
-    }
+    // Individual practice functionality removed in favor of the main "PRACTICE ALL" button
     
     private fun markWordAsMastered(word: FailureTracker.DifficultyWord) {
         val confirmationDialog = android.app.AlertDialog.Builder(this)
