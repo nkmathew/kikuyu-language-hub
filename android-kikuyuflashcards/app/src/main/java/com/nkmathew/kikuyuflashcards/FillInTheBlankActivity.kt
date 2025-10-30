@@ -3,6 +3,7 @@ package com.nkmathew.kikuyuflashcards
 import android.animation.ObjectAnimator
 import android.animation.AnimatorSet
 import android.content.Context
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
@@ -45,7 +46,6 @@ class FillInTheBlankActivity : AppCompatActivity() {
     
     // UI Components
     private lateinit var questionText: TextView
-    private lateinit var blankInput: EditText
     private lateinit var optionsContainer: LinearLayout
     private lateinit var progressText: TextView
     private lateinit var scoreText: TextView
@@ -63,7 +63,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
     private var totalQuestions = 0
     private var hintsUsed = 0
     private var difficulty = "medium" // easy, medium, hard
-    private var isMultipleChoice = true
+    // Always multiple choice now
     private var currentQuestionStartTime = 0L
     
     companion object {
@@ -112,7 +112,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
             text = "📝 Fill in the Blank"
             textSize = 24f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_light_primary))
+            setTextColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_primary))
             setPadding(0, 0, 0, 32)
         }
         
@@ -120,7 +120,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         val difficultyText = TextView(this).apply {
             text = "Difficulty: ${difficulty.uppercase()}"
             textSize = 16f
-            setTextColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_light_secondary))
+            setTextColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_secondary))
             setPadding(0, 0, 0, 24)
         }
         
@@ -181,7 +181,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         
         questionText = TextView(this).apply {
             textSize = 20f
-            setTextColor(Color.BLACK)
+            setTextColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_onSurface))
             gravity = Gravity.CENTER
             setLineSpacing(1.3f, 1f)
         }
@@ -194,8 +194,8 @@ class FillInTheBlankActivity : AppCompatActivity() {
         return GradientDrawable().apply {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 16f
-            setColor(Color.WHITE)
-            setStroke(3, ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_light_primary))
+            setColor(ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_surface))
+            setStroke(3, ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_primary))
         }
     }
     
@@ -206,24 +206,15 @@ class FillInTheBlankActivity : AppCompatActivity() {
             setPadding(0, 16, 0, 0)
         }
         
-        // Input field for text input mode
-        blankInput = EditText(this).apply {
-            hint = "Type the missing word here..."
-            textSize = 16f
-            setPadding(24, 16, 24, 16)
-            background = createInputBackground()
-            setTextColor(Color.BLACK)
-            setSingleLine(true)
-            visibility = View.GONE // Hidden by default, shown for text input mode
-        }
+        // Text input option has been removed
         
         // Check button
         checkButton = Button(this).apply {
             text = "✓ Check Answer"
             textSize = 16f
-            setOnClickListener { 
-                animateButtonPress(this)
-                checkAnswer() 
+            setOnClickListener {
+                animateButtonPress(this@apply)
+                // This button is not used anymore since we only have multiple choice
             }
             setPadding(32, 16, 32, 16)
             setTextColor(Color.WHITE)
@@ -235,9 +226,9 @@ class FillInTheBlankActivity : AppCompatActivity() {
         hintButton = Button(this).apply {
             text = "💡 Hint ($MAX_HINTS remaining)"
             textSize = 14f
-            setOnClickListener { 
-                animateButtonPress(this)
-                showHint() 
+            setOnClickListener {
+                animateButtonPress(this@apply)
+                showHint()
             }
             setPadding(24, 12, 24, 12)
             setTextColor(Color.WHITE)
@@ -248,46 +239,53 @@ class FillInTheBlankActivity : AppCompatActivity() {
         nextButton = Button(this).apply {
             text = "Next Question →"
             textSize = 16f
-            setOnClickListener { 
-                animateButtonPress(this)
-                startNewQuestion() 
+            setOnClickListener {
+                animateButtonPress(this@apply)
+                startNewQuestion()
             }
             setPadding(32, 16, 32, 16)
             setTextColor(Color.WHITE)
-            background = createButtonBackground(R.color.md_theme_light_secondary)
+            background = createButtonBackground(R.color.md_theme_dark_secondary)
             visibility = View.GONE
         }
         
+        // Practice Problem Words button
+        val problemWordsButton = Button(this).apply {
+            text = "🎯 Practice Problem Words"
+            textSize = 14f
+            setOnClickListener {
+                animateButtonPress(this@apply)
+                startProblemWordsActivity()
+            }
+            setPadding(24, 12, 24, 12)
+            setTextColor(Color.WHITE)
+            background = createButtonBackground(R.color.md_theme_dark_tertiary)
+        }
+
         // Back button
         backButton = Button(this).apply {
             text = "🏠 Back to Home"
             textSize = 14f
-            setOnClickListener { 
-                animateButtonPress(this)
-                finish() 
+            setOnClickListener {
+                animateButtonPress(this@apply)
+                finish()
             }
             setPadding(24, 12, 24, 12)
             setTextColor(Color.WHITE)
-            background = createButtonBackground(R.color.md_theme_light_outline)
+            background = createButtonBackground(R.color.md_theme_dark_outline)
         }
         
-        buttonContainer.addView(blankInput)
+        // Add all buttons to container
         buttonContainer.addView(checkButton)
         buttonContainer.addView(hintButton)
         buttonContainer.addView(nextButton)
+        buttonContainer.addView(problemWordsButton)
         buttonContainer.addView(backButton)
         
         return buttonContainer
     }
     
-    private fun createInputBackground(): GradientDrawable {
-        return GradientDrawable().apply {
-            shape = GradientDrawable.RECTANGLE
-            cornerRadius = 8f
-            setColor(Color.WHITE)
-            setStroke(2, ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_light_outline))
-        }
-    }
+    // Input background removed - no longer needed
     
     private fun createButtonBackground(colorRes: Int): GradientDrawable {
         return GradientDrawable().apply {
@@ -310,8 +308,6 @@ class FillInTheBlankActivity : AppCompatActivity() {
         currentQuestionStartTime = System.currentTimeMillis()
         
         // Reset UI state
-        blankInput.text.clear()
-        blankInput.visibility = View.GONE
         checkButton.visibility = View.GONE
         nextButton.visibility = View.GONE
         hintButton.visibility = View.VISIBLE
@@ -339,28 +335,11 @@ class FillInTheBlankActivity : AppCompatActivity() {
         // Create display phrase with blank
         displayPhrase = fullPhrase.replace(blankWord, "_____")
         
-        // Choose question mode based on difficulty
-        when (difficulty) {
-            "easy" -> {
-                isMultipleChoice = true
-                questionText.text = "Complete the Kikuyu phrase:\n\nEnglish: \"${phrase.english}\"\n\nKikuyu: $displayPhrase"
-                createMultipleChoiceOptions()
-            }
-            "medium" -> {
-                isMultipleChoice = Random.nextBoolean()
-                questionText.text = "Complete the Kikuyu phrase:\n\nEnglish: \"${phrase.english}\"\n\nKikuyu: $displayPhrase"
-                if (isMultipleChoice) {
-                    createMultipleChoiceOptions()
-                } else {
-                    showTextInput()
-                }
-            }
-            "hard" -> {
-                isMultipleChoice = false
-                questionText.text = "Complete the Kikuyu phrase:\n\nEnglish: \"${phrase.english}\"\n\nKikuyu: $displayPhrase"
-                showTextInput()
-            }
-        }
+        // All difficulty levels now use multiple choice
+        questionText.text = "Complete the Kikuyu phrase:\n\nEnglish: \"${phrase.english}\"\n\nKikuyu: $displayPhrase"
+
+        // Adjust the number of options based on difficulty
+        createMultipleChoiceOptions()
     }
     
     private fun selectWordToBlank(phrase: String): String {
@@ -404,12 +383,12 @@ class FillInTheBlankActivity : AppCompatActivity() {
         
         // Create option buttons
         for (option in options) {
-            val optionButton = Button(this).apply {
+            val optionButton = Button(this@FillInTheBlankActivity).apply {
                 text = option
                 textSize = 16f
-                setOnClickListener { 
-                    animateButtonPress(this)
-                    checkMultipleChoiceAnswer(option) 
+                setOnClickListener {
+                    animateButtonPress(this@apply)
+                    checkMultipleChoiceAnswer(option)
                 }
                 setPadding(24, 16, 24, 16)
                 setTextColor(Color.BLACK)
@@ -430,7 +409,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
             shape = GradientDrawable.RECTANGLE
             cornerRadius = 12f
             setColor(Color.WHITE)
-            setStroke(2, ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_light_secondary))
+            setStroke(2, ContextCompat.getColor(this@FillInTheBlankActivity, R.color.md_theme_dark_secondary))
         }
     }
     
@@ -480,30 +459,11 @@ class FillInTheBlankActivity : AppCompatActivity() {
         return options.shuffled().take(distractorCount + 1)
     }
     
-    private fun showTextInput() {
-        blankInput.visibility = View.VISIBLE
-        checkButton.visibility = View.VISIBLE
-        blankInput.requestFocus()
-        
-        // Show keyboard
-        val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as android.view.inputmethod.InputMethodManager
-        imm.showSoftInput(blankInput, android.view.inputmethod.InputMethodManager.SHOW_IMPLICIT)
-    }
-    
+    // Text input methods removed
+
     private fun checkMultipleChoiceAnswer(selectedAnswer: String) {
         val isCorrect = selectedAnswer.equals(blankWord, ignoreCase = true)
         processAnswerResult(isCorrect, selectedAnswer)
-    }
-    
-    private fun checkAnswer() {
-        val userAnswer = blankInput.text.toString().trim()
-        if (userAnswer.isEmpty()) {
-            Toast.makeText(this, "Please enter an answer", Toast.LENGTH_SHORT).show()
-            return
-        }
-        
-        val isCorrect = userAnswer.equals(blankWord, ignoreCase = true)
-        processAnswerResult(isCorrect, userAnswer)
     }
     
     private fun processAnswerResult(isCorrect: Boolean, userAnswer: String) {
@@ -515,16 +475,27 @@ class FillInTheBlankActivity : AppCompatActivity() {
         
         if (isCorrect) {
             score++
-            failureTracker.recordSuccess(phrase, FailureTracker.LearningMode.FILL_BLANK, responseTime)
+
+            // Record success with detailed information
+            failureTracker.recordSuccess(
+                entry = phrase,
+                learningMode = FailureTracker.LearningMode.FILL_BLANK,
+                responseTime = responseTime
+            )
+
             showCorrectFeedback()
         } else {
+            // More detailed failure classification
             val failureType = when {
                 userAnswer.isEmpty() -> FailureTracker.FailureType.TIMEOUT_ERROR
-                userAnswer.length >= blankWord.length - 1 && userAnswer.length <= blankWord.length + 1 -> 
+                userAnswer.length >= blankWord.length - 1 && userAnswer.length <= blankWord.length + 1 ->
                     FailureTracker.FailureType.SPELLING_ERROR
+                userAnswer.first() == blankWord.first() && userAnswer.last() == blankWord.last() ->
+                    FailureTracker.FailureType.VOWEL_ERROR // Special case for vowel errors
                 else -> FailureTracker.FailureType.FILL_BLANK_ERROR
             }
-            
+
+            // Record failure with enhanced tracking information
             failureTracker.recordFailure(
                 entry = currentPhrase!!,
                 failureType = failureType,
@@ -544,15 +515,25 @@ class FillInTheBlankActivity : AppCompatActivity() {
         
         // Update score display
         scoreText.text = "Score: $score/$totalQuestions"
-        
+
         // Play appropriate sound
         if (isCorrect) {
             soundManager.playButtonSound()
         }
+
+        // Show problem words count after a few questions
+        if (totalQuestions % 5 == 0) {
+            val problemWordCount = getProblemWordsCount()
+            if (problemWordCount > 0) {
+                Toast.makeText(this,
+                    "You have $problemWordCount words to practice. Tap '🎯 Practice Problem Words' to review.",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+        }
     }
     
     private fun hideAllInputOptions() {
-        blankInput.visibility = View.GONE
         checkButton.visibility = View.GONE
         hintButton.visibility = View.GONE
         optionsContainer.removeAllViews()
@@ -579,7 +560,7 @@ class FillInTheBlankActivity : AppCompatActivity() {
         feedbackMessage += "\nThe correct answer is: \"$blankWord\""
 
         questionText.text = feedbackMessage
-        questionText.setTextColor(ContextCompat.getColor(this, R.color.md_theme_light_error))
+        questionText.setTextColor(ContextCompat.getColor(this, R.color.md_theme_dark_error))
 
         // Animate shake for incorrect answer
         animateQuestionShake()
@@ -627,6 +608,31 @@ class FillInTheBlankActivity : AppCompatActivity() {
         }
 
         return null
+    }
+
+    /**
+     * Navigate to ProblemWordsActivity to practice problem words
+     */
+    private fun startProblemWordsActivity() {
+        // Show a summary toast before navigating
+        val problemWordCount = getProblemWordsCount()
+        if (problemWordCount > 0) {
+            Toast.makeText(this,
+                "You have $problemWordCount problem words to practice",
+                Toast.LENGTH_SHORT
+            ).show()
+        }
+
+        // Navigate to problem words activity
+        val intent = Intent(this, ProblemWordsActivity::class.java)
+        startActivity(intent)
+    }
+
+    /**
+     * Get the count of problem words for this user
+     */
+    private fun getProblemWordsCount(): Int {
+        return failureTracker.getProblemWords().size
     }
     
     private fun showHint() {

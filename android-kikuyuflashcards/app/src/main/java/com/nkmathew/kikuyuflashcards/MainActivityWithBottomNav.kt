@@ -301,7 +301,8 @@ class MainActivityWithBottomNav : ComponentActivity() {
             LearningMode("🚩 Flagged Translations", "Review flagged translations", "flagged_translations"),
             LearningMode("🧠 Quiz Mode", "Test your knowledge", "quiz"),
             LearningMode("✏️ Fill Blanks", "Complete the sentences", "fill_blank"),
-            LearningMode("📖 Cloze Test", "Reading comprehension", "cloze"),
+            LearningMode("🔀 Sentence Unscramble", "Drag words to correct order", "sentence_unscramble"),
+            LearningMode("🔤 Vowel Hunt", "Find the correct vowels", "vowel_hunt"),
             LearningMode("🎮 Games", "Fun learning activities", "games")
         )
         
@@ -455,7 +456,8 @@ class MainActivityWithBottomNav : ComponentActivity() {
                     "flagged_translations" -> startFlaggedTranslations()
                     "quiz" -> startQuiz()
                     "fill_blank" -> startFillBlank()
-                    "cloze" -> startCloze()
+                    "sentence_unscramble" -> startSentenceUnscramble()
+                    "vowel_hunt" -> startVowelHunt()
                     "games" -> startGames()
                 }
             }
@@ -842,8 +844,13 @@ class MainActivityWithBottomNav : ComponentActivity() {
         startActivity(intent)
     }
 
-    private fun startCloze() {
-        val intent = Intent(this, ClozeTestActivity::class.java)
+    private fun startSentenceUnscramble() {
+        val intent = Intent(this, SentenceUnscrambleActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startVowelHunt() {
+        val intent = Intent(this, VowelHuntActivity::class.java)
         startActivity(intent)
     }
 

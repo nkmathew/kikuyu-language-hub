@@ -44,10 +44,6 @@
             android:label="Fill in the Blank"
             android:parentActivityName=".MainActivityWithBottomNav" />
 
-        <!-- Cloze Test Activity -->
-        <activity android:name=".ClozeTestActivity" 
-            android:label="Cloze Test"
-            android:parentActivityName=".MainActivityWithBottomNav" />
 
         <!-- Multiple Response Game Activity -->
         <activity android:name=".MultipleResponseGameActivity" 
@@ -87,6 +83,16 @@
         <!-- Flash Card Style Activity -->
         <activity android:name=".FlashCardStyleActivity"
             android:label="Flash Card Style"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Sentence Unscramble Activity -->
+        <activity android:name=".SentenceUnscrambleActivity"
+            android:label="Sentence Unscramble"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
+        <!-- Vowel Hunt Activity -->
+        <activity android:name=".VowelHuntActivity"
+            android:label="Vowel Hunt"
             android:parentActivityName=".MainActivityWithBottomNav" />
 
     </application>
