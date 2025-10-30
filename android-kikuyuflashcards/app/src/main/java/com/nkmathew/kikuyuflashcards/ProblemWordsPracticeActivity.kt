@@ -19,6 +19,7 @@ import com.nkmathew.kikuyuflashcards.SoundManager
 import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
 import com.nkmathew.kikuyuflashcards.models.SourceInfo
 import com.nkmathew.kikuyuflashcards.FailureTracker
+import com.nkmathew.kikuyuflashcards.utils.ButtonStyleHelper
 
 /**
  * ProblemWordsPracticeActivity - Focused practice session for problem words
@@ -35,8 +36,8 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
     private lateinit var scoreText: TextView
     private lateinit var questionText: TextView
     private lateinit var optionsContainer: LinearLayout
-    private lateinit var nextButton: Button
-    private lateinit var backButton: Button
+    private lateinit var nextButton: LinearLayout
+    private lateinit var backButton: LinearLayout
     
     // Practice state
     private var problemWords: List<FailureTracker.DifficultyWord> = emptyList()
@@ -156,42 +157,33 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         
         // Removed checkButton - now using multiple choice options directly
         
-        val startButton = Button(this).apply {
-            text = "🚀 START PRACTICE"
-            textSize = 18f
-            setOnClickListener {
-                animateButtonPress(this)
-                startPractice()
-            }
-            setPadding(32, 16, 32, 16)
-            setTextColor(Color.WHITE)
-            background = createButtonBackground(R.color.success_green)
-            tag = "start_button" // Add tag for easier finding
+        val startButton = ButtonStyleHelper.createAccentButton(
+            context = this,
+            text = "🚀 START PRACTICE",
+            isDarkTheme = isDarkTheme
+        ) { view ->
+            animateButtonPress(view)
+            startPractice()
         }
+        startButton.tag = "start_button" // Add tag for easier finding
         
-        nextButton = Button(this).apply {
-            text = "Next Word →"
-            textSize = 16f
-            setOnClickListener { 
-                animateButtonPress(this)
-                nextWord() 
-            }
-            setPadding(24, 12, 24, 12)
-            setTextColor(Color.WHITE)
-            background = createButtonBackground(R.color.md_theme_light_secondary)
-            visibility = View.GONE
+        nextButton = ButtonStyleHelper.createPrimaryButton(
+            context = this,
+            text = "Next Word →",
+            isDarkTheme = isDarkTheme
+        ) { view ->
+            animateButtonPress(view)
+            nextWord()
         }
-        
-        backButton = Button(this).apply {
-            text = "🏠 Back to Problem Words"
-            textSize = 14f
-            setOnClickListener { 
-                animateButtonPress(this)
-                finish() 
-            }
-            setPadding(20, 10, 20, 10)
-            setTextColor(Color.WHITE)
-            background = createButtonBackground(R.color.md_theme_light_outline)
+        nextButton.visibility = View.GONE
+
+        backButton = ButtonStyleHelper.createSecondaryButton(
+            context = this,
+            text = "🏠 Back to Problem Words",
+            isDarkTheme = isDarkTheme
+        ) { view ->
+            animateButtonPress(view)
+            finish()
         }
         
         buttonContainer.addView(startButton)
@@ -282,28 +274,23 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         return options.shuffled() // Shuffle all options
     }
 
-    private fun createOptionButton(optionText: String, isCorrect: Boolean): Button {
-        return Button(this).apply {
-            text = optionText
-            textSize = 16f
-            setPadding(24, 16, 24, 16)
-            setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
-            background = createOptionButtonBackground()
-            gravity = Gravity.CENTER
+    private fun createOptionButton(optionText: String, isCorrect: Boolean): LinearLayout {
+        return ButtonStyleHelper.createPrimaryButton(
+            context = this,
+            text = optionText,
+            isDarkTheme = isDarkTheme
+        ) { view ->
+            if (!practiceActive) return@createPrimaryButton
 
-            setOnClickListener {
-                if (!practiceActive) return@setOnClickListener
+            animateButtonPress(view)
+            handleOptionSelected(optionText, isCorrect)
+        }.apply {
+            // Override text color for option buttons
+            val textView = getChildAt(0) as TextView
+            textView.setTextColor(Color.WHITE)
 
-                animateButtonPress(this)
-                handleOptionSelected(optionText, isCorrect)
-            }
-
-            layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            ).apply {
-                setMargins(0, 8, 0, 8)
-            }
+            // Add proper margins
+            (layoutParams as LinearLayout.LayoutParams).setMargins(0, ButtonStyleHelper.STANDARD_MARGIN, 0, ButtonStyleHelper.STANDARD_MARGIN)
         }
     }
     
@@ -347,23 +334,23 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         soundManager.playButtonSound()
     }
 
-    private fun findStartButton(): Button? {
+    private fun findStartButton(): View? {
         // Use the tag to find the start button more efficiently
         val rootView = window.decorView.findViewById<ViewGroup>(android.R.id.content)
         return findViewByTagRecursive(rootView, "start_button")
     }
 
-    private fun findViewByTagRecursive(parent: View, tag: String): Button? {
+    private fun findViewByTagRecursive(parent: View, tag: String): View? {
         if (parent.tag == tag) {
-            return parent as? Button
+            return parent
         }
 
         if (parent is ViewGroup) {
             for (i in 0 until parent.childCount) {
                 val child = parent.getChildAt(i)
-                val button = findViewByTagRecursive(child, tag)
-                if (button != null) {
-                    return button
+                val view = findViewByTagRecursive(child, tag)
+                if (view != null) {
+                    return view
                 }
             }
         }
@@ -455,7 +442,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
 
     private fun disableAllOptionButtons() {
         for (i in 0 until optionsContainer.childCount) {
-            val button = optionsContainer.getChildAt(i) as Button
+            val button = optionsContainer.getChildAt(i) as LinearLayout
             button.isClickable = false
             button.alpha = 0.6f
         }
@@ -532,7 +519,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         Toast.makeText(this, "Practice Complete! Score: $score", Toast.LENGTH_LONG).show()
     }
     
-    private fun animateButtonPress(button: Button) {
+    private fun animateButtonPress(button: View) {
         val animator = ObjectAnimator.ofFloat(button, "scaleX", 1f, 0.95f, 1f)
         animator.duration = 100
         animator.interpolator = AccelerateDecelerateInterpolator()

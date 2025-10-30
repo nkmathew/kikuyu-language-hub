@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
@@ -15,6 +16,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.updatePadding
 import com.nkmathew.kikuyuflashcards.models.Categories
+import com.nkmathew.kikuyuflashcards.utils.ButtonStyleHelper
 
 class MainActivityWithBottomNav : ComponentActivity() {
     
@@ -502,30 +504,55 @@ class MainActivityWithBottomNav : ComponentActivity() {
             )
         }
 
-        // Add activity buttons for resumable activities
+        // Add Practice Problem Words button at the top (special accent button)
+        val practiceProblemWordsButton = ButtonStyleHelper.createAccentButton(
+            context = this,
+            text = "🎯 Practice Problem Words",
+            isDarkTheme = isDarkTheme
+        ) {
+            soundManager.playButtonSound()
+            startProblemWordsPractice()
+        }
+
+        // Add spacing after the accent button
+        val spacingView = View(this)
+        val spacingParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            TypedValue.applyDimension(
+                TypedValue.COMPLEX_UNIT_DIP,
+                8f,
+                resources.displayMetrics
+            ).toInt()
+        )
+        spacingView.layoutParams = spacingParams
+
+        activityButtonsContainer.addView(practiceProblemWordsButton)
+        activityButtonsContainer.addView(spacingView)
+
+        // Add regular activity buttons for resumable activities
         val resumableActivities = listOf(
-            Triple("flashcard_style", "🎯 Flash Cards", R.color.md_theme_dark_primary),
-            Triple("study_list", "📋 Study", R.color.md_theme_dark_secondary),
-            Triple("quiz", "🧠 Quiz", R.color.md_theme_dark_tertiary),
-            Triple("fill_blank", "✏️ Fill Blanks", R.color.md_theme_dark_secondary),
-            Triple("sentence_unscramble", "🔀 Unscramble", R.color.md_theme_dark_tertiary),
-            Triple("vowel_hunt", "🔤 Vowel Hunt", R.color.md_theme_dark_secondary)
+            Triple("flashcard_style", "🎯 Flash Cards", "primary"),
+            Triple("study_list", "📋 Study", "secondary"),
+            Triple("quiz", "🧠 Quiz", "tertiary"),
+            Triple("fill_blank", "✏️ Fill Blanks", "secondary"),
+            Triple("sentence_unscramble", "🔀 Unscramble", "tertiary"),
+            Triple("vowel_hunt", "🔤 Vowel Hunt", "secondary")
         )
 
         // Add activity buttons
-        for ((activityId, title, color) in resumableActivities) {
+        for ((activityId, title, colorType) in resumableActivities) {
             // Get progress for this activity
             val progress = activityProgressTracker.getProgressForActivity(activityId)
 
             // Create resume message
             val resumeMessage = activityProgressTracker.getResumeMessage(activityId)
 
-            // Create activity button
-            val button = createResumeButton(
+            // Create activity button with new standardized styling
+            val button = createStandardizedResumeButton(
                 title = title,
                 description = resumeMessage,
                 progress = progress,
-                colorResId = color,
+                colorType = colorType,
                 isDarkTheme = isDarkTheme
             ) {
                 // Handle click based on activity ID
@@ -1242,6 +1269,140 @@ class MainActivityWithBottomNav : ComponentActivity() {
     private fun startVowelHunt() {
         val intent = Intent(this, VowelHuntActivity::class.java)
         startActivity(intent)
+    }
+
+    private fun startProblemWordsPractice() {
+        val intent = Intent(this, ProblemWordsPracticeActivity::class.java)
+        startActivity(intent)
+    }
+
+    /**
+     * Create a standardized resume activity button with consistent styling
+     */
+    private fun createStandardizedResumeButton(
+        title: String,
+        description: String,
+        progress: Float,
+        colorType: String,
+        isDarkTheme: Boolean,
+        onClick: () -> Unit
+    ): LinearLayout {
+        return LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            setPadding(16, 12, 16, 12)
+
+            // Set full width
+            val layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                TypedValue.applyDimension(
+                    TypedValue.COMPLEX_UNIT_DIP,
+                    ButtonStyleHelper.STANDARD_HEIGHT.toFloat(),
+                    resources.displayMetrics
+                ).toInt()
+            )
+            layoutParams.setMargins(0, 0, 0, 8)  // Add bottom margin between buttons
+            this.layoutParams = layoutParams
+
+            // Create background with progress gradient using theme colors
+            val colorResId = ButtonStyleHelper.getThemeColorId(colorType, isDarkTheme)
+            val buttonBg = if (progress > 0) {
+                ButtonStyleHelper.createProgressButtonBackground(
+                    context = this@MainActivityWithBottomNav,
+                    progress = progress,
+                    baseColorResId = colorResId,
+                    isDarkTheme = isDarkTheme
+                )
+            } else {
+                // Solid background
+                GradientDrawable().apply {
+                    shape = GradientDrawable.RECTANGLE
+                    cornerRadius = ButtonStyleHelper.STANDARD_CORNER_RADIUS
+                    setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, colorResId))
+                }
+            }
+
+            background = buttonBg
+            elevation = 4f
+
+            // Make clickable
+            isClickable = true
+            isFocusable = true
+            setOnClickListener {
+                soundManager.playButtonSound()
+                onClick()
+            }
+
+            // Create text container with proper layout params
+            val textContainer = LinearLayout(this@MainActivityWithBottomNav)
+            textContainer.orientation = LinearLayout.VERTICAL
+            textContainer.gravity = Gravity.CENTER_VERTICAL
+            textContainer.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+
+            // Title
+            val titleText = TextView(this@MainActivityWithBottomNav).apply {
+                text = title
+                textSize = ButtonStyleHelper.STANDARD_TEXT_SIZE
+                setTextColor(Color.WHITE)
+                setTypeface(null, android.graphics.Typeface.BOLD)
+                setPadding(8, 4, 8, 4)
+            }
+
+            // Description
+            val descText = TextView(this@MainActivityWithBottomNav).apply {
+                text = description
+                textSize = ButtonStyleHelper.SMALL_TEXT_SIZE
+                setTextColor(Color.WHITE)
+                alpha = 0.9f
+                maxLines = 2
+                ellipsize = android.text.TextUtils.TruncateAt.END
+                setPadding(8, 0, 8, 0)
+            }
+
+            // Progress indicator
+            val progressIndicator = if (progress > 0) {
+                val indicator = TextView(this@MainActivityWithBottomNav)
+                indicator.text = "${(progress * 100).toInt()}%"
+                indicator.textSize = ButtonStyleHelper.SMALL_TEXT_SIZE
+                indicator.setTextColor(Color.WHITE)
+                indicator.gravity = Gravity.CENTER
+
+                // Create circular background
+                val circleBackground = GradientDrawable().apply {
+                    shape = GradientDrawable.OVAL
+                    setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_inverseSurface))
+                }
+                indicator.background = circleBackground
+
+                // Set padding
+                indicator.setPadding(12, 8, 12, 8)
+                indicator.alpha = 0.9f
+
+                // Set fixed size for the circular indicator
+                val size = 48
+                val indicatorParams = LinearLayout.LayoutParams(size, size)
+                indicator.layoutParams = indicatorParams
+
+                indicator
+            } else null
+
+            // Arrow icon on right
+            val arrowIcon = TextView(this@MainActivityWithBottomNav)
+            arrowIcon.text = "→"
+            arrowIcon.textSize = 22f
+            arrowIcon.setTextColor(Color.WHITE)
+            arrowIcon.alpha = 0.8f
+            arrowIcon.setPadding(8, 0, 0, 0)
+            arrowIcon.gravity = Gravity.CENTER
+
+            // Add views to containers
+            textContainer.addView(titleText)
+            textContainer.addView(descText)
+
+            // Add containers to main layout
+            addView(textContainer)
+            progressIndicator?.let { addView(it) }
+            addView(arrowIcon)
+        }
     }
 
     // Data classes
