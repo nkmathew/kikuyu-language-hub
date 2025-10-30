@@ -158,15 +158,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         
         // Removed checkButton - now using multiple choice options directly
         
-        val startButton = ButtonStyleHelper.createAccentButton(
-            context = this,
-            text = "🚀 START PRACTICE",
-            isDarkTheme = isDarkTheme
-        ) { view ->
-            animateButtonPress(view)
-            startPractice()
-        }
-        startButton.tag = "start_button" // Add tag for easier finding
+        // Start button removed - practice begins automatically
         
         backButton = ButtonStyleHelper.createSecondaryButton(
             context = this,
@@ -177,7 +169,6 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             finish()
         }
         
-        buttonContainer.addView(startButton)
         buttonContainer.addView(backButton)
         
         mainContainer.addView(headerContainer)
@@ -212,7 +203,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         }
         
         questionText = TextView(this).apply {
-            text = "Get ready to practice your problem words!\n\nChoose the correct translation from multiple choices.\n\nTap START to begin."
+            text = "🎯 Problem Words Practice\n\nLoading your challenging words..."
             textSize = 18f
             setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
             gravity = Gravity.CENTER
@@ -294,8 +285,12 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         
         if (problemWords.isEmpty()) {
             questionText.text = "🎉 Great job!\n\nNo problem words found. You're doing amazing!"
+            backButton.visibility = View.VISIBLE
+        } else {
+            // Start practice automatically
+            startPractice()
         }
-        
+
         updateProgressDisplay()
     }
     
@@ -311,12 +306,8 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         correctAnswers = 0
         totalAttempts = 0
 
-        // Hide start button, show practice UI
+        // Show practice UI
         optionsContainer.visibility = View.VISIBLE
-
-        // Hide the start button - we'll handle this differently by storing reference
-        val startButton = findStartButton()
-        startButton?.visibility = View.GONE
 
         currentWord = problemWords[currentWordIndex]
         showNextQuestion()
@@ -324,29 +315,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         soundManager.playButtonSound()
     }
 
-    private fun findStartButton(): View? {
-        // Use the tag to find the start button more efficiently
-        val rootView = window.decorView.findViewById<ViewGroup>(android.R.id.content)
-        return findViewByTagRecursive(rootView, "start_button")
-    }
-
-    private fun findViewByTagRecursive(parent: View, tag: String): View? {
-        if (parent.tag == tag) {
-            return parent
-        }
-
-        if (parent is ViewGroup) {
-            for (i in 0 until parent.childCount) {
-                val child = parent.getChildAt(i)
-                val view = findViewByTagRecursive(child, tag)
-                if (view != null) {
-                    return view
-                }
-            }
-        }
-
-        return null
-    }
+    // Start button finding methods removed - no longer needed
     
     private fun showNextQuestion() {
         if (currentWordIndex >= problemWords.size) {

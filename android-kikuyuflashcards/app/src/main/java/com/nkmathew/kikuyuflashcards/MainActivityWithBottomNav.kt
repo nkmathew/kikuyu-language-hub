@@ -1340,9 +1340,9 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 textSize = ButtonStyleHelper.SMALL_TEXT_SIZE
                 setTextColor(Color.WHITE)
                 alpha = 0.9f
-                maxLines = 3  // Increased from 2 to prevent cutoff
+                maxLines = 4  // Increased further to prevent cutoff
                 ellipsize = android.text.TextUtils.TruncateAt.END
-                setPadding(8, 2, 8, 2)  // Reduced padding to fit better
+                setPadding(8, 1, 8, 1)  // Minimized padding to fit better
             }
 
             // Progress indicator

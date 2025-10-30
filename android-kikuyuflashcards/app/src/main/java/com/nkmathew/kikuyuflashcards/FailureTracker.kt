@@ -223,18 +223,24 @@ class FailureTracker(private val context: Context) {
     fun getWordsNeedingAttention(limit: Int = 10): List<DifficultyWord> {
         val now = System.currentTimeMillis()
         val weekAgo = now - (7 * 24 * 60 * 60 * 1000) // 7 days ago
-        
+
         return difficultyWords.values
-            .filter { 
-                it.failureCount >= 3 && 
+            .filter {
+                // More aggressive filtering - remove words that are doing well
+                val isDoingWell = it.improvementStreak >= 3 ||
+                                  (it.masteryLevel == MasteryLevel.LEARNING && it.failureCount <= 5)
+
+                it.failureCount >= 3 &&
                 it.lastFailure > weekAgo &&
-                it.masteryLevel != MasteryLevel.MASTERED
+                it.masteryLevel != MasteryLevel.MASTERED &&
+                !isDoingWell
             }
-            .sortedWith(compareByDescending<DifficultyWord> { 
-                // Priority score: recent failures + high failure count
+            .sortedWith(compareByDescending<DifficultyWord> {
+                // Priority score: recent failures + high failure count - improvement streak
                 val recencyScore = if (it.lastFailure > weekAgo) 10 else 0
                 val frequencyScore = minOf(it.failureCount, 10)
-                recencyScore + frequencyScore
+                val improvementPenalty = minOf(it.improvementStreak, 5) // Subtract improvement bonus
+                recencyScore + frequencyScore - improvementPenalty
             }.thenBy { it.masteryLevel })
             .take(limit)
     }
@@ -366,12 +372,14 @@ class FailureTracker(private val context: Context) {
     private fun calculateMasteryLevel(difficultyWord: DifficultyWord): MasteryLevel {
         val now = System.currentTimeMillis()
         val daysSinceLastFailure = (now - difficultyWord.lastFailure) / (24 * 60 * 60 * 1000)
-        
+        val hoursSinceLastFailure = (now - difficultyWord.lastFailure) / (60 * 60 * 1000)
+
         return when {
-            difficultyWord.improvementStreak >= 5 && daysSinceLastFailure >= 7 -> MasteryLevel.MASTERED
-            difficultyWord.improvementStreak >= 3 && daysSinceLastFailure >= 3 -> MasteryLevel.LEARNING
-            difficultyWord.failureCount <= 3 && daysSinceLastFailure >= 1 -> MasteryLevel.LEARNING
-            difficultyWord.failureCount >= 10 || daysSinceLastFailure < 1 -> MasteryLevel.STRUGGLING
+            // More responsive to recent improvements
+            difficultyWord.improvementStreak >= 5 -> MasteryLevel.MASTERED
+            difficultyWord.improvementStreak >= 3 && (daysSinceLastFailure >= 1 || hoursSinceLastFailure >= 12) -> MasteryLevel.LEARNING
+            difficultyWord.failureCount <= 3 && difficultyWord.improvementStreak >= 1 -> MasteryLevel.LEARNING
+            difficultyWord.failureCount >= 10 || hoursSinceLastFailure < 1 -> MasteryLevel.STRUGGLING
             else -> MasteryLevel.CHALLENGING
         }
     }
