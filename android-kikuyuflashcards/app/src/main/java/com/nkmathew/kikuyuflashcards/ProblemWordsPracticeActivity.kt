@@ -249,7 +249,20 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             .filter { it.kikuyuText != correctAnswer }
             .map { it.kikuyuText }
             .shuffled()
-            .take(3) // Take 3 distractors
+            .take(3) // Take 3 distractors from problem words
+            .toMutableList()
+
+        // If we don't have enough distractors from problem words, get additional words from FlashCardManager
+        if (distractors.size < 3) {
+            val additionalDistractorsList = flashCardManager.getAllEntries()
+                .map { it.kikuyu }
+                .filter { it != correctAnswer }
+                .filter { !options.contains(it) } // Exclude already added options
+                .shuffled()
+                .take(3 - distractors.size) // Take remaining needed distractors
+
+            distractors.addAll(additionalDistractorsList)
+        }
 
         options.addAll(distractors)
         return options.shuffled() // Shuffle all options

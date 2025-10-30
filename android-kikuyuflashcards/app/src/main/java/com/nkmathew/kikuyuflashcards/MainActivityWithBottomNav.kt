@@ -1288,14 +1288,10 @@ class MainActivityWithBottomNav : ComponentActivity() {
             orientation = LinearLayout.HORIZONTAL
             setPadding(16, 12, 16, 12)
 
-            // Set full width
+            // Set full width and dynamic height
             val layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
-                TypedValue.applyDimension(
-                    TypedValue.COMPLEX_UNIT_DIP,
-                    ButtonStyleHelper.STANDARD_HEIGHT.toFloat(),
-                    resources.displayMetrics
-                ).toInt()
+                LinearLayout.LayoutParams.WRAP_CONTENT
             )
             layoutParams.setMargins(0, 0, 0, 8)  // Add bottom margin between buttons
             this.layoutParams = layoutParams
@@ -1342,7 +1338,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 alpha = 0.9f
                 maxLines = 4  // Increased further to prevent cutoff
                 ellipsize = android.text.TextUtils.TruncateAt.END
-                setPadding(8, 1, 8, 1)  // Minimized padding to fit better
+                setPadding(8, 2, 8, 2)  // Slightly increased padding for better readability
             }
 
             // Progress indicator
