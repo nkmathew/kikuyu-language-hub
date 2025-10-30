@@ -54,54 +54,56 @@ kikuyu-flash-cards/
 ├── app/
 │   ├── src/main/
 │   │   ├── java/com/nkmathew/kikuyuflashcards/
-│   │   │   ├── ui/
-│   │   │   │   ├── theme/          # Material 3 theme files
-│   │   │   │   ├── components/     # Reusable Compose components
-│   │   │   │   ├── screens/        # Screen composables
-│   │   │   │   └── viewmodel/      # ViewModels for state management
 │   │   │   ├── *.kt               # Core Kotlin classes
-│   │   │   └── MainActivity.kt    # Compose Activity
-│   │   ├── res/                   # Legacy resources (still used for icons)
-│   │   ├── assets/                # Data files (kikuyu-phrases.json)
+│   │   │   └── MainActivityWithBottomNav.kt    # Main Activity with bottom navigation
+│   │   ├── res/                   # Resources (layouts, colors, etc.)
+│   │   ├── assets/                # Data files (curated JSON content)
 │   │   └── AndroidManifest.xml    # App configuration
-│   ├── build.gradle               # App-level build (updated for Compose)
+│   ├── build.gradle               # App-level build configuration
 │   └── debug.keystore            # Debug signing key
 ├── gradle/
-│   └── libs.versions.toml        # Version catalog (updated for Kotlin)
+│   └── wrapper/                   # Gradle wrapper files
 ├── text-notes/                   # Documentation and notes
 ├── build.gradle                  # Project-level build configuration
 ├── settings.gradle               # Project settings
 └── gradle.properties             # Gradle configuration
 ```
 
-### Core Components (Advanced Learning System)
-#### Learning Activity Classes
-- **MainActivity.kt** - Central learning hub with navigation to all modes
-- **FlashCardActivity.kt** - Enhanced flashcards with type-in recall and flip animations
-- **FillInTheBlankActivity.kt** - Contextual learning with multiple difficulty levels
-- **ClozeTestActivity.kt** - Advanced comprehension tests with word bank matching
-- **MultipleResponseGameActivity.kt** - Gamified learning with 5 game modes and streak tracking
-- **ProblemWordsActivity.kt** - Analytics dashboard showing words needing attention
-- **ProblemWordsPracticeActivity.kt** - Focused practice sessions for struggling vocabulary
+### Core Components (Current Architecture)
+#### Main Activity & Navigation
+- **MainActivityWithBottomNav.kt** - Main activity with bottom navigation and consolidated UI
+  - Vertical Quick Actions list (no horizontal scrolling)
+  - Streamlined "Your Progress" card (category totals removed)
+  - Learning mode cards with bottom progress bars and 50% markers
+  - Bottom navigation with 5 tabs: Home, Learn, Flagged, Stats, Settings
 
-#### Analytics & Intelligence Engine
-- **FailureTracker.kt** - Comprehensive learning analytics with 10 failure types and 9 learning modes
-- **FlashCardManager.kt** - Enhanced data management with position memory and session tracking
-- **ProgressManager.kt** - Session management and progress persistence
+#### Learning Activities
+- **FlashCardStyleActivity.kt** - Flip-style flashcard learning
+- **StudyListActivity.kt** - Side-by-side learning mode
+- **QuizActivity.kt** - Multiple choice quiz with progress tracking
+- **FillInTheBlankActivity.kt** - Complete the sentences exercise
+- **SentenceUnscrambleActivity.kt** - Drag words to correct order
+- **VowelHuntActivity.kt** - Find correct vowels in words
+- **FlaggedTranslationsActivity.kt** - Review flagged translations
+
+#### Data Management & Analytics
+- **FlashCardManagerV2.kt** - Data management and phrase loading
+- **ProgressManager.kt** - Progress tracking and statistics
+- **ActivityProgressTracker.kt** - Per-activity progress monitoring
+- **QuizStateManager.kt** - Quiz session state management
 - **SoundManager.kt** - Audio feedback system
 
-#### Data Models & Utilities
-- **Phrase.kt** - Enhanced data class for English-Kikuyu phrase pairs with categorization
-- **SwipeGestureDetector.kt** - Advanced gesture handling for swipe navigation
-- **AnimationHelpers.kt** - Smooth transition and interaction animations
+#### Data Models
+- **Phrase.kt** - English-Kikuyu phrase data structure
+- **Categories.kt** - Content categorization
 
 #### Persistent Storage
-- **kikuyu-phrases.json** - Comprehensive phrase database with metadata
-- **SharedPreferences + Gson** - Analytics storage for failure tracking and mastery levels
+- **JSON Content Files** - 196 curated files in `assets/curated-content/`
+- **SharedPreferences** - Settings and progress storage
 
 ## Development Commands
 
-### Build Commands (Updated for Kotlin/Compose)
+### Build Commands (Updated for Kotlin)
 ```bash
 # Clean and build debug APK
 ./gradlew clean assembleDebug
@@ -115,7 +117,7 @@ kikuyu-flash-cards/
 # Build and install on connected device
 ./gradlew installDebug
 
-# Build with verbose logging (for troubleshooting Compose issues)
+# Build with verbose logging (for troubleshooting build issues)
 ./gradlew assembleDebug --info
 ```
 
@@ -136,8 +138,11 @@ kikuyu-flash-cards/
 # Enable debug logging and install
 ./gradlew installDebug
 
-# View logs
-adb logcat -s MainActivity FlashCardManager
+# View logs for main activity and progress tracking
+adb logcat -s MainActivityWithBottomNav ProgressManager ActivityProgressTracker
+
+# View logs for learning activities
+adb logcat -s FlashCardStyleActivity StudyListActivity QuizActivity
 ```
 
 ### Lint and Code Quality
@@ -151,11 +156,12 @@ adb logcat -s MainActivity FlashCardManager
 
 ## Coding Standards & Conventions
 
-### Java Coding Style
-- **Class Names**: PascalCase (e.g., `MainActivity`, `FlashCardManager`)
+### Kotlin Coding Style
+- **Class Names**: PascalCase (e.g., `MainActivityWithBottomNav`, `FlashCardManagerV2`)
 - **Method Names**: camelCase (e.g., `getCurrentPhrase`, `navigateToNextPhrase`)
 - **Variable Names**: camelCase (e.g., `currentIndex`, `flashCardManager`)
 - **Constants**: UPPER_SNAKE_CASE (e.g., `TAG`, `PREFS_NAME`)
+- **Extension Functions**: camelCase with descriptive names (e.g., `loadPhraseData()`, `calculateProgress()`)
 
 ### Import Conventions
 - Android framework imports first
@@ -170,10 +176,13 @@ adb logcat -s MainActivity FlashCardManager
 - Use null checks before accessing objects
 
 ### Logging Pattern
-```java
-private static final String TAG = "ClassName";
-Log.d(TAG, "Method: Description of action");
-Log.e(TAG, "Method: Error description", exception);
+```kotlin
+companion object {
+    private const val TAG = "ClassName"
+}
+
+Log.d(TAG, "Method: Description of action")
+Log.e(TAG, "Method: Error description", exception)
 ```
 
 ### Activity Lifecycle Management
@@ -199,23 +208,23 @@ Log.e(TAG, "Method: Error description", exception);
 - **Minimum SDK**: 24 (Android 7.0)
 - **Target SDK**: 35 (Android 15)
 - **Compile SDK**: 35
-- **Java Version**: 11
+- **Language**: Kotlin
+- **UI Framework**: Android Views with Material Design components
 
 ### Key Dependencies
 ```gradle
-// UI Components
-implementation libs.appcompat           // AndroidX AppCompat
-implementation libs.material            // Material Design Components
-implementation 'androidx.recyclerview:recyclerview:1.2.1'
-implementation 'androidx.cardview:cardview:1.0.0'
+// Core Android Components
+implementation 'androidx.appcompat:appcompat:1.6.1'
+implementation 'com.google.android.material:material:1.10.0'
+implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 
-// Analytics & Data Persistence
-implementation 'com.google.code.gson:gson:2.10.1'  // JSON serialization for failure tracking
+// Data Storage & JSON
+implementation 'com.google.code.gson:gson:2.10.1'
 
 // Testing
-testImplementation libs.junit
-androidTestImplementation libs.ext.junit
-androidTestImplementation libs.espresso.core
+testImplementation 'junit:junit:4.13.2'
+androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 ```
 
 ### Environment Files
@@ -225,47 +234,47 @@ androidTestImplementation libs.espresso.core
 
 ## Common Tasks & Patterns
 
-### Adding New Phrases
-1. Edit `app/src/main/assets/kikuyu-phrases.json`
-2. Add new phrase object with "english" and "kikuyu" keys
+### Adding New Content
+1. Edit or add JSON files in `app/src/main/assets/curated-content/`
+2. Follow existing naming convention: `{category}_kikuyu_batch_{number}_{category}.json`
 3. Rebuild and test the app
-4. **Note**: New phrases automatically integrate with failure tracking system
+4. Content is automatically available in learning modes
 
 ### Adding New Learning Modes
 1. Create new Activity in `com.nkmathew.kikuyuflashcards` package
-2. Integrate FailureTracker for analytics (see existing activities as examples)
-3. Add navigation button in MainActivity
-4. Define appropriate failure types and learning mode enum values
-5. Test with failure tracking to ensure proper analytics capture
+2. Integrate ProgressManager for tracking (see existing activities as examples)
+3. Add navigation entry in MainActivityWithBottomNav learning modes list
+4. Add activity to ActivityProgressTracker for progress monitoring
+5. Test with progress tracking to ensure proper analytics capture
 
-### Failure Tracking Integration
-- **All learning activities** automatically record successes and failures
-- **10 failure types** tracked: Translation, Recognition, Recall, Spelling, Timeout, Multiple Choice, etc.
-- **Response time tracking** with millisecond precision
-- **Mastery level assessment** based on performance patterns
-- **Cross-mode analytics** for comprehensive learning insights
+### Progress Tracking Integration
+- **All learning activities** automatically record progress and statistics
+- **Per-activity progress** tracked with completion percentages
+- **Session management** with start/end time tracking
+- **Progress persistence** across app sessions
+- **Bottom navigation** provides access to detailed stats
 
 ### Data Management
-- Phrases loaded from JSON asset file on app startup
-- **Failure analytics** persisted using Gson + SharedPreferences
-- **Position memory** maintained across sessions
-- **Learning progress** tracked per phrase and learning mode
-- Current position automatically saved on pause/destroy
+- Content loaded from curated JSON files on app startup
+- **Progress data** persisted using SharedPreferences
+- **Activity state** maintained across sessions
+- **Real-time progress** tracking during learning sessions
+- Position and progress automatically saved on pause/destroy
 
-### Analytics Access
-- **ProblemWordsActivity**: View words needing attention with filtering and sorting
-- **ProblemWordsPracticeActivity**: Targeted practice for struggling vocabulary
-- **Automatic failure categorization** based on user response patterns
-- **Smart difficulty assessment** with adaptive thresholds
+### Statistics Access
+- **Stats Tab**: View comprehensive learning analytics
+- **Home Screen**: Quick progress overview with key metrics
+- **Learning Mode Cards**: Show individual activity progress with visual indicators
+- **Bottom Progress Bars**: Visual progress representation with 50% markers
 
 ## File Access Guidelines
 
 ### Safe to Modify
-- **Source Files**: All files in `app/src/main/java/` (including new FailureTracker and Problem Words activities)
-- **Resources**: All files in `app/src/main/res/`
-- **Data File**: `app/src/main/assets/kikuyu-phrases.json`
-- **Build Configuration**: `app/build.gradle` (updated with Gson dependency)
-- **Analytics Storage**: Automatic via FailureTracker (uses SharedPreferences internally)
+- **Source Files**: All files in `app/src/main/java/com/nkmathew/kikuyuflashcards/`
+- **Resources**: All files in `app/src/main/res/` (layouts, colors, strings)
+- **Content Files**: All files in `app/src/main/assets/curated-content/`
+- **Build Configuration**: `app/build.gradle`
+- **Progress Storage**: Automatic via ProgressManager (uses SharedPreferences internally)
 
 ### Handle with Care
 - **Manifest**: `AndroidManifest.xml` (may affect app permissions)
@@ -315,16 +324,17 @@ adb logcat -s MainActivity FlashCardManager
 ```
 
 ### Key File Locations
-- **Main Activity**: `app/src/main/java/com/nkmathew/kikuyuflashcards/MainActivity.java`
-- **Data File**: `app/src/main/assets/kikuyu-phrases.json`
-- **Main Layout**: `app/src/main/res/layout/activity_main.xml`
+- **Main Activity**: `app/src/main/java/com/nkmathew/kikuyuflashcards/MainActivityWithBottomNav.kt`
+- **Content Files**: `app/src/main/assets/curated-content/` (196 JSON files)
+- **Resources**: `app/src/main/res/` (layouts, colors, strings, etc.)
 - **App Configuration**: `app/src/main/AndroidManifest.xml`
+- **Progress Managers**: `app/src/main/java/com/nkmathew/kikuyuflashcards/ProgressManager.kt`, `ActivityProgressTracker.kt`
 
 ### Useful Debugging Commands
 ```bash
 # Install and start app
 adb install app/build/outputs/apk/debug/app-debug.apk
-adb shell am start -n com.nkmathew.kikuyuflashcards/.MainActivity
+adb shell am start -n com.nkmathew.kikuyuflashcards/.MainActivityWithBottomNav
 
 # Clear app data
 adb shell pm clear com.nkmathew.kikuyuflashcards
@@ -334,128 +344,61 @@ adb shell dumpsys activity activities
 ```
 
 ### Development Notes
-- **Current Phrase Count**: Loaded from JSON asset file (check actual count in kikuyu-phrases.json)
-- **Advanced Learning Features**: 5 learning modes with comprehensive analytics and problem word tracking
-- **Failure Analytics**: Automatic tracking of 10 failure types across 9 learning modes with response time analysis
-- **Adaptive Practice**: Smart identification of problem words with targeted practice sessions
-- **Navigation**: Enhanced with "🎯 Practice Problem Words" button for accessing analytics dashboard
-- **State Persistence**: Position, learning progress, and failure analytics saved automatically
-- **Gesture Support**: Enhanced swipe gestures with haptic feedback and animations
-- **Cross-Mode Intelligence**: Learning patterns tracked across all activities for comprehensive insights
+- **Current Content**: 196 curated JSON files with vocabulary, grammar, conjugations, and phrases
+- **Learning Features**: 7 learning modes with comprehensive progress tracking
+- **UI Architecture**: Bottom navigation with 5 tabs (Home, Learn, Flagged, Stats, Settings)
+- **Progress System**: Real-time progress tracking with visual indicators and bottom progress bars
+- **Content Structure**: Categorized content with batch files for organized learning
+- **State Persistence**: All progress and settings automatically saved
+- **Audio System**: SoundManager for button click feedback
+- **Theme Support**: Dark theme with consistent Material Design styling
+- **Performance**: Efficient content loading with optimized memory usage
 
-## 🧠 Intelligent Failure Tracking System
+## 🎯 Current UI Features & Implementation
 
-### Overview
-The app features a sophisticated analytics engine that automatically tracks learning patterns and identifies problem words across all learning modes. This system provides adaptive, personalized learning experiences.
+### Recent UI Improvements (Latest Update)
+The app has been enhanced with significant UI improvements based on user feedback:
 
-### Failure Tracking Features
+#### ✅ Vertical Quick Actions
+- **Before**: Horizontal scrolling list requiring user interaction
+- **After**: Vertical list layout displaying all actions immediately
+- **Implementation**: `LinearLayout.VERTICAL` orientation in `MainActivityWithBottomNav.kt:496-503`
+- **Benefit**: Improved accessibility and reduced user friction
 
-#### 📊 Comprehensive Analytics
-- **10 Failure Types**: Translation Error, Recognition Error, Recall Error, Spelling Error, Timeout Error, Multiple Choice Error, Fill Blank Error, Cloze Error, Word Association Error, Speed Match Error
-- **9 Learning Modes**: Flashcard, Type-in Recall, Fill Blank, Cloze Test, Speed Match, Multiple Answers, Word Association, Beat Clock, Streak Master
-- **4 Mastery Levels**: Struggling, Challenging, Learning, Mastered
-- **Response Time Tracking**: Millisecond-precision timing for performance analysis
+#### ✅ Streamlined Progress Card
+- **Before**: Category totals section taking significant vertical space
+- **After**: Focused key metrics (words learned, quiz answers, accuracy, current streak)
+- **Implementation**: Simplified `createStatsCard()` method in `MainActivityWithBottomNav.kt:455-460`
+- **Benefit**: Better use of screen real estate with essential information only
 
-#### 🎯 Problem Word Identification
-- **Smart Filtering**: Automatically identifies words needing attention based on failure frequency and recency
-- **Adaptive Thresholds**: Dynamic difficulty assessment based on user performance patterns
-- **Cross-Mode Analysis**: Tracks performance across different learning activities for comprehensive insights
-- **Session-Based Tracking**: Maintains learning context within practice sessions
+#### ✅ Enhanced Learning Mode Cards
+- **Before**: Bright gradient backgrounds with poor text readability
+- **After**: Solid backgrounds with high contrast text and bottom progress indicators
+- **Implementation**: Replaced gradient backgrounds with solid colors in `createLearningModeCard()` method
+- **Benefit**: Improved readability and professional appearance
 
-#### 📈 Analytics Dashboard (ProblemWordsActivity)
-- **Filter Options**: All Words, Struggling, Challenging, Learning, Mastered
-- **Sort Options**: Failure Count, Last Failed, Learning Mode, Mastery Level
-- **Detailed Statistics**: Total failures, recent performance, improvement trends
-- **Action Buttons**: Practice specific words, view detailed analytics, mark as mastered
+#### ✅ Bottom Progress Bars with 50% Markers
+- **Before**: No visual progress indicators in learning mode cards
+- **After**: Horizontal progress bars at bottom of each card with white 50% marker line
+- **Implementation**: Complex layout system in `MainActivityWithBottomNav.kt:772-860`
+- **Benefit**: Clear visual representation of learning progress with halfway milestone
 
-#### 🎯 Targeted Practice (ProblemWordsPracticeActivity)
-- **Focused Sessions**: Practice only the most challenging vocabulary
-- **Immediate Feedback**: Real-time success/failure tracking with visual indicators
-- **Progress Tracking**: Session score and completion percentage
-- **Adaptive Difficulty**: Automatically adjusts based on performance
+### UI Architecture Overview
+- **Navigation**: 5-tab bottom navigation (Home, Learn, Flagged, Stats, Settings)
+- **Layout System**: Android Views with Material Design components
+- **Theme**: Dark theme with consistent color scheme and typography
+- **Progress Visualization**: Bottom progress bars with percentage indicators and milestone markers
+- **Responsive Design**: Adaptive layouts for different screen sizes and orientations
 
-### Implementation Details
+### Key UI Components
+- **MainActivityWithBottomNav**: Main container with bottom navigation and consolidated home screen
+- **Learning Mode Cards**: Interactive cards with progress indicators and navigation to activities
+- **Quick Actions Section**: Vertical list of resumable activities with progress indicators
+- **Stats Cards**: Simplified progress overview with key learning metrics
+- **Bottom Navigation**: Consistent navigation across all app sections
 
-#### Core Classes
-```kotlin
-// Analytics Engine
-FailureTracker.kt                    // Core tracking logic and data structures
-├── recordFailure()                  // Log failure with detailed context
-├── recordSuccess()                  // Track successful responses
-├── getProblemWords()               // Smart filtering of difficult words
-├── getWordsNeedingAttention()      // Priority-based word selection
-└── getStatistics()                 // Comprehensive analytics data
-
-// User Interface
-ProblemWordsActivity.kt             // Analytics dashboard and word management
-├── displayProblemWords()           // Render word cards with statistics
-├── filterAndSort()                 // Dynamic filtering and sorting
-└── launchPracticeSession()         // Start targeted practice
-
-ProblemWordsPracticeActivity.kt     // Focused practice sessions
-├── loadProblemWords()              // Load challenging vocabulary
-├── checkAnswer()                   // Validate responses with failure tracking
-└── updateProgress()                // Real-time session tracking
-```
-
-#### Data Structures
-```kotlin
-data class FailureRecord(
-    val phraseId: String,           // Unique phrase identifier
-    val englishText: String,        // English phrase
-    val kikuyuText: String,         // Kikuyu translation
-    val category: String,           // Learning category
-    val failureType: FailureType,   // Specific error classification
-    val learningMode: LearningMode, // Activity context
-    val timestamp: Long,            // When failure occurred
-    val userAnswer: String,         // User's incorrect response
-    val correctAnswer: String,      // Expected correct answer
-    val difficulty: String,         // Assessed difficulty level
-    val responseTime: Long          // Time taken to respond
-)
-
-data class DifficultyWord(
-    val phrase: Phrase,             // Core phrase data
-    val failureCount: Int,          // Total failures
-    val lastFailureTime: Long,      // Most recent failure
-    val learningMode: String,       // Primary learning context
-    val masteryLevel: String        // Current mastery assessment
-)
-```
-
-#### Integration Across Learning Modes
-- **FlashCardActivity**: Type-in recall and self-assessment tracking
-- **FillInTheBlankActivity**: Contextual comprehension and spelling analysis
-- **ClozeTestActivity**: Multi-blank comprehension and word bank performance
-- **MultipleResponseGameActivity**: Game mode performance across 5 different game types
-
-### Usage Patterns
-
-#### For Learners
-1. **Use any learning mode** - failures are automatically tracked
-2. **Access analytics** via "🎯 Practice Problem Words" button on main screen
-3. **Review problem words** with detailed failure statistics and filtering options
-4. **Practice targeted sessions** focusing only on challenging vocabulary
-5. **Track improvement** through mastery level progression and reduced failure rates
-
-#### For Developers
-1. **Integrate FailureTracker** in new learning activities (see existing implementations)
-2. **Record failures** with appropriate failure type and learning mode context
-3. **Track response times** for performance analysis
-4. **Update UI** based on analytics data for personalized learning experiences
-
-### Data Persistence
-- **Gson Serialization**: Efficient JSON storage of analytics data
-- **SharedPreferences**: Reliable persistence across app sessions
-- **Automatic Cleanup**: Old failure records automatically pruned to maintain performance
-- **Privacy-First**: All analytics data stored locally on device
-
-### Dependencies for Future Enhancement
-The `text-notes/chatgpt-notes.md` file contains comprehensive suggestions for additional Android libraries that could enhance the app, including:
-- **Room Database** for better data management
-- **ViewModel + LiveData** for reactive UI
-- **ViewPager2** for improved card swiping
-- **Lottie** for animations
-- **DataStore** for modern preferences storage
-
-Refer to `text-notes/future-considerations.md` for a phased implementation roadmap.
+### Design Principles
+- **Material Design 3**: Modern design system with consistent components and interactions
+- **Accessibility**: High contrast text, clear visual hierarchy, and intuitive navigation
+- **Performance**: Efficient view rendering and smooth animations
+- **User Experience**: Minimal friction for accessing learning content and tracking progress

@@ -424,14 +424,14 @@ class MainActivityWithBottomNav : ComponentActivity() {
         val cardLayout = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
             setPadding(20, 16, 20, 16)
-            
+
             val background = GradientDrawable().apply {
                 shape = GradientDrawable.RECTANGLE
                 cornerRadius = 16f
                 setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else Color.parseColor("#F5F5F5"))
             }
             setBackground(background)
-            
+
             val layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
@@ -439,7 +439,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             layoutParams.setMargins(0, 0, 0, 16)
             this.layoutParams = layoutParams
         }
-        
+
         val titleText = TextView(this).apply {
             text = "📊 Your Progress"
             textSize = 18f
@@ -447,21 +447,21 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setTypeface(null, android.graphics.Typeface.BOLD)
             setPadding(0, 0, 0, 12)
         }
-        
-        // Get category totals from FlashCardManager
-        val flashCardManager = FlashCardManagerV2(this)
-        val categoryTotals = getCategoryTotals(flashCardManager)
-        
+
+        // Get progress manager for stats
+        val progressManager = ProgressManager(this)
+        val stats = progressManager.getProgressStats()
+
         val statsText = TextView(this).apply {
-            text = "• Words learned: 127\n• Accuracy: 78%\n• Current streak: 5 days\n\n📚 Category Totals:\n$categoryTotals"
+            text = "• Words learned: ${stats.totalCardsViewed}\n• Quiz answers: ${stats.quizTotalAnswered}\n• Accuracy: ${String.format("%.1f", stats.quizAccuracy)}%\n• Current streak: ${stats.currentStreak} days"
             textSize = 14f
             setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else Color.parseColor("#666666"))
             setLineSpacing(4f, 1.3f)
         }
-        
+
         cardLayout.addView(titleText)
         cardLayout.addView(statsText)
-        
+
         return cardLayout
     }
     
@@ -492,22 +492,12 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setPadding(0, 0, 0, 12)
         }
 
-        // Create horizontal scroll view for activity buttons
-        val scrollView = HorizontalScrollView(this).apply {
-            layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            )
-            isHorizontalScrollBarEnabled = false
-            overScrollMode = android.view.View.OVER_SCROLL_NEVER
-        }
-
-        // Container for activity buttons
+        // Container for activity buttons in a vertical layout
         val activityButtonsContainer = LinearLayout(this).apply {
-            orientation = LinearLayout.HORIZONTAL
+            orientation = LinearLayout.VERTICAL
             setPadding(0, 8, 0, 8)
             layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
         }
@@ -552,12 +542,9 @@ class MainActivityWithBottomNav : ComponentActivity() {
             activityButtonsContainer.addView(button)
         }
 
-        // Add the activity buttons container to the scroll view
-        scrollView.addView(activityButtonsContainer)
-
-        // Add title and scrolling activity buttons
+        // Add title and activity buttons container directly to the card layout
         cardLayout.addView(titleText)
-        cardLayout.addView(scrollView)
+        cardLayout.addView(activityButtonsContainer)
 
         return cardLayout
     }
@@ -574,15 +561,15 @@ class MainActivityWithBottomNav : ComponentActivity() {
         onClick: () -> Unit
     ): LinearLayout {
         return LinearLayout(this).apply {
-            orientation = LinearLayout.VERTICAL
-            setPadding(12, 8, 12, 8)
+            orientation = LinearLayout.HORIZONTAL
+            setPadding(16, 12, 16, 12)
 
-            // Set size
+            // Set full width
             val layoutParams = LinearLayout.LayoutParams(
-                240, // Fixed width for consistent buttons
+                LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT
             )
-            layoutParams.marginEnd = 12
+            layoutParams.setMargins(0, 0, 0, 12)  // Add bottom margin between buttons
             this.layoutParams = layoutParams
 
             // Create background with progress gradient
@@ -618,14 +605,20 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 onClick()
             }
 
+            // Create text container for title and description
+            // Create text container with proper layout params
+            val textContainer = LinearLayout(this@MainActivityWithBottomNav)
+            textContainer.orientation = LinearLayout.VERTICAL
+            textContainer.gravity = Gravity.CENTER_VERTICAL
+            textContainer.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+
             // Title
             val titleText = TextView(this@MainActivityWithBottomNav).apply {
                 text = title
                 textSize = 16f
                 setTextColor(Color.WHITE)
-                gravity = Gravity.CENTER
                 setTypeface(null, android.graphics.Typeface.BOLD)
-                setPadding(8, 8, 8, 4)
+                setPadding(8, 4, 8, 4)
             }
 
             // Description
@@ -634,46 +627,59 @@ class MainActivityWithBottomNav : ComponentActivity() {
                 textSize = 12f
                 setTextColor(Color.WHITE)
                 alpha = 0.9f
-                gravity = Gravity.CENTER
                 maxLines = 2
                 ellipsize = android.text.TextUtils.TruncateAt.END
-                setPadding(8, 0, 8, 8)
+                setPadding(8, 0, 8, 0)
             }
 
             // Progress indicator
             val progressIndicator = if (progress > 0) {
-                TextView(this@MainActivityWithBottomNav).apply {
-                    text = "${(progress * 100).toInt()}%"
-                    textSize = 12f
-                    setTextColor(Color.WHITE)
-                    gravity = Gravity.CENTER
-                    background = GradientDrawable().apply {
-                        shape = GradientDrawable.OVAL
-                        setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_inverseSurface))
-                    }
-                    setPadding(8, 2, 8, 2)
-                    alpha = 0.9f
+                val indicator = TextView(this@MainActivityWithBottomNav)
+                indicator.text = "${(progress * 100).toInt()}%"
+                indicator.textSize = 14f
+                indicator.setTextColor(Color.WHITE)
+                indicator.gravity = Gravity.CENTER
+
+                // Create circular background
+                val circleBackground = GradientDrawable().apply {
+                    shape = GradientDrawable.OVAL
+                    setColor(ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_inverseSurface))
                 }
+                indicator.background = circleBackground
+
+                // Set padding
+                indicator.setPadding(12, 8, 12, 8)
+                indicator.alpha = 0.9f
+
+                // Set fixed width and height for the circular indicator
+                val size = 48
+                val indicatorParams = LinearLayout.LayoutParams(size, size)
+                indicator.layoutParams = indicatorParams
+
+                indicator
             } else null
 
-            addView(titleText)
-            addView(descText)
+            // Arrow icon on right
+            val arrowIcon = TextView(this@MainActivityWithBottomNav)
+            arrowIcon.text = "→"
+            arrowIcon.textSize = 22f
+            arrowIcon.setTextColor(Color.WHITE)
+            arrowIcon.alpha = 0.8f
+            arrowIcon.setPadding(8, 0, 0, 0)
+            arrowIcon.gravity = Gravity.CENTER
+
+            // Add views to containers
+            textContainer.addView(titleText)
+            textContainer.addView(descText)
+
+            // Add containers to main layout
+            addView(textContainer)
             progressIndicator?.let { addView(it) }
+            addView(arrowIcon)
         }
     }
     
-    /**
-     * Get category totals for display in stats
-     */
-    private fun getCategoryTotals(flashCardManager: FlashCardManagerV2): String {
-        val categories = flashCardManager.getAvailableCategories()
-        val totals = categories.map { category ->
-            val count = flashCardManager.getTotalEntriesInCategory(category)
-            val displayName = Categories.getCategoryDisplayName(category)
-            "• $displayName: $count"
-        }
-        return totals.joinToString("\n")
-    }
+    // Method removed as category totals section has been removed from UI
     
     private fun createLearningModeCard(mode: LearningMode, isDarkTheme: Boolean): LinearLayout {
         // Get progress for this activity
@@ -684,35 +690,14 @@ class MainActivityWithBottomNav : ComponentActivity() {
             setPadding(20, 16, 20, 16)
             gravity = Gravity.CENTER_VERTICAL
 
-            // Create gradient background based on progress
-            val gradientDrawable = if (progress > 0) {
-                // Calculate colors for progress-based gradient
-                // We use a linear gradient from right to left (reverse of normal) so the filled part is on the left
-                val gradientStart = ContextCompat.getColor(this@MainActivityWithBottomNav,
-                    if (isDarkTheme) R.color.md_theme_dark_primary else R.color.md_theme_light_primary)
-
-                // The end color is transparent primary color (or surface color)
-                val gradientEnd = ContextCompat.getColor(this@MainActivityWithBottomNav,
-                    if (isDarkTheme) R.color.md_theme_dark_surfaceContainerHigh else R.color.md_theme_light_surfaceContainerHigh)
-
-                // Create the gradient drawable
-                GradientDrawable(GradientDrawable.Orientation.RIGHT_LEFT, intArrayOf(gradientEnd, gradientStart)).apply {
-                    shape = GradientDrawable.RECTANGLE
-                    cornerRadius = 16f
-                    gradientType = GradientDrawable.LINEAR_GRADIENT
-                    // Set the gradient center point based on progress (1.0 - progress because we're using RIGHT_LEFT orientation)
-                    setGradientCenter(1.0f - progress, 0.5f)
-                }
-            } else {
-                // No progress, use solid background
-                GradientDrawable().apply {
-                    shape = GradientDrawable.RECTANGLE
-                    cornerRadius = 16f
-                    setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else Color.parseColor("#F5F5F5"))
-                }
+            // Use a standard solid background instead of a gradient
+            val backgroundDrawable = GradientDrawable().apply {
+                shape = GradientDrawable.RECTANGLE
+                cornerRadius = 16f
+                setColor(if (isDarkTheme) Color.parseColor("#1E1E1E") else Color.parseColor("#F5F5F5"))
             }
 
-            background = gradientDrawable
+            background = backgroundDrawable
 
             val layoutParams = LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
@@ -736,55 +721,174 @@ class MainActivityWithBottomNav : ComponentActivity() {
             }
         }
 
-        val textContainer = LinearLayout(this).apply {
-            orientation = LinearLayout.VERTICAL
-            layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
-        }
+        val textContainer = LinearLayout(this)
+        textContainer.orientation = LinearLayout.VERTICAL
+        val textContainerParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+        textContainer.layoutParams = textContainerParams
 
-        val titleText = TextView(this).apply {
-            text = mode.title
-            textSize = 16f
-            setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
-            setTypeface(null, android.graphics.Typeface.BOLD)
-        }
+        val titleText = TextView(this)
+        titleText.text = mode.title
+        titleText.textSize = 16f
+        // Use primary color for title to make it stand out
+        titleText.setTextColor(ContextCompat.getColor(this@MainActivityWithBottomNav,
+            if (isDarkTheme) R.color.md_theme_dark_primary else R.color.md_theme_light_primary))
+        titleText.setTypeface(null, android.graphics.Typeface.BOLD)
+        // No need for text shadow as we're using standard background
 
-        val descText = TextView(this).apply {
-            val description = if (progress > 0) {
-                // For quiz mode, check if there's an active quiz
-                if (mode.id == "quiz") {
-                    val quizStateManager = QuizStateManager(this@MainActivityWithBottomNav)
-                    val quizState = quizStateManager.loadQuizState()
+        // Prepare description text
+        val description = if (progress > 0) {
+            // For quiz mode, check if there's an active quiz
+            if (mode.id == "quiz") {
+                val quizStateManager = QuizStateManager(this@MainActivityWithBottomNav)
+                val quizState = quizStateManager.loadQuizState()
 
-                    if (quizState != null && !quizState.isCompleted) {
-                        // Show current quiz progress as primary metric
-                        val quizProgress = ((quizState.currentQuestionIndex.toFloat() / quizState.quizLength) * 100).toInt()
-                        "${mode.description} • Current quiz: $quizProgress% • Overall: ${(progress * 100).toInt()}%"
-                    } else {
-                        "${mode.description} • ${(progress * 100).toInt()}% complete"
-                    }
+                if (quizState != null && !quizState.isCompleted) {
+                    // Show current quiz progress as primary metric
+                    val quizProgress = ((quizState.currentQuestionIndex.toFloat() / quizState.quizLength) * 100).toInt()
+                    "${mode.description} • Current quiz: $quizProgress% • Overall: ${(progress * 100).toInt()}%"
                 } else {
                     "${mode.description} • ${(progress * 100).toInt()}% complete"
                 }
             } else {
-                mode.description
+                "${mode.description} • ${(progress * 100).toInt()}% complete"
             }
-
-            text = description
-            textSize = 14f
-            setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else Color.parseColor("#666666"))
-            setPadding(0, 4, 0, 0)
+        } else {
+            mode.description
         }
 
-        val arrowText = TextView(this).apply {
-            text = "→"
-            textSize = 20f
-            setTextColor(if (isDarkTheme) Color.parseColor("#888888") else Color.parseColor("#AAAAAA"))
+        val descText = TextView(this)
+        descText.text = description
+        descText.textSize = 14f
+        // Use secondary text color for description
+        descText.setTextColor(if (isDarkTheme) Color.parseColor("#CCCCCC") else Color.parseColor("#666666"))
+        descText.setPadding(0, 4, 0, 0)
+        // No need for text shadow as we're using standard background
+
+        val arrowText = TextView(this)
+        arrowText.text = "→"
+        arrowText.textSize = 20f
+        arrowText.setTextColor(if (isDarkTheme) Color.parseColor("#888888") else Color.parseColor("#AAAAAA"))
+
+        // Create progress bar container that goes at the bottom of the card
+        val progressBarContainer = LinearLayout(this)
+        progressBarContainer.orientation = LinearLayout.HORIZONTAL
+
+        // Create layout params with margins
+        val progressBarParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            6 // 6dp height for the progress bar
+        )
+        progressBarParams.topMargin = 12
+        progressBarParams.bottomMargin = 4
+
+        // Set the layout params
+        progressBarContainer.layoutParams = progressBarParams
+
+        // Only show progress bar if there's progress to show
+        if (progress > 0) {
+            // Create the progress indicator (filled part)
+            val progressBar = View(this)
+            val progressBarParams = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                progress
+            )
+            progressBar.layoutParams = progressBarParams
+            progressBar.setBackgroundColor(ContextCompat.getColor(this@MainActivityWithBottomNav,
+                if (isDarkTheme) R.color.md_theme_dark_primary else R.color.md_theme_light_primary))
+
+            // Create the unfilled part
+            val remainingBar = View(this)
+            val remainingBarParams = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                1 - progress
+            )
+            remainingBar.layoutParams = remainingBarParams
+            remainingBar.setBackgroundColor(Color.parseColor("#33000000")) // Semi-transparent black
+
+            // Add a 50% marker by creating a separate container
+            // We'll create a special container with 3 segments: 0-50%, marker line, 50-100%
+            val markerContainer = LinearLayout(this)
+            markerContainer.orientation = LinearLayout.HORIZONTAL
+            val markerContainerParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            markerContainer.layoutParams = markerContainerParams
+
+            // First half (0-50%)
+            val firstHalf = View(this)
+            val firstHalfParams = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                0.5f
+            )
+            firstHalf.layoutParams = firstHalfParams
+            // Make it transparent - this is just for positioning
+            firstHalf.setBackgroundColor(Color.TRANSPARENT)
+
+            // The marker line
+            val markerLine = View(this)
+            val markerLineParams = LinearLayout.LayoutParams(
+                2, // 2dp width for the marker line
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+            markerLine.layoutParams = markerLineParams
+            markerLine.setBackgroundColor(Color.WHITE)
+
+            // Second half (50-100%)
+            val secondHalf = View(this)
+            val secondHalfParams = LinearLayout.LayoutParams(
+                0,
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                0.5f
+            )
+            secondHalf.layoutParams = secondHalfParams
+            // Make it transparent - this is just for positioning
+            secondHalf.setBackgroundColor(Color.TRANSPARENT)
+
+            markerContainer.addView(firstHalf)
+            markerContainer.addView(markerLine)
+            markerContainer.addView(secondHalf)
+
+            // Add the regular progress views
+            progressBarContainer.addView(progressBar)
+            progressBarContainer.addView(remainingBar)
+
+            // Add the marker overlay on top
+            progressBarContainer.addView(markerContainer)
         }
+
+        // Create a root vertical container to hold both content and progress bar
+        val rootContainer = LinearLayout(this)
+        rootContainer.orientation = LinearLayout.VERTICAL
+        val rootContainerParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        rootContainer.layoutParams = rootContainerParams
+
+        // Add content row (horizontal with text container and arrow)
+        val contentRow = LinearLayout(this)
+        contentRow.orientation = LinearLayout.HORIZONTAL
+        val contentRowParams = LinearLayout.LayoutParams(
+            LinearLayout.LayoutParams.MATCH_PARENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        contentRow.layoutParams = contentRowParams
 
         textContainer.addView(titleText)
         textContainer.addView(descText)
-        cardLayout.addView(textContainer)
-        cardLayout.addView(arrowText)
+        contentRow.addView(textContainer)
+        contentRow.addView(arrowText)
+
+        // Add both content row and progress bar to root container
+        rootContainer.addView(contentRow)
+        rootContainer.addView(progressBarContainer)
+
+        // Add the root container to the card
+        cardLayout.addView(rootContainer)
 
         return cardLayout
     }
