@@ -98,5 +98,10 @@
             android:label="Vowel Hunt"
             android:parentActivityName=".MainActivityWithBottomNav" />
 
+        <!-- Fact or Fiction Activity -->
+        <activity android:name=".FactOrFictionActivity"
+            android:label="Fact or Fiction"
+            android:parentActivityName=".MainActivityWithBottomNav" />
+
     </application>
 </manifest>

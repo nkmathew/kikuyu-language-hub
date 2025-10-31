@@ -58,7 +58,8 @@ class FailureTracker(private val context: Context) {
         CLOZE_ERROR,             // Wrong cloze test answer
         CATEGORY_ERROR,          // Wrong category identification
         SENTENCE_STRUCTURE_ERROR, // Wrong word order in sentence unscramble
-        VOWEL_ERROR              // Specifically vowel-related errors
+        VOWEL_ERROR,             // Specifically vowel-related errors
+        TRUTH_EVALUATION_ERROR   // Wrong judgment of translation accuracy (Fact or Fiction)
     }
     
     enum class LearningMode {
@@ -72,7 +73,8 @@ class FailureTracker(private val context: Context) {
         BEAT_CLOCK,             // Beat the clock game
         STREAK_MASTER,          // Streak master game
         SENTENCE_UNSCRAMBLE,    // Sentence unscramble mode
-        VOWEL_HUNT              // Vowel Hunt mode
+        VOWEL_HUNT,             // Vowel Hunt mode
+        FACT_OR_FICTION         // Fact or Fiction game (truth evaluation)
     }
     
     data class DifficultyWord(

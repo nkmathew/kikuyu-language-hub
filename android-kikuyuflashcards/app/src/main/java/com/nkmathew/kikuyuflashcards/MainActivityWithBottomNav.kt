@@ -404,6 +404,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             LearningMode("📋 Study List", "Side-by-side learning mode", "study_list"),
             LearningMode("🚩 Flagged Translations", "Review flagged translations", "flagged_translations"),
             LearningMode("🧠 Quiz Mode", "Test your knowledge", "quiz"),
+            LearningMode("✓✗ Fact or Fiction", "Test your translation accuracy", "fact_fiction"),
             LearningMode("✏️ Fill Blanks", "Complete the sentences", "fill_blank"),
             LearningMode("🔀 Sentence Unscramble", "Drag words to correct order", "sentence_unscramble"),
             LearningMode("🔤 Vowel Hunt", "Find the correct vowels", "vowel_hunt")
@@ -746,6 +747,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
                     "study_list" -> startStudyList()
                     "flagged_translations" -> startFlaggedTranslations()
                     "quiz" -> startQuiz()
+                    "fact_fiction" -> startFactOrFiction()
                     "fill_blank" -> startFillBlank()
                     "sentence_unscramble" -> startSentenceUnscramble()
                     "vowel_hunt" -> startVowelHunt()
@@ -1329,6 +1331,11 @@ class MainActivityWithBottomNav : ComponentActivity() {
 
     private fun startVowelHunt() {
         val intent = Intent(this, VowelHuntActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startFactOrFiction() {
+        val intent = Intent(this, FactOrFictionActivity::class.java)
         startActivity(intent)
     }
 

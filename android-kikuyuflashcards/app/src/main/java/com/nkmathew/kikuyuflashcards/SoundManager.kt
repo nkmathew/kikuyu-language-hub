@@ -248,8 +248,13 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
         }
     }
 
-    private fun playWrongAnswerVibration() {
+    fun playWrongAnswerVibration() {
         try {
+            if (!vibrationEnabled) {
+                Log.d(TAG, "Vibration disabled - skipping haptic feedback")
+                return
+            }
+
             vibrator?.let { vib ->
                 if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
                     // Create a medium-loud vibration pattern for wrong answers
