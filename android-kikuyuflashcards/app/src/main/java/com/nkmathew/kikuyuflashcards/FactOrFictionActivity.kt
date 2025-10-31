@@ -115,14 +115,14 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "✓✗ Fact or Fiction"
             textSize = 28f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_light_primary))
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.primaryColor))
             gravity = Gravity.CENTER
         }
 
         val subtitleText = TextView(this).apply {
             text = "Test your translation accuracy | Difficulty: ${difficulty.uppercase()}"
             textSize = 14f
-            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.text_secondary))
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.textSecondaryColor))
             gravity = Gravity.CENTER
             setPadding(0, 8, 0, 24)
         }
@@ -133,7 +133,7 @@ class FactOrFictionActivity : AppCompatActivity() {
             gravity = Gravity.CENTER
             setPadding(16, 16, 16, 16)
             background = createRoundedBackground(
-                ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_light_surfaceVariant),
+                ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.surfaceVariantColor),
                 12f
             )
         }
@@ -142,7 +142,7 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "🏆 Score: 0"
             textSize = 16f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.success_green))
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.successColor))
             setPadding(16, 8, 16, 8)
         }
 
@@ -150,7 +150,7 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "🔥 Streak: 0"
             textSize = 16f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.streak_fire))
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.streak_fire)) // Using existing color as it's not in ThemeColors
             setPadding(16, 8, 16, 8)
         }
 
@@ -174,14 +174,14 @@ class FactOrFictionActivity : AppCompatActivity() {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
             setPadding(24, 24, 24, 24)
-            background = createRoundedBackground(Color.WHITE, 16f)
+            background = createRoundedBackground(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.cardBgColor), 16f)
         }
 
         questionText = TextView(this).apply {
             text = "Is this translation correct?"
             textSize = 18f
             setTypeface(null, android.graphics.Typeface.BOLD)
-            setTextColor(Color.BLACK)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.cardTextColor))
             gravity = Gravity.CENTER
             setPadding(0, 0, 0, 16)
         }
@@ -190,7 +190,7 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "Press START to begin"
             textSize = 20f
             setTypeface(null, android.graphics.Typeface.NORMAL)
-            setTextColor(Color.BLACK)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.cardTextColor))
             gravity = Gravity.CENTER
         }
 
@@ -198,7 +198,7 @@ class FactOrFictionActivity : AppCompatActivity() {
         feedbackText = TextView(this).apply {
             text = ""
             textSize = 16f
-            setTextColor(Color.BLACK)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.cardTextColor))
             gravity = Gravity.CENTER
             setPadding(0, 16, 0, 0)
             visibility = View.GONE
@@ -219,9 +219,9 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "✓ FACT"
             textSize = 18f
             setPadding(32, 16, 32, 16)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonPrimaryTextColor))
             background = createRoundedBackground(
-                ContextCompat.getColor(this@FactOrFictionActivity, R.color.success_green),
+                ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.successColor),
                 24f
             )
             setOnClickListener {
@@ -240,9 +240,9 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "✗ FICTION"
             textSize = 18f
             setPadding(32, 16, 32, 16)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonPrimaryTextColor))
             background = createRoundedBackground(
-                ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_light_error),
+                ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.errorColor),
                 24f
             )
             setOnClickListener {
@@ -267,9 +267,9 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "🎮 START GAME"
             textSize = 18f
             setPadding(32, 16, 32, 16)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonPrimaryTextColor))
             background = createRoundedBackground(
-                ContextCompat.getColor(this@FactOrFictionActivity, R.color.success_green),
+                ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.successColor),
                 24f
             )
             setOnClickListener {
@@ -282,9 +282,9 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "NEXT →"
             textSize = 16f
             setPadding(32, 16, 32, 16)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonSecondaryTextColor))
             background = createRoundedBackground(
-                ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_light_secondary),
+                ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.secondaryColor),
                 24f
             )
             setOnClickListener {
@@ -298,9 +298,9 @@ class FactOrFictionActivity : AppCompatActivity() {
             text = "🏠 BACK TO HOME"
             textSize = 14f
             setPadding(24, 12, 24, 12)
-            setTextColor(Color.WHITE)
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonTertiaryTextColor))
             background = createRoundedBackground(
-                ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_light_outline),
+                ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.outlineColor),
                 24f
             )
             setOnClickListener {
@@ -480,7 +480,7 @@ class FactOrFictionActivity : AppCompatActivity() {
         } else {
             "✓ Correct! The translation is inaccurate.\n\nCorrect translation: ${currentPhrase?.kikuyu}"
         }
-        feedbackText.setTextColor(ContextCompat.getColor(this, R.color.success_green))
+        feedbackText.setTextColor(ContextCompat.getColor(this, ThemeColors.successColor))
         feedbackText.visibility = View.VISIBLE
 
         // Play success sound and animation
@@ -504,7 +504,7 @@ class FactOrFictionActivity : AppCompatActivity() {
         } else {
             "✗ Incorrect. The translation IS accurate."
         }
-        feedbackText.setTextColor(ContextCompat.getColor(this, R.color.md_theme_light_error))
+        feedbackText.setTextColor(ContextCompat.getColor(this, ThemeColors.errorColor))
         feedbackText.visibility = View.VISIBLE
 
         // Play error sound and animation
@@ -553,8 +553,8 @@ class FactOrFictionActivity : AppCompatActivity() {
         feedbackText.visibility = View.GONE
 
         // Reset text color
-        questionText.setTextColor(Color.BLACK)
-        translationText.setTextColor(Color.BLACK)
+        questionText.setTextColor(ContextCompat.getColor(this, ThemeColors.cardTextColor))
+        translationText.setTextColor(ContextCompat.getColor(this, ThemeColors.cardTextColor))
 
         // Generate next question
         generateQuestion()
