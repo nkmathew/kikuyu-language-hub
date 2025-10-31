@@ -12,12 +12,14 @@ import android.os.Looper
 import android.util.Log
 import android.view.Gravity
 import android.view.View
+import android.view.ViewGroup
 import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.BounceInterpolator
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import com.nkmathew.kikuyuflashcards.models.FlashcardEntry
+import java.util.UUID
 import kotlin.random.Random
 
 /**
@@ -37,6 +39,8 @@ class FactOrFictionActivity : AppCompatActivity() {
     private lateinit var progressManager: ProgressManager
     private lateinit var failureTracker: FailureTracker
     private lateinit var gamePreferences: SharedPreferences
+    private lateinit var configManager: FactOrFictionConfigManager
+    private lateinit var stateManager: FactOrFictionStateManager
 
     // UI Components
     private lateinit var titleText: TextView
@@ -54,11 +58,12 @@ class FactOrFictionActivity : AppCompatActivity() {
     private lateinit var backButton: Button
 
     // Game state
+    private var gameId = UUID.randomUUID().toString()
     private var score = 0
     private var streak = 0
     private var bestStreak = 0
     private var currentQuestion = 0
-    private var totalQuestions = 10
+    private var totalQuestions = 10 // Will be updated from config dialog
     private var correctAnswers = 0
     private var gameActive = false
     private var difficulty = "medium" // easy, medium, hard
@@ -67,6 +72,11 @@ class FactOrFictionActivity : AppCompatActivity() {
     private var currentPhrase: FlashcardEntry? = null
     private var isCurrentTranslationCorrect = false
     private var currentQuestionStartTime = 0L
+
+    // Game state for restoration
+    private val questionIds = mutableListOf<String>()
+    private val questionCorrectness = mutableListOf<Boolean>()
+    private val answeredQuestions = mutableListOf<FactOrFictionAnsweredQuestion>()
 
     // Stats
     private var factCorrectCount = 0
@@ -82,6 +92,8 @@ class FactOrFictionActivity : AppCompatActivity() {
         private const val KEY_GAMES_PLAYED = "games_played"
     }
 
+    private lateinit var activityProgressTracker: ActivityProgressTracker
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -94,12 +106,22 @@ class FactOrFictionActivity : AppCompatActivity() {
         progressManager = ProgressManager(this)
         failureTracker = FailureTracker(this)
         gamePreferences = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
+        configManager = FactOrFictionConfigManager(this)
+        stateManager = FactOrFictionStateManager(this)
+        activityProgressTracker = ActivityProgressTracker(this)
 
         // Get difficulty from intent if provided
-        difficulty = intent.getStringExtra("difficulty") ?: "medium"
+        difficulty = intent.getStringExtra("difficulty") ?: configManager.getDifficultyFilter()
 
-        setContentView(createLayout())
-        setupGame()
+        // Session is automatically started when ProgressManager is initialized
+
+        // Check if there's a saved game to resume
+        if (stateManager.hasSavedGame()) {
+            showResumeGameDialog()
+        } else {
+            // Show configuration dialog before starting game
+            showGameConfigDialog()
+        }
     }
 
     private fun createLayout(): ScrollView {
@@ -390,8 +412,16 @@ class FactOrFictionActivity : AppCompatActivity() {
             return
         }
 
+        // Track the phrase ID for state persistence
+        currentPhrase?.let { phrase ->
+            questionIds.add(phrase.id)
+        }
+
         // Decide if this question will show a correct translation or an incorrect one
         isCurrentTranslationCorrect = Random.nextBoolean()
+
+        // Track whether this translation is correct (for state persistence)
+        questionCorrectness.add(isCurrentTranslationCorrect)
 
         if (isCurrentTranslationCorrect) {
             // Show correct translation
@@ -408,6 +438,9 @@ class FactOrFictionActivity : AppCompatActivity() {
         // Update progress
         currentQuestion++
         updateProgressBar()
+
+        // Save game state after generating a new question
+        saveGameState()
     }
 
     private fun generateIncorrectTranslation(phrase: FlashcardEntry): String {
@@ -445,6 +478,34 @@ class FactOrFictionActivity : AppCompatActivity() {
             handleCorrectAnswer(userSelectedFact)
         } else {
             handleIncorrectAnswer(userSelectedFact)
+        }
+
+        // Record state for answered question
+        currentPhrase?.let { phrase ->
+            val kikuyuText = if (isCurrentTranslationCorrect) {
+                phrase.kikuyu
+            } else {
+                // Get the incorrect translation that was displayed
+                val displayedTranslation = translationText.text.toString().split("\n=\n")[1]
+                displayedTranslation
+            }
+
+            // Add answered question to our tracking list
+            answeredQuestions.add(
+                FactOrFictionAnsweredQuestion(
+                    questionId = phrase.id,
+                    englishText = phrase.english,
+                    kikuyuText = kikuyuText,
+                    wasTranslationCorrect = isCurrentTranslationCorrect,
+                    userAnsweredFact = userSelectedFact,
+                    isCorrect = isCorrect,
+                    timestamp = System.currentTimeMillis(),
+                    responseTime = responseTime
+                )
+            )
+
+            // Save state after each answer
+            saveGameState()
         }
 
         // Record analytics
@@ -587,6 +648,525 @@ class FactOrFictionActivity : AppCompatActivity() {
         updateProgressBar()
     }
 
+    /**
+     * Shows a configuration dialog for game settings
+     */
+    private fun showGameConfigDialog() {
+        // Create dialog container with Material 3 styling
+        val dialogContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(32, 32, 32, 32)
+            background = GradientDrawable().apply {
+                cornerRadius = 28f
+                setColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_dark_surfaceContainer))
+            }
+            elevation = 16f
+        }
+
+        // Dialog title with icon
+        val titleContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            setPadding(0, 0, 0, 24)
+        }
+
+        val titleIcon = TextView(this).apply {
+            text = "⚙️"
+            textSize = 32f
+            setPadding(0, 0, 12, 0)
+        }
+
+        val titleText = TextView(this).apply {
+            text = "Game Configuration"
+            textSize = 24f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_dark_onSurface))
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+        }
+
+        titleContainer.addView(titleIcon)
+        titleContainer.addView(titleText)
+
+        // Game length section
+        val lengthSectionTitle = TextView(this).apply {
+            text = "Game Length"
+            textSize = 18f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_dark_primary))
+            setPadding(0, 0, 0, 16)
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+        }
+
+        // Length options container
+        val lengthOptionsContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(0, 0, 0, 24)
+        }
+
+        // Track selected length and difficulty
+        var selectedLength = configManager.getGameLength()
+        var selectedDifficulty = configManager.getDifficultyFilter()
+
+        // Create length option buttons
+        val lengthButtons = mutableListOf<Button>()
+        FactOrFictionConfigManager.PRESET_LENGTHS.forEach { length ->
+            val button = createOptionButton(
+                text = "$length Questions",
+                isSelected = length == selectedLength,
+                onClick = {
+                    selectedLength = length
+                    // Update button states
+                    lengthButtons.forEach { btn ->
+                        val btnLength = btn.tag as Int
+                        updateOptionButtonState(btn, btnLength == selectedLength)
+                    }
+                }
+            ).apply {
+                tag = length
+            }
+            lengthButtons.add(button)
+            lengthOptionsContainer.addView(button)
+        }
+
+        // Difficulty section
+        val difficultySectionTitle = TextView(this).apply {
+            text = "Difficulty Level"
+            textSize = 18f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_dark_primary))
+            setPadding(0, 24, 0, 16)
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+        }
+
+        // Difficulty options container
+        val difficultyOptionsContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(0, 0, 0, 24)
+        }
+
+        val difficultyOptions = listOf(
+            "easy" to "Easy",
+            "medium" to "Medium",
+            "hard" to "Hard"
+        )
+
+        // Create difficulty option buttons
+        val difficultyButtons = mutableListOf<Button>()
+        difficultyOptions.forEach { (value, label) ->
+            val button = createOptionButton(
+                text = label,
+                isSelected = value == selectedDifficulty,
+                onClick = {
+                    selectedDifficulty = value
+                    // Update button states
+                    difficultyButtons.forEach { btn ->
+                        val btnValue = btn.tag as String
+                        updateOptionButtonState(btn, btnValue == selectedDifficulty)
+                    }
+                }
+            ).apply {
+                tag = value
+            }
+            difficultyButtons.add(button)
+            difficultyOptionsContainer.addView(button)
+        }
+
+        // Action buttons container
+        val actionButtonsContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            setPadding(0, 24, 0, 0)
+        }
+
+        // Cancel button
+        val cancelButton = Button(this).apply {
+            text = "Cancel"
+            setOnClickListener {
+                soundManager.playButtonSound()
+                finish() // Return to previous screen
+            }
+            setPadding(32, 20, 32, 20)
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonSecondaryTextColor))
+            isAllCaps = false
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.NORMAL)
+            background = GradientDrawable().apply {
+                cornerRadius = 20f
+                setColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonSecondaryBgColor))
+            }
+            elevation = 4f
+            layoutParams = LinearLayout.LayoutParams(
+                0,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                1f
+            ).apply {
+                setMargins(0, 0, 12, 0)
+            }
+        }
+
+        // Start game button
+        val startButton = Button(this).apply {
+            text = "Start Game"
+            setOnClickListener {
+                soundManager.playButtonSound()
+
+                // Save configuration
+                configManager.setGameLength(selectedLength)
+                configManager.setDifficultyFilter(selectedDifficulty)
+
+                // Update game parameters
+                totalQuestions = selectedLength
+                difficulty = selectedDifficulty
+
+                Log.d(TAG, "Starting game with length: $totalQuestions, difficulty: $difficulty")
+
+                // Initialize UI and game
+                setContentView(createLayout())
+                setupGame()
+            }
+            setPadding(32, 20, 32, 20)
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonPrimaryTextColor))
+            isAllCaps = false
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+            background = GradientDrawable(
+                GradientDrawable.Orientation.LEFT_RIGHT,
+                intArrayOf(
+                    ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.primaryColor),
+                    ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.primaryContainerColor)
+                )
+            ).apply {
+                cornerRadius = 20f
+            }
+            elevation = 4f
+            layoutParams = LinearLayout.LayoutParams(
+                0,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                1f
+            ).apply {
+                setMargins(12, 0, 0, 0)
+            }
+        }
+
+        actionButtonsContainer.addView(cancelButton)
+        actionButtonsContainer.addView(startButton)
+
+        // Add all sections to dialog container
+        dialogContainer.addView(titleContainer)
+        dialogContainer.addView(lengthSectionTitle)
+        dialogContainer.addView(lengthOptionsContainer)
+        dialogContainer.addView(difficultySectionTitle)
+        dialogContainer.addView(difficultyOptionsContainer)
+        dialogContainer.addView(actionButtonsContainer)
+
+        // Create dialog overlay
+        val dialogOverlay = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            gravity = Gravity.CENTER
+            setPadding(48, 48, 48, 48)
+            setBackgroundColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.overlay_color))
+            layoutParams = ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT
+            )
+        }
+
+        dialogOverlay.addView(dialogContainer)
+
+        // Show dialog with animation
+        setContentView(dialogOverlay)
+
+        // Animate dialog entry
+        dialogContainer.alpha = 0f
+        dialogContainer.scaleX = 0.8f
+        dialogContainer.scaleY = 0.8f
+        dialogContainer.animate()
+            .alpha(1f)
+            .scaleX(1f)
+            .scaleY(1f)
+            .setDuration(300)
+            .setInterpolator(android.view.animation.OvershootInterpolator())
+            .start()
+    }
+
+    /**
+     * Creates an option button for config dialog
+     */
+    private fun createOptionButton(text: String, isSelected: Boolean, onClick: () -> Unit): Button {
+        val button = Button(this).apply {
+            this.text = text
+            setPadding(16, 12, 16, 12)
+            setOnClickListener {
+                onClick()
+                soundManager.playButtonSound()
+            }
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 8, 0, 8)
+            }
+            textSize = 16f
+        }
+
+        // Set initial state
+        updateOptionButtonState(button, isSelected)
+        return button
+    }
+
+    /**
+     * Updates the visual state of an option button
+     */
+    private fun updateOptionButtonState(button: Button, isSelected: Boolean) {
+        if (isSelected) {
+            // Selected state
+            button.setTextColor(ContextCompat.getColor(this, ThemeColors.buttonPrimaryTextColor))
+            button.background = GradientDrawable().apply {
+                cornerRadius = 16f
+                setColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.primaryColor))
+            }
+            button.typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+        } else {
+            // Unselected state
+            button.setTextColor(ContextCompat.getColor(this, ThemeColors.textPrimaryColor))
+            button.background = GradientDrawable().apply {
+                cornerRadius = 16f
+                setColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.surfaceVariantColor))
+                setStroke(2, ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.outlineColor))
+            }
+            button.typeface = android.graphics.Typeface.create("sans-serif", android.graphics.Typeface.NORMAL)
+        }
+    }
+
+    /**
+     * Shows a dialog allowing user to resume a previous game or start new
+     */
+    private fun showResumeGameDialog() {
+        val savedState = stateManager.loadGameState()
+        if (savedState == null) {
+            // No saved state found, show config dialog instead
+            showGameConfigDialog()
+            return
+        }
+
+        // Create dialog container with Material 3 styling
+        val dialogContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(32, 32, 32, 32)
+            background = GradientDrawable().apply {
+                cornerRadius = 28f
+                setColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_dark_surfaceContainer))
+            }
+            elevation = 16f
+        }
+
+        // Dialog title with icon
+        val titleContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            setPadding(0, 0, 0, 24)
+        }
+
+        val titleIcon = TextView(this).apply {
+            text = "⏸️"
+            textSize = 32f
+            setPadding(0, 0, 12, 0)
+        }
+
+        val titleText = TextView(this).apply {
+            text = "Resume Game?"
+            textSize = 24f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_dark_onSurface))
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+        }
+
+        titleContainer.addView(titleIcon)
+        titleContainer.addView(titleText)
+
+        // Info text about saved game
+        val infoText = TextView(this).apply {
+            val progress = "${savedState.currentQuestionIndex + 1} / ${savedState.gameLength}"
+            val scoreText = "${savedState.score} points"
+            text = "You have an unfinished game:\n\nProgress: $progress\nScore: $scoreText\n\nWould you like to continue where you left off?"
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.md_theme_dark_onSurfaceVariant))
+            setPadding(0, 0, 0, 32)
+            gravity = Gravity.CENTER
+            setLineSpacing(8f, 1.2f)
+        }
+
+        // Action buttons container
+        val actionButtonsContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = Gravity.CENTER
+            setPadding(0, 24, 0, 0)
+        }
+
+        // New Game button
+        val newGameButton = Button(this).apply {
+            text = "New Game"
+            setOnClickListener {
+                soundManager.playButtonSound()
+                // Clear saved state and show config dialog
+                stateManager.clearGameState()
+                showGameConfigDialog()
+            }
+            setPadding(32, 20, 32, 20)
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonSecondaryTextColor))
+            isAllCaps = false
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.NORMAL)
+            background = GradientDrawable().apply {
+                cornerRadius = 20f
+                setColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonSecondaryBgColor))
+            }
+            elevation = 4f
+            layoutParams = LinearLayout.LayoutParams(
+                0,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                1f
+            ).apply {
+                setMargins(0, 0, 12, 0)
+            }
+        }
+
+        // Resume button
+        val resumeButton = Button(this).apply {
+            text = "Resume Game"
+            setOnClickListener {
+                soundManager.playButtonSound()
+                // Restore state and continue game
+                restoreGameState(savedState)
+            }
+            setPadding(32, 20, 32, 20)
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.buttonPrimaryTextColor))
+            isAllCaps = false
+            typeface = android.graphics.Typeface.create("sans-serif-medium", android.graphics.Typeface.BOLD)
+            background = GradientDrawable(
+                GradientDrawable.Orientation.LEFT_RIGHT,
+                intArrayOf(
+                    ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.primaryColor),
+                    ContextCompat.getColor(this@FactOrFictionActivity, ThemeColors.primaryContainerColor)
+                )
+            ).apply {
+                cornerRadius = 20f
+            }
+            elevation = 4f
+            layoutParams = LinearLayout.LayoutParams(
+                0,
+                ViewGroup.LayoutParams.WRAP_CONTENT,
+                1f
+            ).apply {
+                setMargins(12, 0, 0, 0)
+            }
+        }
+
+        actionButtonsContainer.addView(newGameButton)
+        actionButtonsContainer.addView(resumeButton)
+
+        // Add all views to dialog container
+        dialogContainer.addView(titleContainer)
+        dialogContainer.addView(infoText)
+        dialogContainer.addView(actionButtonsContainer)
+
+        // Create dialog overlay
+        val dialogOverlay = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            gravity = Gravity.CENTER
+            setPadding(48, 48, 48, 48)
+            setBackgroundColor(ContextCompat.getColor(this@FactOrFictionActivity, R.color.overlay_color))
+            layoutParams = ViewGroup.LayoutParams(
+                ViewGroup.LayoutParams.MATCH_PARENT,
+                ViewGroup.LayoutParams.MATCH_PARENT
+            )
+        }
+
+        dialogOverlay.addView(dialogContainer)
+
+        // Show dialog with animation
+        setContentView(dialogOverlay)
+
+        // Animate dialog entry
+        dialogContainer.alpha = 0f
+        dialogContainer.scaleX = 0.8f
+        dialogContainer.scaleY = 0.8f
+        dialogContainer.animate()
+            .alpha(1f)
+            .scaleX(1f)
+            .scaleY(1f)
+            .setDuration(300)
+            .setInterpolator(android.view.animation.OvershootInterpolator())
+            .start()
+    }
+
+    /**
+     * Restores a saved game state
+     */
+    private fun restoreGameState(savedState: FactOrFictionState) {
+        // Restore game parameters
+        gameId = savedState.gameId
+        totalQuestions = savedState.gameLength
+        currentQuestion = savedState.currentQuestionIndex
+        score = savedState.score
+        streak = savedState.streak
+        correctAnswers = savedState.correctAnswers
+        difficulty = savedState.difficulty
+
+        // Restore question history
+        questionIds.clear()
+        questionIds.addAll(savedState.questionIds)
+
+        questionCorrectness.clear()
+        questionCorrectness.addAll(savedState.questionCorrectness)
+
+        answeredQuestions.clear()
+        answeredQuestions.addAll(savedState.answeredQuestions)
+
+        // Create UI and continue game
+        setContentView(createLayout())
+        setupGame()
+
+        // Set game as active and continue with next question
+        gameActive = true
+        startButton.visibility = View.GONE
+        factButton.visibility = View.VISIBLE
+        fictionButton.visibility = View.VISIBLE
+
+        // Update UI to reflect current state
+        updateUI()
+        updateProgressBar()
+
+        // Generate the next question
+        generateQuestion()
+    }
+
+    /**
+     * Saves the current game state for later resumption
+     */
+    private fun saveGameState() {
+        if (!gameActive || currentQuestion <= 0) return
+
+        val state = FactOrFictionState(
+            gameId = gameId,
+            gameLength = totalQuestions,
+            currentQuestionIndex = currentQuestion - 1, // Adjust because generateQuestion already incremented
+            score = score,
+            streak = streak,
+            correctAnswers = correctAnswers,
+            questionIds = questionIds.toList(),
+            questionCorrectness = questionCorrectness.toList(),
+            answeredQuestions = answeredQuestions.toList(),
+            timestamp = System.currentTimeMillis(),
+            isCompleted = currentQuestion >= totalQuestions,
+            difficulty = difficulty
+        )
+
+        stateManager.saveGameState(state)
+        Log.d(TAG, "Game state saved at question ${currentQuestion}/$totalQuestions")
+
+        // Update progress for quick actions
+        val progressPercentage = (currentQuestion.toFloat() / totalQuestions).coerceIn(0f, 1f)
+        activityProgressTracker.updateProgress("fact_fiction", progressPercentage)
+    }
+
     private fun endGame() {
         gameActive = false
 
@@ -596,6 +1176,25 @@ class FactOrFictionActivity : AppCompatActivity() {
             putInt(KEY_GAMES_PLAYED, gamePreferences.getInt(KEY_GAMES_PLAYED, 0) + 1)
             putInt(KEY_HIGH_SCORE, maxOf(gamePreferences.getInt(KEY_HIGH_SCORE, 0), score))
             apply()
+        }
+
+        // Mark game as completed and archive it
+        if (currentQuestion > 0) {
+            val state = FactOrFictionState(
+                gameId = gameId,
+                gameLength = totalQuestions,
+                currentQuestionIndex = currentQuestion - 1,
+                score = score,
+                streak = streak,
+                correctAnswers = correctAnswers,
+                questionIds = questionIds.toList(),
+                questionCorrectness = questionCorrectness.toList(),
+                answeredQuestions = answeredQuestions.toList(),
+                timestamp = System.currentTimeMillis(),
+                isCompleted = true,
+                difficulty = difficulty
+            )
+            stateManager.archiveCompletedGame(state)
         }
 
         // Calculate final stats
@@ -672,6 +1271,14 @@ class FactOrFictionActivity : AppCompatActivity() {
 
     override fun onDestroy() {
         super.onDestroy()
+
+        // Update the progress one last time to ensure it's saved
+        if (gameActive && currentQuestion > 0) {
+            val progressPercentage = (currentQuestion.toFloat() / totalQuestions).coerceIn(0f, 1f)
+            activityProgressTracker.updateProgress("fact_fiction", progressPercentage)
+        }
+
+        // End the session
         progressManager.endSession()
     }
 }

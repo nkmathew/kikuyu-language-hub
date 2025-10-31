@@ -21,6 +21,7 @@ class ActivityProgressTracker(private val context: Context) {
         private const val KEY_FILL_BLANK_PROGRESS = "fill_blank_progress"
         private const val KEY_SENTENCE_UNSCRAMBLE_PROGRESS = "sentence_unscramble_progress"
         private const val KEY_VOWEL_HUNT_PROGRESS = "vowel_hunt_progress"
+        private const val KEY_FACT_FICTION_PROGRESS = "fact_fiction_progress"
     }
 
     private val prefs: SharedPreferences = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
@@ -39,6 +40,7 @@ class ActivityProgressTracker(private val context: Context) {
             "fill_blank" -> getFillBlankProgress()
             "sentence_unscramble" -> getSentenceUnscrambleProgress()
             "vowel_hunt" -> getVowelHuntProgress()
+            "fact_fiction" -> getFactOrFictionProgress()
             else -> 0f
         }
     }
@@ -130,6 +132,31 @@ class ActivityProgressTracker(private val context: Context) {
     }
 
     /**
+     * Calculate Fact or Fiction progress
+     *
+     * This method prioritizes the most contextually relevant denominator:
+     * - For active games: Uses the current game's length (showing e.g. 5/10 = 50%)
+     * - Otherwise: Uses overall progress across all cards
+     */
+    private fun getFactOrFictionProgress(): Float {
+        // For active game, use game length as denominator
+        val stateManager = FactOrFictionStateManager(context)
+        val gameState = stateManager.loadGameState()
+
+        if (gameState != null && !gameState.isCompleted) {
+            // We have an active game, so show progress within that game
+            return (gameState.currentQuestionIndex.toFloat() / gameState.gameLength).coerceIn(0f, 1f)
+        }
+
+        // Otherwise use total cards viewed for overall progress
+        val totalCards = flashCardManager.getTotalEntries()
+        if (totalCards == 0) return 0f
+
+        return (prefs.getFloat(KEY_FACT_FICTION_PROGRESS, 0f) +
+                (progressManager.getTotalCardsViewed().toFloat() / totalCards)).coerceIn(0f, 1f) / 2f
+    }
+
+    /**
      * Update progress for a specific activity
      */
     fun updateProgress(activityId: String, progress: Float) {
@@ -140,6 +167,7 @@ class ActivityProgressTracker(private val context: Context) {
             "fill_blank" -> KEY_FILL_BLANK_PROGRESS
             "sentence_unscramble" -> KEY_SENTENCE_UNSCRAMBLE_PROGRESS
             "vowel_hunt" -> KEY_VOWEL_HUNT_PROGRESS
+            "fact_fiction" -> KEY_FACT_FICTION_PROGRESS
             else -> return
         }
 
@@ -167,6 +195,19 @@ class ActivityProgressTracker(private val context: Context) {
             "fill_blank" -> "Continue Fill-in-the-Blank"
             "sentence_unscramble" -> "Continue Sentence Unscramble"
             "vowel_hunt" -> "Continue Vowel Hunt"
+            "fact_fiction" -> {
+                // Check if there's an active game first
+                val stateManager = FactOrFictionStateManager(context)
+                val gameState = stateManager.loadGameState()
+
+                if (gameState != null && !gameState.isCompleted) {
+                    val progress = "${gameState.currentQuestionIndex + 1}/${gameState.gameLength}"
+                    val score = "${gameState.score} points"
+                    "Continue Fact or Fiction ($progress, $score)"
+                } else {
+                    "Start Fact or Fiction"
+                }
+            }
             else -> "Continue Learning"
         }
     }

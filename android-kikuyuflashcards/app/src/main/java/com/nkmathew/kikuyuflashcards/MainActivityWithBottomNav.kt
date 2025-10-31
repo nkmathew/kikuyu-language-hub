@@ -540,6 +540,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
             Triple("flashcard_style", "🎯 Flash Cards", "primary"),
             Triple("study_list", "📋 Study", "secondary"),
             Triple("quiz", "🧠 Quiz", "tertiary"),
+            Triple("fact_fiction", "✓✗ Fact Fiction", "secondary"),
             Triple("fill_blank", "✏️ Fill Blanks", "secondary"),
             Triple("sentence_unscramble", "🔀 Unscramble", "tertiary"),
             Triple("vowel_hunt", "🔤 Vowel Hunt", "secondary")
@@ -566,6 +567,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
                     "flashcard_style" -> startFlashCardStyle(false) // Don't show category selection
                     "study_list" -> startStudyList()
                     "quiz" -> startQuiz()
+                    "fact_fiction" -> startFactOrFiction()
                     "fill_blank" -> startFillBlank()
                     "sentence_unscramble" -> startSentenceUnscramble()
                     "vowel_hunt" -> startVowelHunt()
