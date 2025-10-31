@@ -983,11 +983,14 @@ class MainActivityWithBottomNav : ComponentActivity() {
         }
         
         // Audio Settings
-        val audioSection = createSettingsSection("🔊 Audio Settings", listOf(
+        val audioSettings = listOf(
+            "Sound Effects" to soundManager.isSoundEnabled(),
+            "Vibration on Wrong Answer" to soundManager.isVibrationEnabled(),
             "Show Pronunciation Button" to sharedPreferences.getBoolean("show_pronunciation_button", true),
             "Show Speak Both Button" to sharedPreferences.getBoolean("show_speak_both_button", true),
             "Auto-play Pronunciation" to sharedPreferences.getBoolean("auto_play_pronunciation", false)
-        ), sharedPreferences, isDarkTheme)
+        )
+        val audioSection = createAudioSettingsSection("🔊 Audio Settings", audioSettings, sharedPreferences, isDarkTheme)
         
         // App Settings
         val appSection = createSettingsSection("📱 App Settings", listOf(
@@ -1213,7 +1216,80 @@ class MainActivityWithBottomNav : ComponentActivity() {
             }
         }
     }
-    
+
+    private fun createAudioSettingsSection(title: String, settings: List<Pair<String, Boolean>>, sharedPreferences: android.content.SharedPreferences, isDarkTheme: Boolean): LinearLayout {
+        return LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            setPadding(20, 16, 20, 16)
+
+            val background = GradientDrawable().apply {
+                shape = GradientDrawable.RECTANGLE
+                cornerRadius = 16f
+                setColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_surfaceContainerHigh) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_surfaceContainerHigh))
+            }
+            setBackground(background)
+
+            val layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            layoutParams.setMargins(0, 0, 0, 16)
+            this.layoutParams = layoutParams
+
+            elevation = 4f
+
+            // Title
+            val titleView = TextView(this@MainActivityWithBottomNav).apply {
+                text = title
+                textSize = 18f
+                setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+                setPadding(0, 0, 0, 12)
+                setTypeface(null, android.graphics.Typeface.BOLD)
+            }
+            addView(titleView)
+
+            // Settings
+            settings.forEach { (label, isEnabled) ->
+                val itemLayout = LinearLayout(this@MainActivityWithBottomNav).apply {
+                    orientation = LinearLayout.HORIZONTAL
+                    setPadding(0, 8, 0, 8)
+                    gravity = Gravity.CENTER_VERTICAL
+                }
+
+                val labelView = TextView(this@MainActivityWithBottomNav).apply {
+                    text = label
+                    textSize = 16f
+                    setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_onSurface) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurface))
+                    this.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+                }
+
+                val switchView = Switch(this@MainActivityWithBottomNav).apply {
+                    isChecked = isEnabled
+                    setOnCheckedChangeListener { _, isChecked ->
+                        soundManager.playButtonSound()
+                        val editor = sharedPreferences.edit()
+                        when (label) {
+                            "Sound Effects" -> {
+                                soundManager.setSoundEnabled(isChecked)
+                            }
+                            "Vibration on Wrong Answer" -> {
+                                soundManager.setVibrationEnabled(isChecked)
+                            }
+                            "Show Pronunciation Button" -> editor.putBoolean("show_pronunciation_button", isChecked)
+                            "Show Speak Both Button" -> editor.putBoolean("show_speak_both_button", isChecked)
+                            "Auto-play Pronunciation" -> editor.putBoolean("auto_play_pronunciation", isChecked)
+                        }
+                        editor.apply()
+                    }
+                }
+
+                itemLayout.addView(labelView)
+                itemLayout.addView(switchView)
+                addView(itemLayout)
+            }
+        }
+    }
+
     private fun getStreakStatus(currentStreak: Int): String {
         return when {
             currentStreak >= 20 -> "Legend!"

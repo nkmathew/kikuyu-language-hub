@@ -4,6 +4,9 @@ import android.content.Context
 import android.media.AudioAttributes
 import android.media.SoundPool
 import android.os.Bundle
+import android.os.VibrationEffect
+import android.os.Vibrator
+import android.os.VibratorManager
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
 import android.util.Log
@@ -23,9 +26,14 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     
     private var soundPool: SoundPool? = null
     private var tts: TextToSpeech? = null
+    private var vibrator: Vibrator? = null
     private var isInitialized = false
     private var isTtsInitialized = false
     private var ttsLanguageSupported = false
+
+    // Settings for sound and vibration
+    private var soundEnabled = true
+    private var vibrationEnabled = true
     
     // Sound IDs
     private var swipeSoundId: Int = -1
@@ -43,7 +51,9 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     
     init {
         initializeSoundPool()
+        initializeVibrator()
         initializeTTS()
+        loadSettings()
     }
     
     private fun initializeSoundPool() {
@@ -91,6 +101,49 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
         }
     }
 
+    private fun initializeVibrator() {
+        try {
+            vibrator = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S) {
+                val vibratorManager = context.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
+                vibratorManager.defaultVibrator
+            } else {
+                @Suppress("DEPRECATION")
+                context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            }
+            Log.d(TAG, "Vibrator initialized successfully")
+        } catch (e: Exception) {
+            Log.e(TAG, "Error initializing vibrator", e)
+            vibrator = null
+        }
+    }
+
+    private fun loadSettings() {
+        try {
+            val prefs = context.getSharedPreferences("SoundSettings", Context.MODE_PRIVATE)
+            soundEnabled = prefs.getBoolean("sound_enabled", true)
+            vibrationEnabled = prefs.getBoolean("vibration_enabled", true)
+            Log.d(TAG, "Settings loaded - Sound: $soundEnabled, Vibration: $vibrationEnabled")
+        } catch (e: Exception) {
+            Log.e(TAG, "Error loading settings", e)
+            // Use default values
+            soundEnabled = true
+            vibrationEnabled = true
+        }
+    }
+
+    fun saveSettings() {
+        try {
+            val prefs = context.getSharedPreferences("SoundSettings", Context.MODE_PRIVATE)
+            prefs.edit()
+                .putBoolean("sound_enabled", soundEnabled)
+                .putBoolean("vibration_enabled", vibrationEnabled)
+                .apply()
+            Log.d(TAG, "Settings saved - Sound: $soundEnabled, Vibration: $vibrationEnabled")
+        } catch (e: Exception) {
+            Log.e(TAG, "Error saving settings", e)
+        }
+    }
+
     private fun loadSoundFromAssets(filePath: String): Int {
         return try {
             val assetManager = context.assets
@@ -110,32 +163,48 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     }
 
     fun playCorrectSound() {
-        if (isInitialized && correctSoundLoaded && correctSoundId != -1) {
-            try {
-                soundPool?.play(correctSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, 1.0f)
-                Log.d(TAG, "Played correct answer sound effect from assets")
-            } catch (e: Exception) {
-                Log.w(TAG, "Could not play correct sound effect from assets, falling back to system tones", e)
+        if (soundEnabled) {
+            if (isInitialized && correctSoundLoaded && correctSoundId != -1) {
+                try {
+                    soundPool?.play(correctSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, 1.0f)
+                    Log.d(TAG, "Played correct answer sound effect from assets")
+                } catch (e: Exception) {
+                    Log.w(TAG, "Could not play correct sound effect from assets, falling back to system tones", e)
+                    playSystemCorrectSound()
+                }
+            } else {
+                Log.w(TAG, "Correct sound not loaded, using system tones")
                 playSystemCorrectSound()
             }
         } else {
-            Log.w(TAG, "Correct sound not loaded, using system tones")
-            playSystemCorrectSound()
+            Log.d(TAG, "Sound disabled - skipping correct sound")
         }
     }
 
     fun playWrongSound() {
-        if (isInitialized && wrongSoundLoaded && wrongSoundId != -1) {
-            try {
-                soundPool?.play(wrongSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, 1.0f)
-                Log.d(TAG, "Played wrong answer sound effect from assets")
-            } catch (e: Exception) {
-                Log.w(TAG, "Could not play wrong sound effect from assets, falling back to system tones", e)
+        // Play sound if enabled
+        if (soundEnabled) {
+            if (isInitialized && wrongSoundLoaded && wrongSoundId != -1) {
+                try {
+                    soundPool?.play(wrongSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, 1.0f)
+                    Log.d(TAG, "Played wrong answer sound effect from assets")
+                } catch (e: Exception) {
+                    Log.w(TAG, "Could not play wrong sound effect from assets, falling back to system tones", e)
+                    playSystemWrongSound()
+                }
+            } else {
+                Log.w(TAG, "Wrong sound not loaded, using system tones")
                 playSystemWrongSound()
             }
         } else {
-            Log.w(TAG, "Wrong sound not loaded, using system tones")
-            playSystemWrongSound()
+            Log.d(TAG, "Sound disabled - skipping wrong sound")
+        }
+
+        // Play vibration if enabled
+        if (vibrationEnabled) {
+            playWrongAnswerVibration()
+        } else {
+            Log.d(TAG, "Vibration disabled - skipping haptic feedback")
         }
     }
 
@@ -179,15 +248,45 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
         }
     }
 
+    private fun playWrongAnswerVibration() {
+        try {
+            vibrator?.let { vib ->
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                    // Create a medium-loud vibration pattern for wrong answers
+                    // Pattern: vibrate 200ms, pause 50ms, vibrate 100ms - distinctive error pattern
+                    val vibrationPattern = longArrayOf(0, 200, 50, 100)
+                    val vibrationEffect = VibrationEffect.createWaveform(vibrationPattern, -1)
+                    vib.vibrate(vibrationEffect)
+                } else {
+                    @Suppress("DEPRECATION")
+                    vib.vibrate(200) // Fallback for older Android versions
+                }
+                Log.d(TAG, "Played wrong answer vibration")
+            } ?: Log.w(TAG, "Vibrator not available")
+        } catch (e: Exception) {
+            Log.w(TAG, "Could not play vibration", e)
+        }
+    }
+
+    // Settings management methods
+    fun isSoundEnabled(): Boolean = soundEnabled
+    fun isVibrationEnabled(): Boolean = vibrationEnabled
+
+    fun setSoundEnabled(enabled: Boolean) {
+        soundEnabled = enabled
+        saveSettings()
+        Log.d(TAG, "Sound enabled set to: $enabled")
+    }
+
+    fun setVibrationEnabled(enabled: Boolean) {
+        vibrationEnabled = enabled
+        saveSettings()
+        Log.d(TAG, "Vibration enabled set to: $enabled")
+    }
+
     fun playButtonSound() {
         // Sound effects disabled to avoid SoundPool errors
         Log.d(TAG, "Button sound skipped - sound effects disabled")
-    }
-    
-    fun setSoundEnabled(enabled: Boolean) {
-        // In a real implementation, you'd add a preference setting
-        // For now, we'll just log the setting
-        Log.d(TAG, "Sound enabled: $enabled")
     }
     
     private fun initializeTTS() {
