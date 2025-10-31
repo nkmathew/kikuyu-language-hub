@@ -451,6 +451,8 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             questionText.setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
 
             if (currentWordIndex < problemWords.size) {
+                // Refresh the problem words list to get updated data after correct answers
+                refreshProblemWordsList()
                 showNextQuestion()
             } else {
                 endPracticeSession()
@@ -459,6 +461,35 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
 
         // Auto-advance after 2.5 seconds (2500ms)
         autoAdvanceHandler?.postDelayed(autoAdvanceRunnable!!, 2500)
+    }
+
+    /**
+     * Refresh the problem words list to get updated data after correct answers
+     */
+    private fun refreshProblemWordsList() {
+        // Reload the problem words list using the same logic as initial load
+        var updatedProblemWords = failureTracker.getWordsNeedingAttention(15)
+
+        if (updatedProblemWords.isEmpty()) {
+            // Fallback to any problem words (same as initial load)
+            updatedProblemWords = failureTracker.getProblemWords(10)
+        }
+
+        if (updatedProblemWords.isEmpty()) {
+            // No more problem words, end the session
+            endPracticeSession()
+            return
+        }
+
+        // Simply replace the problem words list with the fresh list
+        problemWords = updatedProblemWords
+
+        // Reset to the next available word (simplified logic)
+        if (currentWordIndex >= problemWords.size) {
+            currentWordIndex = 0 // Start from beginning if we've reached the end
+        }
+
+        Log.d("ProblemWordsPractice", "Refreshed problem words list: ${problemWords.size} words, current index: $currentWordIndex")
     }
 
     /**

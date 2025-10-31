@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
+import android.util.Log
 import android.util.TypedValue
 import android.view.Gravity
 import android.view.View
@@ -497,9 +498,14 @@ class MainActivityWithBottomNav : ComponentActivity() {
             )
         }
 
-        // Get problem words count for the button
+        // Get problem words count for the button (same logic as ProblemWordsPracticeActivity)
         val failureTracker = FailureTracker(this)
-        val problemWordsCount = failureTracker.getWordsNeedingAttention(50).size
+        var problemWordsCount = failureTracker.getWordsNeedingAttention(50).size
+
+        // If no words needing attention, fallback to any problem words (same as ProblemWordsPracticeActivity)
+        if (problemWordsCount == 0) {
+            problemWordsCount = failureTracker.getProblemWords(10).size
+        }
 
         // Add Practice Problem Words button at the top (special accent button)
         val practiceProblemWordsButton = ButtonStyleHelper.createAccentButton(
@@ -1385,6 +1391,19 @@ class MainActivityWithBottomNav : ComponentActivity() {
             addView(textContainer)
             progressIndicator?.let { addView(it) }
             addView(arrowIcon)
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+
+        // Refresh home content when returning to main activity
+        if (currentActiveTab == "home") {
+            // Clear and recreate home content to update problem words count
+            contentContainer.removeAllViews()
+            showHomeContent()
+
+            Log.d("MainActivityWithBottomNav", "Refreshed home content - updated problem words count")
         }
     }
 
