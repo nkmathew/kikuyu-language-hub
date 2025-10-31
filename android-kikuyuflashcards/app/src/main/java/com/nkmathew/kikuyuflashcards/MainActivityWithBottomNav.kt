@@ -1,11 +1,13 @@
 package com.nkmathew.kikuyuflashcards
 
 import android.content.Intent
+import android.content.res.ColorStateList
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.os.Bundle
 import android.util.Log
 import android.util.TypedValue
+import android.widget.CheckBox
 import android.view.Gravity
 import android.view.View
 import android.view.ViewGroup
@@ -969,37 +971,159 @@ class MainActivityWithBottomNav : ComponentActivity() {
     
     private fun showSettingsContent() {
         contentContainer.removeAllViews()
-        
+
         val isDarkTheme = ThemeManager.isDarkTheme(this)
         val sharedPreferences = getSharedPreferences("KikuyuFlashCardsSettings", MODE_PRIVATE)
-        
+
+        // Create a scrollable container for all settings
+        val scrollView = ScrollView(this).apply {
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.MATCH_PARENT
+            )
+        }
+
+        // Main vertical container
+        val mainContainer = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            setPadding(16, 16, 16, 16)
+        }
+
+        // Title
         val titleText = TextView(this).apply {
             text = "⚙️ Settings"
             textSize = 28f
-            setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
+            setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
             setPadding(0, 0, 0, 24)
             gravity = Gravity.CENTER
             setTypeface(null, android.graphics.Typeface.BOLD)
         }
-        
-        // Audio Settings
-        val audioSettings = listOf(
-            "Sound Effects" to soundManager.isSoundEnabled(),
-            "Vibration on Wrong Answer" to soundManager.isVibrationEnabled(),
-            "Show Pronunciation Button" to sharedPreferences.getBoolean("show_pronunciation_button", true),
-            "Show Speak Both Button" to sharedPreferences.getBoolean("show_speak_both_button", true),
-            "Auto-play Pronunciation" to sharedPreferences.getBoolean("auto_play_pronunciation", false)
-        )
-        val audioSection = createAudioSettingsSection("🔊 Audio Settings", audioSettings, sharedPreferences, isDarkTheme)
-        
-        // App Settings
-        val appSection = createSettingsSection("📱 App Settings", listOf(
-            "Dark Theme" to ThemeManager.isDarkTheme(this)
-        ), sharedPreferences, isDarkTheme)
-        
-        contentContainer.addView(titleText)
-        contentContainer.addView(audioSection)
-        contentContainer.addView(appSection)
+        mainContainer.addView(titleText)
+
+        // Simple section divider
+        fun createDivider(): View {
+            return View(this).apply {
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    1
+                )
+                setBackgroundColor(if (isDarkTheme) Color.parseColor("#444444") else Color.parseColor("#DDDDDD"))
+                val params = layoutParams as LinearLayout.LayoutParams
+                params.setMargins(0, 16, 0, 16)
+                layoutParams = params
+            }
+        }
+
+        // Section title
+        fun createSectionTitle(title: String): TextView {
+            return TextView(this).apply {
+                text = title
+                textSize = 18f
+                setTextColor(if (isDarkTheme) Color.parseColor("#BBBBBB") else Color.parseColor("#555555"))
+                setPadding(0, 8, 0, 16)
+                setTypeface(null, android.graphics.Typeface.BOLD)
+            }
+        }
+
+        // Audio settings section
+        mainContainer.addView(createSectionTitle("🔊 Audio Settings"))
+
+        // Create setting rows
+        val createSettingRow = { label: String, isEnabled: Boolean, onToggle: (Boolean) -> Unit ->
+            val row = LinearLayout(this).apply {
+                orientation = LinearLayout.HORIZONTAL
+                layoutParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.MATCH_PARENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
+                gravity = Gravity.CENTER_VERTICAL
+                setPadding(8, 12, 8, 12)
+            }
+
+            val labelText = TextView(this).apply {
+                text = label
+                textSize = 16f
+                setTextColor(if (isDarkTheme) Color.WHITE else Color.BLACK)
+                layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+            }
+
+            // Simple toggle button (no material components)
+            val toggleButton = Button(this).apply {
+                text = if (isEnabled) "ON" else "OFF"
+                setBackgroundColor(if (isEnabled)
+                    Color.parseColor("#4CAF50") // Green for ON
+                    else Color.parseColor("#9E9E9E")) // Grey for OFF
+
+                val buttonParams = LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,
+                    LinearLayout.LayoutParams.WRAP_CONTENT
+                )
+                buttonParams.width = TypedValue.applyDimension(
+                    TypedValue.COMPLEX_UNIT_DIP, 80f, resources.displayMetrics
+                ).toInt()
+                layoutParams = buttonParams
+
+                // Set text color to white for better contrast
+                setTextColor(Color.WHITE)
+
+                setOnClickListener {
+                    soundManager.playButtonSound()
+                    val newState = text != "ON"
+                    text = if (newState) "ON" else "OFF"
+                    setBackgroundColor(if (newState)
+                        Color.parseColor("#4CAF50") // Green
+                        else Color.parseColor("#9E9E9E")) // Grey
+                    onToggle(newState)
+                }
+            }
+
+            row.addView(labelText)
+            row.addView(toggleButton)
+            row
+        }
+
+        // Add audio settings
+        mainContainer.addView(createSettingRow("Sound Effects", soundManager.isSoundEnabled()) { enabled ->
+            soundManager.setSoundEnabled(enabled)
+        })
+
+        mainContainer.addView(createSettingRow("Vibration on Wrong Answer", soundManager.isVibrationEnabled()) { enabled ->
+            soundManager.setVibrationEnabled(enabled)
+        })
+
+        mainContainer.addView(createSettingRow("Show Pronunciation Button",
+            sharedPreferences.getBoolean("show_pronunciation_button", true)) { enabled ->
+            sharedPreferences.edit().putBoolean("show_pronunciation_button", enabled).apply()
+        })
+
+        mainContainer.addView(createSettingRow("Show Speak Both Button",
+            sharedPreferences.getBoolean("show_speak_both_button", true)) { enabled ->
+            sharedPreferences.edit().putBoolean("show_speak_both_button", enabled).apply()
+        })
+
+        mainContainer.addView(createSettingRow("Auto-play Pronunciation",
+            sharedPreferences.getBoolean("auto_play_pronunciation", false)) { enabled ->
+            sharedPreferences.edit().putBoolean("auto_play_pronunciation", enabled).apply()
+        })
+
+        // App settings section
+        mainContainer.addView(createDivider())
+        mainContainer.addView(createSectionTitle("📱 App Settings"))
+
+        mainContainer.addView(createSettingRow("Dark Theme", ThemeManager.isDarkTheme(this)) { enabled ->
+            sharedPreferences.edit().putBoolean("dark_theme", enabled).apply()
+            // Note: Theme change would require activity restart to take effect
+        })
+
+        // Add the container to the scroll view
+        scrollView.addView(mainContainer)
+
+        // Add scroll view to the main content container
+        contentContainer.addView(scrollView)
     }
     
     // Navigation methods (these launch full activities for learning modes)
@@ -1146,149 +1270,7 @@ class MainActivityWithBottomNav : ComponentActivity() {
         }
     }
     
-    private fun createSettingsSection(title: String, settings: List<Pair<String, Boolean>>, sharedPreferences: android.content.SharedPreferences, isDarkTheme: Boolean): LinearLayout {
-        return LinearLayout(this).apply {
-            orientation = LinearLayout.VERTICAL
-            setPadding(20, 16, 20, 16)
-            
-            val background = GradientDrawable().apply {
-                shape = GradientDrawable.RECTANGLE
-                cornerRadius = 16f
-                setColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_surfaceContainerHigh) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_surfaceContainerHigh))
-            }
-            setBackground(background)
-            
-            val layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            )
-            layoutParams.setMargins(0, 0, 0, 16)
-            this.layoutParams = layoutParams
-            
-            elevation = 4f
-            
-            // Title
-            val titleView = TextView(this@MainActivityWithBottomNav).apply {
-                text = title
-                textSize = 18f
-                setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
-                setPadding(0, 0, 0, 12)
-                setTypeface(null, android.graphics.Typeface.BOLD)
-            }
-            addView(titleView)
-            
-            // Settings
-            settings.forEach { (label, isEnabled) ->
-                val itemLayout = LinearLayout(this@MainActivityWithBottomNav).apply {
-                    orientation = LinearLayout.HORIZONTAL
-                    setPadding(0, 8, 0, 8)
-                    gravity = Gravity.CENTER_VERTICAL
-                }
-                
-                val labelView = TextView(this@MainActivityWithBottomNav).apply {
-                    text = label
-                    textSize = 16f
-                    setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_onSurface) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurface))
-                    this.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
-                }
-                
-                val switchView = Switch(this@MainActivityWithBottomNav).apply {
-                    isChecked = isEnabled
-                    setOnCheckedChangeListener { _, isChecked ->
-                        soundManager.playButtonSound()
-                        val editor = sharedPreferences.edit()
-                        when (label) {
-                            "Show Pronunciation Button" -> editor.putBoolean("show_pronunciation_button", isChecked)
-                            "Show Speak Both Button" -> editor.putBoolean("show_speak_both_button", isChecked)
-                            "Auto-play Pronunciation" -> editor.putBoolean("auto_play_pronunciation", isChecked)
-                            "Dark Theme" -> {
-                                editor.putBoolean("dark_theme", isChecked)
-                                // Note: Theme change would require activity restart to take effect
-                            }
-                        }
-                        editor.apply()
-                    }
-                }
-                
-                itemLayout.addView(labelView)
-                itemLayout.addView(switchView)
-                addView(itemLayout)
-            }
-        }
-    }
-
-    private fun createAudioSettingsSection(title: String, settings: List<Pair<String, Boolean>>, sharedPreferences: android.content.SharedPreferences, isDarkTheme: Boolean): LinearLayout {
-        return LinearLayout(this).apply {
-            orientation = LinearLayout.VERTICAL
-            setPadding(20, 16, 20, 16)
-
-            val background = GradientDrawable().apply {
-                shape = GradientDrawable.RECTANGLE
-                cornerRadius = 16f
-                setColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_surfaceContainerHigh) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_surfaceContainerHigh))
-            }
-            setBackground(background)
-
-            val layoutParams = LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.MATCH_PARENT,
-                LinearLayout.LayoutParams.WRAP_CONTENT
-            )
-            layoutParams.setMargins(0, 0, 0, 16)
-            this.layoutParams = layoutParams
-
-            elevation = 4f
-
-            // Title
-            val titleView = TextView(this@MainActivityWithBottomNav).apply {
-                text = title
-                textSize = 18f
-                setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_primary) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_primary))
-                setPadding(0, 0, 0, 12)
-                setTypeface(null, android.graphics.Typeface.BOLD)
-            }
-            addView(titleView)
-
-            // Settings
-            settings.forEach { (label, isEnabled) ->
-                val itemLayout = LinearLayout(this@MainActivityWithBottomNav).apply {
-                    orientation = LinearLayout.HORIZONTAL
-                    setPadding(0, 8, 0, 8)
-                    gravity = Gravity.CENTER_VERTICAL
-                }
-
-                val labelView = TextView(this@MainActivityWithBottomNav).apply {
-                    text = label
-                    textSize = 16f
-                    setTextColor(if (isDarkTheme) ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_dark_onSurface) else ContextCompat.getColor(this@MainActivityWithBottomNav, R.color.md_theme_light_onSurface))
-                    this.layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
-                }
-
-                val switchView = Switch(this@MainActivityWithBottomNav).apply {
-                    isChecked = isEnabled
-                    setOnCheckedChangeListener { _, isChecked ->
-                        soundManager.playButtonSound()
-                        val editor = sharedPreferences.edit()
-                        when (label) {
-                            "Sound Effects" -> {
-                                soundManager.setSoundEnabled(isChecked)
-                            }
-                            "Vibration on Wrong Answer" -> {
-                                soundManager.setVibrationEnabled(isChecked)
-                            }
-                            "Show Pronunciation Button" -> editor.putBoolean("show_pronunciation_button", isChecked)
-                            "Show Speak Both Button" -> editor.putBoolean("show_speak_both_button", isChecked)
-                            "Auto-play Pronunciation" -> editor.putBoolean("auto_play_pronunciation", isChecked)
-                        }
-                        editor.apply()
-                    }
-                }
-
-                itemLayout.addView(labelView)
-                itemLayout.addView(switchView)
-                addView(itemLayout)
-            }
-        }
-    }
+    // Methods removed - replaced with inline implementation in showSettingsContent()
 
     private fun getStreakStatus(currentStreak: Int): String {
         return when {
