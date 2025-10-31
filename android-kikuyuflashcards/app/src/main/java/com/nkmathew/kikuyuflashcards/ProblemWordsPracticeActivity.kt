@@ -555,6 +555,8 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             }
 
             if (clearedCount > 0) {
+                // Play achievement sound for mastering problem words
+                soundManager.playAchievementSound()
                 Toast.makeText(this, "🎉 Mastery achieved! $clearedCount words cleared from problem list.", Toast.LENGTH_LONG).show()
                 Log.d("ProblemWordsPractice", "Cleared $clearedCount mastered words from problem list (accuracy: $accuracy%)")
             } else {

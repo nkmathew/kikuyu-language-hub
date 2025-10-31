@@ -70,18 +70,37 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     private fun loadSounds() {
         soundPool?.let { pool ->
             try {
-                // Disable sound loading for now to avoid SoundPool errors
-                // The app will work fine without sound effects
-                // TODO: Add proper sound files to assets/res/raw and load them here
-                Log.d(TAG, "Sound effects disabled to avoid SoundPool errors")
-                swipeSoundLoaded = false
-                correctSoundLoaded = false
-                wrongSoundLoaded = false
-                buttonSoundLoaded = false
-                achievementSoundLoaded = false
+                // Load Duolingo-style sound effects from assets
+                correctSoundId = loadSoundFromAssets("sounds/duolingo-correct.mp3")
+                wrongSoundId = loadSoundFromAssets("sounds/duolingo-incorrect.mp3")
+                achievementSoundId = loadSoundFromAssets("sounds/duolingo-level-complete.mp3")
+
+                // Set loaded flags
+                correctSoundLoaded = correctSoundId != -1
+                wrongSoundLoaded = wrongSoundId != -1
+                achievementSoundLoaded = achievementSoundId != -1
+
+                Log.d(TAG, "Sound effects loaded - Correct: $correctSoundLoaded, Wrong: $wrongSoundLoaded, Achievement: $achievementSoundLoaded")
             } catch (e: Exception) {
                 Log.e(TAG, "Error loading sounds", e)
+                // Set flags to false on error
+                correctSoundLoaded = false
+                wrongSoundLoaded = false
+                achievementSoundLoaded = false
             }
+        }
+    }
+
+    private fun loadSoundFromAssets(filePath: String): Int {
+        return try {
+            val assetManager = context.assets
+            val afd = assetManager.openFd(filePath)
+            val soundId = soundPool?.load(afd, 1) ?: -1
+            afd.close()
+            soundId
+        } catch (e: Exception) {
+            Log.w(TAG, "Could not load sound from assets: $filePath", e)
+            -1
         }
     }
     
@@ -91,59 +110,78 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     }
 
     fun playCorrectSound() {
-        try {
-            // Play a positive system sound effect for correct answers (like Duolingo)
-            val soundId = when {
-                android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N -> {
-                    android.media.ToneGenerator(android.media.AudioManager.STREAM_MUSIC, 100)
-                        .let { it.startTone(android.media.ToneGenerator.TONE_PROP_ACK, 200) }
-                    android.media.ToneGenerator.TONE_PROP_ACK
-                }
-                else -> android.media.ToneGenerator.TONE_PROP_BEEP
+        if (isInitialized && correctSoundLoaded && correctSoundId != -1) {
+            try {
+                soundPool?.play(correctSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, 1.0f)
+                Log.d(TAG, "Played correct answer sound effect from assets")
+            } catch (e: Exception) {
+                Log.w(TAG, "Could not play correct sound effect from assets, falling back to system tones", e)
+                playSystemCorrectSound()
             }
-
-            val toneGenerator = android.media.ToneGenerator(
-                android.media.AudioManager.STREAM_MUSIC,
-                100 // Volume
-            )
-
-            // Play a cheerful ascending tone sequence for correct answers
-            toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_ACK, 150)
-            android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
-                toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_BEEP2, 150)
-            }, 200)
-
-            Log.d(TAG, "Played correct answer sound effect")
-        } catch (e: Exception) {
-            Log.w(TAG, "Could not play correct sound effect", e)
+        } else {
+            Log.w(TAG, "Correct sound not loaded, using system tones")
+            playSystemCorrectSound()
         }
     }
 
     fun playWrongSound() {
+        if (isInitialized && wrongSoundLoaded && wrongSoundId != -1) {
+            try {
+                soundPool?.play(wrongSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, 1.0f)
+                Log.d(TAG, "Played wrong answer sound effect from assets")
+            } catch (e: Exception) {
+                Log.w(TAG, "Could not play wrong sound effect from assets, falling back to system tones", e)
+                playSystemWrongSound()
+            }
+        } else {
+            Log.w(TAG, "Wrong sound not loaded, using system tones")
+            playSystemWrongSound()
+        }
+    }
+
+    fun playAchievementSound() {
+        if (isInitialized && achievementSoundLoaded && achievementSoundId != -1) {
+            try {
+                soundPool?.play(achievementSoundId, 1.0f, 1.0f, DEFAULT_PRIORITY, 0, 1.0f)
+                Log.d(TAG, "Played achievement sound effect from assets")
+            } catch (e: Exception) {
+                Log.w(TAG, "Could not play achievement sound effect from assets", e)
+            }
+        } else {
+            Log.w(TAG, "Achievement sound not loaded")
+        }
+    }
+
+    private fun playSystemCorrectSound() {
         try {
-            // Play a negative system sound effect for wrong answers (like Duolingo)
             val toneGenerator = android.media.ToneGenerator(
                 android.media.AudioManager.STREAM_MUSIC,
-                80 // Slightly lower volume for wrong answers
+                100
             )
-
-            // Play a descending buzz for wrong answers
-            toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_NACK, 300)
-
-            Log.d(TAG, "Played wrong answer sound effect")
+            toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_ACK, 150)
+            android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
+                toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_BEEP2, 150)
+            }, 200)
         } catch (e: Exception) {
-            Log.w(TAG, "Could not play wrong sound effect", e)
+            Log.w(TAG, "Could not play system correct sound", e)
+        }
+    }
+
+    private fun playSystemWrongSound() {
+        try {
+            val toneGenerator = android.media.ToneGenerator(
+                android.media.AudioManager.STREAM_MUSIC,
+                80
+            )
+            toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_NACK, 300)
+        } catch (e: Exception) {
+            Log.w(TAG, "Could not play system wrong sound", e)
         }
     }
 
     fun playButtonSound() {
         // Sound effects disabled to avoid SoundPool errors
         Log.d(TAG, "Button sound skipped - sound effects disabled")
-    }
-
-    fun playAchievementSound() {
-        // Sound effects disabled to avoid SoundPool errors
-        Log.d(TAG, "Achievement sound skipped - sound effects disabled")
     }
     
     fun setSoundEnabled(enabled: Boolean) {
