@@ -426,7 +426,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         questionText.setTextColor(if (isDarkTheme) Color.parseColor("#4CAF50") else ContextCompat.getColor(this, R.color.success_green))
 
         animateSuccess()
-        soundManager.playButtonSound()
+        soundManager.playCorrectSound() // Play Duolingo-style success sound
     }
 
     private fun showIncorrectFeedback(userAnswer: String, correctAnswer: String) {
@@ -435,6 +435,7 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         questionText.setTextColor(if (isDarkTheme) Color.parseColor("#CF6679") else ContextCompat.getColor(this, R.color.md_theme_light_error))
 
         animateError()
+        soundManager.playWrongSound() // Play Duolingo-style error sound
     }
     
     /**
@@ -526,7 +527,10 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
             appendLine()
 
             when {
-                accuracy >= 80 -> appendLine("🌟 Excellent work! You're mastering these words!")
+                accuracy >= 80 -> {
+                    appendLine("🌟 Excellent work! You're mastering these words!")
+                    appendLine("✨ Problem words cleared from your list!")
+                }
                 accuracy >= 60 -> appendLine("👍 Good job! Keep practicing to improve further.")
                 accuracy >= 40 -> appendLine("💪 Nice effort! Focus on the challenging words.")
                 else -> appendLine("📚 Keep practicing! Every attempt helps you learn.")
@@ -539,7 +543,26 @@ class ProblemWordsPracticeActivity : AppCompatActivity() {
         // Hide practice UI elements
         optionsContainer.visibility = View.GONE
 
-        Toast.makeText(this, "Practice Complete! Score: $score", Toast.LENGTH_LONG).show()
+        // Clear successfully learned words from problem list if accuracy is 80% or higher
+        if (accuracy >= 80 && problemWords.isNotEmpty()) {
+            var clearedCount = 0
+            problemWords.forEach { word ->
+                // Clear words that were answered correctly multiple times during this session
+                if (word.failureCount <= 3 || word.improvementStreak >= 2) {
+                    failureTracker.clearFailuresForWord(word.phraseId)
+                    clearedCount++
+                }
+            }
+
+            if (clearedCount > 0) {
+                Toast.makeText(this, "🎉 Mastery achieved! $clearedCount words cleared from problem list.", Toast.LENGTH_LONG).show()
+                Log.d("ProblemWordsPractice", "Cleared $clearedCount mastered words from problem list (accuracy: $accuracy%)")
+            } else {
+                Toast.makeText(this, "Practice Complete! Score: $score", Toast.LENGTH_LONG).show()
+            }
+        } else {
+            Toast.makeText(this, "Practice Complete! Score: $score", Toast.LENGTH_LONG).show()
+        }
     }
 
     override fun onDestroy() {

@@ -91,13 +91,49 @@ class SoundManager(private val context: Context) : TextToSpeech.OnInitListener {
     }
 
     fun playCorrectSound() {
-        // Sound effects disabled to avoid SoundPool errors
-        Log.d(TAG, "Correct sound skipped - sound effects disabled")
+        try {
+            // Play a positive system sound effect for correct answers (like Duolingo)
+            val soundId = when {
+                android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.N -> {
+                    android.media.ToneGenerator(android.media.AudioManager.STREAM_MUSIC, 100)
+                        .let { it.startTone(android.media.ToneGenerator.TONE_PROP_ACK, 200) }
+                    android.media.ToneGenerator.TONE_PROP_ACK
+                }
+                else -> android.media.ToneGenerator.TONE_PROP_BEEP
+            }
+
+            val toneGenerator = android.media.ToneGenerator(
+                android.media.AudioManager.STREAM_MUSIC,
+                100 // Volume
+            )
+
+            // Play a cheerful ascending tone sequence for correct answers
+            toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_ACK, 150)
+            android.os.Handler(android.os.Looper.getMainLooper()).postDelayed({
+                toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_BEEP2, 150)
+            }, 200)
+
+            Log.d(TAG, "Played correct answer sound effect")
+        } catch (e: Exception) {
+            Log.w(TAG, "Could not play correct sound effect", e)
+        }
     }
 
     fun playWrongSound() {
-        // Sound effects disabled to avoid SoundPool errors
-        Log.d(TAG, "Wrong sound skipped - sound effects disabled")
+        try {
+            // Play a negative system sound effect for wrong answers (like Duolingo)
+            val toneGenerator = android.media.ToneGenerator(
+                android.media.AudioManager.STREAM_MUSIC,
+                80 // Slightly lower volume for wrong answers
+            )
+
+            // Play a descending buzz for wrong answers
+            toneGenerator.startTone(android.media.ToneGenerator.TONE_PROP_NACK, 300)
+
+            Log.d(TAG, "Played wrong answer sound effect")
+        } catch (e: Exception) {
+            Log.w(TAG, "Could not play wrong sound effect", e)
+        }
     }
 
     fun playButtonSound() {
